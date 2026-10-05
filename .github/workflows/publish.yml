@@ -1,0 +1,112 @@
+name: Publish
+
+# 사이트 파일(site.zip)이 들어오는 두 길:
+#   1) 저장소에 _upload/site.zip 을 올린다(Add file → Upload files).
+#   2) 저장소 변수 SITE_ZIP_URL(Dropbox의 site.zip 공유 링크)을 매시간 확인해서 바뀌었으면 받아 온다.
+# 새 zip이 오면 풀어서 content/ 를 통째로 갈아끼우고 커밋한 뒤 빌드·배포한다. 그냥 푸시해도 빌드·배포한다.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    outputs:
+      build: ${{ steps.u.outputs.build }}
+    steps:
+      - uses: actions/checkout@v6
+      - id: u
+        name: Fetch and unpack site.zip
+        env:
+          SITE_ZIP_URL: ${{ vars.SITE_ZIP_URL }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          set -e
+          ZIP=""
+          if [ -f _upload/site.zip ]; then
+            ZIP=_upload/site.zip
+          elif [ -n "$SITE_ZIP_URL" ] && [ "$EVENT" != "push" ]; then
+            URL=$(printf '%s' "$SITE_ZIP_URL" | sed -e 's/dl=0/dl=1/')
+            case "$URL" in *dl=1*) ;; *\?*) URL="$URL&dl=1" ;; *) URL="$URL?dl=1" ;; esac
+            curl -fsSL "$URL" -o "$RUNNER_TEMP/site.zip"
+            NEW=$(sha256sum "$RUNNER_TEMP/site.zip" | cut -d' ' -f1)
+            OLD=$(cat .site.zip.sha256 2>/dev/null || true)
+            if [ "$NEW" != "$OLD" ]; then ZIP="$RUNNER_TEMP/site.zip"; echo "$NEW" > "$RUNNER_TEMP/sha"; fi
+          fi
+          if [ -z "$ZIP" ]; then
+            echo "새 site.zip 없음"
+            if [ "$EVENT" = "schedule" ]; then echo "build=false" >> "$GITHUB_OUTPUT"; else echo "build=true" >> "$GITHUB_OUTPUT"; fi
+            exit 0
+          fi
+          unzip -q "$ZIP" -d "$RUNNER_TEMP/site"
+          rm -rf "$RUNNER_TEMP/site/.github"
+          rm -rf content _upload
+          cp -a "$RUNNER_TEMP/site/." .
+          if [ -f "$RUNNER_TEMP/sha" ]; then cp "$RUNNER_TEMP/sha" .site.zip.sha256; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "site.zip 풀기 ($(date -u +%Y-%m-%dT%H:%MZ))" || echo "바뀐 것 없음"
+          git push
+          echo "build=true" >> "$GITHUB_OUTPUT"
+
+  build:
+    needs: unpack
+    if: needs.unpack.outputs.build == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Skip if the site is not unpacked yet
+        id: chk
+        run: if [ -f package.json ]; then echo "ok=true" >> "$GITHUB_OUTPUT"; else echo "ok=false" >> "$GITHUB_OUTPUT"; fi
+      - uses: actions/setup-node@v6
+        if: steps.chk.outputs.ok == 'true'
+        with:
+          node-version: 22
+          cache: npm
+      - name: Cache OG-image fonts
+        if: steps.chk.outputs.ok == 'true'
+        uses: actions/cache@v5
+        with:
+          path: quartz/.quartz-cache/fonts
+          key: ${{ runner.os }}-quartz-og-fonts-${{ hashFiles('quartz.config.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-quartz-og-fonts-
+      - if: steps.chk.outputs.ok == 'true'
+        run: npm ci
+      - if: steps.chk.outputs.ok == 'true'
+        run: npx quartz plugin install --from-config
+      - if: steps.chk.outputs.ok == 'true'
+        run: npx quartz build
+      - if: steps.chk.outputs.ok == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+    outputs:
+      ok: ${{ steps.chk.outputs.ok }}
+
+  deploy:
+    needs: build
+    if: needs.build.outputs.ok == 'true'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

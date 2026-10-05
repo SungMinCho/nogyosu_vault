@@ -17,7 +17,7 @@
 | `.github/workflows/publish.yml` | `_upload/site.zip`을 풀어 `content/`를 갈아끼우고 빌드·배포 |
 
 ## 발행
-원본은 Dropbox의 Obsidian 볼트다. 볼트에서 만든 `site.zip`을 이 저장소에 `_upload/site.zip`으로 올리면(Add file → Upload files) Actions가 풀고, 커밋하고, 빌드해서 Pages에 배포한다.
+원본은 Dropbox의 Obsidian 볼트다. 볼트에서 만든 `site.zip`(Dropbox `nogyosu_vault/_system/발행/site.zip`)의 공유 링크가 저장소 변수 `SITE_ZIP_URL`에 있고, `publish.yml`이 매시간 그 파일을 확인해서 바뀌었으면 풀고, 커밋하고, 빌드해서 Pages에 배포한다. 바로 내보내려면 Actions → Publish → Run workflow. 저장소에 `_upload/site.zip`을 직접 올려도 된다.
 
 ## 크레디트
 사이트 엔진은 [Quartz v5](https://github.com/jackyzha0/quartz) (MIT, `LICENSE.txt`). 강의 속 라투르 인용은 영어판을 우리말로 뜻 옮김한 것이며 쪽수는 영어판(Harvard, 2013) 기준이다.

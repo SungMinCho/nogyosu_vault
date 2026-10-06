@@ -1,5 +1,5 @@
 ---
-title: "도해 20 — 꼭짓점은 $Aotimes Botimes Cotimes D$에…"
+title: "도해 20 — 꼭짓점은 A B C D에 괄호를 치는 다섯 방법(카탈랑 수 5)"
 type: "도해"
 책: "[[범주론 입문]]"
 강: "12강"

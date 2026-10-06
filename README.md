@@ -31,13 +31,13 @@
 | 경로 | 무엇 |
 |---|---|
 | `content/` | 볼트(Dropbox의 `nogyosu_vault`)에서 웹에 낼 부분 — 책·강 노트, 원자 노트, 도해 |
-| `quartz/static/panseo/` | 원본 HTML 판서(책마다 한 장, 회전 양자화의 계보 친절판 여덟 장 포함) |
+| `quartz/static/panseo/` | 원본 HTML 판서(책마다 한 장, 딸린 별책 포함) |
 | `quartz/styles/custom.scss` | 판서 콜아웃(절 표지·계산 쪽지·도해 캡션…)과 지도 종이 팔레트 |
 | `vault-fixes.ts` | Obsidian 폴더 노트 링크·SVG 임베드를 Quartz가 바로 읽게 고치고, 검색 색인에서 강 노트 본문을 앞부분만 남기는 작은 변환기 |
 | `.github/workflows/publish.yml` | `site.zip`을 풀어 `content/`를 갈아끼우고 빌드·배포 |
 
 ## 발행
-원본은 Dropbox의 Obsidian 볼트다. 볼트에서 만든 `site.zip`(Dropbox `nogyosu_vault/_system/발행/site.zip`)의 공유 링크가 저장소 변수 `SITE_ZIP_URL`에 있고, `publish.yml`이 매시간 그 파일을 확인해서 바뀌었으면 풀고, 커밋하고, 빌드해서 Pages에 배포한다. 바로 내보내려면 Actions → Publish → Run workflow. 저장소에 `_upload/site.zip`을 직접 올려도 된다.
+원본은 Dropbox의 Obsidian 볼트다. 볼트의 `_system/파이프라인/`에 있는 도구가 볼트와 `site.zip`(Dropbox `nogyosu_vault/_system/발행/site.zip`)을 만든다. 그 공유 링크가 저장소 변수 `SITE_ZIP_URL`에 있고, Actions → Publish → Run workflow 를 돌리면 `publish.yml`이 그 파일을 받아 바뀌었으면 풀고, 커밋하고, 빌드해서 Pages에 배포한다. 저장소에 `_upload/site.zip`을 직접 올려도 된다.
 
 ## 크레디트
 사이트 엔진은 [Quartz v5](https://github.com/jackyzha0/quartz) (MIT, `LICENSE.txt`). 강의 속 원전 인용은 모두 뜻을 옮긴 것이며, 책마다 출처와 정직성 주석은 각 책 노트 끝 「판서에 대하여」에 있다.

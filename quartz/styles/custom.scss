@@ -39,7 +39,7 @@
 .callout[data-callout="src"] .callout-title-inner,.callout[data-callout="src"] .callout-title-inner p{font-weight:400;margin:0}
 
 /* 판서 도해 그림 */
-img[src*="aime-f"],img[src*="aime-hero"]{display:block;width:100%;max-width:100%;height:auto;margin:1.6rem 0 .4rem;border-radius:0;box-shadow:0 0 0 1px var(--pz-rule)}
+img.svg-embed,.image-embed img[src*=".svg"]{display:block;width:100%;max-width:100%;height:auto;margin:1.6rem 0 .4rem;border-radius:0;box-shadow:0 0 0 1px var(--pz-rule)}
 
 .callout[data-callout="calc"]{--color:#94643A;--border:#94643A44;--bg:#94643A10;--callout-icon:url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="16" y1="14" x2="16" y2="18"/><path d="M16 10h.01M12 10h.01M8 10h.01M12 14h.01M8 14h.01M12 18h.01M8 18h.01"/></svg>');}
 :root[saved-theme="dark"] .callout[data-callout="calc"]{--color:#C4935F;--border:#C4935F55;--bg:#C4935F14}

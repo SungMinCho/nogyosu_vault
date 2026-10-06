@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 860 270" width="860" height="270" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  
+  --deep:#F1F5F4;      
+  --shoal:#DDE9EC;     
+  --shoal2:#C6DAE1;    
+  --land:#E8DDBF;      
+  --ink:#15212A;
+  --ink2:#4B5B64;
+  --rule:#9DB2BB;
+  
+  --cold:#2A5C85;      
+  --fire:#AE3A2C;      
+  --pass:#1C7255;      
+  --order:#86621F;     
+  --caution:#9E2E79;   
+  --f-display:"Do Hyeon","Noto Sans CJK KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-body:"Nanum Myeongjo","Noto Serif CJK KR","AppleMyungjo","Batang",serif;
+  --f-latin:"Crimson Pro","Noto Serif","Georgia",serif;
+  --f-mono:"Azeret Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:52rem;
+  --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --deep:#0D151A; --shoal:#14222A; --shoal2:#1A2E38; --land:#3A3323;
+  --ink:#E2E8E9; --ink2:#A1B1B8; --rule:#3C515B;
+  --cold:#7EAED8; --fire:#E7796B; --pass:#5BC29B; --order:#D6AD5E; --caution:#DE7CBF;
+  color-scheme:dark; }}:root[data-theme="dark"]{
+  --deep:#0D151A; --shoal:#14222A; --shoal2:#1A2E38; --land:#3A3323;
+  --ink:#E2E8E9; --ink2:#A1B1B8; --rule:#3C515B;
+  --cold:#7EAED8; --fire:#E7796B; --pass:#5BC29B; --order:#D6AD5E; --caution:#DE7CBF;
+  color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.chart svg{ display:block; width:100%; height:auto; }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); margin-top:2.2rem; }.lecture{ display:contents; }figure.fig{ margin:.6rem 0; }.fig-frame{ overflow-x:auto; border:1px solid var(--rule); background:var(--deep);
+  background-image:linear-gradient(to right, var(--deep) 30%, transparent), linear-gradient(to left, var(--deep) 30%, transparent), linear-gradient(to right, rgba(0,0,0,.14), transparent), linear-gradient(to left, rgba(0,0,0,.14), transparent);
+  background-position:left center, right center, left center, right center; background-repeat:no-repeat;
+  background-size:2.4rem 100%, 2.4rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; height:auto; min-width:34rem; }.fig-svg text, .chart text{ font-family:var(--f-body); fill:var(--ink); }.fig-svg .t{ font-size:13px; }.fig-svg .ts{ font-size:11.5px; fill:var(--ink2); }.fig-svg .tb{ font-size:14.5px; font-family:var(--f-display); }.fig-svg .tm, .chart .tm{ font-family:var(--f-mono); font-size:11px; }.fig-svg .halo, .chart .halo{ paint-order:stroke; stroke:var(--deep); stroke-width:4px; stroke-linejoin:round; }.c-cold{ fill:var(--cold) !important }.c-pass{ fill:var(--pass) !important }.s-ink{ stroke:var(--ink) }.s-cold{ stroke:var(--cold) }.s-pass{ stroke:var(--pass) }.f-none{ fill:none }.f-deep{ fill:var(--deep) }.f-cold-t{ fill:var(--cold); fill-opacity:.16 }.f-pass-t{ fill:var(--pass); fill-opacity:.16 }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.mk-ink{ fill:var(--ink) }.mk-cold{ fill:var(--cold) }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:transparent"/><svg aria-label="섀넌의 통신 도식: 정보원, 송신기, 채널, 수신기, 목적지가 한 줄로 이어지고 채널 아래 소음원이 끼어든다. 세르는 두 끝의 대화자를 한편으로, 소음원을 배제할 제3자 곧 악마로 읽는다." class="fig-svg" height="100%" role="img" viewBox="0 0 860 270" width="100%" xmlns="http://www.w3.org/2000/svg"><defs><marker id="F02-ar-cold" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk-cold" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="F02-ar-ink" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk-ink" d="M0,0 L10,5 L0,10 z"></path></marker></defs><rect class="s-pass f-pass-t w15" height="58" rx="2" width="120" x="20" y="92"></rect><text class="tb" text-anchor="middle" x="80" y="117.5"><tspan dy="0" x="80">정보원</tspan></text><text class="ts" text-anchor="middle" x="80" y="133.5">말하는 사람</text><rect class="s-ink f-deep w15" height="58" rx="2" width="120" x="195" y="92"></rect><text class="tb" text-anchor="middle" x="255" y="117.5"><tspan dy="0" x="255">송신기</tspan></text><text class="ts" text-anchor="middle" x="255" y="133.5">송화기</text><rect class="s-ink f-deep w15" height="58" rx="2" width="120" x="370" y="92"></rect><text class="tb" text-anchor="middle" x="430" y="117.5"><tspan dy="0" x="430">채널</tspan></text><text class="ts" text-anchor="middle" x="430" y="133.5">전화선</text><rect class="s-ink f-deep w15" height="58" rx="2" width="120" x="545" y="92"></rect><text class="tb" text-anchor="middle" x="605" y="117.5"><tspan dy="0" x="605">수신기</tspan></text><text class="ts" text-anchor="middle" x="605" y="133.5">수화기</text><rect class="s-pass f-pass-t w15" height="58" rx="2" width="120" x="720" y="92"></rect><text class="tb" text-anchor="middle" x="780" y="117.5"><tspan dy="0" x="780">목적지</tspan></text><text class="ts" text-anchor="middle" x="780" y="133.5">듣는 사람</text><line class="s-ink w15 f-none" marker-end="url(#F02-ar-ink)" x1="143" x2="191" y1="121" y2="121"></line><line class="s-ink w15 f-none" marker-end="url(#F02-ar-ink)" x1="318" x2="366" y1="121" y2="121"></line><line class="s-ink w15 f-none" marker-end="url(#F02-ar-ink)" x1="493" x2="541" y1="121" y2="121"></line><line class="s-ink w15 f-none" marker-end="url(#F02-ar-ink)" x1="668" x2="716" y1="121" y2="121"></line><text class="ts halo" text-anchor="middle" x="167.5" y="113">메시지</text><text class="ts halo" text-anchor="middle" x="342.5" y="113">신호</text><text class="ts halo" text-anchor="middle" x="517.5" y="113">받은 신호</text><text class="ts halo" text-anchor="middle" x="692.5" y="113">메시지</text><rect class="s-cold f-cold-t w15" height="50" rx="2" width="170" x="345" y="205"></rect><text class="tb" text-anchor="middle" x="430" y="234.5"><tspan dy="0" x="430">소음원</tspan></text><line class="s-cold w2 f-none" marker-end="url(#F02-ar-cold)" x1="430" x2="430" y1="203" y2="154"></line><text class="ts c-cold halo" text-anchor="start" x="440" y="186">끼어든다</text><text class="ts c-cold" text-anchor="start" x="525" y="234">세르: 제3자 · "악마, 소음의 의인화"</text><path class="s-pass w15 f-none" d="M80.0,86 L80.0,44 L780.0,44 L780.0,86"></path><text class="t c-pass" text-anchor="middle" x="430" y="34">두 대화자는 한편 — "함께 소음과 싸운다"</text><text class="tm" text-anchor="start" x="20" y="258">C = B · log₂(1 + S/N)</text></svg></svg>

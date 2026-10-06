@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 344" width="600" height="344" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-ret{color:var(--ret)}.t-time{color:var(--time)}.t-alarm{color:var(--alarm)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-mute{fill:var(--mute)}.dg .t-ret{fill:var(--ret)}.dg .t-time{fill:var(--time)}.dg .t-alarm{fill:var(--alarm)}.dg .halo{paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln{stroke:var(--ink); stroke-width:1.5; fill:none}.dg .ln-mute{stroke:var(--mute); stroke-width:1.1; fill:none}.dg .ln-ret{stroke:var(--ret); stroke-width:2.2; fill:none}.dg .ln-time{stroke:var(--time); stroke-width:2.2; fill:none}.dg .thick{stroke-width:3.2}.dg .dash{stroke-dasharray:6 4}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .f-ret-a{fill:var(--ret); fill-opacity:.17}.dg .f-alarm-a{fill:var(--alarm); fill-opacity:.16}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="머튼식 회사. 만기 자산 가치 V_T를 채권자 몫 min(V_T, 80)과 주주 몫 max(V_T − 80, 0)으로 나누면 둘의 합은 언제나 V_T다. 주주는 회사 자산에 대한 행사가격 80짜리 콜을 들고, 채권자는 무위험 채권 80에서 풋 하나를 판 셈이다." class="dg" height="100%" role="img" viewBox="0 0 600 344" width="100%">
+<line class="ax" x1="60" x2="560" y1="270" y2="270"></line>
+<line class="ax" x1="60" x2="60" y1="270" y2="32"></line>
+<text class="t-xs end t-mute" x="560" y="310">만기 회사 자산 가치 V_T</text>
+<text class="t-xs end t-mute" x="52" y="44">몫</text>
+<text class="t-xs mid t-num t-mute" x="185.0" y="290">40</text>
+<text class="t-xs mid t-num t-mute" x="310.0" y="290">80</text>
+<text class="t-xs mid t-num t-mute" x="435.0" y="290">120</text>
+<text class="t-xs end t-num t-mute" x="52" y="159.0">80</text>
+<path class="f-alarm-a" d="M60.0,270.0 L60.0,155.0 L310.0,155.0 Z"></path>
+<path class="f-ret-a" d="M310.0,155.0 L544.4,47.2 L544.4,155.0 Z"></path>
+<path class="ln-mute dash" d="M60.0,155.0 L544.4,155.0"></path>
+<path class="ln" d="M60.0,270.0 L544.4,47.2"></path>
+<path class="ln-time thick" d="M60.0,269.0 L310.0,154.0 L544.4,154.0"></path>
+<line class="ln-ret" x1="466.2" x2="466.2" y1="155.0" y2="83.1"></line>
+<line class="ln-ret" x1="461.2" x2="471.2" y1="83.1" y2="83.1"></line>
+<line class="ln-ret" x1="461.2" x2="471.2" y1="155.0" y2="155.0"></line>
+<text class="t-s t-ret halo" x="478.5" y="114.8">주주 50</text>
+<text class="t-xs t-ret halo" x="478.5" y="131.8">max(V_T−80, 0)</text>
+<text class="t-s t-time mid halo" x="428.8" y="175.0">채권자 min(V_T, 80)</text>
+<text class="t-s t-alarm halo" x="128.8" y="172.2">채권자가 판 풋</text>
+<text class="t-xs t-alarm halo" x="128.8" y="189.2">max(80−V_T, 0)</text>
+<text class="t-s end halo" x="528.8" y="46.4">합 = V_T</text>
+</svg></svg>

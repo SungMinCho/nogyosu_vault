@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 356" width="600" height="356" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-ret{color:var(--ret)}.t-alarm{color:var(--alarm)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-ret{fill:var(--ret)}.dg .t-alarm{fill:var(--alarm)}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln2{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .ln-ret{stroke:var(--ret); stroke-width:2.2; fill:none}.dg .ln-alarm{stroke:var(--alarm); stroke-width:2.2; fill:none}.dg .thick{stroke-width:3.2}.dg .dash{stroke-dasharray:6 4}.dg .dot{stroke-dasharray:1.6 3.6; stroke-linecap:round}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-ret{fill:var(--ret)}.dg .f-alarm-a{fill:var(--alarm); fill-opacity:.16}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="사건 연구에서 효율적 시장의 누적 비정상수익률은 발표일에 한 번 뛰고 평평하다. 발표 뒤 계속 오르거나 되돌아가면 가격이 정보를 늦게 또는 지나치게 먹은 것이다." class="dg" height="100%" role="img" viewBox="0 0 600 356" width="100%">
+<defs></defs>
+<rect class="f-alarm-a" height="260" width="50.5" x="259.4" y="40"></rect>
+<line class="grid" x1="70" x2="575" y1="275.6" y2="275.6"></line>
+<text class="t-num end t-ink2" x="62" y="280.6">0%</text>
+<line class="grid" x1="70" x2="575" y1="194.4" y2="194.4"></line>
+<text class="t-num end t-ink2" x="62" y="199.4">5%</text>
+<line class="grid" x1="70" x2="575" y1="113.1" y2="113.1"></line>
+<text class="t-num end t-ink2" x="62" y="118.1">10%</text>
+<line class="ax" x1="70" x2="575" y1="300" y2="300"></line>
+<line class="ln2" x1="322.5" x2="322.5" y1="40" y2="300"></line>
+<line class="ax" x1="70.0" x2="70.0" y1="300" y2="305"></line>
+<text class="t-num mid t-ink2" x="70.0" y="322">-10</text>
+<line class="ax" x1="196.2" x2="196.2" y1="300" y2="305"></line>
+<text class="t-num mid t-ink2" x="196.2" y="322">-5</text>
+<line class="ax" x1="322.5" x2="322.5" y1="300" y2="305"></line>
+<text class="t-num mid t-ink2" x="322.5" y="322">0</text>
+<line class="ax" x1="448.8" x2="448.8" y1="300" y2="305"></line>
+<text class="t-num mid t-ink2" x="448.8" y="322">+5</text>
+<line class="ax" x1="575.0" x2="575.0" y1="300" y2="305"></line>
+<text class="t-num mid t-ink2" x="575.0" y="322">+10</text>
+<text class="t-s end t-ink2" x="575" y="344">발표일로부터의 거래일</text>
+<text class="t-s t-ink2" x="66" y="24">누적 비정상수익률 CAR</text>
+<text class="t-xs t-ink2" x="328.5" y="285.4">발표</text>
+<text class="t-xs mid t-alarm" x="284.6" y="223.6">누설?</text>
+<path class="ln-alarm dash" d="M70.0,274.9 L95.2,274.5 L120.5,276.9 L145.8,277.1 L171.0,274.4 L196.2,276.9 L221.5,277.1 L246.8,275.8 L272.0,264.2 L297.2,259.1 L322.5,186.2 L347.8,167.1 L373.0,153.4 L398.2,142.8 L423.5,138.0 L448.8,132.8 L474.0,126.2 L499.2,126.2 L524.5,122.8 L549.8,120.8 L575.0,120.2"></path>
+<path class="ln-alarm dot thick" d="M70.0,274.9 L95.2,274.5 L120.5,276.9 L145.8,277.1 L171.0,274.4 L196.2,276.9 L221.5,277.1 L246.8,275.8 L272.0,264.2 L297.2,259.1 L322.5,62.8 L347.8,79.3 L373.0,90.9 L398.2,98.4 L423.5,106.4 L448.8,110.3 L474.0,110.1 L499.2,114.8 L524.5,114.7 L549.8,115.0 L575.0,116.1"></path>
+<path class="ln-ret" d="M70.0,274.9 L95.2,274.5 L120.5,276.9 L145.8,277.1 L171.0,274.4 L196.2,276.9 L221.5,277.1 L246.8,275.8 L272.0,264.2 L297.2,259.1 L322.5,119.9 L347.8,116.4 L373.0,118.0 L398.2,117.2 L423.5,120.0 L448.8,119.9 L474.0,116.4 L499.2,119.6 L524.5,117.9 L549.8,117.1 L575.0,117.6"></path>
+<circle class="f-ret" cx="272.0" cy="264.2" r="3.6"></circle>
+<circle class="f-ret" cx="297.2" cy="259.1" r="3.6"></circle>
+<circle class="f-ret" cx="322.5" cy="119.9" r="3.6"></circle>
+<circle class="f-ret" cx="347.8" cy="116.4" r="3.6"></circle>
+<circle class="f-ret" cx="373.0" cy="118.0" r="3.6"></circle>
+<text class="t-s end t-ret" x="294.7" y="103.4">효율적: 발표일에 한 번에</text>
+<text class="t-s t-alarm" x="403.3" y="59.5">과잉반응: 치솟았다 되돌림</text>
+<text class="t-s t-alarm" x="403.3" y="174.9">과소반응: 천천히 표류</text>
+</svg></svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 360" width="600" height="360" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-ret{color:var(--ret)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .t-l{font-size:17px; font-weight:700}.dg .b{font-weight:700}.dg .t-ink2{fill:var(--ink-2)}.dg .t-ret{fill:var(--ret)}.dg .mid{text-anchor:middle}.dg .ln{stroke:var(--ink); stroke-width:1.5; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-ret-a{fill:var(--ret); fill-opacity:.17}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="블랙과 테퍼의 세금 차익을 두 장부로 그린 그림. 전에는 연금기금이 주식 100을 들고, 후에는 연금기금이 채권 100을 들며 회사가 부채 100을 새로 지고 자기 주식 100을 되산다. 주주의 위험은 같고 회사의 이자 공제만큼 세금이 준다." class="dg" height="100%" role="img" viewBox="0 0 600 360" width="100%">
+<defs></defs>
+<text class="t-l mid" x="150.0" y="28.0">전</text>
+<text class="t-l mid" x="450.0" y="28.0">후</text>
+<line class="grid" x1="300" x2="300" y1="14" y2="272"></line>
+<text class="b mid" x="150.0" y="66.0">연금기금</text>
+<line class="ln" x1="24" x2="276" y1="76" y2="76"></line>
+<line class="ln" x1="150.0" x2="150.0" y1="76" y2="118"></line>
+<text class="t-s mid" x="87.0" y="99.0">주식 100</text>
+<text class="t-s mid" x="213.0" y="99.0">연금 약속 100</text>
+<text class="b mid" x="150.0" y="170.0">회사</text>
+<line class="ln" x1="24" x2="276" y1="180" y2="180"></line>
+<line class="ln" x1="150.0" x2="150.0" y1="180" y2="252"></line>
+<text class="t-s mid" x="87.0" y="203.0">영업자산</text>
+<text class="t-s mid" x="213.0" y="203.0">부채 D</text>
+<text class="t-s mid" x="213.0" y="233.0">자기자본 E</text>
+<text class="b mid" x="450.0" y="66.0">연금기금</text>
+<line class="ln" x1="324" x2="576" y1="76" y2="76"></line>
+<line class="ln" x1="450.0" x2="450.0" y1="76" y2="118"></line>
+<rect class="f-ret-a" height="24" width="118.0" x="328" y="82"></rect>
+<text class="t-s mid" x="387.0" y="99.0">채권 100</text>
+<text class="t-s mid" x="513.0" y="99.0">연금 약속 100</text>
+<text class="b mid" x="450.0" y="170.0">회사</text>
+<line class="ln" x1="324" x2="576" y1="180" y2="180"></line>
+<line class="ln" x1="450.0" x2="450.0" y1="180" y2="252"></line>
+<text class="t-s mid" x="387.0" y="203.0">영업자산</text>
+<rect class="f-ret-a" height="24" width="118.0" x="454.0" y="186"></rect>
+<text class="t-s mid" x="513.0" y="203.0">부채 D+100</text>
+<rect class="f-ret-a" height="24" width="118.0" x="454.0" y="216"></rect>
+<text class="t-s mid" x="513.0" y="233.0">자기자본 E−100</text>
+<text class="t-xs t-ret mid" x="450.0" y="138.0">이자 5, 비과세로 들어옴</text>
+<line class="grid" x1="24" x2="576" y1="292" y2="292"></line>
+<text class="t-xs mid t-ink2" x="300.0" y="318.0">주주가 지는 위험: 같음 (레버리지가 연금에서 회사 장부로 옮겨 갔을 뿐)</text>
+<text class="t-s mid t-ret b" x="300.0" y="344.0">달라진 것은 세금: 회사 이자 5의 공제 → 5 × 21% = 1.05/년</text>
+</svg></svg>

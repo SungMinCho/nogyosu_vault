@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 430" width="760" height="430" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#E6ECE9; --panel:#F2F5F3; --ink:#172120; --ink-2:#4A5755; --rule:#B6C3BF;
+  --liq:#1B6971; --liq-soft:#CFE0DE; --liq-dot:#7FA9AB;
+  --cry:#866207; --cry-soft:#EAD9A0; --cry-deep:#C9A43C;
+  --inf:#5B3D8F; --inf-soft:#DCD3EA;
+  --brk:#983B20; --brk-soft:#EFD5CB;
+  --shade:#0E1514; --on-shade:#E6ECE9;
+  --f-display:"Hahmlet","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Gowun Batang","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-latin:"Old Standard TT","Gowun Batang","Noto Serif CJK KR",serif;
+  --f-mono:"Cutive Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR","Courier New",monospace;
+  --pad:1.05rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem }.lecture{ display:contents }.hero-fig svg{ width:100%; height:auto; display:block }figure.fig{ margin:.4rem 0 .6rem }.fig-frame{ overflow-x:auto; overflow-y:hidden; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background:
+  linear-gradient(to right,var(--paper),var(--paper)) left/1.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--paper),var(--paper)) right/1.2rem 100% no-repeat local,
+  linear-gradient(to right,rgba(0,0,0,.18),rgba(0,0,0,0)) left/.7rem 100% no-repeat scroll,
+  linear-gradient(to left,rgba(0,0,0,.18),rgba(0,0,0,0)) right/.7rem 100% no-repeat scroll;
+  background-color:var(--paper) }.fig-frame svg{ display:block; width:100%; min-width:560px; height:auto }.fig svg text, .hero-fig text{ font-family:var(--f-body); fill:var(--ink) }.t{ font-size:13px }.t-s{ font-size:11px }.t-num{ font-family:var(--f-latin) !important; font-variant-numeric:tabular-nums }.t-b{ font-weight:700 }.t-mute{ fill:var(--ink-2) !important }.t-liq{ fill:var(--liq) !important }.t-inf{ fill:var(--inf) !important }.halo{ paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round }.f-none{ fill:none }.f-paper{ fill:var(--paper) }.f-ink{ fill:var(--ink) }.f-cry{ fill:var(--cry) }.f-cry-soft{ fill:var(--cry-soft) }.f-inf{ fill:var(--inf) }.s-ink{ stroke:var(--ink) }.s-mute{ stroke:var(--ink-2) }.s-rule{ stroke:var(--rule) }.s-cry{ stroke:var(--cry) }.s-inf{ stroke:var(--inf) }.w05{ stroke-width:.6 }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w3{ stroke-width:3 }.dash{ stroke-dasharray:5 4 }.dot{ stroke-dasharray:1.5 3.5; stroke-linecap:round }.op5{ opacity:.5 }.op7{ opacity:.72 }.hero-fig .band:hover polygon, .hero-fig .band:focus polygon{ fill:var(--inf-soft) }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="왼쪽: 자극이 들어온 한 점을 중심으로, 같은 행위 시간 1초 안에 신호가 갔다 돌아오는 고리가 닫히는 반지름 셋을 로그 눈금으로 그린 동심원. 확산 약 30 µm, 대류 약 1.5 cm, 신경 약 2.5 m로 자릿수가 10의 5제곱 가까이 벌어진다. 원마다 구심, 중추, 원심의 고리가 있고 원 밖은 남의 일이다. 오른쪽: 물지렁이 사슬의 세 장면. a 머리 셋에 신경삭 하나로 한 개체. b 맨 뒤 개충이 제 리듬을 갖고 부모 신호를 억제하는 순간에 개체화 날짜의 깃발. c 엇박 수축으로 조직이 녹아 떨어지는 독립." height="100%" role="img" viewBox="0 0 760 430" width="100%">
+<defs>
+<marker id="f16-ar-ink" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f16-ar-inf" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-inf" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f16-ar-cry" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-cry" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<text class="t t-b" x="16" y="22">자율 구역의 반지름</text>
+<text class="t-s t-mute" x="16" y="38">같은 행위 시간 T = 1 s (갔다 오니 편도 0.5 s)</text>
+<text class="t-s t-mute" x="16" y="53">반지름은 로그 눈금 — 한 칸 = 10배, 중심 = 1 µm</text>
+<circle class="f-cry-soft op5 s-cry w15" cx="180" cy="240" r="140.8"></circle>
+<circle class="f-cry-soft op7 s-cry w15" cx="180" cy="240" r="91.9"></circle>
+<circle class="f-cry-soft s-cry w15" cx="180" cy="240" r="33.1"></circle>
+<line class="s-ink w1" x1="180" x2="325.2" y1="240" y2="240"></line>
+<line class="s-ink w1" x1="180.0" x2="180.0" y1="237" y2="243"></line>
+<line class="s-ink w1" x1="202.0" x2="202.0" y1="237" y2="243"></line>
+<text class="t-s t-num halo" text-anchor="middle" x="202.0" y="256">10 µm</text>
+<line class="s-ink w1" x1="224.0" x2="224.0" y1="237" y2="243"></line>
+<text class="t-s t-num halo" text-anchor="middle" x="224.0" y="233">100 µm</text>
+<line class="s-ink w1" x1="246.0" x2="246.0" y1="237" y2="243"></line>
+<text class="t-s t-num halo" text-anchor="middle" x="246.0" y="256">1 mm</text>
+<line class="s-ink w1" x1="268.0" x2="268.0" y1="237" y2="243"></line>
+<text class="t-s t-num halo" text-anchor="middle" x="268.0" y="233">1 cm</text>
+<line class="s-ink w1" x1="290.0" x2="290.0" y1="237" y2="243"></line>
+<text class="t-s t-num halo" text-anchor="middle" x="290.0" y="256">10 cm</text>
+<line class="s-ink w1" x1="312.0" x2="312.0" y1="237" y2="243"></line>
+<text class="t-s t-num halo" text-anchor="middle" x="312.0" y="233">1 m</text>
+<path class="f-none s-inf w15" d="M178.0,245.0 Q175.0,252.2 178.0,263.1" marker-end="url(#f16-ar-inf)"></path>
+<path class="f-none s-inf w15" d="M182.0,263.1 Q185.0,252.2 182.0,246.0" marker-end="url(#f16-ar-inf)"></path>
+<circle class="f-ink" cx="180.0" cy="267.1" r="3.2"></circle>
+<path class="f-none s-inf w15" d="M175.9,243.5 Q154.3,269.1 140.7,309.6" marker-end="url(#f16-ar-inf)"></path>
+<path class="f-none s-inf w15" d="M144.3,311.5 Q170.2,277.6 178.9,246.2" marker-end="url(#f16-ar-inf)"></path>
+<circle class="f-ink" cx="140.6" cy="314.1" r="3.2"></circle>
+<path class="f-none s-inf w15" d="M175.7,236.8 Q126.8,211.2 58.1,205.3" marker-end="url(#f16-ar-inf)"></path>
+<path class="f-none s-inf w15" d="M57.0,209.1 Q119.5,238.3 173.7,240.4" marker-end="url(#f16-ar-inf)"></path>
+<circle class="f-ink" cx="53.7" cy="206.2" r="3.2"></circle>
+<text class="t-s t-b" text-anchor="middle" x="54" y="196">중추</text>
+<text class="t-s t-inf" text-anchor="middle" x="117" y="209">← 구심</text>
+<text class="t-s t-inf" text-anchor="middle" x="117" y="247">원심 →</text>
+<circle class="f-inf" cx="180" cy="240" r="4.5"></circle>
+<text class="t-s t-inf" text-anchor="middle" x="180" y="228">자극</text>
+<text class="t-s halo" text-anchor="middle" x="202" y="201"><tspan class="t-b">확산 ≈ 30 µm</tspan> · 세포 몇 개</text>
+<text class="t-s halo" text-anchor="middle" x="180" y="142"><tspan class="t-b">대류 ≈ 1.5 cm</tspan> · 손톱만 한 군체</text>
+<text class="t-s halo" text-anchor="middle" x="180" y="93"><tspan class="t-b">신경 ≈ 2.5 m</tspan> · 사람 하나</text>
+<text class="t-s t-liq" x="16" y="404">원 밖은 그 행위 시간 안엔 ‘남의 일’</text>
+<text class="t-s t-num" x="16" y="420">반지름 비 확산 : 대류 : 신경 ≈ 1 : 470 : 79,000</text>
+<line class="s-rule w1 dot" x1="362" x2="362" y1="16" y2="414"></line>
+<text class="t t-b" x="376" y="30">a</text>
+<text class="t-s" x="392" y="30">머리 셋, 신경삭 하나 — 자율 구역 하나 = 한 개체</text>
+<rect class="f-none s-cry w1 dash" height="56" rx="12" width="368" x="380" y="62"></rect>
+<rect class="f-cry-soft s-cry w1" height="20" rx="9" width="356" x="386" y="86"></rect>
+<line class="s-cry w05 op5" x1="398" x2="398" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="410" x2="410" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="422" x2="422" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="434" x2="434" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="446" x2="446" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="458" x2="458" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="470" x2="470" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="482" x2="482" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="494" x2="494" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="506" x2="506" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="518" x2="518" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="530" x2="530" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="542" x2="542" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="554" x2="554" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="566" x2="566" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="578" x2="578" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="590" x2="590" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="602" x2="602" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="614" x2="614" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="626" x2="626" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="638" x2="638" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="650" x2="650" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="662" x2="662" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="674" x2="674" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="686" x2="686" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="698" x2="698" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="710" x2="710" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="722" x2="722" y1="88" y2="104"></line>
+<line class="s-cry w05 op5" x1="734" x2="734" y1="88" y2="104"></line>
+<line class="s-ink w15" x1="392" x2="738" y1="101" y2="101"></line>
+<circle class="f-ink" cx="394" cy="94" r="3.6"></circle>
+<circle class="f-ink" cx="556" cy="94" r="3.6"></circle>
+<circle class="f-ink" cx="654" cy="94" r="3.6"></circle>
+<path class="f-none s-mute w1" d="M416,74 q4,-8 8,0 q4,8 8,0 q4,-8 8,0 q4,8 8,0 q4,-8 8,0 q4,8 8,0"></path>
+<path class="f-none s-mute w1" d="M568,74 q4,-8 8,0 q4,8 8,0 q4,-8 8,0 q4,8 8,0 q4,-8 8,0 q4,8 8,0"></path>
+<path class="f-none s-mute w1" d="M666,74 q4,-8 8,0 q4,8 8,0 q4,-8 8,0 q4,8 8,0 q4,-8 8,0 q4,8 8,0"></path>
+<text class="t-s t-mute" text-anchor="end" x="742" y="134">강모가 한 박자로 — 같은 파형</text>
+<text class="t t-b" x="376" y="152">b</text>
+<text class="t-s" x="392" y="152">맨 뒤 개충의 신경절에 제 리듬(∿) — 부모의 신호를 억제(⊣)</text>
+<rect class="f-cry-soft s-cry w1" height="20" rx="9" width="356" x="386" y="208"></rect>
+<line class="s-cry w05 op5" x1="398" x2="398" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="410" x2="410" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="422" x2="422" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="434" x2="434" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="446" x2="446" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="458" x2="458" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="470" x2="470" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="482" x2="482" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="494" x2="494" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="506" x2="506" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="518" x2="518" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="530" x2="530" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="542" x2="542" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="554" x2="554" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="566" x2="566" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="578" x2="578" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="590" x2="590" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="602" x2="602" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="614" x2="614" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="626" x2="626" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="638" x2="638" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="650" x2="650" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="662" x2="662" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="674" x2="674" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="686" x2="686" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="698" x2="698" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="710" x2="710" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="722" x2="722" y1="210" y2="226"></line>
+<line class="s-cry w05 op5" x1="734" x2="734" y1="210" y2="226"></line>
+<line class="s-ink w15" x1="392" x2="738" y1="223" y2="223"></line>
+<line class="s-mute w1 dash" x1="392" x2="738" y1="212" y2="212"></line>
+<circle class="f-ink" cx="394" cy="216" r="3.6"></circle>
+<circle class="f-ink" cx="556" cy="216" r="3.6"></circle>
+<circle class="f-paper s-inf w15" cx="655" cy="216" r="6.5"></circle>
+<path class="f-none s-inf w1" d="M650,216 q1.25,-4 2.5,0 t2.5,0 t2.5,0 t2.5,0"></path>
+<path class="f-none s-inf w15" d="M566,194 C598,178 616,180 647,204"></path>
+<line class="s-ink w3" x1="641" x2="654" y1="207" y2="199"></line>
+<text class="t-s t-inf" text-anchor="end" x="562" y="186">부모의 신경 신호</text>
+<text class="t-s t-b" x="664" y="202">억제</text>
+<line class="s-ink w15" x1="655" x2="655" y1="230" y2="266"></line>
+<polygon class="f-inf" points="655,232 677,238 655,244"></polygon>
+<text class="t-s t-b t-inf" x="683" y="246">개체화 날짜</text>
+<text class="t-s t-mute" text-anchor="end" x="647" y="262">부모 신호를 억제할 수 있게 된 순간 (p. 214)</text>
+<text class="t-s t-mute" x="386" y="246">신경·혈관은 아직 이어진 채</text>
+<text class="t t-b" x="376" y="288">c</text>
+<text class="t-s" x="392" y="288">엇박 수축 → 용접선을 따라 조직이 녹아 떨어짐</text>
+<rect class="f-cry-soft s-cry w1" height="20" rx="9" width="252" x="386" y="330"></rect>
+<line class="s-cry w05 op5" x1="398" x2="398" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="410" x2="410" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="422" x2="422" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="434" x2="434" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="446" x2="446" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="458" x2="458" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="470" x2="470" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="482" x2="482" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="494" x2="494" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="506" x2="506" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="518" x2="518" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="530" x2="530" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="542" x2="542" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="554" x2="554" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="566" x2="566" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="578" x2="578" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="590" x2="590" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="602" x2="602" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="614" x2="614" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="626" x2="626" y1="332" y2="348"></line>
+<rect class="f-cry-soft s-cry w1" height="20" rx="9" width="88" x="654" y="330"></rect>
+<line class="s-cry w05 op5" x1="666" x2="666" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="678" x2="678" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="690" x2="690" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="702" x2="702" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="714" x2="714" y1="332" y2="348"></line>
+<line class="s-cry w05 op5" x1="726" x2="726" y1="332" y2="348"></line>
+<line class="s-ink w15" x1="392" x2="634" y1="345" y2="345"></line>
+<line class="s-ink w15" x1="658" x2="738" y1="345" y2="345"></line>
+<circle class="f-ink" cx="394" cy="338" r="3.6"></circle>
+<circle class="f-ink" cx="556" cy="338" r="3.6"></circle>
+<circle class="f-paper s-inf w15" cx="663" cy="338" r="6.5"></circle>
+<path class="f-none s-inf w1" d="M658,338 q1.25,-4 2.5,0 t2.5,0 t2.5,0 t2.5,0"></path>
+<line class="s-mute w1" x1="643" x2="649" y1="331.0" y2="333.0"></line>
+<line class="s-mute w1" x1="643" x2="649" y1="335.5" y2="337.5"></line>
+<line class="s-mute w1" x1="643" x2="649" y1="340.0" y2="342.0"></line>
+<line class="s-mute w1" x1="643" x2="649" y1="344.5" y2="346.5"></line>
+<line class="s-mute w1" x1="643" x2="649" y1="349.0" y2="351.0"></line>
+<path class="f-none s-ink w1" d="M562,314 q4,-8 8,0 q4,8 8,0 q4,-8 8,0 q4,8 8,0 q4,-8 8,0 q4,8 8,0 q4,-8 8,0 q4,8 8,0"></path>
+<path class="f-none s-inf w1" d="M664,314 q4,8 8,0 q4,-8 8,0 q4,8 8,0 q4,-8 8,0 q4,8 8,0 q4,-8 8,0"></path>
+<text class="t-s t-mute" text-anchor="end" x="556" y="318">엇박</text>
+<rect class="f-none s-cry w1 dash" height="58" rx="12" width="262" x="380" y="302"></rect>
+<rect class="f-none s-cry w1 dash" height="58" rx="12" width="98" x="650" y="302"></rect>
+<text class="t-s t-b" text-anchor="end" x="742" y="378">독립</text>
+<text class="t-s t-mute" text-anchor="end" x="708" y="378">해부적 분리는 마지막 장면</text>
+<text class="t-s t-b t-inf" x="376" y="404">깃발은 c가 아니라 b에 꽂힌다</text>
+<text class="t-s t-mute" x="376" y="420">「자율은 독립보다 먼저 있다」 (p. 214)</text>
+</svg></svg>

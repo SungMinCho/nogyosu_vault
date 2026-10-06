@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 410" width="640" height="410" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-ret{color:var(--ret)}.t-alarm{color:var(--alarm)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .t-l{font-size:17px; font-weight:700}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-ret{fill:var(--ret)}.dg .t-alarm{fill:var(--alarm)}.dg .halo{paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln{stroke:var(--ink); stroke-width:1.5; fill:none}.dg .ln2{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .ln-ret{stroke:var(--ret); stroke-width:2.2; fill:none}.dg .ln-alarm{stroke:var(--alarm); stroke-width:2.2; fill:none}.dg .thin{stroke-width:1}.dg .dash{stroke-dasharray:6 4}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-ink{fill:var(--ink)}.dg .f-alarm-a{fill:var(--alarm); fill-opacity:.16}.dg .f-ink-a{fill:var(--ink); fill-opacity:.08}.dg .mk{fill:var(--ink)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="같은 펀드의 두 성적. 펀드 1원은 +50%와 −30%를 지나 1.05가 되어 연 2.47%를 벌었지만, 투자자의 돈은 −30% 직전에 1,000만 원이 들어와 1,150이 805로 줄어 연 −25.11%를 잃었다." class="dg" height="100%" role="img" viewBox="0 0 640 410" width="100%">
+<defs><marker id="ar-f24a" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<text class="t-l" x="20" y="28">펀드 1원의 길 — 시간가중</text>
+<line class="grid" x1="70" x2="620" y1="150.0" y2="150.0"></line>
+<path class="ln-ret" d="M120,150.0 L290,60.0"></path>
+<path class="ln-alarm" d="M290,60.0 L450,141.0"></path>
+<circle class="f-ink" cx="120" cy="150.0" r="4"></circle>
+<circle class="f-ink" cx="290" cy="60.0" r="4"></circle>
+<circle class="f-ink" cx="450" cy="141.0" r="4"></circle>
+<text class="t-num mid" x="120" y="172.0">1.00</text>
+<text class="t-num mid" x="290" y="48.0">1.50</text>
+<text class="t-num" x="462" y="131.0">1.05</text>
+<text class="t-s t-ret end halo" x="205" y="91.0">+50%</text>
+<text class="t-s t-alarm halo" x="410" y="86.5">−30%</text>
+<text class="t-s end t-ret" x="620" y="172.0">연 +2.47%</text>
+<text class="t-l" x="20" y="208">투자자의 돈(만 원) — 금액가중</text>
+<line class="ax" x1="70" x2="620" y1="380" y2="380"></line>
+<rect class="f-ink-a ln2 thin" height="13.0" width="36" x="102" y="367.0"></rect>
+<rect class="f-ink-a ln2 thin" height="19.6" width="36" x="232" y="360.4"></rect>
+<rect class="f-ink-a ln2 thin" height="150.0" width="36" x="294" y="230.0"></rect>
+<rect class="f-ink-a ln2 thin" height="105.0" width="36" x="432" y="275.0"></rect>
+<text class="t-num mid" x="120" y="359.0">100</text>
+<text class="t-num mid" x="250" y="352.4">150</text>
+<text class="t-num mid" x="312" y="222.0">1,150</text>
+<text class="t-num end" x="426" y="280.0">805</text>
+<path class="ln" d="M170,320 C230,320 260,320 292,310" marker-end="url(#ar-f24a)"></path>
+<text class="t-s end" x="166" y="325">+1,000 유입</text>
+<rect class="f-alarm-a ln-alarm thin dash" height="45.0" width="36" x="432" y="230.0"></rect>
+<text class="t-s t-alarm" x="478" y="248.0">−345</text>
+<text class="t-xs t-alarm" x="478" y="268.0">(1,150의 30%)</text>
+<text class="t-s t-alarm b" x="478" y="315.0">연 −25.11%</text>
+<text class="t-xs t-ink2" x="478" y="337.0">1,100 넣고 805 회수</text>
+<text class="t-s mid t-ink2" x="120" y="402">지금</text>
+<text class="t-s mid t-ink2" x="290" y="402">1년 뒤</text>
+<text class="t-s mid t-ink2" x="450" y="402">2년 뒤</text>
+</svg></svg>

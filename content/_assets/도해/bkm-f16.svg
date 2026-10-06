@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 372" width="600" height="372" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-risk{color:var(--risk)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-risk{fill:var(--risk)}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln2{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .ln-risk{stroke:var(--risk); stroke-width:2.2; fill:none}.dg .thin{stroke-width:1}.dg .thick{stroke-width:3.2}.dg .dash{stroke-dasharray:6 4}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .f-ink{fill:var(--ink)}.dg .f-risk{fill:var(--risk)}.dg .f-risk-a{fill:var(--risk); fill-opacity:.17}.dg .mk-risk{fill:var(--risk)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="똑같이 나눠 담은 종목 수가 늘면 포트폴리오 표준편차는 평균 공분산이 정하는 바닥으로 내려간다. 상관 0.4면 바닥이 31.6%, 상관 0이면 0이다." class="dg" height="100%" role="img" viewBox="0 0 600 372" width="100%">
+<defs><marker id="ar-f07c" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk-risk" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<path class="f-risk-a" d="M70.0,50.0 L82.6,94.1 L95.1,110.9 L107.7,119.8 L120.3,125.3 L132.8,129.1 L145.4,131.8 L157.9,133.9 L170.5,135.6 L183.1,136.9 L195.6,138.0 L208.2,138.9 L220.8,139.7 L233.3,140.3 L245.9,140.9 L258.5,141.4 L271.0,141.9 L283.6,142.3 L296.2,142.6 L308.7,142.9 L321.3,143.2 L333.8,143.5 L346.4,143.8 L359.0,144.0 L371.5,144.2 L384.1,144.4 L396.7,144.6 L409.2,144.7 L421.8,144.9 L434.4,145.0 L446.9,145.2 L459.5,145.3 L472.1,145.4 L484.6,145.5 L497.2,145.6 L509.7,145.7 L522.3,145.8 L534.9,145.9 L547.4,146.0 L560.0,146.1 L560.0,149.2 L70.0,149.2 Z"></path>
+<line class="ax" x1="70.0" x2="560.0" y1="320.0" y2="320.0"></line>
+<line class="ax" x1="70.0" x2="70.0" y1="320.0" y2="50.0"></line>
+<line class="ax" x1="70.0" x2="70.0" y1="320.0" y2="325.0"></line>
+<text class="t-num mid t-ink2" x="70.0" y="340.0">1</text>
+<line class="ax" x1="183.1" x2="183.1" y1="320.0" y2="325.0"></line>
+<text class="t-num mid t-ink2" x="183.1" y="340.0">10</text>
+<line class="ax" x1="308.7" x2="308.7" y1="320.0" y2="325.0"></line>
+<text class="t-num mid t-ink2" x="308.7" y="340.0">20</text>
+<line class="ax" x1="434.4" x2="434.4" y1="320.0" y2="325.0"></line>
+<text class="t-num mid t-ink2" x="434.4" y="340.0">30</text>
+<line class="ax" x1="560.0" x2="560.0" y1="320.0" y2="325.0"></line>
+<text class="t-num mid t-ink2" x="560.0" y="340.0">40</text>
+<line class="ax" x1="65.0" x2="70.0" y1="320.0" y2="320.0"></line>
+<text class="t-num end t-ink2" x="61.0" y="325.0">0</text>
+<line class="ax" x1="65.0" x2="70.0" y1="266.0" y2="266.0"></line>
+<text class="t-num end t-ink2" x="61.0" y="271.0">10</text>
+<line class="ax" x1="65.0" x2="70.0" y1="212.0" y2="212.0"></line>
+<text class="t-num end t-ink2" x="61.0" y="217.0">20</text>
+<line class="ax" x1="65.0" x2="70.0" y1="158.0" y2="158.0"></line>
+<text class="t-num end t-ink2" x="61.0" y="163.0">30</text>
+<line class="ax" x1="65.0" x2="70.0" y1="104.0" y2="104.0"></line>
+<text class="t-num end t-ink2" x="61.0" y="109.0">40</text>
+<line class="ax" x1="65.0" x2="70.0" y1="50.0" y2="50.0"></line>
+<text class="t-num end t-ink2" x="61.0" y="55.0">50</text>
+<line class="ln-risk dash thin" x1="70.0" x2="560.0" y1="149.2" y2="149.2"></line>
+<path class="ln-risk thick" d="M70.0,50.0 L82.6,94.1 L95.1,110.9 L107.7,119.8 L120.3,125.3 L132.8,129.1 L145.4,131.8 L157.9,133.9 L170.5,135.6 L183.1,136.9 L195.6,138.0 L208.2,138.9 L220.8,139.7 L233.3,140.3 L245.9,140.9 L258.5,141.4 L271.0,141.9 L283.6,142.3 L296.2,142.6 L308.7,142.9 L321.3,143.2 L333.8,143.5 L346.4,143.8 L359.0,144.0 L371.5,144.2 L384.1,144.4 L396.7,144.6 L409.2,144.7 L421.8,144.9 L434.4,145.0 L446.9,145.2 L459.5,145.3 L472.1,145.4 L484.6,145.5 L497.2,145.6 L509.7,145.7 L522.3,145.8 L534.9,145.9 L547.4,146.0 L560.0,146.1"></path>
+<path class="ln2" d="M70.0,50.0 L82.6,129.1 L95.1,164.1 L107.7,185.0 L120.3,199.3 L132.8,209.8 L145.4,217.9 L157.9,224.5 L170.5,230.0 L183.1,234.6 L195.6,238.6 L208.2,242.1 L220.8,245.1 L233.3,247.8 L245.9,250.3 L258.5,252.5 L271.0,254.5 L283.6,256.4 L296.2,258.1 L308.7,259.6 L321.3,261.1 L333.8,262.4 L346.4,263.7 L359.0,264.9 L371.5,266.0 L384.1,267.0 L396.7,268.0 L409.2,269.0 L421.8,269.9 L434.4,270.7 L446.9,271.5 L459.5,272.3 L472.1,273.0 L484.6,273.7 L497.2,274.4 L509.7,275.0 L522.3,275.6 L534.9,276.2 L547.4,276.8 L560.0,277.3"></path>
+<text class="t-s end t-ink2" x="560.0" y="358.0">종목 수 n (똑같이 나눠 담음)</text>
+<text class="t-s t-ink2" x="78.0" y="36.0">포트폴리오 σ (%)</text>
+<text class="t-s end t-risk b" x="560.0" y="133.2">ρ = 0.4</text>
+<text class="t-s end" x="560.0" y="171.2">체계적 위험 — 바닥 31.6%</text>
+<text class="t-s end t-ink2" x="560.0" y="263.3">ρ = 0 → 바닥이 0</text>
+<circle class="f-ink" cx="70.0" cy="50.0" r="4"></circle>
+<circle class="f-risk" cx="183.1" cy="136.9" r="4"></circle>
+<circle class="f-ink" cx="183.1" cy="234.6" r="4"></circle>
+<text class="t-num" x="80.0" y="55.0">50%</text>
+<text class="t-num t-risk" x="185.1" y="124.9">33.9%</text>
+<text class="t-num" x="192.1" y="226.6">15.8%</text>
+<text class="t-s t-risk" x="271.0" y="93.2">분산 가능 위험(기업 고유)</text>
+<path class="ln-risk thin" d="M283.6,99.2 L283.6,144.0" marker-end="url(#ar-f07c)"></path>
+</svg></svg>

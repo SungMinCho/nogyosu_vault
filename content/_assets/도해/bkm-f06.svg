@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 40 600 332" width="600" height="332" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-alarm{color:var(--alarm)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-mute{fill:var(--mute)}.dg .t-alarm{fill:var(--alarm)}.dg .halo{paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln{stroke:var(--ink); stroke-width:1.5; fill:none}.dg .ln2{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .ln-alarm{stroke:var(--alarm); stroke-width:2.2; fill:none}.dg .thin{stroke-width:1}.dg .dash{stroke-dasharray:6 4}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-paper2{fill:var(--paper-2)}.dg .f-alarm-a{fill:var(--alarm); fill-opacity:.16}.dg .no-fill{fill:none}.dg .mk{fill:var(--ink)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="실물 100주가 갑에서 A로 빌려져 을에게 팔리고, 을이 그중 40주를 다시 B에게 빌려줘 병에게 팔리면, 장부상 주인은 240주, 공매도 잔고는 140주가 된다. 실물은 여전히 100주다." class="dg" height="100%" role="img" viewBox="0 40 600 332" width="100%">
+<defs><marker id="ar-f03b" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<!-- row 1 -->
+<rect class="f-paper2" height="56" width="120" x="20" y="60"></rect>
+<text class="b mid" x="80" y="84">갑</text>
+<text class="t-xs t-ink2 mid" x="80" y="104">롱 100 · 빌려줌</text>
+<rect class="f-alarm-a" height="56" width="120" x="240" y="60"></rect>
+<rect class="no-fill ln-alarm thin" height="56" width="120" x="240" y="60"></rect>
+<text class="b mid" x="300" y="84">공매도자 A</text>
+<text class="t-xs t-alarm mid" x="300" y="104">숏 100</text>
+<rect class="f-paper2" height="56" width="120" x="460" y="60"></rect>
+<text class="b mid" x="520" y="84">을</text>
+<text class="t-xs t-ink2 mid" x="520" y="104">롱 100 · 40 빌려줌</text>
+<line class="ln2 dash" marker-end="url(#ar-f03b)" x1="142" x2="236" y1="88" y2="88"></line>
+<text class="t-xs mid halo" x="190" y="78">① 100주 대여</text>
+<line class="ln" marker-end="url(#ar-f03b)" x1="362" x2="456" y1="88" y2="88"></line>
+<text class="t-xs mid halo" x="410" y="78">100주 매도</text>
+<!-- row 2 -->
+<line class="ln2 dash" marker-end="url(#ar-f03b)" x1="520" x2="520" y1="118" y2="186"></line>
+<text class="t-xs end halo" x="508" y="156">② 40주 대여</text>
+<rect class="f-alarm-a" height="56" width="120" x="460" y="190"></rect>
+<rect class="no-fill ln-alarm thin" height="56" width="120" x="460" y="190"></rect>
+<text class="b mid" x="520" y="214">공매도자 B</text>
+<text class="t-xs t-alarm mid" x="520" y="234">숏 40</text>
+<rect class="f-paper2" height="56" width="120" x="240" y="190"></rect>
+<text class="b mid" x="300" y="214">병</text>
+<text class="t-xs t-ink2 mid" x="300" y="234">롱 40</text>
+<line class="ln" marker-end="url(#ar-f03b)" x1="458" x2="364" y1="218" y2="218"></line>
+<text class="t-xs mid halo" x="410" y="208">40주 매도</text>
+<text class="t-xs t-mute" x="20" y="200">점선 = 빌려줌</text>
+<text class="t-xs t-mute" x="20" y="220">실선 = 팔림</text>
+<!-- tally -->
+<line class="grid" x1="20" x2="580" y1="268" y2="268"></line>
+<text class="t-s b" x="20" y="296">장부상 주인</text>
+<text class="t-num" x="190" y="296">갑 100 + 을 100 + 병 40 = 240주</text>
+<text class="t-s b t-alarm" x="20" y="326">갚을 약속(공매도)</text>
+<text class="t-num t-alarm" x="190" y="326">A 100 + B 40 = 140주 (140%)</text>
+<text class="t-s b" x="20" y="356">실물 주식</text>
+<text class="t-num" x="190" y="356">100주 = 240 − 140</text>
+</svg></svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 360" width="600" height="360" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-ret{color:var(--ret)}.t-risk{color:var(--risk)}.t-time{color:var(--time)}.t-alarm{color:var(--alarm)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-ret{fill:var(--ret)}.dg .t-risk{fill:var(--risk)}.dg .t-time{fill:var(--time)}.dg .t-alarm{fill:var(--alarm)}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln-ret{stroke:var(--ret); stroke-width:2.2; fill:none}.dg .ln-alarm{stroke:var(--alarm); stroke-width:2.2; fill:none}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-ink{fill:var(--ink)}.dg .f-ret{fill:var(--ret)}.dg .f-time{fill:var(--time)}.dg .f-alarm{fill:var(--alarm)}.dg .mk-ret{fill:var(--ret)}.dg .mk-alarm{fill:var(--alarm)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="베타 0.5에 기대수익 5%인 잘 분산된 포트폴리오 B는 APT의 직선보다 1.5%p 아래에 있다. A 절반과 무위험자산 절반으로 같은 베타의 C(6.5%)를 만들어 C를 사고 B를 팔면 위험 없이 이익이 나고, 그 매도 압력이 B의 값을 떨어뜨려 B를 직선 위로 끌어올린다." class="dg" height="100%" role="img" viewBox="0 0 600 360" width="100%">
+<defs><marker id="ar-f10a" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk-alarm" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="ar-f10a-ret" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk-ret" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<line class="grid" x1="70" x2="550.0" y1="312.0" y2="312.0"></line>
+<text class="t-num end t-ink2" x="62" y="316.5">0</text>
+<line class="grid" x1="70" x2="550.0" y1="249.7" y2="249.7"></line>
+<text class="t-num end t-ink2" x="62" y="254.2">3</text>
+<line class="grid" x1="70" x2="550.0" y1="187.4" y2="187.4"></line>
+<text class="t-num end t-ink2" x="62" y="191.9">6</text>
+<line class="grid" x1="70" x2="550.0" y1="125.1" y2="125.1"></line>
+<text class="t-num end t-ink2" x="62" y="129.6">9</text>
+<line class="grid" x1="70" x2="550.0" y1="62.8" y2="62.8"></line>
+<text class="t-num end t-ink2" x="62" y="67.3">12</text>
+<path class="ax" d="M70,37.8 V312 H550.0"></path>
+<line class="ax" x1="70.0" x2="70.0" y1="312" y2="317"></line>
+<text class="t-num mid t-ink2" x="70.0" y="333">0</text>
+<line class="ax" x1="220.0" x2="220.0" y1="312" y2="317"></line>
+<text class="t-num mid t-ink2" x="220.0" y="333">0.5</text>
+<line class="ax" x1="370.0" x2="370.0" y1="312" y2="317"></line>
+<text class="t-num mid t-ink2" x="370.0" y="333">1</text>
+<line class="ax" x1="520.0" x2="520.0" y1="312" y2="317"></line>
+<text class="t-num mid t-ink2" x="520.0" y="333">1.5</text>
+<text class="t-s end t-risk" x="550.0" y="355">요인 베타 β</text>
+<text class="t-xs t-ret" x="62" y="27.8">기대수익률 %</text>
+<line class="ln-ret" x1="70.0" x2="496.0" y1="249.7" y2="43.2"></line>
+<text class="t-s t-ret" x="391.0" y="152.1">APT의 직선 E = 3% + 7%·β</text>
+<circle class="f-time" cx="70.0" cy="249.7" r="5.5"></circle>
+<text class="t-s t-time" x="80.0" y="269.7">F  무위험 3%</text>
+<circle class="f-ink" cx="370.0" cy="104.3" r="5.5"></circle>
+<text class="t-s b" x="382.0" y="124.3">A</text>
+<text class="t-xs t-num" x="398.0" y="124.3">β 1, 10%</text>
+<circle class="f-ret" cx="220.0" cy="177.0" r="5.5"></circle>
+<text class="t-s end b t-ret" x="208.0" y="165.0">C</text>
+<text class="t-xs end t-ink2" x="208.0" y="183.0">½A + ½F = 6.5%</text>
+<circle class="f-alarm" cx="220.0" cy="208.2" r="5.5"></circle>
+<text class="t-s end b t-alarm" x="208.0" y="230.2">B</text>
+<text class="t-xs end t-ink2" x="208.0" y="248.2">β 0.5, 5%</text>
+<path class="ln-alarm" d="M220.0,200.2 V186.0" marker-end="url(#ar-f10a)"></path>
+<text class="t-xs t-alarm" x="236.0" y="206.2">B를 공매도 · C를 매수</text>
+<text class="t-xs t-ink2" x="236.0" y="223.2">β가 같아 요인 위험은 지워지고</text>
+<text class="t-xs t-ink2" x="236.0" y="240.2">1.5%p가 위험 없이 남는다</text>
+<text class="t-xs t-alarm" x="236.0" y="257.2">→ B의 값이 내려 기대수익이 6.5%로</text>
+<circle class="f-alarm" cx="430.0" cy="42.0" r="5.5"></circle>
+<text class="t-s b t-alarm" x="442.0" y="47.0">D</text>
+<path class="ln-alarm" d="M430.0,50.0 V66.2" marker-end="url(#ar-f10a)"></path>
+<text class="t-xs end t-alarm" x="418.0" y="40.0">너무 싸면 사들여 값이 오르고</text>
+<text class="t-xs end t-alarm" x="418.0" y="56.0">기대수익이 선까지 내려온다</text>
+</svg></svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 200" width="760" height="200" class="fig-scroll fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --ground:#E5E6E1; --panel:#F0F1EC; --ink:#1B1D21; --mute:#5B5F63; --rule:#C3C6C0;
+  --sub:#1D4F93; --sym:#855D00; --jou:#AE2E1C;
+  --sub-t:rgba(29,79,147,.12); --sym-t:rgba(201,150,20,.22); --jou-t:rgba(174,46,28,.12);
+  --flb:#1F4F96; --fly:#E3B021; --flr:#C0301F;
+  --f-body:"Spectral","Nanum Myeongjo","Noto Serif CJK KR","Noto Serif KR","AppleMyungjo",serif;
+  --f-disp:"Hahmlet","Nanum Myeongjo","Noto Serif CJK KR",serif;
+  --f-label:"Nanum Gothic","Noto Sans CJK KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Courier Prime","Nanum Gothic Coding","Noto Sans Mono CJK KR",monospace;
+  --f-lat:"Spectral","Nanum Myeongjo",serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ground:#121417; --panel:#1B1E22; --ink:#E6E4DE; --mute:#A2A6A9; --rule:#353A40;
+    --sub:#86AEEA; --sym:#DDB14C; --jou:#EE7B64;
+    --sub-t:rgba(134,174,234,.16); --sym-t:rgba(221,177,76,.18); --jou-t:rgba(238,123,100,.16);
+    --flb:#2A5AA0; --fly:#C99A1B; --flr:#B0342A;
+  }}:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ground:#121417; --panel:#1B1E22; --ink:#E6E4DE; --mute:#A2A6A9; --rule:#353A40;
+  --sub:#86AEEA; --sym:#DDB14C; --jou:#EE7B64;
+  --sub-t:rgba(134,174,234,.16); --sym-t:rgba(221,177,76,.18); --jou-t:rgba(238,123,100,.16);
+  --flb:#2A5AA0; --fly:#C99A1B; --flr:#B0342A;
+}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:2.2rem 4rem; }.lecture{ display:contents; }.flag svg{ display:block; width:100%; height:auto; }.fig{ margin-block:.6rem; display:grid; gap:.5rem; }.fig-scroll{ overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background:
+  linear-gradient(90deg,var(--panel) 30%,transparent) left/2.2rem 100% no-repeat local,
+  linear-gradient(270deg,var(--panel) 30%,transparent) right/2.2rem 100% no-repeat local,
+  radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.18),transparent) left/.8rem 100% no-repeat scroll,
+  radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.18),transparent) right/.8rem 100% no-repeat scroll, var(--panel);
+  padding:.6rem .4rem; }.fig svg{ display:block; width:100%; height:auto; min-width:640px; }svg text{ fill:var(--ink); font-family:var(--f-label); }.t-sm{ font-size:12px; }.t-md{ font-size:13.5px; }.t-b{ font-weight:700; }.t-mute{ fill:var(--mute); }.t-sub{ fill:var(--sub); }.t-sym{ fill:var(--sym); }.t-jou{ fill:var(--jou); }.t-it{ font-family:var(--f-lat); font-style:italic; }.t-word{ font-family:var(--f-lat); font-style:italic; font-size:40px; }.f-ground{ fill:var(--ground); }.f-none{ fill:none; }.f-sym{ fill:var(--sym); }.f-jou{ fill:var(--jou); }.s-sub{ stroke:var(--sub); }.s-sym{ stroke:var(--sym); }.s-jou{ stroke:var(--jou); }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:transparent"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="코기토 에르고 숨의 세 단어가 책의 세 부다. 코기토 아래에는 비어 있는 원(공백), 에르고 아래에는 가운데가 끊긴 화살표(비약), 숨 아래에는 제자리로 도는 화살표(고리)." data-fig="f00" height="100%" role="img" style="--fw:760" viewBox="0 0 760 200" width="100%"><defs><marker id="f00-a-sym" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-sym" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f00-a-jou" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-jou" d="M0,0 L10,5 L0,10 z"></path></marker></defs><text class="t-word t-sub" text-anchor="middle" x="130" y="62">cogito</text><text class="t-sm t-mute" text-anchor="middle" x="130" y="164">1부 · 1–2장</text><text class="t-md t-b" text-anchor="middle" x="130" y="184">주체라 불리는 공백</text><text class="t-word t-sym" text-anchor="middle" x="380" y="62">ergo</text><text class="t-sm t-mute" text-anchor="middle" x="380" y="164">2부 · 3–4장</text><text class="t-md t-b" text-anchor="middle" x="380" y="184">변증법적 비약</text><text class="t-word t-jou" text-anchor="middle" x="630" y="62">sum</text><text class="t-sm t-mute" text-anchor="middle" x="630" y="164">3부 · 5–6장</text><text class="t-md t-b" text-anchor="middle" x="630" y="184">향락의 고리</text><circle class="s-sub f-ground" cx="130" cy="112" r="17" stroke-dasharray="4 3" stroke-width="2"></circle><text class="t-sm t-sub t-it" text-anchor="middle" x="130" y="116">x</text><line class="s-sym" stroke-width="2" x1="330" x2="368" y1="112" y2="112"></line><line class="s-sym" marker-end="url(#f00-a-sym)" stroke-width="2" x1="392" x2="428" y1="112" y2="112"></line><text class="t-sm t-sym" text-anchor="middle" x="380" y="104">?</text><path class="s-jou f-none" d="M 630 95 A 17 17 0 1 1 613 112" marker-end="url(#f00-a-jou)" stroke-width="2"></path></svg></svg>

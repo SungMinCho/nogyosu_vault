@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 280" width="720" height="280" class="frame fig lecture doc page"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#E7EAE8; --panel:#F3F5F4; --code-bg:#EEF1F0;
+  --ink:#1B2224; --muted:#586365; --rule:#C1C9C8; --rule-soft:rgba(27,34,36,.07);
+  --if:#2A5687; --if-soft:rgba(42,86,135,.12); --if-deep:#15375C;
+  --ore:#8A6014; --ore-soft:rgba(138,96,20,.15);
+  --cx:#7A3B72; --cx-soft:rgba(122,59,114,.12);
+  --flag:#B3381B; --flag-soft:rgba(179,56,27,.10);
+  --canary:#E9B30C;
+  --f-body:"Source Serif 4","Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-disp:"Do Hyeon","Nanum Gothic","Apple SD Gothic Neo","Malgun Gothic","Noto Sans CJK KR",sans-serif;
+  --f-label:"Nanum Gothic","Apple SD Gothic Neo","Malgun Gothic","Noto Sans CJK KR",sans-serif;
+  --f-mono:"Red Hat Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#0F1416; --panel:#161D20; --code-bg:#131A1D;
+    --ink:#E1E7E6; --muted:#95A1A3; --rule:#2F3A3D; --rule-soft:rgba(225,231,230,.06);
+    --if:#7EA7DA; --if-soft:rgba(126,167,218,.16); --if-deep:#3B6AA5;
+    --ore:#D6A553; --ore-soft:rgba(214,165,83,.17);
+    --cx:#CB8EC2; --cx-soft:rgba(203,142,194,.17);
+    --flag:#EF7B57; --flag-soft:rgba(239,123,87,.14);
+    --canary:#F4C63A;
+  }}:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#0F1416; --panel:#161D20; --code-bg:#131A1D;
+  --ink:#E1E7E6; --muted:#95A1A3; --rule:#2F3A3D; --rule-soft:rgba(225,231,230,.06);
+  --if:#7EA7DA; --if-soft:rgba(126,167,218,.16); --if-deep:#3B6AA5;
+  --ore:#D6A553; --ore-soft:rgba(214,165,83,.17);
+  --cx:#CB8EC2; --cx-soft:rgba(203,142,194,.17);
+  --flag:#EF7B57; --flag-soft:rgba(239,123,87,.14);
+  --canary:#F4C63A;
+}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1rem 3rem }.lecture{ display:contents }.fig{ margin:.6rem 0 }.frame{ overflow-x:auto; overflow-y:hidden; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding-block:.8rem;
+  background-image:linear-gradient(to right,var(--bg),var(--bg)),linear-gradient(to right,var(--bg),var(--bg)),
+    linear-gradient(to right,var(--rule),transparent),linear-gradient(to left,var(--rule),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat;
+  background-size:1.5rem 100%,1.5rem 100%,.6rem 100%,.6rem 100%; background-attachment:local,local,scroll,scroll }.dg{ display:block; width:100%; height:auto }.dg .t, .hero-svg .t{ font-family:var(--f-label); font-size:13px; fill:var(--ink) }.dg .t-s{ font-size:12px }.dg .t-xs{ font-size:11px }.dg .t-b, .hero-svg .t-b{ font-weight:700 }.dg .t-m{ font-family:var(--f-mono) }.dg .t-if, .hero-svg .t-if{ fill:var(--if) }.dg .t-cx{ fill:var(--cx) }.dg line, .dg polyline, .dg path, .hero-svg line, .hero-svg polyline, .hero-svg path{ fill:none }.f-ink{ fill:var(--ink)!important }.f-bg{ fill:var(--bg)!important }.f-if-soft{ fill:var(--if-soft)!important }.f-cx{ fill:var(--cx)!important }.grid{ stroke:var(--rule); stroke-width:.8 }.s-ink-thin{ stroke:var(--ink); stroke-width:1 }.s-if{ stroke:var(--if); stroke-width:1.4 }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="텍스트 클래스 인터페이스 세 후보의 비교: 줄 단위와 글자 단위는 둘 다 위층 화면 코드에 일을 떠넘기고, 그 공통 결점에서 범위 단위라는 세 번째 안이 나와 네 기준을 모두 만족한다." class="dg" height="100%" role="img" style="" viewBox="0 0 720 280" width="100%"><defs><marker id="a-ink-twice" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="a-cx-twice" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-cx" d="M0,0 L10,5 L0,10 z"></path></marker></defs><text class="t t-s t-b" text-anchor="middle" x="352.0" y="34.0">위층이 쓰기 쉬움</text><text class="t t-s t-b" text-anchor="middle" x="452.0" y="34.0">인터페이스 단순</text><text class="t t-s t-b" text-anchor="middle" x="540.0" y="34.0">범용</text><text class="t t-s t-b" text-anchor="middle" x="626.0" y="34.0">효율</text><text class="t t-b" text-anchor="start" x="24.0" y="80.0">① 줄 단위</text><text class="t t-xs t-m" text-anchor="start" x="24.0" y="98.0">getLine · putLine</text><text class="t t-xs t-cx" text-anchor="start" x="24.0" y="116.0">화면이 줄을 쪼개고 붙임</text><circle class="f-bg s-ink-thin" cx="352" cy="84" r="8"></circle><circle class="f-bg s-ink-thin" cx="452" cy="84" r="8"></circle><path class="f-ink" d="M452,76 A8,8 0 0,0 452,92 z"></path><circle class="f-bg s-ink-thin" cx="540" cy="84" r="8"></circle><path class="f-ink" d="M540,76 A8,8 0 0,0 540,92 z"></path><circle class="f-ink" cx="626" cy="84" r="8"></circle><line class="grid" x1="14.0" x2="704.0" y1="126.0" y2="126.0"></line><text class="t t-b" text-anchor="start" x="24.0" y="140.0">② 글자 단위</text><text class="t t-xs t-m" text-anchor="start" x="24.0" y="158.0">insertChar · deleteChar</text><text class="t t-xs t-cx" text-anchor="start" x="24.0" y="176.0">선택 삭제에 반복문, 글자마다 호출</text><circle class="f-bg s-ink-thin" cx="352" cy="144" r="8"></circle><circle class="f-ink" cx="452" cy="144" r="8"></circle><circle class="f-ink" cx="540" cy="144" r="8"></circle><circle class="f-bg s-ink-thin" cx="626" cy="144" r="8"></circle><line class="grid" x1="14.0" x2="704.0" y1="186.0" y2="186.0"></line><rect class="f-if-soft s-if" height="64.0" rx="4" width="690.0" x="14.0" y="198.0"></rect><text class="t t-b t-if" text-anchor="start" x="24.0" y="220.0">③ 범위 단위</text><text class="t t-xs t-m" text-anchor="start" x="24.0" y="238.0">insert · delete(from, to)</text><text class="t t-xs t-cx" text-anchor="start" x="24.0" y="256.0">①·②의 공통 결점(위층에 일을 떠넘김)에서 배운 안</text><circle class="f-ink" cx="352" cy="224" r="8"></circle><circle class="f-ink" cx="452" cy="224" r="8"></circle><circle class="f-ink" cx="540" cy="224" r="8"></circle><circle class="f-ink" cx="626" cy="224" r="8"></circle></svg></svg>

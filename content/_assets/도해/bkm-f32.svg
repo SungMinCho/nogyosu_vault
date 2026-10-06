@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 380" width="640" height="380" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-risk{color:var(--risk)}.t-alarm{color:var(--alarm)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-mute{fill:var(--mute)}.dg .t-risk{fill:var(--risk)}.dg .t-alarm{fill:var(--alarm)}.dg .halo{paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln2{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .ln-mute{stroke:var(--mute); stroke-width:1.1; fill:none}.dg .ln-risk{stroke:var(--risk); stroke-width:2.2; fill:none}.dg .ln-alarm{stroke:var(--alarm); stroke-width:2.2; fill:none}.dg .thick{stroke-width:3.2}.dg .dash{stroke-dasharray:6 4}.dg .dot{stroke-dasharray:1.6 3.6; stroke-linecap:round}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-mute{fill:var(--mute)}.dg .f-risk{fill:var(--risk)}.dg .f-alarm{fill:var(--alarm)}.dg .f-alarm-a{fill:var(--alarm); fill-opacity:.16}.dg .f-ink-a{fill:var(--ink); fill-opacity:.08}.dg .no-fill{fill:none}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="대출 100건, 각 부도확률 5퍼센트인 풀에서 부도 건수가 k건 이상일 확률. 시니어 트랑셰가 손실을 보는 17건 이상의 확률이 대출이 독립이면 0.0009퍼센트, 잠재 상관 0.05면 0.46퍼센트, 0.3이면 6.9퍼센트다. 평균 부도 건수는 셋 다 5건이다." class="dg" height="100%" role="img" viewBox="0 0 640 380" width="100%">
+<rect class="f-alarm-a" height="280" width="62.5" x="80.0" y="40"></rect>
+<rect class="f-ink-a" height="280" width="150.0" x="142.5" y="40"></rect>
+<rect class="no-fill" height="280" width="287.5" x="292.5" y="40"></rect>
+<line class="grid" x1="80" x2="580" y1="40.0" y2="40.0"></line><text class="t-num end t-ink2" x="72" y="45.0">100%</text><line class="grid" x1="80" x2="580" y1="86.7" y2="86.7"></line><text class="t-num end t-ink2" x="72" y="91.7">10%</text><line class="grid" x1="80" x2="580" y1="133.3" y2="133.3"></line><text class="t-num end t-ink2" x="72" y="138.3">1%</text><line class="grid" x1="80" x2="580" y1="180.0" y2="180.0"></line><text class="t-num end t-ink2" x="72" y="185.0">0.1%</text><line class="grid" x1="80" x2="580" y1="226.7" y2="226.7"></line><text class="t-num end t-ink2" x="72" y="231.7">0.01%</text><line class="grid" x1="80" x2="580" y1="273.3" y2="273.3"></line><text class="t-num end t-ink2" x="72" y="278.3">0.001%</text><line class="grid" x1="80" x2="580" y1="320.0" y2="320.0"></line><text class="t-num end t-ink2" x="72" y="325.0">0.0001%</text><line class="ax" x1="80.0" x2="80.0" y1="320" y2="326"></line><text class="t-num mid t-ink2" x="80.0" y="343">0</text><line class="ax" x1="205.0" x2="205.0" y1="320" y2="326"></line><text class="t-num mid t-ink2" x="205.0" y="343">10</text><line class="ax" x1="330.0" x2="330.0" y1="320" y2="326"></line><text class="t-num mid t-ink2" x="330.0" y="343">20</text><line class="ax" x1="455.0" x2="455.0" y1="320" y2="326"></line><text class="t-num mid t-ink2" x="455.0" y="343">30</text><line class="ax" x1="580.0" x2="580.0" y1="320" y2="326"></line><text class="t-num mid t-ink2" x="580.0" y="343">40</text>
+<line class="ax" x1="80" x2="580" y1="320" y2="320"></line>
+<line class="ax" x1="80" x2="80" y1="40" y2="320"></line>
+<text class="t-s t-ink2" x="80" y="26">부도가 k건 이상일 확률 (로그 눈금)</text>
+<text class="t-s end t-ink2" x="580" y="366">부도 건수 k (100건 중)</text>
+<text class="t-xs mid" x="111" y="310">에퀴티</text>
+<text class="t-xs mid" x="217" y="310">메자닌</text>
+<text class="t-xs mid" x="360" y="310">시니어</text>
+<text class="t-xs" x="299" y="56">17건부터 시니어 손실</text>
+<line class="ln2 dash" x1="292.5" x2="292.5" y1="40" y2="320"></line>
+<path class="ln-mute thick dot" d="M80.0,40.0 L92.5,40.1 L105.0,40.8 L117.5,42.6 L130.0,46.0 L142.5,51.6 L155.0,59.4 L167.5,69.4 L180.0,81.7 L192.5,96.0 L205.0,112.3 L217.5,130.5 L230.0,150.6 L242.5,172.3 L255.0,195.6 L267.5,220.5 L280.0,246.8 L292.5,274.5 L305.0,303.6 L317.5,320.0"></path>
+<path class="ln-risk" d="M80.0,40.0 L92.5,40.6 L105.0,42.4 L117.5,45.3 L130.0,49.3 L142.5,54.3 L155.0,60.0 L167.5,66.3 L180.0,73.2 L192.5,80.6 L205.0,88.3 L217.5,96.3 L230.0,104.6 L242.5,113.1 L255.0,121.9 L267.5,130.8 L280.0,139.9 L292.5,149.1 L305.0,158.5 L317.5,168.0 L330.0,177.7 L342.5,187.4 L355.0,197.3 L367.5,207.2 L380.0,217.3 L392.5,227.4 L405.0,237.7 L417.5,248.0 L430.0,258.4 L442.5,268.9 L455.0,279.6 L467.5,290.2 L480.0,301.0 L492.5,311.9 L505.0,320.0"></path>
+<path class="ln-alarm" d="M80.0,40.0 L92.5,45.7 L105.0,50.4 L117.5,54.5 L130.0,58.3 L142.5,61.7 L155.0,64.9 L167.5,68.0 L180.0,71.0 L192.5,73.8 L205.0,76.5 L217.5,79.2 L230.0,81.8 L242.5,84.3 L255.0,86.8 L267.5,89.3 L280.0,91.7 L292.5,94.1 L305.0,96.5 L317.5,98.8 L330.0,101.1 L342.5,103.4 L355.0,105.7 L367.5,107.9 L380.0,110.2 L392.5,112.4 L405.0,114.6 L417.5,116.9 L430.0,119.1 L442.5,121.3 L455.0,123.5 L467.5,125.7 L480.0,128.0 L492.5,130.2 L505.0,132.4 L517.5,134.6 L530.0,136.9 L542.5,139.1 L555.0,141.3 L567.5,143.6 L580.0,145.9"></path>
+<circle class="f-alarm" cx="292.5" cy="94.1" r="4"></circle>
+<circle class="f-risk" cx="292.5" cy="149.1" r="4"></circle>
+<circle class="f-mute" cx="292.5" cy="274.5" r="4"></circle>
+<text class="t-num t-alarm halo" x="302.5" y="86.1">6.9%</text>
+<text class="t-num t-risk halo" x="302.5" y="141.1">0.46%</text>
+<text class="t-num end t-mute halo" x="282" y="280">0.0009%</text>
+<text class="t-s end t-alarm b" x="560" y="126.9">상관 0.30</text>
+<text class="t-s t-risk b" x="330" y="262">상관 0.05</text>
+<text class="t-s end t-mute b" x="190" y="172">독립</text>
+</svg></svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 340" width="600" height="340" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-xs{font-size:12.5px}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .halo{paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln{stroke:var(--ink); stroke-width:1.5; fill:none}.dg .ln-mute{stroke:var(--mute); stroke-width:1.1; fill:none}.dg .thin{stroke-width:1}.dg .thick{stroke-width:3.2}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-ink{fill:var(--ink)}.dg .f-ret-a{fill:var(--ret); fill-opacity:.17}.dg .f-ink-a{fill:var(--ink); fill-opacity:.08}.dg .no-fill{fill:none}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="약정 100짜리 사모펀드의 해마다 순현금흐름 막대와 누적선. 처음 4년은 캐피털 콜로 누적이 −71까지 파였다가, 회수가 시작되며 7년째에 플러스로 올라서 10년 뒤 +75로 끝난다." class="dg" height="100%" role="img" viewBox="0 0 600 340" width="100%">
+<defs></defs>
+<line class="grid" x1="70" x2="580" y1="276.7" y2="276.7"></line>
+<text class="t-num end t-xs" x="64.0" y="280.7">−80</text>
+<line class="grid" x1="70" x2="580" y1="223.3" y2="223.3"></line>
+<text class="t-num end t-xs" x="64.0" y="227.3">−40</text>
+<line class="ax" x1="70" x2="580" y1="170.0" y2="170.0"></line>
+<text class="t-num end t-xs" x="64.0" y="174.0">0</text>
+<line class="grid" x1="70" x2="580" y1="116.7" y2="116.7"></line>
+<text class="t-num end t-xs" x="64.0" y="120.7">+40</text>
+<line class="grid" x1="70" x2="580" y1="63.3" y2="63.3"></line>
+<text class="t-num end t-xs" x="64.0" y="67.3">+80</text>
+<rect class="f-ink-a" height="29.3" width="26" x="82.5" y="170.0"></rect>
+<rect class="no-fill ln-mute thin" height="29.3" width="26" x="82.5" y="170.0"></rect>
+<text class="t-num mid t-xs" x="95.5" y="310.0">1</text>
+<rect class="f-ink-a" height="32.0" width="26" x="133.5" y="170.0"></rect>
+<rect class="no-fill ln-mute thin" height="32.0" width="26" x="133.5" y="170.0"></rect>
+<text class="t-num mid t-xs" x="146.5" y="310.0">2</text>
+<rect class="f-ink-a" height="25.3" width="26" x="184.5" y="170.0"></rect>
+<rect class="no-fill ln-mute thin" height="25.3" width="26" x="184.5" y="170.0"></rect>
+<text class="t-num mid t-xs" x="197.5" y="310.0">3</text>
+<rect class="f-ink-a" height="8.0" width="26" x="235.5" y="170.0"></rect>
+<rect class="no-fill ln-mute thin" height="8.0" width="26" x="235.5" y="170.0"></rect>
+<text class="t-num mid t-xs" x="248.5" y="310.0">4</text>
+<rect class="f-ret-a" height="13.3" width="26" x="286.5" y="156.7"></rect>
+<text class="t-num mid t-xs" x="299.5" y="310.0">5</text>
+<rect class="f-ret-a" height="37.3" width="26" x="337.5" y="132.7"></rect>
+<text class="t-num mid t-xs" x="350.5" y="310.0">6</text>
+<rect class="f-ret-a" height="48.0" width="26" x="388.5" y="122.0"></rect>
+<text class="t-num mid t-xs" x="401.5" y="310.0">7</text>
+<rect class="f-ret-a" height="45.3" width="26" x="439.5" y="124.7"></rect>
+<text class="t-num mid t-xs" x="452.5" y="310.0">8</text>
+<rect class="f-ret-a" height="30.7" width="26" x="490.5" y="139.3"></rect>
+<text class="t-num mid t-xs" x="503.5" y="310.0">9</text>
+<rect class="f-ret-a" height="20.0" width="26" x="541.5" y="150.0"></rect>
+<text class="t-num mid t-xs" x="554.5" y="310.0">10</text>
+<text class="t-xs mid t-ink2" x="325.0" y="330.0">펀드 나이 (년)</text>
+<path class="ln thick" d="M95.5,199.3 L146.5,231.3 L197.5,256.7 L248.5,264.7 L299.5,251.3 L350.5,214.0 L401.5,166.0 L452.5,120.7 L503.5,90.0 L554.5,70.0"></path>
+<circle class="f-ink" cx="95.5" cy="199.3" r="3.2"></circle>
+<circle class="f-ink" cx="146.5" cy="231.3" r="3.2"></circle>
+<circle class="f-ink" cx="197.5" cy="256.7" r="3.2"></circle>
+<circle class="f-ink" cx="248.5" cy="264.7" r="3.2"></circle>
+<circle class="f-ink" cx="299.5" cy="251.3" r="3.2"></circle>
+<circle class="f-ink" cx="350.5" cy="214.0" r="3.2"></circle>
+<circle class="f-ink" cx="401.5" cy="166.0" r="3.2"></circle>
+<circle class="f-ink" cx="452.5" cy="120.7" r="3.2"></circle>
+<circle class="f-ink" cx="503.5" cy="90.0" r="3.2"></circle>
+<circle class="f-ink" cx="554.5" cy="70.0" r="3.2"></circle>
+<text class="t-xs mid halo" x="248.5" y="288.7">바닥 −71 (4년째)</text>
+<text class="t-xs halo" x="413.5" y="192.0">7년째 플러스</text>
+<text class="t-xs end halo" x="554.5" y="58.0">누적 +75</text>
+<rect class="f-ink-a" height="10" width="14" x="76" y="24"></rect>
+<rect class="no-fill ln-mute thin" height="10" width="14" x="76" y="24"></rect>
+<text class="t-xs" x="96.0" y="33.0">그해 순현금흐름 (납입 &gt; 분배)</text>
+<rect class="f-ret-a" height="10" width="14" x="306" y="24"></rect>
+<text class="t-xs" x="326.0" y="33.0">(분배 &gt; 납입)</text>
+<line class="ln thick" x1="430" x2="454" y1="29" y2="29"></line>
+<text class="t-xs" x="460.0" y="33.0">누적</text>
+</svg></svg>

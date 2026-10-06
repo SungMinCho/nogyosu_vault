@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 344" width="600" height="344" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-alarm{color:var(--alarm)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-alarm{fill:var(--alarm)}.dg .halo{paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln{stroke:var(--ink); stroke-width:1.5; fill:none}.dg .ln2{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .ln-alarm{stroke:var(--alarm); stroke-width:2.2; fill:none}.dg .thin{stroke-width:1}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-paper2{fill:var(--paper-2)}.dg .f-alarm-a{fill:var(--alarm); fill-opacity:.16}.dg .no-fill{fill:none}.dg .mk{fill:var(--ink)}.dg .mk-alarm{fill:var(--alarm)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="ETF 가격이 NAV보다 비싸면 지정참가자가 주식 바구니를 사서 운용사에 넘기고 새 ETF를 받아 거래소에 판다. 그 매수와 매도가 두 값의 틈을 닫을 때까지 이 고리가 돈다." class="dg" height="100%" role="img" viewBox="0 0 600 344" width="100%">
+<defs><marker id="ar-f04b" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="ar-f04b-alarm" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk-alarm" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<!-- A 주식 시장 -->
+<rect class="f-paper2" height="76" width="150" x="20" y="30"></rect>
+<text class="b mid" x="95" y="54">주식 시장</text>
+<text class="t-num mid" x="95" y="76">바구니 NAV 100</text>
+<text class="t-xs t-ink2 mid" x="95" y="96">사들임 → 값 ↑</text>
+<!-- B AP -->
+<rect class="f-paper2" height="72" width="150" x="225" y="118"></rect>
+<rect class="no-fill ln2" height="72" width="150" x="225" y="118"></rect>
+<text class="b mid" x="300" y="148">지정참가자</text>
+<text class="t-xs t-ink2 mid" x="300" y="170">AP · 차익을 노림</text>
+<!-- C 운용사 -->
+<rect class="f-paper2" height="76" width="150" x="430" y="30"></rect>
+<text class="b mid" x="505" y="54">ETF 운용사</text>
+<text class="t-xs t-ink2 mid" x="505" y="76">설정 · 환매 창구</text>
+<text class="t-xs t-ink2 mid" x="505" y="96">현금 대신 바구니</text>
+<!-- D 거래소 -->
+<rect class="f-paper2" height="76" width="150" x="430" y="198"></rect>
+<text class="b mid" x="505" y="222">거래소</text>
+<text class="t-num mid" x="505" y="244">ETF 가격 101</text>
+<text class="t-xs t-ink2 mid" x="505" y="264">팔림 → 값 ↓</text>
+<!-- arrows -->
+<line class="ln" marker-end="url(#ar-f04b)" x1="150" x2="223" y1="108" y2="140"></line>
+<text class="t-xs halo" x="200" y="104">① 바구니 매입</text>
+<line class="ln" marker-end="url(#ar-f04b)" x1="377" x2="428" y1="128" y2="84"></line>
+<text class="t-xs end halo" x="418" y="72">② 바구니 납입</text>
+<line class="ln" marker-end="url(#ar-f04b)" x1="428" x2="377" y1="102" y2="146"></line>
+<text class="t-xs halo" x="440" y="136">③ 새 ETF 5만 좌</text>
+<line class="ln" marker-end="url(#ar-f04b)" x1="377" x2="428" y1="178" y2="222"></line>
+<text class="t-xs end halo" x="398" y="226">④ ETF 매도</text>
+<!-- gap band -->
+<line class="grid" x1="20" x2="580" y1="290" y2="290"></line>
+<text class="b t-s" x="20" y="324">되먹임</text>
+<rect class="f-alarm-a" height="12" width="200" x="200" y="306"></rect>
+<line class="ax" x1="160" x2="440" y1="318" y2="318"></line>
+<line class="ax" x1="200" x2="200" y1="312" y2="324"></line>
+<line class="ax" x1="400" x2="400" y1="312" y2="324"></line>
+<line class="ln-alarm thin" marker-end="url(#ar-f04b-alarm)" x1="208" x2="282" y1="300" y2="300"></line>
+<line class="ln-alarm thin" marker-end="url(#ar-f04b-alarm)" x1="392" x2="318" y1="300" y2="300"></line>
+<text class="t-xs t-num mid" x="200" y="338">NAV 100</text>
+<text class="t-xs t-num mid" x="400" y="338">ETF 101</text>
+<text class="t-xs t-alarm end" x="580" y="314">틈 = 차익 기회</text>
+<text class="t-xs t-ink2 end" x="580" y="332">닫힐 때까지 ①–④ 반복</text>
+</svg></svg>

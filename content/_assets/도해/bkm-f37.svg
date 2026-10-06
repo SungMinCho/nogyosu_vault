@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 360" width="600" height="360" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-ret{color:var(--ret)}.t-risk{color:var(--risk)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-ret{fill:var(--ret)}.dg .t-risk{fill:var(--risk)}.dg .halo{paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln{stroke:var(--ink); stroke-width:1.5; fill:none}.dg .ln-ret{stroke:var(--ret); stroke-width:2.2; fill:none}.dg .ln-risk{stroke:var(--risk); stroke-width:2.2; fill:none}.dg .thick{stroke-width:3.2}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-ink{fill:var(--ink)}.dg .f-risk{fill:var(--risk)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="공통 채권의 가격–수익률 곡선은 아래로 볼록하다. 수익률 5퍼센트에서 그은 듀레이션 접선은 언제나 곡선 아래에 있고, 그 틈이 볼록성이다. 수익률이 3퍼센트포인트 오르면 직선은 766.16, 실제는 796.15." class="dg" height="100%" role="img" viewBox="0 0 600 360" width="100%">
+<line class="grid" x1="70.0" x2="570.0" y1="271.4" y2="271.4"></line>
+<text class="t-num end t-ink2" x="62.0" y="276.4">800</text>
+<line class="grid" x1="70.0" x2="570.0" y1="194.3" y2="194.3"></line>
+<text class="t-num end t-ink2" x="62.0" y="199.3">1,000</text>
+<line class="grid" x1="70.0" x2="570.0" y1="117.1" y2="117.1"></line>
+<text class="t-num end t-ink2" x="62.0" y="122.1">1,200</text>
+<line class="grid" x1="70.0" x2="570.0" y1="40.0" y2="40.0"></line>
+<text class="t-num end t-ink2" x="62.0" y="45.0">1,400</text>
+<line class="ax" x1="70.0" x2="570.0" y1="310.0" y2="310.0"></line>
+<line class="ax" x1="70.0" x2="70.0" y1="310.0" y2="30.0"></line>
+<line class="ax" x1="70.0" x2="70.0" y1="310.0" y2="315.0"></line>
+<text class="t-num mid t-ink2" x="70.0" y="332.0">2%</text>
+<line class="ax" x1="141.4" x2="141.4" y1="310.0" y2="315.0"></line>
+<text class="t-num mid t-ink2" x="141.4" y="332.0">3%</text>
+<line class="ax" x1="212.9" x2="212.9" y1="310.0" y2="315.0"></line>
+<text class="t-num mid t-ink2" x="212.9" y="332.0">4%</text>
+<line class="ax" x1="284.3" x2="284.3" y1="310.0" y2="315.0"></line>
+<text class="t-num mid t-ink2" x="284.3" y="332.0">5%</text>
+<line class="ax" x1="355.7" x2="355.7" y1="310.0" y2="315.0"></line>
+<text class="t-num mid t-ink2" x="355.7" y="332.0">6%</text>
+<line class="ax" x1="427.1" x2="427.1" y1="310.0" y2="315.0"></line>
+<text class="t-num mid t-ink2" x="427.1" y="332.0">7%</text>
+<line class="ax" x1="498.6" x2="498.6" y1="310.0" y2="315.0"></line>
+<text class="t-num mid t-ink2" x="498.6" y="332.0">8%</text>
+<line class="ax" x1="570.0" x2="570.0" y1="310.0" y2="315.0"></line>
+<text class="t-num mid t-ink2" x="570.0" y="332.0">9%</text>
+<text class="t-s end t-ink2" x="570.0" y="352.0">만기수익률</text>
+<line class="ln-risk" x1="70.0" x2="559.3" y1="104.1" y2="310.0"></line>
+<polyline class="ln thick" points="70.0,89.9 77.1,93.9 84.3,97.8 91.4,101.7 98.6,105.6 105.7,109.4 112.9,113.2 120.0,117.0 127.1,120.7 134.3,124.4 141.4,128.1 148.6,131.7 155.7,135.3 162.9,138.8 170.0,142.3 177.1,145.8 184.3,149.3 191.4,152.7 198.6,156.1 205.7,159.4 212.9,162.8 220.0,166.0 227.1,169.3 234.3,172.5 241.4,175.7 248.6,178.9 255.7,182.0 262.9,185.1 270.0,188.2 277.1,191.3 284.3,194.3 291.4,197.3 298.6,200.2 305.7,203.2 312.9,206.1 320.0,209.0 327.1,211.8 334.3,214.7 341.4,217.5 348.6,220.2 355.7,223.0 362.9,225.7 370.0,228.4 377.1,231.1 384.3,233.7 391.4,236.3 398.6,238.9 405.7,241.5 412.9,244.1 420.0,246.6 427.1,249.1 434.3,251.6 441.4,254.0 448.6,256.5 455.7,258.9 462.9,261.3 470.0,263.7 477.1,266.0 484.3,268.3 491.4,270.6 498.6,272.9 505.7,275.2 512.9,277.4 520.0,279.6 527.1,281.8 534.3,284.0 541.4,286.2 548.6,288.3 555.7,290.4 562.9,292.5 570.0,294.6"></polyline>
+<line class="ln-ret thick" x1="70.0" x2="70.0" y1="104.1" y2="89.9"></line>
+<circle class="f-ink" cx="70.0" cy="89.9" r="4"></circle>
+<circle class="f-risk" cx="70.0" cy="104.1" r="4"></circle>
+<line class="ln-ret thick" x1="498.6" x2="498.6" y1="284.5" y2="272.9"></line>
+<circle class="f-ink" cx="498.6" cy="272.9" r="4"></circle>
+<circle class="f-risk" cx="498.6" cy="284.5" r="4"></circle>
+<circle class="f-ink" cx="284.3" cy="194.3" r="5"></circle>
+<text class="t-num halo" x="294.3" y="184.3">(5%, 1,000)</text>
+<text class="t-num t-ret halo" x="80.0" y="79.9">+36.85</text>
+<text class="t-num t-ret halo" x="508.6" y="262.9">+29.98</text>
+<text class="t-s" x="377.1" y="124.9">곡선 = 실제 가격</text>
+<text class="t-s t-risk" x="377.1" y="144.9">직선 = 듀레이션 근사</text>
+<text class="t-s t-ret" x="377.1" y="164.9">녹색 틈 = 볼록성</text>
+</svg></svg>

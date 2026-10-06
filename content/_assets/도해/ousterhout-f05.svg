@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 300" width="720" height="300" class="frame fig lecture doc page"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#E7EAE8; --panel:#F3F5F4; --code-bg:#EEF1F0;
+  --ink:#1B2224; --muted:#586365; --rule:#C1C9C8; --rule-soft:rgba(27,34,36,.07);
+  --if:#2A5687; --if-soft:rgba(42,86,135,.12); --if-deep:#15375C;
+  --ore:#8A6014; --ore-soft:rgba(138,96,20,.15);
+  --cx:#7A3B72; --cx-soft:rgba(122,59,114,.12);
+  --flag:#B3381B; --flag-soft:rgba(179,56,27,.10);
+  --canary:#E9B30C;
+  --f-body:"Source Serif 4","Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-disp:"Do Hyeon","Nanum Gothic","Apple SD Gothic Neo","Malgun Gothic","Noto Sans CJK KR",sans-serif;
+  --f-label:"Nanum Gothic","Apple SD Gothic Neo","Malgun Gothic","Noto Sans CJK KR",sans-serif;
+  --f-mono:"Red Hat Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#0F1416; --panel:#161D20; --code-bg:#131A1D;
+    --ink:#E1E7E6; --muted:#95A1A3; --rule:#2F3A3D; --rule-soft:rgba(225,231,230,.06);
+    --if:#7EA7DA; --if-soft:rgba(126,167,218,.16); --if-deep:#3B6AA5;
+    --ore:#D6A553; --ore-soft:rgba(214,165,83,.17);
+    --cx:#CB8EC2; --cx-soft:rgba(203,142,194,.17);
+    --flag:#EF7B57; --flag-soft:rgba(239,123,87,.14);
+    --canary:#F4C63A;
+  }}:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#0F1416; --panel:#161D20; --code-bg:#131A1D;
+  --ink:#E1E7E6; --muted:#95A1A3; --rule:#2F3A3D; --rule-soft:rgba(225,231,230,.06);
+  --if:#7EA7DA; --if-soft:rgba(126,167,218,.16); --if-deep:#3B6AA5;
+  --ore:#D6A553; --ore-soft:rgba(214,165,83,.17);
+  --cx:#CB8EC2; --cx-soft:rgba(203,142,194,.17);
+  --flag:#EF7B57; --flag-soft:rgba(239,123,87,.14);
+  --canary:#F4C63A;
+}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1rem 3rem }.lecture{ display:contents }.fig{ margin:.6rem 0 }.frame{ overflow-x:auto; overflow-y:hidden; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding-block:.8rem;
+  background-image:linear-gradient(to right,var(--bg),var(--bg)),linear-gradient(to right,var(--bg),var(--bg)),
+    linear-gradient(to right,var(--rule),transparent),linear-gradient(to left,var(--rule),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat;
+  background-size:1.5rem 100%,1.5rem 100%,.6rem 100%,.6rem 100%; background-attachment:local,local,scroll,scroll }.dg{ display:block; width:100%; height:auto }.dg .t, .hero-svg .t{ font-family:var(--f-label); font-size:13px; fill:var(--ink) }.dg .t-s{ font-size:12px }.dg .t-xs{ font-size:11px }.dg .t-b, .hero-svg .t-b{ font-weight:700 }.dg .t-m{ font-family:var(--f-mono) }.dg .t-mut, .hero-svg .t-mut{ fill:var(--muted) }.dg .t-if, .hero-svg .t-if{ fill:var(--if) }.dg .t-cx{ fill:var(--cx) }.dg line, .dg polyline, .dg path, .hero-svg line, .hero-svg polyline, .hero-svg path{ fill:none }.f-ink{ fill:var(--ink)!important }.f-if-soft{ fill:var(--if-soft)!important }.f-cx-soft{ fill:var(--cx-soft)!important }.ln{ stroke:var(--ink); stroke-width:1.4 }.ln-mut{ stroke:var(--rule); stroke-width:1.2 }.s-if{ stroke:var(--if); stroke-width:1.4 }.s-cx{ stroke:var(--cx); stroke-width:1.4 }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="특수화를 떼어 내는 두 방향: 편집기는 백스페이스와 선택 영역을 위층 화면 클래스로 밀어 올려 텍스트 클래스를 범용으로 두고, 운영체제는 장치별 특수성을 아래층 드라이버로 밀어 내려 핵심을 범용으로 둔다." class="dg" height="100%" role="img" style="" viewBox="0 0 720 300" width="100%"><defs><marker id="a-ink-hour" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker></defs><text class="t t-b" text-anchor="middle" x="180.0" y="24.0">위로 민다 — 편집기</text><text class="t t-b" text-anchor="middle" x="540.0" y="24.0">아래로 민다 — 운영체제</text><line class="ln-mut" x1="360.0" x2="360.0" y1="36.0" y2="290.0"></line><rect class="f-cx-soft s-cx" height="66.0" rx="4" width="300.0" x="30.0" y="44.0"></rect><text class="t t-b t-cx" text-anchor="middle" x="180.0" y="70.0">화면 클래스 — 특수</text><text class="t t-s" text-anchor="middle" x="180.0" y="92.0">backspace · 선택 영역 · 키 배치</text><rect class="f-if-soft s-if" height="66.0" rx="4" width="150.0" x="105.0" y="168.0"></rect><text class="t t-b t-if" text-anchor="middle" x="180.0" y="194.0">텍스트 클래스 — 범용</text><text class="t t-s t-m" text-anchor="middle" x="180.0" y="216.0">insert · delete · offset</text><line class="ln" marker-end="url(#a-ink-hour)" x1="180.0" x2="180.0" y1="166.0" y2="114.0"></line><text class="t t-s" text-anchor="start" x="190.0" y="146.0">특수화를 위로</text><text class="t t-s t-mut" text-anchor="middle" x="180.0" y="262.0">텍스트 클래스는 백스페이스를 모른다</text><rect class="f-if-soft s-if" height="66.0" rx="4" width="150.0" x="465.0" y="44.0"></rect><text class="t t-b t-if" text-anchor="middle" x="540.0" y="70.0">OS 핵심 — 범용</text><text class="t t-s" text-anchor="middle" x="540.0" y="92.0">블록 읽기 · 블록 쓰기</text><rect class="f-cx-soft s-cx" height="58.0" rx="4" width="96.0" x="385.0" y="176.0"></rect><text class="t t-b t-cx" text-anchor="middle" x="433.0" y="200.0">디스크 A</text><text class="t t-xs" text-anchor="middle" x="433.0" y="220.0">드라이버 — 특수</text><line class="ln" marker-end="url(#a-ink-hour)" x1="540.0" x2="433.0" y1="112.0" y2="173.0"></line><rect class="f-cx-soft s-cx" height="58.0" rx="4" width="96.0" x="493.0" y="176.0"></rect><text class="t t-b t-cx" text-anchor="middle" x="541.0" y="200.0">디스크 B</text><text class="t t-xs" text-anchor="middle" x="541.0" y="220.0">드라이버 — 특수</text><line class="ln" marker-end="url(#a-ink-hour)" x1="540.0" x2="541.0" y1="112.0" y2="173.0"></line><rect class="f-cx-soft s-cx" height="58.0" rx="4" width="96.0" x="601.0" y="176.0"></rect><text class="t t-b t-cx" text-anchor="middle" x="649.0" y="200.0">디스크 C</text><text class="t t-xs" text-anchor="middle" x="649.0" y="220.0">드라이버 — 특수</text><line class="ln" marker-end="url(#a-ink-hour)" x1="540.0" x2="649.0" y1="112.0" y2="173.0"></line><text class="t t-s" text-anchor="start" x="622.0" y="146.0">같은 인터페이스</text><text class="t t-s t-mut" text-anchor="middle" x="540.0" y="262.0">핵심은 어떤 장치가 붙었는지 모른다</text></svg></svg>

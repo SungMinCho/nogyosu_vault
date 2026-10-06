@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 250" width="640" height="250" class="frame dia lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  --bg:#EDE7DA; --panel:#F6F2E8; --ink:#241E17; --dim:#6B6152; --rule:#CCC2AC;
+  --sea:#1B5064; --chaff:#96660C; --fire:#A2432A; --ground:#476844;
+  --disp:"Kirang Haerang","Song Myung","Nanum Myeongjo","Apple SD Gothic Neo",serif;
+  --body:"Cardo","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Anonymous Pro",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#15120F; --panel:#1E1A15; --ink:#EAE3D3; --dim:#9C927F; --rule:#3B352C;
+  --sea:#63B2C6; --chaff:#D5A03E; --fire:#DE7A57; --ground:#86AC82;
+}}:root[data-theme="dark"]{
+  --bg:#15120F; --panel:#1E1A15; --ink:#EAE3D3; --dim:#9C927F; --rule:#3B352C;
+  --sea:#63B2C6; --chaff:#D5A03E; --fire:#DE7A57; --ground:#86AC82;
+}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;
+  padding-inline:var(--pad);padding-block:0 4rem}.lecture{display:contents}.hero-svg .sea-g path{fill:none;stroke:var(--sea);stroke-width:1.6;opacity:.75}.hero-svg .chaff-g circle{fill:var(--chaff);opacity:.85}.hero-svg .oar path{fill:none;stroke:var(--ink);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.hero-svg .oar circle{fill:var(--ink)}.hero-svg .sea-t{fill:var(--sea)}.hero-svg .chaff-t{fill:var(--chaff)}figure.dia{margin:1.6rem 0}.frame{overflow-x:auto;border:1px solid var(--rule);background:var(--panel);padding:.9rem .7rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 12px),
+    linear-gradient(-90deg,var(--panel),transparent 12px),
+    linear-gradient(90deg,rgba(0,0,0,.14),transparent 12px),
+    linear-gradient(-90deg,rgba(0,0,0,.14),transparent 12px);
+  background-repeat:no-repeat;background-size:24px 100%,24px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}.frame svg{display:block;width:100%;min-width:480px;height:auto;color:var(--ink)}svg .bx{fill:none;stroke:currentColor;stroke-width:1.5}svg .bx.dash,svg .dash{stroke-dasharray:5 4}svg .ln{fill:none;stroke:currentColor;stroke-width:1.5}svg .ln[marker-end],svg path.ln{fill:none}svg .sm{font-family:var(--mono);font-size:11px;fill:var(--dim)}svg .ttl{font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;fill:currentColor}svg .sea-s{fill:none;stroke:var(--sea);stroke-width:1.8}svg .fire-s circle{fill:var(--fire)}svg .sea-t{fill:var(--sea)}svg .chaff-t{fill:var(--chaff)}svg marker#ar path{fill:currentColor;stroke:none}svg marker#arC path{fill:var(--chaff);stroke:none}svg marker#arF path{fill:var(--fire);stroke:none}svg marker#arS path{fill:var(--sea);stroke:none}svg text{dominant-baseline:auto}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="1차 사이버네틱스는 관찰자가 체계 밖에 있고 2차는 안에 있다" height="100%" role="img" viewBox="0 0 640 250" width="100%"><defs>
+<marker id="ar" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+<marker id="arC" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+<marker id="arF" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+<marker id="arS" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+</defs>
+<text class="ttl" x="8" y="22">1차 — 관찰된 체계</text>
+<rect class="bx" height="112" rx="4" width="190" x="40" y="40"></rect>
+<circle class="bx" cx="135" cy="96" r="30"></circle>
+<path class="sea-s" d="M135 66 a30 30 0 1 1 -21 9" marker-end="url(#arS)"></path>
+<text class="sm" text-anchor="middle" x="135" y="100">되먹임</text>
+<circle class="bx" cx="290" cy="96" r="18"></circle>
+<circle class="bx" cx="290" cy="96" r="6"></circle>
+<text class="sm" text-anchor="middle" x="290" y="132">관찰자</text>
+<path class="ln" d="M272 96 L236 96" marker-end="url(#ar)"></path>
+<text class="sm" text-anchor="middle" x="135" y="176">관찰자는 상자 밖에 선다</text>
+<text class="ttl" x="368" y="22">2차 — 관찰하는 체계</text>
+<rect class="sea-s" fill="none" height="112" rx="4" width="240" x="368" y="40"></rect>
+<circle class="bx" cx="440" cy="96" r="28"></circle>
+<text class="sm" text-anchor="middle" x="440" y="100">되먹임</text>
+<circle class="sea-s" cx="552" cy="96" fill="none" r="18"></circle>
+<circle class="sea-s" cx="552" cy="96" fill="none" r="6"></circle>
+<text class="sm sea-t" text-anchor="middle" x="552" y="132">관찰자</text>
+<path class="sea-s" d="M532 88 L472 88" marker-end="url(#arS)"></path>
+<path class="sea-s" d="M472 106 L532 106" marker-end="url(#arS)"></path>
+<text class="sm sea-t" text-anchor="middle" x="488" y="176">obs = COORD(obs)</text>
+<text class="sm" text-anchor="middle" x="488" y="196">대상은 이 고리의 고정점이다</text>
+<text class="sm chaff-t" text-anchor="middle" x="320" y="234">이 이름 자체를 폰 푀르스터가 미드 대신 붙였다 — 이름 붙이기가 이미 2차적 행위였다</text>
+</svg></svg>

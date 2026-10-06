@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 660 340" width="660" height="340" class="frame dia lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  --bg:#EDE7DA; --panel:#F6F2E8; --ink:#241E17; --dim:#6B6152; --rule:#CCC2AC;
+  --sea:#1B5064; --chaff:#96660C; --fire:#A2432A; --ground:#476844;
+  --disp:"Kirang Haerang","Song Myung","Nanum Myeongjo","Apple SD Gothic Neo",serif;
+  --body:"Cardo","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Anonymous Pro",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#15120F; --panel:#1E1A15; --ink:#EAE3D3; --dim:#9C927F; --rule:#3B352C;
+  --sea:#63B2C6; --chaff:#D5A03E; --fire:#DE7A57; --ground:#86AC82;
+}}:root[data-theme="dark"]{
+  --bg:#15120F; --panel:#1E1A15; --ink:#EAE3D3; --dim:#9C927F; --rule:#3B352C;
+  --sea:#63B2C6; --chaff:#D5A03E; --fire:#DE7A57; --ground:#86AC82;
+}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;
+  padding-inline:var(--pad);padding-block:0 4rem}.lecture{display:contents}.hero-svg .sea-g path{fill:none;stroke:var(--sea);stroke-width:1.6;opacity:.75}.hero-svg .chaff-g circle{fill:var(--chaff);opacity:.85}.hero-svg .oar path{fill:none;stroke:var(--ink);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.hero-svg .oar circle{fill:var(--ink)}.hero-svg .sea-t{fill:var(--sea)}.hero-svg .chaff-t{fill:var(--chaff)}figure.dia{margin:1.6rem 0}.frame{overflow-x:auto;border:1px solid var(--rule);background:var(--panel);padding:.9rem .7rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 12px),
+    linear-gradient(-90deg,var(--panel),transparent 12px),
+    linear-gradient(90deg,rgba(0,0,0,.14),transparent 12px),
+    linear-gradient(-90deg,rgba(0,0,0,.14),transparent 12px);
+  background-repeat:no-repeat;background-size:24px 100%,24px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}.frame svg{display:block;width:100%;min-width:480px;height:auto;color:var(--ink)}svg .bx{fill:none;stroke:currentColor;stroke-width:1.5}svg .bx.dash,svg .dash{stroke-dasharray:5 4}svg .ln[marker-end],svg path.ln{fill:none}svg .sm{font-family:var(--mono);font-size:11px;fill:var(--dim)}svg .ttl{font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;fill:currentColor}svg .rule{stroke:var(--rule);stroke-width:1}svg .sea-s{fill:none;stroke:var(--sea);stroke-width:1.8}svg .chaff-s{fill:var(--chaff);stroke:var(--chaff);stroke-width:1.8}svg .chaff-s[d]{fill:none}svg .fire-s{fill:none;stroke:var(--fire);stroke-width:1.8}svg .fire-s circle{fill:var(--fire)}svg .sea-t{fill:var(--sea)}svg .chaff-t{fill:var(--chaff)}svg .fire-t{fill:var(--fire)}svg marker#ar path{fill:currentColor;stroke:none}svg marker#arC path{fill:var(--chaff);stroke:none}svg marker#arF path{fill:var(--fire);stroke:none}svg marker#arS path{fill:var(--sea);stroke:none}svg text{dominant-baseline:auto}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="기욤발 터빈에서 기름이 네 가지 일을 하고 물이 두 가지 일을 한다" height="100%" role="img" viewBox="0 0 660 340" width="100%"><defs>
+<marker id="ar" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+<marker id="arC" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+<marker id="arF" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+<marker id="arS" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+</defs>
+<text class="ttl" x="8" y="22">수로 안에 잠긴 밀폐 용기</text>
+<g class="sea-s"><line x1="30" x2="440" y1="52" y2="52"></line><line x1="30" x2="440" y1="200" y2="200"></line></g>
+<path class="sea-s" d="M40 70 L86 70" marker-end="url(#arS)"></path>
+<path class="sea-s" d="M40 182 L86 182" marker-end="url(#arS)"></path>
+<text class="sm sea-t" x="96" y="74">강물</text>
+<ellipse class="bx" cx="240" cy="126" rx="110" ry="56"></ellipse>
+<g class="chaff-s"><circle cx="196" cy="106" r="2.5"></circle><circle cx="216" cy="146" r="2.5"></circle><circle cx="264" cy="102" r="2.5"></circle><circle cx="284" cy="150" r="2.5"></circle><circle cx="310" cy="124" r="2.5"></circle><circle cx="176" cy="140" r="2.5"></circle></g>
+<rect class="bx" height="40" rx="3" width="60" x="160" y="106"></rect>
+<text class="sm" text-anchor="middle" x="190" y="130">터빈</text>
+<rect class="bx" height="40" rx="3" width="76" x="252" y="106"></rect>
+<text class="sm" text-anchor="middle" x="290" y="130">발전기</text>
+<text class="sm chaff-t" text-anchor="middle" x="240" y="170">가압된 기름</text>
+<g class="chaff-s"><line marker-end="url(#arC)" x1="352" x2="396" y1="126" y2="96"></line><line marker-end="url(#arC)" x1="352" x2="396" y1="126" y2="116"></line><line marker-end="url(#arC)" x1="352" x2="396" y1="126" y2="136"></line><line marker-end="url(#arC)" x1="352" x2="396" y1="126" y2="156"></line></g>
+<g class="sm chaff-t"><text x="402" y="100">① 윤활</text><text x="402" y="120">② 절연 → 권선을 조밀하게 → 소형화</text><text x="402" y="140">③ 열을 용기 벽으로</text><text x="402" y="160">④ 가압 → 밀봉 (새도 밖으로 샌다)</text></g>
+<text class="sm sea-t" x="30" y="228">물이 하는 두 가지 — ⓐ 터빈을 돌린다 ⓑ 용기 벽으로 열을 가져간다</text>
+<line class="rule" x1="8" x2="652" y1="246" y2="246"></line>
+<text class="ttl" x="8" y="272">유량 2배일 때</text>
+<rect class="fire-s" fill="none" height="20" rx="2" width="240" x="180" y="284"></rect>
+<text class="sm fire-t" text-anchor="middle" x="300" y="299">발열 ×2</text>
+<rect class="sea-s" fill="none" height="20" rx="2" width="209" x="180" y="310"></rect>
+<text class="sm sea-t" text-anchor="middle" x="284" y="325">방열 ×1.741 (2^0.8)</text>
+<line class="fire-s dash" x1="389" x2="389" y1="310" y2="330"></line>
+<text class="sm fire-t" x="428" y="325">13% 남는다</text>
+<text class="sm" x="8" y="299">되먹임이</text><text class="sm" x="8" y="325">완전 상쇄는 아니다</text>
+</svg></svg>

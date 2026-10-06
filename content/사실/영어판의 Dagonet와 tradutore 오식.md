@@ -2,16 +2,17 @@
 title: "영어판의 Dagonet와 tradutore 오식"
 type: "사실"
 출처: "영어판 221·226쪽"
-책: "[[존재양식의 탐구]]"
-강:
-  - 9
+책:
+  - "[[존재양식의 탐구]]"
+강의:
+  - "[[09강 기술의 존재자들을 가시화하기|존재양식 9강]]"
 처음: "[[09강 기술의 존재자들을 가시화하기]]"
 description: "영어판은 프랑스 철학자 다고녜(Dagognet)의 이름을 'Dagonet'로, 이탈리아 격언 '번역자는 반역자'의 트라두토레(traduttore)를 'tradutore'로 잘못 찍었다. 강의자는 이를 번역본의 작은 오기로 본다."
 tags:
   - "사실"
   - "라투르"
 cssclasses:
-  - "panseo-aime"
+  - "panseo"
   - "atom"
 publish: true
 ---

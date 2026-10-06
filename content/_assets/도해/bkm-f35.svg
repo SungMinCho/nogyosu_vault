@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 330" width="600" height="330" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-time{color:var(--time)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-time{fill:var(--time)}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln2{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .ln-time{stroke:var(--time); stroke-width:2.2; fill:none}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .mk2{fill:var(--ink-2)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="합성 선도대출. 2년 무이표채 1장을 사고 1년 무이표채 0.9524장을 공매도하면 오늘은 돈이 오가지 않고, 1년 뒤 952.38을 내고 2년 뒤 1,000을 받는다. 1년 뒤부터 1년 동안 5퍼센트로 빌려준 것과 같다." class="dg" height="100%" role="img" viewBox="0 0 600 330" width="100%">
+<defs><marker id="ar-f15c" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk2" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<!-- 시간축 -->
+<line class="ax" x1="190" x2="580" y1="40" y2="40"></line>
+<line class="ax" x1="250" x2="250" y1="34" y2="46"></line>
+<line class="ax" x1="385" x2="385" y1="34" y2="46"></line>
+<line class="ax" x1="520" x2="520" y1="34" y2="46"></line>
+<text class="t-num mid t-time" x="250" y="26">t = 0</text>
+<text class="t-num mid t-time" x="385" y="26">t = 1</text>
+<text class="t-num mid t-time" x="520" y="26">t = 2</text>
+<!-- 1행: 2년채 매수 -->
+<text class="b" x="20" y="92">2년채 1장 매수</text>
+<line class="ln2" marker-end="url(#ar-f15c)" x1="250" x2="250" y1="70" y2="108"></line>
+<text class="t-num" x="262" y="98">−915.75</text>
+<line class="ln2" marker-end="url(#ar-f15c)" x1="520" x2="520" y1="108" y2="70"></line>
+<text class="t-num end" x="508" y="98">+1,000</text>
+<!-- 2행: 1년채 공매도 -->
+<text class="b" x="20" y="160">1년채 0.9524장</text>
+<text class="b" x="20" y="180">공매도</text>
+<line class="ln2" marker-end="url(#ar-f15c)" x1="250" x2="250" y1="186" y2="148"></line>
+<text class="t-num" x="262" y="174">+915.75</text>
+<line class="ln2" marker-end="url(#ar-f15c)" x1="385" x2="385" y1="148" y2="186"></line>
+<text class="t-num" x="397" y="174">−952.38</text>
+<!-- 합계 -->
+<line class="grid" x1="20" x2="580" y1="214" y2="214"></line>
+<text class="b t-time" x="20" y="252">합치면</text>
+<text class="t-num mid" x="250" y="252">0</text>
+<line class="ln-time" marker-end="url(#ar-f15c)" x1="385" x2="385" y1="230" y2="268"></line>
+<text class="t-num end t-time" x="373" y="256">−952.38</text>
+<line class="ln-time" marker-end="url(#ar-f15c)" x1="520" x2="520" y1="268" y2="230"></line>
+<text class="t-num t-time" x="532" y="256">+1,000</text>
+<text class="t-s end t-time" x="580" y="304">1,000 ÷ 952.38 − 1 = 5.00% = f₂</text>
+<text class="t-xs t-ink2" x="20" y="304">↑ 받는 돈 · ↓ 내는 돈</text>
+</svg></svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 660 336" width="660" height="336" class="frame dia lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  --bg:#EDE7DA; --panel:#F6F2E8; --ink:#241E17; --dim:#6B6152; --rule:#CCC2AC;
+  --sea:#1B5064; --chaff:#96660C; --fire:#A2432A; --ground:#476844;
+  --disp:"Kirang Haerang","Song Myung","Nanum Myeongjo","Apple SD Gothic Neo",serif;
+  --body:"Cardo","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Anonymous Pro",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#15120F; --panel:#1E1A15; --ink:#EAE3D3; --dim:#9C927F; --rule:#3B352C;
+  --sea:#63B2C6; --chaff:#D5A03E; --fire:#DE7A57; --ground:#86AC82;
+}}:root[data-theme="dark"]{
+  --bg:#15120F; --panel:#1E1A15; --ink:#EAE3D3; --dim:#9C927F; --rule:#3B352C;
+  --sea:#63B2C6; --chaff:#D5A03E; --fire:#DE7A57; --ground:#86AC82;
+}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;
+  padding-inline:var(--pad);padding-block:0 4rem}.lecture{display:contents}.hero-svg .sea-g path{fill:none;stroke:var(--sea);stroke-width:1.6;opacity:.75}.hero-svg .chaff-g circle{fill:var(--chaff);opacity:.85}.hero-svg .oar path{fill:none;stroke:var(--ink);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.hero-svg .oar circle{fill:var(--ink)}.hero-svg .sea-t{fill:var(--sea)}.hero-svg .chaff-t{fill:var(--chaff)}figure.dia{margin:1.6rem 0}.frame{overflow-x:auto;border:1px solid var(--rule);background:var(--panel);padding:.9rem .7rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 12px),
+    linear-gradient(-90deg,var(--panel),transparent 12px),
+    linear-gradient(90deg,rgba(0,0,0,.14),transparent 12px),
+    linear-gradient(-90deg,rgba(0,0,0,.14),transparent 12px);
+  background-repeat:no-repeat;background-size:24px 100%,24px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}.frame svg{display:block;width:100%;min-width:480px;height:auto;color:var(--ink)}svg .bx{fill:none;stroke:currentColor;stroke-width:1.5}svg .bx.dash,svg .dash{stroke-dasharray:5 4}svg .ln[marker-end],svg path.ln{fill:none}svg .sm{font-family:var(--mono);font-size:11px;fill:var(--dim)}svg .ttl{font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;fill:currentColor}svg .sea-s{fill:none;stroke:var(--sea);stroke-width:1.8}svg .chaff-s{fill:var(--chaff);stroke:var(--chaff);stroke-width:1.8}svg .chaff-s[d]{fill:none}svg .fire-s{fill:none;stroke:var(--fire);stroke-width:1.8}svg .fire-s circle{fill:var(--fire)}svg .sea-t{fill:var(--sea)}svg .chaff-t{fill:var(--chaff)}svg .fire-t{fill:var(--fire)}svg marker#ar path{fill:currentColor;stroke:none}svg marker#arC path{fill:var(--chaff);stroke:none}svg marker#arF path{fill:var(--fire);stroke:none}svg marker#arS path{fill:var(--sea);stroke:none}svg text{dominant-baseline:auto}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="체계가 우연을 정보로 흡수하지만 네 가지는 경계를 건너지 못한다" height="100%" role="img" viewBox="0 0 660 336" width="100%"><defs>
+<marker id="ar" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+<marker id="arC" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+<marker id="arF" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+<marker id="arS" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+</defs>
+<rect class="sea-s" fill="none" height="180" rx="10" width="300" x="180" y="40"></rect>
+<text class="ttl sea-t" text-anchor="middle" x="330" y="30">체계 — 재귀적으로 닫힌 것</text>
+<circle class="bx" cx="330" cy="130" r="46"></circle>
+<path class="sea-s" d="M330 84 a46 46 0 1 1 -32 14" marker-end="url(#arS)"></path>
+<text class="sm" text-anchor="middle" x="330" y="126">되먹임</text>
+<text class="sm" text-anchor="middle" x="330" y="144">우연 → 정보</text>
+<path class="chaff-s" d="M110 70 q60 20 64 44" marker-end="url(#arC)"></path>
+<path class="chaff-s" d="M550 70 q-60 20 -64 44" marker-end="url(#arC)"></path>
+<text class="sm chaff-t" text-anchor="middle" x="86" y="60">우연</text>
+<text class="sm chaff-t" text-anchor="middle" x="574" y="60">우연</text>
+<text class="sm" text-anchor="middle" x="330" y="206">흡수된 것은 체계를 키운다</text>
+<g class="fire-s">
+<line x1="60" x2="152" y1="262" y2="262"></line><line x1="60" x2="152" y1="286" y2="286"></line>
+<line x1="508" x2="600" y1="262" y2="262"></line><line x1="508" x2="600" y1="286" y2="286"></line>
+</g>
+<g class="fire-s dash">
+<line x1="152" x2="176" y1="262" y2="262"></line><line x1="152" x2="176" y1="286" y2="286"></line>
+<line x1="484" x2="508" y1="262" y2="262"></line><line x1="484" x2="508" y1="286" y2="286"></line>
+</g>
+<g class="sm fire-t">
+<text text-anchor="start" x="58" y="256">자연의 무력함 — 헤겔 §18</text>
+<text text-anchor="start" x="58" y="280">멈추지 않는 탐색 — §20</text>
+<text text-anchor="end" x="602" y="256">새 규범을 세우는 힘 — 캉길렘 §30</text>
+<text text-anchor="end" x="602" y="280">왜 없이 피는 장미 — 하이데거 §38</text>
+</g>
+<line class="sea-s dash" x1="180" x2="180" y1="240" y2="300"></line>
+<line class="sea-s dash" x1="480" x2="480" y1="240" y2="300"></line>
+<text class="ttl fire-t" text-anchor="middle" x="330" y="322">건너오지 않는 것 = 잔존하는 비인간적인 것</text>
+</svg></svg>

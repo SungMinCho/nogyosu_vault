@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 380" width="600" height="380" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-risk{color:var(--risk)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-mute{fill:var(--mute)}.dg .t-risk{fill:var(--risk)}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln{stroke:var(--ink); stroke-width:1.5; fill:none}.dg .ln-mute{stroke:var(--mute); stroke-width:1.1; fill:none}.dg .ln-risk{stroke:var(--risk); stroke-width:2.2; fill:none}.dg .thick{stroke-width:3.2}.dg .dash{stroke-dasharray:6 4}.dg .dot{stroke-dasharray:1.6 3.6; stroke-linecap:round}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-ink{fill:var(--ink)}.dg .f-risk{fill:var(--risk)}.dg .mk{fill:var(--ink)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="10개 산업으로 만든 최소분산 포트폴리오의 표본 밖 표준편차. 추정 기간이 짧으면 표본 공분산이 무너지고 지수 모형이 이기며, 약 55개월을 넘으면 표본 공분산이 이긴다." class="dg" height="100%" role="img" viewBox="0 0 600 380" width="100%">
+<defs><marker id="ar-f08c" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<line class="grid" x1="70.0" x2="540.0" y1="330.0" y2="330.0"></line>
+<text class="t-num end t-ink2" x="62.0" y="335.0">12</text>
+<line class="grid" x1="70.0" x2="540.0" y1="285.0" y2="285.0"></line>
+<text class="t-num end t-ink2" x="62.0" y="290.0">13</text>
+<line class="grid" x1="70.0" x2="540.0" y1="240.0" y2="240.0"></line>
+<text class="t-num end t-ink2" x="62.0" y="245.0">14</text>
+<line class="grid" x1="70.0" x2="540.0" y1="195.0" y2="195.0"></line>
+<text class="t-num end t-ink2" x="62.0" y="200.0">15</text>
+<line class="grid" x1="70.0" x2="540.0" y1="150.0" y2="150.0"></line>
+<text class="t-num end t-ink2" x="62.0" y="155.0">16</text>
+<line class="grid" x1="70.0" x2="540.0" y1="105.0" y2="105.0"></line>
+<text class="t-num end t-ink2" x="62.0" y="110.0">17</text>
+<line class="grid" x1="70.0" x2="540.0" y1="60.0" y2="60.0"></line>
+<text class="t-num end t-ink2" x="62.0" y="65.0">18</text>
+<line class="ax" x1="70.0" x2="540.0" y1="330.0" y2="330.0"></line>
+<line class="ax" x1="70.0" x2="70.0" y1="330.0" y2="60.0"></line>
+<line class="ax" x1="70.0" x2="70.0" y1="330.0" y2="335.0"></line>
+<text class="t-num mid t-ink2" x="70.0" y="350.0">12</text>
+<line class="ax" x1="152.8" x2="152.8" y1="330.0" y2="335.0"></line>
+<text class="t-num mid t-ink2" x="152.8" y="350.0">18</text>
+<line class="ax" x1="211.5" x2="211.5" y1="330.0" y2="335.0"></line>
+<text class="t-num mid t-ink2" x="211.5" y="350.0">24</text>
+<line class="ax" x1="294.2" x2="294.2" y1="330.0" y2="335.0"></line>
+<text class="t-num mid t-ink2" x="294.2" y="350.0">36</text>
+<line class="ax" x1="398.5" x2="398.5" y1="330.0" y2="335.0"></line>
+<text class="t-num mid t-ink2" x="398.5" y="350.0">60</text>
+<line class="ax" x1="540.0" x2="540.0" y1="330.0" y2="335.0"></line>
+<text class="t-num mid t-ink2" x="540.0" y="350.0">120</text>
+<text class="t-s end t-ink2" x="540.0" y="370.0">추정 기간 L (개월, 로그 눈금)</text>
+<text class="t-s t-ink2" x="76.0" y="48.0">표본 밖 연 σ (%)</text>
+<line class="ln-mute dash" x1="70.0" x2="540.0" y1="192.0" y2="192.0"></line>
+<line class="ln-mute dot" x1="382.4" x2="382.4" y1="330.0" y2="123.0"></line>
+<text class="t-xs t-ink2" x="388.4" y="116.2">갈림길 ≈ 55개월</text>
+<text class="t-xs t-ink2" x="388.4" y="131.2">(관측치 ≈ 자산 수 × 6)</text>
+<path class="ln thick" d="M149.0,60.0 L152.8,75.8 L211.5,163.9 L257.0,216.8 L294.2,235.4 L353.0,260.6 L398.5,280.9 L435.7,286.8 L481.3,301.9 L540.0,303.8"></path>
+<path class="ln-risk thick" d="M70.0,263.7 L115.5,269.8 L152.8,279.6 L211.5,257.2 L257.0,272.9 L294.2,266.4 L353.0,266.1 L398.5,277.9 L435.7,272.9 L481.3,276.0 L540.0,277.9"></path>
+<circle class="f-risk" cx="70.0" cy="263.7" r="3.2"></circle>
+<circle class="f-risk" cx="115.5" cy="269.8" r="3.2"></circle>
+<circle class="f-ink" cx="152.8" cy="75.8" r="3.2"></circle>
+<circle class="f-risk" cx="152.8" cy="279.6" r="3.2"></circle>
+<circle class="f-ink" cx="211.5" cy="163.9" r="3.2"></circle>
+<circle class="f-risk" cx="211.5" cy="257.2" r="3.2"></circle>
+<circle class="f-ink" cx="257.0" cy="216.8" r="3.2"></circle>
+<circle class="f-risk" cx="257.0" cy="272.9" r="3.2"></circle>
+<circle class="f-ink" cx="294.2" cy="235.4" r="3.2"></circle>
+<circle class="f-risk" cx="294.2" cy="266.4" r="3.2"></circle>
+<circle class="f-ink" cx="353.0" cy="260.6" r="3.2"></circle>
+<circle class="f-risk" cx="353.0" cy="266.1" r="3.2"></circle>
+<circle class="f-ink" cx="398.5" cy="280.9" r="3.2"></circle>
+<circle class="f-risk" cx="398.5" cy="277.9" r="3.2"></circle>
+<circle class="f-ink" cx="435.7" cy="286.8" r="3.2"></circle>
+<circle class="f-risk" cx="435.7" cy="272.9" r="3.2"></circle>
+<circle class="f-ink" cx="481.3" cy="301.9" r="3.2"></circle>
+<circle class="f-risk" cx="481.3" cy="276.0" r="3.2"></circle>
+<circle class="f-ink" cx="540.0" cy="303.8" r="3.2"></circle>
+<circle class="f-risk" cx="540.0" cy="277.9" r="3.2"></circle>
+<path class="ln" d="M74.0,87.0 L74.0,58.0" marker-end="url(#ar-f08c)"></path>
+<path class="ln" d="M115.5,87.0 L115.5,58.0" marker-end="url(#ar-f08c)"></path>
+<text class="t-s" x="294.2" y="48.0">↑ 그래프 밖: L = 12 → 31.0,  L = 15 → 21.2</text>
+<text class="t-num" x="546.0" y="308.8">12.58</text>
+<text class="t-num t-risk" x="546.0" y="282.9">13.16</text>
+<text class="t-num t-mute" x="546.0" y="197.0">15.07</text>
+<text class="t-s t-mute" x="257.0" y="184.0">똑같이 나눠 담기</text>
+<text class="t-s mid b" x="481.3" y="327.9">표본 공분산</text>
+<text class="t-s mid t-risk b" x="211.5" y="299.1">단일지수모형</text>
+</svg></svg>

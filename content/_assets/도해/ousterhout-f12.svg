@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 290" width="760" height="290" class="frame fig lecture doc page"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#E7EAE8; --panel:#F3F5F4; --code-bg:#EEF1F0;
+  --ink:#1B2224; --muted:#586365; --rule:#C1C9C8; --rule-soft:rgba(27,34,36,.07);
+  --if:#2A5687; --if-soft:rgba(42,86,135,.12); --if-deep:#15375C;
+  --ore:#8A6014; --ore-soft:rgba(138,96,20,.15);
+  --cx:#7A3B72; --cx-soft:rgba(122,59,114,.12);
+  --flag:#B3381B; --flag-soft:rgba(179,56,27,.10);
+  --canary:#E9B30C;
+  --f-body:"Source Serif 4","Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-disp:"Do Hyeon","Nanum Gothic","Apple SD Gothic Neo","Malgun Gothic","Noto Sans CJK KR",sans-serif;
+  --f-label:"Nanum Gothic","Apple SD Gothic Neo","Malgun Gothic","Noto Sans CJK KR",sans-serif;
+  --f-mono:"Red Hat Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#0F1416; --panel:#161D20; --code-bg:#131A1D;
+    --ink:#E1E7E6; --muted:#95A1A3; --rule:#2F3A3D; --rule-soft:rgba(225,231,230,.06);
+    --if:#7EA7DA; --if-soft:rgba(126,167,218,.16); --if-deep:#3B6AA5;
+    --ore:#D6A553; --ore-soft:rgba(214,165,83,.17);
+    --cx:#CB8EC2; --cx-soft:rgba(203,142,194,.17);
+    --flag:#EF7B57; --flag-soft:rgba(239,123,87,.14);
+    --canary:#F4C63A;
+  }}:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#0F1416; --panel:#161D20; --code-bg:#131A1D;
+  --ink:#E1E7E6; --muted:#95A1A3; --rule:#2F3A3D; --rule-soft:rgba(225,231,230,.06);
+  --if:#7EA7DA; --if-soft:rgba(126,167,218,.16); --if-deep:#3B6AA5;
+  --ore:#D6A553; --ore-soft:rgba(214,165,83,.17);
+  --cx:#CB8EC2; --cx-soft:rgba(203,142,194,.17);
+  --flag:#EF7B57; --flag-soft:rgba(239,123,87,.14);
+  --canary:#F4C63A;
+}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1rem 3rem }.lecture{ display:contents }.fig{ margin:.6rem 0 }.frame{ overflow-x:auto; overflow-y:hidden; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding-block:.8rem;
+  background-image:linear-gradient(to right,var(--bg),var(--bg)),linear-gradient(to right,var(--bg),var(--bg)),
+    linear-gradient(to right,var(--rule),transparent),linear-gradient(to left,var(--rule),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat;
+  background-size:1.5rem 100%,1.5rem 100%,.6rem 100%,.6rem 100%; background-attachment:local,local,scroll,scroll }.dg{ display:block; width:100%; height:auto }.dg .t, .hero-svg .t{ font-family:var(--f-label); font-size:13px; fill:var(--ink) }.dg .t-s{ font-size:12px }.dg .t-xs{ font-size:11px }.dg .t-m{ font-family:var(--f-mono) }.dg .t-mut, .hero-svg .t-mut{ fill:var(--muted) }.dg line, .dg polyline, .dg path, .hero-svg line, .hero-svg polyline, .hero-svg path{ fill:none }.f-ink{ fill:var(--ink)!important }.f-ore{ fill:var(--ore)!important }.grid{ stroke:var(--rule); stroke-width:.8 }.s-ore{ stroke:var(--ore); stroke-width:1.2 }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="무엇이 비싼가: 캐시 미스 수백 나노초에서 광역 네트워크 왕복 수십~수백 밀리초까지, 로그 눈금 위에서 여섯 자릿수가 벌어진다. 아래 눈금은 같은 시간을 명령어 개수로 환산한 것이다." class="dg" height="100%" role="img" style="" viewBox="0 0 760 290" width="100%"><defs><marker id="a-ink-lat" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker></defs><line class="grid" x1="170.0" x2="170.0" y1="44.0" y2="232.0"></line><text class="t t-xs t-m t-mut" text-anchor="middle" x="170.0" y="34.0">100ns</text><text class="t t-xs t-mut" text-anchor="middle" x="170.0" y="250.0">200</text><line class="grid" x1="263.3" x2="263.3" y1="44.0" y2="232.0"></line><text class="t t-xs t-m t-mut" text-anchor="middle" x="263.3" y="34.0">1µs</text><text class="t t-xs t-mut" text-anchor="middle" x="263.3" y="250.0">2천</text><line class="grid" x1="356.7" x2="356.7" y1="44.0" y2="232.0"></line><text class="t t-xs t-m t-mut" text-anchor="middle" x="356.7" y="34.0">10µs</text><text class="t t-xs t-mut" text-anchor="middle" x="356.7" y="250.0">2만</text><line class="grid" x1="450.0" x2="450.0" y1="44.0" y2="232.0"></line><text class="t t-xs t-m t-mut" text-anchor="middle" x="450.0" y="34.0">100µs</text><text class="t t-xs t-mut" text-anchor="middle" x="450.0" y="250.0">20만</text><line class="grid" x1="543.3" x2="543.3" y1="44.0" y2="232.0"></line><text class="t t-xs t-m t-mut" text-anchor="middle" x="543.3" y="34.0">1ms</text><text class="t t-xs t-mut" text-anchor="middle" x="543.3" y="250.0">200만</text><line class="grid" x1="636.7" x2="636.7" y1="44.0" y2="232.0"></line><text class="t t-xs t-m t-mut" text-anchor="middle" x="636.7" y="34.0">10ms</text><text class="t t-xs t-mut" text-anchor="middle" x="636.7" y="250.0">2천만</text><line class="grid" x1="730.0" x2="730.0" y1="44.0" y2="232.0"></line><text class="t t-xs t-m t-mut" text-anchor="middle" x="730.0" y="34.0">100ms</text><text class="t t-xs t-mut" text-anchor="middle" x="730.0" y="250.0">2억</text><text class="t t-xs t-mut" text-anchor="end" x="136.0" y="34.0">시간</text><text class="t t-xs t-mut" text-anchor="end" x="136.0" y="250.0">명령어</text><text class="t t-xs t-mut" text-anchor="end" x="730.0" y="274.0">명령어 하나 = 0.5ns로 환산 (책의 ‘1µs ≈ 2,000 명령어’에서 역산)</text><text class="t t-s" text-anchor="end" x="160.0" y="69.0">캐시 미스</text><rect class="f-ore s-ore" height="14.0" rx="2" width="44.5" x="170.0" y="57.0"></rect><text class="t t-s" text-anchor="end" x="160.0" y="97.0">새 비휘발성 메모리</text><rect class="f-ore s-ore" height="14.0" rx="2" width="8.1" x="259.1" y="85.0"></rect><text class="t t-s" text-anchor="end" x="160.0" y="125.0">데이터센터 왕복</text><rect class="f-ore s-ore" height="14.0" rx="2" width="65.2" x="356.7" y="113.0"></rect><text class="t t-s" text-anchor="end" x="160.0" y="153.0">플래시 입출력</text><rect class="f-ore s-ore" height="14.0" rx="2" width="93.3" x="356.7" y="141.0"></rect><text class="t t-s" text-anchor="end" x="160.0" y="181.0">디스크 입출력</text><rect class="f-ore s-ore" height="14.0" rx="2" width="28.1" x="608.6" y="169.0"></rect><text class="t t-s" text-anchor="end" x="160.0" y="209.0">광역 네트워크 왕복</text><rect class="f-ore s-ore" height="14.0" rx="2" width="93.3" x="636.7" y="197.0"></rect></svg></svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 330" width="600" height="330" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-ret{color:var(--ret)}.t-alarm{color:var(--alarm)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-mute{fill:var(--mute)}.dg .t-ret{fill:var(--ret)}.dg .t-alarm{fill:var(--alarm)}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln-ret{stroke:var(--ret); stroke-width:2.2; fill:none}.dg .ln-alarm{stroke:var(--alarm); stroke-width:2.2; fill:none}.dg .thin{stroke-width:1}.dg .thick{stroke-width:3.2}.dg .dash{stroke-dasharray:6 4}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-alarm-a{fill:var(--alarm); fill-opacity:.16}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="1만 달러를 연 7%로 30년 굴릴 때 보수가 없으면 76,123달러, 1%면 57,435달러, 2%면 43,219달러가 된다. 두 곡선 사이의 틈은 해가 갈수록 벌어진다." class="dg" height="100%" role="img" viewBox="0 0 600 330" width="100%">
+<text class="t-s t-ink2" x="70" y="28">1만 달러가 불어난 값 (달러, 총수익 연 7%)</text>
+<line class="grid" x1="70" x2="470" y1="230.0" y2="230.0"></line>
+<text class="t-xs t-num end t-mute" x="62" y="234.0">20,000</text>
+<line class="grid" x1="70" x2="470" y1="170.0" y2="170.0"></line>
+<text class="t-xs t-num end t-mute" x="62" y="174.0">40,000</text>
+<line class="grid" x1="70" x2="470" y1="110.0" y2="110.0"></line>
+<text class="t-xs t-num end t-mute" x="62" y="114.0">60,000</text>
+<line class="grid" x1="70" x2="470" y1="50.0" y2="50.0"></line>
+<text class="t-xs t-num end t-mute" x="62" y="54.0">80,000</text>
+<text class="t-xs t-num end t-mute" x="62" y="294">0</text>
+<path class="f-alarm-a" d="M70.0,260.0 L76.7,259.0 L83.3,257.9 L90.0,256.8 L96.7,255.7 L103.3,254.5 L110.0,253.2 L116.7,252.0 L123.3,250.7 L130.0,249.3 L136.7,247.9 L143.3,246.5 L150.0,245.0 L156.7,243.4 L163.3,241.8 L170.0,240.2 L176.7,238.5 L183.3,236.7 L190.0,234.8 L196.7,232.9 L203.3,231.0 L210.0,229.0 L216.7,226.9 L223.3,224.7 L230.0,222.4 L236.7,220.1 L243.3,217.7 L250.0,215.2 L256.7,212.6 L263.3,210.0 L270.0,207.2 L276.7,204.4 L283.3,201.4 L290.0,198.4 L296.7,195.2 L303.3,192.0 L310.0,188.6 L316.7,185.1 L323.3,181.5 L330.0,177.8 L336.7,173.9 L343.3,169.9 L350.0,165.8 L356.7,161.5 L363.3,157.1 L370.0,152.5 L376.7,147.8 L383.3,142.9 L390.0,137.8 L396.7,132.6 L403.3,127.2 L410.0,121.6 L416.7,115.8 L423.3,109.8 L430.0,103.6 L436.7,97.2 L443.3,90.5 L450.0,83.7 L456.7,76.6 L463.3,69.2 L470.0,61.6 L470.0,117.7 L463.3,122.6 L456.7,127.4 L450.0,132.1 L443.3,136.6 L436.7,141.1 L430.0,145.3 L423.3,149.5 L416.7,153.5 L410.0,157.4 L403.3,161.2 L396.7,164.9 L390.0,168.5 L383.3,172.0 L376.7,175.4 L370.0,178.7 L363.3,181.9 L356.7,185.0 L350.0,188.0 L343.3,190.9 L336.7,193.8 L330.0,196.5 L323.3,199.2 L316.7,201.8 L310.0,204.4 L303.3,206.8 L296.7,209.2 L290.0,211.5 L283.3,213.8 L276.7,216.0 L270.0,218.1 L263.3,220.2 L256.7,222.2 L250.0,224.1 L243.3,226.0 L236.7,227.8 L230.0,229.6 L223.3,231.4 L216.7,233.1 L210.0,234.7 L203.3,236.3 L196.7,237.8 L190.0,239.3 L183.3,240.8 L176.7,242.2 L170.0,243.6 L163.3,244.9 L156.7,246.2 L150.0,247.4 L143.3,248.7 L136.7,249.9 L130.0,251.0 L123.3,252.1 L116.7,253.2 L110.0,254.3 L103.3,255.3 L96.7,256.3 L90.0,257.3 L83.3,258.2 L76.7,259.1 L70.0,260.0 Z"></path>
+<line class="ax" x1="70" x2="470" y1="290" y2="290"></line>
+<line class="ax" x1="70" x2="70" y1="290" y2="44"></line>
+<line class="ax" x1="70.0" x2="70.0" y1="290" y2="295"></line>
+<text class="t-xs t-num mid t-ink2" x="70.0" y="312">0년</text>
+<line class="ax" x1="203.3" x2="203.3" y1="290" y2="295"></line>
+<text class="t-xs t-num mid t-ink2" x="203.3" y="312">10년</text>
+<line class="ax" x1="336.7" x2="336.7" y1="290" y2="295"></line>
+<text class="t-xs t-num mid t-ink2" x="336.7" y="312">20년</text>
+<line class="ax" x1="470.0" x2="470.0" y1="290" y2="295"></line>
+<text class="t-xs t-num mid t-ink2" x="470.0" y="312">30년</text>
+<path class="ln-ret dash" d="M70.0,260.0 L76.7,259.3 L83.3,258.5 L90.0,257.7 L96.7,256.9 L103.3,256.1 L110.0,255.3 L116.7,254.4 L123.3,253.5 L130.0,252.6 L136.7,251.7 L143.3,250.8 L150.0,249.8 L156.7,248.8 L163.3,247.8 L170.0,246.7 L176.7,245.7 L183.3,244.6 L190.0,243.5 L196.7,242.3 L203.3,241.1 L210.0,239.9 L216.7,238.7 L223.3,237.4 L230.0,236.1 L236.7,234.8 L243.3,233.4 L250.0,232.0 L256.7,230.6 L263.3,229.1 L270.0,227.6 L276.7,226.1 L283.3,224.5 L290.0,222.9 L296.7,221.2 L303.3,219.5 L310.0,217.8 L316.7,216.0 L323.3,214.2 L330.0,212.3 L336.7,210.4 L343.3,208.4 L350.0,206.4 L356.7,204.4 L363.3,202.2 L370.0,200.1 L376.7,197.9 L383.3,195.6 L390.0,193.2 L396.7,190.9 L403.3,188.4 L410.0,185.9 L416.7,183.3 L423.3,180.7 L430.0,178.0 L436.7,175.2 L443.3,172.4 L450.0,169.5 L456.7,166.5 L463.3,163.5 L470.0,160.3"></path>
+<path class="ln-ret" d="M70.0,260.0 L76.7,259.1 L83.3,258.2 L90.0,257.3 L96.7,256.3 L103.3,255.3 L110.0,254.3 L116.7,253.2 L123.3,252.1 L130.0,251.0 L136.7,249.9 L143.3,248.7 L150.0,247.4 L156.7,246.2 L163.3,244.9 L170.0,243.6 L176.7,242.2 L183.3,240.8 L190.0,239.3 L196.7,237.8 L203.3,236.3 L210.0,234.7 L216.7,233.1 L223.3,231.4 L230.0,229.6 L236.7,227.8 L243.3,226.0 L250.0,224.1 L256.7,222.2 L263.3,220.2 L270.0,218.1 L276.7,216.0 L283.3,213.8 L290.0,211.5 L296.7,209.2 L303.3,206.8 L310.0,204.4 L316.7,201.8 L323.3,199.2 L330.0,196.5 L336.7,193.8 L343.3,190.9 L350.0,188.0 L356.7,185.0 L363.3,181.9 L370.0,178.7 L376.7,175.4 L383.3,172.0 L390.0,168.5 L396.7,164.9 L403.3,161.2 L410.0,157.4 L416.7,153.5 L423.3,149.5 L430.0,145.3 L436.7,141.1 L443.3,136.6 L450.0,132.1 L456.7,127.4 L463.3,122.6 L470.0,117.7"></path>
+<path class="ln-ret thick" d="M70.0,260.0 L76.7,259.0 L83.3,257.9 L90.0,256.8 L96.7,255.7 L103.3,254.5 L110.0,253.2 L116.7,252.0 L123.3,250.7 L130.0,249.3 L136.7,247.9 L143.3,246.5 L150.0,245.0 L156.7,243.4 L163.3,241.8 L170.0,240.2 L176.7,238.5 L183.3,236.7 L190.0,234.8 L196.7,232.9 L203.3,231.0 L210.0,229.0 L216.7,226.9 L223.3,224.7 L230.0,222.4 L236.7,220.1 L243.3,217.7 L250.0,215.2 L256.7,212.6 L263.3,210.0 L270.0,207.2 L276.7,204.4 L283.3,201.4 L290.0,198.4 L296.7,195.2 L303.3,192.0 L310.0,188.6 L316.7,185.1 L323.3,181.5 L330.0,177.8 L336.7,173.9 L343.3,169.9 L350.0,165.8 L356.7,161.5 L363.3,157.1 L370.0,152.5 L376.7,147.8 L383.3,142.9 L390.0,137.8 L396.7,132.6 L403.3,127.2 L410.0,121.6 L416.7,115.8 L423.3,109.8 L430.0,103.6 L436.7,97.2 L443.3,90.5 L450.0,83.7 L456.7,76.6 L463.3,69.2 L470.0,61.6"></path>
+<text class="t-s t-ret" x="478" y="66.6">보수 0%</text>
+<text class="t-num end" x="590" y="66.6">76,123</text>
+<text class="t-s t-ret" x="478" y="122.7">1%</text>
+<text class="t-num end" x="590" y="122.7">57,435</text>
+<text class="t-s t-ret" x="478" y="165.3">2%</text>
+<text class="t-num end" x="590" y="165.3">43,219</text>
+<text class="t-s t-alarm" x="90" y="84">주홍 면 = 1% 보수가 가져간 돈</text>
+<line class="ln-alarm thin" x1="330" x2="436.7" y1="80" y2="119.1"></line>
+<text class="t-xs t-ink2" x="90" y="104">30년 뒤 18,688달러 = 처음 맡긴 돈의 1.9배</text>
+</svg></svg>

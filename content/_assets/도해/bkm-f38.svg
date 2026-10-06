@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 350" width="600" height="350" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-risk{color:var(--risk)}.t-time{color:var(--time)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-risk{fill:var(--risk)}.dg .t-time{fill:var(--time)}.dg .halo{paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln{stroke:var(--ink); stroke-width:1.5; fill:none}.dg .ln-risk{stroke:var(--risk); stroke-width:2.2; fill:none}.dg .ln-time{stroke:var(--time); stroke-width:2.2; fill:none}.dg .thick{stroke-width:3.2}.dg .dash{stroke-dasharray:6 4}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-time{fill:var(--time)}.dg .mk2{fill:var(--ink-2)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="공통 채권을 들고 있을 때 금리가 오늘 4, 5, 6퍼센트 가운데 하나로 바뀌어 머물면, 보유 기간에 따른 총가치 세 곡선이 듀레이션 7.99년에서 한 점으로 모인다. 그보다 짧으면 금리 하락이, 길면 금리 상승이 유리하다." class="dg" height="100%" role="img" viewBox="0 0 600 350" width="100%">
+<defs><marker id="ar-f16c" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk2" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<line class="grid" x1="70" x2="570" y1="255.9" y2="255.9"></line>
+<text class="t-num end t-ink2" x="62" y="260.9">1,000</text>
+<line class="grid" x1="70" x2="570" y1="197.1" y2="197.1"></line>
+<text class="t-num end t-ink2" x="62" y="202.1">1,200</text>
+<line class="grid" x1="70" x2="570" y1="138.2" y2="138.2"></line>
+<text class="t-num end t-ink2" x="62" y="143.2">1,400</text>
+<line class="grid" x1="70" x2="570" y1="79.4" y2="79.4"></line>
+<text class="t-num end t-ink2" x="62" y="84.4">1,600</text>
+<line class="ax" x1="70" x2="570" y1="300.0" y2="300.0"></line>
+<line class="ax" x1="70" x2="70" y1="300.0" y2="305.0"></line>
+<text class="t-num mid t-ink2" x="70" y="322.0">0</text>
+<line class="ax" x1="170" x2="170" y1="300.0" y2="305.0"></line>
+<text class="t-num mid t-ink2" x="170" y="322.0">2</text>
+<line class="ax" x1="270" x2="270" y1="300.0" y2="305.0"></line>
+<text class="t-num mid t-ink2" x="270" y="322.0">4</text>
+<line class="ax" x1="370" x2="370" y1="300.0" y2="305.0"></line>
+<text class="t-num mid t-ink2" x="370" y="322.0">6</text>
+<line class="ax" x1="470" x2="470" y1="300.0" y2="305.0"></line>
+<text class="t-num mid t-ink2" x="470" y="322.0">8</text>
+<line class="ax" x1="570" x2="570" y1="300.0" y2="305.0"></line>
+<text class="t-num mid t-ink2" x="570" y="322.0">10</text>
+<text class="t-s end t-ink2" x="570" y="342.0">보유 기간(년)</text>
+<polyline class="ln-risk dash" points="70.0,231.8 82.5,228.7 95.0,225.5 107.5,222.2 120.0,219.0 132.5,215.7 145.0,212.4 157.5,209.0 170.0,205.6 182.5,202.2 195.0,198.7 207.5,195.2 220.0,191.7 232.5,188.1 245.0,184.5 257.5,180.9 270.0,177.2 282.5,173.5 295.0,169.8 307.5,166.0 320.0,162.2 332.5,158.3 345.0,154.4 357.5,150.5 370.0,146.5 382.5,142.5 395.0,138.4 407.5,134.3 420.0,130.2 432.5,126.0 445.0,121.8 457.5,117.5 470.0,113.2 482.5,108.9 495.0,104.5 507.5,100.1 520.0,95.6 532.5,91.1 545.0,86.5 557.5,81.9 570.0,77.2"></polyline>
+<polyline class="ln thick" points="70.0,255.9 82.5,252.2 95.0,248.5 107.5,244.8 120.0,241.0 132.5,237.2 145.0,233.3 157.5,229.3 170.0,225.4 182.5,221.3 195.0,217.2 207.5,213.1 220.0,208.9 232.5,204.7 245.0,200.4 257.5,196.0 270.0,191.6 282.5,187.2 295.0,182.7 307.5,178.1 320.0,173.5 332.5,168.8 345.0,164.1 357.5,159.3 370.0,154.4 382.5,149.5 395.0,144.6 407.5,139.5 420.0,134.4 432.5,129.3 445.0,124.0 457.5,118.7 470.0,113.4 482.5,108.0 495.0,102.5 507.5,96.9 520.0,91.3 532.5,85.6 545.0,79.8 557.5,74.0 570.0,68.1"></polyline>
+<polyline class="ln-risk" points="70.0,277.8 82.5,273.7 95.0,269.6 107.5,265.4 120.0,261.2 132.5,256.9 145.0,252.5 157.5,248.1 170.0,243.6 182.5,239.0 195.0,234.4 207.5,229.7 220.0,224.9 232.5,220.1 245.0,215.2 257.5,210.2 270.0,205.1 282.5,200.0 295.0,194.8 307.5,189.5 320.0,184.1 332.5,178.7 345.0,173.2 357.5,167.5 370.0,161.9 382.5,156.1 395.0,150.2 407.5,144.3 420.0,138.2 432.5,132.1 445.0,125.9 457.5,119.5 470.0,113.1 482.5,106.6 495.0,100.0 507.5,93.3 520.0,86.5 532.5,79.6 545.0,72.6 557.5,65.5 570.0,58.3"></polyline>
+<line class="ln-time dash" x1="469.5" x2="469.5" y1="300.0" y2="50.0"></line>
+<circle class="f-time" cx="469.5" cy="113.6" r="5"></circle>
+<text class="t-s end t-time" x="461.5" y="54.0">지평 = 듀레이션 7.99년</text>
+<text class="t-num end halo" x="457.5" y="101.6">≈ 1,484</text>
+<text class="t-s t-risk" x="78" y="198.2">금리 4%로</text>
+<text class="t-s t-risk" x="78" y="297.8">금리 6%로</text>
+<text class="t-xs t-risk" x="576" y="58.3">6%</text>
+<text class="t-xs" x="576" y="73.1">5%</text>
+<text class="t-xs t-risk" x="576" y="87.2">4%</text>
+<text class="t-s mid t-ink2" x="200.0" y="114.7">가격 변화가 이기는 구간</text>
+<text class="t-xs mid t-ink2" x="200.0" y="134.7">금리가 내린 쪽이 유리</text>
+<text class="t-s mid t-ink2" x="522.5" y="188.2">재투자가</text>
+<text class="t-s mid t-ink2" x="522.5" y="208.2">이기는 구간</text>
+</svg></svg>

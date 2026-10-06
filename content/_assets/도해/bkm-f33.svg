@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 360" width="600" height="360" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-time{color:var(--time)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-time{fill:var(--time)}.dg .halo{paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln{stroke:var(--ink); stroke-width:1.5; fill:none}.dg .ln-time{stroke:var(--time); stroke-width:2.2; fill:none}.dg .thick{stroke-width:3.2}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-ink{fill:var(--ink)}.dg .f-time-a{fill:var(--time); fill-opacity:.18}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="선도이자율(해마다의 금리)이 현물이자율(누적 평균) 위에 있는 동안 현물 곡선은 올라간다. 단기금리 4, 5, 5.5, 6퍼센트가 현물 4.00, 4.50, 4.83, 5.12퍼센트를 만든다." class="dg" height="100%" role="img" viewBox="0 0 600 360" width="100%">
+<line class="grid" x1="80" x2="540" y1="260.0" y2="260.0"></line>
+<text class="t-num end t-ink2" x="70" y="265.0">4%</text>
+<line class="grid" x1="80" x2="540" y1="180.0" y2="180.0"></line>
+<text class="t-num end t-ink2" x="70" y="185.0">5%</text>
+<line class="grid" x1="80" x2="540" y1="100.0" y2="100.0"></line>
+<text class="t-num end t-ink2" x="70" y="105.0">6%</text>
+<line class="ax" x1="80" x2="550" y1="300.0" y2="300.0"></line>
+<line class="ax" x1="80" x2="80" y1="300.0" y2="60.0"></line>
+<line class="ax" x1="80" x2="80" y1="300.0" y2="305.0"></line>
+<text class="t-num mid t-ink2" x="80" y="324.0">0</text>
+<line class="ax" x1="195" x2="195" y1="300.0" y2="305.0"></line>
+<text class="t-num mid t-ink2" x="195" y="324.0">1</text>
+<line class="ax" x1="310" x2="310" y1="300.0" y2="305.0"></line>
+<text class="t-num mid t-ink2" x="310" y="324.0">2</text>
+<line class="ax" x1="425" x2="425" y1="300.0" y2="305.0"></line>
+<text class="t-num mid t-ink2" x="425" y="324.0">3</text>
+<line class="ax" x1="540" x2="540" y1="300.0" y2="305.0"></line>
+<text class="t-num mid t-ink2" x="540" y="324.0">4</text>
+<text class="t-s t-ink2" x="562" y="324.0">년</text>
+<rect class="f-time-a" height="40.0" width="109" x="83" y="260.0"></rect>
+<line class="ln-time thick" x1="83" x2="192" y1="260.0" y2="260.0"></line>
+<text class="t-num mid t-time" x="137.5" y="250.0">f₁ 4.0%</text>
+<rect class="f-time-a" height="120.0" width="109" x="198" y="180.0"></rect>
+<line class="ln-time thick" x1="198" x2="307" y1="180.0" y2="180.0"></line>
+<text class="t-num mid t-time" x="252.5" y="170.0">f₂ 5.0%</text>
+<rect class="f-time-a" height="160.0" width="109" x="313" y="140.0"></rect>
+<line class="ln-time thick" x1="313" x2="422" y1="140.0" y2="140.0"></line>
+<text class="t-num mid t-time" x="367.5" y="130.0">f₃ 5.5%</text>
+<rect class="f-time-a" height="200.0" width="109" x="428" y="100.0"></rect>
+<line class="ln-time thick" x1="428" x2="537" y1="100.0" y2="100.0"></line>
+<text class="t-num mid t-time" x="482.5" y="90.0">f₄ 6.0%</text>
+<polyline class="ln thick" points="83,260.0 195,260.0 310,220.1 425,193.5 540,170.2"></polyline>
+<circle class="f-ink" cx="195" cy="260.0" r="4.5"></circle>
+<circle class="f-ink" cx="310" cy="220.1" r="4.5"></circle>
+<circle class="f-ink" cx="425" cy="193.5" r="4.5"></circle>
+<circle class="f-ink" cx="540" cy="170.2" r="4.5"></circle>
+<text class="t-num halo end" x="187" y="282.0">y₁ 4.00%</text>
+<text class="t-num halo end" x="300" y="210.1">y₂ 4.50%</text>
+<text class="t-num halo end" x="415" y="183.5">y₃ 4.83%</text>
+<text class="t-num halo end" x="530" y="160.2">y₄ 5.12%</text>
+<line class="ln-time thick" x1="96" x2="126" y1="34" y2="34"></line>
+<text class="t-s" x="134" y="39">선도이자율 — 그해 한 해의 금리 (이번 학기 평점)</text>
+<line class="ln thick" x1="96" x2="126" y1="58" y2="58"></line>
+<circle class="f-ink" cx="111" cy="58" r="4.5"></circle>
+<text class="t-s" x="134" y="63">현물이자율 — 처음부터 그해까지의 평균 (누적 평점)</text>
+</svg></svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 410" width="600" height="410" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-ret{color:var(--ret)}.t-alarm{color:var(--alarm)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-xs{font-size:12.5px}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-ret{fill:var(--ret)}.dg .t-alarm{fill:var(--alarm)}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-mute{fill:var(--mute)}.dg .f-ret{fill:var(--ret)}.dg .f-alarm{fill:var(--alarm)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="네 종목과 지수의 비중을 세 방식으로 비교한 막대. 날것의 알파로는 종목마다 100% 안팎에 지수 −182%가 나오고, 추적오차를 4%로 묶으면 같은 모양으로 작게 줄며, 정밀도로 수축하면 종목 9~21%, 지수 50%가 된다." class="dg" height="100%" role="img" viewBox="0 0 600 410" width="100%">
+<defs></defs>
+<line class="grid" x1="112.0" x2="112.0" y1="64" y2="380"></line>
+<text class="t-num mid t-xs" x="112.0" y="398.0">−200%</text>
+<line class="grid" x1="243.8" x2="243.8" y1="64" y2="380"></line>
+<text class="t-num mid t-xs" x="243.8" y="398.0">−100%</text>
+<line class="ax" x1="375.5" x2="375.5" y1="64" y2="380"></line>
+<text class="t-num mid t-xs" x="375.5" y="398.0">0%</text>
+<line class="grid" x1="507.3" x2="507.3" y1="64" y2="380"></line>
+<text class="t-num mid t-xs" x="507.3" y="398.0">+100%</text>
+<text class="b" x="30.0" y="103.5">가</text>
+<rect class="f-alarm" height="13" width="155.7" x="375.5" y="74.0"></rect>
+<text class="t-num t-xs t-alarm" x="536.2" y="85.0">+118%</text>
+<rect class="f-mute" height="13" width="16.9" x="375.5" y="91.0"></rect>
+<text class="t-num t-xs t-ink2" x="397.4" y="102.0">+13%</text>
+<rect class="f-ret" height="13" width="27.4" x="375.5" y="108.0"></rect>
+<text class="t-num t-xs t-ret" x="407.9" y="119.0">+21%</text>
+<text class="b" x="30.0" y="165.5">나</text>
+<rect class="f-alarm" height="13" width="144.2" x="375.5" y="136.0"></rect>
+<text class="t-num t-xs t-alarm" x="524.7" y="147.0">+109%</text>
+<rect class="f-mute" height="13" width="15.6" x="375.5" y="153.0"></rect>
+<text class="t-num t-xs t-ink2" x="396.2" y="164.0">+12%</text>
+<rect class="f-ret" height="13" width="25.4" x="375.5" y="170.0"></rect>
+<text class="t-num t-xs t-ret" x="405.9" y="181.0">+19%</text>
+<text class="b" x="30.0" y="227.5">다</text>
+<rect class="f-alarm" height="13" width="66.4" x="309.1" y="198.0"></rect>
+<text class="t-num t-xs end t-alarm" x="304.1" y="209.0">−50%</text>
+<rect class="f-mute" height="13" width="7.2" x="368.3" y="215.0"></rect>
+<text class="t-num t-xs end t-ink2" x="363.3" y="226.0">−5%</text>
+<rect class="f-ret" height="13" width="11.7" x="363.8" y="232.0"></rect>
+<text class="t-num t-xs end t-ret" x="358.8" y="243.0">−9%</text>
+<text class="b" x="30.0" y="289.5">라</text>
+<rect class="f-alarm" height="13" width="138.4" x="375.5" y="260.0"></rect>
+<text class="t-num t-xs t-alarm" x="518.9" y="271.0">+105%</text>
+<rect class="f-mute" height="13" width="15.0" x="375.5" y="277.0"></rect>
+<text class="t-num t-xs t-ink2" x="395.5" y="288.0">+11%</text>
+<rect class="f-ret" height="13" width="24.4" x="375.5" y="294.0"></rect>
+<text class="t-num t-xs t-ret" x="404.9" y="305.0">+18%</text>
+<text class="b" x="30.0" y="351.5">지수</text>
+<rect class="f-alarm" height="13" width="240.0" x="135.5" y="322.0"></rect>
+<text class="t-num t-xs end t-alarm" x="130.5" y="333.0">−182%</text>
+<rect class="f-mute" height="13" width="91.4" x="375.5" y="339.0"></rect>
+<text class="t-num t-xs t-ink2" x="472.0" y="350.0">+69%</text>
+<rect class="f-ret" height="13" width="66.3" x="375.5" y="356.0"></rect>
+<text class="t-num t-xs t-ret" x="446.8" y="367.0">+50%</text>
+<rect class="f-alarm" height="11" width="14" x="30" y="22"></rect>
+<text class="t-xs" x="50.0" y="32.0">날것의 알파 그대로</text>
+<rect class="f-mute" height="11" width="14" x="220" y="22"></rect>
+<text class="t-xs" x="240.0" y="32.0">추적오차 4%로 축소</text>
+<rect class="f-ret" height="11" width="14" x="410" y="22"></rect>
+<text class="t-xs" x="430.0" y="32.0">정밀도로 수축</text>
+</svg></svg>

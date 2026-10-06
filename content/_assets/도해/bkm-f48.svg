@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 330" width="600" height="330" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-ret{color:var(--ret)}.t-risk{color:var(--risk)}.t-time{color:var(--time)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-mute{fill:var(--mute)}.dg .t-ret{fill:var(--ret)}.dg .t-risk{fill:var(--risk)}.dg .t-time{fill:var(--time)}.dg .halo{paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln{stroke:var(--ink); stroke-width:1.5; fill:none}.dg .ln-mute{stroke:var(--mute); stroke-width:1.1; fill:none}.dg .ln-ret{stroke:var(--ret); stroke-width:2.2; fill:none}.dg .ln-risk{stroke:var(--risk); stroke-width:2.2; fill:none}.dg .ln-time{stroke:var(--time); stroke-width:2.2; fill:none}.dg .thick{stroke-width:3.2}.dg .dash{stroke-dasharray:6 4}.dg .dot{stroke-dasharray:1.6 3.6; stroke-linecap:round}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="풋-콜 패리티. 콜에 채권을 더한 묶음과 주식에 풋을 더한 묶음은 만기에 똑같이 max(S_T, 100)을 준다. 그러니 오늘 값도 같아야 한다: 9.39 + 98.02 = 100 + 7.41 = 107.41." class="dg" height="100%" role="img" viewBox="0 0 600 330" width="100%">
+<text class="t-s b mid" x="156" y="24">가: 콜 + 채권(만기에 100)</text>
+<line class="ax" x1="42" x2="270" y1="252" y2="252"></line>
+<line class="ax" x1="42" x2="42" y1="252" y2="46"></line>
+<line class="ln-mute dot" x1="156.0" x2="156.0" y1="252" y2="152.0"></line>
+<text class="t-xs mid t-num t-mute" x="156.0" y="269">100</text>
+<text class="t-xs end t-mute" x="270" y="269">만기 주가 S_T</text>
+<text class="t-xs end t-num t-mute" x="36" y="156.0">100</text>
+<path class="ln thick" d="M42.0,152.0 L156.0,152.0 L258.6,62.0"></path>
+<path class="ln-time dash" d="M42.0,156.0 L258.6,156.0"></path>
+<path class="ln-ret dash" d="M42.0,250.0 L156.0,250.0 L258.6,160.0"></path>
+<text class="t-xs t-time mid halo" x="93.3" y="174.0">채권 → 100</text>
+<text class="t-s t-ret halo" x="231.2" y="208.0">콜</text>
+<text class="t-s b halo" x="48.8" y="74.0">합 = max(S_T, 100)</text>
+<text class="t-s b mid" x="456" y="24">나: 주식 + 풋</text>
+<line class="ax" x1="342" x2="570" y1="252" y2="252"></line>
+<line class="ax" x1="342" x2="342" y1="252" y2="46"></line>
+<line class="ln-mute dot" x1="456.0" x2="456.0" y1="252" y2="152.0"></line>
+<text class="t-xs mid t-num t-mute" x="456.0" y="269">100</text>
+<text class="t-xs end t-mute" x="570" y="269">만기 주가 S_T</text>
+<text class="t-xs end t-num t-mute" x="336" y="156.0">100</text>
+<path class="ln thick" d="M342.0,152.0 L456.0,152.0 L558.6,62.0"></path>
+<path class="ln-risk dash" d="M342.0,250.0 L558.6,60.0"></path>
+<path class="ln-ret dash" d="M342.0,156.0 L456.0,252.0 L558.6,252.0"></path>
+<text class="t-xs t-risk mid halo" x="513.0" y="156.0">주식 S_T</text>
+<text class="t-s t-ret halo" x="408.1" y="240.0">풋</text>
+<text class="t-s b halo" x="348.8" y="74.0">합 = max(S_T, 100)</text>
+<line class="grid" x1="40" x2="560" y1="282" y2="282"></line>
+<text class="t-num mid" x="150" y="310">9.39 + 98.02 = 107.41</text>
+<text class="b mid" x="300" y="310">=</text>
+<text class="t-num mid" x="450" y="310">100 + 7.41 = 107.41</text>
+</svg></svg>

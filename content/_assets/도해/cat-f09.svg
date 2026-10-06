@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 660 340" width="660" height="340" class="frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EEF0EF; --plate:#F8F9F8; --ink:#1B2226; --mute:#5A6569; --rule:#C2C9C9; --grid:#DAE0DF;
+  --brass:#8C6210; --steel:#34509F; --verd:#0F8C7E; --verm:#B23A26;
+  --brass-soft:rgba(140,98,16,.15); --steel-soft:rgba(52,80,159,.12); --verd-soft:rgba(15,140,126,.22); --verm-soft:rgba(178,58,38,.16);
+  --shadow:rgba(27,34,38,.18);
+  --f-display:"Orbit","Noto Sans KR","Apple SD Gothic Neo",sans-serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo",serif;
+  --f-label:"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --f-mono:"Azeret Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#13181B; --plate:#1A2125; --ink:#E2E7E5; --mute:#98A3A6; --rule:#3A4549; --grid:#263034;
+  --brass:#BB8B2C; --steel:#7C8CE0; --verd:#2FA597; --verm:#E06A55;
+  --brass-soft:rgba(187,139,44,.2); --steel-soft:rgba(124,140,224,.16); --verd-soft:rgba(47,165,151,.26); --verm-soft:rgba(224,106,85,.2);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#13181B; --plate:#1A2125; --ink:#E2E7E5; --mute:#98A3A6; --rule:#3A4549; --grid:#263034;
+  --brass:#BB8B2C; --steel:#7C8CE0; --verd:#2FA597; --verm:#E06A55;
+  --brass-soft:rgba(187,139,44,.2); --steel-soft:rgba(124,140,224,.16); --verd-soft:rgba(47,165,151,.26); --verm-soft:rgba(224,106,85,.2);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.mast .fig{ margin-top:.6rem }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:.5rem 3rem }.lecture{ display:contents }.fig{ display:grid; gap:.55rem; margin:0 }.frame{ overflow-x:auto; overflow-y:hidden; padding-block:.4rem; border-block:1px solid var(--rule);
+  background-color:var(--paper);
+  background-image:linear-gradient(to right,var(--paper) 30%,transparent),linear-gradient(to left,var(--paper) 30%,transparent),
+    radial-gradient(farthest-side at 0 50%,var(--shadow),transparent),radial-gradient(farthest-side at 100% 50%,var(--shadow),transparent);
+  background-position:left center,right center,left center,right center;
+  background-size:40px 100%,40px 100%,14px 100%,14px 100%;
+  background-repeat:no-repeat; background-attachment:local,local,scroll,scroll; }.frame svg{ display:block; width:100%; min-width:var(--svgmin,520px); height:auto }.dg{ font-family:var(--f-label); font-size:13px }.dg text{ fill:var(--ink) }.dg .t-s{ font-size:12px }.dg .t-b{ font-weight:700 }.dg .t-mute{ fill:var(--mute) }.dg .t-verd{ fill:var(--verd) }.dg .t-verm{ fill:var(--verm) }.dg .s-ink{ stroke:var(--ink) }.dg .s-verd{ stroke:var(--verd) }.dg .f-ink{ fill:var(--ink) }.dg .f-plate{ fill:var(--plate) }.dg .f-verd{ fill:var(--verd) }.card-big.t-verm{ color:var(--verm) }.card-big.t-verd{ color:var(--verd) }.hero-dg .t-s{ font-size:13.5px }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="두 출발 상자 CAT와 WUSH가 가운데 정렬 최적 가족으로 모이고, 다시 두 구체적 변환으로 갈라진다." class="dg" height="100%" role="img" viewBox="0 0 660 340" width="100%">
+<defs><marker id="ar-paths" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker></defs><defs><marker id="ar-paths-v" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-verd" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<rect class="f-plate s-ink" height="64" rx="4" stroke-width="1.4" width="280" x="20" y="14"></rect><text class="t-b" text-anchor="middle" x="160.0" y="36">CAT (2026.3)</text><text class="t-s" text-anchor="middle" x="160.0" y="55">SQNR를 네 인수로 가르고 A를 최대로</text>
+<rect class="f-plate s-ink" height="64" rx="4" stroke-width="1.4" width="280" x="360" y="14"></rect><text class="t-b" text-anchor="middle" x="500.0" y="36">WUSH (2025.12)</text><text class="t-s" text-anchor="middle" x="500.0" y="55">블록 absmax 기대 오차를 최소로</text>
+<line class="s-ink" marker-end="url(#ar-paths)" stroke-width="1.5" x1="160" x2="250" y1="80" y2="128"></line>
+<line class="s-ink" marker-end="url(#ar-paths)" stroke-width="1.5" x1="500" x2="410" y1="80" y2="128"></line>
+<text class="t-mute t-s" text-anchor="end" x="178" y="112">식 (7)</text>
+<text class="t-mute t-s" text-anchor="start" x="482" y="112">촐레스키 + SVD</text>
+<rect class="f-plate s-verd" height="70" rx="4" stroke-width="1.4" width="360" x="150" y="132"></rect><text class="t-b t-verd" text-anchor="middle" x="330.0" y="154">두 장부가 같아지는 가족 {Q·M̂}</text><text class="t-s" text-anchor="middle" x="330.0" y="173">최대 정렬 Σσ²/(Σσ)² — 둘 다 0.2653</text>
+<line class="s-verd" marker-end="url(#ar-paths-v)" stroke-width="1.5" x1="260" x2="170" y1="204" y2="250"></line>
+<line class="s-verd" marker-end="url(#ar-paths-v)" stroke-width="1.5" x1="400" x2="490" y1="204" y2="250"></line>
+<text class="t-mute t-s" text-anchor="middle" x="330" y="236">가족 안에서 어느 회전 Q?</text>
+<rect class="f-plate s-ink" height="72" rx="4" stroke-width="1.4" width="280" x="20" y="254"></rect><text class="t-b" text-anchor="middle" x="160.0" y="276">T = H·M̂ (대칭 M̂)</text><text class="t-s t-verm" text-anchor="middle" x="160.0" y="295">농도 쪽 최적성 증명 없음</text>
+<rect class="f-plate s-ink" height="72" rx="4" stroke-width="1.4" width="280" x="360" y="254"></rect><text class="t-b" text-anchor="middle" x="500.0" y="276">T = H·S^(−½)·Uᵀ·W′ᵀ</text><text class="t-s" text-anchor="middle" x="500.0" y="295">FP 최적 · INT d^o(1)배 이내</text>
+</svg></svg>

@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 384" width="760" height="384" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#E6ECE9; --panel:#F2F5F3; --ink:#172120; --ink-2:#4A5755; --rule:#B6C3BF;
+  --liq:#1B6971; --liq-soft:#CFE0DE; --liq-dot:#7FA9AB;
+  --cry:#866207; --cry-soft:#EAD9A0; --cry-deep:#C9A43C;
+  --inf:#5B3D8F; --inf-soft:#DCD3EA;
+  --brk:#983B20; --brk-soft:#EFD5CB;
+  --shade:#0E1514; --on-shade:#E6ECE9;
+  --f-display:"Hahmlet","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Gowun Batang","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-latin:"Old Standard TT","Gowun Batang","Noto Serif CJK KR",serif;
+  --f-mono:"Cutive Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR","Courier New",monospace;
+  --pad:1.05rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem }.lecture{ display:contents }.hero-fig svg{ width:100%; height:auto; display:block }figure.fig{ margin:.4rem 0 .6rem }.fig-frame{ overflow-x:auto; overflow-y:hidden; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background:
+  linear-gradient(to right,var(--paper),var(--paper)) left/1.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--paper),var(--paper)) right/1.2rem 100% no-repeat local,
+  linear-gradient(to right,rgba(0,0,0,.18),rgba(0,0,0,0)) left/.7rem 100% no-repeat scroll,
+  linear-gradient(to left,rgba(0,0,0,.18),rgba(0,0,0,0)) right/.7rem 100% no-repeat scroll;
+  background-color:var(--paper) }.fig-frame svg{ display:block; width:100%; min-width:560px; height:auto }.fig svg text, .hero-fig text{ font-family:var(--f-body); fill:var(--ink) }.t{ font-size:13px }.t-s{ font-size:11px }.t-b{ font-weight:700 }.t-mute{ fill:var(--ink-2) !important }.t-liq{ fill:var(--liq) !important }.t-cry{ fill:var(--cry) !important }.t-inf{ fill:var(--inf) !important }.t-brk{ fill:var(--brk) !important }.f-none{ fill:none }.f-paper{ fill:var(--paper) }.f-ink{ fill:var(--ink) }.f-liq{ fill:var(--liq) }.f-liq-soft{ fill:var(--liq-soft) }.f-cry{ fill:var(--cry) }.f-cry-soft{ fill:var(--cry-soft) }.f-inf{ fill:var(--inf) }.f-inf-soft{ fill:var(--inf-soft) }.s-ink{ stroke:var(--ink) }.s-mute{ stroke:var(--ink-2) }.s-liq{ stroke:var(--liq) }.s-cry{ stroke:var(--cry) }.s-inf{ stroke:var(--inf) }.w05{ stroke-width:.6 }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.w3{ stroke-width:3 }.w4{ stroke-width:4.5 }.dash{ stroke-dasharray:5 4 }.dot{ stroke-dasharray:1.5 3.5; stroke-linecap:round }.round{ stroke-linecap:round; stroke-linejoin:round }.op5{ opacity:.5 }.hero-fig .band:hover polygon, .hero-fig .band:focus polygon{ fill:var(--inf-soft) }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="왼쪽 폴립 군체는 출아로 끊김 없이 이어지는 덤불이다. 군체에서 화살표 하나가 여러 갈래로 갈라져 메두사 여럿이 떨어져 나온다(증폭). 그 가운데 하나를 따라가면 물결을 타고 시공간을 건너 알을 뿌리고 죽는다. 알은 플라눌라가 되어 내려앉아 첫 폴립이 되고, 출아로 오른쪽에 새 군체가 자란다. 두 군체는 연속이고 그 사이의 메두사만 시작과 끝을 가진다. 군체 대 개체는 식물 대 씨앗이다." height="100%" role="img" viewBox="0 0 760 384" width="100%">
+<defs>
+<marker id="f15-ar-ink" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f15-ar-liq" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-liq" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f15-ar-cry" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-cry" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f15-ar-inf" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-inf" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<line class="s-mute w1" x1="16" x2="744" y1="282" y2="282"></line>
+<line class="s-liq w2 dot" x1="16" x2="40" y1="279" y2="279"></line>
+<line class="s-liq w2" marker-end="url(#f15-ar-liq)" x1="40" x2="262" y1="279" y2="279"></line>
+<polyline class="f-none s-liq w15" points="70,278 76,252 64,226 76,200 70,176"></polyline>
+<line class="s-liq w1" x1="76" x2="88" y1="252" y2="244"></line>
+<path class="f-liq-soft s-liq w1" d="M83,237 L93,237 L90,246 L86,246 Z"></path>
+<line class="s-liq w1" x1="84.0" x2="80.5" y1="237" y2="231"></line>
+<line class="s-liq w1" x1="88.0" x2="88.0" y1="237" y2="231"></line>
+<line class="s-liq w1" x1="92.0" x2="95.5" y1="237" y2="231"></line>
+<line class="s-liq w1" x1="64" x2="52" y1="226" y2="218"></line>
+<path class="f-liq-soft s-liq w1" d="M47,211 L57,211 L54,220 L50,220 Z"></path>
+<line class="s-liq w1" x1="48.0" x2="44.5" y1="211" y2="205"></line>
+<line class="s-liq w1" x1="52.0" x2="52.0" y1="211" y2="205"></line>
+<line class="s-liq w1" x1="56.0" x2="59.5" y1="211" y2="205"></line>
+<line class="s-liq w1" x1="76" x2="88" y1="200" y2="192"></line>
+<path class="f-liq-soft s-liq w1" d="M83,185 L93,185 L90,194 L86,194 Z"></path>
+<line class="s-liq w1" x1="84.0" x2="80.5" y1="185" y2="179"></line>
+<line class="s-liq w1" x1="88.0" x2="88.0" y1="185" y2="179"></line>
+<line class="s-liq w1" x1="92.0" x2="95.5" y1="185" y2="179"></line>
+<path class="f-liq-soft s-liq w1" d="M65,169 L75,169 L72,178 L68,178 Z"></path>
+<line class="s-liq w1" x1="66.0" x2="62.5" y1="169" y2="163"></line>
+<line class="s-liq w1" x1="70.0" x2="70.0" y1="169" y2="163"></line>
+<line class="s-liq w1" x1="74.0" x2="77.5" y1="169" y2="163"></line>
+<line class="s-liq w1" x1="70" x2="58" y1="270" y2="264"></line>
+<ellipse class="f-liq-soft s-liq w1" cx="56" cy="254" rx="5" ry="11"></ellipse>
+<circle class="f-cry" cx="56" cy="249" r="2"></circle>
+<circle class="f-cry" cx="56" cy="257" r="2"></circle>
+<polyline class="f-none s-liq w15" points="140,278 146,252 134,226 146,200 140,176"></polyline>
+<line class="s-liq w1" x1="146" x2="158" y1="252" y2="244"></line>
+<path class="f-liq-soft s-liq w1" d="M153,237 L163,237 L160,246 L156,246 Z"></path>
+<line class="s-liq w1" x1="154.0" x2="150.5" y1="237" y2="231"></line>
+<line class="s-liq w1" x1="158.0" x2="158.0" y1="237" y2="231"></line>
+<line class="s-liq w1" x1="162.0" x2="165.5" y1="237" y2="231"></line>
+<line class="s-liq w1" x1="134" x2="122" y1="226" y2="218"></line>
+<path class="f-liq-soft s-liq w1" d="M117,211 L127,211 L124,220 L120,220 Z"></path>
+<line class="s-liq w1" x1="118.0" x2="114.5" y1="211" y2="205"></line>
+<line class="s-liq w1" x1="122.0" x2="122.0" y1="211" y2="205"></line>
+<line class="s-liq w1" x1="126.0" x2="129.5" y1="211" y2="205"></line>
+<line class="s-liq w1" x1="146" x2="158" y1="200" y2="192"></line>
+<path class="f-liq-soft s-liq w1" d="M153,185 L163,185 L160,194 L156,194 Z"></path>
+<line class="s-liq w1" x1="154.0" x2="150.5" y1="185" y2="179"></line>
+<line class="s-liq w1" x1="158.0" x2="158.0" y1="185" y2="179"></line>
+<line class="s-liq w1" x1="162.0" x2="165.5" y1="185" y2="179"></line>
+<path class="f-liq-soft s-liq w1" d="M135,169 L145,169 L142,178 L138,178 Z"></path>
+<line class="s-liq w1" x1="136.0" x2="132.5" y1="169" y2="163"></line>
+<line class="s-liq w1" x1="140.0" x2="140.0" y1="169" y2="163"></line>
+<line class="s-liq w1" x1="144.0" x2="147.5" y1="169" y2="163"></line>
+<line class="s-liq w1" x1="140" x2="128" y1="270" y2="264"></line>
+<ellipse class="f-liq-soft s-liq w1" cx="126" cy="254" rx="5" ry="11"></ellipse>
+<circle class="f-cry" cx="126" cy="249" r="2"></circle>
+<circle class="f-cry" cx="126" cy="257" r="2"></circle>
+<polyline class="f-none s-liq w15" points="210,278 216,252 204,226 216,200 210,176"></polyline>
+<line class="s-liq w1" x1="216" x2="228" y1="252" y2="244"></line>
+<path class="f-liq-soft s-liq w1" d="M223,237 L233,237 L230,246 L226,246 Z"></path>
+<line class="s-liq w1" x1="224.0" x2="220.5" y1="237" y2="231"></line>
+<line class="s-liq w1" x1="228.0" x2="228.0" y1="237" y2="231"></line>
+<line class="s-liq w1" x1="232.0" x2="235.5" y1="237" y2="231"></line>
+<line class="s-liq w1" x1="204" x2="192" y1="226" y2="218"></line>
+<path class="f-liq-soft s-liq w1" d="M187,211 L197,211 L194,220 L190,220 Z"></path>
+<line class="s-liq w1" x1="188.0" x2="184.5" y1="211" y2="205"></line>
+<line class="s-liq w1" x1="192.0" x2="192.0" y1="211" y2="205"></line>
+<line class="s-liq w1" x1="196.0" x2="199.5" y1="211" y2="205"></line>
+<line class="s-liq w1" x1="216" x2="228" y1="200" y2="192"></line>
+<path class="f-liq-soft s-liq w1" d="M223,185 L233,185 L230,194 L226,194 Z"></path>
+<line class="s-liq w1" x1="224.0" x2="220.5" y1="185" y2="179"></line>
+<line class="s-liq w1" x1="228.0" x2="228.0" y1="185" y2="179"></line>
+<line class="s-liq w1" x1="232.0" x2="235.5" y1="185" y2="179"></line>
+<path class="f-liq-soft s-liq w1" d="M205,169 L215,169 L212,178 L208,178 Z"></path>
+<line class="s-liq w1" x1="206.0" x2="202.5" y1="169" y2="163"></line>
+<line class="s-liq w1" x1="210.0" x2="210.0" y1="169" y2="163"></line>
+<line class="s-liq w1" x1="214.0" x2="217.5" y1="169" y2="163"></line>
+<line class="s-liq w1" x1="210" x2="198" y1="270" y2="264"></line>
+<ellipse class="f-liq-soft s-liq w1" cx="196" cy="254" rx="5" ry="11"></ellipse>
+<circle class="f-cry" cx="196" cy="249" r="2"></circle>
+<circle class="f-cry" cx="196" cy="257" r="2"></circle>
+<text class="t t-b t-liq" x="20" y="128">폴립 군체</text>
+<text class="t-s t-mute" x="20" y="144">출아로 끊김 없이 이어지는 덤불</text>
+<path class="f-none s-cry w3 round" d="M214,168 C220,150 232,130 250,118"></path>
+<path class="f-none s-cry w15" d="M250,118 C264,118 270,54 281,54" marker-end="url(#f15-ar-cry)"></path>
+<path class="f-none s-cry w15" d="M250,118 C264,118 286,100 297,100" marker-end="url(#f15-ar-cry)"></path>
+<path class="f-none s-cry w15" d="M250,118 C264,118 280,146 291,146" marker-end="url(#f15-ar-cry)"></path>
+<path class="f-none s-cry w15" d="M250,118 C264,118 262,192 273,192" marker-end="url(#f15-ar-cry)"></path>
+<path class="f-cry-soft s-cry w15" d="M285,58 C285,45 307,45 307,58 Z"></path>
+<path class="f-none s-cry w1" d="M289,58 q2,5 0,9"></path>
+<path class="f-none s-cry w1" d="M296,58 q2,5 0,9"></path>
+<path class="f-none s-cry w1" d="M303,58 q2,5 0,9"></path>
+<path class="f-cry-soft s-cry w15" d="M301,104 C301,91 323,91 323,104 Z"></path>
+<path class="f-none s-cry w1" d="M305,104 q2,5 0,9"></path>
+<path class="f-none s-cry w1" d="M312,104 q2,5 0,9"></path>
+<path class="f-none s-cry w1" d="M319,104 q2,5 0,9"></path>
+<path class="f-cry-soft s-cry w15" d="M295,150 C295,137 317,137 317,150 Z"></path>
+<path class="f-none s-cry w1" d="M299,150 q2,5 0,9"></path>
+<path class="f-none s-cry w1" d="M306,150 q2,5 0,9"></path>
+<path class="f-none s-cry w1" d="M313,150 q2,5 0,9"></path>
+<path class="f-cry-soft s-cry w15" d="M277,196 C277,183 299,183 299,196 Z"></path>
+<path class="f-none s-cry w1" d="M281,196 q2,5 0,9"></path>
+<path class="f-none s-cry w1" d="M288,196 q2,5 0,9"></path>
+<path class="f-none s-cry w1" d="M295,196 q2,5 0,9"></path>
+<text class="t-s t-b t-cry" text-anchor="end" x="240" y="76">증폭</text>
+<text class="t-s t-mute" text-anchor="end" x="240" y="90">군체 하나가 메두사 여럿</text>
+<path class="f-none s-cry w1 dash op5" d="M310,56 C326,48 340,64 358,56"></path>
+<path class="f-none s-cry w1 dash op5" d="M320,148 C336,140 350,156 368,148"></path>
+<path class="f-none s-cry w1 dash op5" d="M302,194 C318,186 332,202 350,194"></path>
+<text class="t-s t-mute" x="360" y="198">… 저마다 새 군체를</text>
+<text class="t-s t-mute" x="372" y="212">낳을 수 있음</text>
+<path class="f-none s-cry w2 dash" d="M326,101 C352,80 372,114 402,96 C430,78 452,110 476,108" marker-end="url(#f15-ar-cry)"></path>
+<text class="t-s t-cry" text-anchor="middle" x="312" y="130">시작</text>
+<text class="t-s t-cry" text-anchor="middle" x="404" y="76">메두사 = 자유 개체</text>
+<text class="t-s t-mute" text-anchor="middle" x="404" y="134">물결 타고 시공간을 건넘</text>
+<line class="s-ink w2" x1="478" x2="490" y1="106" y2="118"></line>
+<line class="s-ink w2" x1="478" x2="490" y1="118" y2="106"></line>
+<text class="t-s t-b" x="496" y="106">끝 — 알을 뿌리고 죽음</text>
+<circle class="f-inf" cx="490" cy="128" r="2.6"></circle>
+<circle class="f-inf" cx="499" cy="136" r="2.6"></circle>
+<circle class="f-inf" cx="508" cy="127" r="2.6"></circle>
+<circle class="f-inf" cx="494" cy="145" r="2.6"></circle>
+<circle class="f-inf" cx="512" cy="143" r="2.6"></circle>
+<text class="t-s t-inf" x="522" y="138">알</text>
+<line class="s-inf w1" marker-end="url(#f15-ar-inf)" x1="502" x2="508" y1="152" y2="180"></line>
+<ellipse class="f-inf-soft s-inf w1" cx="512" cy="192" rx="8" ry="4"></ellipse>
+<line class="s-inf w05" x1="506" x2="506" y1="188" y2="185"></line>
+<line class="s-inf w05" x1="510" x2="510" y1="188" y2="185"></line>
+<line class="s-inf w05" x1="514" x2="514" y1="188" y2="185"></line>
+<line class="s-inf w05" x1="518" x2="518" y1="188" y2="185"></line>
+<text class="t-s t-inf" x="526" y="196">플라눌라</text>
+<line class="s-inf w1" marker-end="url(#f15-ar-inf)" x1="514" x2="519" y1="199" y2="256"></line>
+<text class="t-s t-mute" text-anchor="end" x="506" y="222">내려앉음</text>
+<line class="s-liq w15" x1="520" x2="520" y1="279" y2="268"></line>
+<path class="f-liq-soft s-liq w1" d="M515,261 L525,261 L522,270 L518,270 Z"></path>
+<line class="s-liq w1" x1="516.0" x2="512.5" y1="261" y2="255"></line>
+<line class="s-liq w1" x1="520.0" x2="520.0" y1="261" y2="255"></line>
+<line class="s-liq w1" x1="524.0" x2="527.5" y1="261" y2="255"></line>
+<circle class="f-inf" cx="520" cy="279" r="3.2"></circle>
+<text class="t-s" text-anchor="end" x="510" y="274">첫 폴립 (원천 개체)</text>
+<line class="s-liq w2" marker-end="url(#f15-ar-liq)" x1="520" x2="744" y1="279" y2="279"></line>
+<polyline class="f-none s-liq w15" points="590,278 596,252 584,226 596,200 590,176"></polyline>
+<line class="s-liq w1" x1="596" x2="608" y1="252" y2="244"></line>
+<path class="f-liq-soft s-liq w1" d="M603,237 L613,237 L610,246 L606,246 Z"></path>
+<line class="s-liq w1" x1="604.0" x2="600.5" y1="237" y2="231"></line>
+<line class="s-liq w1" x1="608.0" x2="608.0" y1="237" y2="231"></line>
+<line class="s-liq w1" x1="612.0" x2="615.5" y1="237" y2="231"></line>
+<line class="s-liq w1" x1="584" x2="572" y1="226" y2="218"></line>
+<path class="f-liq-soft s-liq w1" d="M567,211 L577,211 L574,220 L570,220 Z"></path>
+<line class="s-liq w1" x1="568.0" x2="564.5" y1="211" y2="205"></line>
+<line class="s-liq w1" x1="572.0" x2="572.0" y1="211" y2="205"></line>
+<line class="s-liq w1" x1="576.0" x2="579.5" y1="211" y2="205"></line>
+<line class="s-liq w1" x1="596" x2="608" y1="200" y2="192"></line>
+<path class="f-liq-soft s-liq w1" d="M603,185 L613,185 L610,194 L606,194 Z"></path>
+<line class="s-liq w1" x1="604.0" x2="600.5" y1="185" y2="179"></line>
+<line class="s-liq w1" x1="608.0" x2="608.0" y1="185" y2="179"></line>
+<line class="s-liq w1" x1="612.0" x2="615.5" y1="185" y2="179"></line>
+<path class="f-liq-soft s-liq w1" d="M585,169 L595,169 L592,178 L588,178 Z"></path>
+<line class="s-liq w1" x1="586.0" x2="582.5" y1="169" y2="163"></line>
+<line class="s-liq w1" x1="590.0" x2="590.0" y1="169" y2="163"></line>
+<line class="s-liq w1" x1="594.0" x2="597.5" y1="169" y2="163"></line>
+<line class="s-liq w1" x1="590" x2="578" y1="270" y2="264"></line>
+<ellipse class="f-liq-soft s-liq w1" cx="576" cy="254" rx="5" ry="11"></ellipse>
+<circle class="f-cry" cx="576" cy="249" r="2"></circle>
+<circle class="f-cry" cx="576" cy="257" r="2"></circle>
+<polyline class="f-none s-liq w15" points="660,278 666,252 654,226 666,200 660,176"></polyline>
+<line class="s-liq w1" x1="666" x2="678" y1="252" y2="244"></line>
+<path class="f-liq-soft s-liq w1" d="M673,237 L683,237 L680,246 L676,246 Z"></path>
+<line class="s-liq w1" x1="674.0" x2="670.5" y1="237" y2="231"></line>
+<line class="s-liq w1" x1="678.0" x2="678.0" y1="237" y2="231"></line>
+<line class="s-liq w1" x1="682.0" x2="685.5" y1="237" y2="231"></line>
+<line class="s-liq w1" x1="654" x2="642" y1="226" y2="218"></line>
+<path class="f-liq-soft s-liq w1" d="M637,211 L647,211 L644,220 L640,220 Z"></path>
+<line class="s-liq w1" x1="638.0" x2="634.5" y1="211" y2="205"></line>
+<line class="s-liq w1" x1="642.0" x2="642.0" y1="211" y2="205"></line>
+<line class="s-liq w1" x1="646.0" x2="649.5" y1="211" y2="205"></line>
+<line class="s-liq w1" x1="666" x2="678" y1="200" y2="192"></line>
+<path class="f-liq-soft s-liq w1" d="M673,185 L683,185 L680,194 L676,194 Z"></path>
+<line class="s-liq w1" x1="674.0" x2="670.5" y1="185" y2="179"></line>
+<line class="s-liq w1" x1="678.0" x2="678.0" y1="185" y2="179"></line>
+<line class="s-liq w1" x1="682.0" x2="685.5" y1="185" y2="179"></line>
+<path class="f-liq-soft s-liq w1" d="M655,169 L665,169 L662,178 L658,178 Z"></path>
+<line class="s-liq w1" x1="656.0" x2="652.5" y1="169" y2="163"></line>
+<line class="s-liq w1" x1="660.0" x2="660.0" y1="169" y2="163"></line>
+<line class="s-liq w1" x1="664.0" x2="667.5" y1="169" y2="163"></line>
+<line class="s-liq w1" x1="660" x2="648" y1="270" y2="264"></line>
+<ellipse class="f-liq-soft s-liq w1" cx="646" cy="254" rx="5" ry="11"></ellipse>
+<circle class="f-cry" cx="646" cy="249" r="2"></circle>
+<circle class="f-cry" cx="646" cy="257" r="2"></circle>
+<polyline class="f-none s-liq w15" points="730,278 736,252 724,226 736,200 730,176"></polyline>
+<line class="s-liq w1" x1="736" x2="748" y1="252" y2="244"></line>
+<path class="f-liq-soft s-liq w1" d="M743,237 L753,237 L750,246 L746,246 Z"></path>
+<line class="s-liq w1" x1="744.0" x2="740.5" y1="237" y2="231"></line>
+<line class="s-liq w1" x1="748.0" x2="748.0" y1="237" y2="231"></line>
+<line class="s-liq w1" x1="752.0" x2="755.5" y1="237" y2="231"></line>
+<line class="s-liq w1" x1="724" x2="712" y1="226" y2="218"></line>
+<path class="f-liq-soft s-liq w1" d="M707,211 L717,211 L714,220 L710,220 Z"></path>
+<line class="s-liq w1" x1="708.0" x2="704.5" y1="211" y2="205"></line>
+<line class="s-liq w1" x1="712.0" x2="712.0" y1="211" y2="205"></line>
+<line class="s-liq w1" x1="716.0" x2="719.5" y1="211" y2="205"></line>
+<line class="s-liq w1" x1="736" x2="748" y1="200" y2="192"></line>
+<path class="f-liq-soft s-liq w1" d="M743,185 L753,185 L750,194 L746,194 Z"></path>
+<line class="s-liq w1" x1="744.0" x2="740.5" y1="185" y2="179"></line>
+<line class="s-liq w1" x1="748.0" x2="748.0" y1="185" y2="179"></line>
+<line class="s-liq w1" x1="752.0" x2="755.5" y1="185" y2="179"></line>
+<path class="f-liq-soft s-liq w1" d="M725,169 L735,169 L732,178 L728,178 Z"></path>
+<line class="s-liq w1" x1="726.0" x2="722.5" y1="169" y2="163"></line>
+<line class="s-liq w1" x1="730.0" x2="730.0" y1="169" y2="163"></line>
+<line class="s-liq w1" x1="734.0" x2="737.5" y1="169" y2="163"></line>
+<line class="s-liq w1" x1="730" x2="718" y1="270" y2="264"></line>
+<ellipse class="f-liq-soft s-liq w1" cx="716" cy="254" rx="5" ry="11"></ellipse>
+<circle class="f-cry" cx="716" cy="249" r="2"></circle>
+<circle class="f-cry" cx="716" cy="257" r="2"></circle>
+<text class="t t-b t-liq" x="560" y="128">새 군체</text>
+<text class="t-s t-mute" x="560" y="144">출아로 다시 끊김 없이</text>
+<path class="f-none s-cry w1" d="M302,40 L302,32 L488,32 L488,40"></path>
+<text class="t-s t-cry" text-anchor="middle" x="398" y="22">두 군체 사이에 끼워진 개체 — 「그것은 관계다」 (p. 182)</text>
+<line class="s-liq w4 dot" x1="16" x2="36" y1="312" y2="312"></line>
+<line class="s-liq w4" x1="36" x2="262" y1="312" y2="312"></line>
+<line class="s-liq w4 dot" x1="262" x2="300" y1="312" y2="312"></line>
+<line class="s-cry w2" x1="312" x2="484" y1="312" y2="312"></line>
+<circle class="f-paper s-cry w15" cx="312" cy="312" r="4"></circle>
+<line class="s-ink w2" x1="479" x2="489" y1="307" y2="317"></line>
+<line class="s-ink w2" x1="479" x2="489" y1="317" y2="307"></line>
+<line class="s-liq w4" marker-end="url(#f15-ar-liq)" x1="520" x2="744" y1="312" y2="312"></line>
+<text class="t-s t-liq" text-anchor="middle" x="140" y="330">연속 — 시작도 끝도 없음</text>
+<text class="t-s t-cry" text-anchor="middle" x="398" y="330">시작과 끝을 가진 것은 이것뿐</text>
+<text class="t-s t-liq" text-anchor="middle" x="632" y="330">연속</text>
+<text class="t t-b" x="20" y="358">군체 : 개체 = 식물 : 씨앗</text>
+<text class="t-s t-mute" x="200" y="358">(미주 22, p. 390)</text>
+<text class="t-s t-brk" text-anchor="end" x="744" y="358">〔정정〕 군체가 내는 것은 알이 아니라 메두사, 알은 메두사가 낳는다</text>
+<text class="t-s t-mute" text-anchor="end" x="744" y="374">시간 · 자리 옮김 → (눈금 없음)</text>
+</svg></svg>

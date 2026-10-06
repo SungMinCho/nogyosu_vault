@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 330" width="600" height="330" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-ret{color:var(--ret)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-mute{fill:var(--mute)}.dg .t-ret{fill:var(--ret)}.dg .halo{paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln-ret{stroke:var(--ret); stroke-width:2.2; fill:none}.dg .ln-risk{stroke:var(--risk); stroke-width:2.2; fill:none}.dg .thin{stroke-width:1}.dg .dash{stroke-dasharray:6 4}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-risk{fill:var(--risk)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="이항 나무의 단계 수를 1에서 60까지 늘리며 공통 예제 콜 값을 세면, 홀수 단계는 위로 짝수 단계는 아래로 번갈아 튀며 블랙–숄즈 값 9.39로 좁혀 든다." class="dg" height="100%" role="img" viewBox="0 0 600 330" width="100%">
+<line class="ax" x1="58" x2="570" y1="280" y2="280"></line>
+<line class="ax" x1="58" x2="58" y1="280" y2="34"></line>
+<line class="grid" x1="58" x2="570" y1="258.8" y2="258.8"></line>
+<text class="t-xs end t-num t-mute" x="51" y="262.8">8.5</text>
+<line class="grid" x1="58" x2="570" y1="223.5" y2="223.5"></line>
+<text class="t-xs end t-num t-mute" x="51" y="227.5">9.0</text>
+<line class="grid" x1="58" x2="570" y1="188.2" y2="188.2"></line>
+<text class="t-xs end t-num t-mute" x="51" y="192.2">9.5</text>
+<line class="grid" x1="58" x2="570" y1="152.9" y2="152.9"></line>
+<text class="t-xs end t-num t-mute" x="51" y="156.9">10.0</text>
+<line class="grid" x1="58" x2="570" y1="117.6" y2="117.6"></line>
+<text class="t-xs end t-num t-mute" x="51" y="121.6">10.5</text>
+<line class="grid" x1="58" x2="570" y1="82.4" y2="82.4"></line>
+<text class="t-xs end t-num t-mute" x="51" y="86.4">11.0</text>
+<line class="grid" x1="58" x2="570" y1="47.1" y2="47.1"></line>
+<text class="t-xs end t-num t-mute" x="51" y="51.1">11.5</text>
+<text class="t-xs mid t-num t-mute" x="58.0" y="298">1</text>
+<text class="t-xs mid t-num t-mute" x="136.1" y="298">10</text>
+<text class="t-xs mid t-num t-mute" x="222.9" y="298">20</text>
+<text class="t-xs mid t-num t-mute" x="309.7" y="298">30</text>
+<text class="t-xs mid t-num t-mute" x="396.4" y="298">40</text>
+<text class="t-xs mid t-num t-mute" x="483.2" y="298">50</text>
+<text class="t-xs mid t-num t-mute" x="570.0" y="298">60</text>
+<text class="t-xs end t-mute" x="570" y="318">이항 나무의 단계 수 n</text>
+<text class="t-xs t-mute" x="66" y="28">콜 값</text>
+<path class="ln-ret dash" d="M58,196.0 L570,196.0"></path>
+<path class="ln-risk thin" d="M58.0,50.4 L66.7,263.4 L75.4,146.7 L84.0,231.6 L92.7,166.5 L101.4,220.1 L110.1,175.0 L118.7,214.2 L127.4,179.7 L136.1,210.6 L144.8,182.7 L153.5,208.2 L162.1,184.8 L170.8,206.5 L179.5,186.3 L188.2,205.2 L196.8,187.4 L205.5,204.1 L214.2,188.3 L222.9,203.3 L231.6,189.0 L240.2,202.7 L248.9,189.7 L257.6,202.1 L266.3,190.2 L274.9,201.6 L283.6,190.6 L292.3,201.2 L301.0,191.0 L309.7,200.9 L318.3,191.3 L327.0,200.6 L335.7,191.6 L344.4,200.3 L353.1,191.8 L361.7,200.1 L370.4,192.1 L379.1,199.9 L387.8,192.3 L396.4,199.7 L405.1,192.4 L413.8,199.5 L422.5,192.6 L431.2,199.3 L439.8,192.7 L448.5,199.2 L457.2,192.9 L465.9,199.0 L474.5,193.0 L483.2,198.9 L491.9,193.1 L500.6,198.8 L509.3,193.2 L517.9,198.7 L526.6,193.3 L535.3,198.6 L544.0,193.4 L552.6,198.5 L561.3,193.5 L570.0,198.4"></path>
+<circle class="f-risk" cx="58.0" cy="50.4" r="2.4"></circle>
+<circle class="f-risk" cx="66.7" cy="263.4" r="2.4"></circle>
+<circle class="f-risk" cx="75.4" cy="146.7" r="2.4"></circle>
+<circle class="f-risk" cx="84.0" cy="231.6" r="2.4"></circle>
+<circle class="f-risk" cx="92.7" cy="166.5" r="2.4"></circle>
+<circle class="f-risk" cx="101.4" cy="220.1" r="2.4"></circle>
+<circle class="f-risk" cx="110.1" cy="175.0" r="2.4"></circle>
+<circle class="f-risk" cx="118.7" cy="214.2" r="2.4"></circle>
+<circle class="f-risk" cx="127.4" cy="179.7" r="2.4"></circle>
+<circle class="f-risk" cx="136.1" cy="210.6" r="2.4"></circle>
+<circle class="f-risk" cx="144.8" cy="182.7" r="2.4"></circle>
+<circle class="f-risk" cx="153.5" cy="208.2" r="2.4"></circle>
+<circle class="f-risk" cx="162.1" cy="184.8" r="2.4"></circle>
+<circle class="f-risk" cx="170.8" cy="206.5" r="2.4"></circle>
+<circle class="f-risk" cx="179.5" cy="186.3" r="2.4"></circle>
+<circle class="f-risk" cx="188.2" cy="205.2" r="2.4"></circle>
+<circle class="f-risk" cx="196.8" cy="187.4" r="2.4"></circle>
+<circle class="f-risk" cx="205.5" cy="204.1" r="2.4"></circle>
+<circle class="f-risk" cx="214.2" cy="188.3" r="2.4"></circle>
+<circle class="f-risk" cx="222.9" cy="203.3" r="2.4"></circle>
+<circle class="f-risk" cx="231.6" cy="189.0" r="2.4"></circle>
+<circle class="f-risk" cx="240.2" cy="202.7" r="2.4"></circle>
+<circle class="f-risk" cx="248.9" cy="189.7" r="2.4"></circle>
+<circle class="f-risk" cx="257.6" cy="202.1" r="2.4"></circle>
+<circle class="f-risk" cx="266.3" cy="190.2" r="2.4"></circle>
+<circle class="f-risk" cx="274.9" cy="201.6" r="2.4"></circle>
+<circle class="f-risk" cx="283.6" cy="190.6" r="2.4"></circle>
+<circle class="f-risk" cx="292.3" cy="201.2" r="2.4"></circle>
+<circle class="f-risk" cx="301.0" cy="191.0" r="2.4"></circle>
+<circle class="f-risk" cx="309.7" cy="200.9" r="2.4"></circle>
+<circle class="f-risk" cx="318.3" cy="191.3" r="2.4"></circle>
+<circle class="f-risk" cx="327.0" cy="200.6" r="2.4"></circle>
+<circle class="f-risk" cx="335.7" cy="191.6" r="2.4"></circle>
+<circle class="f-risk" cx="344.4" cy="200.3" r="2.4"></circle>
+<circle class="f-risk" cx="353.1" cy="191.8" r="2.4"></circle>
+<circle class="f-risk" cx="361.7" cy="200.1" r="2.4"></circle>
+<circle class="f-risk" cx="370.4" cy="192.1" r="2.4"></circle>
+<circle class="f-risk" cx="379.1" cy="199.9" r="2.4"></circle>
+<circle class="f-risk" cx="387.8" cy="192.3" r="2.4"></circle>
+<circle class="f-risk" cx="396.4" cy="199.7" r="2.4"></circle>
+<circle class="f-risk" cx="405.1" cy="192.4" r="2.4"></circle>
+<circle class="f-risk" cx="413.8" cy="199.5" r="2.4"></circle>
+<circle class="f-risk" cx="422.5" cy="192.6" r="2.4"></circle>
+<circle class="f-risk" cx="431.2" cy="199.3" r="2.4"></circle>
+<circle class="f-risk" cx="439.8" cy="192.7" r="2.4"></circle>
+<circle class="f-risk" cx="448.5" cy="199.2" r="2.4"></circle>
+<circle class="f-risk" cx="457.2" cy="192.9" r="2.4"></circle>
+<circle class="f-risk" cx="465.9" cy="199.0" r="2.4"></circle>
+<circle class="f-risk" cx="474.5" cy="193.0" r="2.4"></circle>
+<circle class="f-risk" cx="483.2" cy="198.9" r="2.4"></circle>
+<circle class="f-risk" cx="491.9" cy="193.1" r="2.4"></circle>
+<circle class="f-risk" cx="500.6" cy="198.8" r="2.4"></circle>
+<circle class="f-risk" cx="509.3" cy="193.2" r="2.4"></circle>
+<circle class="f-risk" cx="517.9" cy="198.7" r="2.4"></circle>
+<circle class="f-risk" cx="526.6" cy="193.3" r="2.4"></circle>
+<circle class="f-risk" cx="535.3" cy="198.6" r="2.4"></circle>
+<circle class="f-risk" cx="544.0" cy="193.4" r="2.4"></circle>
+<circle class="f-risk" cx="552.6" cy="198.5" r="2.4"></circle>
+<circle class="f-risk" cx="561.3" cy="193.5" r="2.4"></circle>
+<circle class="f-risk" cx="570.0" cy="198.4" r="2.4"></circle>
+<text class="t-s end t-ret halo" x="570" y="215.1">블랙–숄즈 9.39</text>
+<text class="t-xs t-num halo" x="66.0" y="54.4">n=1: 11.45</text>
+<text class="t-xs t-num halo" x="74.7" y="267.4">n=2: 8.43</text>
+<text class="t-xs t-num mid halo" x="153.5" y="229.2">n=10: 9.18</text>
+<text class="t-xs t-num mid halo" x="491.9" y="172.7">n=51: 9.43</text>
+</svg></svg>

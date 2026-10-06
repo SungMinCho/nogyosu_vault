@@ -1,0 +1,435 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>회전인 채로 걷기</title>
+<meta name="description" content="둘 다 뾰족할 수는 없다 · 6강 친절판 — SpinQuant: 무작위의 흔들림, 네 자리 R1–R4, 케일리 변환으로 회전을 학습하기">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gowun+Dodum&family=DM+Mono:wght@400;500&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Noto+Serif+KR:wght@400;600;700&display=swap">
+<style>:root{
+  --bg:#E8EBE7; --paper:#F4F6F2; --ink:#1B2230; --ink-2:#3A4352; --muted:#5C6572; --line:#C2C8C0;
+  --rot:#2B4A99; --rot-soft:#DCE3F3; --spike:#B0392A; --spike-soft:#F2DAD4;
+  --grid:#8A5D0B; --grid-soft:#F0E4C8; --pos:#08705F; --pos-soft:#D2EAE4; --doubt:#7A3566; --doubt-soft:#EEDCE8;
+  --tile-m:#F4F6F2; --c-nv:#8A5D0B; --c-mx:#2B4A99;
+  --f-body:"Literata","Noto Serif KR","Nanum Myeongjo",Georgia,serif;
+  --f-disp:"Black Han Sans","Noto Serif KR","Apple SD Gothic Neo",sans-serif;
+  --f-mono:"DM Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  --f-dg:"Gowun Dodum","Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}
+@media (min-width:34em){ :root{ --pad:1.6rem } }
+@media (min-width:52em){ :root{ --pad:2rem } }
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#11151B; --paper:#18202A; --ink:#E3E7EC; --ink-2:#C4CAD3; --muted:#98A2AE; --line:#2F3946;
+    --rot:#8DA7EE; --rot-soft:#1E2944; --spike:#EE7C6B; --spike-soft:#3A211D; --grid:#DCA84C; --grid-soft:#342A12;
+    --pos:#4CC4B2; --pos-soft:#11302B; --doubt:#D588BF; --doubt-soft:#33202E; --tile-m:#18202A; --c-nv:#B8872F; --c-mx:#6F8AD6;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#11151B; --paper:#18202A; --ink:#E3E7EC; --ink-2:#C4CAD3; --muted:#98A2AE; --line:#2F3946;
+  --rot:#8DA7EE; --rot-soft:#1E2944; --spike:#EE7C6B; --spike-soft:#3A211D; --grid:#DCA84C; --grid-soft:#342A12;
+  --pos:#4CC4B2; --pos-soft:#11302B; --doubt:#D588BF; --doubt-soft:#33202E; --tile-m:#18202A; --c-nv:#B8872F; --c-mx:#6F8AD6;
+}
+*, *::before, *::after{ box-sizing:border-box }
+html{ background:var(--bg) }
+body{ background:var(--bg); color:var(--ink); font-family:var(--f-body); font-size:1.02rem; line-height:1.88;
+  word-break:keep-all; overflow-wrap:break-word; -webkit-text-size-adjust:100%; }
+a{ color:var(--rot); text-underline-offset:.18em; text-decoration-thickness:1px }
+a:focus-visible{ outline:2px solid var(--rot); outline-offset:2px; border-radius:2px }
+sub,sup{ font-size:.72em; line-height:0 }
+strong{ font-weight:600 }
+
+.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.5rem 4rem }
+.doc > *, .lecture > *{ width:100%; min-width:0; max-width:var(--measure); justify-self:center }
+.doc > figure, .lecture > figure, .doc > .band, .lecture > .band{ max-width:var(--wide) }
+.lecture{ display:contents }
+.doc > .masthead, .doc > .toc, .doc > .colophon{ max-width:var(--shell) }
+.lecture > p{ margin:0 }
+
+/* masthead */
+.masthead{ display:grid; grid-template-columns:minmax(0,1fr); gap:1.4rem; padding-block:1.2rem .6rem; border-bottom:1px solid var(--line) }
+@media (min-width:52em){ .masthead{ grid-template-columns:minmax(0,1.15fr) minmax(0,1fr); align-items:end } }
+.eyebrow{ margin:0; font-family:var(--f-dg); font-size:.8rem; letter-spacing:.08em; color:var(--muted) }
+.masthead h1{ margin:.3rem 0 .6rem; font-family:var(--f-disp); font-weight:400; font-size:clamp(2.5rem, 9vw, 4.4rem); line-height:1.02; letter-spacing:-.01em; color:var(--ink); text-wrap:balance }
+.dek{ margin:0; font-size:1.05rem; line-height:1.7; color:var(--ink-2); max-width:34rem }
+.motto{ margin:1rem 0 0; padding:0 0 0 .9rem; border-left:3px solid var(--spike) }
+.motto p{ margin:0; font-style:italic; color:var(--ink-2); font-size:.98rem; line-height:1.55 }
+.motto cite{ display:block; font-style:normal; font-family:var(--f-dg); font-size:.78rem; color:var(--muted); margin-top:.2rem }
+.mast-fig{ min-width:0 }
+.hero-svg{ max-width:26rem; margin-inline:auto }
+.mast-cap{ margin:.4rem 0 0; font-family:var(--f-dg); font-size:.8rem; color:var(--muted); line-height:1.5; text-align:center }
+
+/* toc */
+.toc{ padding-block:.4rem }
+.toc-h{ margin:0 0 .5rem; font-family:var(--f-dg); font-size:.8rem; letter-spacing:.08em; color:var(--muted); font-weight:400 }
+.toc ol{ list-style:none; margin:0; padding:0; display:grid; grid-template-columns:minmax(0,1fr); gap:0 1.6rem }
+@media (min-width:44em){ .toc ol{ grid-template-columns:repeat(2,minmax(0,1fr)) } }
+.toc a{ display:grid; grid-template-columns:3.2rem minmax(0,1fr); gap:.5rem; padding:.42rem 0; border-top:1px solid var(--line); color:var(--ink); text-decoration:none; line-height:1.45; font-size:.95rem }
+.toc a:hover span:last-child{ color:var(--rot) }
+.toc-n{ font-family:var(--f-disp); color:var(--rot); font-size:.95rem }
+
+/* lecture header */
+.gang{ max-width:var(--wide) !important; margin-top:2.4rem; padding-top:1.1rem; border-top:3px double var(--line); display:grid; grid-template-columns:auto minmax(0,1fr); gap:.2rem 1rem; align-items:baseline }
+.gang-no{ font-family:var(--f-disp); font-size:2.3rem; line-height:1; color:var(--rot) }
+.gang h2{ margin:0; font-family:var(--f-body); font-weight:700; font-size:clamp(1.25rem, 3.6vw, 1.6rem); line-height:1.35; text-wrap:balance }
+@media (max-width:30em){ .gang{ grid-template-columns:minmax(0,1fr) } .gang-no{ font-size:1.9rem } }
+
+/* hand calc */
+.calc{ background:var(--paper); border:1px solid var(--line); border-left:4px solid var(--grid); border-radius:3px; padding:.85rem 1rem .7rem; font-size:.94rem; line-height:1.7 }
+.calc p{ margin:0; padding:.28rem 0; border-top:1px dotted var(--line); font-variant-numeric:tabular-nums }
+.calc p.calc-h{ border-top:0; padding-top:0; font-family:var(--f-dg); font-weight:700; color:var(--ink); font-size:.95rem; line-height:1.45 }
+.calc-h span{ display:block; font-weight:400; font-size:.74rem; letter-spacing:.08em; color:var(--grid) }
+.calc strong{ color:var(--grid) }
+
+/* figures */
+.fig{ margin:.4rem 0 .2rem }
+.frame{ overflow-x:auto; -webkit-overflow-scrolling:touch; border-radius:3px;
+  background:
+    linear-gradient(to right, var(--bg) 30%, transparent) left center / 24px 100% no-repeat local,
+    linear-gradient(to left, var(--bg) 30%, transparent) right center / 24px 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.18), transparent) left center / 10px 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.18), transparent) right center / 10px 100% no-repeat scroll; }
+.frame:focus-visible{ outline:2px solid var(--rot) }
+.fig figcaption, .cards figcaption{ margin-top:.55rem; font-family:var(--f-dg); font-size:.84rem; line-height:1.6; color:var(--muted); max-width:var(--measure) }
+.hint{ margin:.2rem 0 0; font-family:var(--f-dg); font-size:.74rem; color:var(--muted); text-align:center }
+@media (min-width:52em){ .hint{ display:none } }
+
+/* svg */
+.dg{ width:100%; height:auto; display:block; font-family:var(--f-dg) }
+.dg text{ font-size:12px; fill:var(--ink) }
+.dg .t-s{ font-size:10.5px }
+.dg .t-b{ font-weight:700 }
+.dg .t-mono{ font-family:var(--f-mono); font-size:11.5px }
+.dg .t-mut{ fill:var(--muted) }
+.dg .t-rot{ fill:var(--rot) }
+.dg .t-spike{ fill:var(--spike) }
+.dg .t-grid{ fill:var(--grid) }
+.dg .t-pos{ fill:var(--pos) }
+.dg .t-doubt{ fill:var(--doubt) }
+.dg .t-ink{ fill:var(--ink) }
+.dg .ln{ stroke:var(--ink); stroke-width:1.4; fill:none }
+.dg .ln-mut{ stroke:var(--muted) }
+.dg .ln-rot{ stroke:var(--rot) }
+.dg .ln-spike{ stroke:var(--spike) }
+.dg .ln-pos{ stroke:var(--pos) }
+.dg .ln-grid{ stroke:var(--grid) }
+.dg .dash{ stroke-dasharray:4 3 }
+.dg .ln-hair{ stroke:var(--line); stroke-width:1 }
+.dg .ln-grid-hair{ stroke:var(--grid); stroke-width:.8; stroke-dasharray:2 3; opacity:.75 }
+.dg .ln-mut-hair{ stroke:var(--muted); stroke-width:1 }
+.dg .ln-stream{ stroke:var(--rot); stroke-width:3 }
+.dg .f-ink{ fill:var(--ink) }
+.dg .f-mut{ fill:var(--muted) }
+.dg .f-rot{ fill:var(--rot) }
+.dg .f-rot-s{ fill:var(--rot-soft); stroke:var(--rot); stroke-width:1 }
+.dg .f-spike{ fill:var(--spike) }
+.dg .f-spike-s{ fill:var(--spike-soft) }
+.dg .f-pos{ fill:var(--pos) }
+.dg .f-grid{ fill:var(--grid) }
+.dg .bx{ fill:var(--paper); stroke:var(--line); stroke-width:1 }
+.dg .bx-rot{ fill:var(--rot-soft); stroke:var(--rot) }
+.dg .bx-spike{ fill:var(--spike-soft); stroke:var(--spike) }
+.dg .bx-pos{ fill:var(--pos-soft); stroke:var(--pos) }
+.dg .bx-grid{ fill:var(--grid-soft); stroke:var(--grid) }
+.dg .bx-mut{ fill:var(--paper); stroke:var(--muted) }
+.dg .bx-ink{ fill:var(--paper); stroke:var(--ink-2) }
+.dg .bx-on{ fill:var(--paper); stroke:var(--rot); stroke-width:1.4; stroke-dasharray:5 3 }
+.dg .tag-pos{ fill:var(--pos-soft); stroke:var(--pos); stroke-width:1 }
+.dg .tile-p{ fill:var(--rot) }
+.dg .tile-m{ fill:var(--tile-m); stroke:var(--rot); stroke-width:.8 }
+.dg .c-cold{ fill:var(--paper); stroke:var(--line); stroke-width:.8 }
+.dg .c-warm{ fill:var(--spike-soft); stroke:var(--spike); stroke-width:.8 }
+.dg .c-hot{ fill:var(--spike) }
+.dg .c-gam{ fill:var(--paper); stroke:var(--spike); stroke-width:.8 }
+.dg .h-cold{ fill:var(--paper); stroke:var(--line); stroke-width:.8 }
+.dg .h-spike{ fill:var(--spike) }
+.dg .h-warm{ fill:var(--spike-soft); stroke:var(--spike); stroke-width:.8 }
+.dg .dot-q{ fill:var(--paper); stroke:var(--ink); stroke-width:1.4 }
+.dg .qbox{ fill:none; stroke:var(--grid); stroke-width:1.6 }
+.dg .cloud{ fill:var(--rot-soft); stroke:var(--rot); stroke-width:1.4 }
+
+/* contrast cards */
+.cards{ margin:.4rem 0; display:grid; grid-template-columns:minmax(0,1fr); gap:.8rem; max-width:var(--wide) }
+@media (min-width:36em){ .cards{ grid-template-columns:repeat(2,minmax(0,1fr)) } }
+.cards figcaption{ grid-column:1 / -1; margin-top:0 }
+.card{ background:var(--paper); border:1px solid var(--line); border-radius:3px; padding:.8rem 1rem .9rem; display:grid; gap:.15rem; align-content:start }
+.card-k{ margin:0; font-family:var(--f-dg); font-size:.8rem; letter-spacing:.04em; color:var(--muted) }
+.card-v{ margin:0; font-family:var(--f-mono); font-weight:500; font-size:clamp(1.7rem, 6vw, 2.3rem); line-height:1.15; font-variant-numeric:tabular-nums }
+.card-n{ margin:0; font-family:var(--f-dg); font-size:.84rem; line-height:1.5; color:var(--ink-2) }
+.card-spike .card-v{ color:var(--spike) }
+.card-rot .card-v{ color:var(--rot) }
+.card-pos .card-v{ color:var(--pos) }
+.card-spike{ border-top:3px solid var(--spike) }
+.card-rot{ border-top:3px solid var(--rot) }
+.card-pos{ border-top:3px solid var(--pos) }
+
+/* ledger tables */
+.ledger{ border-collapse:collapse; width:100%; min-width:36rem; font-size:.88rem; line-height:1.55 }
+.ledger th{ text-align:left; font-family:var(--f-dg); font-weight:700; font-size:.78rem; letter-spacing:.05em; color:var(--muted); border-bottom:2px solid var(--line); padding:.4rem .6rem .4rem 0 }
+.ledger td{ border-bottom:1px solid var(--line); padding:.5rem .6rem .5rem 0; vertical-align:top; font-variant-numeric:tabular-nums }
+.ledger td:first-child{ font-weight:600; width:32% }
+.chip{ display:inline-block; font-family:var(--f-dg); font-size:.78rem; font-weight:700; padding:.05rem .5rem; border-radius:999px; white-space:nowrap }
+.chip-good{ background:var(--rot-soft); color:var(--rot); border:1px solid var(--rot) }
+.chip-bad{ background:var(--spike-soft); color:var(--spike); border:1px solid var(--spike) }
+.dis td:first-child{ width:38% }
+
+/* appendix index */
+.appendix > p{ margin:0 }
+.idx-wrap{ max-width:var(--wide) !important }
+.idx-h{ margin:1.2rem 0 .3rem; font-family:var(--f-dg); font-size:.86rem; letter-spacing:.06em; font-weight:700 }
+.idx-mut{ color:var(--muted) } .idx-spike{ color:var(--spike) } .idx-ink{ color:var(--ink) } .idx-rot{ color:var(--rot) } .idx-pos{ color:var(--pos) } .idx-grid{ color:var(--grid) } .idx-doubt{ color:var(--doubt) }
+.idx{ list-style:none; margin:0; padding:0 }
+.idx li{ display:grid; grid-template-columns:4.4rem minmax(0,1fr) auto; gap:.1rem .7rem; padding:.45rem 0; border-top:1px solid var(--line); font-size:.9rem; line-height:1.5 }
+.idx .yr{ font-family:var(--f-mono); font-size:.8rem; color:var(--muted); padding-top:.1rem; font-variant-numeric:tabular-nums }
+.idx .nm{ font-weight:600 }
+.idx .ds{ grid-column:2 / 3; color:var(--ink-2); font-size:.86rem }
+.idx .gl{ grid-column:3; grid-row:1 / 3; font-family:var(--f-dg); font-size:.78rem; white-space:nowrap; align-self:start; padding-top:.1rem }
+.nm-spike{ color:var(--spike) } .nm-rot{ color:var(--rot) } .nm-pos{ color:var(--pos) } .nm-grid{ color:var(--grid) } .nm-mut{ color:var(--ink) } .nm-ink{ color:var(--ink) }
+
+/* colophon */
+.colophon{ margin-top:3rem; padding-top:1.2rem; border-top:3px double var(--line); font-size:.86rem; line-height:1.65; color:var(--ink-2) }
+.colophon h2{ font-family:var(--f-disp); font-weight:400; font-size:1.5rem; margin:0 0 .6rem; color:var(--ink) }
+.src-g h3, .honest h3{ margin:.9rem 0 .2rem; font-family:var(--f-dg); font-size:.8rem; letter-spacing:.06em; color:var(--muted) }
+.src-g p{ margin:0 }
+.honest p{ margin:.3rem 0 0; max-width:var(--measure) }
+
+@media (prefers-reduced-motion:reduce){ *{ scroll-behavior:auto !important } }
+.dg .ssub{ font-size:8px }
+
+/* 보강 */
+.dg .ser-nv{ fill:none; stroke:var(--c-nv); stroke-width:2 }
+.dg .ser-mx{ fill:none; stroke:var(--c-mx); stroke-width:2 }
+.dg .mk-nv{ fill:var(--c-nv); stroke:var(--bg); stroke-width:2 }
+.dg .mk-mx{ fill:var(--c-mx); stroke:var(--bg); stroke-width:2 }
+.dg .bar-nv{ fill:var(--c-nv) }
+.dg .bar-mx{ fill:var(--c-mx) }
+.dg .zone-bad{ fill:var(--spike-soft); opacity:.55 }
+.dg .zone-good{ fill:var(--rot-soft); opacity:.55 }
+.dg .wcloud{ fill:none; stroke:var(--grid); stroke-width:1.8; stroke-dasharray:5 3 }
+.tbl-under{ margin-top:.5rem }
+.ledger.mini{ min-width:26rem; font-size:.84rem }
+.ledger.mini td:first-child{ width:auto }
+.map2{ min-width:40rem }
+.map2 td{ width:25% }
+.map2 td:first-child{ width:16% }
+.map2 .chip{ white-space:normal; border-radius:6px; line-height:1.45; padding:.15rem .5rem }
+.map2 .who{ display:inline-block; margin-top:.3rem; font-size:.8rem; color:var(--muted); font-family:var(--f-dg) }
+.chip-mix{ background:var(--grid-soft); color:var(--grid); border:1px solid var(--grid) }
+.gang-b .gang-no{ color:var(--grid) }
+.toc-sub{ margin:1.1rem 0 .4rem; font-family:var(--f-dg); font-size:.8rem; letter-spacing:.08em; color:var(--grid); font-weight:700 }
+.toc a{ grid-template-columns:4rem minmax(0,1fr) }
+.toc-nb{ color:var(--grid) }
+.bogang-band{ margin-top:3rem; padding-top:1rem; border-top:4px solid var(--grid); display:grid; gap:.1rem }
+.band-k{ margin:0; font-family:var(--f-disp); font-size:2.6rem; line-height:1.05; color:var(--grid) }
+.band-t{ margin:0; font-family:var(--f-dg); font-size:.95rem; color:var(--ink-2) }
+.lecture > p.aside{ font-family:var(--f-dg); font-size:.88rem; line-height:1.6; color:var(--muted); border-left:3px solid var(--grid); padding-left:.8rem }
+
+/* ---- 친절판 추가 ---- */
+.madi .gang-no{ font-size:1.55rem; color:var(--grid) }
+.madi{ margin-top:2.6rem }
+.box{ --bc:var(--ink-2); background:var(--paper); border:1px solid var(--line); border-left:4px solid var(--bc); border-radius:3px; padding:.85rem 1rem .7rem; font-size:.94rem; line-height:1.72 }
+.box p{ margin:0; padding:.28rem 0; border-top:1px dotted var(--line); font-variant-numeric:tabular-nums }
+.box p.calc-h{ border-top:0; padding-top:0; font-family:var(--f-dg); font-weight:700; color:var(--ink); font-size:.95rem; line-height:1.45 }
+.box .calc-h span{ display:block; font-weight:400; font-size:.74rem; letter-spacing:.08em; color:var(--bc) }
+.box strong{ color:var(--bc) }
+.box-basic{ --bc:var(--rot) }
+.box-eq{ --bc:var(--doubt) }
+.box-paper{ --bc:var(--ink-2); border-top:3px solid var(--ink-2) }
+.box-warn{ --bc:var(--spike) }
+.box-task{ --bc:var(--pos); background:var(--pos-soft) }
+.box-task p{ border-top-color:color-mix(in srgb, var(--pos) 35%, transparent) }
+.box p.eq{ font-family:var(--f-mono); font-size:.86rem; line-height:1.6; color:var(--ink) }
+.box p.pr{ display:grid; grid-template-columns:5.4rem minmax(0,1fr); gap:.7rem }
+.pk{ font-family:var(--f-dg); font-weight:700; font-size:.8rem; color:var(--muted); padding-top:.12rem; line-height:1.5 }
+.pv{ min-width:0 }
+@media (max-width:30em){ .box p.pr{ grid-template-columns:minmax(0,1fr); gap:0 } }
+.box-link{ font-family:var(--f-dg); font-weight:400; font-size:.78rem; margin-left:.45rem; white-space:nowrap }
+
+/* 읽는 법 */
+.guide{ background:var(--paper); border:1px solid var(--line); border-radius:3px; padding:.9rem 1rem; font-size:.92rem; line-height:1.6 }
+.guide h2{ margin:0 0 .5rem; font-family:var(--f-dg); font-size:.8rem; letter-spacing:.08em; color:var(--muted); font-weight:400 }
+.guide p{ margin:0 0 .6rem }
+.guide ul{ list-style:none; margin:0; padding:0; display:grid; grid-template-columns:minmax(0,1fr); gap:.35rem 1.2rem }
+@media (min-width:40em){ .guide ul{ grid-template-columns:repeat(2,minmax(0,1fr)) } }
+.guide li{ display:grid; grid-template-columns:auto minmax(0,1fr); gap:.55rem; align-items:baseline }
+.sw{ display:inline-block; font-family:var(--f-dg); font-size:.76rem; font-weight:700; padding:.02rem .5rem; border-radius:3px; border-left:4px solid; background:var(--bg); white-space:nowrap }
+.sw-calc{ border-color:var(--grid); color:var(--grid) }
+.sw-basic{ border-color:var(--rot); color:var(--rot) }
+.sw-eq{ border-color:var(--doubt); color:var(--doubt) }
+.sw-paper{ border-color:var(--ink-2); color:var(--ink-2) }
+.sw-warn{ border-color:var(--spike); color:var(--spike) }
+.sw-task{ border-color:var(--pos); color:var(--pos) }
+.toc-grp{ grid-column:1 / -1; margin:.7rem 0 .1rem; font-family:var(--f-dg); font-size:.76rem; letter-spacing:.06em; color:var(--muted) }
+.toc-grp:first-child{ margin-top:0 }
+.toc .toc-n{ color:var(--grid) }
+.toc a{ grid-template-columns:3.6rem minmax(0,1fr) }
+.back{ font-family:var(--f-dg); font-size:.88rem }
+.sum td:first-child{ width:18% }
+.gl td:first-child{ width:24% }
+.gl td:last-child{ width:3rem; color:var(--muted); font-family:var(--f-dg); white-space:nowrap }
+
+/* svg 추가 */
+.dg .c-sel{ fill:var(--rot-soft); stroke:var(--rot); stroke-width:1 }
+.dg .c-hit{ fill:var(--rot) }
+.dg .c-lost{ fill:var(--spike-soft); stroke:var(--spike); stroke-width:1; stroke-dasharray:3 2 }
+.dg .g-a{ fill:var(--rot-soft); stroke:var(--rot); stroke-width:.6 }
+.dg .g-b{ fill:var(--grid-soft); stroke:var(--grid); stroke-width:.6 }
+.dg .s-a{ fill:var(--rot) }
+.dg .s-b{ fill:var(--grid) }
+.dg .c-done{ fill:var(--grid-soft); stroke:var(--grid); stroke-width:.6 }
+.dg .c-now{ fill:var(--spike) }
+.dg .c-soon{ fill:var(--pos-soft); stroke:var(--pos); stroke-width:.8 }
+.dg .c-later{ fill:var(--paper); stroke:var(--muted); stroke-width:.6; stroke-dasharray:2 2 }
+.dg .plot-bg{ fill:var(--paper); stroke:var(--line); stroke-width:1 }
+.dg .ctr{ fill:none; stroke-width:1.4 }
+.dg .ctr-0{ stroke:var(--rot); opacity:.5 }
+.dg .ctr-1{ stroke:var(--rot) }
+.dg .ctr-2{ stroke:var(--spike) }
+.dg .ctr-3{ stroke:var(--muted); stroke-dasharray:3 3 }
+.dg .dot-sp{ fill:var(--spike); stroke:var(--paper); stroke-width:1.5 }
+.dg .dot-rt{ fill:var(--rot); stroke:var(--paper); stroke-width:1.5 }
+.dg .ser-ink{ fill:none; stroke:var(--ink); stroke-width:2 }
+.dg .ghost{ fill:none; stroke:var(--rot); stroke-width:1; stroke-dasharray:3 2 }
+.dg .thick{ stroke-width:2.4 }
+.dg .ln-ink{ stroke:var(--ink) }
+.dg .t-nv{ fill:var(--c-nv) }
+.dg .t-mx{ fill:var(--c-mx) }
+.dg .big{ font-size:20px }
+.dg .zone-b2{ fill:var(--spike-soft); stroke:var(--spike); stroke-width:1; stroke-dasharray:4 3 }
+.dg .zone-g2{ fill:var(--rot-soft); stroke:var(--rot); stroke-width:1 }
+.dg .halo{ paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round }
+@media (min-width:44em){ .toc ol{ grid-template-columns:minmax(0,1fr) } }
+.toc{ max-width:var(--measure) !important }
+.dg .ring{ fill:none; stroke:var(--muted); stroke-width:1.1; stroke-dasharray:4 3 }
+.dg .hm{ fill:var(--rot) }
+.dg .k-a{ fill:var(--rot) } .dg .k-b{ fill:var(--grid) } .dg .k-c{ fill:var(--pos) } .dg .k-d{ fill:var(--spike) }
+.dg .k-mix{ fill:var(--doubt); opacity:.8 }
+.dg .cl-dot{ fill:var(--muted); opacity:.45 }
+.dg .cb-on{ fill:var(--rot); stroke:var(--paper); stroke-width:1.5 }
+.dg .cb-off{ fill:var(--paper); stroke:var(--spike); stroke-width:1.6 }
+.dg .cube{ fill:none; stroke:var(--muted); stroke-width:1; stroke-dasharray:3 3 }
+.dg .ball{ fill:none; stroke:var(--rot); stroke-width:1; stroke-dasharray:3 3 }
+.dg .tag-n{ fill:var(--paper); stroke:var(--line); stroke-width:1 }
+.dg .ring-sp{ fill:none; stroke:var(--spike); stroke-width:1.1; stroke-dasharray:4 3 }
+.dg .cl-dot2{ fill:var(--ink-2); opacity:.55 }
+.dg .tile-0{ fill:none; stroke:var(--line); stroke-width:.8 }
+.dg .f-rot-s2{ fill:var(--rot); opacity:.45 }
+.ledger.md td:first-child{ width:auto }
+.lecture > .frame{ max-width:var(--wide) }
+.dg .ser-grid{ fill:none; stroke:var(--grid); stroke-width:2 }
+.dg .ring-rt{ fill:none; stroke:var(--rot); stroke-width:1.3; stroke-dasharray:4 3 }
+.dg .bar-g{ fill:var(--grid) }
+.dg .ser-pos{ fill:none; stroke:var(--pos); stroke-width:2 }
+.dg .clock{ fill:var(--paper); stroke:var(--ink-2); stroke-width:1.2 }
+.dg .brick{ fill:var(--spike-soft); stroke:var(--spike); stroke-width:.8 }
+.dg .t-paper{ fill:var(--paper) }
+/* 10강 */
+.dg .bx-doubt{ fill:var(--doubt-soft); stroke:var(--doubt) }
+.dg .ln-doubt{ stroke:var(--doubt) }
+.dg .f-doubt{ fill:var(--doubt) }
+.dg .f-pos-s{ fill:var(--pos-soft); stroke:var(--pos); stroke-width:1 }
+.dg .f-grid-s{ fill:var(--grid-soft); stroke:var(--grid); stroke-width:1 }
+.dg .f-mut-s{ fill:var(--paper); stroke:var(--muted); stroke-width:1 }
+</style>
+<div class="doc">
+<header class="masthead">
+  <div class="mast-text">
+    <p class="eyebrow">둘 다 뾰족할 수는 없다 · 6강 친절판</p>
+    <h1>회전인 채로<br>걷기</h1>
+    <p class="dek">본편 6강을 바닥부터 다시. 무작위 회전이 왜 결과마다 흔들리는지, 네 자리 중 무엇을 배우고 무엇을 고정하는지, 회전을 학습하면 왜 회전이 부서지고 케일리 변환이 어떻게 그것을 막는지, 그리고 결과와 실제 배포까지 — 마디 여덟 개.</p>
+    <p class="back"><a href="https://claude.ai/artifact/LszofxqonM6Mb7EtPuvd9k">본편 판서</a> · <a href="https://claude.ai/artifact/FN78t9fWY9cZQF4fU8YpTQ">← 5강 친절판</a> · <a href="https://claude.ai/artifact/BMcnWtciDFgm7SwSJhtLUR">7강 친절판 →</a></p>
+  </div>
+  <div class="mast-fig"><svg class="dg hero-svg" viewBox="0 0 300 180" role="img" aria-label="회전 행렬들의 곡면을 나타내는 원 위에서 무작위 회전에서 출발해 작은 걸음으로 원을 따라 학습된 회전까지 걸어가는 점들"><circle cx="120" cy="92" r="74" class="ring"/><circle cx="55.9" cy="55.0" r="3.5" class="dot-q"/><path d="M 55.9 55.0 A 74 74 0 0 1 74.4 33.7" class="ln ln-rot"/><circle cx="74.4" cy="33.7" r="4.1" class="dot-q"/><path d="M 74.4 33.7 A 74 74 0 0 1 97.1 21.6" class="ln ln-rot"/><circle cx="97.1" cy="21.6" r="4.7" class="dot-q"/><path d="M 97.1 21.6 A 74 74 0 0 1 117.4 18.0" class="ln ln-rot"/><circle cx="117.4" cy="18.0" r="5.3" class="dot-q"/><path d="M 117.4 18.0 A 74 74 0 0 1 132.8 19.1" class="ln ln-rot"/><circle cx="132.8" cy="19.1" r="5.9" class="dot-q"/><path d="M 132.8 19.1 A 74 74 0 0 1 144.1 22.0" class="ln ln-rot"/><circle cx="144.1" cy="22.0" r="6.5" class="dot-q"/><path d="M 144.1 22.0 A 74 74 0 0 1 151.3 24.9" class="ln ln-rot"/><circle cx="151.3" cy="24.9" r="7.1" class="dot-rt"/><text x="49.9141" y="47" text-anchor="end" class="t-s t-b">R₀ 무작위</text><text x="161.274" y="18.9332" text-anchor="start" class="t-s t-b t-rot">학습된 R</text><text x="120" y="98" text-anchor="middle" class="t-s t-mut">회전들의</text><text x="120" y="114" text-anchor="middle" class="t-s t-mut">곡면</text></svg><p class="mast-cap">회전 행렬들은 휘어진 곡면을 이룬다. 무작위 회전에서 출발해, 매 걸음 작은 회전을 곱하며 곡면 위를 따라 걸으면 학습된 회전에 닿는다. 어느 걸음에서도 모델은 그대로다.</p></div>
+</header>
+<aside class="guide" aria-label="읽는 법">
+<h2>읽는 법</h2>
+<p>본문은 노교수의 말이고, 색 상자는 그 사이에 끼운 판서다. 처음 읽을 땐 본문과 그림만 따라가도 줄기가 잡히고, 막히는 곳에서 상자를 펼쳐 보면 된다.</p>
+<ul>
+<li><span class="sw sw-calc">손으로 굴려 보기</span><span>직접 숫자를 넣어 보는 계산</span></li>
+<li><span class="sw sw-basic">기초</span><span>필요한 수학을 바닥부터</span></li>
+<li><span class="sw sw-eq">식</span><span>핵심 공식과 그 뜻</span></li>
+<li><span class="sw sw-paper">논문</span><span>누가 · 문제 · 핵심 · 결과 · 한계</span></li>
+<li><span class="sw sw-warn">오해 경보</span><span>관례가 엇갈리거나 헷갈리기 쉬운 곳</span></li>
+<li><span class="sw sw-task">과제와의 연결</span><span>W<sub>q</sub> · W<sub>k</sub>에 변환을 병합하는 지금의 일과 맞닿는 자리</span></li>
+</ul>
+</aside>
+<nav class="toc" aria-label="차례"><h2 class="toc-h">차례</h2><ol><li class="toc-grp">왜 학습하나</li><li><a href="#m1"><span class="toc-n">마디 1</span><span>같은 무작위, 다른 결과</span></a></li><li><a href="#m2"><span class="toc-n">마디 2</span><span>네 자리에 이름 붙이기: 무엇을 배우고 무엇을 두나</span></a></li><li class="toc-grp">어떻게 학습하나</li><li><a href="#m3"><span class="toc-n">마디 3</span><span>회전을 학습하면 무엇이 문제인가</span></a></li><li><a href="#m4"><span class="toc-n">마디 4</span><span>케일리 변환: 반대칭 하나로 정확한 회전 만들기</span></a></li><li><a href="#m5"><span class="toc-n">마디 5</span><span>무엇을 최소화하며 배우나</span></a></li><li class="toc-grp">얼마나, 어디에</li><li><a href="#m6"><span class="toc-n">마디 6</span><span>결과: 학습의 이득은 얼마인가</span></a></li><li><a href="#m7"><span class="toc-n">마디 7</span><span>실제 배포: 온라인 연산을 모두 버린 선택</span></a></li><li><a href="#m8"><span class="toc-n">마디 8</span><span>SpinQuant가 남긴 것과 남긴 숙제</span></a></li><li class="toc-grp">끝에</li><li><a href="#sum"><span class="toc-n">정리</span><span>한 장 정리 · 낱말장</span></a></li><li><a href="#sources"><span class="toc-n">출처</span><span>원문과 정직성 주석</span></a></li></ol></nav>
+<section class="lecture" id="m1" aria-labelledby="hm1"><header class="gang madi"><span class="gang-no">마디 1</span><h2 id="hm1">같은 무작위, 다른 결과</h2></header>
+<p>5강의 QuaRot는 무작위 하다마드 하나를 골라 전 층에 병합했어요. 무작위를 믿은 거지요. 4강에서 무작위 부호가 "어떤 입력에도 높은 확률로" 잘 펴 준다고 했으니까요. 그런데 2024년 5월, 메타의 쩌춘 류와 창성 자오(공동 1저자), 위안둥 톈, 테이먼 블랑케부르트 등이 이런 실험을 했어요. 같은 LLaMA-2-7B를 W4A4로 양자화하면서 <strong>무작위 회전만 백 번 바꿔</strong> 본 거예요.</p>
+<p>결과가 이랬어요. 일반 무작위 직교 회전으로는 제로샷 평균이 최고와 최악 사이에 <strong>13점</strong> 벌어졌어요. 무작위 하다마드로만 해도 <strong>6점</strong>. 그러면 질문은 이거예요. 무작위로 골랐는데, 어떤 무작위가 다른 무작위보다 나을 수 있습니까? 모순처럼 들리지요.</p>
+<figure class="fig" id="fig-variance"><div class="frame" tabindex="0"><svg class="dg" viewBox="0 0 780 250" role="img" aria-label="무작위 회전의 결과는 13점, 하다마드도 6점 흔들렸고, 학습된 회전의 우위는 반올림일 때 5.5점에서 GPTQ일 때 2.2점으로 줄었다" style="min-width:660px"><defs><marker id="var-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="f-ink"/></marker></defs><text x="20" y="26" text-anchor="start" class="t-b">(a) 무작위 회전 100번의 흩어짐 — 폭만 논문 수치</text><text x="20" y="64" text-anchor="start" class="t-s">무작위 직교</text><rect x="140" y="70" width="221" height="16" rx="3" class="f-mut"/><text x="367" y="82" text-anchor="start" class="t-s t-b">13점</text><text x="20" y="106" text-anchor="start" class="t-s">무작위 하다마드</text><rect x="242" y="112" width="102" height="16" rx="3" class="f-rot-s"/><text x="350" y="124" text-anchor="start" class="t-s t-b">6점</text><text x="20" y="148" text-anchor="start" class="t-s">케일리로 학습</text><rect x="335.5" y="154" width="17" height="16" rx="3" class="f-rot"/><text x="358.5" y="166" text-anchor="start" class="t-s t-b">좁게 모임</text><line x1="140" y1="212" x2="225" y2="212" class="ln"/><line x1="140" y1="207" x2="140" y2="217" class="ln"/><line x1="225" y1="207" x2="225" y2="217" class="ln"/><text x="182.5" y="232" text-anchor="middle" class="t-s">5점</text><text x="250" y="232" text-anchor="start" class="t-s t-mut">가로 위치는 도식 (LLaMA-2-7B W4A4 제로샷)</text><text x="460" y="26" text-anchor="start" class="t-b">(b) LLaMA-3-8B W4A4KV4 제로샷 평균</text><line x1="470" y1="60" x2="470" y2="180" class="ln-hair"/><text x="470" y="198" text-anchor="middle" class="t-s t-mut">56</text><line x1="552.857" y1="60" x2="552.857" y2="180" class="ln-hair"/><text x="552.857" y="198" text-anchor="middle" class="t-s t-mut">60</text><line x1="635.714" y1="60" x2="635.714" y2="180" class="ln-hair"/><text x="635.714" y="198" text-anchor="middle" class="t-s t-mut">64</text><line x1="718.571" y1="60" x2="718.571" y2="180" class="ln-hair"/><text x="718.571" y="198" text-anchor="middle" class="t-s t-mut">68</text><line x1="751.714" y1="52" x2="751.714" y2="180" class="ln ln-mut dash"/><text x="751.714" y="46" text-anchor="middle" class="t-s t-mut">FP 69.6</text><text x="462" y="96" text-anchor="end" class="t-s t-b">반올림</text><line x1="523.857" y1="92" x2="637.786" y2="92" class="ln ln-mut"/><circle cx="523.9" cy="92" r="6" class="dot-q"/><circle cx="637.8" cy="92" r="6" class="f-rot"/><text x="580.821" y="82" text-anchor="middle" class="t-s t-b t-rot">5.5점</text><text x="523.857" y="112" text-anchor="middle" class="t-s t-mut">58.6</text><text x="637.786" y="112" text-anchor="middle" class="t-s t-rot">64.1</text><text x="462" y="154" text-anchor="end" class="t-s t-b">GPTQ</text><line x1="621.214" y1="150" x2="666.786" y2="150" class="ln ln-mut"/><circle cx="621.2" cy="150" r="6" class="dot-q"/><circle cx="666.8" cy="150" r="6" class="f-rot"/><text x="644" y="140" text-anchor="middle" class="t-s t-b t-rot">2.2점</text><text x="621.214" y="170" text-anchor="middle" class="t-s t-mut">63.3</text><text x="666.786" y="170" text-anchor="middle" class="t-s t-rot">65.5</text><circle cx="600" cy="226" r="5" class="dot-q"/><text x="610" y="230" text-anchor="start" class="t-s">QuaRot</text><circle cx="672" cy="226" r="5" class="f-rot"/><text x="682" y="230" text-anchor="start" class="t-s">SpinQuant</text></svg></div><figcaption>(a) SpinQuant가 본 흩어짐. 막대의 폭(13점, 6점)만 논문 수치이고 가로 위치는 도식이다. (b) SpinQuant 표 5의 LLaMA-3-8B 숫자로 그린 점 그림. 가중치를 반올림으로 양자화하면 학습된 회전이 QuaRot보다 5.5점 앞서지만, 둘 다 GPTQ를 쓰면 2.2점으로 줄어든다. 학습이 해 주던 일의 상당 부분을 GPTQ가 대신한다.</figcaption></figure>
+<p>모순이 아닌 이유는 4강의 보증이 어떤 모양이었는지 떠올리면 보여요.</p>
+<div class="box box-basic"><p class="calc-h"><span>기초</span>보증은 상한이지, 정답이 아니다</p><p>FJLT·QuIP#의 보증은 "높은 확률로 최댓값이 이 정도 <strong>이하</strong>"라는 꼴이다. 망하지 않는다는 약속이지, 최선이라는 약속이 아니다.</p><p>그 상한 아래에서 실제 양자화 오차는 회전마다 제각각이다. 어떤 회전은 상한보다 훨씬 좋고, 어떤 회전은 상한에 가깝다.</p><p>게다가 모델의 최종 정확도는 수백 개 층, 수천 개 채널에서 반올림이 어떻게 떨어지는지가 쌓인 결과라, 층 하나의 작은 차이가 끝에서는 큰 차이가 된다.</p></div>
+<p>층 하나에서 직접 재 봅시다. 이상치 채널 둘과 큰 토큰 하나가 있는 장난감 활성(256 토큰 × 128 채널)에, 무작위 회전 400개를 하나씩 걸고 토큰별 INT4로 양자화해 상대 오차를 쟀어요.</p>
+<figure class="fig" id="fig-h1"><div class="frame" tabindex="0"><svg class="dg" viewBox="0 0 760 320" role="img" aria-label="무작위 하다마드 400개는 상대 오차 0.88에서 1.03 퍼센트에 좁게 모이고, 무작위 직교 400개는 1.08에서 2.31 퍼센트로 넓게 퍼진다. 회전하지 않으면 8.4 퍼센트" style="min-width:640px"><defs><marker id="h1-spike" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="f-spike"/></marker></defs><line x1="70" y1="40" x2="70" y2="250" class="ln-hair"/><text x="70" y="268" text-anchor="middle" class="t-s t-mono t-mut">0.8%</text><line x1="212.5" y1="40" x2="212.5" y2="250" class="ln-hair"/><text x="212.5" y="268" text-anchor="middle" class="t-s t-mono t-mut">1.2%</text><line x1="355" y1="40" x2="355" y2="250" class="ln-hair"/><text x="355" y="268" text-anchor="middle" class="t-s t-mono t-mut">1.6%</text><line x1="497.5" y1="40" x2="497.5" y2="250" class="ln-hair"/><text x="497.5" y="268" text-anchor="middle" class="t-s t-mono t-mut">2.0%</text><line x1="640" y1="40" x2="640" y2="250" class="ln-hair"/><text x="640" y="268" text-anchor="middle" class="t-s t-mono t-mut">2.4%</text><rect x="99" y="137.883" width="13.25" height="112.117" rx="0" class="bar-mx"/><rect x="113.25" y="60" width="13.25" height="190" rx="0" class="bar-mx"/><rect x="127.5" y="213.198" width="13.25" height="36.8018" rx="0" class="bar-mx"/><rect x="141.75" y="246.577" width="13.25" height="3.42342" rx="0" class="bar-mx"/><rect x="156" y="249.144" width="13.25" height="0.855856" rx="0" class="bar-nv"/><rect x="170.25" y="246.577" width="13.25" height="3.42342" rx="0" class="bar-nv"/><rect x="184.5" y="237.162" width="13.25" height="12.8378" rx="0" class="bar-nv"/><rect x="198.75" y="220.901" width="13.25" height="29.0991" rx="0" class="bar-nv"/><rect x="213" y="211.486" width="13.25" height="38.5135" rx="0" class="bar-nv"/><rect x="227.25" y="211.486" width="13.25" height="38.5135" rx="0" class="bar-nv"/><rect x="241.5" y="206.351" width="13.25" height="43.6486" rx="0" class="bar-nv"/><rect x="255.75" y="214.91" width="13.25" height="35.0901" rx="0" class="bar-nv"/><rect x="270" y="225.18" width="13.25" height="24.8198" rx="0" class="bar-nv"/><rect x="284.25" y="224.324" width="13.25" height="25.6757" rx="0" class="bar-nv"/><rect x="298.5" y="237.162" width="13.25" height="12.8378" rx="0" class="bar-nv"/><rect x="312.75" y="235.45" width="13.25" height="14.5495" rx="0" class="bar-nv"/><rect x="327" y="232.027" width="13.25" height="17.973" rx="0" class="bar-nv"/><rect x="341.25" y="244.865" width="13.25" height="5.13514" rx="0" class="bar-nv"/><rect x="355.5" y="245.721" width="13.25" height="4.27928" rx="0" class="bar-nv"/><rect x="369.75" y="237.162" width="13.25" height="12.8378" rx="0" class="bar-nv"/><rect x="384" y="242.297" width="13.25" height="7.7027" rx="0" class="bar-nv"/><rect x="398.25" y="247.432" width="13.25" height="2.56757" rx="0" class="bar-nv"/><rect x="412.5" y="248.288" width="13.25" height="1.71171" rx="0" class="bar-nv"/><rect x="426.75" y="245.721" width="13.25" height="4.27928" rx="0" class="bar-nv"/><rect x="469.5" y="249.144" width="13.25" height="0.855856" rx="0" class="bar-nv"/><rect x="498" y="246.577" width="13.25" height="3.42342" rx="0" class="bar-nv"/><rect x="526.5" y="249.144" width="13.25" height="0.855856" rx="0" class="bar-nv"/><rect x="597.75" y="249.144" width="13.25" height="0.855856" rx="0" class="bar-nv"/><line x1="70" y1="250" x2="640" y2="250" class="ln"/><text x="355" y="290" text-anchor="middle" class="t-s t-mut">양자화 상대 오차 (토큰별 INT4, 낮을수록 좋음)</text><text x="123.437" y="46" text-anchor="start" class="t-s t-b t-mx">무작위 하다마드 400개</text><text x="123.437" y="62" text-anchor="start" class="t-s t-mono t-mx">0.88 – 1.03%</text><text x="408.438" y="130" text-anchor="start" class="t-s t-b t-nv">무작위 직교 400개</text><text x="408.438" y="146" text-anchor="start" class="t-s t-mono t-nv">1.08 – 2.31% (두 배 넘게 퍼짐)</text><line x1="650" y1="200" x2="700" y2="200" class="ln ln-spike" marker-end="url(#h1-spike)"/><text x="644" y="186" text-anchor="start" class="t-s t-b t-spike">회전 없음</text><text x="644" y="222" text-anchor="start" class="t-s t-mono t-spike">8.4% →</text></svg></div><p class="hint">← 그림은 옆으로 밀어 볼 수 있습니다 →</p><figcaption>층 하나에서 본 무작위의 흔들림. 이상치 채널 둘과 큰 토큰 하나가 있는 장난감 활성(256 × 128)에 무작위 회전을 400번씩 걸어 토큰별 INT4로 양자화했다. 어떤 회전이든 회전하지 않은 것(8.4%)보다 훨씬 좋지만, 회전마다 결과가 다르고 일반 직교가 하다마드보다 넓게 흩어진다. 조사자의 모의실험.</figcaption></figure>
+<p>회전하지 않으면 상대 오차가 8.4%. 무작위 하다마드 400개는 모두 0.88%에서 1.03% 사이에 모였어요. 일반 무작위 직교 400개는 1.08%에서 2.31%까지 두 배 넘게 퍼졌고요. 두 가지를 보여 주지요. 하나, 어떤 회전이든 회전하지 않은 것보다 몇 배 좋다(보증이 하는 일). 둘, 그 안에서도 회전마다 결과가 다르고, 일반 직교가 하다마드보다 더 넓게 흩어진다. SpinQuant 논문의 관찰과 같은 방향이에요.</p>
+<p>SpinQuant 본문의 다음 문장이 자연스럽게 나와요. "회전들 사이에 이만큼 큰 분산이 있다면, 양자화의 이득을 최대화하도록 회전을 <strong>최적화</strong>할 수 있을까?"</p>
+<div class="box box-paper"><p class="calc-h"><span>논문</span>SpinQuant (2024) <a class="box-link" href="https://arxiv.org/abs/2405.16406">원문 ↗</a></p><p class="pr"><span class="pk">누가</span><span class="pv">쩌춘 류, 창성 자오 (공동 1저자), 이고르 페도로프, 빌게 소란, 드루브 초드리, 라구라만 크리슈나무르티, 비카스 찬드라, 위안둥 톈, 테이먼 블랑케부르트 — 메타. arXiv 2024년 5월(v4 2025년 2월). ICLR 2025.</span></p><p class="pr"><span class="pk">문제</span><span class="pv">W4A4KV4까지의 학습 후 양자화. 회전이 이상치를 없앤다는 건 알지만, <strong>어떤</strong> 회전을 쓸 것인가.</span></p><p class="pr"><span class="pk">동기 실험</span><span class="pv">LLaMA-2-7B W4A4, 무작위 회전 100번 — 무작위 직교는 13점, 무작위 하다마드도 6점까지 흔들린다.</span></p><p class="pr"><span class="pk">핵심</span><span class="pv">QuaRot의 네 자리 중 병합되는 두 자리(R1, R2)를 케일리 변환으로 <strong>학습</strong>한다. 온라인 두 자리(R3, R4)는 고정 하다마드.</span></p><p class="pr"><span class="pk">결과</span><span class="pv">LLaMA-2-7B W4A4KV4 제로샷 평균 64.0 (FP16 66.9, 차이 2.9점). 같은 설정에서 LLM-QAT 44.9, SmoothQuant 39.0.</span></p><p class="pr"><span class="pk">남긴 것</span><span class="pv">"회전은 학습할 수 있다." 동시에 "학습할 가치가 있느냐"는 7강의 논쟁.</span></p></div>
+<p>블랑케부르트라는 이름, 낯이 익지요. 2강의 BERT 이상치 논문, 3강의 AdaRound에 있던 퀄컴의 그 사람이에요. 메타로 옮겨 SpinQuant에 이름을 올렸어요. 이상치를 처음 들여다본 손이 그 이상치를 돌려 흩는 회전을 학습시키는 논문에도 서명한 셈이지요.</p>
+<p>이 마디를 매듭짓지요. 무작위의 보증은 상한이라, 같은 보증 아래서도 회전마다 결과가 흔들려요. 실제 모델에서 13점, 하다마드끼리도 6점. 그래서 SpinQuant는 회전을 무작위로 고르는 대신 <strong>최적화</strong>하기로 했어요.</p></section><section class="lecture" id="m2" aria-labelledby="hm2"><header class="gang madi"><span class="gang-no">마디 2</span><h2 id="hm2">네 자리에 이름 붙이기: 무엇을 배우고 무엇을 두나</h2></header>
+<p>SpinQuant는 5강 QuaRot의 지도를 그대로 가져와 네 자리에 이름을 붙였어요. 이 이름들이 이후 논문들의 공용어가 되니 정확히 익혀 둡시다.</p>
+<figure class="fig" id="fig-quarot-map"><div class="frame" tabindex="0"><svg class="dg" viewBox="0 0 800 412" role="img" aria-label="QuaRot와 SpinQuant가 한 트랜스포머 층 안에 회전을 넣는 네 자리: 병합되는 곳과 온라인인 곳, 그리고 RoPE와 비선형 앞에서 병합이 막히는 모습" style="min-width:700px"><defs><marker id="qr-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="f-ink"/></marker><marker id="qr-rot" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="f-rot"/></marker><marker id="qr-spike" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="f-spike"/></marker><marker id="qr-pos" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="f-pos"/></marker></defs><line x1="10" y1="30" x2="790" y2="30" class="ln-stream"/><text x="14" y="20" text-anchor="start" class="t-s t-b t-rot">잔차 흐름 h·Q — R1 · 1a (임베딩과 모든 W에 병합)</text><line x1="75" y1="30" x2="75" y2="80" class="ln" marker-end="url(#qr-ink)"/><path d="M 12 30 L 12 322 L 18 322" class="ln" marker-end="url(#qr-ink)"/><rect x="20" y="82" width="110" height="44" rx="4" class="bx"/><text x="75" y="100" text-anchor="middle" class="t-b ">RMSNorm</text><text x="75" y="116" text-anchor="middle" class="t-s t-mut">γ → W로 흡수</text><rect x="160" y="82" width="130" height="44" rx="4" class="bx bx-rot"/><text x="225" y="100" text-anchor="middle" class="t-b t-rot">W<tspan dy="3" class="ssub">q</tspan><tspan dy="-3">​</tspan> · W<tspan dy="3" class="ssub">k</tspan><tspan dy="-3">​</tspan></text><text x="225" y="116" text-anchor="middle" class="t-s t-mut">Qᵀ 병합</text><rect x="320" y="82" width="120" height="44" rx="4" class="bx bx-pos"/><text x="380" y="100" text-anchor="middle" class="t-b t-pos">RoPE Θ<tspan dy="3" class="ssub">m</tspan><tspan dy="-3">​</tspan></text><text x="380" y="116" text-anchor="middle" class="t-s t-mut">위치마다 다름</text><rect x="470" y="82" width="130" height="44" rx="4" class="bx-on"/><text x="535" y="100" text-anchor="middle" class="t-b t-rot">H<tspan dy="3" class="ssub">dh</tspan><tspan dy="-3">​</tspan> 온라인</text><text x="535" y="116" text-anchor="middle" class="t-s t-mut">R3 · 1d</text><rect x="630" y="82" width="130" height="44" rx="4" class="bx"/><text x="695" y="100" text-anchor="middle" class="t-b ">QKᵀ 점수</text><text x="695" y="116" text-anchor="middle" class="t-s t-mut">K는 4비트 캐시</text><line x1="131" y1="104" x2="158" y2="104" class="ln" marker-end="url(#qr-ink)"/><line x1="291" y1="104" x2="318" y2="104" class="ln" marker-end="url(#qr-ink)"/><line x1="441" y1="104" x2="468" y2="104" class="ln" marker-end="url(#qr-ink)"/><line x1="601" y1="104" x2="628" y2="104" class="ln" marker-end="url(#qr-ink)"/><path d="M 75 126 L 75 172 L 158 172" class="ln" marker-end="url(#qr-ink)"/><rect x="160" y="150" width="130" height="44" rx="4" class="bx bx-rot"/><text x="225" y="168" text-anchor="middle" class="t-b t-rot">W<tspan dy="3" class="ssub">v</tspan><tspan dy="-3">​</tspan></text><text x="225" y="184" text-anchor="middle" class="t-s t-mut">Qᵀ · H<tspan dy="3" class="ssub">dh</tspan><tspan dy="-3">​</tspan> 병합 (R2)</text><rect x="320" y="150" width="120" height="44" rx="4" class="bx"/><text x="380" y="168" text-anchor="middle" class="t-b ">softmax · V</text><text x="380" y="184" text-anchor="middle" class="t-s t-mut">토큰만 섞음</text><rect x="470" y="150" width="130" height="44" rx="4" class="bx-on"/><text x="535" y="168" text-anchor="middle" class="t-b t-rot">헤드 사이 H</text><text x="535" y="184" text-anchor="middle" class="t-s t-mut">온라인 · 1c</text><rect x="630" y="150" width="130" height="44" rx="4" class="bx bx-rot"/><text x="695" y="168" text-anchor="middle" class="t-b t-rot">W<tspan dy="3" class="ssub">o</tspan><tspan dy="-3">​</tspan></text><text x="695" y="184" text-anchor="middle" class="t-s t-mut">H · Q 병합</text><line x1="291" y1="172" x2="318" y2="172" class="ln" marker-end="url(#qr-ink)"/><line x1="441" y1="172" x2="468" y2="172" class="ln" marker-end="url(#qr-ink)"/><line x1="601" y1="172" x2="628" y2="172" class="ln" marker-end="url(#qr-ink)"/><path d="M 670 126 L 400 148" class="ln ln-mut" marker-end="url(#qr-ink)"/><path d="M 760 172 L 772 172 L 772 34" class="ln" marker-end="url(#qr-ink)"/><rect x="20" y="300" width="110" height="44" rx="4" class="bx"/><text x="75" y="318" text-anchor="middle" class="t-b ">RMSNorm</text><text x="75" y="334" text-anchor="middle" class="t-s t-mut">γ → W로 흡수</text><rect x="160" y="300" width="130" height="44" rx="4" class="bx bx-rot"/><text x="225" y="318" text-anchor="middle" class="t-b t-rot">W<tspan dy="3" class="ssub">gate</tspan><tspan dy="-3">​</tspan> · W<tspan dy="3" class="ssub">up</tspan><tspan dy="-3">​</tspan></text><text x="225" y="334" text-anchor="middle" class="t-s t-mut">Qᵀ 병합</text><rect x="320" y="300" width="120" height="44" rx="4" class="bx"/><text x="380" y="318" text-anchor="middle" class="t-b ">silu ⊙</text><text x="380" y="334" text-anchor="middle" class="t-s t-mut">비선형</text><rect x="470" y="300" width="130" height="44" rx="4" class="bx-on"/><text x="535" y="318" text-anchor="middle" class="t-b t-rot">H 온라인</text><text x="535" y="334" text-anchor="middle" class="t-s t-mut">R4 · 1b</text><rect x="630" y="300" width="130" height="44" rx="4" class="bx bx-rot"/><text x="695" y="318" text-anchor="middle" class="t-b t-rot">W<tspan dy="3" class="ssub">down</tspan><tspan dy="-3">​</tspan></text><text x="695" y="334" text-anchor="middle" class="t-s t-mut">H · W · Q 병합</text><line x1="131" y1="322" x2="158" y2="322" class="ln" marker-end="url(#qr-ink)"/><line x1="291" y1="322" x2="318" y2="322" class="ln" marker-end="url(#qr-ink)"/><line x1="441" y1="322" x2="468" y2="322" class="ln" marker-end="url(#qr-ink)"/><line x1="601" y1="322" x2="628" y2="322" class="ln" marker-end="url(#qr-ink)"/><path d="M 760 322 L 784 322 L 784 34" class="ln" marker-end="url(#qr-ink)"/><path d="M 490 80 Q 380 48 270 80" class="ln ln-spike dash" marker-end="url(#qr-spike)"/><text x="380" y="58" text-anchor="middle" class="t-b t-spike">✕</text><text x="398" y="58" text-anchor="start" class="t-s t-spike">RoPE를 못 건넘</text><path d="M 490 298 Q 380 266 270 298" class="ln ln-spike dash" marker-end="url(#qr-spike)"/><text x="380" y="276" text-anchor="middle" class="t-b t-spike">✕</text><text x="398" y="276" text-anchor="start" class="t-s t-spike">비선형을 못 건넘</text><path d="M 225 196 Q 380 234 695 196" class="ln ln-rot" marker-end="url(#qr-rot)"/><text x="380" y="234" text-anchor="middle" class="t-s t-b t-rot">✓ 헤드 안 H<tspan dy="3" class="ssub">dh</tspan><tspan dy="-3">​</tspan>는 통과</text><text x="380" y="248" text-anchor="middle" class="t-s t-mut">softmax·V는 채널을 안 건드린다</text><rect x="20" y="368" width="20" height="12" rx="2" class="bx bx-rot"/><text x="46" y="378" text-anchor="start" class="t-s">병합 — 추론 비용 0</text><rect x="180" y="368" width="20" height="12" rx="2" class="bx-on"/><text x="206" y="378" text-anchor="start" class="t-s">온라인 하다마드 — 층당 1½번</text><rect x="400" y="368" width="20" height="12" rx="2" class="bx bx-pos"/><text x="426" y="378" text-anchor="start" class="t-s">RoPE — 위치에 따라 다른 회전</text><text x="20" y="400" text-anchor="start" class="t-s t-mut">자리 이름 — R1–R4: SpinQuant · 1a–1d: QuaRot</text></svg></div><figcaption>한 층의 회전 지도. 파란 실선 상자는 회전이 가중치에 녹아 비용이 없는 자리, 점선 상자는 추론 중에 곱하는 온라인 하다마드다. 붉은 점선은 “이 하다마드를 앞 가중치로 밀어 넣을 수 있느냐”에 대한 답 — Q·K 쪽은 RoPE가, FFN 쪽은 silu가 막는다. 반면 V 쪽 헤드 안 회전은 softmax·V가 토큰만 섞으므로 W<sub>v</sub>에서 W<sub>o</sub>까지 그대로 건너간다. 8강의 질문(왜 V는 되고 K는 안 되는가)이 이 그림의 윗줄과 가운뎃줄의 차이다.</figcaption></figure>
+<div class="box box-eq"><p class="calc-h"><span>식</span>R1, R2, R3, R4</p><p>R1: 잔차 흐름. 모델 폭(4096) 크기, <strong>전 층이 하나를 공유</strong>. 임베딩·입구·출구·헤드에 병합. — QuaRot의 ① 자리.</p><p>R2: 어텐션의 V와 out_proj, <strong>헤드 안</strong>. 헤드 폭(128) 크기, <strong>층마다 하나</strong>. W<sub>v</sub>의 출력 쪽과 W<sub>o</sub>의 입력 쪽에 병합. — QuaRot ③의 헤드 안 절반.</p><p>R3: 쿼리와 키, 헤드 안. RoPE <strong>뒤</strong>에서 추론 중에. 고정 하다마드. — QuaRot의 ④ 자리, 과제의 자리.</p><p>R4: down_proj 입력. FFN 폭 크기. 추론 중에, 역은 W<sub>down</sub>에 병합. 고정 하다마드. — QuaRot의 ② 자리.</p></div>
+<p>그리고 결정이 하나 있어요. <strong>병합되는 R1과 R2만 학습하고, 온라인인 R3와 R4는 고정 하다마드로 둔다.</strong> 왜 그런지가 이 강의의 첫 열쇠예요.</p>
+<p>병합되는 회전은 가중치 안에 녹아 버리니, 그 행렬이 아무리 복잡해도 추론 비용이 0이에요. 4096 × 4096 조밀 행렬이라도 상관없지요. 그러니 마음껏 학습해도 돼요. 반면 온라인 회전은 추론 중에 곱해야 하니, 4강의 나비 연산으로 원소당 12번에 끝나는 <strong>하다마드</strong>여야 싸요. 학습된 조밀 행렬을 온라인으로 곱하면 원소당 4096번이 들지요. 그러니 온라인 자리는 하다마드에 묶여 있어요.</p>
+<figure class="fig" id="fig-h2"><div class="frame" tabindex="0"><svg class="dg" viewBox="0 0 760 346" role="img" aria-label="회전 네 자리를 학습 여부와 병합 여부의 2 곱하기 2 칸에 놓은 그림. R1과 R2는 병합되고 학습되며, R3와 R4는 온라인이고 고정 하다마드다" style="min-width:680px"><defs><marker id="h2-pos" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="f-pos"/></marker></defs><text x="295" y="44" text-anchor="middle" class="t-s t-b">학습한다 (조밀 행렬)</text><text x="545" y="44" text-anchor="middle" class="t-s t-b">고정 하다마드 (나비로 계산)</text><text x="158" y="111" text-anchor="end" class="t-s t-b">가중치에 병합</text><text x="158" y="127" text-anchor="end" class="t-s t-mut">추론 비용 0</text><text x="158" y="221" text-anchor="end" class="t-s t-b">추론 중 온라인</text><text x="158" y="237" text-anchor="end" class="t-s t-mut">원소당 비용</text><rect x="174" y="64" width="242" height="102" rx="6" class="bx-rot"/><text x="295" y="111" text-anchor="middle" class="t-b t-rot">R1 · R2</text><text x="295" y="131" text-anchor="middle" class="t-s t-mut">SpinQuant가 학습하는 칸</text><rect x="424" y="64" width="242" height="102" rx="6" class="bx"/><text x="545" y="111" text-anchor="middle" class="t-b t-mut">QuaRot의 R1</text><text x="545" y="131" text-anchor="middle" class="t-s t-mut">병합이지만 학습하지 않음</text><rect x="174" y="174" width="242" height="102" rx="6" class="bx"/><text x="295" y="221" text-anchor="middle" class="t-b t-mut">(아무도 안 씀)</text><text x="295" y="241" text-anchor="middle" class="t-s t-mut">조밀 행렬을 온라인으로 — 원소당 4096번</text><rect x="424" y="174" width="242" height="102" rx="6" class="bx-grid"/><text x="545" y="221" text-anchor="middle" class="t-b t-grid">R3 · R4</text><text x="545" y="241" text-anchor="middle" class="t-s t-mut">빠른 하다마드 — 원소당 12번</text><path d="M 505.0 195.0 C 445.0 125.0, 390 180, 380 156" class="ln ln-pos dash thick" marker-end="url(#h2-pos)"/><rect x="174" y="290" width="300" height="26" rx="4" class="tag-pos"/><text x="324" y="308" text-anchor="middle" class="t-s t-b t-pos">과제: R3를 병합 칸으로 → 비용 0, 그리고 학습 가능</text><text x="170" y="330" text-anchor="start" class="t-s t-mut">R3가 아래 칸에 있는 이유: RoPE 때문에 W<tspan dy="3" class="ssub">q</tspan><tspan dy="-3">​</tspan>·W<tspan dy="3" class="ssub">k</tspan><tspan dy="-3">​</tspan>에 흡수될 수 없어서 (SpinQuant v1).</text></svg></div><p class="hint">← 그림은 옆으로 밀어 볼 수 있습니다 →</p><figcaption>무엇을 배우고 무엇을 두나. 병합되는 회전은 조밀해도 공짜라 학습하고, 온라인 회전은 빨라야 해서 하다마드에 묶인다. R3를 RoPE 앞으로 옮겨 병합할 수 있다면, 추론 비용이 0이 될 뿐 아니라 학습할 수 있는 칸으로 옮겨 간다(초록 화살표).</figcaption></figure>
+<p>그러면 R3는 왜 온라인이냐. SpinQuant v1 본문이 이렇게 적었어요. "RoPE 연산 때문에 이 회전은 W<sub>q</sub>와 W<sub>k</sub>에 흡수될 수 없다. 그래서 하다마드 곱으로 추론 중에 쿼리와 키를 돌린다, 계산이 빠르므로." R3는 <strong>흡수가 안 돼서</strong> 온라인이 됐고, 온라인이라서 <strong>학습할 수 없었던</strong> 거예요.</p>
+<div class="box box-task"><p class="calc-h"><span>과제와의 연결</span>병합되면 학습도 열린다</p><p>그림의 2 × 2 칸을 보면 과제의 뜻이 하나 더 보인다. R3를 RoPE 앞으로 옮겨 W<sub>q</sub>, W<sub>k</sub>에 <strong>병합</strong>할 수 있다면, R3는 "병합 · 학습" 칸으로 옮겨 갈 수 있다. 추론 비용이 0이 되는 것만이 아니라, R1·R2처럼 <strong>학습할 수 있는 대상</strong>이 되는 것이다.</p><p>다만 조건이 있다. 병합된 회전이 RoPE와 교환해야 점수가 보존된다. 8강에서 보듯 그런 회전은 "짝마다 2 × 2 회전" 꼴뿐이라, 학습할 수 있는 자유도도 그만큼 좁다.</p></div>
+<div class="calc"><p class="calc-h"><span>손으로 굴려 보기</span>학습하는 양은 모델의 0.26%</p><p>LLaMA-2-7B: 모델 폭 4096, 헤드 폭 128, 32층, 전체 약 67.4억 파라미터.</p><p>R1: 4096 × 4096 = <strong>16,777,216</strong> (전 층 공유, 하나).</p><p>R2: 128 × 128 = 16,384 × 32층 = <strong>524,288</strong>.</p><p>합 17,301,504 ÷ 6,740,000,000 ≈ <strong>0.26%</strong> — 논문이 적은 숫자 그대로.</p><p>그리고 이 0.26%를 아무리 바꿔도 FP16 모델의 계산은 한 비트도 바뀌지 않는다. 학습하는 것이 "무엇을 계산하느냐"가 아니라 "어느 좌표계에서 계산하느냐"이기 때문이다.</p></div>
+<p>이 마디를 매듭짓지요. R1(본선), R2(헤드 안 V·O)는 병합되니 조밀 행렬이어도 공짜라 학습해요. R3(Q·K), R4(down_proj 앞)는 온라인이라 빠른 하다마드여야 해서 고정이에요. R3가 온라인인 이유는 RoPE 때문에 흡수가 안 돼서이고 — 그 칸을 옮기는 것이 과제예요.</p></section><section class="lecture" id="m3" aria-labelledby="hm3"><header class="gang madi"><span class="gang-no">마디 3</span><h2 id="hm3">회전을 학습하면 무엇이 문제인가</h2></header>
+<p>이제 R1을 학습한다고 해 봅시다. 손실 L을 정하고, 기울기 G = ∂L/∂R을 구해서, 보통처럼 R ← R − α·G로 한 걸음 가면 될까요? 안 돼요. 한 걸음만 가도 R이 <strong>회전이 아니게</strong> 돼요.</p>
+<div class="calc"><p class="calc-h"><span>손으로 굴려 보기</span>보통의 경사하강은 회전을 부순다</p><p>R = I (2 × 2 단위 행렬, 물론 회전). 기울기 방향이 [ 0  −1 ; 1  0 ]이라 하고 α = 0.5로 한 걸음:</p><p>R′ = [ 1  0 ; 0  1 ] − 0.5·[ 0  −1 ; 1  0 ] = [ 1  0.5 ; −0.5  1 ]</p><p>첫 열의 길이: √(1² + 0.5²) ≈ <strong>1.118</strong>. 길이 1이 아니다 — R′ᵀR′ ≠ I.</p><p>이걸 W<sub>q</sub> 같은 가중치에 병합하면, Q·Kᵀ = (Q·R′)(K·R′)ᵀ가 더 이상 성립하지 않는다. 1강부터의 "모델은 그대로"가 무너진다.</p></div>
+<p>회전들의 집합은 행렬 공간 안의 <strong>휘어진 곡면</strong>이에요. 평평한 공간에서 직선으로 걸으면 곡면을 벗어나지요.</p>
+<div class="box box-basic"><p class="calc-h"><span>기초</span>다양체와 스티펠 다양체</p><p>비유: 지구 표면 위에서 목적지로 걷기. 평면 지도에 직선을 긋고 그 방향으로 곧장 가면 땅속이나 허공으로 빠진다. <strong>지표면에 붙어서</strong> 걸어야 한다.</p><p>지표면처럼 "어디서 보든 국소적으로는 평평해 보이지만 전체로는 휘어 있는" 곡면을 다양체(manifold)라고 한다.</p><p>n × n 직교 행렬 전체 {R : RᵀR = I}는 n²차원 행렬 공간 안의 다양체다(정확히는 직교군; 이걸 포함하는 더 일반적인 집합을 스티펠 다양체라 부르고, SpinQuant는 이 이름을 쓴다).</p><p>다양체 위의 최적화: 기울기를 곡면에 <strong>접하는</strong> 방향으로 바꾸고, 그 방향으로 가되 곡면 위에 다시 내려앉는 걸음을 쓴다.</p></div>
+<figure class="fig" id="fig-h3"><div class="frame" tabindex="0"><svg class="dg" viewBox="0 0 760 350" role="img" aria-label="회전 행렬들의 집합을 원으로 그리면, 보통 경사하강은 접선 방향으로 나가 원을 벗어나고 케일리 걸음은 원 위를 따라 움직인다" style="min-width:660px"><defs><marker id="h3-spike" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="f-spike"/></marker><marker id="h3-rot" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="f-rot"/></marker><marker id="h3-mut" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="f-mut"/></marker></defs><circle cx="190" cy="200" r="108" class="ring"/><circle cx="128.1" cy="111.5" r="5.5" class="dot-q"/><text x="118.054" y="103.532" text-anchor="end" class="t-s t-b">R (지금)</text><line x1="128.054" y1="111.532" x2="209.969" y2="54.1739" class="ln ln-spike dash" marker-end="url(#h3-spike)"/><text x="215.969" y="38.1739" text-anchor="start" class="t-s t-b t-spike">보통 경사하강</text><text x="215.969" y="52.1739" text-anchor="start" class="t-s t-spike">곡면을 벗어남 (열 길이 1.118)</text><path d="M 128.1 111.5 A 108 108 0 0 1 212.5 94.4" class="ln ln-rot thick" marker-end="url(#h3-rot)"/><circle cx="212.5" cy="94.4" r="5.5" class="dot-rt"/><text x="208.454" y="120.36" text-anchor="middle" class="t-s t-b t-rot">케일리 걸음 R′</text><text x="208.454" y="136.36" text-anchor="middle" class="t-s t-rot">곡면 위에 머묾</text><text x="190" y="334" text-anchor="middle" class="t-s t-mut">점선 원 = 회전 행렬들의 집합 (다양체)</text><text x="470" y="50" text-anchor="start" class="t-b">한 걸음의 처방</text><text x="470" y="82" text-anchor="start" class="t-s t-b">① 기울기 G를 구한다</text><text x="470" y="126" text-anchor="start" class="t-s t-b">② 반대칭으로 바꾼다:</text><text x="484" y="143" text-anchor="start" class="t-s t-mono t-rot">Y = Ĝ − Ĝᵀ  (접하는 방향)</text><text x="470" y="170" text-anchor="start" class="t-s t-b">③ 케일리 변환:</text><text x="484" y="187" text-anchor="start" class="t-s t-mono t-rot">(I − α/2·Y)⁻¹ (I + α/2·Y)</text><text x="470" y="214" text-anchor="start" class="t-s t-b">④ 지금의 R에 곱한다:</text><text x="484" y="231" text-anchor="start" class="t-s t-mono t-rot">R′ = (작은 회전) · R</text><text x="470" y="270" text-anchor="start" class="t-s t-b t-pos">몇 걸음을 가든 R은 회전 — 모델은 그대로.</text></svg></div><p class="hint">← 그림은 옆으로 밀어 볼 수 있습니다 →</p><figcaption>회전들의 집합은 휘어진 곡면이다(그림에서는 원). 보통의 경사하강은 직선으로 나가 곡면을 벗어나고, 케일리 걸음은 현재 회전에 작은 회전을 곱해 곡면 위에 머문다. 원은 도식이다.</figcaption></figure>
+<p>그러면 "곡면 위에 머무는 걸음"을 어떻게 만드느냐. 회전 하나를 곱하면 회전이니까, <strong>현재 R에 작은 회전 하나를 곱하는</strong> 꼴로 걸으면 돼요. R′ = (작은 회전) · R. 그러면 남은 문제는 기울기로부터 "작은 회전"을 만드는 법이에요.</p>
+<div class="box box-basic"><p class="calc-h"><span>기초</span>반대칭 행렬은 "아주 작은 회전"의 모양이다</p><p>반대칭(skew-symmetric) 행렬: Yᵀ = −Y. 대각은 모두 0. 예: [ 0  1 ; −1  0 ].</p><p>I + t·Y는 t가 작으면 거의 회전이다: (I + tY)ᵀ(I + tY) = I + t(Yᵀ + Y) + t²·YᵀY = I + t²·YᵀY. 1차 항이 사라진다.</p><p>그래서 회전 근처의 "움직일 수 있는 방향"(접하는 방향)은 정확히 반대칭 행렬들이다.</p><p>그러면 남은 일: ① 기울기 G를 반대칭 Y로 바꾸고, ② Y로부터 <strong>정확한</strong> 회전을 만드는 것. ①은 Y = Ĝ − Ĝᵀ (어떤 행렬이든 자기 전치를 빼면 반대칭), ②가 다음 마디의 케일리 변환이다.</p></div>
+<p>이 마디를 매듭짓지요. 보통의 경사하강은 회전을 회전이 아니게 만들어 "모델은 그대로"를 깨요. 회전들은 휘어진 곡면(다양체)을 이루니, 그 위에 머무는 걸음이 필요하지요. 그 걸음의 재료가 반대칭 행렬 — 아주 작은 회전의 모양이에요.</p></section><section class="lecture" id="m4" aria-labelledby="hm4"><header class="gang madi"><span class="gang-no">마디 4</span><h2 id="hm4">케일리 변환: 반대칭 하나로 정확한 회전 만들기</h2></header>
+<div class="box box-eq"><p class="calc-h"><span>식</span>케일리 변환</p><p>반대칭 Y와 수 c에 대해  C = (I − c·Y)⁻¹ · (I + c·Y)  는 <strong>언제나</strong> 직교 행렬이다.</p><p>증명: Y가 반대칭이면 (I + cY)ᵀ = I − cY. 그리고 I + cY와 I − cY는 서로 교환한다(둘 다 I와 Y의 다항식이니까). 그러면</p><p class="eq">CᵀC = (I + cY)ᵀ·(I − cY)⁻ᵀ·(I − cY)⁻¹·(I + cY) = (I − cY)·(I + cY)⁻¹·(I − cY)⁻¹·(I + cY) = I</p><p>SpinQuant의 갱신:  R′ = (I − α/2·Y)⁻¹ · (I + α/2·Y) · R,   Y = Ĝ − Ĝᵀ,   Ĝ = G·Rᵀ − ½·R·Rᵀ·G·Rᵀ</p><p>뜻: 기울기 G를 반대칭 Y로 바꾸고(접하는 방향), 케일리 변환으로 정확한 작은 회전을 만들어 현재 R에 곱한다. 곡면 위의 한 걸음.</p></div>
+<div class="calc"><p class="calc-h"><span>손으로 굴려 보기</span>반대칭 하나가 회전이 되는 순간</p><p>Y = [ 0  1 ; −1  0 ] (Yᵀ = −Y 확인), α = 0.5 → c = α/2 = 0.25.</p><p>I − 0.25Y = [ 1  −0.25 ; 0.25  1 ]. 행렬식 1 + 0.0625 = 1.0625. 역행렬 = [ 1  0.25 ; −0.25  1 ] / 1.0625.</p><p>I + 0.25Y = [ 1  0.25 ; −0.25  1 ].</p><p>곱: [ 0.9375  0.5 ; −0.5  0.9375 ] / 1.0625 = <strong>[ 0.882  0.471 ; −0.471  0.882 ]</strong>.</p><p>검산: 0.882² + 0.471² = 0.778 + 0.222 = <strong>1.000</strong>, 두 열의 내적 0. 직교 행렬이다.</p><p>각도: arccos 0.882 ≈ <strong>28.07°</strong> = 2·arctan(0.25). Y의 크기(c)가 회전각을 정하고, 어떤 크기를 넣어도 결과는 회전이다.</p><p>마디 3의 보통 경사하강은 같은 방향으로 가서 열 길이 1.118을 만들었다.</p></div>
+<p>케일리 변환이 특히 편한 이유가 하나 더 있어요. 반대칭 행렬에서 회전을 만드는 가장 "정통" 방법은 행렬 지수 exp(Y)인데, 이건 계산이 비싸요. 케일리 변환은 역행렬 하나면 되고, 작은 걸음에서는 지수와 거의 같아요. 그래서 다양체 위 최적화에서 널리 써요(케일리 SGD).</p>
+<p>곁가지 하나. 이 변환에 이름이 붙은 아서 케일리는 1846년에 이걸 발표했는데, 4강에서 하다마드 재귀를 만든 실베스터와 절친한 사이였어요. 둘 다 대학에 자리를 얻지 못해 런던에서 법률가로 일하던 1847년 무렵 만나, 몇 해 동안 대화와 편지로 '불변식 이론(invariant theory)'을 함께 일궜지요. 그런데 그 시절 관례상 평생 공동 논문이 한 편도 없어요. QuaRot가 쓰는 하다마드 구성은 실베스터의 것, SpinQuant가 쓰는 회전 학습의 걸음은 케일리의 것 — 런던의 두 법률가 친구가 만든 도구가 170여 년 뒤 한 모델 안에서 만나고, 그 모델을 떠받치는 원리 이름이 계산 <strong>불변</strong>성이에요.</p>
+<p>이 마디를 매듭짓지요. 케일리 변환 (I − cY)⁻¹(I + cY)는 반대칭 Y 하나로 정확한 회전을 만들어요. SpinQuant는 기울기를 반대칭으로 바꿔 이 변환에 넣고, 나온 작은 회전을 현재 R에 곱해요. 몇 걸음을 가든 R은 회전으로 남고, 모델은 그대로예요.</p></section><section class="lecture" id="m5" aria-labelledby="hm5"><header class="gang madi"><span class="gang-no">마디 5</span><h2 id="hm5">무엇을 최소화하며 배우나</h2></header>
+<p>걷는 법은 정했으니, 어느 쪽으로 걸을지 — 손실 — 를 정해야지요. SpinQuant의 선택은 이래요.</p>
+<div class="box box-eq"><p class="calc-h"><span>식</span>SpinQuant의 학습 목표</p><p>argmin over R1, R2 (회전들의 다양체 위에서)  ℒ_Q( R1, R2 | W, X )</p><p>ℒ_Q: 보정 데이터에서 잰 <strong>모델 출력의 교차엔트로피</strong>(다음 토큰 예측 손실). 층 하나의 재구성 오차가 아니라 네트워크 전체의 최종 손실이다.</p><p>이때 <strong>활성만 양자화</strong>하고 가중치는 16비트로 둔다.</p><p>보정: WikiText2 800개 문장, 100회 반복, 학습률 1.5에서 0으로 선형 감소.</p></div>
+<p>두 가지를 짚어야 해요.</p>
+<p>하나, 가중치를 양자화하지 않은 채로 배우는 이유. 역할 분담이에요. 회전을 다 배운 <strong>뒤에</strong>, 회전이 병합된 가중치를 GPTQ로 양자화해요(WikiText2 128개). 회전은 활성을 위해, GPTQ는 가중치를 위해. 4강·5강의 "회전과 GPTQ는 한 팀"이 여기서는 순서로 나타나지요.</p>
+<p>둘, 양자화된 활성을 거쳐 어떻게 기울기가 흐르느냐. 반올림 함수는 거의 모든 곳에서 기울기가 0이에요(계단 함수니까).</p>
+<div class="box box-basic"><p class="calc-h"><span>기초</span>반올림을 거쳐 기울기 흘리기</p><p>round(x)는 계단이라 미분이 거의 어디서나 0, 계단 경계에서는 정의되지 않는다. 그대로면 반올림 앞의 변수(여기서는 R)에 기울기가 전혀 안 간다.</p><p>양자화를 넣고 학습하는 방법들은 흔히 <strong>직통 추정기</strong>(STE, straight-through estimator)를 쓴다: 순전파는 진짜 반올림, 역전파에서는 반올림을 항등 함수인 척하고 기울기를 그대로 통과시킨다.</p><p>그러면 "양자화된 활성으로 계산한 손실"이 회전 R에 대해 쓸 만한 기울기를 준다. 3강 AdaRound의 연속 완화와 같은 목적의 다른 요령이다.</p></div>
+<figure class="fig" id="fig-h4"><div class="frame" tabindex="0"><svg class="dg" viewBox="0 0 800 250" role="img" aria-label="SpinQuant의 흐름: 보정 데이터로 활성만 양자화한 모델의 교차엔트로피를 재고 케일리 갱신으로 R1과 R2를 배운 뒤, 병합하고 GPTQ로 가중치를 양자화해 배포한다" style="min-width:720px"><defs><marker id="h4-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="f-ink"/></marker><marker id="h4-rot" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="f-rot"/></marker></defs><rect x="20" y="60" width="130" height="54" rx="5" class="bx"/><text x="85" y="83" text-anchor="middle" class="t-s t-b">보정 데이터</text><text x="85" y="100" text-anchor="middle" class="t-s t-mut">WikiText2 800개</text><rect x="160" y="60" width="130" height="54" rx="5" class="bx-rot"/><text x="225" y="83" text-anchor="middle" class="t-s t-b">모델 + R1·R2</text><text x="225" y="100" text-anchor="middle" class="t-s t-mut">활성만 가짜 양자화</text><rect x="330" y="60" width="130" height="54" rx="5" class="bx"/><text x="395" y="83" text-anchor="middle" class="t-s t-b">교차엔트로피</text><text x="395" y="100" text-anchor="middle" class="t-s t-mut">최종 출력 손실</text><rect x="480" y="60" width="130" height="54" rx="5" class="bx-rot"/><text x="545" y="83" text-anchor="middle" class="t-s t-b">케일리 갱신</text><text x="545" y="100" text-anchor="middle" class="t-s t-mut">100회 반복</text><line x1="152" y1="87" x2="157" y2="87" class="ln" marker-end="url(#h4-ink)"/><line x1="292" y1="87" x2="327" y2="87" class="ln" marker-end="url(#h4-ink)"/><line x1="462" y1="87" x2="477" y2="87" class="ln" marker-end="url(#h4-ink)"/><path d="M 545.0 116 C 545.0 154, 225.0 154, 225.0 118" class="ln ln-rot dash" marker-end="url(#h4-rot)"/><text x="385" y="164" text-anchor="middle" class="t-s t-rot">되먹임 — R1·R2만 바뀐다 (모델의 0.26%)</text><line x1="620" y1="87" x2="650" y2="87" class="ln" marker-end="url(#h4-ink)"/><rect x="652" y="30" width="140" height="44" rx="5" class="bx-grid"/><text x="722" y="48" text-anchor="middle" class="t-s t-b">R1·R2 병합</text><text x="722" y="64" text-anchor="middle" class="t-s t-mut">가중치 속으로</text><rect x="652" y="84" width="140" height="44" rx="5" class="bx-grid"/><text x="722" y="102" text-anchor="middle" class="t-s t-b">GPTQ</text><text x="722" y="118" text-anchor="middle" class="t-s t-mut">회전된 가중치를 4비트로</text><rect x="652" y="138" width="140" height="44" rx="5" class="bx"/><text x="722" y="156" text-anchor="middle" class="t-s t-b">배포</text><text x="722" y="172" text-anchor="middle" class="t-s t-mut">R3·R4는 온라인 하다마드</text><line x1="722" y1="74" x2="722" y2="82" class="ln" marker-end="url(#h4-ink)"/><line x1="722" y1="128" x2="722" y2="136" class="ln" marker-end="url(#h4-ink)"/><text x="20" y="230" text-anchor="start" class="t-s t-mut">역할 분담: 회전은 활성을 위해 (학습 중 가중치는 16비트), GPTQ는 가중치를 위해 (회전을 다 배운 뒤).</text></svg></div><p class="hint">← 그림은 옆으로 밀어 볼 수 있습니다 →</p><figcaption>SpinQuant의 흐름. 왼쪽 고리에서 R1·R2만 배우고(활성만 양자화, 가중치는 16비트), 다 배운 뒤 오른쪽 차례로 병합 → GPTQ → 배포. 배포된 모델에는 R3·R4의 온라인 하다마드가 남는다.</figcaption></figure>
+<p>학습에 드는 시간은 판마다 다르게 적혀 있어요. v1에는 A100 여덟 장으로 LLaMA-2-7B 약 1.25시간, 70B 약 12시간. v4에는 7B 약 25분, 70B 약 3.5시간(하드웨어는 확인 못 함). 그리고 흥미로운 절제 실험 둘. 보정 문장을 800개에서 128개로 줄여도 큰 차이가 없었고, 학습 후에는 "처음에 무작위 직교로 시작했든 하다마드로 시작했든 덜 중요해진다"고 했어요.</p>
+<p>이 마디를 매듭짓지요. SpinQuant는 활성만 양자화한 모델의 최종 교차엔트로피를 손실로 삼아 R1, R2를 배우고, 다 배운 뒤 회전된 가중치를 GPTQ로 양자화해요. 반올림을 통과하는 기울기는 직통 추정기 같은 요령으로 흘려보내요.</p></section><section class="lecture" id="m6" aria-labelledby="hm6"><header class="gang madi"><span class="gang-no">마디 6</span><h2 id="hm6">결과: 학습의 이득은 얼마인가</h2></header>
+<div class="calc"><p class="calc-h"><span>손으로 굴려 보기</span>표 읽기 (LLaMA-2-7B, 여덟 과제 제로샷 평균 / WikiText2)</p><p>FP16: 66.9 / 5.5</p><p>W4A4KV4 — 반올림 37.1 / 약 2000, SmoothQuant 39.0 / 약 700, LLM-QAT 44.9 / 14.9, GPTQ만 36.8 / 약 9000</p><p>SpinQuant_no_had (R1·R2만, 온라인 없음): 56.0 / 9.2</p><p>SpinQuant_had (R1·R2 학습 + R3·R4 하다마드): <strong>64.0 / 5.9</strong></p><p>차이: FP16까지 66.9 − 64.0 = <strong>2.9점</strong>. LLM-QAT보다 64.0 − 44.9 = <strong>19.1점</strong>, SmoothQuant보다 <strong>25.0점</strong>.</p></div>
+<p>두 줄이 특히 중요해요. 첫째, no_had(56.0)와 had(64.0)의 차이 8점. 4비트 <strong>활성</strong>에서는 병합되는 회전만으로는 모자라고, 온라인 하다마드(R3·R4)가 여전히 필요하다는 뜻이에요. 그런데 활성을 <strong>8비트</strong>로 하면 이야기가 달라져요. W4A8KV8에서는 no_had만으로 65.8(FP16 66.9). 온라인 연산 없이도 거의 무손실이지요. 이게 마디 7의 배포 이야기로 이어져요.</p>
+<p>둘째, QuaRot와의 비교. 마디 1 그림의 (b)를 다시 보세요. 같은 LLaMA-3-8B, W4A4KV4에서 가중치를 무엇으로 양자화하느냐에 따라 이득의 크기가 달라져요.</p>
+<p>가중치를 반올림으로 하면 SpinQuant가 QuaRot보다 5.5점 앞서요(64.1 대 58.6). 둘 다 GPTQ를 쓰면 2.2점(65.5 대 63.3)으로 줄어요. 학습된 회전이 해 주던 일의 상당 부분을 GPTQ가 대신한다는 뜻이지요. 이게 7강의 논쟁 — 회전을 학습할 가치가 있느냐 — 의 씨앗이에요.</p>
+<div class="box box-warn"><p class="calc-h"><span>오해 경보</span>"QuaRot보다 28점 낫다"의 정체</p><p>SpinQuant 본문은 QuaRot보다 "2.0에서 28.6점" 낫다고 적는다. 큰 숫자는 LLaMA-3-70B에서 QuaRot를 <strong>반올림</strong>으로 돌린 경우다. 같은 70B W4A4KV4를 QuaRot 자기 논문은 WikiText2 6.66으로, SpinQuant v1 표는 20.2로 적었다. 같은 방법을 누가 어떤 코드로 재느냐에 따라 숫자가 세 배 달라진다.</p><p>그리고 제로샷 평균은 QuaRot가 여섯 과제, SpinQuant가 여덟 과제를 쓴다. 두 논문의 평균을 직접 비교하면 안 된다.</p></div>
+<p>속도는 M1 맥북 프로 CPU에서 LLaMA-3-8B로 쟀어요. 4비트가 16비트보다 약 3배 빠르고, had와 no_had를 비교하면 <strong>온라인 하다마드가 지연을 8%</strong> 늘렸어요. 그 8%를 없애는 것 — 그게 지금 과제가 R3 자리에서 노리는 이득의 크기를 가늠하게 해 주는 숫자예요(R3는 그 8% 중 일부).</p>
+<p>이 마디를 매듭짓지요. SpinQuant는 LLaMA-2-7B W4A4KV4에서 FP16에 2.9점까지 다가갔어요. 다만 그 이득의 상당 부분은 GPTQ와 겹쳐서, GPTQ를 함께 쓰면 QuaRot와의 차이가 5.5점에서 2.2점으로 줄어요. 4비트 활성에는 온라인 하다마드가 필요하지만, 8비트 활성이면 병합되는 회전만으로 충분해요.</p></section><section class="lecture" id="m7" aria-labelledby="hm7"><header class="gang madi"><span class="gang-no">마디 7</span><h2 id="hm7">실제 배포: 온라인 연산을 모두 버린 선택</h2></header>
+<p>2024년 10월, 메타가 Llama 3.2 1B와 3B의 양자화판을 냈어요. 두 종류가 있었는데, 하나는 양자화 인식 훈련에 LoRA를 붙인 것(QAT + LoRA), 다른 하나가 <strong>SpinQuant</strong>예요. 설정을 보세요.</p>
+<div class="box box-eq"><p class="calc-h"><span>식</span>Llama 3.2 양자화판의 설정</p><p>가중치: 4비트, 그룹 크기 32 (3강 마디 9의 그룹 양자화)</p><p>활성: <strong>8비트</strong>, 토큰별 동적 양자화</p><p>분류 층(LM 헤드): 8비트 채널별 가중치 + 8비트 토큰별 활성. 임베딩: 8비트 채널별.</p><p>모델 카드: "SpinQuant를 GPTQ와 함께 적용했다."</p><p>→ 마디 6의 W4A8 결과처럼, 활성이 8비트면 <strong>병합되는 회전만으로</strong> 충분하다. 추론 중 하다마드는 없다.</p></div>
+<figure class="fig" id="fig-h6"><div class="frame" tabindex="0"><svg class="dg" viewBox="0 0 780 270" role="img" aria-label="Llama 3.2 1B 양자화판에서 SpinQuant는 디코딩을 초당 19.2에서 50.2토큰으로 높이고 크기를 2358에서 1083 메가바이트로 줄이며 MMLU는 49.3에서 47.3이 된다" style="min-width:700px"><text x="20" y="28" text-anchor="start" class="t-b">디코딩 속도 (토큰/초)</text><text x="20" y="62" text-anchor="start" class="t-s">BF16</text><rect x="96" y="50" width="48" height="18" rx="0" class="f-mut"/><text x="148" y="64" text-anchor="start" class="t-s t-mono t-b">19.2</text><text x="20" y="102" text-anchor="start" class="t-s t-b t-rot">SpinQuant</text><rect x="96" y="90" width="125.5" height="18" rx="0" class="f-rot"/><text x="225.5" y="104" text-anchor="start" class="t-s t-mono t-b">50.2</text><text x="20" y="142" text-anchor="start" class="t-s">QAT+LoRA</text><rect x="96" y="130" width="114.5" height="18" rx="0" class="f-mut"/><text x="214.5" y="144" text-anchor="start" class="t-s t-mono t-b">45.8</text><text x="278" y="28" text-anchor="start" class="t-b">모델 크기 (MB)</text><text x="278" y="62" text-anchor="start" class="t-s">BF16</text><rect x="354" y="50" width="136.038" height="18" rx="0" class="f-mut"/><text x="494.038" y="64" text-anchor="start" class="t-s t-mono t-b">2358</text><text x="278" y="102" text-anchor="start" class="t-s t-b t-rot">SpinQuant</text><rect x="354" y="90" width="62.4808" height="18" rx="0" class="f-rot"/><text x="420.481" y="104" text-anchor="start" class="t-s t-mono t-b">1083</text><text x="278" y="142" text-anchor="start" class="t-s">QAT+LoRA</text><rect x="354" y="130" width="65.0192" height="18" rx="0" class="f-mut"/><text x="423.019" y="144" text-anchor="start" class="t-s t-mono t-b">1127</text><text x="536" y="28" text-anchor="start" class="t-b">MMLU 5-shot</text><text x="536" y="62" text-anchor="start" class="t-s">BF16</text><rect x="612" y="50" width="134.455" height="18" rx="0" class="f-mut"/><text x="750.455" y="64" text-anchor="start" class="t-s t-mono t-b">49.3</text><text x="536" y="102" text-anchor="start" class="t-s t-b t-rot">SpinQuant</text><rect x="612" y="90" width="129" height="18" rx="0" class="f-rot"/><text x="745" y="104" text-anchor="start" class="t-s t-mono t-b">47.3</text><text x="536" y="142" text-anchor="start" class="t-s">QAT+LoRA</text><rect x="612" y="130" width="133.636" height="18" rx="0" class="f-mut"/><text x="749.636" y="144" text-anchor="start" class="t-s t-mono t-b">49.0</text><text x="536" y="182" text-anchor="start" class="t-s">단순 PTQ</text><rect x="612" y="170" width="118.091" height="18" rx="0" class="f-mut"/><text x="734.091" y="184" text-anchor="start" class="t-s t-mono t-b">43.3</text><text x="20" y="250" text-anchor="start" class="t-s t-mut">Llama 3.2 1B, 휴대폰 OnePlus 12. 양자화판은 W4A8 — 온라인 하다마드 없음.</text></svg></div><p class="hint">← 그림은 옆으로 밀어 볼 수 있습니다 →</p><figcaption>실제 배포의 숫자. 메타의 Llama 3.2 1B 모델 카드. SpinQuant판은 훈련 데이터 없이 만들어 QAT + LoRA판보다 MMLU가 조금 낮지만 디코딩은 더 빠르다. 막대는 패널마다 따로 맞춘 길이다.</figcaption></figure>
+<div class="box box-paper"><p class="calc-h"><span>논문</span>Llama 3.2 양자화판 (메타 블로그, 2024) <a class="box-link" href="https://ai.meta.com/blog/meta-llama-quantized-lightweight-models/">원문 ↗</a></p><p class="pr"><span class="pk">누가</span><span class="pv">메타. 2024년 10월 24일 블로그와 모델 카드.</span></p><p class="pr"><span class="pk">문제</span><span class="pv">휴대폰에서 돌릴 수 있는 작고 빠른 모델.</span></p><p class="pr"><span class="pk">핵심</span><span class="pv">W4A8. 두 갈래 — QAT + LoRA, 그리고 SpinQuant(+ GPTQ).</span></p><p class="pr"><span class="pk">결과 (1B, OnePlus 12)</span><span class="pv">MMLU BF16 49.3 → SpinQuant 47.3 (QAT + LoRA 49.0, 단순 학습 후 양자화 43.3). 디코딩 초당 19.2 → <strong>50.2</strong>토큰. 모델 크기 2358 → <strong>1083</strong> MB.</span></p><p class="pr"><span class="pk">블로그의 말</span><span class="pv">SpinQuant는 QAT + LoRA보다 "덜 정확하지만, 흔히 비공개인 훈련 데이터 없이 된다는 이식성이 큰 장점이다."</span></p></div>
+<div class="box box-task"><p class="calc-h"><span>과제와의 연결</span>왜 온라인 RHT를 없애려 하나</p><p>실제 배포는 정확도를 조금 내주더라도 <strong>추론 중 온라인 연산을 하나도 남기지 않는</strong> 쪽을 골랐다. 온라인 하다마드는 별도 커널, 별도 메모리 왕복, 그리고 모바일·가속기마다의 구현 부담이다.</p><p>과제가 R3를 W<sub>q</sub>, W<sub>k</sub>에 병합하려는 동기가 바로 이 배포 논리와 같은 방향이다. 다만 Llama 3.2는 활성 8비트라 R3 자체가 필요 없었다. KV 캐시나 Q·K를 4비트(또는 FP4)로 내리려는 순간 R3가 다시 필요해지고, 그때 그것을 병합할 수 있느냐가 문제가 된다.</p></div>
+<p>이 마디를 매듭짓지요. 메타의 실제 배포는 W4A8에 SpinQuant + GPTQ를 써서, 온라인 하다마드 없이 병합되는 회전만으로 1B 모델을 폰에서 2.6배 빠르게 돌렸어요. 정확도는 QAT보다 조금 낮지만 훈련 데이터가 필요 없었고요.</p></section><section class="lecture" id="m8" aria-labelledby="hm8"><header class="gang madi"><span class="gang-no">마디 8</span><h2 id="hm8">SpinQuant가 남긴 것과 남긴 숙제</h2></header>
+<p>SpinQuant 논문에는 "한계"라는 절이 없어요. 본문 어디에도 "한계"나 "과적합" 같은 낱말이 안 나와요. 앞을 내다보는 문장은 하나뿐이에요. "이상치 축과 크기가 알려진 활성 분포가 주어졌을 때, 최적 회전 행렬의 <strong>닫힌 꼴 해</strong>를 유도할 수 있는지." 학습 없이 공식으로 좋은 회전을 쓸 수 있느냐는 질문이지요. 7강의 여러 갈래가 바로 이 질문에 답하려 해요.</p>
+<p>그리고 짚어 둘 것 하나. SpinQuant는 회전을 <strong>WikiText2로 학습</strong>하고, 성능도 <strong>WikiText2 perplexity로</strong> 재요. 같은 데이터로 배우고 같은 데이터로 재면 숫자가 좋게 나올 수 있지요. 제로샷 과제 평균도 함께 보고하니 완전히 같은 데이터만 본 건 아니지만, 이 점은 10강 반론에서 다시 꺼내요.</p>
+<div class="box box-warn"><p class="calc-h"><span>오해 경보</span>같은 표의 숫자가 판마다 다르다</p><p>SpinQuant LLaMA-3-70B W4A4KV4 WikiText2: v1 표 5.5, v4 표 3.8. 한편 FlatQuant·OSTQuant·ResQ 세 논문이 각자 재현한 값은 6.21, 6.24, 6.2로 모였다(7강).</p><p>학습 시간도 v1(7B 1.25시간)과 v4(7B 25분)가 다르다. 판이 바뀌며 구현이 개선된 것으로 보이지만, 인용할 때는 어느 판의 숫자인지 적어야 한다.</p></div>
+<p>이 마디를 매듭짓지요. SpinQuant는 "회전은 학습할 수 있고, 학습하면 무작위의 흔들림을 없앨 수 있다"를 보였어요. 동시에 세 가지 숙제를 남겼지요. GPTQ와 겹치는 이득, 닫힌 꼴 해의 가능성, 그리고 학습할 수 없었던 R3. 앞의 둘이 7강, 마지막이 8강이에요. 한 줄로 남기지요. 무작위의 보증은 바닥을 지켜 주고, 학습은 그 위에서 흔들림을 줄인다.</p></section>
+<section class="lecture appendix" id="sum" aria-labelledby="hsum">
+<header class="gang madi"><span class="gang-no">정리</span><h2 id="hsum">한 장 정리</h2></header>
+<p>6강을 물음 여섯으로.</p>
+<div class="frame"><table class="ledger sum"><thead><tr><th>물음</th><th>답</th><th>숫자</th></tr></thead><tbody><tr><td>무작위 회전이면 충분한가</td><td>보증은 상한이라 회전마다 결과가 흔들린다</td><td>LLaMA-2-7B W4A4: 무작위 직교 13점, 하다마드 6점 차이</td></tr><tr><td>어디를 배우나</td><td>병합되는 R1(본선)·R2(헤드 안 V·O)만. R3·R4는 온라인이라 고정 하다마드</td><td>학습량 = 모델의 0.26%</td></tr><tr><td>R3는 왜 고정인가</td><td>RoPE 때문에 W<sub>q</sub>·W<sub>k</sub>에 흡수될 수 없어 온라인 → 하다마드여야 싸다</td><td>온라인 하다마드 지연 +8% (M1 CPU)</td></tr><tr><td>어떻게 배우나</td><td>기울기를 반대칭으로 바꾸고 케일리 변환으로 정확한 작은 회전을 곱한다</td><td>활성만 양자화한 교차엔트로피, WikiText2 800개 × 100회</td></tr><tr><td>이득은 얼마인가</td><td>FP16에 2.9점까지. 단 GPTQ와 겹쳐 QuaRot와의 차이는 줄어든다</td><td>LLaMA-3-8B: 반올림 5.5점 → GPTQ 2.2점</td></tr><tr><td>실제로는</td><td>W4A8에서 병합 회전만 + GPTQ, 온라인 연산 없음</td><td>Llama 3.2 1B 폰 디코딩 19.2 → 50.2 토큰/초</td></tr></tbody></table></div>
+<p>세 문장으로 줄이면 이렇다. 무작위 회전의 보증은 바닥을 지켜 줄 뿐이라 회전마다 결과가 흔들리고, SpinQuant는 그 흔들림을 없애려 병합되는 회전을 케일리 변환으로 회전인 채로 학습했다. 이득의 일부는 GPTQ와 겹치고, 4비트 활성에는 여전히 온라인 하다마드가 필요하다. R3가 학습되지 못한 이유는 RoPE 때문에 병합되지 못해서였고 — 그것을 병합하는 것이 과제다.</p>
+<h3 class="idx-h idx-ink">낱말장</h3>
+<div class="frame"><table class="ledger gl"><thead><tr><th>낱말</th><th>뜻</th><th>마디</th></tr></thead><tbody><tr><td>보증 (상한)</td><td>"높은 확률로 이 정도 이하". 최선을 약속하지 않는다</td><td><a href="#m1">1</a></td></tr><tr><td>R1 · R2 · R3 · R4</td><td>본선 · 헤드 안 V·O · 쿼리와 키 · down_proj 앞. SpinQuant가 붙인 이름</td><td><a href="#m2">2</a></td></tr><tr><td>no_had · had</td><td>병합되는 R1·R2만 · 거기에 온라인 R3·R4 하다마드까지</td><td><a href="#m2">2</a></td></tr><tr><td>다양체</td><td>국소적으로는 평평하지만 전체로는 휘어진 곡면. 회전 행렬들의 집합이 그렇다</td><td><a href="#m3">3</a></td></tr><tr><td>스티펠 다양체</td><td>열들이 서로 수직이고 길이 1인 행렬들의 집합. 정사각이면 직교 행렬 전체</td><td><a href="#m3">3</a></td></tr><tr><td>반대칭 행렬</td><td>Yᵀ = −Y. 회전 근처에서 움직일 수 있는 방향</td><td><a href="#m3">3</a></td></tr><tr><td>케일리 변환</td><td>(I − cY)⁻¹(I + cY). 반대칭 Y 하나로 정확한 회전을 만든다</td><td><a href="#m4">4</a></td></tr><tr><td>케일리 SGD</td><td>매 걸음 케일리 변환으로 만든 작은 회전을 곱하는 경사하강</td><td><a href="#m4">4</a></td></tr><tr><td>직통 추정기 (STE)</td><td>반올림을 역전파에서 항등 함수인 척해 기울기를 통과시키는 요령</td><td><a href="#m5">5</a></td></tr><tr><td>W4A8</td><td>가중치 4비트, 활성 8비트. 온라인 하다마드 없이 병합 회전만으로 충분한 설정</td><td><a href="#m7">7</a></td></tr><tr><td>QAT + LoRA</td><td>양자화를 넣고 저랭크 어댑터로 다시 훈련하는 방법. 훈련 데이터가 필요하다</td><td><a href="#m7">7</a></td></tr></tbody></table></div>
+<p class="back">다음은 <a href="https://claude.ai/artifact/BMcnWtciDFgm7SwSJhtLUR">7강 — 좋은 회전이란 무엇인가</a>. 학습 무용론과 유용론, 그리고 여섯 갈래.</p>
+</section>
+<footer class="colophon" id="sources">
+<h2>출처</h2>
+<div class="src-g"><h3>SpinQuant</h3><p><a href="https://arxiv.org/abs/2405.16406">SpinQuant</a> · <a href="https://github.com/facebookresearch/SpinQuant">SpinQuant code</a></p></div><div class="src-g"><h3>배포</h3><p><a href="https://ai.meta.com/blog/meta-llama-quantized-lightweight-models/">Meta 블로그: 양자화된 Llama 3.2</a> · <a href="https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md">Llama 3.2 모델 카드</a></p></div><div class="src-g"><h3>곁 사료</h3><p><a href="https://arxiv.org/abs/2404.00456">QuaRot</a> · <a href="https://en.wikipedia.org/wiki/Cayley_transform">Cayley transform (Wikipedia)</a> · <a href="https://claude.ai/artifact/LszofxqonM6Mb7EtPuvd9k">본편 판서 6강</a></p></div>
+<div class="honest"><h3>정직성 주석</h3><p>인용문은 원문을 뜻으로 옮긴 것이며 축자 번역이 아니다. SpinQuant 표는 웹 요약 도구가 판마다 다르게 읽어 낸 일이 있어, 두 번 이상 같은 값이 나오거나 본문 산술과 맞는 숫자만 옮겼다. 발표 자료에 옮기기 전에 원문 PDF로 확인하길 권한다.</p><p>무작위 회전 400개의 흩어짐 그림은 조사자의 모의실험(장난감 활성, 토큰별 INT4)이고 논문 수치가 아니다. 2 × 2 행렬의 경사하강·케일리 손계산은 조사자의 예다. 다양체 그림은 도식이다.</p><p>SpinQuant가 반올림을 지나는 기울기를 정확히 어떻게 흘리는지(직통 추정기 여부)는 조사에서 확인하지 못했다; 해당 상자는 이런 학습의 일반적인 요령을 설명한 것이다. R3가 RoPE 때문에 흡수되지 않는다는 문장은 SpinQuant v1에 있고 v4에서는 줄었다. 케일리와 실베스터의 일화는 수학사 일반 서술에 기댔다. 조사일 2026년 9월 24일, 친절판 작성 10월 2일.</p></div>
+</footer>
+</div>
+</body></html>

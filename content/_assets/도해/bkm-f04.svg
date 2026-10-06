@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 304" width="600" height="304" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-ret{color:var(--ret)}.t-alarm{color:var(--alarm)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .t-l{font-size:17px; font-weight:700}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-mute{fill:var(--mute)}.dg .t-ret{fill:var(--ret)}.dg .t-alarm{fill:var(--alarm)}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln2{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-ret-a{fill:var(--ret); fill-opacity:.17}.dg .f-alarm-a{fill:var(--alarm); fill-opacity:.16}.dg .no-fill{fill:none}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="같은 세 종목, 같은 하루인데 가격가중은 +2.86%, 시가총액가중은 −4.00%, 동일가중은 +1.67%. 지수 수익률은 개별 수익률의 가중평균이고, 방식마다 다른 것은 가중치뿐이다." class="dg" height="100%" role="img" viewBox="0 0 600 304" width="100%">
+<!-- header -->
+<text class="b" x="20" y="30">하루 수익</text>
+<text class="t-ret b" x="150" y="30">가 +5%</text>
+<text class="t-alarm b" x="262" y="30">나 −10%</text>
+<text class="t-ret b" x="380" y="30">다 +10%</text>
+<text class="t-s t-ink2 end" x="590" y="30">지수 수익</text>
+<line class="grid" x1="20" x2="590" y1="44" y2="44"></line>
+<!-- row 1 price-weighted: 71.4 / 17.9 / 10.7 of 330px -->
+<text class="b" x="20" y="80">가격가중</text>
+<text class="t-xs t-mute" x="20" y="98">주가 200 : 50 : 30</text>
+<rect class="f-ret-a" height="28" width="235.7" x="150" y="66"></rect>
+<rect class="f-alarm-a" height="28" width="58.9" x="385.7" y="66"></rect>
+<rect class="f-ret-a" height="28" width="35.4" x="444.6" y="66"></rect>
+<rect class="no-fill ln2" height="28" width="330" x="150" y="66"></rect>
+<line class="ln2" x1="385.7" x2="385.7" y1="66" y2="94"></line>
+<line class="ln2" x1="444.6" x2="444.6" y1="66" y2="94"></line>
+<text class="t-xs t-num mid" x="267.9" y="85">71%</text>
+<text class="t-xs t-num mid" x="415.2" y="85">18%</text>
+<text class="t-xs t-num mid" x="462.3" y="85">11%</text>
+<text class="t-xs t-ink2 mid" x="267.9" y="112">가</text>
+<text class="t-xs t-ink2 mid" x="415.2" y="112">나</text>
+<text class="t-xs t-ink2 mid" x="462.3" y="112">다</text>
+<text class="t-l t-ret end" x="590" y="87">+2.86%</text>
+<!-- row 2 cap-weighted: 13.3 / 66.7 / 20 -->
+<text class="b" x="20" y="160">시가총액가중</text>
+<text class="t-xs t-mute" x="20" y="178">시총 2억 : 10억 : 3억</text>
+<rect class="f-ret-a" height="28" width="44" x="150" y="146"></rect>
+<rect class="f-alarm-a" height="28" width="220" x="194" y="146"></rect>
+<rect class="f-ret-a" height="28" width="66" x="414" y="146"></rect>
+<rect class="no-fill ln2" height="28" width="330" x="150" y="146"></rect>
+<line class="ln2" x1="194" x2="194" y1="146" y2="174"></line>
+<line class="ln2" x1="414" x2="414" y1="146" y2="174"></line>
+<text class="t-xs t-num mid" x="172" y="165">13%</text>
+<text class="t-xs t-num mid" x="304" y="165">67%</text>
+<text class="t-xs t-num mid" x="447" y="165">20%</text>
+<text class="t-xs t-ink2 mid" x="172" y="192">가</text>
+<text class="t-xs t-ink2 mid" x="304" y="192">나</text>
+<text class="t-xs t-ink2 mid" x="447" y="192">다</text>
+<text class="t-l t-alarm end" x="590" y="167">−4.00%</text>
+<!-- row 3 equal -->
+<text class="b" x="20" y="240">동일가중</text>
+<text class="t-xs t-mute" x="20" y="258">1 : 1 : 1</text>
+<rect class="f-ret-a" height="28" width="110" x="150" y="226"></rect>
+<rect class="f-alarm-a" height="28" width="110" x="260" y="226"></rect>
+<rect class="f-ret-a" height="28" width="110" x="370" y="226"></rect>
+<rect class="no-fill ln2" height="28" width="330" x="150" y="226"></rect>
+<line class="ln2" x1="260" x2="260" y1="226" y2="254"></line>
+<line class="ln2" x1="370" x2="370" y1="226" y2="254"></line>
+<text class="t-xs t-num mid" x="205" y="245">33%</text>
+<text class="t-xs t-num mid" x="315" y="245">33%</text>
+<text class="t-xs t-num mid" x="425" y="245">33%</text>
+<text class="t-xs t-ink2 mid" x="205" y="272">가</text>
+<text class="t-xs t-ink2 mid" x="315" y="272">나</text>
+<text class="t-xs t-ink2 mid" x="425" y="272">다</text>
+<text class="t-l t-ret end" x="590" y="247">+1.67%</text>
+<text class="t-xs t-ink2" x="20" y="296">막대의 길이 = 그 종목의 무게. 지수 수익 = Σ 무게 × 하루 수익</text>
+</svg></svg>

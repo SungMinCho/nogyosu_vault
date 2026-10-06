@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 262" width="760" height="262" class="fig-scroll fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --ground:#E5E6E1; --panel:#F0F1EC; --ink:#1B1D21; --mute:#5B5F63; --rule:#C3C6C0;
+  --sub:#1D4F93; --sym:#855D00; --jou:#AE2E1C;
+  --sub-t:rgba(29,79,147,.12); --sym-t:rgba(201,150,20,.22); --jou-t:rgba(174,46,28,.12);
+  --flb:#1F4F96; --fly:#E3B021; --flr:#C0301F;
+  --f-body:"Spectral","Nanum Myeongjo","Noto Serif CJK KR","Noto Serif KR","AppleMyungjo",serif;
+  --f-disp:"Hahmlet","Nanum Myeongjo","Noto Serif CJK KR",serif;
+  --f-label:"Nanum Gothic","Noto Sans CJK KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Courier Prime","Nanum Gothic Coding","Noto Sans Mono CJK KR",monospace;
+  --f-lat:"Spectral","Nanum Myeongjo",serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ground:#121417; --panel:#1B1E22; --ink:#E6E4DE; --mute:#A2A6A9; --rule:#353A40;
+    --sub:#86AEEA; --sym:#DDB14C; --jou:#EE7B64;
+    --sub-t:rgba(134,174,234,.16); --sym-t:rgba(221,177,76,.18); --jou-t:rgba(238,123,100,.16);
+    --flb:#2A5AA0; --fly:#C99A1B; --flr:#B0342A;
+  }}:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ground:#121417; --panel:#1B1E22; --ink:#E6E4DE; --mute:#A2A6A9; --rule:#353A40;
+  --sub:#86AEEA; --sym:#DDB14C; --jou:#EE7B64;
+  --sub-t:rgba(134,174,234,.16); --sym-t:rgba(221,177,76,.18); --jou-t:rgba(238,123,100,.16);
+  --flb:#2A5AA0; --fly:#C99A1B; --flr:#B0342A;
+}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:2.2rem 4rem; }.lecture{ display:contents; }.flag svg{ display:block; width:100%; height:auto; }.fig{ margin-block:.6rem; display:grid; gap:.5rem; }.fig-scroll{ overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background:
+  linear-gradient(90deg,var(--panel) 30%,transparent) left/2.2rem 100% no-repeat local,
+  linear-gradient(270deg,var(--panel) 30%,transparent) right/2.2rem 100% no-repeat local,
+  radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.18),transparent) left/.8rem 100% no-repeat scroll,
+  radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.18),transparent) right/.8rem 100% no-repeat scroll, var(--panel);
+  padding:.6rem .4rem; }.fig svg{ display:block; width:100%; height:auto; min-width:640px; }svg text{ fill:var(--ink); font-family:var(--f-label); }.t-sm{ font-size:12px; }.t-md{ font-size:13.5px; }.t-b{ font-weight:700; }.t-mute{ fill:var(--mute); }.t-sym{ fill:var(--sym); }.t-jou{ fill:var(--jou); }.f-ink{ fill:var(--ink); }.f-mute{ fill:var(--mute); }.f-panel{ fill:var(--panel); }.f-none{ fill:none; }.f-jou{ fill:var(--jou); }.f-symt{ fill:var(--sym-t); }.s-ink{ stroke:var(--ink); }.s-mute{ stroke:var(--mute); }.fig-scroll .f-panel{ fill:var(--ground); }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:transparent"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="왼쪽 부정판단: 사멸할 수 있는 것이라는 유 안에서 영혼을 불멸하는 것 쪽 칸에 놓는다. 오른쪽 무한판단: 영혼을 사멸하는 것들의 원 밖으로 빼낼 뿐, 경계 없는 나머지 영역 어디에도 놓지 않는다." data-fig="f08" height="100%" role="img" style="--fw:760" viewBox="0 0 760 262" width="100%"><defs><marker id="f08-a-ink" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker></defs><text class="t-md t-b" text-anchor="start" x="20" y="26">부정판단 — 영혼은 사멸하지 않는다</text><rect class="f-none s-mute" height="160" stroke-width="1.3" width="300" x="40" y="60"></rect><rect class="f-symt" height="160" width="150" x="190" y="60"></rect><line class="s-mute" stroke-width="1.2" x1="190" x2="190" y1="60" y2="220"></line><text class="t-sm t-mute" text-anchor="start" x="50" y="80">유(類): 사멸할 수 있는 것</text><text class="t-sm" text-anchor="middle" x="115" y="204">사멸하는 것</text><text class="t-sm t-sym t-b" text-anchor="middle" x="265" y="204">불멸하는 것</text><circle class="f-jou" cx="265" cy="138" r="8"></circle><text class="t-sm t-b" text-anchor="middle" x="265" y="164">영혼</text><text class="t-sm t-mute" text-anchor="start" x="40" y="248">긍정적 자리를 하나 준다</text><text class="t-md t-b" text-anchor="start" x="400" y="26">무한판단 — 영혼은 비사멸적이다</text><circle class="f-panel s-mute" cx="490" cy="140" r="62" stroke-width="1.3"></circle><text class="t-sm" text-anchor="middle" x="490" y="144">사멸하는 것</text><circle class="f-mute" cx="590" cy="80" opacity=".6" r="2"></circle><circle class="f-mute" cx="640" cy="190" opacity=".6" r="2"></circle><circle class="f-mute" cx="700" cy="100" opacity=".6" r="2"></circle><circle class="f-mute" cx="720" cy="170" opacity=".6" r="2"></circle><circle class="f-mute" cx="610" cy="225" opacity=".6" r="2"></circle><circle class="f-mute" cx="690" cy="60" opacity=".6" r="2"></circle><circle class="f-mute" cx="735" cy="215" opacity=".6" r="2"></circle><line class="s-ink" marker-end="url(#f08-a-ink)" stroke-width="1.4" x1="540" x2="630" y1="132" y2="116"></line><text class="t-sm" text-anchor="middle" x="578" y="108">빼낼 뿐</text><circle class="f-jou" cx="648" cy="120" r="8"></circle><text class="t-sm t-b" text-anchor="middle" x="648" y="146">영혼 = ?</text><text class="t-sm t-jou" text-anchor="middle" x="648" y="164">언데드 · 사물</text><text class="t-sm t-mute" text-anchor="start" x="400" y="248">어디에 놓는지는 말하지 않는다 — 경계 없는 나머지</text></svg></svg>

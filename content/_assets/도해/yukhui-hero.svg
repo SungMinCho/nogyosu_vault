@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 300" width="900" height="300" class="masthead doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  --bg:#EDE7DA; --panel:#F6F2E8; --ink:#241E17; --dim:#6B6152; --rule:#CCC2AC;
+  --sea:#1B5064; --chaff:#96660C; --fire:#A2432A; --ground:#476844;
+  --disp:"Kirang Haerang","Song Myung","Nanum Myeongjo","Apple SD Gothic Neo",serif;
+  --body:"Cardo","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Anonymous Pro",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#15120F; --panel:#1E1A15; --ink:#EAE3D3; --dim:#9C927F; --rule:#3B352C;
+  --sea:#63B2C6; --chaff:#D5A03E; --fire:#DE7A57; --ground:#86AC82;
+}}:root[data-theme="dark"]{
+  --bg:#15120F; --panel:#1E1A15; --ink:#EAE3D3; --dim:#9C927F; --rule:#3B352C;
+  --sea:#63B2C6; --chaff:#D5A03E; --fire:#DE7A57; --ground:#86AC82;
+}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;
+  padding-inline:var(--pad);padding-block:0 4rem}.doc > figure, .lecture > figure, .doc > .band, .lecture > .band,
+.doc > .cards, .lecture > .cards, .doc > .tw, .lecture > .tw,
+.doc > .masthead, .doc > .toc, .doc > .colophon{max-width:var(--wide)}.masthead{margin-top:1.4rem;border-top:3px solid var(--ink);border-bottom:1px solid var(--rule);
+  padding-block:1.1rem 1.3rem}.hero-svg{width:100%;height:auto;max-width:100%;display:block;margin:.4rem 0 .2rem}.hero-svg .sea-g path{fill:none;stroke:var(--sea);stroke-width:1.6;opacity:.75}.hero-svg .chaff-g circle{fill:var(--chaff);opacity:.85}.hero-svg .oar path{fill:none;stroke:var(--ink);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.hero-svg .oar circle{fill:var(--ink)}.hero-svg .mid{stroke:var(--rule);stroke-width:1;stroke-dasharray:3 5}.hero-svg .lab{font-family:var(--mono);font-size:12px;fill:var(--dim)}.hero-svg .sea-t{fill:var(--sea)}.hero-svg .chaff-t{fill:var(--chaff)}.hero-svg .mid-t{fill:var(--dim)}@media (max-width:40em){.hero-svg .lab{display:none}}.frame svg{display:block;width:100%;min-width:480px;height:auto;color:var(--ink)}svg .ln[marker-end],svg path.ln{fill:none}svg .fire-s circle{fill:var(--fire)}svg .sea-t{fill:var(--sea)}svg .chaff-t{fill:var(--chaff)}svg marker#ar path{fill:currentColor;stroke:none}svg marker#arC path{fill:var(--chaff);stroke:none}svg marker#arF path{fill:var(--fire);stroke:none}svg marker#arS path{fill:var(--sea);stroke:none}svg text{dominant-baseline:auto}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="같은 노 한 자루가 왼쪽 바다 위에서는 노이고 오른쪽 타작마당 위에서는 키다" class="hero-svg" height="100%" role="img" viewBox="0 0 900 300" width="100%">
+<g class="sea-g">
+<path d="M20 200 q22 -12 44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0"></path>
+<path d="M20 228 q22 -12 44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0"></path>
+<path d="M20 256 q22 -12 44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0"></path>
+</g>
+<g class="chaff-g">
+<circle cx="560" cy="196" r="3"></circle><circle cx="596" cy="176" r="2.5"></circle><circle cx="628" cy="205" r="3"></circle>
+<circle cx="664" cy="168" r="2.5"></circle><circle cx="700" cy="199" r="3"></circle><circle cx="736" cy="180" r="2.5"></circle>
+<circle cx="772" cy="210" r="3"></circle><circle cx="808" cy="172" r="2.5"></circle><circle cx="844" cy="202" r="3"></circle>
+<circle cx="580" cy="236" r="2.5"></circle><circle cx="624" cy="248" r="3"></circle><circle cx="672" cy="232" r="2.5"></circle>
+<circle cx="716" cy="252" r="3"></circle><circle cx="760" cy="236" r="2.5"></circle><circle cx="804" cy="250" r="3"></circle>
+<circle cx="848" cy="234" r="2.5"></circle><circle cx="540" cy="224" r="2.5"></circle><circle cx="866" cy="188" r="2.5"></circle>
+</g>
+<line class="mid" x1="450" x2="450" y1="120" y2="290"></line>
+<g class="oar">
+<path d="M120 140 L640 120"></path>
+<path d="M640 120 q46 -20 74 4 q-34 26 -74 8 z"></path>
+<circle cx="126" cy="140" r="5"></circle>
+</g>
+<text class="lab sea-t" x="120" y="112">바다 — ἐρετμόν</text>
+<text class="lab sea-t" x="120" y="96">노</text>
+<text class="lab chaff-t" text-anchor="end" x="714" y="92">키 — ἀθηρηλοιγόν</text>
+<text class="lab chaff-t" text-anchor="end" x="714" y="76">겨를 파멸시키는 것</text>
+<text class="lab mid-t" text-anchor="middle" x="450" y="284">바탕이 바뀐다</text>
+</svg></svg>

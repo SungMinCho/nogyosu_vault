@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 392" width="600" height="392" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-ret{color:var(--ret)}.t-alarm{color:var(--alarm)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-ret{fill:var(--ret)}.dg .t-alarm{fill:var(--alarm)}.dg .halo{paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln{stroke:var(--ink); stroke-width:1.5; fill:none}.dg .ln-mute{stroke:var(--mute); stroke-width:1.1; fill:none}.dg .ln-ret{stroke:var(--ret); stroke-width:2.2; fill:none}.dg .ln-alarm{stroke:var(--alarm); stroke-width:2.2; fill:none}.dg .thin{stroke-width:1}.dg .dash{stroke-dasharray:6 4}.dg .dot{stroke-dasharray:1.6 3.6; stroke-linecap:round}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-ink{fill:var(--ink)}.dg .f-ret{fill:var(--ret)}.dg .f-alarm{fill:var(--alarm)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="할인율 10%에서 재투자율 b에 따른 P/E. ROE 15%면 b를 올릴수록 P/E가 치솟아 b가 3분의 2에서 g가 k에 닿아 발산하고, ROE 10%면 b와 무관하게 10, ROE 8%면 b를 올릴수록 내려간다." class="dg" height="100%" role="img" viewBox="0 0 600 392" width="100%">
+<!-- 축과 격자 -->
+<line class="grid" x1="80" x2="560" y1="268.6" y2="268.6"></line>
+<line class="grid" x1="80" x2="560" y1="197.1" y2="197.1"></line>
+<line class="grid" x1="80" x2="560" y1="125.7" y2="125.7"></line>
+<line class="grid" x1="80" x2="560" y1="54.3" y2="54.3"></line>
+<line class="ax" x1="80" x2="568" y1="340" y2="340"></line>
+<line class="ax" x1="80" x2="80" y1="30" y2="340"></line>
+<text class="end t-num t-ink2" x="72" y="345">0</text>
+<text class="end t-num t-ink2" x="72" y="273">10</text>
+<text class="end t-num t-ink2" x="72" y="202">20</text>
+<text class="end t-num t-ink2" x="72" y="131">30</text>
+<text class="end t-num t-ink2" x="72" y="59">40</text>
+<text class="t-s t-ink2" x="40" y="26">P/E</text>
+<!-- x 눈금 -->
+<text class="mid t-num t-ink2" x="80" y="362">0</text>
+<text class="mid t-num t-ink2" x="217" y="362">0.2</text>
+<text class="mid t-num t-ink2" x="354" y="362">0.4</text>
+<text class="mid t-num t-ink2" x="491" y="362">0.6</text>
+<line class="ax" x1="217" x2="217" y1="340" y2="346"></line>
+<line class="ax" x1="354" x2="354" y1="340" y2="346"></line>
+<line class="ax" x1="491" x2="491" y1="340" y2="346"></line>
+<text class="end t-s t-ink2" x="568" y="384">재투자율 b</text>
+<!-- g = k 점근선 (ROE 15%) -->
+<line class="ln-alarm thin dash" x1="537.1" x2="537.1" y1="30" y2="340"></line>
+<text class="t-xs t-alarm" x="544" y="96">g = k</text>
+<text class="t-xs t-alarm" x="544" y="112">b = 2/3</text>
+<!-- 곡선 -->
+<path class="ln-ret" d="M80.0,268.6 L88.6,268.1 L97.3,267.6 L105.9,267.1 L114.5,266.6 L123.1,266.1 L131.8,265.5 L140.4,264.9 L149.0,264.3 L157.6,263.7 L166.3,263.0 L174.9,262.3 L183.5,261.6 L192.1,260.8 L200.8,260.0 L209.4,259.2 L218.0,258.3 L226.6,257.3 L235.3,256.3 L243.9,255.3 L252.5,254.1 L261.1,252.9 L269.8,251.7 L278.4,250.3 L287.0,248.9 L295.6,247.3 L304.3,245.6 L312.9,243.8 L321.5,241.9 L330.1,239.8 L338.8,237.5 L347.4,235.0 L356.0,232.3 L364.6,229.3 L373.3,226.0 L381.9,222.3 L390.5,218.2 L399.1,213.5 L407.8,208.3 L416.4,202.2 L425.0,195.3 L433.6,187.2 L442.3,177.7 L450.9,166.2 L459.5,152.2 L468.1,134.6 L476.8,112.1 L485.4,82.1 L494.0,40.0"></path>
+<path class="ln" d="M80.0,268.6 L560.0,268.6"></path>
+<path class="ln-alarm" d="M80.0,268.6 L100.0,269.0 L120.0,269.4 L140.0,269.9 L160.0,270.4 L180.0,270.9 L200.0,271.5 L220.0,272.1 L240.0,272.7 L260.0,273.3 L280.0,274.0 L300.0,274.7 L320.0,275.5 L340.0,276.3 L360.0,277.2 L380.0,278.2 L400.0,279.2 L420.0,280.3 L440.0,281.5 L460.0,282.8 L480.0,284.2 L500.0,285.7 L520.0,287.4 L540.0,289.3 L560.0,291.3"></path>
+<!-- b = 0.6 의 세 점 -->
+<line class="ln-mute dot" x1="491.4" x2="491.4" y1="54.3" y2="340"></line>
+<circle class="f-ret" cx="491.4" cy="54.3" r="4.5"></circle>
+<circle class="f-ink" cx="491.4" cy="268.6" r="4.5"></circle>
+<circle class="f-alarm" cx="491.4" cy="285.1" r="4.5"></circle>
+<text class="end t-num t-ret halo" x="482" y="50">40</text>
+<!-- 이름표 -->
+<text class="end t-s b t-ret halo" x="300" y="228">ROE 15% &gt; k</text>
+<text class="t-s b halo" x="345" y="262">ROE 10% = k</text>
+<text class="t-s b t-alarm halo" x="300" y="304">ROE 8% &lt; k</text>
+<text class="t-xs t-ink2" x="96" y="58">k = 10%</text>
+</svg></svg>

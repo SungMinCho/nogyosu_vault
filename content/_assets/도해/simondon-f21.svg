@@ -1,0 +1,274 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 450" width="760" height="450" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#E6ECE9; --panel:#F2F5F3; --ink:#172120; --ink-2:#4A5755; --rule:#B6C3BF;
+  --liq:#1B6971; --liq-soft:#CFE0DE; --liq-dot:#7FA9AB;
+  --cry:#866207; --cry-soft:#EAD9A0; --cry-deep:#C9A43C;
+  --inf:#5B3D8F; --inf-soft:#DCD3EA;
+  --brk:#983B20; --brk-soft:#EFD5CB;
+  --shade:#0E1514; --on-shade:#E6ECE9;
+  --f-display:"Hahmlet","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Gowun Batang","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-latin:"Old Standard TT","Gowun Batang","Noto Serif CJK KR",serif;
+  --f-mono:"Cutive Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR","Courier New",monospace;
+  --pad:1.05rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem }.lecture{ display:contents }.hero-fig svg{ width:100%; height:auto; display:block }figure.fig{ margin:.4rem 0 .6rem }.fig-frame{ overflow-x:auto; overflow-y:hidden; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background:
+  linear-gradient(to right,var(--paper),var(--paper)) left/1.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--paper),var(--paper)) right/1.2rem 100% no-repeat local,
+  linear-gradient(to right,rgba(0,0,0,.18),rgba(0,0,0,0)) left/.7rem 100% no-repeat scroll,
+  linear-gradient(to left,rgba(0,0,0,.18),rgba(0,0,0,0)) right/.7rem 100% no-repeat scroll;
+  background-color:var(--paper) }.fig-frame svg{ display:block; width:100%; min-width:560px; height:auto }.fig svg text, .hero-fig text{ font-family:var(--f-body); fill:var(--ink) }.t{ font-size:13px }.t-s{ font-size:11px }.t-num{ font-family:var(--f-latin) !important; font-variant-numeric:tabular-nums }.t-b{ font-weight:700 }.t-mute{ fill:var(--ink-2) !important }.t-liq{ fill:var(--liq) !important }.t-cry{ fill:var(--cry) !important }.f-none{ fill:none }.f-ink{ fill:var(--ink) }.f-mute{ fill:var(--ink-2) }.f-liq{ fill:var(--liq) }.f-liq-soft{ fill:var(--liq-soft) }.f-liq-dot{ fill:var(--liq-dot) }.f-cry{ fill:var(--cry) }.f-cry-soft{ fill:var(--cry-soft) }.s-ink{ stroke:var(--ink) }.s-mute{ stroke:var(--ink-2) }.s-rule{ stroke:var(--rule) }.s-liq{ stroke:var(--liq) }.s-cry{ stroke:var(--cry) }.w05{ stroke-width:.6 }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w3{ stroke-width:3 }.dot{ stroke-dasharray:1.5 3.5; stroke-linecap:round }.round{ stroke-linecap:round; stroke-linejoin:round }.op5{ opacity:.5 }.op7{ opacity:.72 }.hero-fig .band:hover polygon, .hero-fig .band:focus polygon{ fill:var(--inf-soft) }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="위 세 칸: (a) 응집은 자루 속 구슬, 닿기만 하고 나누지 않으며 이해하려면 쌍방 끈을 다 따라가야 한다(1,000명이면 499,500가닥). (b) 분업은 맞물린 퍼즐 조각, 꿀벌 카스트처럼 제자리에 갇힌다. (c) 겹침은 반투명 원판 셋, 단단한 핵은 겹치지 않고 모액의 후광끼리 겹친 곳에만 공통 렌즈, 집단 인격 하나가 생긴다. 아래: 존재의 세 위상. 무정형의 아페이론, 결정 하나와 그 속의 모액 방울(개체와 환경), 여러 결정 속 모액 방울끼리 이어진 새 격자(집단, 종합이 아님)." height="100%" role="img" viewBox="0 0 760 450" width="100%">
+<defs>
+<marker id="f21-ar-ink" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<text class="t t-b" x="20" y="24">(a) 응집</text>
+<text class="t t-b" x="265" y="24">(b) 분업</text>
+<text class="t t-b" x="510" y="24">(c) 겹침</text>
+<line class="s-rule w1 dot" x1="255" x2="255" y1="12" y2="214"></line>
+<line class="s-rule w1 dot" x1="500" x2="500" y1="12" y2="214"></line>
+<path class="f-none s-ink w15 round" d="M121,54 C100,62 52,82 50,124 C48,162 88,178 135,178 C182,178 222,162 220,124 C218,82 170,62 149,54"></path>
+<path class="f-none s-ink w1 round" d="M121,54 C117,46 111,40 104,35 M128,54 C127,46 125,40 123,34 M142,54 C143,46 145,40 147,34 M149,54 C153,46 159,40 166,35"></path>
+<line class="s-ink w3 round" x1="116" x2="154" y1="55" y2="55"></line>
+<circle class="f-cry-soft s-cry w15" cx="100" cy="104" r="16"></circle>
+<circle class="f-cry-soft s-cry w15" cx="134" cy="98" r="16"></circle>
+<circle class="f-cry-soft s-cry w15" cx="168" cy="104" r="16"></circle>
+<circle class="f-cry-soft s-cry w15" cx="92" cy="138" r="16"></circle>
+<circle class="f-cry-soft s-cry w15" cx="126" cy="136" r="16"></circle>
+<circle class="f-cry-soft s-cry w15" cx="160" cy="138" r="16"></circle>
+<line class="s-mute w05" x1="100" x2="134" y1="104" y2="98"></line>
+<line class="s-mute w05" x1="100" x2="168" y1="104" y2="104"></line>
+<line class="s-mute w05" x1="100" x2="92" y1="104" y2="138"></line>
+<line class="s-mute w05" x1="100" x2="126" y1="104" y2="136"></line>
+<line class="s-mute w05" x1="100" x2="160" y1="104" y2="138"></line>
+<line class="s-mute w05" x1="134" x2="168" y1="98" y2="104"></line>
+<line class="s-mute w05" x1="134" x2="92" y1="98" y2="138"></line>
+<line class="s-mute w05" x1="134" x2="126" y1="98" y2="136"></line>
+<line class="s-mute w05" x1="134" x2="160" y1="98" y2="138"></line>
+<line class="s-mute w05" x1="168" x2="92" y1="104" y2="138"></line>
+<line class="s-mute w05" x1="168" x2="126" y1="104" y2="136"></line>
+<line class="s-mute w05" x1="168" x2="160" y1="104" y2="138"></line>
+<line class="s-mute w05" x1="92" x2="126" y1="138" y2="136"></line>
+<line class="s-mute w05" x1="92" x2="160" y1="138" y2="138"></line>
+<line class="s-mute w05" x1="126" x2="160" y1="136" y2="138"></line>
+<circle class="f-mute" cx="100" cy="104" r="2"></circle>
+<circle class="f-mute" cx="134" cy="98" r="2"></circle>
+<circle class="f-mute" cx="168" cy="104" r="2"></circle>
+<circle class="f-mute" cx="92" cy="138" r="2"></circle>
+<circle class="f-mute" cx="126" cy="136" r="2"></circle>
+<circle class="f-mute" cx="160" cy="138" r="2"></circle>
+<text class="t-s t-mute" text-anchor="middle" x="135" y="190">닿기만 할 뿐 아무것도 나누지 않음</text>
+<text class="t-s t-num" text-anchor="middle" x="135" y="206">따라갈 끈: 6개면 15 · 1,000명이면 499,500가닥</text>
+<rect class="f-cry-soft s-cry w15" height="120" width="160" x="300" y="46"></rect>
+<path class="f-none s-cry w15" d="M380,46 L380,67 A10,10 0 1 1 380,85 L380,127 A10,10 0 1 0 380,145 L380,166"></path>
+<path class="f-none s-cry w15" d="M300,106 L331,106 A10,10 0 1 0 349,106 L411,106 A10,10 0 1 1 429,106 L460,106"></path>
+<text class="t-s" text-anchor="middle" x="338" y="81">여왕</text>
+<text class="t-s" text-anchor="middle" x="422" y="81">수벌</text>
+<text class="t-s" text-anchor="middle" x="334" y="146">일벌·돌봄</text>
+<text class="t-s" text-anchor="middle" x="424" y="146">일벌·채집</text>
+<text class="t-s t-mute" text-anchor="middle" x="380" y="190">맞물리되 제자리에 갇힘</text>
+<text class="t-s t-mute" text-anchor="middle" x="380" y="206">꿀벌 카스트 — 홀로는 불완전</text>
+<circle class="f-liq-soft op7 s-liq w05" cx="622" cy="72" r="52"></circle>
+<circle class="f-liq-soft op7 s-liq w05" cx="653.2" cy="126" r="52"></circle>
+<circle class="f-liq-soft op7 s-liq w05" cx="590.8" cy="126" r="52"></circle>
+<path class="f-cry s-cry w1" d="M601.5,119.8 A52,52 0 0 1 622,84.4 A52,52 0 0 1 642.5,119.8 A52,52 0 0 1 601.5,119.8 Z"></path>
+<circle class="f-cry-soft s-cry w15" cx="622" cy="72" r="16"></circle>
+<circle class="f-cry-soft s-cry w15" cx="653.2" cy="126" r="16"></circle>
+<circle class="f-cry-soft s-cry w15" cx="590.8" cy="126" r="16"></circle>
+<text class="t-s" text-anchor="middle" x="622" y="76">개체</text>
+<text class="t-s" text-anchor="middle" x="653.2" y="130">개체</text>
+<text class="t-s" text-anchor="middle" x="590.8" y="130">개체</text>
+<text class="t-s t-liq" x="535" y="56">후광 = 모액</text>
+<line class="s-cry w1" x1="626" x2="700" y1="110" y2="62"></line>
+<text class="t-s t-cry t-b" text-anchor="middle" x="704" y="52">집단 인격</text>
+<text class="t-s t-mute" text-anchor="middle" x="620" y="190">후광끼리 겹친 자리에만 공통 렌즈</text>
+<text class="t-s t-num t-cry" text-anchor="middle" x="620" y="206">1,000명 → 집단 인격 1 (겹침 1,000)</text>
+<line class="s-rule w1 dot" x1="20" x2="740" y1="222" y2="222"></line>
+<text class="t t-b" x="20" y="246">존재의 세 위상</text>
+<rect class="f-liq-soft" height="130" rx="10" width="190" x="30" y="262"></rect>
+<circle class="f-liq-dot" cx="94.3" cy="287.2" r="2"></circle>
+<circle class="f-liq-dot" cx="151.3" cy="278.3" r="2"></circle>
+<circle class="f-liq-dot" cx="131.2" cy="311.7" r="2"></circle>
+<circle class="f-liq-dot" cx="48.1" cy="327.8" r="2"></circle>
+<circle class="f-liq-dot" cx="44.5" cy="319.4" r="2"></circle>
+<circle class="f-liq-dot" cx="50.2" cy="280.3" r="2"></circle>
+<circle class="f-liq-dot" cx="111.9" cy="364.3" r="2"></circle>
+<circle class="f-liq-dot" cx="59.5" cy="295.4" r="2"></circle>
+<circle class="f-liq-dot" cx="147.2" cy="378" r="2"></circle>
+<circle class="f-liq-dot" cx="138.4" cy="315.2" r="2"></circle>
+<circle class="f-liq-dot" cx="207.9" cy="275.3" r="2"></circle>
+<circle class="f-liq-dot" cx="187.4" cy="303" r="2"></circle>
+<circle class="f-liq-dot" cx="63.1" cy="283.4" r="2"></circle>
+<circle class="f-liq-dot" cx="91.7" cy="363" r="2"></circle>
+<circle class="f-liq-dot" cx="69.4" cy="336.3" r="2"></circle>
+<circle class="f-liq-dot" cx="149.2" cy="312.5" r="2"></circle>
+<circle class="f-liq-dot" cx="133.3" cy="277.2" r="2"></circle>
+<circle class="f-liq-dot" cx="48.4" cy="293.5" r="2"></circle>
+<circle class="f-liq-dot" cx="156.4" cy="318.7" r="2"></circle>
+<circle class="f-liq-dot" cx="92.7" cy="336.8" r="2"></circle>
+<circle class="f-liq-dot" cx="116.9" cy="304.2" r="2"></circle>
+<circle class="f-liq-dot" cx="176.2" cy="349.7" r="2"></circle>
+<circle class="f-liq-dot" cx="80.5" cy="335.5" r="2"></circle>
+<circle class="f-liq-dot" cx="129.4" cy="369.8" r="2"></circle>
+<circle class="f-liq-dot" cx="164.9" cy="302.8" r="2"></circle>
+<circle class="f-liq-dot" cx="208.6" cy="283.5" r="2"></circle>
+<circle class="f-liq-dot" cx="110.8" cy="356.3" r="2"></circle>
+<circle class="f-liq-dot" cx="64.4" cy="325.7" r="2"></circle>
+<circle class="f-liq-dot" cx="44.8" cy="346.2" r="2"></circle>
+<circle class="f-liq-dot" cx="171" cy="335.3" r="2"></circle>
+<circle class="f-liq-dot" cx="190.3" cy="305.8" r="2"></circle>
+<circle class="f-liq-dot" cx="159" cy="337.8" r="2"></circle>
+<circle class="f-liq-dot" cx="138.9" cy="322" r="2"></circle>
+<circle class="f-liq-dot" cx="184.2" cy="377.7" r="2"></circle>
+<circle class="f-liq-dot" cx="120.5" cy="345.7" r="2"></circle>
+<circle class="f-liq-dot" cx="48.6" cy="350" r="2"></circle>
+<circle class="f-liq-dot" cx="150.6" cy="383.2" r="2"></circle>
+<circle class="f-liq-dot" cx="181" cy="302.4" r="2"></circle>
+<circle class="f-liq-dot" cx="105.1" cy="346.2" r="2"></circle>
+<circle class="f-liq-dot" cx="41.9" cy="322.6" r="2"></circle>
+<circle class="f-liq-dot" cx="67.2" cy="283.3" r="2"></circle>
+<circle class="f-liq-dot" cx="48.3" cy="357.6" r="2"></circle>
+<circle class="f-liq-dot" cx="60.5" cy="298.2" r="2"></circle>
+<circle class="f-liq-dot" cx="106" cy="369.3" r="2"></circle>
+<circle class="f-liq-dot" cx="52" cy="321.2" r="2"></circle>
+<circle class="f-liq-dot" cx="133.6" cy="370.7" r="2"></circle>
+<circle class="f-liq-dot" cx="180.6" cy="368.5" r="2"></circle>
+<circle class="f-liq-dot" cx="86.4" cy="317.3" r="2"></circle>
+<circle class="f-liq-dot" cx="100.4" cy="370.8" r="2"></circle>
+<circle class="f-liq-dot" cx="204.6" cy="287.2" r="2"></circle>
+<circle class="f-liq-dot" cx="68.7" cy="296.4" r="2"></circle>
+<circle class="f-liq-dot" cx="78.6" cy="325.3" r="2"></circle>
+<circle class="f-liq-dot" cx="140.5" cy="300" r="2"></circle>
+<circle class="f-liq-dot" cx="38.7" cy="317.8" r="2"></circle>
+<circle class="f-liq-dot" cx="102.3" cy="334.6" r="2"></circle>
+<circle class="f-liq-dot" cx="203.8" cy="348.7" r="2"></circle>
+<circle class="f-liq-dot" cx="127.7" cy="340.4" r="2"></circle>
+<circle class="f-liq-dot" cx="155.7" cy="276.2" r="2"></circle>
+<circle class="f-liq-dot" cx="194.5" cy="358.9" r="2"></circle>
+<circle class="f-liq-dot" cx="190.2" cy="361" r="2"></circle>
+<circle class="f-liq-dot" cx="106.3" cy="315.5" r="2"></circle>
+<circle class="f-liq-dot" cx="56" cy="342.3" r="2"></circle>
+<circle class="f-liq-dot" cx="48.8" cy="277.7" r="2"></circle>
+<circle class="f-liq-dot" cx="74.3" cy="288.5" r="2"></circle>
+<circle class="f-liq-dot" cx="97.2" cy="276" r="2"></circle>
+<circle class="f-liq-dot" cx="38" cy="287.2" r="2"></circle>
+<circle class="f-liq-dot" cx="55.7" cy="311.5" r="2"></circle>
+<circle class="f-liq-dot" cx="42.4" cy="369.7" r="2"></circle>
+<circle class="f-liq-dot" cx="144.8" cy="286.9" r="2"></circle>
+<circle class="f-liq-dot" cx="81.9" cy="309.6" r="2"></circle>
+<text class="t t-b t-liq" text-anchor="middle" x="125" y="412">① 아페이론 · 자연</text>
+<text class="t-s t-mute" text-anchor="middle" x="125" y="428">무늬 없는 무정형의 바다</text>
+<rect class="f-liq-soft" height="130" rx="10" width="190" x="270" y="262"></rect>
+<circle class="f-liq-dot op5" cx="425.7" cy="383.2" r="2"></circle>
+<circle class="f-liq-dot op5" cx="292.9" cy="281.6" r="2"></circle>
+<circle class="f-liq-dot op5" cx="422.2" cy="288.4" r="2"></circle>
+<circle class="f-liq-dot op5" cx="282" cy="378.4" r="2"></circle>
+<circle class="f-liq-dot op5" cx="372.5" cy="273.1" r="2"></circle>
+<circle class="f-liq-dot op5" cx="369.9" cy="381.5" r="2"></circle>
+<circle class="f-liq-dot op5" cx="428.2" cy="349.4" r="2"></circle>
+<circle class="f-liq-dot op5" cx="307.1" cy="358" r="2"></circle>
+<circle class="f-liq-dot op5" cx="419.2" cy="382.3" r="2"></circle>
+<circle class="f-liq-dot op5" cx="426.4" cy="361.9" r="2"></circle>
+<circle class="f-liq-dot op5" cx="420.4" cy="354.3" r="2"></circle>
+<circle class="f-liq-dot op5" cx="339.9" cy="273.3" r="2"></circle>
+<circle class="f-liq-dot op5" cx="282.9" cy="301.9" r="2"></circle>
+<circle class="f-liq-dot op5" cx="444.4" cy="321" r="2"></circle>
+<circle class="f-liq-dot op5" cx="441" cy="382.6" r="2"></circle>
+<circle class="f-liq-dot op5" cx="444.2" cy="311.6" r="2"></circle>
+<circle class="f-liq-dot op5" cx="316.4" cy="295.9" r="2"></circle>
+<circle class="f-liq-dot op5" cx="312.2" cy="293.3" r="2"></circle>
+<circle class="f-liq-dot op5" cx="386.6" cy="372.6" r="2"></circle>
+<circle class="f-liq-dot op5" cx="424.2" cy="324.7" r="2"></circle>
+<circle class="f-liq-dot op5" cx="292.8" cy="345.3" r="2"></circle>
+<circle class="f-liq-dot op5" cx="436.3" cy="359.2" r="2"></circle>
+<circle class="f-liq-dot op5" cx="309.1" cy="360" r="2"></circle>
+<circle class="f-liq-dot op5" cx="447.1" cy="315.1" r="2"></circle>
+<circle class="f-liq-dot op5" cx="347.8" cy="377.9" r="2"></circle>
+<circle class="f-liq-dot op5" cx="404.1" cy="289.4" r="2"></circle>
+<circle class="f-liq-dot op5" cx="300.1" cy="287.2" r="2"></circle>
+<circle class="f-liq-dot op5" cx="435.4" cy="361.9" r="2"></circle>
+<circle class="f-liq-dot op5" cx="303.4" cy="364.2" r="2"></circle>
+<circle class="f-liq-dot op5" cx="448.6" cy="344.9" r="2"></circle>
+<circle class="f-liq-dot op5" cx="300.8" cy="271.6" r="2"></circle>
+<circle class="f-liq-dot op5" cx="446.9" cy="344.1" r="2"></circle>
+<circle class="f-liq-dot op5" cx="421.8" cy="294.1" r="2"></circle>
+<circle class="f-liq-dot op5" cx="300.8" cy="373.7" r="2"></circle>
+<circle class="f-liq-dot op5" cx="369.1" cy="272.1" r="2"></circle>
+<circle class="f-liq-dot op5" cx="278.7" cy="361.1" r="2"></circle>
+<circle class="f-liq-dot op5" cx="308" cy="324" r="2"></circle>
+<circle class="f-liq-dot op5" cx="296.5" cy="333.9" r="2"></circle>
+<circle class="f-liq-dot op5" cx="321.2" cy="301.6" r="2"></circle>
+<circle class="f-liq-dot op5" cx="436.8" cy="320.5" r="2"></circle>
+<polygon class="f-cry-soft s-cry w15" points="405,327 385,361.6 345,361.6 325,327 345,292.4 385,292.4"></polygon>
+<circle class="f-liq" cx="351" cy="317" r="3.2"></circle>
+<circle class="f-liq" cx="375" cy="311" r="3.2"></circle>
+<circle class="f-liq" cx="361" cy="339" r="3.2"></circle>
+<circle class="f-liq" cx="381" cy="335" r="3.2"></circle>
+<text class="t t-b" text-anchor="middle" x="365" y="412">② 개체 + 환경</text>
+<text class="t-s t-mute" text-anchor="middle" x="365" y="428">결정 속에도 모액 방울, 둘레엔 묽은 용액</text>
+<rect class="f-liq-soft" height="130" rx="10" width="230" x="510" y="262"></rect>
+<circle class="f-liq-dot op5" cx="649.1" cy="327.6" r="2"></circle>
+<circle class="f-liq-dot op5" cx="627.6" cy="349" r="2"></circle>
+<circle class="f-liq-dot op5" cx="614.8" cy="330.8" r="2"></circle>
+<circle class="f-liq-dot op5" cx="620.3" cy="377.3" r="2"></circle>
+<circle class="f-liq-dot op5" cx="637.7" cy="377.5" r="2"></circle>
+<circle class="f-liq-dot op5" cx="697.8" cy="285.6" r="2"></circle>
+<circle class="f-liq-dot op5" cx="533.6" cy="346.3" r="2"></circle>
+<circle class="f-liq-dot op5" cx="551.1" cy="351.6" r="2"></circle>
+<circle class="f-liq-dot op5" cx="706.9" cy="380.3" r="2"></circle>
+<circle class="f-liq-dot op5" cx="565" cy="378.6" r="2"></circle>
+<circle class="f-liq-dot op5" cx="603.2" cy="325.5" r="2"></circle>
+<circle class="f-liq-dot op5" cx="729.8" cy="364.9" r="2"></circle>
+<circle class="f-liq-dot op5" cx="672.5" cy="272.2" r="2"></circle>
+<circle class="f-liq-dot op5" cx="521.9" cy="307.8" r="2"></circle>
+<circle class="f-liq-dot op5" cx="651.5" cy="328.4" r="2"></circle>
+<circle class="f-liq-dot op5" cx="531.8" cy="382.3" r="2"></circle>
+<circle class="f-liq-dot op5" cx="526.5" cy="358.8" r="2"></circle>
+<circle class="f-liq-dot op5" cx="550" cy="374.8" r="2"></circle>
+<circle class="f-liq-dot op5" cx="640.1" cy="349.8" r="2"></circle>
+<circle class="f-liq-dot op5" cx="665.3" cy="318.5" r="2"></circle>
+<circle class="f-liq-dot op5" cx="533.5" cy="377" r="2"></circle>
+<circle class="f-liq-dot op5" cx="535.9" cy="367.6" r="2"></circle>
+<circle class="f-liq-dot op5" cx="532.3" cy="368.4" r="2"></circle>
+<circle class="f-liq-dot op5" cx="636.4" cy="375.6" r="2"></circle>
+<circle class="f-liq-dot op5" cx="680.5" cy="303.1" r="2"></circle>
+<circle class="f-liq-dot op5" cx="592.3" cy="272.1" r="2"></circle>
+<polygon class="f-cry-soft s-cry w1" points="585.6,304.5 568.9,324.4 543.3,319.9 534.4,295.5 551.1,275.6 576.7,280.1"></polygon>
+<polygon class="f-cry-soft s-cry w1" points="665.4,303.8 642.4,319.9 617.1,308.1 614.6,280.2 637.6,264.1 662.9,275.9"></polygon>
+<polygon class="f-cry-soft s-cry w1" points="733.9,317.9 721.3,335.9 699.4,334 690.1,314.1 702.7,296.1 724.6,298"></polygon>
+<polygon class="f-cry-soft s-cry w1" points="608.4,373.4 585.8,381.6 567.4,366.2 571.6,342.6 594.2,334.4 612.6,349.8"></polygon>
+<polygon class="f-cry-soft s-cry w1" points="701.1,366.7 682.7,385.1 657.6,378.4 650.9,353.3 669.3,334.9 694.4,341.6"></polygon>
+<line class="s-cry w15" x1="568" x2="632" y1="294" y2="300"></line>
+<line class="s-cry w15" x1="649" x2="706" y1="288" y2="320"></line>
+<line class="s-cry w15" x1="554" x2="596" y1="306" y2="352"></line>
+<line class="s-cry w15" x1="596" x2="668" y1="352" y2="356"></line>
+<line class="s-cry w15" x1="632" x2="668" y1="300" y2="356"></line>
+<line class="s-cry w15" x1="684" x2="706" y1="368" y2="320"></line>
+<circle class="f-liq" cx="554" cy="306" r="3.2"></circle>
+<circle class="f-liq" cx="568" cy="294" r="3.2"></circle>
+<circle class="f-liq" cx="632" cy="300" r="3.2"></circle>
+<circle class="f-liq" cx="649" cy="288" r="3.2"></circle>
+<circle class="f-liq" cx="706" cy="320" r="3.2"></circle>
+<circle class="f-liq" cx="596" cy="352" r="3.2"></circle>
+<circle class="f-liq" cx="584" cy="364" r="3.2"></circle>
+<circle class="f-liq" cx="668" cy="356" r="3.2"></circle>
+<circle class="f-liq" cx="684" cy="368" r="3.2"></circle>
+<text class="t t-b t-cry" text-anchor="middle" x="625" y="412">③ 집단</text>
+<text class="t-s t-mute" text-anchor="middle" x="625" y="428">결정이 아니라 결정 속 모액 방울을 잇는 새 격자</text>
+<text class="t-s t-b" text-anchor="middle" x="625" y="444">종합이 아니다</text>
+<line class="s-ink w15" marker-end="url(#f21-ar-ink)" x1="224" x2="266" y1="327" y2="327"></line>
+<line class="s-ink w15" marker-end="url(#f21-ar-ink)" x1="464" x2="506" y1="327" y2="327"></line>
+<text class="t-s t-mute" text-anchor="middle" x="245" y="318">첫</text>
+<text class="t-s t-mute" text-anchor="middle" x="485" y="318">둘째</text>
+<text class="t-s t-mute" text-anchor="middle" x="245" y="345">개체화</text>
+<text class="t-s t-mute" text-anchor="middle" x="485" y="345">개체화</text>
+</svg></svg>

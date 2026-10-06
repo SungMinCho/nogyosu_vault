@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 380" width="600" height="380" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-mute{fill:var(--mute)}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln-mute{stroke:var(--mute); stroke-width:1.1; fill:none}.dg .ln-ret{stroke:var(--ret); stroke-width:2.2; fill:none}.dg .ln-alarm{stroke:var(--alarm); stroke-width:2.2; fill:none}.dg .thin{stroke-width:1}.dg .thick{stroke-width:3.2}.dg .dash{stroke-dasharray:6 4}.dg .dot{stroke-dasharray:1.6 3.6; stroke-linecap:round}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-ink{fill:var(--ink)}.dg .f-mute{fill:var(--mute)}.dg .f-time{fill:var(--time)}.dg .mk2{fill:var(--ink-2)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="빌릴 때 금리가 빌려줄 때보다 높으면 자본배분선이 위험자산 점에서 꺾여 기울기가 0.35에서 0.25로 떨어지고, 위험회피도 1.25에서 1.75 사이의 투자자는 모두 꺾인 점에 모인다." class="dg" height="100%" role="img" viewBox="0 0 600 380" width="100%">
+<defs><marker id="ar-f06b" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk2" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<line class="grid" x1="64" x2="560" y1="310.0" y2="310.0"></line>
+<text class="t-xs t-ink2 end t-num" x="56" y="314.5">0%</text>
+<line class="grid" x1="64" x2="560" y1="243.5" y2="243.5"></line>
+<text class="t-xs t-ink2 end t-num" x="56" y="248.0">4%</text>
+<line class="grid" x1="64" x2="560" y1="177.0" y2="177.0"></line>
+<text class="t-xs t-ink2 end t-num" x="56" y="181.5">8%</text>
+<line class="grid" x1="64" x2="560" y1="110.5" y2="110.5"></line>
+<text class="t-xs t-ink2 end t-num" x="56" y="115.0">12%</text>
+<line class="grid" x1="64" x2="560" y1="44.0" y2="44.0"></line>
+<text class="t-xs t-ink2 end t-num" x="56" y="48.5">16%</text>
+<line class="ax" x1="64.0" x2="64.0" y1="310" y2="315"></line>
+<text class="t-xs t-ink2 mid t-num" x="64.0" y="330">0%</text>
+<line class="ax" x1="219.0" x2="219.0" y1="310" y2="315"></line>
+<text class="t-xs t-ink2 mid t-num" x="219.0" y="330">10%</text>
+<line class="ax" x1="374.0" x2="374.0" y1="310" y2="315"></line>
+<text class="t-xs t-ink2 mid t-num" x="374.0" y="330">20%</text>
+<line class="ax" x1="529.0" x2="529.0" y1="310" y2="315"></line>
+<text class="t-xs t-ink2 mid t-num" x="529.0" y="330">30%</text>
+<line class="ax" x1="64" x2="560" y1="310" y2="310"></line>
+<line class="ax" x1="64" x2="64" y1="310" y2="44"></line>
+<text class="t-s end t-ink2" x="560" y="350">표준편차 σ</text>
+<text class="t-s t-ink2" x="64" y="32">기대수익률 E(r)</text>
+<line class="ln-ret thick" x1="64.0" x2="374.0" y1="260.1" y2="143.8"></line>
+<line class="ln-mute dash" x1="374.0" x2="529.0" y1="143.8" y2="85.6"></line>
+<line class="ln-alarm thick" x1="374.0" x2="529.0" y1="143.8" y2="102.2"></line>
+<line class="ln-mute thin dot" x1="64.0" x2="374.0" y1="226.9" y2="143.8"></line>
+<circle class="f-time" cx="64.0" cy="260.1" r="5"></circle>
+<circle class="f-mute" cx="64.0" cy="226.9" r="4"></circle>
+<circle class="f-ink" cx="374.0" cy="143.8" r="6"></circle>
+<text class="t-s" x="76.0" y="280.1">빌려줄 때 3%</text>
+<text class="t-xs t-ink2" x="79.5" y="183.7">빌릴 때 5% (꺾인 선의 절편)</text>
+<line class="ln-mute thin" x1="82.6" x2="69.0" y1="188.7" y2="221.9"></line>
+<text class="t-s b end" x="368.0" y="127.8">S  (y = 1)</text>
+<text class="t-s" x="222.1" y="224.3">기울기 0.35</text>
+<text class="t-xs end t-mute" x="529.0" y="73.6">3%로 빌릴 수 있다면</text>
+<text class="t-s end" x="529.0" y="140.4">기울기 0.25</text>
+<text class="t-xs t-ink2" x="149.2" y="67.3">A ≥ 1.75 : 왼쪽 마디에서 빌려줌</text>
+<text class="t-xs t-ink2" x="149.2" y="85.3">1.25 &lt; A &lt; 1.75 : 꺾인 점 S에 멈춤</text>
+<text class="t-xs t-ink2" x="149.2" y="103.3">A ≤ 1.25 : 5%로 빌려 오른쪽 마디로</text>
+</svg></svg>

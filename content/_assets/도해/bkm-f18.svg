@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 420 212" width="420" height="212" class="frame fig narrow lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-ret{color:var(--ret)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-xs{font-size:12.5px}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-mute{fill:var(--mute)}.dg .t-ret{fill:var(--ret)}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln{stroke:var(--ink); stroke-width:1.5; fill:none}.dg .ln2{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .ln-mute{stroke:var(--mute); stroke-width:1.1; fill:none}.dg .ln-ret{stroke:var(--ret); stroke-width:2.2; fill:none}.dg .thin{stroke-width:1}.dg .thick{stroke-width:3.2}.dg .dash{stroke-dasharray:6 4}.dg .dot{stroke-dasharray:1.6 3.6; stroke-linecap:round}.dg .f-ret-a{fill:var(--ret); fill-opacity:.17}.dg .mk-ret{fill:var(--ret)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="시장 샤프 비율 0.44와 정보비율 0.20을 직각의 두 변으로 하는 삼각형. 최적 포트폴리오의 샤프 비율은 빗변 0.483으로, 단순 합 0.64보다 훨씬 짧다." class="dg" height="100%" role="img" viewBox="0 0 420 212" width="100%">
+<defs><marker id="ar-f08b" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk-ret" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<path class="f-ret-a" d="M40,150 L260.0,150 L260.0,50.0 Z"></path>
+<line class="ln-mute dot" x1="260.0" x2="360.0" y1="150" y2="150"></line>
+<path class="ln-mute dash" d="M260.0,50.0 A241.66,241.66 0 0,1 281.66,150"></path>
+<line class="ln thick" x1="40" x2="260.0" y1="150" y2="150"></line>
+<line class="ln-ret thick" x1="260.0" x2="260.0" y1="150" y2="50.0"></line>
+<line class="ln-ret thick" x1="40" x2="260.0" y1="150" y2="50.0"></line>
+<path class="ln2 thin" d="M248.0,150 L248.0,138 L260.0,138"></path>
+<line class="ln2" x1="281.7" x2="281.7" y1="145" y2="155"></line>
+<line class="ln2" x1="360.0" x2="360.0" y1="145" y2="155"></line>
+<text class="mid" x="150.0" y="172">시장 샤프 비율 0.44</text>
+<text class="t-ret b" x="288.0" y="102.0">정보비율</text>
+<text class="t-num t-ret" x="288.0" y="120.0">0.20</text>
+<text class="t-ret b end" x="136.0" y="86.0">최적 샤프 0.483</text>
+<text class="t-num mid t-ret" x="281.7" y="172">0.483</text>
+<text class="t-num mid t-mute" x="360.0" y="172">0.64</text>
+<text class="t-xs end t-mute" x="360.0" y="192">단순 합 0.44 + 0.20</text>
+<text class="t-xs end t-ink2" x="242.0" y="130">직각: 잔차 ⊥ 시장</text>
+</svg></svg>

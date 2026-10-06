@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 412" width="600" height="412" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-ret{color:var(--ret)}.t-risk{color:var(--risk)}.t-alarm{color:var(--alarm)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-mute{fill:var(--mute)}.dg .t-ret{fill:var(--ret)}.dg .t-risk{fill:var(--risk)}.dg .t-alarm{fill:var(--alarm)}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln-mute{stroke:var(--mute); stroke-width:1.1; fill:none}.dg .ln-risk{stroke:var(--risk); stroke-width:2.2; fill:none}.dg .ln-alarm{stroke:var(--alarm); stroke-width:2.2; fill:none}.dg .thin{stroke-width:1}.dg .thick{stroke-width:3.2}.dg .dot{stroke-dasharray:1.6 3.6; stroke-linecap:round}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-ink{fill:var(--ink)}.dg .f-ret{fill:var(--ret)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="첨단기술 산업 포트폴리오의 월간 초과수익을 시장 초과수익에 대해 찍은 60개의 점과 증권특성선. 기울기 1.26은 1보다 확실히 크지만, 절편 0.27%는 0과 구별되지 않는다." class="dg" height="100%" role="img" viewBox="0 0 600 412" width="100%">
+<line class="grid" x1="58.0" x2="542.0" y1="342.0" y2="342.0"></line>
+<line class="grid" x1="58.0" x2="542.0" y1="298.0" y2="298.0"></line>
+<line class="grid" x1="58.0" x2="542.0" y1="254.0" y2="254.0"></line>
+<line class="grid" x1="58.0" x2="542.0" y1="210.0" y2="210.0"></line>
+<line class="grid" x1="58.0" x2="542.0" y1="166.0" y2="166.0"></line>
+<line class="grid" x1="58.0" x2="542.0" y1="122.0" y2="122.0"></line>
+<line class="grid" x1="58.0" x2="542.0" y1="78.0" y2="78.0"></line>
+<line class="grid" x1="58.0" x2="542.0" y1="34.0" y2="34.0"></line>
+<line class="grid" x1="80.0" x2="80.0" y1="364.0" y2="12.0"></line>
+<line class="grid" x1="190.0" x2="190.0" y1="364.0" y2="12.0"></line>
+<line class="grid" x1="410.0" x2="410.0" y1="364.0" y2="12.0"></line>
+<line class="grid" x1="520.0" x2="520.0" y1="364.0" y2="12.0"></line>
+<line class="ax" x1="58.0" x2="542.0" y1="210.0" y2="210.0"></line>
+<line class="ax" x1="300.0" x2="300.0" y1="364.0" y2="12.0"></line>
+<text class="t-num mid t-ink2" x="80.0" y="382.0">-10</text>
+<text class="t-num mid t-ink2" x="190.0" y="382.0">-5</text>
+<text class="t-num mid t-ink2" x="410.0" y="382.0">5</text>
+<text class="t-num mid t-ink2" x="520.0" y="382.0">10</text>
+<text class="t-num end t-ink2" x="52.0" y="347.0">-12</text>
+<text class="t-num end t-ink2" x="52.0" y="303.0">-8</text>
+<text class="t-num end t-ink2" x="52.0" y="259.0">-4</text>
+<text class="t-num end t-ink2" x="52.0" y="171.0">4</text>
+<text class="t-num end t-ink2" x="52.0" y="127.0">8</text>
+<text class="t-num end t-ink2" x="52.0" y="83.0">12</text>
+<text class="t-num end t-ink2" x="52.0" y="39.0">16</text>
+<line class="ln-mute dot" x1="58.0" x2="542.0" y1="331.0" y2="89.0"></line>
+<text class="t-xs end t-mute" x="544.0" y="107.0">β = 1</text>
+<line class="ln-alarm thin" x1="307.5" x2="307.5" y1="202.3" y2="119.9"></line>
+<circle class="f-ink" cx="203.2" cy="277.5" r="3"></circle>
+<circle class="f-ink" cx="445.9" cy="120.5" r="3"></circle>
+<circle class="f-ink" cx="265.2" cy="194.1" r="3"></circle>
+<circle class="f-ink" cx="371.1" cy="191.7" r="3"></circle>
+<circle class="f-ink" cx="164.5" cy="302.7" r="3"></circle>
+<circle class="f-ink" cx="249.8" cy="259.7" r="3"></circle>
+<circle class="f-ink" cx="367.8" cy="173.9" r="3"></circle>
+<circle class="f-ink" cx="93.0" cy="348.6" r="3"></circle>
+<circle class="f-ink" cx="292.5" cy="233.3" r="3"></circle>
+<circle class="f-ink" cx="115.2" cy="300.1" r="3"></circle>
+<circle class="f-ink" cx="510.5" cy="82.5" r="3"></circle>
+<circle class="f-ink" cx="217.1" cy="271.2" r="3"></circle>
+<circle class="f-ink" cx="94.5" cy="338.5" r="3"></circle>
+<circle class="f-ink" cx="472.7" cy="156.9" r="3"></circle>
+<circle class="f-ink" cx="402.3" cy="154.1" r="3"></circle>
+<circle class="f-ink" cx="159.6" cy="301.1" r="3"></circle>
+<circle class="f-ink" cx="445.4" cy="108.5" r="3"></circle>
+<circle class="f-ink" cx="243.5" cy="215.9" r="3"></circle>
+<circle class="f-ink" cx="354.6" cy="98.8" r="3"></circle>
+<circle class="f-ink" cx="313.6" cy="211.2" r="3"></circle>
+<circle class="f-ink" cx="307.5" cy="119.9" r="3"></circle>
+<circle class="f-ink" cx="442.1" cy="149.4" r="3"></circle>
+<circle class="f-ink" cx="370.6" cy="168.5" r="3"></circle>
+<circle class="f-ink" cx="248.1" cy="233.0" r="3"></circle>
+<circle class="f-ink" cx="184.9" cy="280.9" r="3"></circle>
+<circle class="f-ink" cx="230.7" cy="234.6" r="3"></circle>
+<circle class="f-ink" cx="495.4" cy="82.2" r="3"></circle>
+<circle class="f-ink" cx="406.7" cy="163.9" r="3"></circle>
+<circle class="f-ink" cx="316.1" cy="181.0" r="3"></circle>
+<circle class="f-ink" cx="411.5" cy="146.2" r="3"></circle>
+<circle class="f-ink" cx="362.5" cy="188.8" r="3"></circle>
+<circle class="f-ink" cx="197.7" cy="263.7" r="3"></circle>
+<circle class="f-ink" cx="395.3" cy="125.7" r="3"></circle>
+<circle class="f-ink" cx="361.6" cy="131.2" r="3"></circle>
+<circle class="f-ink" cx="326.8" cy="234.2" r="3"></circle>
+<circle class="f-ink" cx="335.2" cy="200.4" r="3"></circle>
+<circle class="f-ink" cx="337.8" cy="181.7" r="3"></circle>
+<circle class="f-ink" cx="278.0" cy="216.7" r="3"></circle>
+<circle class="f-ink" cx="442.8" cy="159.9" r="3"></circle>
+<circle class="f-ink" cx="230.3" cy="198.3" r="3"></circle>
+<circle class="f-ink" cx="361.6" cy="211.1" r="3"></circle>
+<circle class="f-ink" cx="246.3" cy="257.1" r="3"></circle>
+<circle class="f-ink" cx="159.4" cy="314.4" r="3"></circle>
+<circle class="f-ink" cx="281.5" cy="201.5" r="3"></circle>
+<circle class="f-ink" cx="433.3" cy="96.8" r="3"></circle>
+<circle class="f-ink" cx="406.9" cy="113.9" r="3"></circle>
+<circle class="f-ink" cx="343.6" cy="151.6" r="3"></circle>
+<circle class="f-ink" cx="340.5" cy="203.6" r="3"></circle>
+<circle class="f-ink" cx="374.6" cy="135.8" r="3"></circle>
+<circle class="f-ink" cx="343.1" cy="152.5" r="3"></circle>
+<circle class="f-ink" cx="297.1" cy="241.0" r="3"></circle>
+<circle class="f-ink" cx="292.1" cy="220.7" r="3"></circle>
+<circle class="f-ink" cx="322.7" cy="222.5" r="3"></circle>
+<circle class="f-ink" cx="274.3" cy="267.0" r="3"></circle>
+<circle class="f-ink" cx="186.0" cy="265.2" r="3"></circle>
+<circle class="f-ink" cx="518.9" cy="17.7" r="3"></circle>
+<circle class="f-ink" cx="408.0" cy="81.6" r="3"></circle>
+<circle class="f-ink" cx="276.5" cy="268.0" r="3"></circle>
+<circle class="f-ink" cx="286.6" cy="223.9" r="3"></circle>
+<circle class="f-ink" cx="356.3" cy="159.2" r="3"></circle>
+<line class="ln-risk thick" x1="69.0" x2="537.6" y1="352.4" y2="57.4"></line>
+<circle class="f-ret" cx="300.0" cy="207.0" r="4.5"></circle>
+<text class="t-s end t-ret b" x="271.4" y="93.4">절편 α = 0.27%/월</text>
+<text class="t-xs end t-ink2" x="271.4" y="110.4">t = 0.78, 0과 구별 안 됨</text>
+<line class="ln-mute dot" x1="275.8" x2="297.0" y1="105.4" y2="202.0"></line>
+<text class="t-s t-ink2" x="66.8" y="27.4">첨단기술 초과수익 (%/월)</text>
+<text class="t-s end t-ink2" x="542.0" y="400.0">시장 초과수익 (%/월)</text>
+<text class="t-s end t-risk b" x="539.8" y="281.5">SCL  기울기 β = 1.26</text>
+<text class="t-xs end t-ink2" x="539.8" y="299.5">s.e. 0.076 · R² = 0.825</text>
+<text class="b t-alarm" x="313.5" y="177.1">e</text>
+</svg></svg>

@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 504" width="760" height="504" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#E6ECE9; --panel:#F2F5F3; --ink:#172120; --ink-2:#4A5755; --rule:#B6C3BF;
+  --liq:#1B6971; --liq-soft:#CFE0DE; --liq-dot:#7FA9AB;
+  --cry:#866207; --cry-soft:#EAD9A0; --cry-deep:#C9A43C;
+  --inf:#5B3D8F; --inf-soft:#DCD3EA;
+  --brk:#983B20; --brk-soft:#EFD5CB;
+  --shade:#0E1514; --on-shade:#E6ECE9;
+  --f-display:"Hahmlet","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Gowun Batang","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-latin:"Old Standard TT","Gowun Batang","Noto Serif CJK KR",serif;
+  --f-mono:"Cutive Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR","Courier New",monospace;
+  --pad:1.05rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem }.lecture{ display:contents }.hero-fig svg{ width:100%; height:auto; display:block }figure.fig{ margin:.4rem 0 .6rem }.fig-frame{ overflow-x:auto; overflow-y:hidden; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background:
+  linear-gradient(to right,var(--paper),var(--paper)) left/1.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--paper),var(--paper)) right/1.2rem 100% no-repeat local,
+  linear-gradient(to right,rgba(0,0,0,.18),rgba(0,0,0,0)) left/.7rem 100% no-repeat scroll,
+  linear-gradient(to left,rgba(0,0,0,.18),rgba(0,0,0,0)) right/.7rem 100% no-repeat scroll;
+  background-color:var(--paper) }.fig-frame svg{ display:block; width:100%; min-width:560px; height:auto }.fig svg text, .hero-fig text{ font-family:var(--f-body); fill:var(--ink) }.t{ font-size:13px }.t-s{ font-size:11px }.t-lat{ font-family:var(--f-latin) !important; font-style:italic }.t-num{ font-family:var(--f-latin) !important; font-variant-numeric:tabular-nums }.t-b{ font-weight:700 }.t-mute{ fill:var(--ink-2) !important }.t-liq{ fill:var(--liq) !important }.t-cry{ fill:var(--cry) !important }.t-brk{ fill:var(--brk) !important }.halo{ paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round }.f-none{ fill:none }.f-ink{ fill:var(--ink) }.f-mute{ fill:var(--ink-2) }.f-rule{ fill:var(--rule) }.f-liq{ fill:var(--liq) }.f-cry{ fill:var(--cry) }.f-brk{ fill:var(--brk) }.s-ink{ stroke:var(--ink) }.s-mute{ stroke:var(--ink-2) }.s-rule{ stroke:var(--rule) }.s-cry{ stroke:var(--cry) }.s-brk{ stroke:var(--brk) }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.w3{ stroke-width:3 }.dot{ stroke-dasharray:1.5 3.5; stroke-linecap:round }.round{ stroke-linecap:round; stroke-linejoin:round }.op5{ opacity:.5 }.op7{ opacity:.72 }.hero-fig .band:hover polygon, .hero-fig .band:focus polygon{ fill:var(--inf-soft) }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="위 칸: 한 생애의 시간축 위 세 곡선. 개체화는 시작의 높은 계단 하나(1번), 개별화는 끝없는 잔물결(약 5×10⁹번), 인격화는 열 번 안팎 무너졌다 다시 서는 계단과 버려진 잔해. 아래 칸: 데카르트는 회의하는 회의가 회의된 회의로 돌아와 닫히는 원, 안은 균질하고 몸과는 깎아지른 벽으로 갈린다. 시몽동은 바퀴마다 회의된 회의가 기억 쪽으로 밀려나는 나선, 거리가 바깥으로 커지고 가장 바깥 바퀴가 몸의 가장자리에 닿는다." height="100%" role="img" viewBox="0 0 760 504" width="100%">
+<defs>
+<marker id="f20-ar-ink" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f20-ar-mute" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<text class="t t-b" x="20" y="22">한 생애 위의 세 셈법</text>
+<text class="t t-b" text-anchor="middle" x="668" y="22">한 생애의 개수</text>
+<text class="t t-b t-cry" x="20" y="58">개체화</text>
+<text class="t-s t-mute" x="20" y="74">유일</text>
+<path class="f-none s-cry w2" d="M150,76 L158,76 L158,42 L566,42"></path>
+<text class="t-s t-mute" x="170" y="62">시작의 높은 계단 하나</text>
+<text class="t t-num" text-anchor="middle" x="668" y="60">1번</text>
+<text class="t-s t-mute" text-anchor="middle" x="668" y="76">수정에서 시작된 발생</text>
+<text class="t t-b" x="20" y="122">개별화</text>
+<text class="t-s t-mute" x="20" y="138">연속</text>
+<path class="f-none s-ink w15 round" d="M150,122 Q151.8,113 153.5,122 Q155.2,131 157,122 Q158.8,113 160.5,122 Q162.2,131 164,122 Q165.8,113 167.5,122 Q169.2,131 171,122 Q172.8,113 174.5,122 Q176.2,131 178,122 Q179.8,113 181.5,122 Q183.2,131 185,122 Q186.8,113 188.5,122 Q190.2,131 192,122 Q193.8,113 195.5,122 Q197.2,131 199,122 Q200.8,113 202.5,122 Q204.2,131 206,122 Q207.8,113 209.5,122 Q211.2,131 213,122 Q214.8,113 216.5,122 Q218.2,131 220,122 Q221.8,113 223.5,122 Q225.2,131 227,122 Q228.8,113 230.5,122 Q232.2,131 234,122 Q235.8,113 237.5,122 Q239.2,131 241,122 Q242.8,113 244.5,122 Q246.2,131 248,122 Q249.8,113 251.5,122 Q253.2,131 255,122 Q256.8,113 258.5,122 Q260.2,131 262,122 Q263.8,113 265.5,122 Q267.2,131 269,122 Q270.8,113 272.5,122 Q274.2,131 276,122 Q277.8,113 279.5,122 Q281.2,131 283,122 Q284.8,113 286.5,122 Q288.2,131 290,122 Q291.8,113 293.5,122 Q295.2,131 297,122 Q298.8,113 300.5,122 Q302.2,131 304,122 Q305.8,113 307.5,122 Q309.2,131 311,122 Q312.8,113 314.5,122 Q316.2,131 318,122 Q319.8,113 321.5,122 Q323.2,131 325,122 Q326.8,113 328.5,122 Q330.2,131 332,122 Q333.8,113 335.5,122 Q337.2,131 339,122 Q340.8,113 342.5,122 Q344.2,131 346,122 Q347.8,113 349.5,122 Q351.2,131 353,122 Q354.8,113 356.5,122 Q358.2,131 360,122 Q361.8,113 363.5,122 Q365.2,131 367,122 Q368.8,113 370.5,122 Q372.2,131 374,122 Q375.8,113 377.5,122 Q379.2,131 381,122 Q382.8,113 384.5,122 Q386.2,131 388,122 Q389.8,113 391.5,122 Q393.2,131 395,122 Q396.8,113 398.5,122 Q400.2,131 402,122 Q403.8,113 405.5,122 Q407.2,131 409,122 Q410.8,113 412.5,122 Q414.2,131 416,122 Q417.8,113 419.5,122 Q421.2,131 423,122 Q424.8,113 426.5,122 Q428.2,131 430,122 Q431.8,113 433.5,122 Q435.2,131 437,122 Q438.8,113 440.5,122 Q442.2,131 444,122 Q445.8,113 447.5,122 Q449.2,131 451,122 Q452.8,113 454.5,122 Q456.2,131 458,122 Q459.8,113 461.5,122 Q463.2,131 465,122 Q466.8,113 468.5,122 Q470.2,131 472,122 Q473.8,113 475.5,122 Q477.2,131 479,122 Q480.8,113 482.5,122 Q484.2,131 486,122 Q487.8,113 489.5,122 Q491.2,131 493,122 Q494.8,113 496.5,122 Q498.2,131 500,122 Q501.8,113 503.5,122 Q505.2,131 507,122 Q508.8,113 510.5,122 Q512.2,131 514,122 Q515.8,113 517.5,122 Q519.2,131 521,122 Q522.8,113 524.5,122 Q526.2,131 528,122 Q529.8,113 531.5,122 Q533.2,131 535,122 Q536.8,113 538.5,122 Q540.2,131 542,122 Q543.8,113 545.5,122 Q547.2,131 549,122 Q550.8,113 552.5,122 Q554.2,131 556,122 Q557.8,113 559.5,122 Q561.2,131 563,122"></path>
+<text class="t-s t-mute" x="170" y="150">끝없는 잔물결 — 실제 물결은 이 폭에 그릴 수 없이 촘촘</text>
+<text class="t t-num" text-anchor="middle" x="668" y="124">약 5×10⁹번</text>
+<text class="t-s t-mute" text-anchor="middle" x="668" y="140">시선 고정 약 3회/s × 80년</text>
+<text class="t t-b" x="20" y="190">인격화</text>
+<text class="t-s t-mute" x="20" y="206">불연속</text>
+<path class="f-none s-ink w15" d="M150,202 L175,203.5 L176,215 L181,199.4 L213,200.9 L214,212.4 L219,196.8 L257,198.3 L258,209.8 L263,194.2 L289,195.7 L290,207.2 L295,191.6 L337,193.1 L338,204.6 L343,189 L379,190.5 L380,202 L385,186.4 L413,187.9 L414,199.4 L419,183.8 L461,185.3 L462,196.8 L467,181.2 L499,182.7 L500,194.2 L505,178.6 L539,180.1 L540,191.6 L545,176 L566,176"></path>
+<polygon class="f-brk" points="173,222 178,223.5 176.5,227.5 172,226"></polygon>
+<polygon class="f-brk" points="216,219.4 221,220.9 219.5,224.9 215,223.4"></polygon>
+<polygon class="f-brk" points="255,216.8 260,218.3 258.5,222.3 254,220.8"></polygon>
+<polygon class="f-brk" points="292,214.2 297,215.7 295.5,219.7 291,218.2"></polygon>
+<polygon class="f-brk" points="335,211.6 340,213.1 338.5,217.1 334,215.6"></polygon>
+<polygon class="f-brk" points="382,209 387,210.5 385.5,214.5 381,213"></polygon>
+<polygon class="f-brk" points="411,206.4 416,207.9 414.5,211.9 410,210.4"></polygon>
+<polygon class="f-brk" points="464,203.8 469,205.3 467.5,209.3 463,207.8"></polygon>
+<polygon class="f-brk" points="497,201.2 502,202.7 500.5,206.7 496,205.2"></polygon>
+<polygon class="f-brk" points="542,198.6 547,200.1 545.5,204.1 541,202.6"></polygon>
+<text class="t-s t-brk" x="352" y="234">버려진 잔해 — 쓸 수 없는 옛 부분집합</text>
+<text class="t t-num" text-anchor="middle" x="668" y="192">약 10번</text>
+<text class="t-s t-mute" text-anchor="middle" x="668" y="208">사춘기·독립·상실·중년…</text>
+<text class="t-s t-mute t-num" text-anchor="middle" x="668" y="236">1 : 5×10⁹ : 10</text>
+<line class="s-mute w1" marker-end="url(#f20-ar-mute)" x1="150" x2="574" y1="246" y2="246"></line>
+<text class="t-s t-mute" x="150" y="262">수정</text>
+<text class="t-s t-mute" text-anchor="end" x="566" y="262">약 80년 · 시간 →</text>
+<line class="s-rule w1 dot" x1="20" x2="740" y1="276" y2="276"></line>
+<text class="t t-b" x="20" y="300">데카르트 — 닫힌 원</text>
+<path class="f-none s-ink w2" d="M158.8,332.7 A56,56 0 1 1 141.2,332.7" marker-end="url(#f20-ar-ink)"></path>
+<circle class="f-cry" cx="150" cy="332" r="5"></circle>
+<text class="t-s" x="162" y="323">회의하는 회의</text>
+<text class="t-s" text-anchor="end" x="138" y="323">회의된 회의</text>
+<text class="t-s t-mute" text-anchor="middle" x="150" y="382">안은 균질</text>
+<text class="t-s t-lat" text-anchor="middle" x="150" y="398">res cogitans</text>
+<text class="t-s t-mute" text-anchor="middle" x="150" y="480">거리를 감춘 순환 → 작용의 실체화</text>
+<rect class="f-rule" height="132" width="108" x="252" y="318"></rect>
+<line class="s-brk w3" x1="252" x2="252" y1="318" y2="450"></line>
+<line class="s-brk w1" x1="243" x2="251" y1="329" y2="322"></line>
+<line class="s-brk w1" x1="243" x2="251" y1="338" y2="331"></line>
+<line class="s-brk w1" x1="243" x2="251" y1="347" y2="340"></line>
+<line class="s-brk w1" x1="243" x2="251" y1="356" y2="349"></line>
+<line class="s-brk w1" x1="243" x2="251" y1="365" y2="358"></line>
+<line class="s-brk w1" x1="243" x2="251" y1="374" y2="367"></line>
+<line class="s-brk w1" x1="243" x2="251" y1="383" y2="376"></line>
+<line class="s-brk w1" x1="243" x2="251" y1="392" y2="385"></line>
+<line class="s-brk w1" x1="243" x2="251" y1="401" y2="394"></line>
+<line class="s-brk w1" x1="243" x2="251" y1="410" y2="403"></line>
+<line class="s-brk w1" x1="243" x2="251" y1="419" y2="412"></line>
+<line class="s-brk w1" x1="243" x2="251" y1="428" y2="421"></line>
+<line class="s-brk w1" x1="243" x2="251" y1="437" y2="430"></line>
+<line class="s-brk w1" x1="243" x2="251" y1="446" y2="439"></line>
+<line class="s-brk w1" x1="243" x2="251" y1="455" y2="448"></line>
+<text class="t-s t-brk" text-anchor="middle" x="252" y="311">깎아지른 벽</text>
+<text class="t t-b" text-anchor="middle" x="308" y="384">몸</text>
+<text class="t-s t-lat" text-anchor="middle" x="308" y="400">res extensa</text>
+<line class="s-rule w1 dot" x1="380" x2="380" y1="290" y2="498"></line>
+<text class="t t-b" x="398" y="300">시몽동 — 열린 나선</text>
+<path class="f-rule op7" d="M600,388 A80,80 0 1 0 440,388 A80,80 0 1 0 600,388 Z M576,388 A56,56 0 1 0 464,388 A56,56 0 1 0 576,388 Z" fill-rule="evenodd"></path>
+<path class="f-rule op5" d="M576,388 A56,56 0 1 0 464,388 A56,56 0 1 0 576,388 Z M552,388 A32,32 0 1 0 488,388 A32,32 0 1 0 552,388 Z" fill-rule="evenodd"></path>
+<path class="f-none s-ink w15 round" d="M520,383 L520.4,382.7 L520.9,382.5 L521.4,382.3 L521.9,382.1 L522.5,382 L523.1,382 L523.7,382 L524.3,382.1 L524.9,382.2 L525.6,382.4 L526.2,382.7 L526.8,383 L527.5,383.4 L528.1,383.9 L528.6,384.4 L529.1,385 L529.6,385.7 L530.1,386.4 L530.4,387.2 L530.8,388 L531,388.9 L531.2,389.8 L531.3,390.7 L531.3,391.7 L531.3,392.7 L531.1,393.7 L530.9,394.7 L530.6,395.7 L530.2,396.7 L529.7,397.7 L529.1,398.6 L528.4,399.5 L527.6,400.4 L526.7,401.2 L525.8,401.9 L524.8,402.6 L523.7,403.2 L522.5,403.8 L521.3,404.2 L520,404.5 L518.7,404.8 L517.3,404.9 L515.9,404.9 L514.5,404.8 L513.1,404.6 L511.7,404.3 L510.3,403.8 L508.9,403.2 L507.6,402.6 L506.3,401.7 L505,400.8 L503.8,399.8 L502.7,398.6 L501.7,397.3 L500.7,396 L499.9,394.5 L499.2,393 L498.5,391.4 L498,389.7 L497.7,388 L497.5,386.2 L497.4,384.4 L497.5,382.6 L497.7,380.7 L498.1,378.9 L498.6,377.1 L499.3,375.3 L500.1,373.5 L501.1,371.8 L502.2,370.2 L503.5,368.6 L504.9,367.2 L506.4,365.8 L508,364.5 L509.8,363.4 L511.7,362.4 L513.6,361.5 L515.7,360.8 L517.8,360.3 L520,359.9 L522.2,359.7 L524.5,359.7 L526.8,359.9 L529,360.2 L531.3,360.7 L533.5,361.4 L535.7,362.3 L537.9,363.4 L539.9,364.7 L541.9,366.1 L543.8,367.7 L545.5,369.5 L547.1,371.4 L548.6,373.4 L549.9,375.6 L551.1,377.9 L552.1,380.3 L552.9,382.8 L553.5,385.4 L553.8,388 L554,390.7 L554,393.4 L553.8,396.1 L553.3,398.8 L552.6,401.5 L551.7,404.2 L550.6,406.7 L549.2,409.3 L547.7,411.7 L546,414 L544,416.1 L541.9,418.2 L539.6,420.1 L537.2,421.8 L534.6,423.3 L531.9,424.6 L529,425.7 L526.1,426.6 L523.1,427.2 L520,427.6 L516.9,427.8 L513.7,427.7 L510.5,427.4 L507.4,426.8 L504.3,425.9 L501.2,424.8 L498.2,423.5 L495.4,421.9 L492.6,420.1 L489.9,418.1 L487.5,415.8 L485.2,413.3 L483,410.7 L481.1,407.8 L479.4,404.8 L477.9,401.7 L476.7,398.4 L475.7,395 L475,391.5 L474.6,388 L474.5,384.4 L474.6,380.8 L475,377.2 L475.7,373.6 L476.7,370.1 L478,366.6 L479.6,363.2 L481.4,360 L483.5,356.8 L485.9,353.9 L488.5,351.1 L491.3,348.5 L494.3,346.1 L497.6,344 L501,342.1 L504.5,340.4 L508.3,339.1 L512.1,338 L516,337.3 L520,336.8 L524,336.7 L528.1,336.9 L532.1,337.4 L536.2,338.3 L540.1,339.4 L544,340.9 L547.8,342.7 L551.4,344.7 L554.9,347.1 L558.2,349.8 L561.3,352.7 L564.2,355.9 L566.8,359.3 L569.2,362.9 L571.3,366.8 L573,370.8 L574.5,374.9 L575.7,379.2 L576.5,383.6 L576.9,388 L577,392.5 L576.8,397 L576.2,401.5 L575.2,405.9 L573.9,410.3 L572.3,414.6 L570.3,418.8 L567.9,422.8 L565.3,426.7 L562.3,430.3 L559,433.7 L555.5,436.9 L551.7,439.7 L547.7,442.3 L543.4,444.6 L539,446.5 L534.4,448.1 L529.7,449.4 L524.9,450.2 L520,450.7 L515.1,450.8 L510.1,450.5 L505.2,449.8 L500.3,448.7 L495.5,447.3 L490.8,445.4 L486.2,443.2 L481.8,440.6 L477.6,437.6 L473.6,434.4 L469.9,430.8 L466.5,426.9 L463.3,422.7 L460.5,418.3 L458.1,413.6 L456,408.8 L454.3,403.8 L453,398.6 L452,393.3 L451.5,388 L451.5,382.6 L451.8,377.2 L452.6,371.8 L453.8,366.5 L455.4,361.2 L457.5,356.1 L459.9,351.2 L462.7,346.4 L466,341.9 L469.6,337.6 L473.5,333.5 L477.7,329.8 L482.3,326.4 L487.1,323.4 L492.1,320.8 L497.4,318.5 L502.9,316.7 L508.5,315.3 L514.2,314.3 L520,313.8 L525.8,313.7 L531.7,314.1 L537.5,315 L543.3,316.3 L549,318.1 L554.5,320.3 L559.8,323 L565,326.1 L569.9,329.6 L574.5,333.5 L578.9,337.7 L582.9,342.3 L586.5,347.3 L589.7,352.5 L592.6,357.9 L595,363.6 L596.9,369.5 L598.4,375.6 L599.5,381.7 L600,388" marker-end="url(#f20-ar-ink)"></path>
+<circle class="f-liq" cx="502.2" cy="370.2" r="4"></circle>
+<circle class="f-liq" cx="485.9" cy="353.9" r="4"></circle>
+<circle class="f-liq op7" cx="469.6" cy="337.6" r="4"></circle>
+<circle class="f-cry" cx="520" cy="388" r="6"></circle>
+<text class="t-s t-cry halo" text-anchor="end" x="510" y="410">현행 자아</text>
+<circle class="f-liq" cx="403" cy="476" r="4"></circle>
+<text class="t-s t-liq" x="413" y="480">회의된 회의 — 바퀴마다 기억 쪽으로 밀려나 멀어짐</text>
+<rect class="f-rule" height="132" width="145" x="600" y="318"></rect>
+<line class="s-mute w1 dot" x1="600" x2="600" y1="318" y2="450"></line>
+<text class="t t-b" text-anchor="middle" x="672.5" y="384">몸</text>
+<text class="t-s t-mute" text-anchor="middle" x="672.5" y="400">벽이 아니라 기울기</text>
+<text class="t-s t-mute" text-anchor="middle" x="672.5" y="342">가장 바깥 바퀴가</text>
+<text class="t-s t-mute" text-anchor="middle" x="672.5" y="356">닿는 가장자리</text>
+<text class="t-s t-mute" x="398" y="496">나선 한 바퀴 = 개별화의 잔물결 하나</text>
+<text class="t-s t-mute" text-anchor="middle" x="150" y="496">원 = 그 잔물결을 한 점에 얼린 것</text>
+</svg></svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 446" width="760" height="446" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#E6ECE9; --panel:#F2F5F3; --ink:#172120; --ink-2:#4A5755; --rule:#B6C3BF;
+  --liq:#1B6971; --liq-soft:#CFE0DE; --liq-dot:#7FA9AB;
+  --cry:#866207; --cry-soft:#EAD9A0; --cry-deep:#C9A43C;
+  --inf:#5B3D8F; --inf-soft:#DCD3EA;
+  --brk:#983B20; --brk-soft:#EFD5CB;
+  --shade:#0E1514; --on-shade:#E6ECE9;
+  --f-display:"Hahmlet","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Gowun Batang","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-latin:"Old Standard TT","Gowun Batang","Noto Serif CJK KR",serif;
+  --f-mono:"Cutive Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR","Courier New",monospace;
+  --pad:1.05rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem }.lecture{ display:contents }.hero-fig svg{ width:100%; height:auto; display:block }figure.fig{ margin:.4rem 0 .6rem }.fig-frame{ overflow-x:auto; overflow-y:hidden; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background:
+  linear-gradient(to right,var(--paper),var(--paper)) left/1.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--paper),var(--paper)) right/1.2rem 100% no-repeat local,
+  linear-gradient(to right,rgba(0,0,0,.18),rgba(0,0,0,0)) left/.7rem 100% no-repeat scroll,
+  linear-gradient(to left,rgba(0,0,0,.18),rgba(0,0,0,0)) right/.7rem 100% no-repeat scroll;
+  background-color:var(--paper) }.fig-frame svg{ display:block; width:100%; min-width:560px; height:auto }.fig svg text, .hero-fig text{ font-family:var(--f-body); fill:var(--ink) }.t{ font-size:13px }.t-s{ font-size:11px }.t-num{ font-family:var(--f-latin) !important; font-variant-numeric:tabular-nums }.t-b{ font-weight:700 }.t-mute{ fill:var(--ink-2) !important }.t-cry{ fill:var(--cry) !important }.t-inf{ fill:var(--inf) !important }.halo{ paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round }.f-none{ fill:none }.f-panel{ fill:var(--panel) }.f-ink{ fill:var(--ink) }.f-mute{ fill:var(--ink-2) }.f-cry{ fill:var(--cry) }.f-inf{ fill:var(--inf) }.s-ink{ stroke:var(--ink) }.s-mute{ stroke:var(--ink-2) }.s-rule{ stroke:var(--rule) }.s-cry{ stroke:var(--cry) }.s-inf{ stroke:var(--inf) }.w05{ stroke-width:.6 }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.dash{ stroke-dasharray:5 4 }.dot{ stroke-dasharray:1.5 3.5; stroke-linecap:round }.hero-fig .band:hover polygon, .hero-fig .band:focus polygon{ fill:var(--inf-soft) }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="정보의 세 축. 바닥면은 양(신호의 수)과 질(좋은 형태), 세로는 강도(주체의 극성을 정하는 세기). 정사각형은 질이 높고 양이 적고 강도가 낮다. 모래 더미는 양이 많고 질과 강도가 낮고, 파르테논은 양은 모래 더미와 같은 높이에서 질만 높다. 정밀 사진에서 대비를 높이고 초점을 흐린 고대비 사진은 양과 질이 깎이고 강도가 오른다. 냄새는 양과 질이 바닥인데 강도가 높고, 아이가 처음 본 사자는 그 위쪽에 있다. 셋째 축은 앞의 두 축의 조합으로 만들어지지 않는다." height="100%" role="img" viewBox="0 0 760 446" width="100%">
+<defs>
+<marker id="f19-ar-ink" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f19-ar-inf" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-inf" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f19-ar-cry" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-cry" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<polygon class="f-panel s-rule w1" points="92.0,392.0 472.0,392.0 642.0,272.0 262.0,272.0"></polygon>
+<path class="f-none s-rule w05" d="M187.0,392.0 L357.0,272.0"></path>
+<path class="f-none s-rule w05" d="M134.5,362.0 L514.5,362.0"></path>
+<path class="f-none s-rule w05" d="M282.0,392.0 L452.0,272.0"></path>
+<path class="f-none s-rule w05" d="M177.0,332.0 L557.0,332.0"></path>
+<path class="f-none s-rule w05" d="M377.0,392.0 L547.0,272.0"></path>
+<path class="f-none s-rule w05" d="M219.5,302.0 L599.5,302.0"></path>
+<line class="s-ink w2" marker-end="url(#f19-ar-ink)" x1="92" x2="510.0" y1="392" y2="392.0"></line>
+<text class="t t-b" text-anchor="end" x="510.0" y="414">양</text>
+<line class="s-cry w2" marker-end="url(#f19-ar-cry)" x1="92" x2="282.4" y1="392" y2="257.6"></line>
+<text class="t t-b t-cry" text-anchor="end" x="274.4" y="255.6">질</text>
+<line class="s-inf w2" marker-end="url(#f19-ar-inf)" x1="92" x2="92" y1="392" y2="122"></line>
+<text class="t t-b t-inf" x="100" y="132">강도</text>
+<text class="t-s" x="16" y="24"><tspan class="t-b">→ 양</tspan>  보내는 데 드는 신호의 수</text>
+<text class="t-s" x="16" y="41"><tspan class="t-b t-cry">↗ 질</tspan>  좋은 형태 — 단순하고 짧게 기술되는 정도</text>
+<text class="t-s" x="16" y="58"><tspan class="t-b t-inf">↑ 강도</tspan>  그 신호가 받는 주체의 극성을 얼마나 세게 정하나</text>
+<path class="f-none s-mute w1 dash" d="M451.0,380.0 L583.6,286.4"></path>
+<text class="t-s t-mute halo" x="527.3" y="339.2">양은 같은 높이</text>
+<path class="f-none s-mute w1 dot" d="M484.4,329.6 L379.0,355.0" marker-end="url(#f19-ar-ink)"></path>
+<circle class="f-mute" cx="124.6" cy="382.4" r="2.6"></circle>
+<line class="s-inf w15" x1="124.6" x2="124.6" y1="382.4" y2="193.6"></line>
+<circle class="f-inf" cx="124.6" cy="193.6" r="5"></circle>
+<circle class="f-mute" cx="240.1" cy="380.0" r="2.6"></circle>
+<line class="s-inf w15" x1="240.1" x2="240.1" y1="380.0" y2="158.2"></line>
+<circle class="f-inf" cx="240.1" cy="158.2" r="5"></circle>
+<circle class="f-mute" cx="299.8" cy="293.6" r="2.6"></circle>
+<line class="s-inf w15" x1="299.8" x2="299.8" y1="293.6" y2="270.0"></line>
+<circle class="f-inf" cx="299.8" cy="270.0" r="5"></circle>
+<circle class="f-mute" cx="451.0" cy="380.0" r="2.6"></circle>
+<line class="s-inf w15" x1="451.0" x2="451.0" y1="380.0" y2="361.1"></line>
+<circle class="f-inf" cx="451.0" cy="361.1" r="5"></circle>
+<circle class="f-mute" cx="583.6" cy="286.4" r="2.6"></circle>
+<line class="s-inf w15" x1="583.6" x2="583.6" y1="286.4" y2="262.8"></line>
+<circle class="f-inf" cx="583.6" cy="262.8" r="5"></circle>
+<circle class="f-mute" cx="484.4" cy="329.6" r="2.6"></circle>
+<line class="s-inf w15" x1="484.4" x2="484.4" y1="329.6" y2="287.1"></line>
+<circle class="f-inf" cx="484.4" cy="287.1" r="5"></circle>
+<circle class="f-mute" cx="371.0" cy="356.0" r="2.6"></circle>
+<line class="s-inf w15" x1="371.0" x2="371.0" y1="356.0" y2="219.1"></line>
+<circle class="f-inf" cx="371.0" cy="219.1" r="5"></circle>
+<path class="f-none s-inf w15" d="M478.4,283.1 C434.4,247.1 441.0,193.1 380.0,216.1" marker-end="url(#f19-ar-inf)"></path>
+<text class="t-s t-inf" text-anchor="middle" x="443.7" y="187.1">대비를 높이고 초점을 흐리면</text>
+<text class="t-s t-inf" text-anchor="middle" x="443.7" y="201.1">양·질은 깎이고 강도는 오름</text>
+<text class="t-s t-b" text-anchor="start" x="133.6" y="197.6">냄새</text>
+<text class="t-s t-mute" text-anchor="start" x="133.6" y="211.6">양도 질도 바닥</text>
+<text class="t-s t-b" text-anchor="start" x="249.1" y="162.2">아이가 처음 본 사자</text>
+<text class="t-s t-b" text-anchor="start" x="308.8" y="274.0">정사각형</text>
+<text class="t-s t-b" text-anchor="end" x="442.0" y="365.1">모래 더미</text>
+<text class="t-s t-b" text-anchor="start" x="592.6" y="266.8">파르테논</text>
+<text class="t-s t-b" text-anchor="start" x="493.4" y="291.1">정밀 사진</text>
+<text class="t-s t-b" text-anchor="end" x="362.0" y="223.1">고대비 사진</text>
+<text class="t-s t-b" x="470" y="30">비트로 재면 (강의의 셈)</text>
+<text class="t-s t-num" x="470" y="48">10×10 흑백 격자, 아무 무늬: 2¹⁰⁰가지 → 100비트</text>
+<text class="t-s t-num" x="470" y="64"><tspan class="t-cry">정사각형만</tspan> 올 때: 385가지 → 약 8.6비트</text>
+<text class="t-s t-num" x="470" y="84">10⁶ 화소 256계조 8×10⁶ 비트 → 흑백 1×10⁶ 비트</text>
+<text class="t-s t-num" x="470" y="100"><tspan class="t-inf">고대비</tspan>: 비트는 8분의 1인데 윤곽은 더 또렷</text>
+<text class="t-s t-mute" x="470" y="122">질은 값을 12배 깎고, 강도는 비트를 줄여도 오를 수 있다</text>
+<text class="t t-b" x="16" y="436">셋째 축은 앞의 두 축의 조합으로 만들어지지 않는다</text>
+<text class="t-s t-mute" text-anchor="end" x="744" y="436">눈금 없는 정성적 배치</text>
+</svg></svg>

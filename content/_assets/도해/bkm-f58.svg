@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 364" width="600" height="364" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-time{color:var(--time)}.t-alarm{color:var(--alarm)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-time{fill:var(--time)}.dg .t-alarm{fill:var(--alarm)}.dg .halo{paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln2{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .ln-time{stroke:var(--time); stroke-width:2.2; fill:none}.dg .ln-alarm{stroke:var(--alarm); stroke-width:2.2; fill:none}.dg .thin{stroke-width:1}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-alarm-a{fill:var(--alarm); fill-opacity:.16}.dg .f-ink-a{fill:var(--ink); fill-opacity:.08}.dg .no-fill{fill:none}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="2020년 4월 17일과 20일의 WTI 5월물과 6월물 정산가. 4월 17일에는 18.27과 25.03으로 차이가 6.76이었는데, 4월 20일에는 5월물이 −37.63, 6월물이 20.43으로 차이가 58.06으로 벌어졌다." class="dg" height="100%" role="img" viewBox="0 0 600 364" width="100%">
+<defs></defs>
+<line class="grid" x1="70" x2="560" y1="326.0" y2="326.0"></line>
+<text class="t-num t-xs end t-ink2" x="62" y="330.5">-40</text>
+<line class="grid" x1="70" x2="560" y1="282.0" y2="282.0"></line>
+<text class="t-num t-xs end t-ink2" x="62" y="286.5">-30</text>
+<line class="grid" x1="70" x2="560" y1="238.0" y2="238.0"></line>
+<text class="t-num t-xs end t-ink2" x="62" y="242.5">-20</text>
+<line class="grid" x1="70" x2="560" y1="194.0" y2="194.0"></line>
+<text class="t-num t-xs end t-ink2" x="62" y="198.5">-10</text>
+<line class="ax" x1="70" x2="560" y1="150.0" y2="150.0"></line>
+<text class="t-num t-xs end t-ink2" x="62" y="154.5">0</text>
+<line class="grid" x1="70" x2="560" y1="106.0" y2="106.0"></line>
+<text class="t-num t-xs end t-ink2" x="62" y="110.5">+10</text>
+<line class="grid" x1="70" x2="560" y1="62.0" y2="62.0"></line>
+<text class="t-num t-xs end t-ink2" x="62" y="66.5">+20</text>
+<line class="grid" x1="70" x2="560" y1="18.0" y2="18.0"></line>
+<text class="t-num t-xs end t-ink2" x="62" y="22.5">+30</text>
+<rect class="f-ink-a" height="80.4" width="56" x="130" y="69.6"></rect>
+<rect class="no-fill ln2" height="80.4" width="56" x="130" y="69.6"></rect>
+<text class="t-num mid" x="158.0" y="62.6">18.27</text>
+<rect class="f-ink-a" height="110.1" width="56" x="200" y="39.9"></rect>
+<rect class="no-fill ln2" height="110.1" width="56" x="200" y="39.9"></rect>
+<text class="t-num mid" x="228.0" y="32.9">25.03</text>
+<text class="t-xs mid t-ink2" x="158.0" y="168.0">5월물</text>
+<text class="t-xs mid t-ink2" x="228.0" y="168.0">6월물</text>
+<path class="ln-time" d="M264,39.9 L268,39.9 L268,69.6 L264,69.6"></path>
+<text class="t-num t-time b halo" x="274" y="59.7">6.76</text>
+<text class="t-s mid b" x="193" y="352">4월 17일(금)</text>
+<rect class="f-alarm-a" height="165.6" width="56" x="370" y="150.0"></rect>
+<rect class="no-fill ln-alarm thin" height="165.6" width="56" x="370" y="150.0"></rect>
+<text class="t-num mid t-alarm b" x="398.0" y="333.6">-37.63</text>
+<rect class="f-ink-a" height="89.9" width="56" x="440" y="60.1"></rect>
+<rect class="no-fill ln2" height="89.9" width="56" x="440" y="60.1"></rect>
+<text class="t-num mid" x="468.0" y="53.1">20.43</text>
+<text class="t-xs mid t-ink2" x="398.0" y="144.0">5월물</text>
+<text class="t-xs mid t-ink2" x="468.0" y="168.0">6월물</text>
+<path class="ln-time" d="M504,60.1 L508,60.1 L508,315.6 L504,315.6"></path>
+<text class="t-num t-time b halo" x="514" y="192.8">58.06</text>
+<text class="t-s mid b" x="433" y="352">4월 20일(월)</text>
+<text class="t-xs t-ink2" x="70" y="14">달러/배럴 · 정산가</text>
+</svg></svg>

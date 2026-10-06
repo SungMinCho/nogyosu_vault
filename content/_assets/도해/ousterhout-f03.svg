@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 310" width="760" height="310" class="frame fig lecture doc page"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#E7EAE8; --panel:#F3F5F4; --code-bg:#EEF1F0;
+  --ink:#1B2224; --muted:#586365; --rule:#C1C9C8; --rule-soft:rgba(27,34,36,.07);
+  --if:#2A5687; --if-soft:rgba(42,86,135,.12); --if-deep:#15375C;
+  --ore:#8A6014; --ore-soft:rgba(138,96,20,.15);
+  --cx:#7A3B72; --cx-soft:rgba(122,59,114,.12);
+  --flag:#B3381B; --flag-soft:rgba(179,56,27,.10);
+  --canary:#E9B30C;
+  --f-body:"Source Serif 4","Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-disp:"Do Hyeon","Nanum Gothic","Apple SD Gothic Neo","Malgun Gothic","Noto Sans CJK KR",sans-serif;
+  --f-label:"Nanum Gothic","Apple SD Gothic Neo","Malgun Gothic","Noto Sans CJK KR",sans-serif;
+  --f-mono:"Red Hat Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#0F1416; --panel:#161D20; --code-bg:#131A1D;
+    --ink:#E1E7E6; --muted:#95A1A3; --rule:#2F3A3D; --rule-soft:rgba(225,231,230,.06);
+    --if:#7EA7DA; --if-soft:rgba(126,167,218,.16); --if-deep:#3B6AA5;
+    --ore:#D6A553; --ore-soft:rgba(214,165,83,.17);
+    --cx:#CB8EC2; --cx-soft:rgba(203,142,194,.17);
+    --flag:#EF7B57; --flag-soft:rgba(239,123,87,.14);
+    --canary:#F4C63A;
+  }}:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#0F1416; --panel:#161D20; --code-bg:#131A1D;
+  --ink:#E1E7E6; --muted:#95A1A3; --rule:#2F3A3D; --rule-soft:rgba(225,231,230,.06);
+  --if:#7EA7DA; --if-soft:rgba(126,167,218,.16); --if-deep:#3B6AA5;
+  --ore:#D6A553; --ore-soft:rgba(214,165,83,.17);
+  --cx:#CB8EC2; --cx-soft:rgba(203,142,194,.17);
+  --flag:#EF7B57; --flag-soft:rgba(239,123,87,.14);
+  --canary:#F4C63A;
+}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1rem 3rem }.lecture{ display:contents }.fig{ margin:.6rem 0 }.frame{ overflow-x:auto; overflow-y:hidden; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding-block:.8rem;
+  background-image:linear-gradient(to right,var(--bg),var(--bg)),linear-gradient(to right,var(--bg),var(--bg)),
+    linear-gradient(to right,var(--rule),transparent),linear-gradient(to left,var(--rule),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat;
+  background-size:1.5rem 100%,1.5rem 100%,.6rem 100%,.6rem 100%; background-attachment:local,local,scroll,scroll }.dg{ display:block; width:100%; height:auto }.dg .t, .hero-svg .t{ font-family:var(--f-label); font-size:13px; fill:var(--ink) }.dg .t-s{ font-size:12px }.dg .t-xs{ font-size:11px }.dg .t-b, .hero-svg .t-b{ font-weight:700 }.dg .t-m{ font-family:var(--f-mono) }.dg .t-if, .hero-svg .t-if{ fill:var(--if) }.dg .t-ore, .hero-svg .t-ore{ fill:var(--ore) }.dg line, .dg polyline, .dg path, .hero-svg line, .hero-svg polyline, .hero-svg path{ fill:none }.f-ink{ fill:var(--ink)!important }.f-ore-soft{ fill:var(--ore-soft)!important }.s-if{ stroke:var(--if); stroke-width:1.4 }.s-ore{ stroke:var(--ore); stroke-width:1.2 }.w25{ stroke-width:2.5 }.w5{ stroke-width:5 }.dash{ stroke-dasharray:4 3 }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="깊이의 사각형: 유닉스 입출력은 좁은 위쪽 변 아래 수십만 줄을 숨기고, 가비지 컬렉터는 위쪽 변이 아예 없으며, 얕은 메서드는 넓은 위쪽 변 아래 한 줄뿐이고, 자바 입출력은 위쪽 변을 세 번 치른다." class="dg" height="100%" role="img" style="" viewBox="0 0 760 310" width="100%"><defs><marker id="a-ink-deep" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker></defs><line class="s-if w25" x1="14.0" x2="746.0" y1="76.0" y2="76.0"></line><rect class="f-ore-soft s-ore" height="200.0" rx="0" width="92.0" x="60.0" y="76.0"></rect><line class="s-if w5" x1="60.0" x2="152.0" y1="76.0" y2="76.0"></line><text class="t t-b" text-anchor="middle" x="106.0" y="40.0">유닉스 입출력</text><text class="t t-s t-if" text-anchor="middle" x="106.0" y="58.0">호출 5개</text><text class="t t-s t-ore" text-anchor="middle" x="106.0" y="106.0">배치</text><text class="t t-s t-ore" text-anchor="middle" x="106.0" y="130.0">경로 탐색</text><text class="t t-s t-ore" text-anchor="middle" x="106.0" y="154.0">권한</text><text class="t t-s t-ore" text-anchor="middle" x="106.0" y="178.0">캐시</text><text class="t t-s t-ore" text-anchor="middle" x="106.0" y="202.0">동시 접근</text><text class="t t-s t-ore" text-anchor="middle" x="106.0" y="226.0">장치 지원</text><text class="t t-b t-ore" text-anchor="middle" x="106.0" y="266.0">수십만 줄</text><rect class="f-ore-soft s-ore dash" height="150.0" rx="0" width="92.0" x="196.0" y="116.0"></rect><text class="t t-b" text-anchor="middle" x="242.0" y="40.0">가비지 컬렉터</text><text class="t t-s t-if" text-anchor="middle" x="242.0" y="58.0">인터페이스 0</text><text class="t t-s t-ore" text-anchor="middle" x="242.0" y="186.0">메모리 회수</text><rect class="f-ore-soft s-ore" height="28.0" rx="0" width="196.0" x="328.0" y="76.0"></rect><line class="s-if w5" x1="328.0" x2="524.0" y1="76.0" y2="76.0"></line><text class="t t-b" text-anchor="middle" x="426.0" y="40.0">얕은 메서드</text><text class="t t-s t-if" text-anchor="middle" x="426.0" y="58.0">이름 25자 · 인자 1</text><text class="t t-s t-m t-ore" text-anchor="middle" x="426.0" y="95.0">props.put(k, null)</text><rect class="f-ore-soft s-ore" height="36.0" rx="0" width="60.0" x="556.0" y="76.0"></rect><line class="s-if w5" x1="556.0" x2="616.0" y1="76.0" y2="76.0"></line><text class="t t-xs t-m t-ore" text-anchor="middle" x="586.0" y="98.0">File</text><rect class="f-ore-soft s-ore" height="30.0" rx="0" width="60.0" x="621.0" y="76.0"></rect><line class="s-if w5" x1="621.0" x2="681.0" y1="76.0" y2="76.0"></line><text class="t t-xs t-m t-ore" text-anchor="middle" x="651.0" y="95.0">Buffered</text><rect class="f-ore-soft s-ore" height="42.0" rx="0" width="60.0" x="686.0" y="76.0"></rect><line class="s-if w5" x1="686.0" x2="746.0" y1="76.0" y2="76.0"></line><text class="t t-xs t-m t-ore" text-anchor="middle" x="716.0" y="101.0">Object</text><text class="t t-b" text-anchor="middle" x="651.0" y="40.0">자바 입출력 객체 3개</text><text class="t t-s t-if" text-anchor="middle" x="651.0" y="58.0">버퍼링은 따로 요청</text><line class="s-if w5" x1="330.0" x2="360.0" y1="250.0" y2="250.0"></line><text class="t t-s" text-anchor="start" x="368.0" y="254.0">위쪽 변 = 인터페이스 (쓰는 사람 모두가 치름)</text><rect class="f-ore-soft s-ore" height="14.0" rx="0" width="30.0" x="330.0" y="266.0"></rect><text class="t t-s" text-anchor="start" x="368.0" y="277.0">넓이 = 숨긴 기능 (만드는 사람 혼자 짐)</text></svg></svg>

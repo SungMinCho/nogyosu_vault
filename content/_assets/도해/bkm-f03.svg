@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 404" width="600" height="404" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-ret{color:var(--ret)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .t-l{font-size:17px; font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-mute{fill:var(--mute)}.dg .t-ret{fill:var(--ret)}.dg .end{text-anchor:end}.dg .ln-ret{stroke:var(--ret); stroke-width:2.2; fill:none}.dg .f-paper2{fill:var(--paper-2)}.dg .no-fill{fill:none}.dg .mk-ret{fill:var(--ret)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="같은 9,900달러짜리 T-bill의 수익률이 분모, 날수, 복리라는 세 손잡이를 차례로 돌리며 4.00%에서 4.04%, 4.10%, 4.16%로 바뀐다." class="dg" height="100%" role="img" viewBox="0 0 600 404" width="100%">
+<defs><marker id="ar-f02a" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk-ret" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<!-- box 1 -->
+<rect class="f-paper2" height="64" width="220" x="30" y="18"></rect>
+<text class="t-l t-ret" x="48" y="46">4.00%</text>
+<text class="t-s t-ink2" x="48" y="68">은행 할인수익률</text>
+<text class="t-num" x="270" y="44">100 / 10,000 × 360/90</text>
+<text class="t-xs t-mute" x="270" y="66">액면 분모 · 360일 · 단리</text>
+<!-- step 1 -->
+<line class="ln-ret" marker-end="url(#ar-f02a)" x1="140" x2="140" y1="84" y2="114"></line>
+<text class="t-s t-ink2" x="160" y="104">① 분모를 액면에서 가격으로</text>
+<text class="t-num t-ret end" x="590" y="104">+0.04%p</text>
+<!-- box 2 -->
+<rect class="f-paper2" height="64" width="220" x="30" y="118"></rect>
+<text class="t-l t-ret" x="48" y="146">4.04%</text>
+<text class="t-s t-ink2" x="48" y="168">(중간 단계)</text>
+<text class="t-num" x="270" y="144">100 / 9,900 × 360/90</text>
+<text class="t-xs t-mute" x="270" y="166">가격 분모 · 360일 · 단리</text>
+<!-- step 2 -->
+<line class="ln-ret" marker-end="url(#ar-f02a)" x1="140" x2="140" y1="184" y2="214"></line>
+<text class="t-s t-ink2" x="160" y="204">② 한 해를 360일에서 365일로</text>
+<text class="t-num t-ret end" x="590" y="204">+0.06%p</text>
+<!-- box 3 -->
+<rect class="f-paper2" height="64" width="220" x="30" y="218"></rect>
+<text class="t-l t-ret" x="48" y="246">4.10%</text>
+<text class="t-s t-ink2" x="48" y="268">채권등가수익률</text>
+<text class="t-num" x="270" y="244">100 / 9,900 × 365/90</text>
+<text class="t-xs t-mute" x="270" y="266">90일 수익 1.0101%를 4.06번 더함</text>
+<!-- step 3 -->
+<line class="ln-ret" marker-end="url(#ar-f02a)" x1="140" x2="140" y1="284" y2="314"></line>
+<text class="t-s t-ink2" x="160" y="304">③ 더하지 않고 곱한다 (복리)</text>
+<text class="t-num t-ret end" x="590" y="304">+0.06%p</text>
+<!-- box 4 -->
+<rect class="f-paper2" height="64" width="220" x="30" y="318"></rect>
+<rect class="no-fill ln-ret" height="64" width="220" x="30" y="318"></rect>
+<text class="t-l t-ret" x="48" y="346">4.16%</text>
+<text class="t-s t-ink2" x="48" y="368">실효연이율 EAR</text>
+<text class="t-num" x="270" y="344">1.0101^(365/90) − 1</text>
+<text class="t-xs t-mute" x="270" y="366">90일 수익을 4.06번 곱함</text>
+</svg></svg>

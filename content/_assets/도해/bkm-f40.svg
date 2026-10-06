@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 380" width="600" height="380" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-ret{color:var(--ret)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .b{font-weight:700}.dg .t-ink2{fill:var(--ink-2)}.dg .t-ret{fill:var(--ret)}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln-time{stroke:var(--time); stroke-width:2.2; fill:none}.dg .thick{stroke-width:3.2}.dg .f-ink{fill:var(--ink)}.dg .mk-time{fill:var(--time)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="업계 통념의 섹터 순환. 저점에서 회복 초기에는 금융과 경기 소비재, 확장 후기에는 기술과 자본재, 정점 무렵에는 에너지와 원자재, 수축기에는 필수소비재와 보건과 유틸리티가 앞선다고 한다." class="dg" height="100%" role="img" viewBox="0 0 600 380" width="100%">
+<defs><marker id="ar-f17b" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk-time" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<path class="ln-time thick" d="M285.4,294.0 A105,105 0 0 1 196.0,204.6" marker-end="url(#ar-f17b)"></path>
+<path class="ln-time thick" d="M196.0,175.4 A105,105 0 0 1 285.4,86.0" marker-end="url(#ar-f17b)"></path>
+<path class="ln-time thick" d="M314.6,86.0 A105,105 0 0 1 404.0,175.4" marker-end="url(#ar-f17b)"></path>
+<path class="ln-time thick" d="M404.0,204.6 A105,105 0 0 1 314.6,294.0" marker-end="url(#ar-f17b)"></path>
+<circle class="f-ink" cx="300.0" cy="85.0" r="5"></circle>
+<text class="b mid" x="300.0" y="71.0">정점</text>
+<circle class="f-ink" cx="300.0" cy="295.0" r="5"></circle>
+<text class="b mid" x="300.0" y="321.0">저점</text>
+<text class="t-s mid t-ink2" x="300" y="184">경기순환</text>
+<text class="t-xs mid t-ink2" x="300" y="204">시계 방향으로 흐른다</text>
+<text class="b" x="40" y="250">회복 초기</text>
+<text class="t-s" x="40" y="270">금융 · 경기 소비재(내구재)</text>
+<text class="b" x="40" y="92">확장 후기</text>
+<text class="t-s" x="40" y="112">기술 · 자본재(제조)</text>
+<text class="b end" x="560" y="92">정점 무렵</text>
+<text class="t-s end" x="560" y="112">에너지 · 원자재</text>
+<text class="b end" x="560" y="250">수축</text>
+<text class="t-s end" x="560" y="270">필수소비재 · 보건 · 유틸리티</text>
+<text class="t-xs end t-ret" x="560" y="344">실측 1963–2026 수축기, 시장 대비 %p/년</text>
+<text class="t-xs end t-ret" x="560" y="362">보건 +8.8 · 비내구 +8.5 · 유틸리티 +1.7</text>
+</svg></svg>

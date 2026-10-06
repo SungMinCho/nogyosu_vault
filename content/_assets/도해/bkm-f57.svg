@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 330" width="600" height="330" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-ret{color:var(--ret)}.t-risk{color:var(--risk)}.t-time{color:var(--time)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-ret{fill:var(--ret)}.dg .t-risk{fill:var(--risk)}.dg .t-time{fill:var(--time)}.dg .halo{paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round}.dg .mid{text-anchor:middle}.dg .ln2{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .ln-risk{stroke:var(--risk); stroke-width:2.2; fill:none}.dg .ln-time{stroke:var(--time); stroke-width:2.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-paper2{fill:var(--paper-2)}.dg .f-ink-a{fill:var(--ink); fill-opacity:.08}.dg .no-fill{fill:none}.dg .mk-risk{fill:var(--risk)}.dg .mk-time{fill:var(--time)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="스와프 딜러를 가운데 둔 두 회사. 회사 A는 딜러에게 SOFR를 내고 4.58%를 받아 고정 5% 채권을 변동 SOFR+0.42%로 바꾸고, 회사 B는 딜러에게 4.62%를 내고 SOFR를 받아 변동 대출을 고정 5.42%로 바꾼다. 딜러는 SOFR 다리가 상쇄되고 0.04%를 번다." class="dg" height="100%" role="img" viewBox="0 0 600 330" width="100%">
+<defs><marker id="ar-f23b-r" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk-risk" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="ar-f23b-t" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk-time" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<rect class="f-paper2" height="60" rx="4" width="140" x="20.0" y="80.0"></rect>
+<rect class="no-fill ln2" height="60" rx="4" width="140" x="20.0" y="80.0"></rect>
+<text class="mid b" x="90" y="106">회사 A</text>
+<text class="t-xs mid t-ink2" x="90" y="125">고정 5% 채권 발행</text>
+<rect class="f-ink-a" height="60" rx="4" width="120" x="240.0" y="80.0"></rect>
+<rect class="no-fill ln2" height="60" rx="4" width="120" x="240.0" y="80.0"></rect>
+<text class="mid b" x="300" y="106">스와프 딜러</text>
+<text class="t-xs mid t-ink2" x="300" y="125">4.58 / 4.62</text>
+<rect class="f-paper2" height="60" rx="4" width="140" x="440.0" y="80.0"></rect>
+<rect class="no-fill ln2" height="60" rx="4" width="140" x="440.0" y="80.0"></rect>
+<text class="mid b" x="510" y="106">회사 B</text>
+<text class="t-xs mid t-ink2" x="510" y="125">SOFR+0.8% 대출</text>
+<line class="ln-risk" marker-end="url(#ar-f23b-r)" x1="162" x2="238" y1="96" y2="96"></line>
+<text class="t-num t-xs mid t-risk halo" x="200" y="88">SOFR</text>
+<line class="ln-time" marker-end="url(#ar-f23b-t)" x1="238" x2="162" y1="124" y2="124"></line>
+<text class="t-num t-xs mid t-time halo" x="200" y="142">4.58%</text>
+<line class="ln-risk" marker-end="url(#ar-f23b-r)" x1="362" x2="438" y1="96" y2="96"></line>
+<text class="t-num t-xs mid t-risk halo" x="400" y="88">SOFR</text>
+<line class="ln-time" marker-end="url(#ar-f23b-t)" x1="438" x2="362" y1="124" y2="124"></line>
+<text class="t-num t-xs mid t-time halo" x="400" y="142">4.62%</text>
+<rect class="f-paper2" height="40" rx="4" width="120" x="30.0" y="208.0"></rect>
+<rect class="no-fill ln2" height="40" rx="4" width="120" x="30.0" y="208.0"></rect>
+<text class="mid" x="90" y="233">채권자</text>
+<rect class="f-paper2" height="40" rx="4" width="120" x="450.0" y="208.0"></rect>
+<rect class="no-fill ln2" height="40" rx="4" width="120" x="450.0" y="208.0"></rect>
+<text class="mid" x="510" y="233">은행</text>
+<line class="ln-time" marker-end="url(#ar-f23b-t)" x1="90" x2="90" y1="142" y2="206"></line>
+<text class="t-num t-xs t-time" x="98" y="179.0">5%</text>
+<line class="ln-risk" marker-end="url(#ar-f23b-r)" x1="510" x2="510" y1="142" y2="206"></line>
+<text class="t-num t-xs t-risk" x="518" y="179.0">SOFR+0.8%</text>
+<line class="grid" x1="0" x2="600" y1="268" y2="268"></line>
+<text class="t-s mid" x="90" y="294">A의 순비용</text>
+<text class="t-num mid t-risk" x="90" y="316">SOFR + 0.42%</text>
+<text class="t-s mid" x="300" y="294">딜러의 순수입</text>
+<text class="t-num mid t-ret" x="300" y="316">0.04% = 4만 달러</text>
+<text class="t-s mid" x="510" y="294">B의 순비용</text>
+<text class="t-num mid t-time" x="510" y="316">고정 5.42%</text>
+<text class="t-s mid t-ink2" x="300" y="30">명목원금 1억 달러 — 원금은 오가지 않고 이자의 차액만 오간다</text>
+</svg></svg>

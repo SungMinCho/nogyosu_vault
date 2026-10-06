@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 390" width="600" height="390" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-ret{color:var(--ret)}.t-alarm{color:var(--alarm)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-mute{fill:var(--mute)}.dg .t-ret{fill:var(--ret)}.dg .t-alarm{fill:var(--alarm)}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln{stroke:var(--ink); stroke-width:1.5; fill:none}.dg .ln2{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .ln-mute{stroke:var(--mute); stroke-width:1.1; fill:none}.dg .ln-ret{stroke:var(--ret); stroke-width:2.2; fill:none}.dg .ln-alarm{stroke:var(--alarm); stroke-width:2.2; fill:none}.dg .thin{stroke-width:1}.dg .dash{stroke-dasharray:6 4}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .f-ret-a{fill:var(--ret); fill-opacity:.17}.dg .f-alarm-a{fill:var(--alarm); fill-opacity:.16}.dg .f-ink-a{fill:var(--ink); fill-opacity:.08}.dg .no-fill{fill:none}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="이익 5, 재투자율 0.6, 할인율 10%로 같은 세 회사. 무성장 가치 50은 셋이 같고, 재투자의 ROE가 할인율보다 크면 성장기회의 가치가 150 더해져 200, 같으면 0이라 50, 작으면 11.5가 깎여 38.5가 된다." class="dg" height="100%" role="img" viewBox="0 0 600 390" width="100%">
+<!-- 범례 -->
+<rect class="f-ink-a" height="14" width="16" x="392" y="22"></rect>
+<rect class="no-fill ln2 thin" height="14" width="16" x="392" y="22"></rect>
+<text class="t-s" x="416" y="34">무성장 가치 E₁/k</text>
+<rect class="f-ret-a" height="14" width="16" x="392" y="46"></rect>
+<rect class="no-fill ln-ret thin" height="14" width="16" x="392" y="46"></rect>
+<text class="t-s" x="416" y="58">PVGO &gt; 0</text>
+<rect class="f-alarm-a" height="14" width="16" x="392" y="70"></rect>
+<rect class="no-fill ln-alarm thin dash" height="14" width="16" x="392" y="70"></rect>
+<text class="t-s" x="416" y="82">PVGO &lt; 0</text>
+<text class="t-xs t-ink2" x="392" y="112">세 회사 모두 E₁ = 5, b = 0.6, k = 10%</text>
+<!-- 기준선 -->
+<line class="ln-mute dash" x1="96" x2="566" y1="260" y2="260"></line>
+<line class="ax" x1="96" x2="566" y1="320" y2="320"></line>
+<!-- 회사 1: ROE 15% -->
+<rect class="f-ret-a" height="180" width="100" x="120" y="80"></rect>
+<rect class="no-fill ln-ret thin" height="180" width="100" x="120" y="80"></rect>
+<rect class="f-ink-a" height="60" width="100" x="120" y="260"></rect>
+<rect class="no-fill ln2 thin" height="60" width="100" x="120" y="260"></rect>
+<text class="mid b" x="170" y="68">P₀ = 200</text>
+<text class="mid b t-ret" x="170" y="164">PVGO</text>
+<text class="mid t-num t-ret" x="170" y="186">+150</text>
+<text class="mid t-num t-ink2" x="170" y="296">50</text>
+<!-- 회사 2: ROE 10% -->
+<rect class="f-ink-a" height="60" width="100" x="280" y="260"></rect>
+<rect class="no-fill ln2 thin" height="60" width="100" x="280" y="260"></rect>
+<text class="mid t-s t-ink2" x="330" y="226">PVGO 0</text>
+<text class="mid b" x="330" y="249">P₀ = 50</text>
+<text class="mid t-num t-ink2" x="330" y="296">50</text>
+<!-- 회사 3: ROE 8% -->
+<rect class="f-ink-a" height="46" width="100" x="440" y="274"></rect>
+<rect class="f-alarm-a" height="14" width="100" x="440" y="260"></rect>
+<rect class="no-fill ln-alarm thin dash" height="14" width="100" x="440" y="260"></rect>
+<line class="ln" x1="440" x2="540" y1="274" y2="274"></line>
+<line class="ln2 thin" x1="440" x2="440" y1="274" y2="320"></line>
+<line class="ln2 thin" x1="540" x2="540" y1="274" y2="320"></line>
+<text class="mid t-s t-alarm" x="490" y="226">PVGO −11.5</text>
+<text class="mid b" x="490" y="249">P₀ = 38.5</text>
+<text class="mid t-num t-ink2" x="490" y="302">38.5</text>
+<!-- 아래 이름표 -->
+<text class="mid b t-ret" x="170" y="346">ROE 15% &gt; k</text>
+<text class="mid b" x="330" y="346">ROE 10% = k</text>
+<text class="mid b t-alarm" x="490" y="346">ROE 8% &lt; k</text>
+<text class="mid t-xs t-ink2" x="170" y="370">g 9% · P/E 40</text>
+<text class="mid t-xs t-ink2" x="330" y="370">g 6% · P/E 10</text>
+<text class="mid t-xs t-ink2" x="490" y="370">g 4.8% · P/E 7.7</text>
+<text class="end t-xs t-mute" x="92" y="264">50</text>
+</svg></svg>

@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 368" width="760" height="368" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#E6ECE9; --panel:#F2F5F3; --ink:#172120; --ink-2:#4A5755; --rule:#B6C3BF;
+  --liq:#1B6971; --liq-soft:#CFE0DE; --liq-dot:#7FA9AB;
+  --cry:#866207; --cry-soft:#EAD9A0; --cry-deep:#C9A43C;
+  --inf:#5B3D8F; --inf-soft:#DCD3EA;
+  --brk:#983B20; --brk-soft:#EFD5CB;
+  --shade:#0E1514; --on-shade:#E6ECE9;
+  --f-display:"Hahmlet","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Gowun Batang","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-latin:"Old Standard TT","Gowun Batang","Noto Serif CJK KR",serif;
+  --f-mono:"Cutive Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR","Courier New",monospace;
+  --pad:1.05rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem }.lecture{ display:contents }.hero-fig svg{ width:100%; height:auto; display:block }figure.fig{ margin:.4rem 0 .6rem }.fig-frame{ overflow-x:auto; overflow-y:hidden; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background:
+  linear-gradient(to right,var(--paper),var(--paper)) left/1.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--paper),var(--paper)) right/1.2rem 100% no-repeat local,
+  linear-gradient(to right,rgba(0,0,0,.18),rgba(0,0,0,0)) left/.7rem 100% no-repeat scroll,
+  linear-gradient(to left,rgba(0,0,0,.18),rgba(0,0,0,0)) right/.7rem 100% no-repeat scroll;
+  background-color:var(--paper) }.fig-frame svg{ display:block; width:100%; min-width:560px; height:auto }.fig svg text, .hero-fig text{ font-family:var(--f-body); fill:var(--ink) }.t{ font-size:13px }.t-s{ font-size:11px }.t-num{ font-family:var(--f-latin) !important; font-variant-numeric:tabular-nums }.t-b{ font-weight:700 }.t-mute{ fill:var(--ink-2) !important }.t-liq{ fill:var(--liq) !important }.t-cry{ fill:var(--cry) !important }.t-brk{ fill:var(--brk) !important }.halo{ paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round }.f-none{ fill:none }.f-ink{ fill:var(--ink) }.f-rule{ fill:var(--rule) }.f-liq{ fill:var(--liq) }.f-liq-soft{ fill:var(--liq-soft) }.f-cry-deep{ fill:var(--cry-deep) }.f-brk-soft{ fill:var(--brk-soft) }.s-ink{ stroke:var(--ink) }.s-mute{ stroke:var(--ink-2) }.s-rule{ stroke:var(--rule) }.s-liq{ stroke:var(--liq) }.s-cry{ stroke:var(--cry) }.s-brk{ stroke:var(--brk) }.w05{ stroke-width:.6 }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.dash{ stroke-dasharray:5 4 }.dot{ stroke-dasharray:1.5 3.5; stroke-linecap:round }.hero-fig .band:hover polygon, .hero-fig .band:focus polygon{ fill:var(--inf-soft) }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="위: 영역 1–380쪽을 쪽수에 비례한 가로 띠. 1964년 PUF판에 실린 진한 조각 셋(서론·1·2장, 3장 끝 절 7쪽, 2부 1장, 188쪽, 약 50 %), 1964년에 빠진 3장 95–157쪽(63쪽, 약 17 %, 빗금), 1989년에 처음 나온 257–380쪽(124쪽, 약 33 %, 옅게), 그리고 2권에 따로 떨어진 보충 노트 34쪽(1958 심사 직전 삭제, 1989 재수록). 아래: 연도에 비례한 연표. 1958.4.19 심사, 1964 PUF판, 1966 들뢰즈 서평, 1989.2.7 사망과 『심리적·집단적 개체화』, 2005 미용 완전판, 2013 재판, 2017 국역, 2020 영역. 1958에서 2005까지 47년, 1966에서 1989까지 23년 동안 읽힌 건 절반." height="100%" role="img" viewBox="0 0 760 368" width="100%">
+<text class="t t-b" x="20" y="22">책의 몸 — 쪽수에 비례한 띠 (영역 1–380쪽 + 2권 보충 노트)</text>
+<path class="f-none s-mute w1" d="M31,62 L31,58 L56.5,58 L56.5,62"></path>
+<text class="t-s t-mute" text-anchor="middle" x="43.7" y="52">서론</text>
+<path class="f-none s-mute w1" d="M63.3,62 L63.3,58 L294,58 L294,62"></path>
+<text class="t-s t-mute" text-anchor="middle" x="178.6" y="52">1부</text>
+<path class="f-none s-mute w1" d="M299.2,62 L299.2,58 L602.6,58 L602.6,62"></path>
+<text class="t-s t-mute" text-anchor="middle" x="450.9" y="52">2부</text>
+<path class="f-none s-mute w1" d="M606.2,62 L606.2,58 L643,58 L643,62"></path>
+<text class="t-s t-mute" text-anchor="middle" x="624.6" y="52">결론</text>
+<path class="f-none s-mute w1" d="M674.1,62 L674.1,58 L727,58 L727,62"></path>
+<text class="t-s t-mute" text-anchor="middle" x="700.5" y="52">2권</text>
+<rect class="f-rule" height="28" width="614" x="30" y="84"></rect>
+<rect class="f-cry-deep" height="28" width="151.9" x="30" y="84"></rect>
+<rect class="f-brk-soft s-brk w1" height="28" width="101.8" x="181.9" y="84"></rect>
+<line class="s-brk w1" x1="183.9" x2="192.9" y1="111" y2="85"></line>
+<line class="s-brk w1" x1="189.9" x2="198.9" y1="111" y2="85"></line>
+<line class="s-brk w1" x1="195.9" x2="204.9" y1="111" y2="85"></line>
+<line class="s-brk w1" x1="201.9" x2="210.9" y1="111" y2="85"></line>
+<line class="s-brk w1" x1="255.9" x2="264.9" y1="111" y2="85"></line>
+<line class="s-brk w1" x1="261.9" x2="270.9" y1="111" y2="85"></line>
+<line class="s-brk w1" x1="267.9" x2="276.9" y1="111" y2="85"></line>
+<rect class="f-cry-deep" height="28" width="11.3" x="283.7" y="84"></rect>
+<rect class="f-cry-deep" height="28" width="145.4" x="298.2" y="84"></rect>
+<rect class="f-liq-soft s-liq w1" height="28" width="200.4" x="443.6" y="84"></rect>
+<rect class="f-liq-soft s-brk w15 dash" height="28" width="54.9" x="673.1" y="84"></rect>
+<text class="t-s t-num t-mute" text-anchor="start" x="30" y="78">1</text>
+<text class="t-s t-num t-mute" text-anchor="middle" x="181.9" y="78">95</text>
+<text class="t-s t-num t-mute" text-anchor="middle" x="283.7" y="78">157</text>
+<text class="t-s t-num t-mute" text-anchor="middle" x="443.6" y="78">257</text>
+<text class="t-s t-num t-mute" text-anchor="middle" x="644" y="78">380</text>
+<text class="t-s t-num t-mute" text-anchor="middle" x="673.1" y="78">399</text>
+<text class="t-s t-num t-mute" text-anchor="end" x="728" y="78">432</text>
+<text class="t-s t-b t-num halo" text-anchor="middle" x="232.8" y="103">17 %</text>
+<text class="t-s t-b t-num" text-anchor="middle" x="543.8" y="103">33 %</text>
+<text class="t-s t-b" text-anchor="middle" x="105.9" y="103">진한 조각</text>
+<text class="t-s t-b" text-anchor="middle" x="370.9" y="103">진한 조각</text>
+<text class="t-s t-b t-cry" text-anchor="middle" x="105.9" y="130">1964 PUF판 수록</text>
+<text class="t-s t-mute" text-anchor="middle" x="105.9" y="145">서론 · 1 · 2장</text>
+<text class="t-s t-b t-brk" text-anchor="middle" x="232.8" y="130">1964년에 빠진 3장</text>
+<text class="t-s t-mute t-num" text-anchor="middle" x="232.8" y="145">95–157쪽 · 63쪽</text>
+<text class="t-s t-mute" text-anchor="middle" x="232.8" y="160">2005 완전판에 실림</text>
+<text class="t-s t-b t-cry" text-anchor="middle" x="370.9" y="130">1964 PUF판 수록</text>
+<text class="t-s t-mute" text-anchor="middle" x="370.9" y="145">2부 1장</text>
+<text class="t-s t-b t-liq" text-anchor="middle" x="543.8" y="130">1989 첫 출간</text>
+<text class="t-s t-mute t-num" text-anchor="middle" x="543.8" y="145">257–380쪽 · 124쪽</text>
+<text class="t-s t-b" text-anchor="middle" x="692.5" y="130">보충 노트 34쪽</text>
+<text class="t-s t-brk" text-anchor="middle" x="692.5" y="145">1958 심사 직전 삭제</text>
+<text class="t-s t-liq" text-anchor="middle" x="692.5" y="160">→ 1989 재수록</text>
+<path class="f-none s-cry w1" d="M31,175 L31,180 L180.9,180 L180.9,175"></path>
+<path class="f-none s-cry w1" d="M284.7,175 L284.7,180 L294,180 L294,175"></path>
+<path class="f-none s-cry w1" d="M299.2,175 L299.2,180 L442.6,180 L442.6,175"></path>
+<text class="t-s" x="30" y="196"><tspan class="t-b t-cry">진한 조각 셋</tspan> = 서론·1·2장 + 3장 끝 절 7쪽 + 2부 1장 = 188쪽 ≈ <tspan class="t-b t-num">50 %</tspan> — 1966년 들뢰즈가 서평한 책</text>
+<line class="s-rule w1 dot" x1="20" x2="740" y1="212" y2="212"></line>
+<text class="t t-b" x="20" y="232">47년 — 연도에 비례한 연표</text>
+<line class="s-ink w15" x1="34" x2="732" y1="316" y2="316"></line>
+<line class="s-ink w1" x1="61.9" x2="61.9" y1="316" y2="321"></line>
+<text class="t-s t-num t-mute" text-anchor="middle" x="61.9" y="333">1960</text>
+<line class="s-ink w1" x1="171.6" x2="171.6" y1="316" y2="321"></line>
+<text class="t-s t-num t-mute" text-anchor="middle" x="171.6" y="333">1970</text>
+<line class="s-ink w1" x1="281.3" x2="281.3" y1="316" y2="321"></line>
+<text class="t-s t-num t-mute" text-anchor="middle" x="281.3" y="333">1980</text>
+<line class="s-ink w1" x1="391" x2="391" y1="316" y2="321"></line>
+<text class="t-s t-num t-mute" text-anchor="middle" x="391" y="333">1990</text>
+<line class="s-ink w1" x1="500.6" x2="500.6" y1="316" y2="321"></line>
+<text class="t-s t-num t-mute" text-anchor="middle" x="500.6" y="333">2000</text>
+<line class="s-ink w1" x1="610.3" x2="610.3" y1="316" y2="321"></line>
+<text class="t-s t-num t-mute" text-anchor="middle" x="610.3" y="333">2010</text>
+<line class="s-ink w1" x1="720" x2="720" y1="316" y2="321"></line>
+<text class="t-s t-num t-mute" text-anchor="middle" x="720" y="333">2020</text>
+<line class="s-mute w05" x1="40" x2="40" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="51" x2="51" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="72.9" x2="72.9" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="83.9" x2="83.9" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="94.8" x2="94.8" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="105.8" x2="105.8" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="116.8" x2="116.8" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="127.7" x2="127.7" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="138.7" x2="138.7" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="149.7" x2="149.7" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="160.6" x2="160.6" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="182.6" x2="182.6" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="193.5" x2="193.5" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="204.5" x2="204.5" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="215.5" x2="215.5" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="226.5" x2="226.5" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="237.4" x2="237.4" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="248.4" x2="248.4" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="259.4" x2="259.4" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="270.3" x2="270.3" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="292.3" x2="292.3" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="303.2" x2="303.2" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="314.2" x2="314.2" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="325.2" x2="325.2" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="336.1" x2="336.1" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="347.1" x2="347.1" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="358.1" x2="358.1" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="369" x2="369" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="380" x2="380" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="401.9" x2="401.9" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="412.9" x2="412.9" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="423.9" x2="423.9" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="434.8" x2="434.8" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="445.8" x2="445.8" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="456.8" x2="456.8" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="467.7" x2="467.7" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="478.7" x2="478.7" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="489.7" x2="489.7" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="511.6" x2="511.6" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="522.6" x2="522.6" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="533.5" x2="533.5" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="544.5" x2="544.5" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="555.5" x2="555.5" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="566.5" x2="566.5" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="577.4" x2="577.4" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="588.4" x2="588.4" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="599.4" x2="599.4" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="621.3" x2="621.3" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="632.3" x2="632.3" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="643.2" x2="643.2" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="654.2" x2="654.2" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="665.2" x2="665.2" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="676.1" x2="676.1" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="687.1" x2="687.1" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="698.1" x2="698.1" y1="316" y2="318.5"></line>
+<line class="s-mute w05" x1="709" x2="709" y1="316" y2="318.5"></line>
+<path class="f-none s-ink w1" d="M40,256 L40,250 L555.5,250 L555.5,256"></path>
+<text class="t-s t-b" text-anchor="middle" x="357.7" y="245">1958 원고 → 2005 첫 합본 = 47년</text>
+<rect class="f-cry-deep" height="6" width="252.3" x="127.7" y="309"></rect>
+<text class="t-s t-cry" text-anchor="middle" x="253.9" y="304">1966–1989, 23년 동안 읽힌 건 절반</text>
+<line class="s-mute w05" x1="40" x2="40" y1="315" y2="278"></line>
+<circle class="f-ink" cx="40" cy="316" r="4.5"></circle>
+<text class="t-s" text-anchor="start" x="44" y="274">1958.4.19 심사</text>
+<line class="s-mute w05" x1="127.7" x2="127.7" y1="315" y2="278"></line>
+<circle class="f-cry-deep" cx="127.7" cy="316" r="4.5"></circle>
+<text class="t-s" text-anchor="start" x="131.7" y="274">1966 들뢰즈 서평 — 진한 조각만 읽음</text>
+<line class="s-mute w05" x1="380" x2="380" y1="315" y2="278"></line>
+<circle class="f-liq" cx="380" cy="316" r="4.5"></circle>
+<text class="t-s" text-anchor="start" x="384" y="274">1989.2.7 사망 · 『심리적·집단적 개체화』</text>
+<line class="s-mute w05" x1="555.5" x2="555.5" y1="315" y2="296"></line>
+<circle class="f-ink" cx="555.5" cy="316" r="4.5"></circle>
+<text class="t-s" text-anchor="end" x="551.5" y="292">2005 미용 완전판 — 처음 한 권</text>
+<line class="s-mute w05" x1="643.2" x2="643.2" y1="315" y2="278"></line>
+<circle class="f-ink" cx="643.2" cy="316" r="4.5"></circle>
+<text class="t-s" text-anchor="start" x="647.2" y="274">2013 재판</text>
+<line class="s-mute w05" x1="720" x2="720" y1="315" y2="296"></line>
+<circle class="f-ink" cx="720" cy="316" r="4.5"></circle>
+<text class="t-s" text-anchor="end" x="716" y="292">2020 영역</text>
+<line class="s-mute w05" x1="105.8" x2="105.8" y1="321" y2="344"></line>
+<circle class="f-cry-deep" cx="105.8" cy="316" r="4.5"></circle>
+<text class="t-s" text-anchor="middle" x="105.8" y="358">1964 PUF판</text>
+<line class="s-mute w05" x1="687.1" x2="687.1" y1="321" y2="344"></line>
+<circle class="f-ink" cx="687.1" cy="316" r="4.5"></circle>
+<text class="t-s" text-anchor="middle" x="687.1" y="358">2017 국역</text>
+</svg></svg>

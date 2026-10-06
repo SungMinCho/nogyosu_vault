@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 280" width="760" height="280" class="frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#E8EBE7; --paper:#F4F6F2; --ink:#1B2230; --ink-2:#3A4352; --muted:#5C6572; --line:#C2C8C0;
+  --rot:#2B4A99; --rot-soft:#DCE3F3; --spike:#B0392A; --spike-soft:#F2DAD4;
+  --grid:#8A5D0B; --grid-soft:#F0E4C8; --pos:#08705F; --pos-soft:#D2EAE4; --doubt:#7A3566; --doubt-soft:#EEDCE8;
+  --tile-m:#F4F6F2; --c-nv:#8A5D0B; --c-mx:#2B4A99;
+  --f-body:"Literata","Noto Serif KR","Nanum Myeongjo",Georgia,serif;
+  --f-disp:"Black Han Sans","Noto Serif KR","Apple SD Gothic Neo",sans-serif;
+  --f-mono:"DM Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  --f-dg:"Gowun Dodum","Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#11151B; --paper:#18202A; --ink:#E3E7EC; --ink-2:#C4CAD3; --muted:#98A2AE; --line:#2F3946;
+    --rot:#8DA7EE; --rot-soft:#1E2944; --spike:#EE7C6B; --spike-soft:#3A211D; --grid:#DCA84C; --grid-soft:#342A12;
+    --pos:#4CC4B2; --pos-soft:#11302B; --doubt:#D588BF; --doubt-soft:#33202E; --tile-m:#18202A; --c-nv:#B8872F; --c-mx:#6F8AD6;
+  }}:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#11151B; --paper:#18202A; --ink:#E3E7EC; --ink-2:#C4CAD3; --muted:#98A2AE; --line:#2F3946;
+  --rot:#8DA7EE; --rot-soft:#1E2944; --spike:#EE7C6B; --spike-soft:#3A211D; --grid:#DCA84C; --grid-soft:#342A12;
+  --pos:#4CC4B2; --pos-soft:#11302B; --doubt:#D588BF; --doubt-soft:#33202E; --tile-m:#18202A; --c-nv:#B8872F; --c-mx:#6F8AD6;
+}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.5rem 4rem }.lecture{ display:contents }.fig{ margin:.4rem 0 .2rem }.frame{ overflow-x:auto; -webkit-overflow-scrolling:touch; border-radius:3px;
+  background:
+    linear-gradient(to right, var(--bg) 30%, transparent) left center / 24px 100% no-repeat local,
+    linear-gradient(to left, var(--bg) 30%, transparent) right center / 24px 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.18), transparent) left center / 10px 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.18), transparent) right center / 10px 100% no-repeat scroll; }.frame:focus-visible{ outline:2px solid var(--rot) }.dg{ width:100%; height:auto; display:block; font-family:var(--f-dg) }.dg text{ font-size:12px; fill:var(--ink) }.dg .t-s{ font-size:10.5px }.dg .t-b{ font-weight:700 }.dg .t-mono{ font-family:var(--f-mono); font-size:11.5px }.dg .t-mut{ fill:var(--muted) }.dg .t-pos{ fill:var(--pos) }.dg .f-pos{ fill:var(--pos) }.dg .bar-nv{ fill:var(--c-nv) }.dg .bar-mx{ fill:var(--c-mx) }.dg .t-nv{ fill:var(--c-nv) }.dg .t-mx{ fill:var(--c-mx) }.lecture > .frame{ max-width:var(--wide) }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="분산이 같아도 균일 분포는 2비트 균일 양자화 오차가 0.063, 가우시안은 0.118, 라플라스는 0.196이다" class="dg" height="100%" role="img" style="" viewBox="0 0 760 280" width="100%"><text class="t-s t-b t-pos" text-anchor="end" x="190" y="76">균일 · 첨도 1.8</text><rect class="f-pos" height="24" rx="0" width="119.7" x="200" y="60"></rect><text class="t-s t-mono t-b" text-anchor="start" x="327.7" y="77">0.063</text><text class="t-s t-b t-mx" text-anchor="end" x="190" y="126">가우시안 · 3</text><rect class="bar-mx" height="24" rx="0" width="224.2" x="200" y="110"></rect><text class="t-s t-mono t-b" text-anchor="start" x="432.2" y="127">0.118  (1.9배)</text><text class="t-s t-b t-nv" text-anchor="end" x="190" y="176">라플라스 · 6</text><rect class="bar-nv" height="24" rx="0" width="372.4" x="200" y="160"></rect><text class="t-s t-mono t-b" text-anchor="start" x="580.4" y="177">0.196  (3.1배)</text><text class="t-s t-mut" text-anchor="start" x="200" y="34">같은 분산, 격자점 4개(2비트) 균일 양자화의 평균 제곱 오차</text><text class="t-s t-b" text-anchor="start" x="30" y="240">RCP: LayerNorm 융합 + 무작위 하다마드 뒤 가중치의 평균 첨도 ≈ 1 → 3.75.</text><text class="t-s t-mut" text-anchor="start" x="30" y="260">꼬리 얇던 가중치가 가우시안 쪽으로 끌려가면, 2비트 균일 격자에서는 오차가 커진다.</text></svg></svg>

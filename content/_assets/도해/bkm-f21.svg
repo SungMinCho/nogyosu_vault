@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 352" width="600" height="352" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-ret{color:var(--ret)}.t-risk{color:var(--risk)}.t-alarm{color:var(--alarm)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-ret{fill:var(--ret)}.dg .t-risk{fill:var(--risk)}.dg .t-alarm{fill:var(--alarm)}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln-mute{stroke:var(--mute); stroke-width:1.1; fill:none}.dg .ln-ret{stroke:var(--ret); stroke-width:2.2; fill:none}.dg .ln-alarm{stroke:var(--alarm); stroke-width:2.2; fill:none}.dg .dash{stroke-dasharray:6 4}.dg .dot{stroke-dasharray:1.6 3.6; stroke-linecap:round}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-ink{fill:var(--ink)}.dg .f-ret{fill:var(--ret)}.dg .f-alarm{fill:var(--alarm)}.dg .no-fill{fill:none}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="1963년 7월부터 2026년 8월까지 베타 5분위 포트폴리오의 평균 초과수익률은 베타와 함께 오르지만, CAPM이 예측한 기울기 7.22보다 훨씬 완만한 3.96의 기울기로 오른다. 베타가 낮은 쪽은 예측보다 더 벌고 높은 쪽은 덜 번다." class="dg" height="100%" role="img" viewBox="0 0 600 352" width="100%">
+<line class="grid" x1="70" x2="570.0" y1="300.0" y2="300.0"></line>
+<text class="t-num end t-ink2" x="62" y="304.5">0</text>
+<line class="grid" x1="70" x2="570.0" y1="235.0" y2="235.0"></line>
+<text class="t-num end t-ink2" x="62" y="239.5">3</text>
+<line class="grid" x1="70" x2="570.0" y1="170.0" y2="170.0"></line>
+<text class="t-num end t-ink2" x="62" y="174.5">6</text>
+<line class="grid" x1="70" x2="570.0" y1="105.0" y2="105.0"></line>
+<text class="t-num end t-ink2" x="62" y="109.5">9</text>
+<line class="grid" x1="70" x2="570.0" y1="40.0" y2="40.0"></line>
+<text class="t-num end t-ink2" x="62" y="44.5">12</text>
+<path class="ax" d="M70,27.0 V300 H570.0"></path>
+<line class="ax" x1="70.0" x2="70.0" y1="300" y2="305"></line>
+<text class="t-num mid t-ink2" x="70.0" y="321">0</text>
+<line class="ax" x1="208.9" x2="208.9" y1="300" y2="305"></line>
+<text class="t-num mid t-ink2" x="208.9" y="321">0.5</text>
+<line class="ax" x1="347.8" x2="347.8" y1="300" y2="305"></line>
+<text class="t-num mid t-ink2" x="347.8" y="321">1</text>
+<line class="ax" x1="486.7" x2="486.7" y1="300" y2="305"></line>
+<text class="t-num mid t-ink2" x="486.7" y="321">1.5</text>
+<text class="t-s end t-risk" x="570.0" y="344">사후 베타 β (가치가중, 월간 회귀)</text>
+<text class="t-xs t-ret" x="62" y="17.0">연평균 초과수익 %</text>
+<line class="ln-ret" x1="70.0" x2="531.1" y1="300.0" y2="40.3"></line>
+<line class="ln-alarm dash" x1="70.0" x2="547.8" y1="214.4" y2="66.8"></line>
+<line class="ln-mute dot" x1="252.8" x2="252.8" y1="161.3" y2="197.1"></line>
+<line class="ln-mute dot" x1="322.5" x2="322.5" y1="132.7" y2="157.8"></line>
+<line class="ln-mute dot" x1="363.6" x2="363.6" y1="126.0" y2="134.6"></line>
+<line class="ln-mute dot" x1="410.3" x2="410.3" y1="103.2" y2="108.3"></line>
+<line class="ln-mute dot" x1="486.7" x2="486.7" y1="89.8" y2="65.3"></line>
+<circle class="no-fill ln-mute" cx="235.0" cy="152.7" r="3"></circle>
+<circle class="no-fill ln-mute" cx="269.2" cy="163.3" r="3"></circle>
+<circle class="no-fill ln-mute" cx="304.2" cy="140.8" r="3"></circle>
+<circle class="no-fill ln-mute" cx="341.1" cy="118.8" r="3"></circle>
+<circle class="no-fill ln-mute" cx="351.9" cy="134.7" r="3"></circle>
+<circle class="no-fill ln-mute" cx="375.6" cy="122.4" r="3"></circle>
+<circle class="no-fill ln-mute" cx="395.0" cy="126.9" r="3"></circle>
+<circle class="no-fill ln-mute" cx="426.1" cy="86.3" r="3"></circle>
+<circle class="no-fill ln-mute" cx="459.4" cy="71.2" r="3"></circle>
+<circle class="no-fill ln-mute" cx="515.6" cy="112.2" r="3"></circle>
+<circle class="f-ink" cx="252.8" cy="161.3" r="5.5"></circle>
+<circle class="f-ink" cx="322.5" cy="132.7" r="5.5"></circle>
+<circle class="f-ink" cx="363.6" cy="126.0" r="5.5"></circle>
+<circle class="f-ink" cx="410.3" cy="103.2" r="5.5"></circle>
+<circle class="f-ink" cx="486.7" cy="89.8" r="5.5"></circle>
+<circle class="f-ret" cx="347.8" cy="143.5" r="5"></circle>
+<text class="t-xs t-ret" x="357.8" y="162.5">시장 (1, 7.22)</text>
+<circle class="f-alarm" cx="70.0" cy="214.4" r="3.5"></circle>
+<text class="t-xs t-alarm" x="82.0" y="236.4">β=0에서 3.95%</text>
+<line class="ln-ret" x1="86.7" x2="116.7" y1="50.2" y2="50.2"></line>
+<text class="t-s t-ret" x="124.7" y="55.2">CAPM 예측 — 기울기 7.22</text>
+<line class="ln-alarm dash" x1="86.7" x2="116.7" y1="76.2" y2="76.2"></line>
+<text class="t-s t-alarm" x="124.7" y="81.2">실현 — 기울기 3.96</text>
+<circle class="f-ink" cx="94.7" cy="101.2" r="5"></circle>
+<text class="t-xs t-ink2" x="124.7" y="106.2">5분위</text>
+<circle class="no-fill ln-mute" cx="178.7" cy="101.2" r="3"></circle>
+<text class="t-xs t-ink2" x="188.7" y="106.2">10분위</text>
+</svg></svg>

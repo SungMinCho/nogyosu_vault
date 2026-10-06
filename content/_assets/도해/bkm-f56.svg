@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 362" width="600" height="362" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-time{color:var(--time)}.t-alarm{color:var(--alarm)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .t-l{font-size:17px; font-weight:700}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-time{fill:var(--time)}.dg .t-alarm{fill:var(--alarm)}.dg .halo{paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln{stroke:var(--ink); stroke-width:1.5; fill:none}.dg .ln2{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .ln-time{stroke:var(--time); stroke-width:2.2; fill:none}.dg .dash{stroke-dasharray:6 4}.dg .f-paper2{fill:var(--paper-2)}.dg .no-fill{fill:none}.dg .mk{fill:var(--ink)}.dg .mk-time{fill:var(--time)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="무위험 이자 차익의 네 다리. 원화를 빌려 현물로 달러를 사고 4.5%에 예금한 뒤 선도로 원화로 되판다. 선도 환율이 1,390원이면 1년 뒤 14,525,500원이 되어 갚을 돈 14,350,000원보다 175,500원이 남는다." class="dg" height="100%" role="img" viewBox="0 0 600 362" width="100%">
+<defs><marker id="ar-f23a" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="ar-f23a-t" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk-time" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<text class="t-l mid" x="150" y="26">원화</text>
+<text class="t-l mid" x="450" y="26">달러</text>
+<text class="b" x="8" y="75">오늘</text>
+<text class="b" x="8" y="255">1년 뒤</text>
+<rect class="f-paper2" height="48" rx="4" width="156" x="72" y="46"></rect>
+<rect class="no-fill ln2" height="48" rx="4" width="156" x="72" y="46"></rect>
+<text class="t-num mid" x="150" y="67">14,000,000원</text>
+<text class="t-xs mid t-ink2" x="150" y="86">① 빌린 돈</text>
+<rect class="f-paper2" height="48" rx="4" width="156" x="372" y="46"></rect>
+<rect class="no-fill ln2" height="48" rx="4" width="156" x="372" y="46"></rect>
+<text class="t-num mid" x="450" y="67">10,000달러</text>
+<text class="t-xs mid t-ink2" x="450" y="86">② 현물 1,400원</text>
+<rect class="f-paper2" height="48" rx="4" width="156" x="372" y="226"></rect>
+<rect class="no-fill ln2" height="48" rx="4" width="156" x="372" y="226"></rect>
+<text class="t-num mid" x="450" y="247">10,450달러</text>
+<text class="t-xs mid t-ink2" x="450" y="266">③ 4.5% 예금</text>
+<rect class="f-paper2" height="78" rx="4" width="156" x="72" y="220"></rect>
+<rect class="no-fill ln2" height="78" rx="4" width="156" x="72" y="220"></rect>
+<text class="t-num mid" x="150" y="242">14,525,500원</text>
+<text class="t-xs mid t-ink2" x="150" y="260">④ 1,390원 선도 매도</text>
+<text class="t-num mid t-time" x="150" y="288">− 14,350,000</text>
+<line class="ln" marker-end="url(#ar-f23a)" x1="230" x2="368" y1="70" y2="70"></line>
+<text class="t-s mid halo" x="300" y="62">원 → 달러 (현물)</text>
+<line class="ln-time" marker-end="url(#ar-f23a-t)" x1="450" x2="450" y1="96" y2="222"></line>
+<text class="t-s t-time" x="460" y="165.0">× 1.045</text>
+<line class="ln" marker-end="url(#ar-f23a)" x1="370" x2="232" y1="250" y2="250"></line>
+<text class="t-s mid halo" x="300" y="242">달러 → 원 (선도)</text>
+<line class="ln-time dash" marker-end="url(#ar-f23a-t)" x1="150" x2="150" y1="96" y2="216"></line>
+<text class="t-s end t-time" x="140" y="156.0">× 1.025</text>
+<text class="t-xs end t-time" x="140" y="174.0">갚을 돈</text>
+<text class="t-num mid" x="300" y="326">남는 돈 = 14,525,500 − 14,350,000 = <tspan class="t-alarm b">+175,500원</tspan></text>
+<text class="t-xs mid t-ink2" x="300" y="348">선도가 1,373.21원이면 두 길이 같은 14,350,000원에 닿아 남는 돈이 0</text>
+</svg></svg>

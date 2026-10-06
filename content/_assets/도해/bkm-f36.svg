@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 340" width="600" height="340" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-risk{color:var(--risk)}.t-time{color:var(--time)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-l{font-size:17px; font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-risk{fill:var(--risk)}.dg .t-time{fill:var(--time)}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln{stroke:var(--ink); stroke-width:1.5; fill:none}.dg .ln2{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .thick{stroke-width:3.2}.dg .f-mute{fill:var(--mute)}.dg .f-risk{fill:var(--risk)}.dg .f-time{fill:var(--time)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="공통 채권의 현금흐름 스무 개를 현재가치를 무게로 삼아 시간 널빤지 위에 얹으면, 널빤지가 수평을 이루는 받침점이 7.99년이다. 이것이 매컬리 듀레이션이다." class="dg" height="100%" role="img" viewBox="0 0 600 340" width="100%">
+<line class="ln thick" x1="40" x2="580" y1="250" y2="250"></line>
+<rect class="f-time" height="7.2" width="16" x="77.0" y="241.2"></rect>
+<rect class="f-time" height="7.0" width="16" x="102.0" y="241.4"></rect>
+<rect class="f-time" height="6.9" width="16" x="127.0" y="241.5"></rect>
+<rect class="f-time" height="6.7" width="16" x="152.0" y="241.7"></rect>
+<rect class="f-time" height="6.5" width="16" x="177.0" y="241.9"></rect>
+<rect class="f-time" height="6.4" width="16" x="202.0" y="242.0"></rect>
+<rect class="f-time" height="6.2" width="16" x="227.0" y="242.2"></rect>
+<rect class="f-time" height="6.1" width="16" x="252.0" y="242.3"></rect>
+<rect class="f-time" height="5.9" width="16" x="277.0" y="242.5"></rect>
+<rect class="f-time" height="5.8" width="16" x="302.0" y="242.6"></rect>
+<rect class="f-time" height="5.6" width="16" x="327.0" y="242.8"></rect>
+<rect class="f-time" height="5.5" width="16" x="352.0" y="242.9"></rect>
+<rect class="f-time" height="5.4" width="16" x="377.0" y="243.0"></rect>
+<rect class="f-time" height="5.2" width="16" x="402.0" y="243.2"></rect>
+<rect class="f-time" height="5.1" width="16" x="427.0" y="243.3"></rect>
+<rect class="f-time" height="5.0" width="16" x="452.0" y="243.4"></rect>
+<rect class="f-time" height="4.9" width="16" x="477.0" y="243.5"></rect>
+<rect class="f-time" height="4.7" width="16" x="502.0" y="243.7"></rect>
+<rect class="f-time" height="4.6" width="16" x="527.0" y="243.8"></rect>
+<rect class="f-mute" height="180.5" width="16" x="552.0" y="67.9"></rect>
+<rect class="f-time" height="4.5" width="16" x="552.0" y="63.4"></rect>
+<path class="ln2" d="M77.0,228 L77.0,222 L543.0,222 L543.0,228"></path>
+<text class="t-s mid" x="310.0" y="192">이표 25 × 20번</text>
+<text class="t-s mid t-time" x="310.0" y="212">현재가치 합 389.73 · 39%</text>
+<text class="t-s end" x="544" y="78">원금 1,000의 현재가치</text>
+<text class="t-s end" x="544" y="98">610.27 · 61%</text>
+<path class="f-risk" d="M459.5,252 L439.5,292 L479.5,292 z"></path>
+<text class="t-l mid t-risk" x="459.5" y="316">받침점 = 듀레이션 7.99년</text>
+<text class="t-num mid t-ink2" x="60" y="274">0</text>
+<text class="t-num mid t-ink2" x="560" y="274">10년</text>
+<text class="t-s t-ink2" x="40" y="30">상자의 무게 = 그날 받을 돈의 현재가치</text>
+</svg></svg>

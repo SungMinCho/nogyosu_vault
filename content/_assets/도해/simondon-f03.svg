@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 440" width="720" height="440" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#E6ECE9; --panel:#F2F5F3; --ink:#172120; --ink-2:#4A5755; --rule:#B6C3BF;
+  --liq:#1B6971; --liq-soft:#CFE0DE; --liq-dot:#7FA9AB;
+  --cry:#866207; --cry-soft:#EAD9A0; --cry-deep:#C9A43C;
+  --inf:#5B3D8F; --inf-soft:#DCD3EA;
+  --brk:#983B20; --brk-soft:#EFD5CB;
+  --shade:#0E1514; --on-shade:#E6ECE9;
+  --f-display:"Hahmlet","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Gowun Batang","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-latin:"Old Standard TT","Gowun Batang","Noto Serif CJK KR",serif;
+  --f-mono:"Cutive Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR","Courier New",monospace;
+  --pad:1.05rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem }.lecture{ display:contents }.hero-fig svg{ width:100%; height:auto; display:block }figure.fig{ margin:.4rem 0 .6rem }.fig-frame{ overflow-x:auto; overflow-y:hidden; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background:
+  linear-gradient(to right,var(--paper),var(--paper)) left/1.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--paper),var(--paper)) right/1.2rem 100% no-repeat local,
+  linear-gradient(to right,rgba(0,0,0,.18),rgba(0,0,0,0)) left/.7rem 100% no-repeat scroll,
+  linear-gradient(to left,rgba(0,0,0,.18),rgba(0,0,0,0)) right/.7rem 100% no-repeat scroll;
+  background-color:var(--paper) }.fig-frame svg{ display:block; width:100%; min-width:560px; height:auto }.fig svg text, .hero-fig text{ font-family:var(--f-body); fill:var(--ink) }.t{ font-size:13px }.t-s{ font-size:11px }.t-l{ font-size:15px; font-weight:700 }.t-b{ font-weight:700 }.t-mute{ fill:var(--ink-2) !important }.t-cry{ fill:var(--cry) !important }.t-inf{ fill:var(--inf) !important }.t-brk{ fill:var(--brk) !important }.f-none{ fill:none }.f-paper{ fill:var(--paper) }.f-panel{ fill:var(--panel) }.f-ink{ fill:var(--ink) }.f-cry-soft{ fill:var(--cry-soft) }.f-cry-deep{ fill:var(--cry-deep) }.f-inf{ fill:var(--inf) }.f-brk{ fill:var(--brk) }.s-ink{ stroke:var(--ink) }.s-mute{ stroke:var(--ink-2) }.s-rule{ stroke:var(--rule) }.s-cry{ stroke:var(--cry) }.s-inf{ stroke:var(--inf) }.s-brk{ stroke:var(--brk) }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.w3{ stroke-width:3 }.dash{ stroke-dasharray:5 4 }.dot{ stroke-dasharray:1.5 3.5; stroke-linecap:round }.round{ stroke-linecap:round; stroke-linejoin:round }.op5{ opacity:.5 }.op7{ opacity:.72 }.hero-fig .band:hover polygon, .hero-fig .band:focus polygon{ fill:var(--inf-soft) }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="세 칸. 연역에서는 영역 바깥 위에서 원리 하나가 떨어져 영역을 같은 꼴로 채운다. 귀납에서는 모양이 다른 다섯 항 가운데 모두가 겹치는 작은 공통부분만 남고 나머지 독특함은 버려져 정보가 손실된다. 변환에서는 영역 안 한 점 씨앗에서 층이 겹겹이 번지고, 처음 다섯 항이 지워지지 않고 층 속에 다 들어 있어 정보가 보존된다. 아래 띠는 왼눈과 오른눈의 평면 그림이 포개지지 않고 어긋나다가, 깊이라는 새 축이 솟아 그 어긋남을 해답의 재료로 삼는 모습이다." height="100%" role="img" viewBox="0 0 720 440" width="100%">
+<defs>
+<marker id="f03-ar-ink" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f03-ar-brk" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-brk" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f03-ar-inf" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-inf" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 연역 -->
+<text class="t-l" x="40" y="22">연역</text>
+<rect class="f-ink" height="16" width="16" x="117" y="30"></rect>
+<text class="t-s" x="141" y="43">원리</text>
+<line class="s-ink w15" marker-end="url(#f03-ar-ink)" x1="125" x2="125" y1="50" y2="78"></line>
+<rect class="f-panel s-ink w1" height="130" width="170" x="40" y="80"></rect>
+<rect class="f-none s-ink w1" height="12" width="12" x="51" y="96"></rect>
+<rect class="f-none s-ink w1" height="12" width="12" x="51" y="125"></rect>
+<rect class="f-none s-ink w1" height="12" width="12" x="51" y="154"></rect>
+<rect class="f-none s-ink w1" height="12" width="12" x="51" y="183"></rect>
+<rect class="f-none s-ink w1" height="12" width="12" x="85" y="96"></rect>
+<rect class="f-none s-ink w1" height="12" width="12" x="85" y="125"></rect>
+<rect class="f-none s-ink w1" height="12" width="12" x="85" y="154"></rect>
+<rect class="f-none s-ink w1" height="12" width="12" x="85" y="183"></rect>
+<rect class="f-none s-ink w1" height="12" width="12" x="153" y="96"></rect>
+<rect class="f-none s-ink w1" height="12" width="12" x="153" y="125"></rect>
+<rect class="f-none s-ink w1" height="12" width="12" x="153" y="154"></rect>
+<rect class="f-none s-ink w1" height="12" width="12" x="153" y="183"></rect>
+<rect class="f-none s-ink w1" height="12" width="12" x="187" y="96"></rect>
+<rect class="f-none s-ink w1" height="12" width="12" x="187" y="125"></rect>
+<rect class="f-none s-ink w1" height="12" width="12" x="187" y="154"></rect>
+<rect class="f-none s-ink w1" height="12" width="12" x="187" y="183"></rect>
+<rect class="f-none s-ink w1" height="12" width="12" x="119" y="96"></rect>
+<rect class="f-none s-ink w1" height="12" width="12" x="119" y="125"></rect>
+<rect class="f-none s-ink w1" height="12" width="12" x="119" y="154"></rect>
+<rect class="f-none s-ink w1" height="12" width="12" x="119" y="183"></rect>
+<text class="t-s t-b" text-anchor="middle" x="125" y="232">원리를 바깥에서</text>
+<text class="t-s t-mute" text-anchor="middle" x="125" y="248">영역은 같은 꼴로 채워질 뿐</text>
+<!-- 귀납 -->
+<text class="t-l" x="275" y="22">귀납</text>
+<rect class="f-panel s-ink w1" height="130" width="170" x="275" y="80"></rect>
+<circle class="f-none s-mute w1 dash op7" cx="322.0" cy="128.0" r="46.0"></circle>
+<polygon class="f-none s-mute w1 dash op7" points="372.0,88.0 432.0,196.0 318.0,172.0"></polygon>
+<rect class="f-none s-mute w1 dash op7" height="66.0" width="84.0" x="350.0" y="134.0"></rect>
+<ellipse class="f-none s-mute w1 dash op7" cx="394.0" cy="146.0" rx="50.0" ry="20.0"></ellipse>
+<polygon class="f-none s-mute w1 dash op7" points="290.0,150.0 318.0,96.0 366.0,98.0 378.0,150.0 340.0,186.0"></polygon>
+<polygon class="f-cry-deep s-cry w15" points="350.0,137.0 351.5,135.5 354.0,134.0 367.5,134.0 367.5,134.5 367.0,137.5 366.5,139.5 364.5,145.5 361.5,151.5 359.5,154.5 358.0,156.5 356.0,158.5 355.0,158.5 354.0,158.0 351.5,156.5 350.0,155.0"></polygon>
+<text class="t-s t-b t-cry" text-anchor="middle" x="360" y="232">모두에 공통된 것만 남김</text>
+<text class="t-s t-brk" text-anchor="middle" x="360" y="248">버려진 독특함 = 정보 손실</text>
+<line class="s-brk w1" marker-end="url(#f03-ar-brk)" x1="286" x2="292" y1="242" y2="167"></line>
+<!-- 변환 -->
+<text class="t-l" x="510" y="22">변환</text>
+<rect class="f-panel s-ink w1" height="130" width="170" x="510" y="80"></rect>
+<polygon class="f-cry-soft s-cry w2" points="646.6,176.1 586.0,206.2 525.4,176.1 525.4,115.9 586.0,85.8 646.6,115.9"></polygon>
+<polygon class="f-paper s-cry w1" points="634.5,170.1 586.0,194.2 537.5,170.1 537.5,121.9 586.0,97.8 634.5,121.9"></polygon>
+<polygon class="f-cry-soft s-cry w1" points="622.4,164.1 586.0,182.1 549.6,164.1 549.6,127.9 586.0,109.9 622.4,127.9"></polygon>
+<polygon class="f-paper s-cry w1" points="610.2,158.0 586.0,170.1 561.8,158.0 561.8,134.0 586.0,121.9 610.2,134.0"></polygon>
+<polygon class="f-cry-soft s-cry w1" points="598.1,152.0 586.0,158.0 573.9,152.0 573.9,140.0 586.0,134.0 598.1,140.0"></polygon>
+<circle class="f-none s-ink w15" cx="550.0" cy="126.0" r="12.4"></circle>
+<polygon class="f-none s-ink w15" points="621.5,106.7 637.7,135.9 606.9,129.4"></polygon>
+<rect class="f-none s-ink w15" height="17.8" width="22.7" x="612.7" y="159.1"></rect>
+<ellipse class="f-none s-ink w15" cx="550.0" cy="170.0" rx="13.5" ry="5.4"></ellipse>
+<polygon class="f-none s-ink w15" points="572.9,193.8 580.5,179.2 593.5,179.7 596.7,193.8 586.4,203.5"></polygon>
+<polygon class="f-inf" points="586,140 592,146 586,152 580,146"></polygon>
+<text class="t-s t-b t-cry" text-anchor="middle" x="595" y="232"><tspan class="t-inf">씨앗</tspan>에서 층이 번짐</text>
+<text class="t-s" text-anchor="middle" x="595" y="248">처음 항들이 층 속에 다 있음 = 정보 보존</text>
+<line class="s-rule w1 dot" x1="20" x2="700" y1="268" y2="268"></line>
+<rect class="f-panel s-ink w1" height="60" width="110" x="40" y="292"></rect>
+<rect class="f-none s-ink w15" height="14" width="14" x="68" y="315"></rect>
+<circle class="f-ink" cx="118" cy="322" r="9"></circle>
+<text class="t-s" text-anchor="middle" x="95" y="374">왼눈 그림</text>
+<text class="t-l t-mute" text-anchor="middle" x="170" y="328">+</text>
+<rect class="f-panel s-ink w1" height="60" width="110" x="190" y="292"></rect>
+<rect class="f-none s-ink w15" height="14" width="14" x="218" y="315"></rect>
+<circle class="f-ink" cx="254" cy="322" r="9"></circle>
+<text class="t-s" text-anchor="middle" x="245" y="374">오른눈 그림</text>
+<text class="t-l t-mute" text-anchor="middle" x="320" y="328">=</text>
+<rect class="f-panel s-ink w1" height="60" width="110" x="340" y="292"></rect>
+<rect class="f-none s-ink w15" height="14" width="14" x="368" y="315"></rect>
+<circle class="f-ink op5" cx="404" cy="322" r="9"></circle>
+<circle class="f-none s-ink w15" cx="418" cy="322" r="9"></circle>
+<text class="t-s" text-anchor="middle" x="395" y="374">포개지지 않음</text>
+<line class="s-inf w15" marker-end="url(#f03-ar-inf)" x1="456" x2="512" y1="322" y2="322"></line>
+<text class="t-s t-inf" text-anchor="middle" x="484" y="312">새 축을 세움</text>
+<line class="s-mute w1" x1="540" x2="672" y1="345" y2="345"></line>
+<line class="s-mute w1" x1="540" x2="540" y1="345" y2="290"></line>
+<line class="s-inf w3 round" marker-end="url(#f03-ar-inf)" x1="540" x2="626" y1="345" y2="288"></line>
+<circle class="f-ink" cx="566" cy="328" r="9"></circle>
+<rect class="f-none s-ink w15" height="12" width="12" x="603" y="296"></rect>
+<text class="t t-b t-inf" x="634" y="290">깊이</text>
+<text class="t-s" text-anchor="middle" x="606" y="374">둘을 한꺼번에 설명</text>
+<text class="t t-b t-inf" text-anchor="middle" x="360" y="406">어긋남이 해답의 재료가 된다</text>
+<text class="t-s t-mute" text-anchor="middle" x="360" y="426">1 m 앞 1.5 mm의 깊이 차 = 두 그림 사이 약 20″의 어긋남. 어느 그림에도 깊이는 없다</text>
+</svg></svg>

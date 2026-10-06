@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 300" width="720" height="300" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#E6ECE9; --panel:#F2F5F3; --ink:#172120; --ink-2:#4A5755; --rule:#B6C3BF;
+  --liq:#1B6971; --liq-soft:#CFE0DE; --liq-dot:#7FA9AB;
+  --cry:#866207; --cry-soft:#EAD9A0; --cry-deep:#C9A43C;
+  --inf:#5B3D8F; --inf-soft:#DCD3EA;
+  --brk:#983B20; --brk-soft:#EFD5CB;
+  --shade:#0E1514; --on-shade:#E6ECE9;
+  --f-display:"Hahmlet","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Gowun Batang","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-latin:"Old Standard TT","Gowun Batang","Noto Serif CJK KR",serif;
+  --f-mono:"Cutive Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR","Courier New",monospace;
+  --pad:1.05rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem }.lecture{ display:contents }.hero-fig svg{ width:100%; height:auto; display:block }figure.fig{ margin:.4rem 0 .6rem }.fig-frame{ overflow-x:auto; overflow-y:hidden; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background:
+  linear-gradient(to right,var(--paper),var(--paper)) left/1.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--paper),var(--paper)) right/1.2rem 100% no-repeat local,
+  linear-gradient(to right,rgba(0,0,0,.18),rgba(0,0,0,0)) left/.7rem 100% no-repeat scroll,
+  linear-gradient(to left,rgba(0,0,0,.18),rgba(0,0,0,0)) right/.7rem 100% no-repeat scroll;
+  background-color:var(--paper) }.fig-frame svg{ display:block; width:100%; min-width:560px; height:auto }.fig svg text, .hero-fig text{ font-family:var(--f-body); fill:var(--ink) }.t{ font-size:13px }.t-s{ font-size:11px }.t-b{ font-weight:700 }.t-mute{ fill:var(--ink-2) !important }.t-liq{ fill:var(--liq) !important }.t-cry{ fill:var(--cry) !important }.t-inf{ fill:var(--inf) !important }.halo{ paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round }.f-none{ fill:none }.f-ink{ fill:var(--ink) }.f-liq{ fill:var(--liq) }.f-cry{ fill:var(--cry) }.f-inf{ fill:var(--inf) }.s-ink{ stroke:var(--ink) }.s-mute{ stroke:var(--ink-2) }.s-rule{ stroke:var(--rule) }.s-cry{ stroke:var(--cry) }.s-inf{ stroke:var(--inf) }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.dash{ stroke-dasharray:5 4 }.dot{ stroke-dasharray:1.5 3.5; stroke-linecap:round }.round{ stroke-linecap:round; stroke-linejoin:round }.op5{ opacity:.5 }.hero-fig .band:hover polygon, .hero-fig .band:focus polygon{ fill:var(--inf-soft) }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="퍼텐셜 지형 위의 공 넷. 평평한 데의 무차별 평형, 봉우리의 불안정 평형, 맨 밑 골짜기의 안정 평형은 고대인도 알았다. 중턱 웅덩이에 장벽을 사이에 두고 머무는 준안정 평형만 몰랐다. 씨앗 하나가 장벽을 넘게 하면 공은 아래 골짜기로 떨어지며 품고 있던 퍼텐셜을 내놓는다. 오른쪽은 웅덩이에서 웅덩이로 계단처럼 내려가는 생명의 길." height="100%" role="img" viewBox="0 0 720 300" width="100%">
+<defs>
+<marker id="f02-ar-inf" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-inf" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f02-ar-cry" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-cry" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<path class="f-none s-ink w2 round" d="M30,90 L110,90 C135,90 145,50 170,50 C195,50 220,150 250,150 C265,150 272,128 285,128 C300,128 330,250 390,250 C430,250 445,200 460,170"></path>
+<circle class="f-ink" cx="70" cy="81" r="9"></circle>
+<circle class="f-ink" cx="170" cy="41" r="9"></circle>
+<circle class="f-liq" cx="250" cy="141" r="9"></circle>
+<circle class="f-ink" cx="390" cy="241" r="9"></circle>
+<text class="t" text-anchor="middle" x="70" y="114">무차별</text>
+<text class="t" text-anchor="middle" x="170" y="22">불안정</text>
+<text class="t t-b t-liq" text-anchor="middle" x="238" y="180">준안정</text>
+<text class="t-s t-mute" text-anchor="middle" x="238" y="196">국소 최소, 전역 최소 아님</text>
+<text class="t" text-anchor="middle" x="390" y="280">안정</text>
+<line class="s-mute w1 dash" x1="252" x2="300" y1="150" y2="150"></line>
+<line class="s-mute w1" x1="300" x2="300" y1="150" y2="134"></line>
+<text class="t-s t-mute" x="306" y="160">장벽</text>
+<polygon class="f-inf" points="226,122 232,116 238,122 232,128"></polygon>
+<text class="t-s t-inf" text-anchor="middle" x="196" y="112">씨앗</text>
+<path class="f-none s-inf w15 dash" d="M260,134 C282,98 322,104 378,226" marker-end="url(#f02-ar-inf)"></path>
+<text class="t-s t-inf halo" x="338" y="98">문턱을 넘게 함</text>
+<line class="s-rule w1 dot" x1="482" x2="482" y1="20" y2="280"></line>
+<text class="t t-b" text-anchor="middle" x="604" y="38">준안정에서 준안정으로</text>
+<path class="f-none s-ink w2 round" d="M505,70 C520,70 525,95 540,95 C552,95 556,80 568,80 C585,80 590,135 610,135 C622,135 626,120 638,120 C655,120 660,180 680,180 C690,180 695,172 705,166"></path>
+<circle class="f-liq" cx="540" cy="87" r="7"></circle>
+<circle class="f-liq op5" cx="610" cy="127" r="7"></circle>
+<circle class="f-liq op5" cx="680" cy="172" r="7"></circle>
+<path class="f-none s-cry w15" d="M548,80 C566,56 592,80 604,116" marker-end="url(#f02-ar-cry)"></path>
+<path class="f-none s-cry w15" d="M618,120 C636,96 662,122 674,160" marker-end="url(#f02-ar-cry)"></path>
+<text class="t-s t-cry" text-anchor="middle" x="604" y="226">문턱을 넘는 도약이 잇따름</text>
+<text class="t-s t-mute" text-anchor="middle" x="604" y="244">생명체의 계속되는 개체화 (서론 9쪽)</text>
+</svg></svg>

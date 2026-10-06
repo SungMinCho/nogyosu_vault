@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 660 284" width="660" height="284" class="frame dia lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  --bg:#EDE7DA; --panel:#F6F2E8; --ink:#241E17; --dim:#6B6152; --rule:#CCC2AC;
+  --sea:#1B5064; --chaff:#96660C; --fire:#A2432A; --ground:#476844;
+  --disp:"Kirang Haerang","Song Myung","Nanum Myeongjo","Apple SD Gothic Neo",serif;
+  --body:"Cardo","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Anonymous Pro",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#15120F; --panel:#1E1A15; --ink:#EAE3D3; --dim:#9C927F; --rule:#3B352C;
+  --sea:#63B2C6; --chaff:#D5A03E; --fire:#DE7A57; --ground:#86AC82;
+}}:root[data-theme="dark"]{
+  --bg:#15120F; --panel:#1E1A15; --ink:#EAE3D3; --dim:#9C927F; --rule:#3B352C;
+  --sea:#63B2C6; --chaff:#D5A03E; --fire:#DE7A57; --ground:#86AC82;
+}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;
+  padding-inline:var(--pad);padding-block:0 4rem}.lecture{display:contents}.hero-svg .sea-g path{fill:none;stroke:var(--sea);stroke-width:1.6;opacity:.75}.hero-svg .chaff-g circle{fill:var(--chaff);opacity:.85}.hero-svg .oar path{fill:none;stroke:var(--ink);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.hero-svg .oar circle{fill:var(--ink)}.hero-svg .sea-t{fill:var(--sea)}.hero-svg .chaff-t{fill:var(--chaff)}figure.dia{margin:1.6rem 0}.frame{overflow-x:auto;border:1px solid var(--rule);background:var(--panel);padding:.9rem .7rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 12px),
+    linear-gradient(-90deg,var(--panel),transparent 12px),
+    linear-gradient(90deg,rgba(0,0,0,.14),transparent 12px),
+    linear-gradient(-90deg,rgba(0,0,0,.14),transparent 12px);
+  background-repeat:no-repeat;background-size:24px 100%,24px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}.frame svg{display:block;width:100%;min-width:480px;height:auto;color:var(--ink)}svg .ln{fill:none;stroke:currentColor;stroke-width:1.5}svg .ln[marker-end],svg path.ln{fill:none}svg .tx{font-family:var(--body);font-size:13px;fill:currentColor}svg .sm{font-family:var(--mono);font-size:11px;fill:var(--dim)}svg .ttl{font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;fill:currentColor}svg .big{font-family:var(--body);font-size:20px;fill:currentColor}svg .rule{stroke:var(--rule);stroke-width:1}svg .fire-s circle{fill:var(--fire)}svg .sea-t{fill:var(--sea)}svg .chaff-t{fill:var(--chaff)}svg marker#ar path{fill:currentColor;stroke:none}svg marker#arC path{fill:var(--chaff);stroke:none}svg marker#arF path{fill:var(--fire);stroke:none}svg marker#arS path{fill:var(--sea);stroke:none}svg text{dominant-baseline:auto}svg .st-f{fill:var(--fire);font-weight:700}svg .st-s{fill:var(--sea);font-weight:700}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="같은 문장에 강세를 옮기면 근거율의 뜻이 바뀐다" height="100%" role="img" viewBox="0 0 660 284" width="100%"><defs>
+<marker id="ar" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+<marker id="arC" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+<marker id="arF" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+<marker id="arS" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+</defs>
+<text class="ttl" x="8" y="22">첫째 음조 — 형이상학의 음조</text>
+<text class="big" x="30" y="60"><tspan class="st-f">Nichts</tspan> ist <tspan class="st-f">ohne</tspan> Grund</text>
+<text class="sm" x="30" y="92">강세: 아무것도 · 없이</text>
+<path class="ln" d="M30 104 L30 122" marker-end="url(#ar)"></path>
+<text class="tx" x="46" y="128">모든 존재자는 근거를 갖는다 — 존재자에 관한 명제</text>
+<line class="rule" x1="8" x2="652" y1="148" y2="148"></line>
+<text class="ttl" x="8" y="174">둘째 음조 — 도약</text>
+<text class="big" x="30" y="212">Nichts <tspan class="st-s">ist</tspan> ohne <tspan class="st-s">Grund</tspan></text>
+<text class="sm sea-t" x="320" y="208">강세: 있다 · 근거</text>
+<path class="ln" d="M30 224 L30 242" marker-end="url(#ar)"></path>
+<text class="tx sea-t" x="46" y="248">“존재에는 근거 같은 것이 속한다” — 근거로서의 존재 = 탈근거</text>
+<text class="sm chaff-t" x="30" y="270">장미는 왜(Warum) 없이 있으나, 근거(Grund) 없이 있지는 않다</text>
+</svg></svg>

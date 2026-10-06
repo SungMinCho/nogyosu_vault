@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 356" width="760" height="356" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#E6ECE9; --panel:#F2F5F3; --ink:#172120; --ink-2:#4A5755; --rule:#B6C3BF;
+  --liq:#1B6971; --liq-soft:#CFE0DE; --liq-dot:#7FA9AB;
+  --cry:#866207; --cry-soft:#EAD9A0; --cry-deep:#C9A43C;
+  --inf:#5B3D8F; --inf-soft:#DCD3EA;
+  --brk:#983B20; --brk-soft:#EFD5CB;
+  --shade:#0E1514; --on-shade:#E6ECE9;
+  --f-display:"Hahmlet","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Gowun Batang","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-latin:"Old Standard TT","Gowun Batang","Noto Serif CJK KR",serif;
+  --f-mono:"Cutive Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR","Courier New",monospace;
+  --pad:1.05rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem }.lecture{ display:contents }.hero-fig svg{ width:100%; height:auto; display:block }figure.fig{ margin:.4rem 0 .6rem }.fig-frame{ overflow-x:auto; overflow-y:hidden; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background:
+  linear-gradient(to right,var(--paper),var(--paper)) left/1.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--paper),var(--paper)) right/1.2rem 100% no-repeat local,
+  linear-gradient(to right,rgba(0,0,0,.18),rgba(0,0,0,0)) left/.7rem 100% no-repeat scroll,
+  linear-gradient(to left,rgba(0,0,0,.18),rgba(0,0,0,0)) right/.7rem 100% no-repeat scroll;
+  background-color:var(--paper) }.fig-frame svg{ display:block; width:100%; min-width:560px; height:auto }.fig svg text, .hero-fig text{ font-family:var(--f-body); fill:var(--ink) }.t-s{ font-size:11px }.t-b{ font-weight:700 }.t-mute{ fill:var(--ink-2) !important }.t-liq{ fill:var(--liq) !important }.t-inf{ fill:var(--inf) !important }.t-brk{ fill:var(--brk) !important }.halo{ paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round }.f-none{ fill:none }.f-paper{ fill:var(--paper) }.f-ink{ fill:var(--ink) }.f-mute{ fill:var(--ink-2) }.f-liq-soft{ fill:var(--liq-soft) }.f-cry-deep{ fill:var(--cry-deep) }.f-inf{ fill:var(--inf) }.f-inf-soft{ fill:var(--inf-soft) }.f-brk{ fill:var(--brk) }.s-mute{ stroke:var(--ink-2) }.s-cry{ stroke:var(--cry) }.s-inf{ stroke:var(--inf) }.s-brk{ stroke:var(--brk) }.w05{ stroke-width:.6 }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.dash{ stroke-dasharray:5 4 }.round{ stroke-linecap:round; stroke-linejoin:round }.op5{ opacity:.5 }.hero-fig .band:hover polygon, .hero-fig .band:focus polygon{ fill:var(--inf-soft) }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="가로 시간축 위의 행위들. 도덕적 행위는 옆 띠를 두른 띠이고, 과거와 미래의 다른 도덕적 행위와 양쪽으로 이어져 날짜가 달라도 동시적이 된다. 비도덕적 행위는 선이 하나도 나가지 않는 고립된 점. 반도덕적 행위는 둘레의 선을 지그재그로 일그러뜨리는 잡음원. 광적 행위는 둘레의 모든 선을 빨아들이며 같은 고리를 맴도는 소용돌이. 탐미주의는 같은 스타일로 칠했지만 서로 선이 없는 점들. 전체가 자연이라는 바탕 위에 짜인다." height="100%" role="img" viewBox="0 0 760 356" width="100%">
+<defs>
+<marker id="f23-ar-inf" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-inf" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f23-ar-inf-s" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-inf" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f23-ar-brk" markerHeight="7" markerUnits="userSpaceOnUse" markerWidth="7" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-brk" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f23-ar-mute" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<rect class="f-liq-soft op5" height="296" rx="8" width="712" x="24" y="12"></rect>
+<text class="t-s t-liq" x="34" y="30">자연 — 행위의 그물이 짜이는 바탕</text>
+<line class="s-mute w1" marker-end="url(#f23-ar-mute)" x1="24" x2="736" y1="328" y2="328"></line>
+<text class="t-s t-mute" x="24" y="346">과거</text>
+<text class="t-s t-mute" text-anchor="middle" x="380" y="346">시간 (날짜)</text>
+<text class="t-s t-mute" text-anchor="end" x="730" y="346">미래</text>
+<path class="f-none s-inf w15" d="M70,178 Q181,-54 292,178" marker-end="url(#f23-ar-inf)" marker-start="url(#f23-ar-inf-s)"></path>
+<path class="f-none s-inf w15" d="M76,178 Q115,102 154,178" marker-end="url(#f23-ar-inf)" marker-start="url(#f23-ar-inf-s)"></path>
+<path class="f-none s-inf w15" d="M166,178 Q226,46 286,178" marker-end="url(#f23-ar-inf)" marker-start="url(#f23-ar-inf-s)"></path>
+<path class="f-none s-inf w15" d="M646,178 Q676,82 706,178" marker-end="url(#f23-ar-inf)" marker-start="url(#f23-ar-inf-s)"></path>
+<text class="t-s t-inf halo" text-anchor="middle" x="181" y="54">날짜가 달라도 동시적이 됨</text>
+<path class="f-none s-inf w15" d="M298,178 L301.1,171.1 L302.7,164.1 L306.6,158.2 L307.7,151.5 L312.2,146.7 L312.6,140.2 L317.9,136.5 L317.4,130 L323.7,127.8 L322.1,121 L329.5,120.6 L326.9,113.1 L335.2,114.9 L331.8,106.3 L340.7,110.7 L337.1,100.7 L345.8,107.8 L342.8,96.3 L350.2,106.2 L349.2,93.5 L354.2,105.6 L356,92.5 L357.8,105.6 L362.8,93.5 L361.8,106.2 L369.2,96.3 L366.2,107.8 L374.9,100.7 L371.3,110.7 L380.2,106.3 L376.8,114.9 L385.1,113.1 L382.5,120.6 L389.9,121 L388.3,127.8 L394.6,130 L394.1,136.5 L399.4,140.2 L399.8,146.7 L404.3,151.5 L405.4,158.2 L409.3,164.1 L410.9,171.1 L414,178"></path>
+<path class="f-none s-inf w1" d="M300,182 L303,178.7 L304.5,174.4 L308.4,172.2 L309.3,167.7 L313.8,166.4 L314.1,161.5 L319.2,161.5 L318.8,155.9 L324.7,157.4 L323.5,150.8 L330.1,154.1 L328.3,146.1 L335.4,151.7 L333.3,142.1 L340.4,150 L338.6,138.7 L345.2,148.9 L344.2,136.2 L349.7,148.3 L350,134.6 L353.9,148 L356,134 L358.1,148 L362,134.6 L362.3,148.3 L367.8,136.2 L366.8,148.9 L373.4,138.7 L371.6,150 L378.7,142.1 L376.6,151.7 L383.7,146.1 L381.9,154.1 L388.5,150.8 L387.3,157.4 L393.2,155.9 L392.8,161.5 L397.9,161.5 L398.2,166.4 L402.7,167.7 L403.6,172.2 L407.5,174.4 L409,178.7 L412,182"></path>
+<polygon class="f-brk" points="356,179 357.7,185.8 363.8,182.2 360.2,188.3 367,190 360.2,191.7 363.8,197.8 357.7,194.2 356,201 354.3,194.2 348.2,197.8 351.8,191.7 345,190 351.8,188.3 348.2,182.2 354.3,185.8"></polygon>
+<path class="f-none s-brk w15 round" d="M502,186 L502.3,183.5 L502.7,181 L503.4,178.7 L504.2,176.3 L505.3,174.1 L506.5,172 L507.9,170 L509.4,168.1 L511.1,166.4 L512.9,164.8 L514.9,163.4 L516.9,162.2 L519,161.1 L521.2,160.3 L523.4,159.6 L525.7,159.1 L528,158.8 L530.3,158.8 L532.6,158.9 L534.8,159.1 L537,159.6 L539.2,160.3 L541.3,161.1 L543.2,162.1 L545.1,163.3 L546.9,164.6 L548.5,166 L550.1,167.6 L551.4,169.2 L552.6,171 L553.7,172.9 L554.6,174.8 L555.3,176.8 L555.8,178.8 L556.2,180.9 L556.4,182.9 L556.4,185 L556.3,187 L556,189 L555.5,191 L554.8,192.9 L554,194.7 L553.1,196.5 L552,198.1 L550.8,199.7 L549.5,201.1 L548.1,202.4 L546.5,203.6 L544.9,204.6 L543.2,205.5 L541.5,206.2 L539.7,206.8 L537.9,207.2 L536.1,207.5 L534.3,207.6 L532.5,207.6 L530.7,207.4 L528.9,207.1 L527.2,206.6 L525.5,206 L523.9,205.2 L522.4,204.3 L521,203.4 L519.7,202.2 L518.5,201 L517.3,199.8 L516.4,198.4 L515.5,197 L514.8,195.5 L514.2,193.9 L513.7,192.4 L513.4,190.8 L513.2,189.2 L513.2,187.6 L513.2,186 L513.5,184.4 L513.8,182.9 L514.3,181.4 L514.9,180 L515.6,178.7 L516.4,177.4 L517.3,176.2 L518.2,175.1 L519.3,174.1 L520.5,173.2 L521.7,172.4 L522.9,171.7 L524.2,171.1 L525.5,170.7 L526.9,170.3 L528.3,170.1 L529.6,170 L531,170 L532.3,170.1 L533.6,170.3 L534.9,170.7 L536.2,171.1 L537.3,171.7 L538.5,172.3 L539.5,173 L540.5,173.8 L541.4,174.7 L542.2,175.6 L542.9,176.6 L543.5,177.6 L544.1,178.7 L544.5,179.8 L544.8,180.9 L545.1,182.1 L545.2,183.2 L545.2,184.3 L545.2,185.4 L545,186.5 L544.8,187.6 L544.5,188.7 L544.1,189.6 L543.6,190.6 L543,191.5 L542.4,192.3 L541.7,193.1"></path>
+<path class="f-none s-brk w2" d="M540,186 A8,8 0 1 1 532,178" marker-end="url(#f23-ar-brk)"></path>
+<path class="f-none s-inf w15" d="M424,176 C450,100 522,80 528,152" marker-end="url(#f23-ar-inf)"></path>
+<path class="f-none s-inf w15" d="M636,176 C610,110 572,120 562,164" marker-end="url(#f23-ar-inf)"></path>
+<path class="f-none s-inf w1" d="M712,176 C682,40 592,40 546,154" marker-end="url(#f23-ar-inf)"></path>
+<path class="f-none s-inf w1" d="M428,200 C460,230 482,230 502,202" marker-end="url(#f23-ar-inf)"></path>
+<rect class="f-inf-soft s-inf w05" height="14" width="8" x="58" y="183"></rect>
+<rect class="f-inf-soft s-inf w05" height="14" width="8" x="74" y="183"></rect>
+<rect class="f-ink" height="22" width="4" x="68" y="179"></rect>
+<rect class="f-inf-soft s-inf w05" height="14" width="8" x="148" y="183"></rect>
+<rect class="f-inf-soft s-inf w05" height="14" width="8" x="164" y="183"></rect>
+<rect class="f-ink" height="22" width="4" x="158" y="179"></rect>
+<rect class="f-inf-soft s-inf w05" height="14" width="8" x="280" y="183"></rect>
+<rect class="f-inf-soft s-inf w05" height="14" width="8" x="296" y="183"></rect>
+<rect class="f-ink" height="22" width="4" x="290" y="179"></rect>
+<rect class="f-inf-soft s-inf w05" height="14" width="8" x="408" y="183"></rect>
+<rect class="f-inf-soft s-inf w05" height="14" width="8" x="424" y="183"></rect>
+<rect class="f-ink" height="22" width="4" x="418" y="179"></rect>
+<rect class="f-inf-soft s-inf w05" height="14" width="8" x="628" y="183"></rect>
+<rect class="f-inf-soft s-inf w05" height="14" width="8" x="644" y="183"></rect>
+<rect class="f-ink" height="22" width="4" x="638" y="179"></rect>
+<rect class="f-inf-soft s-inf w05" height="14" width="8" x="700" y="183"></rect>
+<rect class="f-inf-soft s-inf w05" height="14" width="8" x="716" y="183"></rect>
+<rect class="f-ink" height="22" width="4" x="710" y="179"></rect>
+<circle class="f-paper s-mute w05 dash" cx="226" cy="190" r="15"></circle>
+<circle class="f-ink" cx="226" cy="190" r="4"></circle>
+<polygon class="f-cry-deep s-cry w1" points="118,267 125,274 118,281 111,274"></polygon>
+<polygon class="f-cry-deep s-cry w1" points="262,267 269,274 262,281 255,274"></polygon>
+<polygon class="f-cry-deep s-cry w1" points="470,267 477,274 470,281 463,274"></polygon>
+<polygon class="f-cry-deep s-cry w1" points="590,267 597,274 590,281 583,274"></polygon>
+<polygon class="f-cry-deep s-cry w1" points="690,267 697,274 690,281 683,274"></polygon>
+<text class="t-s t-b" x="36" y="218">도덕적 행위</text>
+<text class="t-s t-mute" x="36" y="232">옆 띠를 두른 띠</text>
+<text class="t-s t-b" text-anchor="middle" x="226" y="222">비도덕적</text>
+<text class="t-s t-mute" text-anchor="middle" x="226" y="236">선 없는 고립점</text>
+<text class="t-s t-b t-brk" text-anchor="middle" x="356" y="222">반도덕적</text>
+<text class="t-s t-mute" text-anchor="middle" x="356" y="236">둘레 선을 일그러뜨리는 잡음원</text>
+<text class="t-s t-b t-brk" text-anchor="middle" x="532" y="230">광적 행위</text>
+<text class="t-s t-mute" text-anchor="middle" x="532" y="244">선을 다 빨아들이고 제자리를 맴돎</text>
+<text class="t-s" text-anchor="middle" x="380" y="298"><tspan class="t-b">탐미주의</tspan> — 같은 스타일로 칠했을 뿐, 서로 잇는 선은 하나도 없음</text>
+</svg></svg>

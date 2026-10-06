@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 400" width="720" height="400" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#E6ECE9; --panel:#F2F5F3; --ink:#172120; --ink-2:#4A5755; --rule:#B6C3BF;
+  --liq:#1B6971; --liq-soft:#CFE0DE; --liq-dot:#7FA9AB;
+  --cry:#866207; --cry-soft:#EAD9A0; --cry-deep:#C9A43C;
+  --inf:#5B3D8F; --inf-soft:#DCD3EA;
+  --brk:#983B20; --brk-soft:#EFD5CB;
+  --shade:#0E1514; --on-shade:#E6ECE9;
+  --f-display:"Hahmlet","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Gowun Batang","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-latin:"Old Standard TT","Gowun Batang","Noto Serif CJK KR",serif;
+  --f-mono:"Cutive Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR","Courier New",monospace;
+  --pad:1.05rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem }.lecture{ display:contents }.hero-fig svg{ width:100%; height:auto; display:block }figure.fig{ margin:.4rem 0 .6rem }.fig-frame{ overflow-x:auto; overflow-y:hidden; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background:
+  linear-gradient(to right,var(--paper),var(--paper)) left/1.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--paper),var(--paper)) right/1.2rem 100% no-repeat local,
+  linear-gradient(to right,rgba(0,0,0,.18),rgba(0,0,0,0)) left/.7rem 100% no-repeat scroll,
+  linear-gradient(to left,rgba(0,0,0,.18),rgba(0,0,0,0)) right/.7rem 100% no-repeat scroll;
+  background-color:var(--paper) }.fig-frame svg{ display:block; width:100%; min-width:560px; height:auto }.fig svg text, .hero-fig text{ font-family:var(--f-body); fill:var(--ink) }.t{ font-size:13px }.t-s{ font-size:11px }.t-num{ font-family:var(--f-latin) !important; font-variant-numeric:tabular-nums }.t-b{ font-weight:700 }.t-mute{ fill:var(--ink-2) !important }.t-liq{ fill:var(--liq) !important }.t-cry{ fill:var(--cry) !important }.t-inf{ fill:var(--inf) !important }.t-brk{ fill:var(--brk) !important }.f-none{ fill:none }.f-ink{ fill:var(--ink) }.f-liq-soft{ fill:var(--liq-soft) }.f-cry-soft{ fill:var(--cry-soft) }.f-cry-deep{ fill:var(--cry-deep) }.f-inf{ fill:var(--inf) }.s-none{ stroke:none }.s-ink{ stroke:var(--ink) }.s-mute{ stroke:var(--ink-2) }.s-rule{ stroke:var(--rule) }.s-liq{ stroke:var(--liq) }.s-cry{ stroke:var(--cry) }.s-inf{ stroke:var(--inf) }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.w4{ stroke-width:4.5 }.dash{ stroke-dasharray:5 4 }.dot{ stroke-dasharray:1.5 3.5; stroke-linecap:round }.hero-fig .band:hover polygon, .hero-fig .band:focus polygon{ fill:var(--inf-soft) }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="황의 준안정 사다리. 왼쪽은 U자관 세 개: 95.4 °C 아래에서는 프리즘 가지가 접촉선부터 흐려지고, 딱 95.4 °C에서는 전선이 멈추며, 95.4–115 °C에서는 팔면체 가지가 흐려진다. 오른쪽은 90 °C 과냉 액체 황의 계단으로, 프리즘 씨앗이 112 J/mol을 내려 단사정 β황 층계참에, 팔면체 씨앗이 5.6 J/mol을 더 내려 사방정 α황 바닥에 이른다. 높이는 비례로 그렸고 첫 계단이 퍼텐셜의 95 %, 둘째가 5 %다." height="100%" role="img" viewBox="0 0 720 400" width="100%">
+<defs>
+<marker id="f10-ar-ink" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f10-ar-inf" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-inf" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<text class="t t-b" x="20" y="24">U자관: 안정한 쪽이 먹어 들어간다</text>
+<text class="t t-b t-num" text-anchor="middle" x="78" y="56">95.4 °C 아래</text>
+<text class="t-s t-mute" text-anchor="middle" x="78" y="72">팔면체가 안정</text>
+<text class="t t-b t-num" text-anchor="middle" x="202" y="56">딱 95.4 °C</text>
+<text class="t-s t-mute" text-anchor="middle" x="202" y="72">둘의 G가 같음</text>
+<text class="t t-b t-num" text-anchor="middle" x="326" y="56">95.4–115 °C</text>
+<text class="t-s t-mute" text-anchor="middle" x="326" y="72">프리즘이 안정</text>
+<path class="f-cry-soft s-none" d="M40,122 L40,246 A38,38 0 0 0 116,246 L116,122 L91,122 L91,246 A13,13 0 0 1 65,246 L65,122 Z"></path><path class="f-cry-deep" d="M78,284 A38,38 0 0 0 116,246 L116,176 L91,176 L91,246 A13,13 0 0 1 78,259 Z"></path><line class="s-inf w2" x1="91" x2="116" y1="176" y2="176"></line><line class="s-ink w15" marker-end="url(#f10-ar-ink)" x1="125" x2="125" y1="262" y2="182"></line><path class="f-none s-ink w15" d="M40,116 L40,246 A38,38 0 0 0 116,246 L116,116"></path><path class="f-none s-ink w15" d="M65,116 L65,246 A13,13 0 0 0 91,246 L91,116"></path><line class="s-ink w1" x1="78" x2="78" y1="259" y2="284"></line><polygon class="f-inf" points="52.5,126 57.5,132 52.5,138 47.5,132"></polygon><polygon class="f-inf" points="101.0,124 106.0,124 107.5,127 107.5,137 106.0,140 101.0,140 99.5,137 99.5,127"></polygon><text class="t-s t-inf" text-anchor="middle" x="52.5" y="110">팔면체</text><text class="t-s t-inf" text-anchor="middle" x="103.5" y="110">프리즘</text>
+<path class="f-cry-soft s-none" d="M164,122 L164,246 A38,38 0 0 0 240,246 L240,122 L215,122 L215,246 A13,13 0 0 1 189,246 L189,122 Z"></path><path class="f-none s-ink w15" d="M164,116 L164,246 A38,38 0 0 0 240,246 L240,116"></path><path class="f-none s-ink w15" d="M189,116 L189,246 A13,13 0 0 0 215,246 L215,116"></path><line class="s-inf w2" x1="202" x2="202" y1="259" y2="284"></line><polygon class="f-inf" points="176.5,126 181.5,132 176.5,138 171.5,132"></polygon><polygon class="f-inf" points="225.0,124 230.0,124 231.5,127 231.5,137 230.0,140 225.0,140 223.5,137 223.5,127"></polygon><text class="t-s t-inf" text-anchor="middle" x="176.5" y="110">팔면체</text><text class="t-s t-inf" text-anchor="middle" x="227.5" y="110">프리즘</text>
+<path class="f-cry-soft s-none" d="M288,122 L288,246 A38,38 0 0 0 364,246 L364,122 L339,122 L339,246 A13,13 0 0 1 313,246 L313,122 Z"></path><path class="f-cry-deep" d="M326,284 A38,38 0 0 1 288,246 L288,176 L313,176 L313,246 A13,13 0 0 0 326,259 Z"></path><line class="s-inf w2" x1="288" x2="313" y1="176" y2="176"></line><line class="s-ink w15" marker-end="url(#f10-ar-ink)" x1="279" x2="279" y1="262" y2="182"></line><path class="f-none s-ink w15" d="M288,116 L288,246 A38,38 0 0 0 364,246 L364,116"></path><path class="f-none s-ink w15" d="M313,116 L313,246 A13,13 0 0 0 339,246 L339,116"></path><line class="s-ink w1" x1="326" x2="326" y1="259" y2="284"></line><polygon class="f-inf" points="300.5,126 305.5,132 300.5,138 295.5,132"></polygon><polygon class="f-inf" points="349.0,124 354.0,124 355.5,127 355.5,137 354.0,140 349.0,140 347.5,137 347.5,127"></polygon><text class="t-s t-inf" text-anchor="middle" x="300.5" y="110">팔면체</text><text class="t-s t-inf" text-anchor="middle" x="351.5" y="110">프리즘</text>
+<text class="t-s" text-anchor="middle" x="78" y="312">프리즘 가지가</text>
+<text class="t-s" text-anchor="middle" x="78" y="327">접촉선부터 흐려짐</text>
+<text class="t-s t-inf" text-anchor="middle" x="202" y="312">접촉선의 전선 멈춤</text>
+<text class="t-s t-b" text-anchor="middle" x="202" y="327">속도 0</text>
+<text class="t-s" text-anchor="middle" x="326" y="312">팔면체 가지가</text>
+<text class="t-s" text-anchor="middle" x="326" y="327">접촉선부터 흐려짐</text>
+<text class="t-s t-brk" x="26" y="352">〔정정〕 영역 첫 문장은 이 칸을 거꾸로 적음(팔면체 가지가 흐려진다고)</text>
+<rect class="f-cry-soft" height="10" width="14" x="26" y="368"></rect>
+<text class="t-s t-mute" x="46" y="377">맑은 결정</text>
+<rect class="f-cry-deep" height="10" width="14" x="112" y="368"></rect>
+<text class="t-s t-mute" x="132" y="377">흐림 = 다른 형태로 바뀐 부분</text>
+<line class="s-inf w2" x1="300" x2="312" y1="373" y2="373"></line>
+<text class="t-s t-mute" x="318" y="377">전선</text>
+<line class="s-rule w1 dot" x1="402" x2="402" y1="14" y2="390"></line>
+<text class="t t-b" x="418" y="24">90 °C 과냉 황의 계단</text>
+<text class="t-s t-mute" x="418" y="40">높이를 ΔG에 비례해 그림: 112 대 5.6 = 20 대 1</text>
+<line class="s-mute w1" x1="446" x2="446" y1="76" y2="305.4"></line>
+<line class="s-mute w1" x1="442" x2="446" y1="76" y2="76"></line>
+<line class="s-mute w1" x1="442" x2="446" y1="171.0" y2="171.0"></line>
+<line class="s-mute w1" x1="442" x2="446" y1="266.0" y2="266.0"></line>
+<text class="t-s t-mute t-num" text-anchor="end" x="439" y="80">0</text>
+<text class="t-s t-mute t-num" text-anchor="end" x="439" y="175.0">−50</text>
+<text class="t-s t-mute t-num" text-anchor="end" x="439" y="270.0">−100</text>
+<text class="t-s t-mute" text-anchor="middle" x="446" y="325.4">ΔG, J/mol</text>
+<rect class="f-liq-soft" height="10.6" width="90" x="510" y="288.8"></rect>
+<line class="s-liq w4" x1="452" x2="510" y1="76" y2="76"></line>
+<line class="s-mute w1 dash" x1="510" x2="510" y1="76" y2="288.8"></line>
+<line class="s-cry w4" x1="510" x2="600" y1="288.8" y2="288.8"></line>
+<line class="s-mute w1 dash" x1="600" x2="600" y1="288.8" y2="299.4"></line>
+<line class="s-cry w4" x1="600" x2="702" y1="299.4" y2="299.4"></line>
+<text class="t t-b t-liq" x="452" y="64">과냉 액체 황</text>
+<line class="s-inf w15" marker-end="url(#f10-ar-inf)" x1="522" x2="522" y1="88" y2="280.8"></line>
+<text class="t-s t-inf t-b" x="532" y="102">① 프리즘 씨앗</text>
+<text class="t t-b t-num" x="532" y="176.4">−112 J/mol</text>
+<text class="t-s" x="532" y="193.4">퍼텐셜의 95 %</text>
+<line class="s-inf w15" marker-end="url(#f10-ar-inf)" x1="610" x2="610" y1="258.8" y2="296.4"></line>
+<text class="t-s t-inf t-b" x="618" y="256.8">② 팔면체 씨앗</text>
+<text class="t-s t-num t-b" x="618" y="272.8">−5.6 J/mol · 5 %</text>
+<text class="t-s t-cry t-b" text-anchor="middle" x="555.0" y="321.4">단사정 β황 (프리즘)</text>
+<text class="t-s" text-anchor="middle" x="555.0" y="336.4">불완전한 개체화</text>
+<text class="t-s t-liq" text-anchor="middle" x="555.0" y="350.4">5.6 J/mol 높이에 매달림</text>
+<text class="t-s t-cry t-b" text-anchor="end" x="702" y="365.4">사방정 α황 (팔면체)</text>
+<text class="t-s" text-anchor="end" x="702" y="380.4">완전한 개체화</text>
+</svg></svg>

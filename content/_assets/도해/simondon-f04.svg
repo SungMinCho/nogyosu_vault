@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 440" width="760" height="440" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#E6ECE9; --panel:#F2F5F3; --ink:#172120; --ink-2:#4A5755; --rule:#B6C3BF;
+  --liq:#1B6971; --liq-soft:#CFE0DE; --liq-dot:#7FA9AB;
+  --cry:#866207; --cry-soft:#EAD9A0; --cry-deep:#C9A43C;
+  --inf:#5B3D8F; --inf-soft:#DCD3EA;
+  --brk:#983B20; --brk-soft:#EFD5CB;
+  --shade:#0E1514; --on-shade:#E6ECE9;
+  --f-display:"Hahmlet","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Gowun Batang","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-latin:"Old Standard TT","Gowun Batang","Noto Serif CJK KR",serif;
+  --f-mono:"Cutive Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR","Courier New",monospace;
+  --pad:1.05rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem }.lecture{ display:contents }.hero-fig svg{ width:100%; height:auto; display:block }figure.fig{ margin:.4rem 0 .6rem }.fig-frame{ overflow-x:auto; overflow-y:hidden; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background:
+  linear-gradient(to right,var(--paper),var(--paper)) left/1.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--paper),var(--paper)) right/1.2rem 100% no-repeat local,
+  linear-gradient(to right,rgba(0,0,0,.18),rgba(0,0,0,0)) left/.7rem 100% no-repeat scroll,
+  linear-gradient(to left,rgba(0,0,0,.18),rgba(0,0,0,0)) right/.7rem 100% no-repeat scroll;
+  background-color:var(--paper) }.fig-frame svg{ display:block; width:100%; min-width:560px; height:auto }.fig svg text, .hero-fig text{ font-family:var(--f-body); fill:var(--ink) }.t{ font-size:13px }.t-s{ font-size:11px }.t-b{ font-weight:700 }.t-mute{ fill:var(--ink-2) !important }.t-brk{ fill:var(--brk) !important }.t-onshade{ fill:var(--on-shade) !important }.f-none{ fill:none }.f-panel{ fill:var(--panel) }.f-ink{ fill:var(--ink) }.f-shade{ fill:var(--shade) }.s-ink{ stroke:var(--ink) }.s-rule{ stroke:var(--rule) }.s-brk{ stroke:var(--brk) }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.dot{ stroke-dasharray:1.5 3.5; stroke-linecap:round }.hero-fig .band:hover polygon, .hero-fig .band:focus polygon{ fill:var(--inf-soft) }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="두 반쪽 사슬. 왼쪽 형상 쪽 사슬은 직각 평행육면체라는 관념에서 주형 설계, 나무판 짜 맞추기, 칠과 가루 뿌리기를 거쳐 물질화된 형상인 주형으로 내려온다. 오른쪽 질료 쪽 사슬은 골풀 뿌리와 자갈이 섞인 늪가 날점토에서 말리기, 빻기, 체질, 적시기와 반죽을 거쳐 콜로이드인 준비된 점토로 올라간다. 두 사슬은 가운데 손, 주형, 점토가 이루는 하나의 에너지 계에서 몇 초 동안 만나는데, 질료형상 도식은 양 끝의 두 상자만 보고 이 가운데를 어두운 지대로 남긴다. 오른쪽 로그 눈금에서 어두운 지대는 벽돌 크기, 10의 마이너스 1제곱 미터 등급에 걸려 있다." height="100%" role="img" viewBox="0 0 760 440" width="100%">
+<defs>
+<marker id="f04-ar-ink" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<line class="s-rule w1 dot" x1="387" x2="620" y1="236" y2="236"></line>
+<text class="t-s t-b t-mute" x="20" y="38">형상 쪽 반쪽 사슬 (위에서 아래로)</text>
+<text class="t-s t-b t-mute" text-anchor="end" x="580" y="38">질료 쪽 반쪽 사슬 (아래에서 위로)</text>
+<rect class="f-panel s-brk w2" height="40" width="170" x="20" y="56"></rect>
+<text class="t" text-anchor="middle" x="105" y="72">직각 평행육면체</text>
+<text class="t-s t-mute" text-anchor="middle" x="105" y="89">관념</text>
+<line class="s-ink w1" marker-end="url(#f04-ar-ink)" x1="105" x2="105" y1="98" y2="133"></line>
+<rect class="f-panel s-ink w1" height="40" width="170" x="20" y="136"></rect>
+<text class="t" text-anchor="middle" x="105" y="160">주형 설계</text>
+<line class="s-ink w1" marker-end="url(#f04-ar-ink)" x1="105" x2="105" y1="178" y2="213"></line>
+<rect class="f-panel s-ink w1" height="40" width="170" x="20" y="216"></rect>
+<text class="t" text-anchor="middle" x="105" y="240">나무판 짜 맞추기</text>
+<line class="s-ink w1" marker-end="url(#f04-ar-ink)" x1="105" x2="105" y1="258" y2="293"></line>
+<rect class="f-panel s-ink w1" height="40" width="170" x="20" y="296"></rect>
+<text class="t" text-anchor="middle" x="105" y="320">칠 · 가루 뿌리기</text>
+<line class="s-ink w1" marker-end="url(#f04-ar-ink)" x1="105" x2="105" y1="338" y2="373"></line>
+<rect class="f-panel s-ink w1" height="40" width="170" x="20" y="376"></rect>
+<text class="t" text-anchor="middle" x="105" y="392">주형</text>
+<text class="t-s t-mute" text-anchor="middle" x="105" y="409">물질화된 형상</text>
+<rect class="f-panel s-brk w2" height="40" width="170" x="410" y="376"></rect>
+<text class="t" text-anchor="middle" x="495" y="392">늪가 날점토</text>
+<text class="t-s t-mute" text-anchor="middle" x="495" y="409">골풀 뿌리 · 자갈</text>
+<rect class="f-panel s-ink w1" height="34" width="170" x="410" y="317"></rect>
+<text class="t" text-anchor="middle" x="495" y="338">말리기</text>
+<rect class="f-panel s-ink w1" height="34" width="170" x="410" y="252"></rect>
+<text class="t" text-anchor="middle" x="495" y="273">빻기</text>
+<rect class="f-panel s-ink w1" height="34" width="170" x="410" y="186"></rect>
+<text class="t" text-anchor="middle" x="495" y="208">체질</text>
+<rect class="f-panel s-ink w1" height="34" width="170" x="410" y="121"></rect>
+<text class="t" text-anchor="middle" x="495" y="143">적시기 · 반죽</text>
+<rect class="f-panel s-ink w1" height="40" width="170" x="410" y="56"></rect>
+<text class="t" text-anchor="middle" x="495" y="72">준비된 점토</text>
+<text class="t-s t-mute" text-anchor="middle" x="495" y="89">콜로이드</text>
+<line class="s-ink w1" marker-end="url(#f04-ar-ink)" x1="495" x2="495" y1="374" y2="354"></line>
+<line class="s-ink w1" marker-end="url(#f04-ar-ink)" x1="495" x2="495" y1="315" y2="289"></line>
+<line class="s-ink w1" marker-end="url(#f04-ar-ink)" x1="495" x2="495" y1="250" y2="223"></line>
+<line class="s-ink w1" marker-end="url(#f04-ar-ink)" x1="495" x2="495" y1="184" y2="158"></line>
+<line class="s-ink w1" marker-end="url(#f04-ar-ink)" x1="495" x2="495" y1="119" y2="99"></line>
+<text class="t-s t-b t-brk" x="198" y="81">형상</text>
+<text class="t-s t-b t-brk" text-anchor="end" x="402" y="401">질료</text>
+<rect class="f-shade" height="80" width="170" x="215" y="196"></rect>
+<text class="t t-b t-onshade" text-anchor="middle" x="300" y="220">어두운 지대</text>
+<text class="t-s t-onshade" text-anchor="middle" x="300" y="242">손 · 주형 · 점토</text>
+<text class="t-s t-onshade" text-anchor="middle" x="300" y="260">하나의 에너지 계 (몇 초)</text>
+<path class="f-none s-ink w15" d="M190,382 C210,356 236,316 246,279" marker-end="url(#f04-ar-ink)"></path>
+<path class="f-none s-ink w15" d="M410,90 C390,116 364,156 354,193" marker-end="url(#f04-ar-ink)"></path>
+<text class="t-s t-brk" text-anchor="middle" x="300" y="322">질료형상 도식이 보는 것은</text>
+<text class="t-s t-brk" text-anchor="middle" x="300" y="337">두 끝의 상자뿐</text>
+<text class="t-s t-b" x="620" y="182">크기 등급 (로그 눈금)</text>
+<line class="s-ink w15" x1="624" x2="624" y1="198" y2="407"></line>
+<line class="s-ink w1" x1="621" x2="627" y1="198" y2="198"></line>
+<line class="s-ink w1" x1="621" x2="627" y1="217" y2="217"></line>
+<line class="s-ink w1" x1="621" x2="627" y1="236" y2="236"></line>
+<line class="s-ink w1" x1="621" x2="627" y1="255" y2="255"></line>
+<line class="s-ink w1" x1="621" x2="627" y1="274" y2="274"></line>
+<line class="s-ink w1" x1="621" x2="627" y1="293" y2="293"></line>
+<line class="s-ink w1" x1="621" x2="627" y1="312" y2="312"></line>
+<line class="s-ink w1" x1="621" x2="627" y1="331" y2="331"></line>
+<line class="s-ink w1" x1="621" x2="627" y1="350" y2="350"></line>
+<line class="s-ink w1" x1="621" x2="627" y1="369" y2="369"></line>
+<line class="s-ink w1" x1="621" x2="627" y1="388" y2="388"></line>
+<line class="s-ink w1" x1="621" x2="627" y1="407" y2="407"></line>
+<line class="s-ink w2" x1="617" x2="631" y1="198" y2="198"></line>
+<text class="t-s" x="636" y="202">작업장 10¹ m</text>
+<line class="s-ink w2" x1="617" x2="631" y1="236" y2="236"></line>
+<text class="t-s t-b" x="636" y="240">벽돌 10⁻¹ m</text>
+<text class="t-s t-mute" x="636" y="255">한 장에 입자 약 10¹⁵개</text>
+<line class="s-ink w2" x1="617" x2="631" y1="331" y2="331"></line>
+<text class="t-s" x="636" y="335">점토 입자 10⁻⁶ m</text>
+<line class="s-ink w2" x1="617" x2="631" y1="407" y2="407"></line>
+<text class="t-s" x="636" y="411">물 분자 10⁻¹⁰ m</text>
+<rect class="f-ink" height="10" width="10" x="619" y="231"></rect>
+</svg></svg>

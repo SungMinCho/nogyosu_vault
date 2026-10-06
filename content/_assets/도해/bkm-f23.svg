@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 340" width="600" height="340" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-ret{color:var(--ret)}.t-alarm{color:var(--alarm)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-xs{font-size:12.5px}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-ret{fill:var(--ret)}.dg .t-alarm{fill:var(--alarm)}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln-alarm{stroke:var(--alarm); stroke-width:2.2; fill:none}.dg .thick{stroke-width:3.2}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-ret{fill:var(--ret)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="1963년 7월부터 2026년 8월까지 시장, SMB, HML, RMW, CMA, 모멘텀 요인의 연평균 프리미엄과 t값. 시장과 모멘텀이 7%대로 가장 크고 SMB만 t가 2에 못 미친다. 2014년 이후로는 시장을 빼고 모두 0 근처나 음수로 떨어졌다." class="dg" height="100%" role="img" viewBox="0 0 600 340" width="100%">
+<line class="grid" x1="80" x2="600" y1="292.9" y2="292.9"></line>
+<text class="t-num end t-ink2" x="72" y="297.4">-3</text>
+<line class="ax" x1="80" x2="600" y1="250.0" y2="250.0"></line>
+<text class="t-num end t-ink2" x="72" y="254.5">0</text>
+<line class="grid" x1="80" x2="600" y1="207.1" y2="207.1"></line>
+<text class="t-num end t-ink2" x="72" y="211.6">3</text>
+<line class="grid" x1="80" x2="600" y1="164.3" y2="164.3"></line>
+<text class="t-num end t-ink2" x="72" y="168.8">6</text>
+<line class="grid" x1="80" x2="600" y1="121.4" y2="121.4"></line>
+<text class="t-num end t-ink2" x="72" y="125.9">9</text>
+<line class="grid" x1="80" x2="600" y1="78.6" y2="78.6"></line>
+<text class="t-num end t-ink2" x="72" y="83.1">12</text>
+<text class="t-xs t-ret" x="72" y="44.0">연 %</text>
+<rect class="f-ret" height="103.2" width="40" x="103.3" y="146.8"></rect>
+<text class="t-num mid" x="123.3" y="122.8">7.22</text>
+<text class="t-xs mid t-ink2" x="123.3" y="138.8">t 3.72</text>
+<line class="ln-alarm thick" x1="147.3" x2="165.3" y1="77.9" y2="77.9"></line>
+<text class="mid b" x="123.3" y="316.9">시장</text>
+<rect class="f-ret" height="32.0" width="40" x="190.0" y="218.0"></rect>
+<text class="t-num mid" x="210.0" y="194.0">2.24</text>
+<text class="t-xs mid t-ink2" x="210.0" y="210.0">t 1.70</text>
+<line class="ln-alarm thick" x1="234.0" x2="252.0" y1="281.7" y2="281.7"></line>
+<text class="mid b" x="210.0" y="316.9">SMB</text>
+<rect class="f-ret" height="50.4" width="40" x="276.7" y="199.6"></rect>
+<text class="t-num mid" x="296.7" y="175.6">3.53</text>
+<text class="t-xs mid t-ink2" x="296.7" y="191.6">t 2.72</text>
+<line class="ln-alarm thick" x1="320.7" x2="338.7" y1="259.5" y2="259.5"></line>
+<text class="mid b" x="296.7" y="316.9">HML</text>
+<rect class="f-ret" height="43.1" width="40" x="363.3" y="206.9"></rect>
+<text class="t-num mid" x="383.3" y="182.9">3.02</text>
+<text class="t-xs mid t-ink2" x="383.3" y="198.9">t 3.03</text>
+<line class="ln-alarm thick" x1="407.3" x2="425.3" y1="218.3" y2="218.3"></line>
+<text class="mid b" x="383.3" y="316.9">RMW</text>
+<rect class="f-ret" height="41.7" width="40" x="450.0" y="208.3"></rect>
+<text class="t-num mid" x="470.0" y="184.3">2.92</text>
+<text class="t-xs mid t-ink2" x="470.0" y="200.3">t 3.23</text>
+<line class="ln-alarm thick" x1="494.0" x2="512.0" y1="263.6" y2="263.6"></line>
+<text class="mid b" x="470.0" y="316.9">CMA</text>
+<rect class="f-ret" height="102.2" width="40" x="536.7" y="147.8"></rect>
+<text class="t-num mid" x="556.7" y="123.8">7.16</text>
+<text class="t-xs mid t-ink2" x="556.7" y="139.8">t 3.90</text>
+<line class="ln-alarm thick" x1="580.7" x2="598.7" y1="215.6" y2="215.6"></line>
+<text class="mid b" x="556.7" y="316.9">모멘텀</text>
+<rect class="f-ret" height="12" width="14" x="130" y="44.7"></rect>
+<text class="t-xs t-ink2" x="150" y="55.7">1963.07–2026.08 평균과 t</text>
+<line class="ln-alarm thick" x1="350" x2="370" y1="50.7" y2="50.7"></line>
+<text class="t-xs t-alarm" x="378" y="55.7">2014.01–2026.08 평균</text>
+</svg></svg>

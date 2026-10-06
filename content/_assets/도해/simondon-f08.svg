@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 340" width="720" height="340" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#E6ECE9; --panel:#F2F5F3; --ink:#172120; --ink-2:#4A5755; --rule:#B6C3BF;
+  --liq:#1B6971; --liq-soft:#CFE0DE; --liq-dot:#7FA9AB;
+  --cry:#866207; --cry-soft:#EAD9A0; --cry-deep:#C9A43C;
+  --inf:#5B3D8F; --inf-soft:#DCD3EA;
+  --brk:#983B20; --brk-soft:#EFD5CB;
+  --shade:#0E1514; --on-shade:#E6ECE9;
+  --f-display:"Hahmlet","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Gowun Batang","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-latin:"Old Standard TT","Gowun Batang","Noto Serif CJK KR",serif;
+  --f-mono:"Cutive Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR","Courier New",monospace;
+  --pad:1.05rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem }.lecture{ display:contents }.hero-fig svg{ width:100%; height:auto; display:block }figure.fig{ margin:.4rem 0 .6rem }.fig-frame{ overflow-x:auto; overflow-y:hidden; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background:
+  linear-gradient(to right,var(--paper),var(--paper)) left/1.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--paper),var(--paper)) right/1.2rem 100% no-repeat local,
+  linear-gradient(to right,rgba(0,0,0,.18),rgba(0,0,0,0)) left/.7rem 100% no-repeat scroll,
+  linear-gradient(to left,rgba(0,0,0,.18),rgba(0,0,0,0)) right/.7rem 100% no-repeat scroll;
+  background-color:var(--paper) }.fig-frame svg{ display:block; width:100%; min-width:560px; height:auto }.fig svg text, .hero-fig text{ font-family:var(--f-body); fill:var(--ink) }.t{ font-size:13px }.t-s{ font-size:11px }.t-lat{ font-family:var(--f-latin) !important; font-style:italic }.t-num{ font-family:var(--f-latin) !important; font-variant-numeric:tabular-nums }.t-b{ font-weight:700 }.t-mute{ fill:var(--ink-2) !important }.t-inf{ fill:var(--inf) !important }.f-none{ fill:none }.f-ink{ fill:var(--ink) }.f-mute{ fill:var(--ink-2) }.f-inf{ fill:var(--inf) }.s-ink{ stroke:var(--ink) }.s-mute{ stroke:var(--ink-2) }.s-rule{ stroke:var(--rule) }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w3{ stroke-width:3 }.dash{ stroke-dasharray:5 4 }.dot{ stroke-dasharray:1.5 3.5; stroke-linecap:round }.round{ stroke-linecap:round; stroke-linejoin:round }.op5{ opacity:.5 }.op7{ opacity:.72 }.hero-fig .band:hover polygon, .hero-fig .band:focus polygon{ fill:var(--inf-soft) }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="홀벡-르제 도립진자의 퍼텐셜. 위로 열린 탄성 포물선 ½Cθ²와 아래로 열린 중력 포물선 −½mglθ²를 더하면 ½(C−mgl)θ². C/mgl을 1.5, 1.2, 1.005로 1에 다가가게 하면 합은 점점 평평해지고, ε = 0.005에서 감도는 1/ε = 200배. 오른쪽은 같은 진자를 180° 뒤집은 경우로, 두 포물선이 다 위로 열려 합 ½(C+mgl)θ²의 깊은 우물이 되고 감도는 보통 진자의 0.5배." height="100%" role="img" viewBox="0 0 720 340" width="100%">
+<defs>
+<marker id="f08-ar-ink" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f08-ar-mute" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f08-ar-inf" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-inf" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<text class="t t-b" x="30" y="26">도립진자: 두 퍼텐셜의 차</text>
+<text class="t-s t-mute" x="30" y="43">석영 덩어리는 위, 엘린바 탄성선은 아래</text>
+<line class="s-mute w1" marker-end="url(#f08-ar-mute)" x1="52" x2="52" y1="292" y2="60"></line>
+<text class="t-s t-mute t-lat" text-anchor="end" x="46" y="70">U</text>
+<line class="s-mute w1" marker-end="url(#f08-ar-mute)" x1="52" x2="380" y1="300" y2="300"></line>
+<text class="t-s t-mute t-lat" x="386" y="304">θ</text>
+<line class="s-mute w1" x1="215" x2="215" y1="296" y2="304"></line>
+<text class="t-s t-mute t-num" text-anchor="middle" x="215" y="318">0</text>
+<line class="s-mute w1" x1="65" x2="65" y1="296" y2="304"></line>
+<line class="s-mute w1" x1="365" x2="365" y1="296" y2="304"></line>
+<line class="s-rule w1 dash" x1="56" x2="372" y1="178" y2="178"></line>
+<text class="t-s t-mute t-num" text-anchor="end" x="46" y="182">0</text>
+<path class="f-none s-mute w15" d="M65.0,77.5 Q215.0,278.5 365.0,77.5"></path>
+<path class="f-none s-mute w15 dash" d="M65.0,278.0 Q215.0,78.0 365.0,278.0"></path>
+<path class="f-none s-ink w1 op5" d="M65.0,128.0 Q215.0,228.0 365.0,128.0"></path>
+<path class="f-none s-ink w1 op7" d="M65.0,158.0 Q215.0,198.0 365.0,158.0"></path>
+<path class="f-none s-ink w3 round" d="M65.0,177.5 Q215.0,178.5 365.0,177.5"></path>
+<text class="t-s t-mute" x="372" y="82">탄성 <tspan class="t-lat">½Cθ²</tspan></text>
+<text class="t-s t-mute" x="372" y="282">중력 <tspan class="t-lat">−½mglθ²</tspan></text>
+<text class="t-s t-b" x="372" y="112">합 <tspan class="t-lat">½(C−mgl)θ²</tspan></text>
+<text class="t-s t-num" x="372" y="132">C/mgl = 1.5</text>
+<text class="t-s t-num" x="372" y="162">1.2</text>
+<text class="t t-b t-num" x="372" y="182">1.005</text>
+<line class="s-mute w1 dot" x1="215" x2="215" y1="120" y2="58"></line>
+<rect class="f-mute" height="9" width="34" x="198" y="120"></rect>
+<line class="s-ink w15" x1="215" x2="229.0" y1="120" y2="63.7"></line>
+<polygon class="f-ink" points="222.6,56.5 238.1,60.3 235.5,71.0 219.9,67.1"></polygon>
+<path class="f-none s-ink w1" d="M215,90 A30,30 0 0 1 222.3,90.9"></path>
+<text class="t-s t-lat" text-anchor="end" x="210" y="90">θ</text>
+<text class="t-s" x="241" y="68">석영</text>
+<text class="t-s t-mute" x="237" y="129">엘린바</text>
+<text class="t-s" text-anchor="middle" x="215" y="226">C가 mgl에 다가갈수록 합이 납작해짐</text>
+<text class="t-s t-mute" text-anchor="middle" x="215" y="242">C = mgl이면 수평선 = 무차별 평형</text>
+<line class="s-ink w1" marker-end="url(#f08-ar-ink)" x1="175" x2="175" y1="213" y2="184"></line>
+<text class="t t-b t-inf" x="30" y="334">ε = 0.005 → 감도 1/ε = 200배</text>
+<text class="t-s t-mute" x="246" y="334">C = (1+ε)mgl, 중력의 작은 변화가 차 속에서 불어남</text>
+<line class="s-rule w1 dot" x1="480" x2="480" y1="16" y2="318"></line>
+<text class="t t-b" x="500" y="26">180° 뒤집으면: 두 퍼텐셜의 합</text>
+<text class="t-s t-mute" x="500" y="43">같은 축척, 석영이 아래로</text>
+<line class="s-rule w1 dash" x1="500" x2="700" y1="168" y2="168"></line>
+<path class="f-none s-mute w15" d="M510.0,131.8 Q600.0,204.2 690.0,131.8"></path>
+<path class="f-none s-ink w3 round" d="M510.0,95.8 Q600.0,240.2 690.0,95.8"></path>
+<text class="t-s t-b" text-anchor="middle" x="600" y="86">합 <tspan class="t-lat">½(C+mgl)θ²</tspan> — 깊은 우물</text>
+<text class="t-s t-mute" text-anchor="end" x="700" y="186">가는 선: 탄성 ≈ 중력, 둘 다 위로</text>
+<rect class="f-mute" height="9" width="34" x="583" y="205"></rect>
+<line class="s-ink w15" x1="600" x2="612.1" y1="214" y2="262.5"></line>
+<polygon class="f-ink" points="603.0,259.1 618.5,255.2 621.2,265.9 605.7,269.8"></polygon>
+<text class="t-s" x="624" y="267">석영</text>
+<text class="t t-b" text-anchor="middle" x="600" y="296">감도 0.5배</text>
+<text class="t-s t-mute" text-anchor="middle" x="600" y="313">보통 진자 대비 · '차'는 200배</text>
+</svg></svg>

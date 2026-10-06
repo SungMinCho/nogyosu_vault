@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 410" width="720" height="410" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#E6ECE9; --panel:#F2F5F3; --ink:#172120; --ink-2:#4A5755; --rule:#B6C3BF;
+  --liq:#1B6971; --liq-soft:#CFE0DE; --liq-dot:#7FA9AB;
+  --cry:#866207; --cry-soft:#EAD9A0; --cry-deep:#C9A43C;
+  --inf:#5B3D8F; --inf-soft:#DCD3EA;
+  --brk:#983B20; --brk-soft:#EFD5CB;
+  --shade:#0E1514; --on-shade:#E6ECE9;
+  --f-display:"Hahmlet","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Gowun Batang","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-latin:"Old Standard TT","Gowun Batang","Noto Serif CJK KR",serif;
+  --f-mono:"Cutive Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR","Courier New",monospace;
+  --pad:1.05rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem }.lecture{ display:contents }.hero-fig svg{ width:100%; height:auto; display:block }figure.fig{ margin:.4rem 0 .6rem }.fig-frame{ overflow-x:auto; overflow-y:hidden; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background:
+  linear-gradient(to right,var(--paper),var(--paper)) left/1.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--paper),var(--paper)) right/1.2rem 100% no-repeat local,
+  linear-gradient(to right,rgba(0,0,0,.18),rgba(0,0,0,0)) left/.7rem 100% no-repeat scroll,
+  linear-gradient(to left,rgba(0,0,0,.18),rgba(0,0,0,0)) right/.7rem 100% no-repeat scroll;
+  background-color:var(--paper) }.fig-frame svg{ display:block; width:100%; min-width:560px; height:auto }.fig svg text, .hero-fig text{ font-family:var(--f-body); fill:var(--ink) }.t{ font-size:13px }.t-s{ font-size:11px }.t-b{ font-weight:700 }.t-mute{ fill:var(--ink-2) !important }.t-liq{ fill:var(--liq) !important }.t-cry{ fill:var(--cry) !important }.t-brk{ fill:var(--brk) !important }.t-onshade{ fill:var(--on-shade) !important }.f-none{ fill:none }.f-paper{ fill:var(--paper) }.f-panel{ fill:var(--panel) }.f-ink{ fill:var(--ink) }.f-mute{ fill:var(--ink-2) }.f-shade{ fill:var(--shade) }.f-liq{ fill:var(--liq) }.f-liq-soft{ fill:var(--liq-soft) }.f-liq-dot{ fill:var(--liq-dot) }.f-cry-soft{ fill:var(--cry-soft) }.f-brk{ fill:var(--brk) }.s-ink{ stroke:var(--ink) }.s-mute{ stroke:var(--ink-2) }.s-rule{ stroke:var(--rule) }.s-liq{ stroke:var(--liq) }.s-cry{ stroke:var(--cry) }.s-brk{ stroke:var(--brk) }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.dash{ stroke-dasharray:5 4 }.dot{ stroke-dasharray:1.5 3.5; stroke-linecap:round }.round{ stroke-linecap:round; stroke-linejoin:round }.hero-fig .band:hover polygon, .hero-fig .band:focus polygon{ fill:var(--inf-soft) }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="같은 시간축 위의 두 줄. 윗줄의 두 전통은 원리, 작용, 개체 세 칸을 놓고 가운데 작용 칸을 까맣게 칠한다. 구성된 개체에서 거슬러 찾는 탐색이 원자론에서는 개체 칸에서 멈추고, 질료형상론에서는 까만 칸을 건너뛰어 원리 칸에서 멈춘다. 아랫줄의 시몽동은 통일성 이상인 전개체적 실재에서 출발해 밝게 열린 작용, 곧 위상 변이를 거쳐 개체와 환경의 짝에 이르고, 그 짝을 남은 전개체적 하중이 감싼다. 앎은 개체화를 통해 개체로 간다." height="100%" role="img" viewBox="0 0 720 410" width="100%">
+<defs>
+<marker id="f01-ar-ink" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f01-ar-brk" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-brk" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f01-ar-mute" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 윗줄: 두 전통 -->
+<text class="t t-b" x="20" y="24">두 전통</text>
+<rect class="f-panel s-ink w15" height="48" width="150" x="76" y="104"></rect>
+<text class="t t-b" text-anchor="middle" x="151" y="125">원리</text>
+<text class="t-s t-mute" text-anchor="middle" x="151" y="142">질료 + 형상</text>
+<rect class="f-shade s-ink w15" height="48" width="150" x="286" y="104"></rect>
+<text class="t t-b t-onshade" text-anchor="middle" x="361" y="125">어두운 지대</text>
+<text class="t-s t-onshade" text-anchor="middle" x="361" y="142">작용</text>
+<rect class="f-panel s-ink w15" height="48" width="150" x="496" y="104"></rect>
+<text class="t t-b" text-anchor="middle" x="571" y="125">개체</text>
+<text class="t-s t-mute" text-anchor="middle" x="571" y="142">원자 = 이미 개체</text>
+<line class="s-ink w15" marker-end="url(#f01-ar-ink)" x1="228" x2="283" y1="128" y2="128"></line>
+<line class="s-ink w15" marker-end="url(#f01-ar-ink)" x1="438" x2="493" y1="128" y2="128"></line>
+<circle class="f-paper s-brk w15" cx="571" cy="36" r="11"></circle>
+<text class="t t-b t-brk" text-anchor="middle" x="571" y="41">?</text>
+<text class="t-s t-mute" x="590" y="32">구성된 개체에서</text>
+<text class="t-s t-mute" x="590" y="46">거슬러 찾음</text>
+<line class="s-brk w15 dash" marker-end="url(#f01-ar-brk)" x1="571" x2="571" y1="48" y2="100"></line>
+<text class="t-s t-b t-brk" x="580" y="72">원자론</text>
+<text class="t-s t-brk" x="580" y="87">개체화 뒤에서 멈춤</text>
+<path class="f-none s-brk w15 dash" d="M560,33 C440,0 240,2 153,100" marker-end="url(#f01-ar-brk)"></path>
+<text class="t-s t-b t-brk" text-anchor="middle" x="361" y="54">질료형상론</text>
+<text class="t-s t-brk" text-anchor="middle" x="361" y="69">개체화 앞에서 멈춤</text>
+<text class="t-s t-mute" text-anchor="middle" x="361" y="93">어느 쪽도 가운데에 들어가지 않음</text>
+<line class="s-rule w1 dot" x1="20" x2="700" y1="182" y2="182"></line>
+<!-- 아랫줄: 시몽동 -->
+<text class="t t-b" x="20" y="208">시몽동</text>
+<path class="f-liq-soft s-liq w15 dash round" d="M222.8,262.0 L225.5,265.4 L226.5,268.8 L225.2,272.2 L221.5,275.2 L216.2,277.6 L210.5,279.7 L205.2,281.5 L201.0,283.6 L197.7,286.0 L194.8,288.9 L191.5,291.8 L187.2,294.3 L181.8,296.0 L175.5,296.6 L168.9,296.4 L162.5,295.7 L156.6,295.0 L151.0,294.9 L145.3,295.5 L139.2,296.6 L132.4,297.6 L125.4,298.1 L118.8,297.6 L113.0,295.9 L108.5,293.2 L105.2,290.1 L102.5,286.9 L99.6,284.2 L96.0,281.8 L91.5,279.7 L86.6,277.4 L82.2,274.9 L79.2,271.9 L78.5,268.6 L79.9,265.2 L82.8,262.0 L86.1,259.1 L88.7,256.3 L89.9,253.6 L89.9,250.6 L89.4,247.2 L89.2,243.7 L90.5,240.2 L93.8,237.3 L98.7,235.1 L104.8,233.7 L111.2,232.8 L117.2,231.9 L122.6,230.7 L127.6,229.0 L132.7,226.8 L138.2,224.8 L144.4,223.3 L151.0,222.9 L157.5,223.8 L163.5,225.6 L168.7,228.1 L173.3,230.5 L177.9,232.3 L183.0,233.5 L188.8,234.2 L195.2,234.9 L201.5,236.0 L206.9,237.9 L210.7,240.5 L212.8,243.7 L213.5,247.0 L213.7,250.3 L214.5,253.3 L216.4,256.1 L219.3,258.9 L222.8,262.0 z"></path>
+<circle class="f-liq" cx="121" cy="264" r="2.4"></circle><circle class="f-liq" cx="136" cy="268" r="2.4"></circle><circle class="f-liq" cx="166" cy="238" r="2.4"></circle><circle class="f-liq" cx="123" cy="247" r="2.4"></circle><circle class="f-liq" cx="208" cy="260" r="2.4"></circle><circle class="f-liq" cx="190" cy="261" r="2.4"></circle><circle class="f-liq" cx="167" cy="283" r="2.4"></circle><circle class="f-liq" cx="154" cy="276" r="2.4"></circle><circle class="f-liq" cx="145" cy="286" r="2.4"></circle><circle class="f-liq" cx="109" cy="246" r="2.4"></circle><circle class="f-liq" cx="166" cy="251" r="2.4"></circle><circle class="f-liq" cx="152" cy="256" r="2.4"></circle><circle class="f-liq" cx="141" cy="242" r="2.4"></circle><circle class="f-liq" cx="127" cy="277" r="2.4"></circle><circle class="f-liq" cx="168" cy="267" r="2.4"></circle><circle class="f-liq" cx="95" cy="268" r="2.4"></circle><circle class="f-liq" cx="186" cy="247" r="2.4"></circle><circle class="f-liq" cx="187" cy="281" r="2.4"></circle><circle class="f-liq" cx="198" cy="273" r="2.4"></circle><circle class="f-liq" cx="113" cy="278" r="2.4"></circle>
+<text class="t t-b t-liq" text-anchor="middle" x="151" y="322">전개체적 실재</text>
+<text class="t-s t-mute" text-anchor="middle" x="151" y="338">통일성 이상</text>
+<rect class="f-panel" height="48" width="150" x="286" y="238"></rect>
+<path class="f-none s-ink w15 round" d="M300,238 L286,238 L286,286 L300,286"></path>
+<path class="f-none s-ink w15 round" d="M422,238 L436,238 L436,286 L422,286"></path>
+<text class="t t-b" text-anchor="middle" x="361" y="258">작용</text>
+<text class="t" text-anchor="middle" x="361" y="276">= 위상 변이</text>
+<line class="s-ink w15" marker-end="url(#f01-ar-ink)" x1="230" x2="283" y1="262" y2="262"></line>
+<line class="s-ink w15" marker-end="url(#f01-ar-ink)" x1="438" x2="484" y1="262" y2="262"></line>
+<ellipse class="f-liq-soft s-liq w1 dash" cx="582" cy="262" rx="94" ry="50"></ellipse>
+<path class="f-liq-dot" d="M548,236 L568.8,248 L568.8,272 L548,284 C592,304 652,292 652,260 C652,230 592,218 548,236 z"></path>
+<polygon class="f-cry-soft s-cry w15" points="548,236 568.8,248 568.8,272 548,284 527.2,272 527.2,248"></polygon>
+<text class="t-s t-b t-cry" text-anchor="middle" x="548" y="264">개체</text>
+<text class="t-s t-b" text-anchor="middle" x="614" y="264">환경</text>
+<text class="t-s t-liq" text-anchor="middle" x="582" y="330">남은 전개체적 하중</text>
+<line class="s-ink w15" marker-end="url(#f01-ar-ink)" x1="361" x2="545" y1="360" y2="360"></line>
+<text class="t-s" text-anchor="middle" x="453" y="378">개체화를 통해 개체를 안다 (p. 3)</text>
+<line class="s-mute w1" marker-end="url(#f01-ar-mute)" x1="76" x2="652" y1="398" y2="398"></line>
+<text class="t-s t-mute" x="662" y="402">시간</text>
+</svg></svg>

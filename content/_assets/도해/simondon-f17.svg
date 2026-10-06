@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 456" width="760" height="456" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#E6ECE9; --panel:#F2F5F3; --ink:#172120; --ink-2:#4A5755; --rule:#B6C3BF;
+  --liq:#1B6971; --liq-soft:#CFE0DE; --liq-dot:#7FA9AB;
+  --cry:#866207; --cry-soft:#EAD9A0; --cry-deep:#C9A43C;
+  --inf:#5B3D8F; --inf-soft:#DCD3EA;
+  --brk:#983B20; --brk-soft:#EFD5CB;
+  --shade:#0E1514; --on-shade:#E6ECE9;
+  --f-display:"Hahmlet","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Gowun Batang","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-latin:"Old Standard TT","Gowun Batang","Noto Serif CJK KR",serif;
+  --f-mono:"Cutive Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR","Courier New",monospace;
+  --pad:1.05rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem }.lecture{ display:contents }.hero-fig svg{ width:100%; height:auto; display:block }figure.fig{ margin:.4rem 0 .6rem }.fig-frame{ overflow-x:auto; overflow-y:hidden; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background:
+  linear-gradient(to right,var(--paper),var(--paper)) left/1.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--paper),var(--paper)) right/1.2rem 100% no-repeat local,
+  linear-gradient(to right,rgba(0,0,0,.18),rgba(0,0,0,0)) left/.7rem 100% no-repeat scroll,
+  linear-gradient(to left,rgba(0,0,0,.18),rgba(0,0,0,0)) right/.7rem 100% no-repeat scroll;
+  background-color:var(--paper) }.fig-frame svg{ display:block; width:100%; min-width:560px; height:auto }.fig svg text, .hero-fig text{ font-family:var(--f-body); fill:var(--ink) }.t{ font-size:13px }.t-s{ font-size:11px }.t-num{ font-family:var(--f-latin) !important; font-variant-numeric:tabular-nums }.t-b{ font-weight:700 }.t-mute{ fill:var(--ink-2) !important }.t-inf{ fill:var(--inf) !important }.f-none{ fill:none }.f-paper{ fill:var(--paper) }.f-panel{ fill:var(--panel) }.f-ink{ fill:var(--ink) }.f-mute{ fill:var(--ink-2) }.f-rule{ fill:var(--rule) }.f-inf{ fill:var(--inf) }.s-ink{ stroke:var(--ink) }.s-mute{ stroke:var(--ink-2) }.s-rule{ stroke:var(--rule) }.s-inf{ stroke:var(--inf) }.w05{ stroke-width:.6 }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.w3{ stroke-width:3 }.dash{ stroke-dasharray:5 4 }.dot{ stroke-dasharray:1.5 3.5; stroke-linecap:round }.round{ stroke-linecap:round; stroke-linejoin:round }.op5{ opacity:.5 }.op7{ opacity:.72 }.hero-fig .band:hover polygon, .hero-fig .band:focus polygon{ fill:var(--inf-soft) }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="위: 앞 기둥에 가려 한 눈에만 보이는 가장자리를 칠한 왼눈의 상과 오른눈의 상이 모여 깊이를 가진 장면 하나가 된다. 아래 왼쪽: 가로축은 불균등(각분, 선형), 세로축은 정보(상대값). 정보는 0에서 오르다가 융합 한계 약 10–20각분에서 수직으로 떨어지고 그 너머는 회색 경합 구역이다. 2 m 앞 깊이 차 10 cm는 맨눈 밑변 6.5 cm에서 5.6각분으로 곡선 위에, 1 m 잠망경에서 86각분으로 절벽 너머에 떨어진다. 아래 오른쪽: 같은 장면을 깊이 차로 그리면 잠망경 곡선이 더 가파르게 오르고 ±1.7 cm에서 일찍 떨어지며, 맨눈은 ±27 cm까지 간다." height="100%" role="img" viewBox="0 0 760 456" width="100%">
+<defs>
+<marker id="f17-ar-ink" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f17-ar-inf" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-inf" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<rect class="f-paper s-mute w1" height="100" width="150" x="24" y="30"></rect>
+<rect class="f-rule op5 s-mute w05" height="70" width="126" x="36" y="44"></rect>
+<line class="s-mute w05 op5" x1="36" x2="162" y1="58" y2="58"></line>
+<line class="s-mute w05 op5" x1="36" x2="162" y1="72" y2="72"></line>
+<line class="s-mute w05 op5" x1="36" x2="162" y1="86" y2="86"></line>
+<line class="s-mute w05 op5" x1="36" x2="162" y1="100" y2="100"></line>
+<rect class="f-inf op7" height="70" width="10" x="86.0" y="44"></rect>
+<rect class="f-ink" height="88" width="22" x="96.0" y="38"></rect>
+<text class="t t-b" text-anchor="middle" x="99.0" y="21">왼눈의 상</text>
+<rect class="f-paper s-mute w1" height="100" width="150" x="586" y="30"></rect>
+<rect class="f-rule op5 s-mute w05" height="70" width="126" x="598" y="44"></rect>
+<line class="s-mute w05 op5" x1="598" x2="724" y1="58" y2="58"></line>
+<line class="s-mute w05 op5" x1="598" x2="724" y1="72" y2="72"></line>
+<line class="s-mute w05 op5" x1="598" x2="724" y1="86" y2="86"></line>
+<line class="s-mute w05 op5" x1="598" x2="724" y1="100" y2="100"></line>
+<rect class="f-inf op7" height="70" width="10" x="664.0" y="44"></rect>
+<rect class="f-ink" height="88" width="22" x="642.0" y="38"></rect>
+<text class="t t-b" text-anchor="middle" x="661.0" y="21">오른눈의 상</text>
+<text class="t-s t-inf" text-anchor="middle" x="99" y="148">왼눈에만 보이는 가장자리</text>
+<text class="t-s t-inf" text-anchor="middle" x="661" y="148">오른눈에만 보이는 가장자리</text>
+<polygon class="f-panel s-mute w05" points="322,106 446,106 472,150 296,150"></polygon>
+<rect class="f-rule op5 s-mute w05" height="72" width="124" x="322" y="34"></rect>
+<line class="s-mute w05 op5" x1="322" x2="446" y1="48" y2="48"></line>
+<line class="s-mute w05 op5" x1="322" x2="446" y1="62" y2="62"></line>
+<line class="s-mute w05 op5" x1="322" x2="446" y1="76" y2="76"></line>
+<line class="s-mute w05 op5" x1="322" x2="446" y1="90" y2="90"></line>
+<rect class="f-inf op7" height="72" width="10" x="358.0" y="34"></rect>
+<rect class="f-inf op7" height="72" width="10" x="400.0" y="34"></rect>
+<polygon class="f-mute" points="373.0,48 380.0,42 402.0,42 395.0,48"></polygon>
+<polygon class="f-mute" points="395.0,48 402.0,42 402.0,130 395.0,136"></polygon>
+<rect class="f-ink" height="88" width="22" x="373.0" y="48"></rect>
+<text class="t t-b" text-anchor="middle" x="384.0" y="163">깊이 하나</text>
+<text class="t-s t-mute" text-anchor="middle" x="384.0" y="178">이원성은 지각되지 않고 입체만</text>
+<line class="s-inf w15" marker-end="url(#f17-ar-inf)" x1="180" x2="288" y1="80" y2="80"></line>
+<line class="s-inf w15" marker-end="url(#f17-ar-inf)" x1="580" x2="480" y1="80" y2="80"></line>
+<text class="t-s t-inf" text-anchor="middle" x="234" y="72">포개지지 않되</text>
+<text class="t-s t-inf" text-anchor="middle" x="234" y="98">차이가 작다</text>
+<text class="t-s t-inf" text-anchor="middle" x="526" y="72">불균등화를</text>
+<text class="t-s t-inf" text-anchor="middle" x="526" y="98">떠맡아 하나로</text>
+<line class="s-rule w1 dot" x1="16" x2="744" y1="188" y2="188"></line>
+<rect class="f-rule op7" height="164" width="333.3" x="136.7" y="230"></rect>
+<path class="f-none s-ink w1" d="M114.4,228 L114.4,222 L158.9,222 L158.9,228"></path>
+<text class="t-s t-b" x="164.9" y="226">융합 한계 ≈ 10–20′</text>
+<line class="s-ink w15" marker-end="url(#f17-ar-ink)" x1="70" x2="484.0" y1="394" y2="394"></line>
+<line class="s-ink w15" marker-end="url(#f17-ar-ink)" x1="70" x2="70" y1="394" y2="216"></line>
+<line class="s-ink w1" x1="70.0" x2="70.0" y1="394" y2="399"></line>
+<text class="t-s t-num" text-anchor="middle" x="70.0" y="412">0′</text>
+<line class="s-ink w1" x1="114.4" x2="114.4" y1="394" y2="399"></line>
+<text class="t-s t-num" text-anchor="middle" x="114.4" y="412">10′</text>
+<line class="s-ink w1" x1="158.9" x2="158.9" y1="394" y2="399"></line>
+<text class="t-s t-num" text-anchor="middle" x="158.9" y="412">20′</text>
+<line class="s-ink w1" x1="203.3" x2="203.3" y1="394" y2="399"></line>
+<text class="t-s t-num" text-anchor="middle" x="203.3" y="412">30′</text>
+<line class="s-ink w1" x1="247.8" x2="247.8" y1="394" y2="399"></line>
+<text class="t-s t-num" text-anchor="middle" x="247.8" y="412">40′</text>
+<line class="s-ink w1" x1="292.2" x2="292.2" y1="394" y2="399"></line>
+<text class="t-s t-num" text-anchor="middle" x="292.2" y="412">50′</text>
+<line class="s-ink w1" x1="336.7" x2="336.7" y1="394" y2="399"></line>
+<text class="t-s t-num" text-anchor="middle" x="336.7" y="412">60′</text>
+<line class="s-ink w1" x1="381.1" x2="381.1" y1="394" y2="399"></line>
+<text class="t-s t-num" text-anchor="middle" x="381.1" y="412">70′</text>
+<line class="s-ink w1" x1="425.6" x2="425.6" y1="394" y2="399"></line>
+<text class="t-s t-num" text-anchor="middle" x="425.6" y="412">80′</text>
+<line class="s-ink w1" x1="470.0" x2="470.0" y1="394" y2="399"></line>
+<text class="t-s t-num" text-anchor="middle" x="470.0" y="412">90′</text>
+<text class="t-s t-mute" text-anchor="middle" x="270.0" y="429">불균등 δ (각분, 선형 눈금)</text>
+<text class="t-s t-mute" x="64" y="206">↑ 정보 = 수신 계의 상태 변화 (상대값)</text>
+<text class="t-s t-num" text-anchor="end" x="64" y="398">0</text>
+<path class="f-none s-inf w3 round" d="M70,394 L136.7,244.0 L136.7,394 L470.0,394"></path>
+<text class="t-s t-b" x="144.7" y="258.0">절벽</text>
+<text class="t-s t-mute" x="144.7" y="272.0">비탈이 아니라</text>
+<text class="t t-b t-mute" text-anchor="middle" x="314.4" y="272">경합 / 동기 풀림 = 잡음</text>
+<text class="t-s t-mute" text-anchor="middle" x="314.4" y="291">왼눈·오른눈이 번갈아 우세, 깊이 정보 0</text>
+<text class="t-s t-mute" text-anchor="middle" x="314.4" y="307">발진기라면 Δω &gt; K에서 고정점이 통째로 사라짐</text>
+<circle class="f-inf" cx="94.9" cy="338.0" r="4.5"></circle>
+<text class="t-s t-b t-inf" x="75" y="310.0">맨눈</text>
+<text class="t-s t-inf t-num" x="75" y="324.0">5.6′</text>
+<circle class="f-paper s-inf w2" cx="452.2" cy="394" r="5"></circle>
+<text class="t-s t-b t-inf" text-anchor="end" x="454.2" y="356">잠망경 86′</text>
+<text class="t-s t-inf" text-anchor="end" x="454.2" y="371">한계의 4~9배 → 정보 0</text>
+<text class="t-s t-mute" x="64" y="448">2 m 앞 깊이 차 10 cm — <tspan class="t-inf">● 맨눈(밑변 b = 6.5 cm) 5.6′</tspan>, <tspan class="t-inf">○ 잠망경 둘(b = 1 m) 86′</tspan></text>
+<rect class="f-rule op7" height="164" width="21.0" x="719.0" y="230"></rect>
+<line class="s-ink w15" marker-end="url(#f17-ar-ink)" x1="540" x2="752.0" y1="394" y2="394"></line>
+<line class="s-ink w15" marker-end="url(#f17-ar-ink)" x1="540" x2="540" y1="394" y2="216"></line>
+<line class="s-ink w1" x1="540.0" x2="540.0" y1="394" y2="399"></line>
+<text class="t-s t-num" text-anchor="middle" x="540.0" y="412">0</text>
+<line class="s-ink w1" x1="606.7" x2="606.7" y1="394" y2="399"></line>
+<text class="t-s t-num" text-anchor="middle" x="606.7" y="412">10</text>
+<line class="s-ink w1" x1="673.3" x2="673.3" y1="394" y2="399"></line>
+<text class="t-s t-num" text-anchor="middle" x="673.3" y="412">20</text>
+<line class="s-ink w1" x1="740.0" x2="740.0" y1="394" y2="399"></line>
+<text class="t-s t-num" text-anchor="middle" x="740.0" y="412">30</text>
+<text class="t-s t-mute" text-anchor="middle" x="640.0" y="429">깊이 차 Δd (cm, 선형)</text>
+<text class="t-s t-mute" x="534" y="206">같은 장면을 깊이 차로 (주시 2 m)</text>
+<path class="f-none s-inf w2 round" d="M540,394 L719.0,244.0 L719.0,394"></path>
+<path class="f-none s-inf w2 dash round" d="M540,394 L551.6,244.0 L551.6,392"></path>
+<circle class="f-inf" cx="606.7" cy="338.1" r="4"></circle>
+<circle class="f-paper s-inf w15" cx="606.7" cy="394" r="4"></circle>
+<text class="t-s t-inf" x="615.7" y="388">잠망경은 이미 0</text>
+<text class="t-s t-b t-inf" x="557.6" y="250.0">잠망경</text>
+<text class="t-s t-inf" x="557.6" y="264.0">창 ±1.7 cm</text>
+<text class="t-s t-inf" text-anchor="end" x="715.0" y="238.0"><tspan class="t-b">맨눈</tspan> 창 ±27 cm</text>
+<text class="t-s t-mute" text-anchor="middle" x="640.0" y="448">밑변 15배: 예민 15배(6 → 0.4 mm), 창 1/15</text>
+</svg></svg>

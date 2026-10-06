@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 410" width="720" height="410" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#E6ECE9; --panel:#F2F5F3; --ink:#172120; --ink-2:#4A5755; --rule:#B6C3BF;
+  --liq:#1B6971; --liq-soft:#CFE0DE; --liq-dot:#7FA9AB;
+  --cry:#866207; --cry-soft:#EAD9A0; --cry-deep:#C9A43C;
+  --inf:#5B3D8F; --inf-soft:#DCD3EA;
+  --brk:#983B20; --brk-soft:#EFD5CB;
+  --shade:#0E1514; --on-shade:#E6ECE9;
+  --f-display:"Hahmlet","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Gowun Batang","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-latin:"Old Standard TT","Gowun Batang","Noto Serif CJK KR",serif;
+  --f-mono:"Cutive Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR","Courier New",monospace;
+  --pad:1.05rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem }.lecture{ display:contents }.hero-fig svg{ width:100%; height:auto; display:block }figure.fig{ margin:.4rem 0 .6rem }.fig-frame{ overflow-x:auto; overflow-y:hidden; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background:
+  linear-gradient(to right,var(--paper),var(--paper)) left/1.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--paper),var(--paper)) right/1.2rem 100% no-repeat local,
+  linear-gradient(to right,rgba(0,0,0,.18),rgba(0,0,0,0)) left/.7rem 100% no-repeat scroll,
+  linear-gradient(to left,rgba(0,0,0,.18),rgba(0,0,0,0)) right/.7rem 100% no-repeat scroll;
+  background-color:var(--paper) }.fig-frame svg{ display:block; width:100%; min-width:560px; height:auto }.fig svg text, .hero-fig text{ font-family:var(--f-body); fill:var(--ink) }.t{ font-size:13px }.t-s{ font-size:11px }.t-l{ font-size:15px; font-weight:700 }.t-lat{ font-family:var(--f-latin) !important; font-style:italic }.t-b{ font-weight:700 }.t-mute{ fill:var(--ink-2) !important }.t-liq{ fill:var(--liq) !important }.t-cry{ fill:var(--cry) !important }.t-inf{ fill:var(--inf) !important }.f-none{ fill:none }.f-panel{ fill:var(--panel) }.f-ink{ fill:var(--ink) }.f-mute{ fill:var(--ink-2) }.f-liq-soft{ fill:var(--liq-soft) }.f-liq-dot{ fill:var(--liq-dot) }.f-cry-soft{ fill:var(--cry-soft) }.f-inf{ fill:var(--inf) }.s-ink{ stroke:var(--ink) }.s-rule{ stroke:var(--rule) }.s-liq{ stroke:var(--liq) }.s-cry{ stroke:var(--cry) }.s-inf{ stroke:var(--inf) }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.dash{ stroke-dasharray:5 4 }.dot{ stroke-dasharray:1.5 3.5; stroke-linecap:round }.hero-fig .band:hover polygon, .hero-fig .band:focus polygon{ fill:var(--inf-soft) }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="위는 발생 전의 준안정 전체, 곧 쉬놀론을 점선 타원으로 그리고 한 귀퉁이에 특이성 한 점을 찍었다. 아래는 그 전체가 특이성 자리에서 시작한 들쭉날쭉한 금을 따라 비대칭하게 쪼개진 모습으로, 작은 조각이 개체, 큰 조각이 연합 환경이며 두 조각 사이의 맞물림선이 곧 관계이고 존재다. 오른쪽에는 둘로 쪼갠 환대의 증표, 그리고 맞물림선이 없는 두 그림, 흩뿌린 무수한 점과 테두리만 있는 원이 있다." height="100%" role="img" viewBox="0 0 720 410" width="100%">
+<defs>
+<marker id="f07-ar-ink" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<text class="t t-b t-liq" text-anchor="middle" x="230" y="26">발생 전 · 준안정 전체 (쉬놀론)</text>
+<ellipse class="f-liq-soft s-liq w15 dash" cx="230" cy="104" rx="150" ry="58"></ellipse>
+<circle class="f-liq-dot" cx="217" cy="110" r="2.2"></circle>
+<circle class="f-liq-dot" cx="345" cy="101" r="2.2"></circle>
+<circle class="f-liq-dot" cx="144" cy="105" r="2.2"></circle>
+<circle class="f-liq-dot" cx="265" cy="132" r="2.2"></circle>
+<circle class="f-liq-dot" cx="120" cy="85" r="2.2"></circle>
+<circle class="f-liq-dot" cx="283" cy="60" r="2.2"></circle>
+<circle class="f-liq-dot" cx="272" cy="115" r="2.2"></circle>
+<circle class="f-liq-dot" cx="238" cy="62" r="2.2"></circle>
+<circle class="f-liq-dot" cx="146" cy="79" r="2.2"></circle>
+<circle class="f-liq-dot" cx="102" cy="101" r="2.2"></circle>
+<circle class="f-liq-dot" cx="214" cy="137" r="2.2"></circle>
+<circle class="f-liq-dot" cx="235" cy="117" r="2.2"></circle>
+<circle class="f-liq-dot" cx="218" cy="83" r="2.2"></circle>
+<circle class="f-liq-dot" cx="323" cy="124" r="2.2"></circle>
+<circle class="f-liq-dot" cx="180" cy="78" r="2.2"></circle>
+<circle class="f-liq-dot" cx="302" cy="94" r="2.2"></circle>
+<circle class="f-liq-dot" cx="324" cy="93" r="2.2"></circle>
+<circle class="f-liq-dot" cx="114" cy="116" r="2.2"></circle>
+<circle class="f-liq-dot" cx="311" cy="73" r="2.2"></circle>
+<circle class="f-liq-dot" cx="246" cy="99" r="2.2"></circle>
+<circle class="f-liq-dot" cx="177" cy="141" r="2.2"></circle>
+<circle class="f-liq-dot" cx="160" cy="114" r="2.2"></circle>
+<circle class="f-liq-dot" cx="195" cy="100" r="2.2"></circle>
+<circle class="f-liq-dot" cx="209" cy="66" r="2.2"></circle>
+<circle class="f-liq-dot" cx="246" cy="138" r="2.2"></circle>
+<polygon class="f-inf" points="135.2,131.2 141.2,137.2 135.2,143.2 129.2,137.2"></polygon>
+<line class="s-inf w1" x1="127.2" x2="68" y1="144.2" y2="168"></line>
+<text class="t-s t-b t-inf" text-anchor="middle" x="66" y="182">특이성</text>
+<line class="s-ink w15" marker-end="url(#f07-ar-ink)" x1="230" x2="230" y1="170" y2="224"></line>
+<text class="t-s" x="242" y="201">분열 · 해결 · 비대칭적 분배 (p. 51)</text>
+<polygon class="f-liq-soft s-liq w15" points="127.9,351.5 133.6,353.6 139.6,355.6 145.8,357.4 152.3,359.1 159.0,360.7 165.9,362.2 173.0,363.5 180.2,364.6 187.6,365.6 195.2,366.5 202.8,367.2 210.5,367.8 218.3,368.2 226.1,368.4 234.0,368.5 241.8,368.4 249.7,368.2 257.5,367.8 265.2,367.2 272.8,366.5 280.3,365.6 287.7,364.6 295.0,363.5 302.1,362.2 309.0,360.7 315.7,359.1 322.2,357.4 328.4,355.6 334.4,353.6 340.1,351.5 345.5,349.3 350.6,347.0 355.3,344.6 359.8,342.1 363.9,339.5 367.6,336.8 371.0,334.1 374.0,331.3 376.6,328.4 378.9,325.5 380.7,322.5 382.1,319.6 383.2,316.5 383.8,313.5 384.0,310.5 383.8,307.4 383.2,304.4 382.1,301.4 380.7,298.4 378.9,295.5 376.6,292.6 374.0,289.7 371.0,286.9 367.6,284.2 363.9,281.5 359.8,278.9 355.3,276.4 350.6,274.0 345.5,271.7 340.1,269.5 334.4,267.4 328.4,265.4 322.2,263.6 315.7,261.8 309.0,260.3 302.1,258.8 295.0,257.5 287.7,256.3 280.3,255.3 272.8,254.5 265.2,253.8 257.5,253.2 249.7,252.8 241.8,252.6 239.2,252.5 228.9,254.1 222.1,259.7 224.4,275.5 211.3,273.8 210.5,286.1 205.4,293.6 190.2,289.7 182.9,294.6 183.8,308.8 176.9,314.3 171.2,321.0 165.8,328.1 155.8,330.1 143.6,329.5 139.1,337.7 137.5,349.1"></polygon>
+<polygon class="f-cry-soft s-cry w15" points="231.2,243.6 223.4,243.5 215.5,243.7 207.7,243.9 200.0,244.4 192.3,245.0 184.7,245.8 177.2,246.7 169.8,247.7 162.6,249.0 155.6,250.3 148.8,251.8 142.1,253.4 135.7,255.2 129.6,257.1 123.7,259.1 118.1,261.2 112.8,263.5 107.8,265.8 103.1,268.2 98.8,270.8 94.8,273.4 91.2,276.1 87.9,278.9 85.1,281.7 82.6,284.6 80.5,287.5 78.8,290.4 77.5,293.4 76.6,296.5 76.1,299.5 76.0,302.5 76.4,305.6 77.1,308.6 78.3,311.6 79.9,314.6 81.8,317.5 84.2,320.4 86.9,323.2 90.1,326.0 93.6,328.7 97.4,331.4 101.7,333.9 106.2,336.4 111.1,338.8 116.3,341.1 119.9,342.5 129.5,340.1 131.1,328.7 135.6,320.6 147.9,321.2 157.8,319.2 163.2,312.1 169.0,305.4 175.8,299.8 174.9,285.6 182.3,280.8 197.5,284.7 202.5,277.1 203.3,264.9 216.5,266.5 214.2,250.7 221.0,245.2"></polygon>
+<text class="t-l t-cry" text-anchor="middle" x="130" y="291">개체</text>
+<text class="t-l t-liq" text-anchor="middle" x="292" y="326">연합 환경</text>
+<polygon class="f-inf" points="123.9,342.0 128.9,347.0 123.9,352.0 118.9,347.0"></polygon>
+<line class="s-ink w1" x1="245.2" x2="259.2" y1="244.0" y2="234.0"></line>
+<text class="t-s t-b" x="263" y="234">맞물림선: 관계 = 존재</text>
+<text class="t-s t-mute" x="263" y="249">관계 속의 존재가 아니라 관계의 존재</text>
+<text class="t t-b" text-anchor="middle" x="230" y="400">발생 뒤 · 개체와 연합 환경의 짝</text>
+<line class="s-rule w1 dot" x1="470" x2="470" y1="20" y2="400"></line>
+<text class="t t-b" text-anchor="middle" x="600" y="40">깨진 증표</text>
+<text class="t-s t-lat" text-anchor="middle" x="600" y="57">tessera hospitalis</text>
+<polygon class="f-panel s-ink w15" points="543.0,92.0 567.0,76.0 601.0,78.0 595.0,88.0 605.0,96.0 593.0,104.0 603.0,114.0 591.0,124.0 599.0,132.0 595.0,138.0 575.0,134.0 547.0,120.0"></polygon>
+<polygon class="f-panel s-ink w15" points="611.0,78.0 617.0,80.0 649.0,70.0 665.0,96.0 655.0,126.0 621.0,140.0 605.0,138.0 609.0,132.0 601.0,124.0 613.0,114.0 603.0,104.0 615.0,96.0 605.0,88.0"></polygon>
+<text class="t-s t-mute" text-anchor="middle" x="600" y="164">짝 조각만 맞물린다</text>
+<line class="s-rule w1 dot" x1="486" x2="704" y1="196" y2="196"></line>
+<text class="t t-b" text-anchor="middle" x="600" y="226">둘 다 맞물림선이 없다</text>
+<circle class="f-mute" cx="504.2" cy="307.0" r="1.3"></circle>
+<circle class="f-mute" cx="544.6" cy="291.5" r="1.3"></circle>
+<circle class="f-mute" cx="508.6" cy="314.7" r="1.3"></circle>
+<circle class="f-mute" cx="559.5" cy="293.9" r="1.3"></circle>
+<circle class="f-mute" cx="533.4" cy="273.5" r="1.3"></circle>
+<circle class="f-mute" cx="490.3" cy="283.5" r="1.3"></circle>
+<circle class="f-mute" cx="540.3" cy="261.1" r="1.3"></circle>
+<circle class="f-mute" cx="558.3" cy="273.2" r="1.3"></circle>
+<circle class="f-mute" cx="510.0" cy="259.1" r="1.3"></circle>
+<circle class="f-mute" cx="575.8" cy="310.7" r="1.3"></circle>
+<circle class="f-mute" cx="565.3" cy="301.6" r="1.3"></circle>
+<circle class="f-mute" cx="492.9" cy="280.3" r="1.3"></circle>
+<circle class="f-mute" cx="532.8" cy="264.6" r="1.3"></circle>
+<circle class="f-mute" cx="571.9" cy="283.3" r="1.3"></circle>
+<circle class="f-mute" cx="503.3" cy="316.5" r="1.3"></circle>
+<circle class="f-mute" cx="500.7" cy="324.7" r="1.3"></circle>
+<circle class="f-mute" cx="529.0" cy="296.8" r="1.3"></circle>
+<circle class="f-mute" cx="519.5" cy="291.9" r="1.3"></circle>
+<circle class="f-mute" cx="506.1" cy="258.7" r="1.3"></circle>
+<circle class="f-mute" cx="564.5" cy="273.4" r="1.3"></circle>
+<circle class="f-mute" cx="557.1" cy="271.4" r="1.3"></circle>
+<circle class="f-mute" cx="573.3" cy="322.2" r="1.3"></circle>
+<circle class="f-mute" cx="554.9" cy="312.4" r="1.3"></circle>
+<circle class="f-mute" cx="539.9" cy="310.0" r="1.3"></circle>
+<circle class="f-mute" cx="500.5" cy="291.2" r="1.3"></circle>
+<circle class="f-mute" cx="561.1" cy="270.9" r="1.3"></circle>
+<circle class="f-mute" cx="569.4" cy="321.7" r="1.3"></circle>
+<circle class="f-mute" cx="525.2" cy="283.0" r="1.3"></circle>
+<circle class="f-mute" cx="528.8" cy="284.5" r="1.3"></circle>
+<circle class="f-mute" cx="575.6" cy="284.6" r="1.3"></circle>
+<circle class="f-mute" cx="492.3" cy="262.9" r="1.3"></circle>
+<circle class="f-mute" cx="551.8" cy="329.5" r="1.3"></circle>
+<circle class="f-mute" cx="532.7" cy="292.4" r="1.3"></circle>
+<circle class="f-mute" cx="537.3" cy="311.4" r="1.3"></circle>
+<circle class="f-mute" cx="509.1" cy="301.1" r="1.3"></circle>
+<circle class="f-mute" cx="537.9" cy="302.1" r="1.3"></circle>
+<circle class="f-mute" cx="505.5" cy="268.6" r="1.3"></circle>
+<circle class="f-mute" cx="519.9" cy="324.6" r="1.3"></circle>
+<circle class="f-mute" cx="519.8" cy="300.2" r="1.3"></circle>
+<circle class="f-mute" cx="516.4" cy="263.6" r="1.3"></circle>
+<circle class="f-mute" cx="495.6" cy="316.2" r="1.3"></circle>
+<circle class="f-mute" cx="556.8" cy="283.7" r="1.3"></circle>
+<circle class="f-mute" cx="548.8" cy="306.0" r="1.3"></circle>
+<circle class="f-mute" cx="567.3" cy="326.9" r="1.3"></circle>
+<circle class="f-mute" cx="525.0" cy="329.2" r="1.3"></circle>
+<circle class="f-mute" cx="572.7" cy="299.7" r="1.3"></circle>
+<circle class="f-mute" cx="566.0" cy="292.3" r="1.3"></circle>
+<circle class="f-mute" cx="522.3" cy="274.3" r="1.3"></circle>
+<circle class="f-mute" cx="565.3" cy="268.0" r="1.3"></circle>
+<circle class="f-mute" cx="496.0" cy="315.6" r="1.3"></circle>
+<circle class="f-mute" cx="556.6" cy="291.8" r="1.3"></circle>
+<circle class="f-mute" cx="562.0" cy="259.9" r="1.3"></circle>
+<circle class="f-mute" cx="512.2" cy="277.5" r="1.3"></circle>
+<circle class="f-mute" cx="526.1" cy="268.6" r="1.3"></circle>
+<circle class="f-mute" cx="496.0" cy="281.0" r="1.3"></circle>
+<circle class="f-mute" cx="567.3" cy="328.8" r="1.3"></circle>
+<circle class="f-mute" cx="554.1" cy="291.4" r="1.3"></circle>
+<circle class="f-mute" cx="511.7" cy="327.0" r="1.3"></circle>
+<circle class="f-mute" cx="535.2" cy="309.9" r="1.3"></circle>
+<circle class="f-mute" cx="492.4" cy="271.7" r="1.3"></circle>
+<circle class="f-mute" cx="562.1" cy="314.8" r="1.3"></circle>
+<circle class="f-mute" cx="565.8" cy="300.5" r="1.3"></circle>
+<circle class="f-mute" cx="526.6" cy="299.0" r="1.3"></circle>
+<circle class="f-mute" cx="563.0" cy="278.8" r="1.3"></circle>
+<circle class="f-mute" cx="536.0" cy="276.4" r="1.3"></circle>
+<circle class="f-mute" cx="556.1" cy="256.8" r="1.3"></circle>
+<circle class="f-mute" cx="548.9" cy="326.6" r="1.3"></circle>
+<circle class="f-mute" cx="492.0" cy="299.9" r="1.3"></circle>
+<circle class="f-mute" cx="545.4" cy="319.0" r="1.3"></circle>
+<circle class="f-mute" cx="540.3" cy="275.0" r="1.3"></circle>
+<circle class="f-none s-ink w15" cx="654" cy="293" r="40"></circle>
+<text class="t-s" text-anchor="middle" x="533" y="358">흩뿌린 무수한 점</text>
+<text class="t-s" text-anchor="middle" x="654" y="358">테두리만 있는 원</text>
+<text class="t-s t-mute" text-anchor="middle" x="600" y="380">누구인지는 곧 나온다</text>
+</svg></svg>

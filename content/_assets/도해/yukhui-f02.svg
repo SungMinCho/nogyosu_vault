@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 660 372" width="660" height="372" class="frame dia lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  --bg:#EDE7DA; --panel:#F6F2E8; --ink:#241E17; --dim:#6B6152; --rule:#CCC2AC;
+  --sea:#1B5064; --chaff:#96660C; --fire:#A2432A; --ground:#476844;
+  --disp:"Kirang Haerang","Song Myung","Nanum Myeongjo","Apple SD Gothic Neo",serif;
+  --body:"Cardo","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Anonymous Pro",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#15120F; --panel:#1E1A15; --ink:#EAE3D3; --dim:#9C927F; --rule:#3B352C;
+  --sea:#63B2C6; --chaff:#D5A03E; --fire:#DE7A57; --ground:#86AC82;
+}}:root[data-theme="dark"]{
+  --bg:#15120F; --panel:#1E1A15; --ink:#EAE3D3; --dim:#9C927F; --rule:#3B352C;
+  --sea:#63B2C6; --chaff:#D5A03E; --fire:#DE7A57; --ground:#86AC82;
+}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;
+  padding-inline:var(--pad);padding-block:0 4rem}.lecture{display:contents}.hero-svg .sea-g path{fill:none;stroke:var(--sea);stroke-width:1.6;opacity:.75}.hero-svg .chaff-g circle{fill:var(--chaff);opacity:.85}.hero-svg .oar path{fill:none;stroke:var(--ink);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.hero-svg .oar circle{fill:var(--ink)}.hero-svg .chaff-t{fill:var(--chaff)}figure.dia{margin:1.6rem 0}.frame{overflow-x:auto;border:1px solid var(--rule);background:var(--panel);padding:.9rem .7rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 12px),
+    linear-gradient(-90deg,var(--panel),transparent 12px),
+    linear-gradient(90deg,rgba(0,0,0,.14),transparent 12px),
+    linear-gradient(-90deg,rgba(0,0,0,.14),transparent 12px);
+  background-repeat:no-repeat;background-size:24px 100%,24px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}.frame svg{display:block;width:100%;min-width:480px;height:auto;color:var(--ink)}svg .bx{fill:none;stroke:currentColor;stroke-width:1.5}svg .bx.dash,svg .dash{stroke-dasharray:5 4}svg .ln{fill:none;stroke:currentColor;stroke-width:1.5}svg .ln[marker-end],svg path.ln{fill:none}svg .tx{font-family:var(--body);font-size:13px;fill:currentColor}svg .sm{font-family:var(--mono);font-size:11px;fill:var(--dim)}svg .ttl{font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;fill:currentColor}svg .rule{stroke:var(--rule);stroke-width:1}svg .chaff-s{fill:var(--chaff);stroke:var(--chaff);stroke-width:1.8}svg .chaff-s[d]{fill:none}svg .fire-s{fill:none;stroke:var(--fire);stroke-width:1.8}svg .fire-s circle{fill:var(--fire)}svg .chaff-t{fill:var(--chaff)}svg .fire-t{fill:var(--fire)}svg marker#ar path{fill:currentColor;stroke:none}svg marker#arC path{fill:var(--chaff);stroke:none}svg marker#arF path{fill:var(--fire);stroke:none}svg marker#arS path{fill:var(--sea);stroke:none}svg text{dominant-baseline:auto}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="운동의 세 유형과 각 유형에서 우연이 맡는 서로 다른 역할" height="100%" role="img" viewBox="0 0 660 372" width="100%"><defs>
+<marker id="ar" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+<marker id="arC" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+<marker id="arF" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+<marker id="arS" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+</defs>
+<text class="ttl" x="8" y="26">유형 1 — 선형 기계</text>
+<g class="bx"><rect height="34" rx="3" width="66" x="60" y="42"></rect><rect height="34" rx="3" width="66" x="200" y="42"></rect><rect height="34" rx="3" width="66" x="340" y="42"></rect><rect height="34" rx="3" width="66" x="480" y="42"></rect></g>
+<g class="tx"><text text-anchor="middle" x="93" y="64">A</text><text text-anchor="middle" x="233" y="64">B</text><text text-anchor="middle" x="373" y="64">C</text><text text-anchor="middle" x="513" y="64">D</text></g>
+<g class="ln"><line marker-end="url(#ar)" x1="130" x2="194" y1="59" y2="59"></line><line marker-end="url(#ar)" x1="270" x2="334" y1="59" y2="59"></line><line marker-end="url(#ar)" x1="410" x2="474" y1="59" y2="59"></line></g>
+<g class="fire-s"><line x1="292" x2="312" y1="46" y2="72"></line><line x1="312" x2="292" y1="46" y2="72"></line></g>
+<text class="sm fire-t" text-anchor="middle" x="302" y="96">우연 = 고장</text>
+<line class="rule" x1="8" x2="652" y1="116" y2="116"></line>
+<text class="ttl" x="8" y="148">유형 2 — 목적이 미리 정해진 재귀</text>
+<g class="bx"><rect height="32" rx="3" width="60" x="60" y="164"></rect><rect height="32" rx="3" width="60" x="170" y="164"></rect><rect height="32" rx="3" width="60" x="280" y="164"></rect><rect height="32" rx="3" width="60" x="390" y="164"></rect><rect height="32" rx="3" width="60" x="500" y="164"></rect></g>
+<g class="tx"><text text-anchor="middle" x="90" y="185">A</text><text text-anchor="middle" x="200" y="185">B</text><text text-anchor="middle" x="310" y="185">A′</text><text text-anchor="middle" x="420" y="185">B′</text><text text-anchor="middle" x="530" y="185">C</text></g>
+<g class="ln"><line marker-end="url(#ar)" x1="124" x2="164" y1="180" y2="180"></line><line marker-end="url(#ar)" x1="234" x2="274" y1="180" y2="180"></line><line marker-end="url(#ar)" x1="344" x2="384" y1="180" y2="180"></line><line marker-end="url(#ar)" x1="454" x2="494" y1="180" y2="180"></line></g>
+<path class="chaff-s" d="M310 132 L310 158" marker-end="url(#arC)"></path>
+<text class="sm chaff-t" x="318" y="140">우연 = 성능 향상 (잡음이 일반화를 돕는다)</text>
+<text class="sm" text-anchor="middle" x="530" y="212">멈춤 조건</text>
+<line class="rule" x1="8" x2="652" y1="236" y2="236"></line>
+<text class="ttl" x="8" y="268">유형 3 — 자기목적 재귀</text>
+<g class="bx"><rect height="32" rx="3" width="60" x="90" y="284"></rect><rect height="32" rx="3" width="60" x="260" y="284"></rect><rect height="32" rx="3" width="60" x="430" y="284"></rect></g>
+<g class="tx"><text text-anchor="middle" x="120" y="305">A</text><text text-anchor="middle" x="290" y="305">B</text><text text-anchor="middle" x="460" y="305">C</text></g>
+<g class="ln"><line marker-end="url(#ar)" x1="154" x2="254" y1="300" y2="300"></line><line marker-end="url(#ar)" x1="324" x2="424" y1="300" y2="300"></line></g>
+<path class="ln" d="M460 320 q0 34 -170 34 q-170 0 -170 -34" marker-end="url(#ar)"></path>
+<path class="chaff-s" d="M460 252 L460 278" marker-end="url(#arC)"></path>
+<text class="sm chaff-t" text-anchor="end" x="452" y="260">우연 = 방향 전환 (목표가 상황에서 정해진다)</text>
+<text class="sm" text-anchor="middle" x="290" y="368">미리 정해진 끝이 없다</text>
+</svg></svg>

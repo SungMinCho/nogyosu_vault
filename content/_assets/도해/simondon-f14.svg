@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 422" width="760" height="422" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#E6ECE9; --panel:#F2F5F3; --ink:#172120; --ink-2:#4A5755; --rule:#B6C3BF;
+  --liq:#1B6971; --liq-soft:#CFE0DE; --liq-dot:#7FA9AB;
+  --cry:#866207; --cry-soft:#EAD9A0; --cry-deep:#C9A43C;
+  --inf:#5B3D8F; --inf-soft:#DCD3EA;
+  --brk:#983B20; --brk-soft:#EFD5CB;
+  --shade:#0E1514; --on-shade:#E6ECE9;
+  --f-display:"Hahmlet","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Gowun Batang","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-latin:"Old Standard TT","Gowun Batang","Noto Serif CJK KR",serif;
+  --f-mono:"Cutive Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR","Courier New",monospace;
+  --pad:1.05rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem }.lecture{ display:contents }.hero-fig svg{ width:100%; height:auto; display:block }figure.fig{ margin:.4rem 0 .6rem }.fig-frame{ overflow-x:auto; overflow-y:hidden; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background:
+  linear-gradient(to right,var(--paper),var(--paper)) left/1.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--paper),var(--paper)) right/1.2rem 100% no-repeat local,
+  linear-gradient(to right,rgba(0,0,0,.18),rgba(0,0,0,0)) left/.7rem 100% no-repeat scroll,
+  linear-gradient(to left,rgba(0,0,0,.18),rgba(0,0,0,0)) right/.7rem 100% no-repeat scroll;
+  background-color:var(--paper) }.fig-frame svg{ display:block; width:100%; min-width:560px; height:auto }.fig svg text, .hero-fig text{ font-family:var(--f-body); fill:var(--ink) }.t{ font-size:13px }.t-s{ font-size:11px }.t-b{ font-weight:700 }.t-mute{ fill:var(--ink-2) !important }.t-liq{ fill:var(--liq) !important }.t-cry{ fill:var(--cry) !important }.t-inf{ fill:var(--inf) !important }.f-none{ fill:none }.f-paper{ fill:var(--paper) }.f-ink{ fill:var(--ink) }.f-mute{ fill:var(--ink-2) }.f-liq-soft{ fill:var(--liq-soft) }.f-cry{ fill:var(--cry) }.f-cry-soft{ fill:var(--cry-soft) }.f-inf{ fill:var(--inf) }.s-ink{ stroke:var(--ink) }.s-mute{ stroke:var(--ink-2) }.s-cry{ stroke:var(--cry) }.s-inf{ stroke:var(--inf) }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.w3{ stroke-width:3 }.w4{ stroke-width:4.5 }.dash{ stroke-dasharray:5 4 }.round{ stroke-linecap:round; stroke-linejoin:round }.op5{ opacity:.5 }.op7{ opacity:.72 }.hero-fig .band:hover polygon, .hero-fig .band:focus polygon{ fill:var(--inf-soft) }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="두 줄이 같은 시간축을 쓴다. 윗줄 결정은 씨앗 하나에 정보를 처음 한 번만 받고 똑같은 층을 빠르게 되풀이하다 안정한 평형으로 굳는다. 아랫줄 생명은 같은 씨앗에서 출발하지만 굳기 직전에 멈춰, 굳지 않은 채 가지를 치며 넓어지고 바깥 정보를 시간을 두고 여러 번 받는다. 왼쪽 아래 거대분자 수준이 갈림길이고 그 밑은 전물리적·전생명적이다. 네오테니는 식물이 번식의 한순간에만 쓰는 정보 수용의 시기를 동물이 길게 붙드는 것이다." height="100%" role="img" viewBox="0 0 760 422" width="100%">
+<defs>
+<marker id="f14-ar-ink" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f14-ar-inf" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-inf" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f14-ar-cry" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-cry" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<text class="t t-b" x="20" y="24">물리적 개체화 · 결정</text>
+<text class="t-s t-mute" x="166" y="24">특이성 하나를 끝없이 되풀이</text>
+<path class="f-cry-soft" d="M70,60 L378.9,60 A312,312 0 0 1 378.9,148 L70,148 Z"></path>
+<path class="f-none s-cry w1 op7" d="M70,94 A10,10 0 0 1 70,114"></path>
+<path class="f-none s-cry w1 op7" d="M70,82 A22,22 0 0 1 70,126"></path>
+<path class="f-none s-cry w1 op7" d="M70,70 A34,34 0 0 1 70,138"></path>
+<path class="f-none s-cry w1 op7" d="M83.4,60 A46,46 0 0 1 83.4,148"></path>
+<path class="f-none s-cry w1 op7" d="M107.8,60 A58,58 0 0 1 107.8,148"></path>
+<path class="f-none s-cry w1 op7" d="M124.4,60 A70,70 0 0 1 124.4,148"></path>
+<path class="f-none s-cry w1 op7" d="M139.2,60 A82,82 0 0 1 139.2,148"></path>
+<path class="f-none s-cry w1 op7" d="M153.1,60 A94,94 0 0 1 153.1,148"></path>
+<path class="f-none s-cry w1 op7" d="M166.4,60 A106,106 0 0 1 166.4,148"></path>
+<path class="f-none s-cry w1 op7" d="M179.5,60 A118,118 0 0 1 179.5,148"></path>
+<path class="f-none s-cry w1 op7" d="M192.3,60 A130,130 0 0 1 192.3,148"></path>
+<path class="f-none s-cry w1 op7" d="M205.0,60 A142,142 0 0 1 205.0,148"></path>
+<path class="f-none s-cry w1 op7" d="M217.6,60 A154,154 0 0 1 217.6,148"></path>
+<path class="f-none s-cry w1 op7" d="M230.1,60 A166,166 0 0 1 230.1,148"></path>
+<path class="f-none s-cry w1 op7" d="M242.5,60 A178,178 0 0 1 242.5,148"></path>
+<path class="f-none s-cry w1 op7" d="M254.8,60 A190,190 0 0 1 254.8,148"></path>
+<path class="f-none s-cry w1 op7" d="M267.1,60 A202,202 0 0 1 267.1,148"></path>
+<path class="f-none s-cry w1 op7" d="M279.4,60 A214,214 0 0 1 279.4,148"></path>
+<path class="f-none s-cry w1 op7" d="M291.7,60 A226,226 0 0 1 291.7,148"></path>
+<path class="f-none s-cry w1 op7" d="M303.9,60 A238,238 0 0 1 303.9,148"></path>
+<path class="f-none s-cry w1 op7" d="M316.1,60 A250,250 0 0 1 316.1,148"></path>
+<path class="f-none s-cry w1 op7" d="M328.3,60 A262,262 0 0 1 328.3,148"></path>
+<path class="f-none s-cry w1 op7" d="M340.4,60 A274,274 0 0 1 340.4,148"></path>
+<path class="f-none s-cry w1 op7" d="M352.6,60 A286,286 0 0 1 352.6,148"></path>
+<path class="f-none s-cry w1 op7" d="M364.7,60 A298,298 0 0 1 364.7,148"></path>
+<path class="f-none s-cry w1 op7" d="M376.9,60 A310,310 0 0 1 376.9,148"></path>
+<path class="f-none s-cry w3" d="M378.9,60 A312,312 0 0 1 378.9,148"></path>
+<polygon class="f-inf" points="63,104 70,97 77,104 70,111"></polygon>
+<line class="s-inf w15" marker-end="url(#f14-ar-inf)" x1="70" x2="70" y1="34" y2="93"></line>
+<text class="t-s t-inf" x="80" y="46">정보 ①  처음 한 번뿐</text>
+<text class="t-s t-cry" x="82" y="164">똑같은 층의 빠른 되풀이 · 활동은 경계에서만</text>
+<line class="s-cry w4 op5" x1="388" x2="742" y1="104" y2="104"></line>
+<text class="t-s t-cry" x="398" y="92">안정한 평형 — 굳음</text>
+<text class="t-s t-mute" x="506" y="92">그 뒤로는 받지도 바뀌지도 않음</text>
+<line class="s-ink w15 dash" x1="342" x2="342" y1="40" y2="342"></line>
+<text class="t t-b" text-anchor="middle" x="342" y="33">멈춤</text>
+<text class="t-s t-mute" x="366" y="33">윗줄이 굳기 직전</text>
+<text class="t t-b" x="20" y="180">생명적 개체화 · 발생기 결정</text>
+<text class="t-s t-mute" x="20" y="195">안정되지 않은 채 증폭되는 결정 (p. 164)</text>
+<path class="f-liq-soft op7" d="M342,206 C420,192 560,172 742,174 L742,328 C560,330 420,308 342,294 Z"></path>
+<path class="f-cry-soft" d="M70,206 L338.4,206 A272,272 0 0 1 338.4,294 L70,294 Z"></path>
+<path class="f-none s-cry w1 op7" d="M70,240 A10,10 0 0 1 70,260"></path>
+<path class="f-none s-cry w1 op7" d="M70,228 A22,22 0 0 1 70,272"></path>
+<path class="f-none s-cry w1 op7" d="M70,216 A34,34 0 0 1 70,284"></path>
+<path class="f-none s-cry w1 op7" d="M83.4,206 A46,46 0 0 1 83.4,294"></path>
+<path class="f-none s-cry w1 op7" d="M107.8,206 A58,58 0 0 1 107.8,294"></path>
+<path class="f-none s-cry w1 op7" d="M124.4,206 A70,70 0 0 1 124.4,294"></path>
+<path class="f-none s-cry w1 op7" d="M139.2,206 A82,82 0 0 1 139.2,294"></path>
+<path class="f-none s-cry w1 op7" d="M153.1,206 A94,94 0 0 1 153.1,294"></path>
+<path class="f-none s-cry w1 op7" d="M166.4,206 A106,106 0 0 1 166.4,294"></path>
+<path class="f-none s-cry w1 op7" d="M179.5,206 A118,118 0 0 1 179.5,294"></path>
+<path class="f-none s-cry w1 op7" d="M192.3,206 A130,130 0 0 1 192.3,294"></path>
+<path class="f-none s-cry w1 op7" d="M205.0,206 A142,142 0 0 1 205.0,294"></path>
+<path class="f-none s-cry w1 op7" d="M217.6,206 A154,154 0 0 1 217.6,294"></path>
+<path class="f-none s-cry w1 op7" d="M230.1,206 A166,166 0 0 1 230.1,294"></path>
+<path class="f-none s-cry w1 op7" d="M242.5,206 A178,178 0 0 1 242.5,294"></path>
+<path class="f-none s-cry w1 op7" d="M254.8,206 A190,190 0 0 1 254.8,294"></path>
+<path class="f-none s-cry w1 op7" d="M267.1,206 A202,202 0 0 1 267.1,294"></path>
+<path class="f-none s-cry w1 op7" d="M279.4,206 A214,214 0 0 1 279.4,294"></path>
+<path class="f-none s-cry w1 op7" d="M291.7,206 A226,226 0 0 1 291.7,294"></path>
+<path class="f-none s-cry w1 op7" d="M303.9,206 A238,238 0 0 1 303.9,294"></path>
+<path class="f-none s-cry w1 op7" d="M316.1,206 A250,250 0 0 1 316.1,294"></path>
+<path class="f-none s-cry w1 op7" d="M328.3,206 A262,262 0 0 1 328.3,294"></path>
+<path class="f-none s-cry w15" d="M338.4,206 A272,272 0 0 1 338.4,294"></path>
+<polygon class="f-inf" points="63,250 70,243 77,250 70,257"></polygon>
+<line class="s-inf w15" marker-end="url(#f14-ar-inf)" x1="70" x2="70" y1="204" y2="239"></line>
+<path class="f-none s-cry w2 round" d="M342,228 C380,224 410,206 460,200"></path>
+<path class="f-none s-cry w2 round" d="M460,200 C510,196 560,180 620,180"></path>
+<path class="f-none s-cry w2 round" d="M620,180 C660,180 700,176 736,176"></path>
+<path class="f-none s-cry w2 round" d="M460,200 C500,204 540,214 580,216"></path>
+<path class="f-none s-cry w2 round" d="M342,252 C400,252 460,254 520,252"></path>
+<path class="f-none s-cry w2 round" d="M520,252 C580,250 640,240 700,238"></path>
+<path class="f-none s-cry w2 round" d="M342,276 C380,282 410,294 450,298"></path>
+<path class="f-none s-cry w2 round" d="M450,298 C480,300 510,306 540,308"></path>
+<path class="f-none s-cry w2 round" d="M450,298 C520,300 600,294 680,290"></path>
+<circle class="f-paper s-cry w15" cx="736" cy="176" r="4"></circle>
+<circle class="f-paper s-cry w15" cx="580" cy="216" r="4"></circle>
+<circle class="f-paper s-cry w15" cx="700" cy="238" r="4"></circle>
+<circle class="f-paper s-cry w15" cx="540" cy="308" r="4"></circle>
+<circle class="f-paper s-cry w15" cx="680" cy="290" r="4"></circle>
+<circle class="f-cry" cx="460" cy="200" r="3"></circle>
+<circle class="f-cry" cx="620" cy="180" r="3"></circle>
+<line class="s-inf w15" marker-end="url(#f14-ar-inf)" x1="436" x2="456" y1="164" y2="193"></line>
+<text class="t-s t-inf" text-anchor="middle" x="436" y="159">②</text>
+<line class="s-inf w15" marker-end="url(#f14-ar-inf)" x1="528" x2="537" y1="340" y2="317"></line>
+<text class="t-s t-inf" text-anchor="end" x="518" y="342">③</text>
+<line class="s-inf w15" marker-end="url(#f14-ar-inf)" x1="602" x2="616" y1="160" y2="173"></line>
+<text class="t-s t-inf" text-anchor="middle" x="602" y="155">④</text>
+<line class="s-inf w15" marker-end="url(#f14-ar-inf)" x1="692" x2="683" y1="338" y2="299"></line>
+<text class="t-s t-inf" text-anchor="end" x="682" y="340">⑤</text>
+<line class="s-inf w15" marker-end="url(#f14-ar-inf)" x1="724" x2="733" y1="146" y2="168"></line>
+<text class="t-s t-inf" text-anchor="middle" x="724" y="141">⑥</text>
+<text class="t-s t-inf" x="392" y="128">바깥 정보가 시간을 두고 잇따라 — 여러 특이성을 양립</text>
+<text class="t-s t-liq" text-anchor="middle" x="560" y="276">남은 전개체적 긴장</text>
+<line class="s-ink w15" marker-end="url(#f14-ar-ink)" x1="70" x2="742" y1="350" y2="350"></line>
+<text class="t-s t-mute" text-anchor="end" x="742" y="366">시간 → (두 줄 공통, 눈금 없음)</text>
+<line class="s-ink w15" x1="70" x2="70" y1="345" y2="355"></line>
+<line class="s-ink w15" x1="342" x2="342" y1="345" y2="355"></line>
+<line class="s-cry w15" x1="382" x2="382" y1="345" y2="355"></line>
+<text class="t-s t-cry" x="388" y="366">굳음</text>
+<text class="t-s t-b" x="20" y="378">거대분자 수준 — 갈림길</text>
+<line class="s-mute w2" x1="20" x2="250" y1="386" y2="386"></line>
+<circle class="f-mute op5" cx="28" cy="394" r="1.6"></circle>
+<circle class="f-mute op5" cx="53" cy="398" r="1.6"></circle>
+<circle class="f-mute op5" cx="66" cy="402" r="1.6"></circle>
+<circle class="f-mute op5" cx="91" cy="394" r="1.6"></circle>
+<circle class="f-mute op5" cx="104" cy="398" r="1.6"></circle>
+<circle class="f-mute op5" cx="129" cy="402" r="1.6"></circle>
+<circle class="f-mute op5" cx="142" cy="394" r="1.6"></circle>
+<circle class="f-mute op5" cx="167" cy="398" r="1.6"></circle>
+<circle class="f-mute op5" cx="180" cy="402" r="1.6"></circle>
+<circle class="f-mute op5" cx="205" cy="394" r="1.6"></circle>
+<circle class="f-mute op5" cx="218" cy="398" r="1.6"></circle>
+<circle class="f-mute op5" cx="243" cy="402" r="1.6"></circle>
+<text class="t-s t-mute" x="20" y="414">그 밑: 전물리적 · 전생명적 (미시물리)</text>
+<text class="t-s t-b t-inf" x="292" y="387">네오테니</text>
+<text class="t-s t-mute" x="292" y="401">정보를 받는 기간이 길어짐</text>
+<text class="t-s t-mute" x="292" y="415">시작 위상을 오래 붙듦</text>
+<text class="t-s" text-anchor="end" x="462" y="390">식물</text>
+<line class="s-mute w1" x1="470" x2="742" y1="386" y2="386"></line>
+<line class="s-inf w4" x1="470" x2="496" y1="386" y2="386"></line>
+<text class="t-s" text-anchor="end" x="462" y="414">동물</text>
+<line class="s-mute w1" x1="470" x2="742" y1="410" y2="410"></line>
+<line class="s-inf w4" x1="470" x2="660" y1="410" y2="410"></line>
+<path class="f-none s-inf w1" d="M500,390 C540,398 600,396 656,404" marker-end="url(#f14-ar-inf)"></path>
+</svg></svg>

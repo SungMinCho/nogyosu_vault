@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 660 288" width="660" height="288" class="frame dia lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  --bg:#EDE7DA; --panel:#F6F2E8; --ink:#241E17; --dim:#6B6152; --rule:#CCC2AC;
+  --sea:#1B5064; --chaff:#96660C; --fire:#A2432A; --ground:#476844;
+  --disp:"Kirang Haerang","Song Myung","Nanum Myeongjo","Apple SD Gothic Neo",serif;
+  --body:"Cardo","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Anonymous Pro",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#15120F; --panel:#1E1A15; --ink:#EAE3D3; --dim:#9C927F; --rule:#3B352C;
+  --sea:#63B2C6; --chaff:#D5A03E; --fire:#DE7A57; --ground:#86AC82;
+}}:root[data-theme="dark"]{
+  --bg:#15120F; --panel:#1E1A15; --ink:#EAE3D3; --dim:#9C927F; --rule:#3B352C;
+  --sea:#63B2C6; --chaff:#D5A03E; --fire:#DE7A57; --ground:#86AC82;
+}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;
+  padding-inline:var(--pad);padding-block:0 4rem}.lecture{display:contents}.hero-svg .sea-g path{fill:none;stroke:var(--sea);stroke-width:1.6;opacity:.75}.hero-svg .chaff-g circle{fill:var(--chaff);opacity:.85}.hero-svg .oar path{fill:none;stroke:var(--ink);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.hero-svg .oar circle{fill:var(--ink)}.hero-svg .chaff-t{fill:var(--chaff)}figure.dia{margin:1.6rem 0}.frame{overflow-x:auto;border:1px solid var(--rule);background:var(--panel);padding:.9rem .7rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 12px),
+    linear-gradient(-90deg,var(--panel),transparent 12px),
+    linear-gradient(90deg,rgba(0,0,0,.14),transparent 12px),
+    linear-gradient(-90deg,rgba(0,0,0,.14),transparent 12px);
+  background-repeat:no-repeat;background-size:24px 100%,24px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}.frame svg{display:block;width:100%;min-width:480px;height:auto;color:var(--ink)}svg .bx{fill:none;stroke:currentColor;stroke-width:1.5}svg .bx.dash,svg .dash{stroke-dasharray:5 4}svg .ln{fill:none;stroke:currentColor;stroke-width:1.5}svg .ln[marker-end],svg path.ln{fill:none}svg .sm{font-family:var(--mono);font-size:11px;fill:var(--dim)}svg .ttl{font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;fill:currentColor}svg .rule{stroke:var(--rule);stroke-width:1}svg .chaff-s{fill:var(--chaff);stroke:var(--chaff);stroke-width:1.8}svg .chaff-s[d]{fill:none}svg .fire-s{fill:none;stroke:var(--fire);stroke-width:1.8}svg .fire-s circle{fill:var(--fire)}svg .chaff-t{fill:var(--chaff)}svg .fire-t{fill:var(--fire)}svg marker#ar path{fill:currentColor;stroke:none}svg marker#arC path{fill:var(--chaff);stroke:none}svg marker#arF path{fill:var(--fire);stroke:none}svg marker#arS path{fill:var(--sea);stroke:none}svg text{dominant-baseline:auto}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="예방 억지 선제의 세 시간 구조" height="100%" role="img" viewBox="0 0 660 288" width="100%"><defs>
+<marker id="ar" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+<marker id="arC" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+<marker id="arF" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+<marker id="arS" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path d="M0 0 L10 5 L0 10 z"></path></marker>
+</defs>
+<text class="ttl" x="8" y="22">예방 — 위협이 규정되어 있다</text>
+<line class="ln" x1="60" x2="600" y1="46" y2="46"></line>
+<text class="sm" text-anchor="middle" x="60" y="68">지금</text>
+<circle class="bx" cx="60" cy="46" r="4"></circle>
+<circle class="fire-s" cx="460" cy="46" r="8"></circle>
+<text class="sm fire-t" text-anchor="middle" x="460" y="30">위협</text>
+<path class="ln" d="M70 46 L446 46" marker-end="url(#ar)"></path>
+<line class="rule" x1="8" x2="652" y1="88" y2="88"></line>
+<text class="ttl" x="8" y="114">억지 — 미래성을 현재에 붙들어 둔다</text>
+<line class="ln" x1="60" x2="600" y1="138" y2="138"></line>
+<circle class="bx" cx="60" cy="138" r="4"></circle>
+<text class="sm" text-anchor="middle" x="60" y="160">지금</text>
+<circle class="fire-s" cx="460" cy="138" r="8"></circle>
+<path class="ln dash" d="M450 138 L74 138" marker-end="url(#ar)"></path>
+<text class="sm" text-anchor="middle" x="262" y="124">위협의 미래성을 현재로 당겨 둠</text>
+<line class="rule" x1="8" x2="652" y1="180" y2="180"></line>
+<text class="ttl" x="8" y="206">선제 — 위협이 아직 출현조차 하지 않았다</text>
+<line class="ln" x1="60" x2="600" y1="230" y2="230"></line>
+<circle class="bx" cx="60" cy="230" r="4"></circle>
+<text class="sm" text-anchor="middle" x="60" y="252">지금</text>
+<path class="fire-s dash" d="M430 230 m-26 0 a26 16 0 1 0 52 0 a26 16 0 1 0 -52 0"></path>
+<text class="sm fire-t" text-anchor="middle" x="430" y="214">미규정 잠재</text>
+<path class="chaff-s" d="M72 230 L398 230" marker-end="url(#arC)"></path>
+<text class="sm chaff-t" text-anchor="middle" x="230" y="222">막으려는 것을 생산한다</text>
+<path class="chaff-s dash" d="M462 230 q60 0 60 -26 q0 -22 -40 -22 L120 182" marker-end="url(#arC)"></path>
+<text class="sm chaff-t" text-anchor="middle" x="560" y="262">체계의 예지가 나의 예지가 된다</text>
+</svg></svg>

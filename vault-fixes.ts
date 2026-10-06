@@ -94,3 +94,23 @@ export const VaultFixes: QuartzTransformerPlugin = () => ({
     ]
   },
 })
+
+// 3. 검색 색인(contentIndex.json) 다이어트: 강 노트 본문 전체(수만 자)를 색인에 넣으면 7천 쪽 서가의
+//    색인이 25MB가 된다. 강·친절판·부록 노트는 앞부분만 색인에 남긴다(개체 노트는 그대로).
+//    Description 플러그인이 file.data.text를 채운 뒤에 돌아야 하므로 변환기 맨 끝에 붙인다.
+const TRIM_TYPES = new Set(["강", "친절판", "부록"])
+const TRIM_LEN = 3000
+export const TrimIndexText: QuartzTransformerPlugin = () => ({
+  name: "TrimIndexText",
+  htmlPlugins() {
+    return [
+      () => (_tree: Root, file: any) => {
+        const t = file.data?.frontmatter?.type
+        const text = file.data?.text
+        if (TRIM_TYPES.has(t) && typeof text === "string" && text.length > TRIM_LEN) {
+          file.data.text = text.slice(0, TRIM_LEN)
+        }
+      },
+    ]
+  },
+})

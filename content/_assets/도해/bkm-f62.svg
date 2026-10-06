@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 344" width="640" height="344" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-ret{color:var(--ret)}.t-risk{color:var(--risk)}.t-alarm{color:var(--alarm)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-ret{fill:var(--ret)}.dg .t-risk{fill:var(--risk)}.dg .t-alarm{fill:var(--alarm)}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln{stroke:var(--ink); stroke-width:1.5; fill:none}.dg .ln2{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .ln-ret{stroke:var(--ret); stroke-width:2.2; fill:none}.dg .ln-risk{stroke:var(--risk); stroke-width:2.2; fill:none}.dg .thin{stroke-width:1}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-paper2{fill:var(--paper-2)}.dg .mk{fill:var(--ink)}.dg .mk-ret{fill:var(--ret)}.dg .mk-risk{fill:var(--risk)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="원화 투자자의 미국 주식 수익은 두 겹이다. 1,350원을 1달러로 바꿔 S&amp;P 500에서 10%를 벌면 1.10달러, 이것을 1,485원에 바꾸면 1,633.5원(+21%), 1,215원에 바꾸면 1,336.5원(−1%)이 된다." class="dg" height="100%" role="img" viewBox="0 0 640 344" width="100%">
+<defs><marker id="ar-f25a" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="ar-f25a-ret" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk-ret" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="ar-f25a-risk" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk-risk" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<rect class="f-paper2 ln2 thin" height="52" rx="4" width="100" x="16" y="124"></rect>
+<text class="mid t-num b" x="66.0" y="155.0">1,350원</text>
+<rect class="f-paper2 ln2 thin" height="52" rx="4" width="90" x="180" y="124"></rect>
+<text class="mid t-num b" x="225.0" y="155.0">1달러</text>
+<rect class="f-paper2 ln2 thin" height="52" rx="4" width="100" x="332" y="124"></rect>
+<text class="mid t-num b" x="382.0" y="155.0">1.10달러</text>
+<rect class="f-paper2 ln2 thin" height="62" rx="4" width="124" x="500" y="40"></rect>
+<text class="mid t-num b" x="562.0" y="67.0">1,633.5원</text>
+<text class="mid t-num t-ret" x="562.0" y="87.0">+21.0%</text>
+<rect class="f-paper2 ln2 thin" height="62" rx="4" width="124" x="500" y="198"></rect>
+<text class="mid t-num b" x="562.0" y="225.0">1,336.5원</text>
+<text class="mid t-num t-alarm" x="562.0" y="245.0">−1.0%</text>
+<path class="ln" d="M116,150 L178,150" marker-end="url(#ar-f25a)"></path>
+<text class="t-xs mid t-ink2" x="147" y="138">환전</text>
+<text class="t-xs mid t-ink2" x="147" y="174">÷ 1,350</text>
+<path class="ln-ret" d="M270,150 L330,150" marker-end="url(#ar-f25a-ret)"></path>
+<text class="t-xs mid t-ret" x="300" y="138">S&amp;P 500</text>
+<text class="t-xs mid t-ret" x="300" y="174">+10%</text>
+<path class="ln-risk" d="M432,142 C462,120 470,71 498,71" marker-end="url(#ar-f25a-risk)"></path>
+<path class="ln-risk" d="M432,158 C462,180 470,229 498,229" marker-end="url(#ar-f25a-risk)"></path>
+<text class="t-xs end t-risk" x="440" y="98">× 1,485</text>
+<text class="t-xs end t-risk" x="440" y="114">달러 +10%</text>
+<text class="t-xs end t-risk" x="440" y="196">× 1,215</text>
+<text class="t-xs end t-risk" x="440" y="212">달러 −10%</text>
+<line class="grid" x1="16" x2="624" y1="282" y2="282"></line>
+<text class="t-s" x="16" y="306">첫 겹(현지 수익)은 둘 다 +10%. 둘째 겹(환율)이 ±10%이고,</text>
+<text class="t-s" x="16" y="328">두 겹이 곱해지며 교차항 ±1%p가 붙는다: 10 + 10 + 1 = 21, 10 − 10 − 1 = −1.</text>
+</svg></svg>

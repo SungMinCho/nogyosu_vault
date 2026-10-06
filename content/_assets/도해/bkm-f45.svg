@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 344" width="600" height="344" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-ret{color:var(--ret)}.t-alarm{color:var(--alarm)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-ret{fill:var(--ret)}.dg .t-alarm{fill:var(--alarm)}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln-mute{stroke:var(--mute); stroke-width:1.1; fill:none}.dg .ln-ret{stroke:var(--ret); stroke-width:2.2; fill:none}.dg .ln-alarm{stroke:var(--alarm); stroke-width:2.2; fill:none}.dg .thin{stroke-width:1}.dg .thick{stroke-width:3.2}.dg .dash{stroke-dasharray:6 4}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .f-ret-a{fill:var(--ret); fill-opacity:.17}.dg .f-alarm-a{fill:var(--alarm); fill-opacity:.16}.dg .no-fill{fill:none}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="간접법 다리. 순이익 30에 감가상각 12를 더하고, 매출채권 증가 50과 재고 증가 20을 빼고, 매입채무 증가 20을 더하면 영업현금흐름 −8이 된다." class="dg" height="100%" role="img" viewBox="0 0 600 344" width="100%">
+<!-- 0선 -->
+<line class="ax" x1="50" x2="576" y1="200" y2="200"></line>
+<text class="end t-num t-ink2" x="44" y="205">0</text>
+<!-- 1 순이익 30 : 0→30 -->
+<rect class="f-ret-a" height="90" width="64" x="60" y="110"></rect>
+<rect class="no-fill ln-ret thin" height="90" width="64" x="60" y="110"></rect>
+<text class="mid t-num b t-ret" x="92" y="100">30</text>
+<!-- 2 감가상각 +12 : 30→42 -->
+<line class="ln-mute dash thin" x1="124" x2="148" y1="110" y2="110"></line>
+<rect class="f-ret-a" height="36" width="64" x="148" y="74"></rect>
+<rect class="no-fill ln-ret thin" height="36" width="64" x="148" y="74"></rect>
+<text class="mid t-num t-ret" x="180" y="64">+12</text>
+<!-- 3 매출채권 −50 : 42→−8 -->
+<line class="ln-mute dash thin" x1="212" x2="236" y1="74" y2="74"></line>
+<rect class="f-alarm-a" height="150" width="64" x="236" y="74"></rect>
+<rect class="no-fill ln-alarm thin" height="150" width="64" x="236" y="74"></rect>
+<text class="mid t-num b t-alarm" x="268" y="150">−50</text>
+<!-- 4 재고 −20 : −8→−28 -->
+<line class="ln-mute dash thin" x1="300" x2="324" y1="224" y2="224"></line>
+<rect class="f-alarm-a" height="60" width="64" x="324" y="224"></rect>
+<rect class="no-fill ln-alarm thin" height="60" width="64" x="324" y="224"></rect>
+<text class="mid t-num b t-alarm" x="356" y="259">−20</text>
+<!-- 5 매입채무 +20 : −28→−8 -->
+<line class="ln-mute dash thin" x1="388" x2="412" y1="284" y2="284"></line>
+<rect class="f-ret-a" height="60" width="64" x="412" y="224"></rect>
+<rect class="no-fill ln-ret thin" height="60" width="64" x="412" y="224"></rect>
+<text class="mid t-num t-ret" x="444" y="259">+20</text>
+<!-- 6 영업현금 −8 : 0→−8 -->
+<line class="ln-mute dash thin" x1="476" x2="500" y1="224" y2="224"></line>
+<rect class="f-alarm-a" height="24" width="64" x="500" y="200"></rect>
+<rect class="no-fill ln-alarm thick" height="24" width="64" x="500" y="200"></rect>
+<text class="mid t-num b t-alarm" x="532" y="190">−8</text>
+<!-- 이름표 -->
+<text class="mid t-s b" x="92" y="306">순이익</text>
+<text class="mid t-s" x="180" y="306">감가상각</text>
+<text class="mid t-s" x="268" y="306">매출채권↑</text>
+<text class="mid t-s" x="356" y="306">재고↑</text>
+<text class="mid t-s" x="444" y="306">매입채무↑</text>
+<text class="mid t-s b" x="532" y="306">영업현금</text>
+<text class="mid t-xs t-ink2" x="92" y="326">발생주의</text>
+<text class="mid t-xs t-ink2" x="180" y="326">현금 안 나감</text>
+<text class="mid t-xs t-ink2" x="268" y="326">아직 못 받음</text>
+<text class="mid t-xs t-ink2" x="356" y="326">창고에 묶임</text>
+<text class="mid t-xs t-ink2" x="444" y="326">아직 안 갚음</text>
+<text class="mid t-xs t-ink2" x="532" y="326">실제 현금</text>
+</svg></svg>

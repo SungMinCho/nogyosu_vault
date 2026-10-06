@@ -124,7 +124,7 @@ plugins:
   - source: "@quartz-community/favicon"
     enabled: true
   - source: "@quartz-community/og-image"
-    enabled: true
+    enabled: false
   - source: "@quartz-community/cname"
     enabled: false
   - source: "@quartz-community/canvas-page"
@@ -208,7 +208,7 @@ plugins:
     enabled: true
     options:
       links:
-        원본 판서 「몽테귀유의 지도」: https://sungmincho.github.io/nogyosu_vault/static/panseo/aime.html
+        서가: https://sungmincho.github.io/nogyosu_vault/
         GitHub: https://github.com/SungMinCho/nogyosu_vault
     layout:
       position: footer

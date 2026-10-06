@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 256" width="720" height="256" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#E8ECE6; --panel:#F2F5F0; --grid:#D3DBD0; --grid-2:#BDC9B9;
+  --ink:#1B2024; --ink-2:#4A545B; --ink-3:#6B767C;
+  --copy:#3A4C98; --prop:#0B7367; --code:#8E6208; --alarm:#A63B28;
+  --copy-soft:rgba(58,76,152,.14); --prop-soft:rgba(11,115,103,.14);
+  --code-soft:rgba(142,98,8,.14); --alarm-soft:rgba(166,59,40,.13);
+  --shade:rgba(27,32,36,.07);
+  --pad:1.15rem; --measure:39rem; --wide:52rem; --shell:calc(var(--wide) + var(--pad)*2);
+  --f-disp:"Orbit","Do Hyeon","Nanum Gothic",sans-serif;
+  --f-body:"Source Serif 4","Nanum Myeongjo","Noto Serif CJK KR","Noto Serif KR",serif;
+  --f-mono:"Martian Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+  --f-lab:"Nanum Gothic Coding","Noto Sans Mono CJK KR","Noto Sans CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+    color-scheme:dark;
+    --paper:#111514; --panel:#171C1B; --grid:#1F2725; --grid-2:#2B3532;
+    --ink:#E1E6E0; --ink-2:#AAB4AE; --ink-3:#86918B;
+    --copy:#93A5F2; --prop:#43BCA9; --code:#D9A43E; --alarm:#E4795F;
+    --copy-soft:rgba(147,165,242,.16); --prop-soft:rgba(67,188,169,.16);
+    --code-soft:rgba(217,164,62,.15); --alarm-soft:rgba(228,121,95,.15);
+    --shade:rgba(225,230,224,.07);
+  }}:root[data-theme="dark"]{
+  color-scheme:dark;
+  --paper:#111514; --panel:#171C1B; --grid:#1F2725; --grid-2:#2B3532;
+  --ink:#E1E6E0; --ink-2:#AAB4AE; --ink-3:#86918B;
+  --copy:#93A5F2; --prop:#43BCA9; --code:#D9A43E; --alarm:#E4795F;
+  --copy-soft:rgba(147,165,242,.16); --prop-soft:rgba(67,188,169,.16);
+  --code-soft:rgba(217,164,62,.15); --alarm-soft:rgba(228,121,95,.15);
+  --shade:rgba(225,230,224,.07);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:1rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 !important }.fig-frame{ overflow-x:auto; border:1px solid var(--grid-2); background-color:var(--panel);
+  background-image:
+    linear-gradient(90deg,var(--panel) 30%,rgba(0,0,0,0)),
+    linear-gradient(90deg,rgba(0,0,0,0),var(--panel) 70%) 100% 0,
+    radial-gradient(farthest-side at 0 50%,var(--shade),rgba(0,0,0,0)),
+    radial-gradient(farthest-side at 100% 50%,var(--shade),rgba(0,0,0,0)) 100% 0,
+    linear-gradient(var(--grid) 1px,transparent 1px),
+    linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-repeat:no-repeat,no-repeat,no-repeat,no-repeat,repeat,repeat;
+  background-size:40px 100%,40px 100%,14px 100%,14px 100%,12px 12px,12px 12px;
+  background-attachment:local,local,scroll,scroll,local,local; }.fig-frame svg{ display:block; width:100%; height:auto; min-width:34rem; color:var(--ink) }.fig-frame text, .hero text{ font-family:var(--f-lab); fill:var(--ink); font-size:12px }text.s{ font-size:11px }text.xs{ font-size:10px }text.l{ font-size:14px }text.xl{ font-size:18px }text.b{ font-weight:700 }text.mut{ fill:var(--ink-2) }text.halo{ paint-order:stroke fill; stroke:var(--panel) !important; stroke-width:6px; stroke-linejoin:round }text.he{ font-family:"Noto Serif Hebrew","Noto Sans Hebrew","Times New Roman",serif; font-size:30px }.t-copy{ fill:var(--copy) !important }.t-prop{ fill:var(--prop) !important }.s-ink{ stroke:var(--ink); fill:none }.s-mut{ stroke:var(--ink-3); fill:none }.s-copy{ stroke:var(--copy); fill:none }.s-prop{ stroke:var(--prop); fill:none }.f-paper{ fill:var(--panel) }.f-copy-s{ fill:var(--copy-soft) }.f-prop-s{ fill:var(--prop-soft) }.m-ink{ fill:var(--ink) }.m-copy{ fill:var(--copy) }.m-prop{ fill:var(--prop) }.m-code{ fill:var(--code) }.m-alarm{ fill:var(--alarm) }.m-mut{ fill:var(--ink-3) }.dash{ stroke-dasharray:5 4 }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg aria-label="왼쪽은 영토를 베껴 덮는 보르헤스의 1:1 지도, 오른쪽은 길 안내 앱이 한산하다고 그린 골목이 그 그림 때문에 막히고 지도가 다시 그려지는 고리. 지도가 영토에 앞선다." height="100%" role="img" viewBox="0 0 720 256" width="100%" xmlns="http://www.w3.org/2000/svg"><defs><marker id="f14-a-ink" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="m-ink" d="M0,0.8 L10,5 L0,9.2 z"></path></marker><marker id="f14-a-copy" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="m-copy" d="M0,0.8 L10,5 L0,9.2 z"></path></marker><marker id="f14-a-prop" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="m-prop" d="M0,0.8 L10,5 L0,9.2 z"></path></marker><marker id="f14-a-code" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="m-code" d="M0,0.8 L10,5 L0,9.2 z"></path></marker><marker id="f14-a-alarm" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="m-alarm" d="M0,0.8 L10,5 L0,9.2 z"></path></marker><marker id="f14-a-mut" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="m-mut" d="M0,0.8 L10,5 L0,9.2 z"></path></marker></defs><text class="l b t-copy" text-anchor="middle" x="180.0" y="28.0">보르헤스 — 베껴 그리기</text><rect class="f-prop-s s-prop w15" height="118.0" rx="0" width="200.0" x="50.0" y="62.0"></rect><text class="s b t-prop" text-anchor="start" x="50.0" y="55.0">영토</text><rect class="f-copy-s s-copy w15 dash" height="118.0" rx="0" width="200.0" x="80.0" y="82.0"></rect><text class="s b t-copy" text-anchor="end" x="264.0" y="192.0">1:1 지도</text><line class="s-ink w15" marker-end="url(#f14-a-ink)" x1="130.0" x2="200.0" y1="120.0" y2="150.0"></line><text class="xs" text-anchor="start" x="206.0" y="132.0">베낀다</text><text class="s" text-anchor="middle" x="170.0" y="234.0">지도는 영토를 따른다 · 해지면 영토가 드러난다</text><line class="s-mut w1 dash" x1="355.0" x2="355.0" y1="40.0" y2="250.0"></line><text class="l b t-prop" text-anchor="middle" x="540.0" y="28.0">하이퍼리얼 — 지도가 앞선다</text><rect class="f-paper s-ink w15" height="30.0" rx="3" width="150.0" x="465.0" y="57.0"></rect><text class="s" text-anchor="middle" x="540.0" y="77.0">앱 지도: 골목 한산</text><rect class="f-paper s-ink w15" height="30.0" rx="3" width="150.0" x="565.0" y="130.0"></rect><text class="s" text-anchor="middle" x="640.0" y="150.0">차들이 골목으로</text><rect class="f-paper s-ink w15" height="30.0" rx="3" width="150.0" x="465.0" y="203.0"></rect><text class="s" text-anchor="middle" x="540.0" y="223.0">골목이 막힌다</text><rect class="f-paper s-ink w15" height="30.0" rx="3" width="150.0" x="365.0" y="130.0"></rect><text class="s" text-anchor="middle" x="440.0" y="150.0">지도가 다시 그려진다</text><path class="s-prop w15" d="M615,78 Q650,90 648,128" marker-end="url(#f14-a-prop)"></path><path class="s-prop w15" d="M648,162 Q650,205 617,214" marker-end="url(#f14-a-prop)"></path><path class="s-prop w15" d="M463,214 Q430,205 432,162" marker-end="url(#f14-a-prop)"></path><path class="s-prop w15" d="M432,128 Q430,88 463,78" marker-end="url(#f14-a-prop)"></path></svg></svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 340" width="600" height="340" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-risk{color:var(--risk)}.t-time{color:var(--time)}.t-alarm{color:var(--alarm)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .t-l{font-size:17px; font-weight:700}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-risk{fill:var(--risk)}.dg .t-time{fill:var(--time)}.dg .t-alarm{fill:var(--alarm)}.dg .halo{paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln{stroke:var(--ink); stroke-width:1.5; fill:none}.dg .ln2{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .ln-risk{stroke:var(--risk); stroke-width:2.2; fill:none}.dg .ln-time{stroke:var(--time); stroke-width:2.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-paper2{fill:var(--paper-2)}.dg .f-ink-a{fill:var(--ink); fill-opacity:.08}.dg .no-fill{fill:none}.dg .mk{fill:var(--ink)}.dg .mk-risk{fill:var(--risk)}.dg .mk-time{fill:var(--time)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="현금-보유 차익거래. 오늘 1,000을 빌려 지수를 사고 선물을 1,040에 팔면 오늘 순현금은 0이고, 만기에는 지수와 배당 S_T+15, 선물 정산 1,040−S_T, 상환 1,040이 오가 S_T가 지워지고 15가 남는다." class="dg" height="100%" role="img" viewBox="0 0 600 340" width="100%">
+<defs><marker id="ar-f22c" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="ar-f22c-t" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk-time" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="ar-f22c-r" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk-risk" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<text class="t-l" x="8" y="26">오늘 (t = 0)</text>
+<text class="t-l" x="8" y="174">만기 (T = 1년)</text>
+<line class="grid" x1="0" x2="600" y1="146" y2="146"></line>
+<rect class="f-paper2" height="44" rx="4" width="90" x="20" y="54"></rect>
+<rect class="no-fill ln2" height="44" rx="4" width="90" x="20" y="54"></rect>
+<text class="mid b" x="65.0" y="81.0">은행</text>
+<circle class="f-ink-a" cx="300" cy="76" r="26"></circle><circle class="no-fill ln" cx="300" cy="76" r="26"></circle>
+<text class="mid b" x="300" y="81">나</text>
+<rect class="f-paper2" height="44" rx="4" width="100" x="490" y="54"></rect>
+<rect class="no-fill ln2" height="44" rx="4" width="100" x="490" y="54"></rect>
+<text class="mid b" x="540.0" y="81.0">주식 시장</text>
+<line class="ln-time" marker-end="url(#ar-f22c-t)" x1="112" x2="270" y1="76" y2="76"></line>
+<text class="t-num mid t-time halo" x="191" y="68">1,000 차입</text>
+<line class="ln" marker-end="url(#ar-f22c)" x1="328" x2="488" y1="76" y2="76"></line>
+<text class="t-num mid halo" x="408" y="68">1,000 지수 매입</text>
+<text class="t-s mid t-ink2" x="300" y="124">선물 1,040에 매도 — 대금 0</text>
+<text class="t-s end" x="592" y="132">오늘 순현금 0</text>
+<rect class="f-paper2" height="44" rx="4" width="90" x="20" y="214"></rect>
+<rect class="no-fill ln2" height="44" rx="4" width="90" x="20" y="214"></rect>
+<text class="mid b" x="65.0" y="241.0">은행</text>
+<circle class="f-ink-a" cx="300" cy="236" r="26"></circle><circle class="no-fill ln" cx="300" cy="236" r="26"></circle>
+<text class="mid b" x="300" y="241">나</text>
+<rect class="f-paper2" height="40" rx="4" width="100" x="490" y="190"></rect>
+<rect class="no-fill ln2" height="40" rx="4" width="100" x="490" y="190"></rect>
+<text class="mid b" x="540.0" y="215.0">주식 시장</text>
+<rect class="f-paper2" height="40" rx="4" width="100" x="490" y="252"></rect>
+<rect class="no-fill ln2" height="40" rx="4" width="100" x="490" y="252"></rect>
+<text class="mid b" x="540.0" y="277.0">청산소</text>
+<line class="ln-time" marker-end="url(#ar-f22c-t)" x1="270" x2="112" y1="236" y2="236"></line>
+<text class="t-num mid t-time halo" x="191" y="228">1,040 상환</text>
+<path class="ln-risk" d="M488,210 C420,210 380,222 328,228" marker-end="url(#ar-f22c-r)"></path>
+<text class="t-num mid t-risk halo" x="410" y="200">S<tspan class="t-xs" dy="4">T</tspan><tspan dy="-4"> + 배당 15</tspan></text>
+<path class="ln-risk" d="M488,272 C420,272 380,252 328,244" marker-end="url(#ar-f22c-r)"></path>
+<text class="t-num mid t-risk halo" x="410" y="296">1,040 − S<tspan class="t-xs" dy="4">T</tspan></text>
+<text class="t-num mid" x="300" y="326">(<tspan class="t-risk">S<tspan class="t-xs" dy="4">T</tspan></tspan><tspan dy="-4"> + 15) + (1,040 − </tspan><tspan class="t-risk">S<tspan class="t-xs" dy="4">T</tspan></tspan><tspan dy="-4">) − 1,040 = </tspan><tspan class="t-alarm b">+15</tspan></text>
+</svg></svg>

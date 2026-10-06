@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 380" width="720" height="380" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#E6ECE9; --panel:#F2F5F3; --ink:#172120; --ink-2:#4A5755; --rule:#B6C3BF;
+  --liq:#1B6971; --liq-soft:#CFE0DE; --liq-dot:#7FA9AB;
+  --cry:#866207; --cry-soft:#EAD9A0; --cry-deep:#C9A43C;
+  --inf:#5B3D8F; --inf-soft:#DCD3EA;
+  --brk:#983B20; --brk-soft:#EFD5CB;
+  --shade:#0E1514; --on-shade:#E6ECE9;
+  --f-display:"Hahmlet","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Gowun Batang","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-latin:"Old Standard TT","Gowun Batang","Noto Serif CJK KR",serif;
+  --f-mono:"Cutive Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR","Courier New",monospace;
+  --pad:1.05rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0E1716; --panel:#15211F; --ink:#DCE6E3; --ink-2:#9EB0AC; --rule:#2D3F3C;
+  --liq:#58B4BC; --liq-soft:#163538; --liq-dot:#3C7176;
+  --cry:#D8B24B; --cry-soft:#3A3014; --cry-deep:#9C7E2C;
+  --inf:#A88DDC; --inf-soft:#2A2140;
+  --brk:#E27D57; --brk-soft:#3C2219;
+  --shade:#050909; --on-shade:#C9D6D2; color-scheme:dark }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem }.lecture{ display:contents }.hero-fig svg{ width:100%; height:auto; display:block }figure.fig{ margin:.4rem 0 .6rem }.fig-frame{ overflow-x:auto; overflow-y:hidden; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background:
+  linear-gradient(to right,var(--paper),var(--paper)) left/1.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--paper),var(--paper)) right/1.2rem 100% no-repeat local,
+  linear-gradient(to right,rgba(0,0,0,.18),rgba(0,0,0,0)) left/.7rem 100% no-repeat scroll,
+  linear-gradient(to left,rgba(0,0,0,.18),rgba(0,0,0,0)) right/.7rem 100% no-repeat scroll;
+  background-color:var(--paper) }.fig-frame svg{ display:block; width:100%; min-width:560px; height:auto }.fig svg text, .hero-fig text{ font-family:var(--f-body); fill:var(--ink) }.t{ font-size:13px }.t-s{ font-size:11px }.t-b{ font-weight:700 }.t-mute{ fill:var(--ink-2) !important }.t-liq{ fill:var(--liq) !important }.t-inf{ fill:var(--inf) !important }.halo{ paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round }.f-none{ fill:none }.f-mute{ fill:var(--ink-2) }.f-liq-soft{ fill:var(--liq-soft) }.f-liq-dot{ fill:var(--liq-dot) }.f-cry-deep{ fill:var(--cry-deep) }.f-inf{ fill:var(--inf) }.s-mute{ stroke:var(--ink-2) }.s-liq{ stroke:var(--liq) }.s-cry{ stroke:var(--cry) }.s-inf{ stroke:var(--inf) }.w05{ stroke-width:.6 }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.w3{ stroke-width:3 }.round{ stroke-linecap:round; stroke-linejoin:round }.op5{ opacity:.5 }.hero-fig .band:hover polygon, .hero-fig .band:focus polygon{ fill:var(--inf-soft) }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="두 주체, 각각 진한 핵(개체)과 옅은 후광(아페이론). 한 신호는 후광의 겹친 띠를 비켜 상대 핵에 곧장 꽂혀 약한 에너지로 끝난다. 다른 신호는 두 후광이 겹친 띠를 지나며 비로소 의미작용이 된다. 그 띠는 개체초월적이고, 종합이 아니며, 어느 핵 안에도 없다." height="100%" role="img" viewBox="0 0 720 380" width="100%">
+<defs>
+<marker id="f22-ar-mute" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f22-ar-inf" markerHeight="10" markerUnits="userSpaceOnUse" markerWidth="10" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-inf" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<circle class="f-liq-soft s-liq w05" cx="250" cy="182" r="150"></circle>
+<circle class="f-liq-soft s-liq w05" cx="470" cy="182" r="150"></circle>
+<path class="f-liq-dot op5 s-liq w1" d="M360,80 A150,150 0 0 1 360,284 A150,150 0 0 1 360,80 Z"></path>
+<circle class="f-liq-dot" cx="257.5" cy="280.7" r="1.8"></circle>
+<circle class="f-liq-dot" cx="178.6" cy="258.1" r="1.8"></circle>
+<circle class="f-liq-dot" cx="210.7" cy="142.3" r="1.8"></circle>
+<circle class="f-liq-dot" cx="245.8" cy="253" r="1.8"></circle>
+<circle class="f-liq-dot" cx="298" cy="102.5" r="1.8"></circle>
+<circle class="f-liq-dot" cx="209.2" cy="133.3" r="1.8"></circle>
+<circle class="f-liq-dot" cx="165.2" cy="86" r="1.8"></circle>
+<circle class="f-liq-dot" cx="134.5" cy="165.1" r="1.8"></circle>
+<circle class="f-liq-dot" cx="223.6" cy="132.9" r="1.8"></circle>
+<circle class="f-liq-dot" cx="255.3" cy="78.9" r="1.8"></circle>
+<circle class="f-liq-dot" cx="233.3" cy="232.1" r="1.8"></circle>
+<circle class="f-liq-dot" cx="311.4" cy="112.8" r="1.8"></circle>
+<circle class="f-liq-dot" cx="224.9" cy="55.4" r="1.8"></circle>
+<circle class="f-liq-dot" cx="220.3" cy="52.5" r="1.8"></circle>
+<circle class="f-liq-dot" cx="153.6" cy="256.8" r="1.8"></circle>
+<circle class="f-liq-dot" cx="123.8" cy="227.8" r="1.8"></circle>
+<circle class="f-liq-dot" cx="512.6" cy="141.5" r="1.8"></circle>
+<circle class="f-liq-dot" cx="515.7" cy="234.4" r="1.8"></circle>
+<circle class="f-liq-dot" cx="557.2" cy="162.8" r="1.8"></circle>
+<circle class="f-liq-dot" cx="416.1" cy="126.9" r="1.8"></circle>
+<circle class="f-liq-dot" cx="409.2" cy="264.7" r="1.8"></circle>
+<circle class="f-liq-dot" cx="414.6" cy="60.4" r="1.8"></circle>
+<circle class="f-liq-dot" cx="556.3" cy="72.8" r="1.8"></circle>
+<circle class="f-liq-dot" cx="439.3" cy="125.1" r="1.8"></circle>
+<circle class="f-liq-dot" cx="557.6" cy="76.9" r="1.8"></circle>
+<circle class="f-liq-dot" cx="553.6" cy="124.9" r="1.8"></circle>
+<circle class="f-liq-dot" cx="454.4" cy="114.8" r="1.8"></circle>
+<circle class="f-liq-dot" cx="519.9" cy="93.5" r="1.8"></circle>
+<circle class="f-liq-dot" cx="457.9" cy="236.4" r="1.8"></circle>
+<circle class="f-liq-dot" cx="554.5" cy="71.5" r="1.8"></circle>
+<circle class="f-liq-dot" cx="573.7" cy="246.4" r="1.8"></circle>
+<circle class="f-liq-dot" cx="416.2" cy="215.9" r="1.8"></circle>
+<circle class="f-cry-deep s-cry w15" cx="250" cy="182" r="36"></circle>
+<circle class="f-cry-deep s-cry w15" cx="470" cy="182" r="36"></circle>
+<text class="t t-b" text-anchor="middle" x="250" y="187">개체</text>
+<text class="t t-b" text-anchor="middle" x="470" y="187">개체</text>
+<path class="f-none s-mute w15" d="M272,153 C300,32 410,32 446,154" marker-end="url(#f22-ar-mute)"></path>
+<path class="f-none s-mute w1 round" d="M440,138 q-6,-4 -12,0 M432,147 q-6,-4 -12,0"></path>
+<text class="t-s t-mute halo" text-anchor="middle" x="360.0" y="48">정보 신호 — 핵에 곧장 꽂힘</text>
+<text class="t-s t-mute halo" x="516" y="130">약한 에너지로 끝남</text>
+<text class="t-s t-mute halo" x="516" y="144">반사 하나를 건드릴 뿐</text>
+<path class="f-none s-mute w15" d="M280,202 C310,222 295.4316770519904,222 325.4,222"></path>
+<path class="f-none s-inf w3" d="M325.4,222 L394.6,222"></path>
+<path class="f-none s-inf w2" d="M394.6,222 C424.5683229480096,222 412,222 439,201" marker-end="url(#f22-ar-inf)"></path>
+<polygon class="f-inf" points="360,215 367,222 360,229 353,222"></polygon>
+<text class="t-s t-inf t-b halo" text-anchor="middle" x="360.0" y="246">의미작용</text>
+<text class="t-s t-b halo" text-anchor="middle" x="360.0" y="174">개체초월적</text>
+<text class="t-s t-mute halo" text-anchor="middle" x="360.0" y="190">종합 아님</text>
+<text class="t t-b" text-anchor="middle" x="250" y="22">주체 A</text>
+<text class="t t-b" text-anchor="middle" x="470" y="22">주체 B</text>
+<text class="t-s t-liq halo" text-anchor="middle" x="132" y="186">아페이론</text>
+<text class="t-s t-liq halo" text-anchor="middle" x="132" y="200">(후광)</text>
+<text class="t-s t-mute" text-anchor="middle" x="360.0" y="368">주체 = 개체 + 그것이 지니고 다니는 아페이론 · 겹친 띠는 어느 핵 안에도 없다</text>
+</svg></svg>

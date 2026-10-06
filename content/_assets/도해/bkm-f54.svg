@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 336" width="600" height="336" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-alarm{color:var(--alarm)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-alarm{fill:var(--alarm)}.dg .halo{paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln{stroke:var(--ink); stroke-width:1.5; fill:none}.dg .ln2{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .ln-mute{stroke:var(--mute); stroke-width:1.1; fill:none}.dg .ln-alarm{stroke:var(--alarm); stroke-width:2.2; fill:none}.dg .thin{stroke-width:1}.dg .thick{stroke-width:3.2}.dg .dash{stroke-dasharray:6 4}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-ink{fill:var(--ink)}.dg .f-paper{fill:var(--paper)}.dg .no-fill{fill:none}.dg .mk-alarm{fill:var(--alarm)}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="닷새 동안 롱과 숏 두 증거금 계좌의 잔고 경로. 롱은 3일째 4,400달러로 유지증거금 5,000 밑에 떨어져 1,600달러를 넣고, 숏은 5일째 4,800달러로 떨어져 1,200달러를 넣는다. 두 경로는 서로의 거울상이다." class="dg" height="100%" role="img" viewBox="0 0 600 336" width="100%">
+<defs><marker id="ar-f22b" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="mk-alarm" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<line class="grid" x1="76" x2="516" y1="300.0" y2="300.0"></line>
+<text class="t-num t-xs end t-ink2" x="68" y="304.5">4,000</text>
+<line class="grid" x1="76" x2="516" y1="248.0" y2="248.0"></line>
+<text class="t-num t-xs end t-ink2" x="68" y="252.5">5,000</text>
+<line class="grid" x1="76" x2="516" y1="196.0" y2="196.0"></line>
+<text class="t-num t-xs end t-ink2" x="68" y="200.5">6,000</text>
+<line class="grid" x1="76" x2="516" y1="144.0" y2="144.0"></line>
+<text class="t-num t-xs end t-ink2" x="68" y="148.5">7,000</text>
+<line class="grid" x1="76" x2="516" y1="92.0" y2="92.0"></line>
+<text class="t-num t-xs end t-ink2" x="68" y="96.5">8,000</text>
+<line class="grid" x1="76" x2="516" y1="40.0" y2="40.0"></line>
+<text class="t-num t-xs end t-ink2" x="68" y="44.5">9,000</text>
+<text class="t-xs mid t-ink2" x="76" y="322">0일</text>
+<text class="t-xs mid t-ink2" x="164" y="322">1일</text>
+<text class="t-xs mid t-ink2" x="252" y="322">2일</text>
+<text class="t-xs mid t-ink2" x="340" y="322">3일</text>
+<text class="t-xs mid t-ink2" x="428" y="322">4일</text>
+<text class="t-xs mid t-ink2" x="516" y="322">5일</text>
+<line class="ax" x1="76" x2="516" y1="300.0" y2="300.0"></line>
+<line class="ln-mute dash" x1="76" x2="516" y1="196.0" y2="196.0"></line>
+<line class="ln-alarm thin dash" x1="76" x2="516" y1="248.0" y2="248.0"></line>
+<text class="t-s t-ink2" x="264" y="190.0">개시 6,000</text>
+<text class="t-s t-alarm" x="90" y="268.0">유지 5,000 — 밑으로 가면 마진콜</text>
+<path class="ln thick" d="M76,196.0 L164,154.4 L252,222.0 L340,279.2 M340,196.0 L428,170.0 L516,50.4"></path>
+<circle class="f-ink" cx="76" cy="196.0" r="3.6"></circle>
+<circle class="f-ink" cx="164" cy="154.4" r="3.6"></circle>
+<circle class="f-ink" cx="252" cy="222.0" r="3.6"></circle>
+<circle class="f-ink" cx="340" cy="279.2" r="3.6"></circle>
+<circle class="f-ink" cx="340" cy="196.0" r="3.6"></circle>
+<circle class="f-ink" cx="428" cy="170.0" r="3.6"></circle>
+<circle class="f-ink" cx="516" cy="50.4" r="3.6"></circle>
+<path class="ln2 dash" d="M76,196.0 L164,237.6 L252,170.0 L340,112.8 L428,138.8 L516,258.4 M516,196.0"></path>
+<circle class="f-paper" cx="76" cy="196.0" r="3.6"></circle>
+<circle class="f-paper" cx="164" cy="237.6" r="3.6"></circle>
+<circle class="f-paper" cx="252" cy="170.0" r="3.6"></circle>
+<circle class="f-paper" cx="340" cy="112.8" r="3.6"></circle>
+<circle class="f-paper" cx="428" cy="138.8" r="3.6"></circle>
+<circle class="f-paper" cx="516" cy="258.4" r="3.6"></circle>
+<circle class="f-paper" cx="516" cy="196.0" r="3.6"></circle>
+<circle class="no-fill ln2" cx="76" cy="196.0" r="3.6"></circle>
+<circle class="no-fill ln2" cx="164" cy="237.6" r="3.6"></circle>
+<circle class="no-fill ln2" cx="252" cy="170.0" r="3.6"></circle>
+<circle class="no-fill ln2" cx="340" cy="112.8" r="3.6"></circle>
+<circle class="no-fill ln2" cx="428" cy="138.8" r="3.6"></circle>
+<circle class="no-fill ln2" cx="516" cy="258.4" r="3.6"></circle>
+<circle class="no-fill ln2" cx="516" cy="196.0" r="3.6"></circle>
+<line class="ln-alarm" marker-end="url(#ar-f22b)" x1="340" x2="340" y1="275.2" y2="202.0"></line>
+<text class="t-s t-alarm halo" x="348" y="268.8">롱 +1,600 입금</text>
+<line class="ln-alarm" marker-end="url(#ar-f22b)" x1="516" x2="516" y1="254.4" y2="202.0"></line>
+<text class="t-s t-alarm" x="524" y="242.8">숏 +1,200</text>
+<text class="t-s t-alarm" x="524" y="259.8">입금</text>
+<text class="b" x="526" y="55.4">롱 8,800</text>
+<text class="t-ink2" x="526" y="201.0">숏 6,000</text>
+<text class="t-s t-ink2" x="76" y="22">증거금 계좌 잔고(달러) — 롱은 굵은 실선, 숏은 점선</text>
+</svg></svg>

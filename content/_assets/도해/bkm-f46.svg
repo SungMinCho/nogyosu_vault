@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 372" width="600" height="372" class="frame fig lecture doc wrap"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDF0E7; --paper-2:#E0E5D8; --ink:#1B2420; --ink-2:#48534D; --mute:#838B83; --rule:#C5CCBD;
+  --ret:#2C6A4C; --risk:#2E4D80; --time:#87631A; --alarm:#B03F28;
+  --f-body:"Noto Serif KR","Noto Serif CJK KR","AppleMyungjo","Nanum Myeongjo",serif;
+  --f-disp:"Hahmlet","Noto Serif KR","AppleMyungjo",serif;
+  --f-latin:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-mono:"Fragment Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK KR",monospace;
+  --f-dg:"Sunflower","Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#0F1613; --paper-2:#18221D; --ink:#E4E1D5; --ink-2:#B3B0A3; --mute:#7D847A; --rule:#2D3933;
+  --ret:#5DAE86; --risk:#86A4DA; --time:#D2A64C; --alarm:#E5765C; color-scheme:dark }.wrap{padding-inline:var(--pad); padding-block:1.4rem 5rem}.doc{display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.15rem}.lecture{display:contents}.t-risk{color:var(--risk)}.fig{margin:0}.fig .frame{overflow-x:auto; -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:.6rem 0;
+  background:
+    linear-gradient(to right, var(--paper) 30%, transparent) left center/2.2rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 30%, transparent) right center/2.2rem 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgba(0,0,0,.16), transparent) left center/.9rem 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,.16), transparent) right center/.9rem 100% no-repeat scroll;}.dg{display:block; width:100%; height:auto; min-width:var(--dg-min,500px); max-width:720px; margin-inline:auto; overflow:visible}.fig.narrow .dg{min-width:0; max-width:440px; margin-inline:auto}.dg text{font-family:var(--f-dg); font-size:15px; fill:var(--ink); font-weight:500}.dg .t-s{font-size:13.5px}.dg .t-xs{font-size:12.5px}.dg .b{font-weight:700}.dg .t-num{font-family:var(--f-mono); font-size:13.5px; font-weight:400}.dg .t-ink2{fill:var(--ink-2)}.dg .t-risk{fill:var(--risk)}.dg .halo{paint-order:stroke; stroke:var(--paper); stroke-width:4px; stroke-linejoin:round}.dg .mid{text-anchor:middle}.dg .end{text-anchor:end}.dg .ln{stroke:var(--ink); stroke-width:1.5; fill:none}.dg .ln-mute{stroke:var(--mute); stroke-width:1.1; fill:none}.dg .ln-risk{stroke:var(--risk); stroke-width:2.2; fill:none}.dg .thin{stroke-width:1}.dg .dot{stroke-dasharray:1.6 3.6; stroke-linecap:round}.dg .ax{stroke:var(--ink-2); stroke-width:1.2; fill:none}.dg .grid{stroke:var(--rule); stroke-width:.8; fill:none}.dg .f-ink{fill:var(--ink)}.dg .f-paper{fill:var(--paper)}.dg .f-risk{fill:var(--risk)}.dg .f-ret-a{fill:var(--ret); fill-opacity:.17}.dg .f-alarm-a{fill:var(--alarm); fill-opacity:.16}.dg .no-fill{fill:none}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="ROA에 따른 ROE. 빚이 없으면 기울기 0.75, 자기자본만큼 빌리면 기울기 1.5. 두 직선은 ROA가 이자율 8%와 같을 때 ROE 6%에서 만나고, 그보다 낮으면 빚이 ROE를 깎고 높으면 올린다." class="dg" height="100%" role="img" viewBox="0 0 600 372" width="100%">
+<!-- 면: 두 직선 사이 -->
+<path class="f-alarm-a" d="M70,252 L70,300 L266,204 Z"></path>
+<path class="f-ret-a" d="M266,204 L560,132 L560,60 Z"></path>
+<!-- 축·격자 -->
+<line class="ax" x1="70" x2="568" y1="252" y2="252"></line>
+<line class="ax" x1="70" x2="70" y1="48" y2="304"></line>
+<line class="grid" x1="70" x2="560" y1="204" y2="204"></line>
+<line class="grid" x1="70" x2="560" y1="156" y2="156"></line>
+<line class="grid" x1="70" x2="560" y1="108" y2="108"></line>
+<line class="grid" x1="70" x2="560" y1="60" y2="60"></line>
+<text class="end t-num t-ink2" x="62" y="257">0</text>
+<text class="end t-num t-ink2" x="62" y="209">6</text>
+<text class="end t-num t-ink2" x="62" y="161">12</text>
+<text class="end t-num t-ink2" x="62" y="113">18</text>
+<text class="end t-num t-ink2" x="62" y="65">24</text>
+<text class="end t-num t-ink2" x="62" y="305">−6</text>
+<text class="t-s t-ink2" x="24" y="38">ROE (%)</text>
+<!-- 시나리오 세로선 -->
+<line class="ln-mute dot" x1="168" x2="168" y1="120" y2="300"></line>
+<line class="ln-mute dot" x1="315" x2="315" y1="120" y2="300"></line>
+<line class="ln-mute dot" x1="462" x2="462" y1="120" y2="300"></line>
+<!-- 직선 -->
+<path class="ln" d="M70,252 L560,132"></path>
+<path class="ln-risk" d="M70,300 L560,60"></path>
+<!-- 점 -->
+<circle class="f-ink" cx="168" cy="228" r="4"></circle>
+<circle class="f-ink" cx="315" cy="192" r="4"></circle>
+<circle class="f-ink" cx="462" cy="156" r="4"></circle>
+<circle class="f-risk" cx="168" cy="252" r="4.5"></circle>
+<circle class="f-risk" cx="315" cy="180" r="4.5"></circle>
+<circle class="f-risk" cx="462" cy="108" r="4.5"></circle>
+<circle class="f-paper" cx="266" cy="204" r="5"></circle>
+<circle class="no-fill ln" cx="266" cy="204" r="5"></circle>
+<line class="ln-mute thin" x1="271" x2="320" y1="208" y2="216"></line>
+<text class="t-xs b halo" x="326" y="224">ROA = r = 8%</text>
+<text class="t-xs t-ink2 halo" x="326" y="240">두 회사 ROE 6%</text>
+<!-- 값 이름표 -->
+<text class="end t-num t-risk halo" x="452" y="102">18</text>
+<text class="t-num halo" x="470" y="176">12</text>
+<text class="end t-num t-risk halo" x="305" y="170">9</text>
+<text class="t-num halo" x="329" y="206">7.5</text>
+<!-- 선 이름표 -->
+<line class="ln-risk" x1="88" x2="116" y1="72" y2="72"></line>
+<text class="t-s b t-risk" x="124" y="77">차입 D/E = 1 · 기울기 1.5</text>
+<line class="ln" x1="88" x2="116" y1="96" y2="96"></line>
+<text class="t-s b" x="124" y="101">무차입 · 기울기 0.75</text>
+<!-- x축 -->
+<text class="mid t-num t-ink2" x="70" y="322">0</text>
+<text class="mid t-num t-ink2" x="168" y="322">4</text>
+<text class="mid t-num t-ink2" x="266" y="322">8</text>
+<text class="mid t-num t-ink2" x="364" y="322">12</text>
+<text class="mid t-num t-ink2" x="462" y="322">16</text>
+<text class="mid t-num t-ink2" x="560" y="322">20</text>
+<text class="mid t-xs t-ink2" x="168" y="344">불황</text>
+<text class="mid t-xs t-ink2" x="315" y="344">보통</text>
+<text class="mid t-xs t-ink2" x="462" y="344">호황</text>
+<text class="end t-s t-ink2" x="568" y="364">ROA = EBIT/총자산 (%)</text>
+</svg></svg>

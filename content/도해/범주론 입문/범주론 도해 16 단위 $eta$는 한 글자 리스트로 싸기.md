@@ -1,0 +1,19 @@
+---
+title: "도해 16 — 단위 $eta$는 한 글자 리스트로 싸기"
+type: "도해"
+책: "[[범주론 입문]]"
+강: "9강"
+description: "단위 $\\eta$는 \"한 글자 리스트로 싸기\", 쌍대단위 $\\varepsilon$은 \"모노이드 안에서 실제로 곱하기\". 싸고 나서 곱하면 제자리라는 두 삼각형이 수반의 정의와 동치다."
+tags:
+  - "도해"
+  - "범주론"
+cssclasses:
+  - "panseo-category"
+  - "figure-note"
+publish: true
+---
+![[category-f28.svg]]
+
+[[단위 (수반)|단위]] $\eta$는 "한 글자 [[리스트 함자|리스트]]로 싸기", [[쌍대단위]] $\varepsilon$은 "[[모노이드]] 안에서 실제로 곱하기". 싸고 나서 곱하면 제자리라는 두 삼각형이 수반의 정의와 동치다.
+
+> [!src] 나오는 곳 [[범주론 09강 수반 II|9강 수반 II]] · [[범주론 입문]] · [원본 판서에서 보기](https://sungmincho.github.io/nogyosu_vault/static/panseo/category.html)

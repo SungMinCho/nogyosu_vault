@@ -2,7 +2,6 @@
 title: "GPTQ는 최근접 반올림보다 tr(D)를 tr(H)로 나눈 만큼 낫다"
 type: "명제"
 aliases:
-  - "tr(D)/tr(H)"
   - "LDLQ 이득"
 출처: "Chee 등 2023 정리 1"
 책:

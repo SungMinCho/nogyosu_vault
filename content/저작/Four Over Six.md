@@ -1,8 +1,6 @@
 ---
 title: "Four Over Six"
 type: "저작"
-aliases:
-  - "4/6"
 원어: "Four Over Six"
 출처: "2025"
 책:

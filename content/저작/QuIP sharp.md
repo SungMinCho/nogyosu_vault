@@ -2,9 +2,7 @@
 title: "QuIP sharp"
 type: "저작"
 aliases:
-  - "QuIP#"
   - "QuIP 샤프"
-  - "QuIP# (QuIP sharp)"
 원어: "QuIP#: Even Better LLM Quantization with Hadamard Incoherence and Lattice Codebooks"
 출처: "ICML 2024"
 책:

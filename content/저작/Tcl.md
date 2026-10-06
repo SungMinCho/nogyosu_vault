@@ -2,7 +2,6 @@
 title: "Tcl"
 type: "저작"
 aliases:
-  - "Tcl/Tk"
   - "Tk"
 원어: "Tcl (Tool Command Language)"
 책:

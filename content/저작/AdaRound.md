@@ -2,10 +2,7 @@
 title: "AdaRound"
 type: "저작"
 aliases:
-  - "위로 아니면 아래로? 학습 후 양자화를 위한 적응적 반올림"
-  - "Up or Down? Adaptive Rounding for Post-Training Quantization"
   - "적응적 반올림"
-  - "올릴까 내릴까?"
   - "올릴까 내릴까"
 원어: "Up or Down? Adaptive Rounding for Post-Training Quantization"
 출처: "ICML 2020"

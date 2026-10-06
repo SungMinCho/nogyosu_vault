@@ -6,7 +6,6 @@ aliases:
   - "root mean square normalization"
   - "RMSNorm 계수 α"
   - "γ"
-  - "RMSNorm(x) = (x/rms(x)) ⊙ γ"
 원어: "RMSNorm"
 책:
   - "[[딥러닝의 기하학]]"

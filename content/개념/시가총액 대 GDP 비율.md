@@ -2,7 +2,6 @@
 title: "시가총액 대 GDP 비율"
 type: "개념"
 aliases:
-  - "시총/GDP"
   - "market cap to GDP"
   - "버핏 지표"
   - "Buffett indicator"

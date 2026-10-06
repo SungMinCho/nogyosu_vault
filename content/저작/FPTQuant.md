@@ -3,7 +3,6 @@ title: "FPTQuant"
 type: "저작"
 aliases:
   - "FPTQuant 논문"
-  - "병합 가능한 RoPE 전 Q/K 변환"
 원어: "FPTQuant: Function-Preserving Transforms for LLM Quantization"
 출처: "2025"
 책:

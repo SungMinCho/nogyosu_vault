@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 462" width="600" height="462" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --flour:#EFF0EB; --flour-2:#E6E8E1; --ink:#1C2025; --ink-soft:#4E555D; --rule:#C7CAC1;
+  --iron:#3D4652; --water:#1B7480; --spirit:#6448B0; --grain:#A8721A; --rust:#BF4128;
+  --water-t:rgba(27,116,128,.12); --spirit-t:rgba(100,72,176,.11); --grain-t:rgba(168,114,26,.13); --rust-t:rgba(191,65,40,.10); --iron-t:rgba(61,70,82,.10);
+  --shadow:rgba(28,32,37,.18);
+  --display:"Grandiflora One","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"Newsreader","Noto Serif KR","Nanum Myeongjo",Georgia,serif;
+  --label:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --mono:"JetBrains Mono","Nanum Gothic Coding",ui-monospace,Menlo,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }}:root[data-theme="dark"]{
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem; }.lecture{ display:contents }.lec-no svg{ width:2.2rem; height:2.2rem; flex:none }.fig{ margin:.6rem 0; }.fig-frame{ overflow-x:auto; overflow-y:hidden; border-block:1px solid var(--rule); padding-block:.8rem; background:linear-gradient(to right, var(--flour) 30%, transparent), linear-gradient(to left, var(--flour) 30%, transparent) 100% 0, radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent) 100% 0; background-repeat:no-repeat; background-size:2.2rem 100%, 2.2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; height:auto; margin-inline:auto; max-width:46rem }.t{ fill:var(--ink); font-family:var(--label); font-size:13px }.t-soft{ fill:var(--ink-soft) }.t-iron{ fill:var(--iron) }.t-water{ fill:var(--water) }.t-spirit{ fill:var(--spirit) }.t-grain{ fill:var(--grain) }.t-rust{ fill:var(--rust) }.t-b{ font-weight:600 }.t-sm{ font-size:11.5px }.t-mono{ font-family:var(--mono) }.s-ink{ stroke:var(--ink); fill:none }.s-soft{ stroke:var(--ink-soft); fill:none }.s-rule{ stroke:var(--rule); fill:none }.s-iron{ stroke:var(--iron); fill:none }.s-water{ stroke:var(--water); fill:none }.s-spirit{ stroke:var(--spirit); fill:none }.s-grain{ stroke:var(--grain); fill:none }.s-rust{ stroke:var(--rust); fill:none }.f-bg{ fill:var(--flour) }.f-panel{ fill:var(--flour-2) }.f-soft{ fill:var(--ink-soft) }.f-iron{ fill:var(--iron) }.f-water{ fill:var(--water) }.f-spirit{ fill:var(--spirit) }.f-grain{ fill:var(--grain) }.f-iron-t{ fill:var(--iron-t) }.f-rust-t{ fill:var(--rust-t) }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.dash{ stroke-dasharray:5 4 }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:transparent"/><svg aria-label="아픔은 고리가 돌며 일을 마치면 꺼지는 신호(e 0.7 → 넷째 걸음에 0)이고, 고통은 행동 경로가 끊긴 채 켜져 쌓이는 신호(10걸음 누적 7.0)다. 출구는 셋 — 세계를 바꾸기, 목표(모형) 고쳐 쓰기, 추상 수준을 올려 손이 닿는 변수로 갈아타기." data-min="520" height="100%" role="img" style="" viewBox="0 0 600 462" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="f19-w" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-water" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f19-g" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-grain" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f19-s" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-spirit" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f19-i" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-iron" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f19-k" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-soft" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- ===== 왼쪽: 아픔 ===== -->
+<rect class="f-panel" height="306" rx="4" width="270" x="20" y="14"></rect>
+<text class="t t-b t-grain" x="34" y="36">아픔 — 일하는 신호</text>
+<rect class="f-bg s-spirit w15" height="30" rx="4" width="80" x="44" y="48"></rect>
+<text class="t t-spirit" text-anchor="middle" x="84" y="68">목표 g 1.0</text>
+<circle class="f-bg s-ink w15" cx="84" cy="124" r="13"></circle>
+<text class="t t-b" text-anchor="middle" x="84" y="129">−</text>
+<rect class="f-bg s-iron w15" height="30" rx="4" width="80" x="44" y="176"></rect>
+<text class="t t-iron" text-anchor="middle" x="84" y="196">현재 x 0.3</text>
+<rect class="f-bg s-water w15" height="30" rx="4" width="72" x="200" y="109"></rect>
+<text class="t t-water" text-anchor="middle" x="236" y="129">행동</text>
+<rect class="f-iron-t s-iron w15" height="30" rx="4" width="72" x="200" y="176"></rect>
+<text class="t t-iron" text-anchor="middle" x="236" y="196">세계</text>
+<line class="s-spirit w15" marker-end="url(#f19-s)" x1="84" x2="84" y1="78" y2="108"></line>
+<line class="s-iron w15" marker-end="url(#f19-i)" x1="84" x2="84" y1="176" y2="140"></line>
+<line class="s-grain w2" marker-end="url(#f19-g)" x1="97" x2="197" y1="124" y2="124"></line>
+<text class="t t-sm t-grain" text-anchor="middle" x="147" y="116">신호 e 0.7</text>
+<line class="s-water w2" marker-end="url(#f19-w)" x1="236" x2="236" y1="139" y2="173"></line>
+<text class="t t-sm t-water t-mono" x="243" y="160">+0.2</text>
+<line class="s-iron w15" marker-end="url(#f19-i)" x1="200" x2="127" y1="191" y2="191"></line>
+<text class="t t-sm t-iron" text-anchor="middle" x="163" y="184">x 오름</text>
+<!-- 신호 궤적 -->
+<text class="t t-sm t-soft" x="60" y="238">걸음마다 e</text>
+<line class="s-rule w1" x1="60" x2="270" y1="294" y2="294"></line>
+<text class="t t-sm t-soft t-mono" text-anchor="end" x="54" y="254">0.7</text>
+<text class="t t-sm t-soft t-mono" text-anchor="end" x="54" y="298">0</text>
+<polyline class="s-grain w2" points="60,250 81,262.6 102,275.1 123,287.7 144,294 270,294"></polyline>
+<g class="f-grain">
+<circle cx="60" cy="250" r="3"></circle><circle cx="81" cy="262.6" r="3"></circle><circle cx="102" cy="275.1" r="3"></circle><circle cx="123" cy="287.7" r="3"></circle><circle cx="144" cy="294" r="3"></circle>
+</g>
+<text class="t t-sm t-grain" x="152" y="284">넷째 걸음에 꺼짐</text>
+<text class="t t-sm t-soft t-mono" text-anchor="middle" x="60" y="311">0</text>
+<text class="t t-sm t-soft t-mono" text-anchor="middle" x="144" y="311">4</text>
+<text class="t t-sm t-soft t-mono" text-anchor="middle" x="270" y="311">10</text>
+<!-- ===== 오른쪽: 고통 ===== -->
+<rect class="f-rust-t" height="306" rx="4" width="270" x="310" y="14"></rect>
+<text class="t t-b t-rust" x="324" y="36">고통 — 막힌 고리</text>
+<rect class="f-bg s-spirit w15" height="30" rx="4" width="80" x="334" y="48"></rect>
+<text class="t t-spirit" text-anchor="middle" x="374" y="68">목표 g 1.0</text>
+<circle class="f-bg s-ink w15" cx="374" cy="124" r="13"></circle>
+<text class="t t-b" text-anchor="middle" x="374" y="129">−</text>
+<rect class="f-bg s-iron w15" height="30" rx="4" width="80" x="334" y="176"></rect>
+<text class="t t-iron" text-anchor="middle" x="374" y="196">현재 x 0.3</text>
+<rect class="f-bg s-water w15" height="30" rx="4" width="72" x="490" y="109"></rect>
+<text class="t t-water" text-anchor="middle" x="526" y="129">행동</text>
+<rect class="f-iron-t s-iron w15" height="30" rx="4" width="72" x="490" y="176"></rect>
+<text class="t t-iron" text-anchor="middle" x="526" y="196">세계</text>
+<line class="s-spirit w15" marker-end="url(#f19-s)" x1="374" x2="374" y1="78" y2="108"></line>
+<line class="s-iron w15" marker-end="url(#f19-i)" x1="374" x2="374" y1="176" y2="140"></line>
+<line class="s-grain w2" marker-end="url(#f19-g)" x1="387" x2="487" y1="124" y2="124"></line>
+<text class="t t-sm t-grain" text-anchor="middle" x="437" y="116">e 0.7 그대로</text>
+<!-- 끊긴 행동 경로 -->
+<line class="s-water w2" x1="526" x2="526" y1="139" y2="149"></line>
+<line class="s-rust w2" x1="515" x2="537" y1="157" y2="149"></line>
+<line class="s-rust w2" x1="515" x2="537" y1="165" y2="157"></line>
+<line class="s-soft w15 dash" marker-end="url(#f19-k)" x1="526" x2="526" y1="165" y2="173"></line>
+<text class="t t-sm t-rust t-mono" text-anchor="end" x="508" y="161">Δx = 0</text>
+<line class="s-soft w15 dash" marker-end="url(#f19-k)" x1="490" x2="417" y1="191" y2="191"></line>
+<text class="t t-sm t-soft" text-anchor="middle" x="453" y="184">x 그대로</text>
+<!-- 출구 표지 -->
+<circle class="f-bg s-water w15" cx="552" cy="157" r="9"></circle>
+<text class="t t-sm t-b t-water" text-anchor="middle" x="552" y="161">1</text>
+<circle class="f-bg s-spirit w15" cx="322" cy="63" r="9"></circle>
+<text class="t t-sm t-b t-spirit" text-anchor="middle" x="322" y="67">2</text>
+<circle class="f-bg s-iron w15" cx="322" cy="191" r="9"></circle>
+<text class="t t-sm t-b t-iron" text-anchor="middle" x="322" y="195">3</text>
+<!-- 신호 궤적 -->
+<text class="t t-sm t-soft" x="350" y="238">걸음마다 e</text>
+<rect class="f-rust-t" height="44" width="210" x="350" y="250"></rect>
+<line class="s-rule w1" x1="350" x2="560" y1="294" y2="294"></line>
+<line class="s-rust w2" x1="350" x2="560" y1="250" y2="250"></line>
+<text class="t t-sm t-soft t-mono" text-anchor="end" x="344" y="254">0.7</text>
+<text class="t t-sm t-soft t-mono" text-anchor="end" x="344" y="298">0</text>
+<text class="t t-sm t-rust" text-anchor="middle" x="455" y="277">줄지 않고 쌓인다 · 누적 7.0</text>
+<text class="t t-sm t-soft t-mono" text-anchor="middle" x="350" y="311">0</text>
+<text class="t t-sm t-soft t-mono" text-anchor="middle" x="560" y="311">10</text>
+<!-- ===== 출구 셋 ===== -->
+<text class="t t-b" x="20" y="344">막힌 고리에서 나가는 출구 셋</text>
+<rect class="f-bg s-water w15" height="96" rx="4" width="180" x="20" y="354"></rect>
+<circle class="f-bg s-water w15" cx="36" cy="374" r="9"></circle>
+<text class="t t-sm t-b t-water" text-anchor="middle" x="36" y="378">1</text>
+<text class="t t-b t-water" x="52" y="379">세계를 바꾸기</text>
+<text class="t t-sm" x="34" y="404">x에 닿는 행동을 찾는다</text>
+<text class="t t-sm t-mono t-water" x="34" y="426">e 0.7→0.5→0.3→0.1→0</text>
+<text class="t t-sm t-soft" x="34" y="442">끊긴 경로를 잇는다</text>
+<rect class="f-bg s-spirit w15" height="96" rx="4" width="180" x="210" y="354"></rect>
+<circle class="f-bg s-spirit w15" cx="226" cy="374" r="9"></circle>
+<text class="t t-sm t-b t-spirit" text-anchor="middle" x="226" y="378">2</text>
+<text class="t t-b t-spirit" x="242" y="379">목표(모형) 고쳐 쓰기</text>
+<text class="t t-sm" x="224" y="404">g 1.0 → 0.4, x는 그대로</text>
+<text class="t t-sm t-mono t-spirit" x="224" y="426">e 0.7 → 0.1</text>
+<text class="t t-sm t-soft" x="224" y="442">10걸음 누적 7.0 → 1.0</text>
+<rect class="f-bg s-iron w15" height="96" rx="4" width="180" x="400" y="354"></rect>
+<circle class="f-bg s-iron w15" cx="416" cy="374" r="9"></circle>
+<text class="t t-sm t-b t-iron" text-anchor="middle" x="416" y="378">3</text>
+<text class="t t-b t-iron" x="432" y="379">추상 수준 올리기</text>
+<text class="t t-sm" x="414" y="404">x(응답) → y(이해)로</text>
+<text class="t t-sm t-mono t-iron" x="414" y="426">e 0.4→0.3→0.2→0.1→0</text>
+<text class="t t-sm t-soft" x="414" y="442">손이 닿는 변수로 갈아탐</text>
+</svg></svg>

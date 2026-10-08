@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 372" width="640" height="372" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --flour:#EFF0EB; --flour-2:#E6E8E1; --ink:#1C2025; --ink-soft:#4E555D; --rule:#C7CAC1;
+  --iron:#3D4652; --water:#1B7480; --spirit:#6448B0; --grain:#A8721A; --rust:#BF4128;
+  --water-t:rgba(27,116,128,.12); --spirit-t:rgba(100,72,176,.11); --grain-t:rgba(168,114,26,.13); --rust-t:rgba(191,65,40,.10); --iron-t:rgba(61,70,82,.10);
+  --shadow:rgba(28,32,37,.18);
+  --display:"Grandiflora One","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"Newsreader","Noto Serif KR","Nanum Myeongjo",Georgia,serif;
+  --label:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --mono:"JetBrains Mono","Nanum Gothic Coding",ui-monospace,Menlo,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }}:root[data-theme="dark"]{
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem; }.lecture{ display:contents }.lec-no svg{ width:2.2rem; height:2.2rem; flex:none }.fig{ margin:.6rem 0; }.fig-frame{ overflow-x:auto; overflow-y:hidden; border-block:1px solid var(--rule); padding-block:.8rem; background:linear-gradient(to right, var(--flour) 30%, transparent), linear-gradient(to left, var(--flour) 30%, transparent) 100% 0, radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent) 100% 0; background-repeat:no-repeat; background-size:2.2rem 100%, 2.2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; height:auto; margin-inline:auto; max-width:46rem }.t{ fill:var(--ink); font-family:var(--label); font-size:13px }.t-soft{ fill:var(--ink-soft) }.t-iron{ fill:var(--iron) }.t-spirit{ fill:var(--spirit) }.t-grain{ fill:var(--grain) }.t-rust{ fill:var(--rust) }.t-b{ font-weight:600 }.t-sm{ font-size:11.5px }.t-lg{ font-size:15px }.t-mono{ font-family:var(--mono) }.t-serif{ font-family:var(--body) }.halo{ paint-order:stroke; stroke:var(--flour); stroke-width:4px; stroke-linejoin:round }.s-rule{ stroke:var(--rule); fill:none }.s-iron{ stroke:var(--iron); fill:none }.s-water{ stroke:var(--water); fill:none }.s-spirit{ stroke:var(--spirit); fill:none }.s-grain{ stroke:var(--grain); fill:none }.s-rust{ stroke:var(--rust); fill:none }.f-bg{ fill:var(--flour) }.f-soft{ fill:var(--ink-soft) }.f-spirit{ fill:var(--spirit) }.f-grain{ fill:var(--grain) }.f-rust{ fill:var(--rust) }.f-iron-t{ fill:var(--iron-t) }.f-spirit-t{ fill:var(--spirit-t) }.f-grain-t{ fill:var(--grain-t) }.f-rust-t{ fill:var(--rust-t) }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.w3{ stroke-width:3 }.dash{ stroke-dasharray:5 4 }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:transparent"/><svg aria-label="바흐의 신은 2015년 형이상학적 비용의 사다리에서 2020년 여러 뇌에 걸친 작은 g의 신, 2023~25년 여러 마음을 사로잡는 자기들, 2026년 집단 행위성의 전역 최적으로 옮겨 가며 기술에서 규범이 되었고, '바깥의 신은 없다'가 그 짝이다." data-min="560" height="100%" role="img" style="" viewBox="0 0 640 372" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="f21-ax" markerHeight="9" markerWidth="9" orient="auto" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-spirit" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f21-r" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-rust" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 연도 머리 -->
+<text class="t t-b t-lg t-mono" x="22" y="28">2015</text>
+<text class="t t-sm t-soft" x="22" y="46">32C3 강연</text>
+<text class="t t-b t-lg t-mono" x="174" y="28">2020</text>
+<text class="t t-sm t-soft" x="174" y="46">렉스 대담 101</text>
+<text class="t t-b t-lg t-mono" x="326" y="28">2023~25</text>
+<text class="t t-sm t-soft" x="326" y="46">「명료의 단계들」·「가설」</text>
+<text class="t t-b t-lg t-mono" x="478" y="28">2026</text>
+<text class="t t-sm t-soft" x="478" y="46">러트 대담(2월)</text>
+<!-- 카드 1: 형이상학적 비용의 사다리 -->
+<rect class="f-iron-t s-iron w15" height="178" rx="4" width="140" x="20" y="58"></rect>
+<text class="t t-b t-iron" text-anchor="middle" x="90" y="80">형이상학적</text>
+<text class="t t-b t-iron" text-anchor="middle" x="90" y="99">비용의 사다리</text>
+<g class="s-iron w1">
+<line x1="34" x2="34" y1="206" y2="124"></line><line x1="46" x2="46" y1="206" y2="124"></line>
+<line x1="34" x2="46" y1="196" y2="196"></line><line x1="34" x2="46" y1="176" y2="176"></line>
+<line x1="34" x2="46" y1="156" y2="156"></line><line x1="34" x2="46" y1="136" y2="136"></line>
+</g>
+<text class="t t-sm t-soft" text-anchor="end" x="150" y="120">누적 비용</text>
+<text class="t t-sm" x="54" y="200">전이 함수</text><text class="t t-sm t-mono" text-anchor="end" x="150" y="200">0</text>
+<text class="t t-sm" x="54" y="180">목적의 신</text><text class="t t-sm t-mono" text-anchor="end" x="150" y="180">1</text>
+<text class="t t-sm t-soft" x="54" y="160">돌보는 신</text><text class="t t-sm t-mono t-soft" text-anchor="end" x="150" y="160">2</text>
+<text class="t t-sm t-soft" x="54" y="140">기관의 신</text><text class="t t-sm t-mono t-soft" text-anchor="end" x="150" y="140">3</text>
+<text class="t t-sm t-iron" text-anchor="middle" x="90" y="228">값을 치르는 가정</text>
+<!-- 카드 2: 여러 뇌에 걸친 작은 g -->
+<rect class="f-spirit-t s-spirit w15" height="178" rx="4" width="140" x="172" y="58"></rect>
+<text class="t t-b t-spirit" text-anchor="middle" x="242" y="80">여러 뇌에 걸친</text>
+<text class="t t-b t-spirit" text-anchor="middle" x="242" y="99">작은 g의 신</text>
+<rect class="f-bg s-spirit w15" height="18" rx="9" width="100" x="192" y="118"></rect>
+<text class="t t-sm t-spirit t-serif" text-anchor="middle" x="242" y="131">god</text>
+<g class="s-iron w15">
+<circle cx="208" cy="174" r="12"></circle><circle cx="242" cy="174" r="12"></circle><circle cx="276" cy="174" r="12"></circle>
+</g>
+<g class="s-water w1">
+<line x1="208" x2="208" y1="162" y2="138"></line><line x1="242" x2="242" y1="162" y2="138"></line><line x1="276" x2="276" y1="162" y2="138"></line>
+</g>
+<text class="t t-sm" text-anchor="middle" x="242" y="208">값이 0인 신</text>
+<text class="t t-sm t-iron" text-anchor="middle" x="242" y="228">있는 것을 적음</text>
+<!-- 카드 3: 여러 마음을 사로잡는 자기들 -->
+<rect class="f-spirit-t s-spirit w15" height="178" rx="4" width="140" x="324" y="58"></rect>
+<text class="t t-b t-spirit" text-anchor="middle" x="394" y="80">여러 마음을</text>
+<text class="t t-b t-spirit" text-anchor="middle" x="394" y="99">사로잡는 자기들</text>
+<g class="s-spirit w15">
+<ellipse cx="372" cy="128" rx="26" ry="10"></ellipse><ellipse cx="418" cy="132" rx="22" ry="9"></ellipse>
+</g>
+<g class="s-iron w15">
+<circle cx="356" cy="174" r="11"></circle><circle cx="394" cy="174" r="11"></circle><circle cx="432" cy="174" r="11"></circle>
+</g>
+<g class="s-water w1">
+<line x1="356" x2="366" y1="163" y2="138"></line><line x1="394" x2="378" y1="163" y2="138"></line>
+<line x1="394" x2="412" y1="163" y2="141"></line><line x1="432" x2="424" y1="163" y2="141"></line>
+</g>
+<text class="t t-sm" text-anchor="middle" x="394" y="208">신들 = 여러 마음의 자기</text>
+<text class="t t-sm t-iron" text-anchor="middle" x="394" y="228">섬기는 만큼 존재</text>
+<!-- 카드 4: 전역 최적 -->
+<rect class="f-grain-t s-grain w2" height="178" rx="4" width="144" x="476" y="58"></rect>
+<text class="t t-b t-grain" text-anchor="middle" x="548" y="80">집단 행위성의</text>
+<text class="t t-b t-grain" text-anchor="middle" x="548" y="99">전역 최적</text>
+<!-- 지형: 국소 최적과 전역 최적 -->
+<path class="s-grain w15" d="M490,186 C504,186 506,158 518,158 C530,158 532,182 544,182 C556,182 560,124 576,124 C592,124 596,170 608,176"></path>
+<circle class="f-soft" cx="518" cy="158" r="3.5"></circle>
+<text class="t t-sm t-soft" text-anchor="middle" x="518" y="150">지금</text>
+<circle class="f-grain" cx="576" cy="124" r="4.5"></circle>
+<text class="t t-sm t-grain t-b" text-anchor="middle" x="576" y="116">신</text>
+<text class="t t-sm" text-anchor="middle" x="548" y="208">가장 좋은 행위자</text>
+<text class="t t-sm t-grain" text-anchor="middle" x="548" y="228">겨냥할 것</text>
+<!-- 짝: 바깥의 신은 없다 -->
+<rect class="f-rust-t s-rust w15 dash" height="46" rx="4" width="144" x="476" y="256"></rect>
+<text class="t t-sm t-rust t-b" text-anchor="middle" x="548" y="275">'바깥의 신은 없다'</text>
+<text class="t t-sm t-rust" text-anchor="middle" x="548" y="293">2026년 6월 · 그 뒷면</text>
+<line class="s-rust w15" marker-end="url(#f21-r)" x1="548" x2="548" y1="254" y2="240"></line>
+<!-- 축: 기술 → 규범 -->
+<line class="s-spirit w3" marker-end="url(#f21-ax)" x1="20" x2="614" y1="330" y2="330"></line>
+<g class="f-spirit">
+<circle cx="90" cy="330" r="5"></circle><circle cx="242" cy="330" r="5"></circle><circle cx="394" cy="330" r="5"></circle>
+</g>
+<circle class="f-grain" cx="548" cy="330" r="6"></circle>
+<g class="s-rule w1 dash">
+<line x1="90" x2="90" y1="238" y2="324"></line><line x1="242" x2="242" y1="238" y2="324"></line><line x1="394" x2="394" y1="238" y2="324"></line>
+</g>
+<text class="t t-b t-iron" x="20" y="356">기술(記述) — 있는 신</text>
+<text class="t t-b t-grain" text-anchor="end" x="620" y="356">규범 — 겨냥할 신</text>
+<text class="t t-sm t-soft halo" text-anchor="middle" x="242" y="318">우주에 대한 가정 → 머릿속 구현 → 최적</text>
+</svg></svg>

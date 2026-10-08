@@ -15,6 +15,8 @@
 | 철학 | [재귀성과 우연성](https://sungmincho.github.io/nogyosu_vault/책/재귀성과-우연성/) | 허욱(육휘), 『재귀성과 우연성』 | 「키질하는 노」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/yukhui.html)) | 14 | 294 |
 | 철학 | [부정적인 것과 함께 머물기](https://sungmincho.github.io/nogyosu_vault/책/부정적인-것과-함께-머물기/) | 슬라보예 지젝, 『부정적인 것과 함께 머물기』 | 「구멍 뚫린 깃발」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/zizek.html)) | 12 | 371 |
 | 철학 | [지능과 정신](https://sungmincho.github.io/nogyosu_vault/책/지능과-정신/) | 레자 네가레스타니, 『지능과 정신』 | 「말하는 그것」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/negarestani.html)) | 21 | 752 |
+| 철학 | [절멸에의 갈증](https://sungmincho.github.io/nogyosu_vault/책/절멸에의-갈증/) | 닉 랜드, 『절멸에의 갈증』 — 바타유와 독성 니힐리즘 | 「절멸에의 갈증」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/land.html)) | 12 | 369 |
+| 철학 | [요샤 바흐의 마음 철학](https://sungmincho.github.io/nogyosu_vault/책/요샤-바흐의-마음-철학/) | 요샤 바흐의 강연과 대담을 엮은 열두 강 | 「방앗간의 유령」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/bach.html)) | 12 | 428 |
 | 수학 | [범주론 입문](https://sungmincho.github.io/nogyosu_vault/책/범주론-입문/) | 대학원 범주론 과정 | 「화살표의 수학」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/category.html)) | 14 | 351 |
 | 수학 | [선형대수학](https://sungmincho.github.io/nogyosu_vault/책/선형대수학/) | 학부 선형대수학 | 「확대하면 곧다」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/linalg.html)) | 18 | 390 |
 | 수학 | [딥러닝의 기하학](https://sungmincho.github.io/nogyosu_vault/책/딥러닝의-기하학/) | 현대 딥러닝의 기하 | 「조각마다 곧다」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/dlgeom.html)) | 10 | 304 |
@@ -26,7 +28,7 @@
 | 투자와 게임 | [홀덤 GTO 기본 개념](https://sungmincho.github.io/nogyosu_vault/책/홀덤-GTO-기본-개념/) | 노리밋 홀덤의 GTO 기본 개념 | 「블러프는 방어다」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/holdem.html)) | 13 | 240 |
 | 소프트웨어 | [소프트웨어 설계의 철학](https://sungmincho.github.io/nogyosu_vault/책/소프트웨어-설계의-철학/) | 존 오스터하우트, 『A Philosophy of Software Design』 | 「탄광의 카나리아」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/ousterhout.html)) | 22 | 300 |
 
-원자 노트는 모두 6900개이고, 그 가운데 564개가 두 권 이상에 걸쳐 있다.
+원자 노트는 모두 7512개이고, 그 가운데 670개가 두 권 이상에 걸쳐 있다.
 
 ## 구조
 | 경로 | 무엇 |

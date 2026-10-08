@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 330" width="600" height="330" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --flour:#EFF0EB; --flour-2:#E6E8E1; --ink:#1C2025; --ink-soft:#4E555D; --rule:#C7CAC1;
+  --iron:#3D4652; --water:#1B7480; --spirit:#6448B0; --grain:#A8721A; --rust:#BF4128;
+  --water-t:rgba(27,116,128,.12); --spirit-t:rgba(100,72,176,.11); --grain-t:rgba(168,114,26,.13); --rust-t:rgba(191,65,40,.10); --iron-t:rgba(61,70,82,.10);
+  --shadow:rgba(28,32,37,.18);
+  --display:"Grandiflora One","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"Newsreader","Noto Serif KR","Nanum Myeongjo",Georgia,serif;
+  --label:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --mono:"JetBrains Mono","Nanum Gothic Coding",ui-monospace,Menlo,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }}:root[data-theme="dark"]{
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem; }.lecture{ display:contents }.lec-no svg{ width:2.2rem; height:2.2rem; flex:none }.fig{ margin:.6rem 0; }.fig-frame{ overflow-x:auto; overflow-y:hidden; border-block:1px solid var(--rule); padding-block:.8rem; background:linear-gradient(to right, var(--flour) 30%, transparent), linear-gradient(to left, var(--flour) 30%, transparent) 100% 0, radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent) 100% 0; background-repeat:no-repeat; background-size:2.2rem 100%, 2.2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; height:auto; margin-inline:auto; max-width:46rem }.t{ fill:var(--ink); font-family:var(--label); font-size:13px }.t-soft{ fill:var(--ink-soft) }.t-iron{ fill:var(--iron) }.t-spirit{ fill:var(--spirit) }.t-b{ font-weight:600 }.t-sm{ font-size:11.5px }.s-soft{ stroke:var(--ink-soft); fill:none }.s-rule{ stroke:var(--rule); fill:none }.s-iron{ stroke:var(--iron); fill:none }.s-water{ stroke:var(--water); fill:none }.s-spirit{ stroke:var(--spirit); fill:none }.f-bg{ fill:var(--flour) }.f-soft{ fill:var(--ink-soft) }.f-water{ fill:var(--water) }.f-spirit{ fill:var(--spirit) }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.w3{ stroke-width:3 }.dash{ stroke-dasharray:5 4 }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:transparent"/><svg aria-label="글라이더의 네 세대: 칸들은 제자리에서 켜지고 꺼질 뿐인데 다섯 칸의 모양은 네 세대 만에 대각선으로 한 칸 옮겨 간다. 칸은 남고 패턴은 떠나간다." data-min="520" height="100%" role="img" style="" viewBox="0 0 600 330" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="f06-a" markerHeight="6" markerWidth="6" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-soft" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f06-s" markerHeight="6" markerWidth="6" orient="auto" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-spirit" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 0세대 -->
+<text class="t t-b" text-anchor="middle" x="68" y="38">0세대</text>
+<rect class="f-bg s-rule w1" height="88" width="88" x="24" y="50"></rect>
+<path class="s-rule w1" d="M46 50 V138 M24 72 H112 M68 50 V138 M24 94 H112 M90 50 V138 M24 116 H112"></path>
+<rect class="f-water" height="16" rx="2" width="16" x="49" y="53"></rect>
+<rect class="f-water" height="16" rx="2" width="16" x="71" y="75"></rect>
+<rect class="f-water" height="16" rx="2" width="16" x="27" y="97"></rect>
+<rect class="f-water" height="16" rx="2" width="16" x="49" y="97"></rect>
+<rect class="f-water" height="16" rx="2" width="16" x="71" y="97"></rect>
+<rect class="s-spirit w15 dash" height="67" width="67" x="23.5" y="49.5"></rect>
+<rect class="s-iron w3" height="20" width="20" x="69" y="95"></rect>
+<text class="t t-sm t-iron" text-anchor="middle" x="68" y="158">기준 칸 켜짐</text>
+<line class="s-soft w15" marker-end="url(#f06-a)" x1="117" x2="134" y1="94" y2="94"></line>
+<!-- 1세대 -->
+<text class="t t-b" text-anchor="middle" x="184" y="38">1세대</text>
+<rect class="f-bg s-rule w1" height="88" width="88" x="140" y="50"></rect>
+<path class="s-rule w1" d="M162 50 V138 M140 72 H228 M184 50 V138 M140 94 H228 M206 50 V138 M140 116 H228"></path>
+<rect class="f-water" height="16" rx="2" width="16" x="143" y="75"></rect>
+<rect class="f-water" height="16" rx="2" width="16" x="187" y="75"></rect>
+<rect class="f-water" height="16" rx="2" width="16" x="165" y="97"></rect>
+<rect class="f-water" height="16" rx="2" width="16" x="187" y="97"></rect>
+<rect class="f-water" height="16" rx="2" width="16" x="165" y="119"></rect>
+<rect class="s-spirit w15 dash" height="67" width="67" x="139.5" y="71.5"></rect>
+<rect class="s-iron w3" height="20" width="20" x="185" y="95"></rect>
+<text class="t t-sm t-iron" text-anchor="middle" x="184" y="158">기준 칸 켜짐</text>
+<line class="s-soft w15" marker-end="url(#f06-a)" x1="233" x2="250" y1="94" y2="94"></line>
+<!-- 2세대 -->
+<text class="t t-b" text-anchor="middle" x="300" y="38">2세대</text>
+<rect class="f-bg s-rule w1" height="88" width="88" x="256" y="50"></rect>
+<path class="s-rule w1" d="M278 50 V138 M256 72 H344 M300 50 V138 M256 94 H344 M322 50 V138 M256 116 H344"></path>
+<rect class="f-water" height="16" rx="2" width="16" x="303" y="75"></rect>
+<rect class="f-water" height="16" rx="2" width="16" x="259" y="97"></rect>
+<rect class="f-water" height="16" rx="2" width="16" x="303" y="97"></rect>
+<rect class="f-water" height="16" rx="2" width="16" x="281" y="119"></rect>
+<rect class="f-water" height="16" rx="2" width="16" x="303" y="119"></rect>
+<rect class="s-spirit w15 dash" height="67" width="67" x="255.5" y="71.5"></rect>
+<rect class="s-iron w3" height="20" width="20" x="301" y="95"></rect>
+<text class="t t-sm t-iron" text-anchor="middle" x="300" y="158">기준 칸 켜짐</text>
+<line class="s-soft w15" marker-end="url(#f06-a)" x1="349" x2="366" y1="94" y2="94"></line>
+<!-- 3세대 -->
+<text class="t t-b" text-anchor="middle" x="416" y="38">3세대</text>
+<rect class="f-bg s-rule w1" height="88" width="88" x="372" y="50"></rect>
+<path class="s-rule w1" d="M394 50 V138 M372 72 H460 M416 50 V138 M372 94 H460 M438 50 V138 M372 116 H460"></path>
+<rect class="f-water" height="16" rx="2" width="16" x="397" y="75"></rect>
+<rect class="f-water" height="16" rx="2" width="16" x="419" y="97"></rect>
+<rect class="f-water" height="16" rx="2" width="16" x="441" y="97"></rect>
+<rect class="f-water" height="16" rx="2" width="16" x="397" y="119"></rect>
+<rect class="f-water" height="16" rx="2" width="16" x="419" y="119"></rect>
+<rect class="s-spirit w15 dash" height="67" width="67" x="393.5" y="71.5"></rect>
+<rect class="s-iron w3" height="20" width="20" x="417" y="95"></rect>
+<text class="t t-sm t-iron" text-anchor="middle" x="416" y="158">기준 칸 켜짐</text>
+<line class="s-soft w15" marker-end="url(#f06-a)" x1="465" x2="482" y1="94" y2="94"></line>
+<!-- 4세대 -->
+<text class="t t-b" text-anchor="middle" x="532" y="38">4세대</text>
+<rect class="f-bg s-rule w1" height="88" width="88" x="488" y="50"></rect>
+<path class="s-rule w1" d="M510 50 V138 M488 72 H576 M532 50 V138 M488 94 H576 M554 50 V138 M488 116 H576"></path>
+<rect class="f-water" height="16" rx="2" width="16" x="535" y="75"></rect>
+<rect class="f-water" height="16" rx="2" width="16" x="557" y="97"></rect>
+<rect class="f-water" height="16" rx="2" width="16" x="513" y="119"></rect>
+<rect class="f-water" height="16" rx="2" width="16" x="535" y="119"></rect>
+<rect class="f-water" height="16" rx="2" width="16" x="557" y="119"></rect>
+<rect class="s-spirit w15 dash" height="67" width="67" x="509.5" y="71.5"></rect>
+<rect class="s-iron w3" height="20" width="20" x="533" y="95"></rect>
+<text class="t t-sm t-soft" text-anchor="middle" x="532" y="158">기준 칸 꺼짐</text>
+<rect class="f-water" height="13" rx="2" width="13" x="24" y="173"></rect>
+<text class="t t-sm" x="44" y="184">켜진 칸</text>
+<rect class="s-iron w3" height="15" width="15" x="110" y="172"></rect>
+<text class="t t-sm" x="132" y="184">같은 자리의 칸 하나</text>
+<rect class="s-spirit w15 dash" height="15" width="15" x="268" y="172"></rect>
+<text class="t t-sm" x="290" y="184">패턴이 차지한 자리</text>
+<text class="t t-sm t-soft" text-anchor="end" x="576" y="184">화살표 = 규칙 B3/S23 한 번</text>
+<!-- 0세대 위에 4세대 -->
+<rect class="f-bg s-rule w1" height="96" width="96" x="24" y="208"></rect>
+<path class="s-rule w1" d="M48 208 V304 M24 232 H120 M72 208 V304 M24 256 H120 M96 208 V304 M24 280 H120"></path>
+<rect class="f-water" height="18" rx="2" width="18" x="75" y="235"></rect>
+<rect class="f-water" height="18" rx="2" width="18" x="99" y="259"></rect>
+<rect class="f-water" height="18" rx="2" width="18" x="51" y="283"></rect>
+<rect class="f-water" height="18" rx="2" width="18" x="75" y="283"></rect>
+<rect class="f-water" height="18" rx="2" width="18" x="99" y="283"></rect>
+<rect class="s-water w15 dash" height="17" rx="2" width="17" x="51.5" y="211.5"></rect>
+<rect class="s-water w15 dash" height="17" rx="2" width="17" x="75.5" y="235.5"></rect>
+<rect class="s-water w15 dash" height="17" rx="2" width="17" x="27.5" y="259.5"></rect>
+<rect class="s-water w15 dash" height="17" rx="2" width="17" x="51.5" y="259.5"></rect>
+<rect class="s-water w15 dash" height="17" rx="2" width="17" x="75.5" y="259.5"></rect>
+<rect class="s-spirit w15 dash" height="73" width="73" x="23.5" y="207.5"></rect>
+<rect class="s-spirit w2" height="73" width="73" x="47.5" y="231.5"></rect>
+<line class="s-spirit w2" marker-end="url(#f06-s)" x1="28" x2="44" y1="212" y2="228"></line>
+<text class="t t-sm t-b" x="140" y="222">0세대(점선) 위에 4세대(채움)</text>
+<text class="t t-sm" x="140" y="244">같은 다섯 칸 모양이 ↘ 한 칸 — 네 세대에 한 칸, 속도 c/4</text>
+<text class="t t-sm" x="140" y="266">100세대 뒤 25칸 떠나 있고, 처음 다섯 칸과 겹치는 칸은 0개</text>
+<text class="t t-spirit t-b" x="140" y="294">칸은 제자리에 남고, 패턴이 떠나간다</text>
+</svg></svg>

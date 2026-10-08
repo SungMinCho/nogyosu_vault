@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 494" width="600" height="494" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --flour:#EFF0EB; --flour-2:#E6E8E1; --ink:#1C2025; --ink-soft:#4E555D; --rule:#C7CAC1;
+  --iron:#3D4652; --water:#1B7480; --spirit:#6448B0; --grain:#A8721A; --rust:#BF4128;
+  --water-t:rgba(27,116,128,.12); --spirit-t:rgba(100,72,176,.11); --grain-t:rgba(168,114,26,.13); --rust-t:rgba(191,65,40,.10); --iron-t:rgba(61,70,82,.10);
+  --shadow:rgba(28,32,37,.18);
+  --display:"Grandiflora One","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"Newsreader","Noto Serif KR","Nanum Myeongjo",Georgia,serif;
+  --label:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --mono:"JetBrains Mono","Nanum Gothic Coding",ui-monospace,Menlo,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }}:root[data-theme="dark"]{
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem; }.lecture{ display:contents }.lec-no svg{ width:2.2rem; height:2.2rem; flex:none }.fig{ margin:.6rem 0; }.fig-frame{ overflow-x:auto; overflow-y:hidden; border-block:1px solid var(--rule); padding-block:.8rem; background:linear-gradient(to right, var(--flour) 30%, transparent), linear-gradient(to left, var(--flour) 30%, transparent) 100% 0, radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent) 100% 0; background-repeat:no-repeat; background-size:2.2rem 100%, 2.2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; height:auto; margin-inline:auto; max-width:46rem }.t{ fill:var(--ink); font-family:var(--label); font-size:13px }.t-soft{ fill:var(--ink-soft) }.t-spirit{ fill:var(--spirit) }.t-rust{ fill:var(--rust) }.t-b{ font-weight:600 }.t-sm{ font-size:11.5px }.t-serif{ font-family:var(--body) }.s-soft{ stroke:var(--ink-soft); fill:none }.s-rule{ stroke:var(--rule); fill:none }.s-spirit{ stroke:var(--spirit); fill:none }.s-rust{ stroke:var(--rust); fill:none }.f-panel{ fill:var(--flour-2) }.f-soft{ fill:var(--ink-soft) }.f-spirit-t{ fill:var(--spirit-t) }.f-rust-t{ fill:var(--rust-t) }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:transparent"/><svg aria-label="창세기 1장의 날과 바흐가 읽는 영아의 모형 구축 단계: 수면 위를 운행하는 영은 기층 위의 의식, 빛과 어둠은 대비, 궁창은 세계 모형과 관념의 구의 경계, 뭍과 바다는 평면·공간과 물질, 풀·짐승은 대상과 이름, 제 형상대로 지은 사람은 개인적 자아, 쉼은 엔진이 다 지어진 뒤 자아만 남고 짓던 기억은 잊힘." data-min="520" height="100%" role="img" style="" viewBox="0 0 600 494" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="f15-d" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="5" refY="5" viewBox="0 0 10 10"><path class="f-soft" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<text class="t t-b t-serif" x="20" y="24">창세기 1장</text>
+<text class="t t-b t-spirit" x="330" y="24">바흐가 읽는 영아의 모형 짓기</text>
+<rect class="f-panel s-rule w1" height="52" rx="3" width="232" x="20" y="38"></rect>
+<text class="t t-sm t-soft" x="30" y="58">태초</text>
+<text class="t t-serif" x="30" y="78">수면 위를 운행하는 영</text>
+<rect class="f-spirit-t s-spirit w15" height="52" rx="3" width="212" x="330" y="38"></rect>
+<text class="t t-b t-spirit" x="340" y="59">기층 위의 의식</text>
+<text class="t t-sm t-soft" x="340" y="78">형태 없는 바탕 위를 떠돈다</text>
+<line class="s-soft w15" marker-end="url(#f15-d)" x1="256" x2="326" y1="64.0" y2="64.0"></line>
+<rect class="f-panel s-rule w1" height="52" rx="3" width="232" x="20" y="96"></rect>
+<text class="t t-sm t-soft" x="30" y="116">첫째 날</text>
+<text class="t t-serif" x="30" y="136">빛과 어둠을 나눔</text>
+<rect class="f-spirit-t" height="52" rx="3" width="212" x="330" y="96"></rect>
+<text class="t t-b t-spirit" x="340" y="117">대비</text>
+<text class="t t-sm t-soft" x="340" y="136">밝음과 어두움 · 빛의 모형</text>
+<line class="s-soft w15" marker-end="url(#f15-d)" x1="256" x2="326" y1="122.0" y2="122.0"></line>
+<rect class="f-panel s-rule w1" height="52" rx="3" width="232" x="20" y="154"></rect>
+<text class="t t-sm t-soft" x="30" y="174">둘째 날</text>
+<text class="t t-serif" x="30" y="194">궁창 — 위의 물·아래의 물</text>
+<rect class="f-spirit-t" height="52" rx="3" width="212" x="330" y="154"></rect>
+<text class="t t-b t-spirit" x="340" y="175">세계 모형 | 관념의 구</text>
+<text class="t t-sm t-soft" x="340" y="194">두 영역의 경계</text>
+<line class="s-soft w15" marker-end="url(#f15-d)" x1="256" x2="326" y1="180.0" y2="180.0"></line>
+<rect class="f-panel s-rule w1" height="52" rx="3" width="232" x="20" y="212"></rect>
+<text class="t t-sm t-soft" x="30" y="232">셋째 날</text>
+<text class="t t-serif" x="30" y="252">뭍과 바다</text>
+<rect class="f-spirit-t" height="52" rx="3" width="212" x="330" y="212"></rect>
+<text class="t t-b t-spirit" x="340" y="233">평면 → 3차원 공간</text>
+<text class="t t-sm t-soft" x="340" y="252">단단한 것과 흐르는 것</text>
+<line class="s-soft w15" marker-end="url(#f15-d)" x1="256" x2="326" y1="238.0" y2="238.0"></line>
+<rect class="f-panel s-rule w1" height="52" rx="3" width="232" x="20" y="270"></rect>
+<text class="t t-sm t-soft" x="30" y="290">셋째~여섯째 날</text>
+<text class="t t-serif" x="30" y="310">풀 · 물고기 · 새 · 짐승</text>
+<rect class="f-spirit-t" height="52" rx="3" width="212" x="330" y="270"></rect>
+<text class="t t-b t-spirit" x="340" y="291">대상들, 그리고 이름</text>
+<text class="t t-sm t-soft" x="340" y="310">모든 식물과 동물</text>
+<line class="s-soft w15" marker-end="url(#f15-d)" x1="256" x2="326" y1="296.0" y2="296.0"></line>
+<rect class="f-panel s-rule w1" height="52" rx="3" width="232" x="20" y="328"></rect>
+<text class="t t-sm t-soft" x="30" y="348">여섯째 날</text>
+<text class="t t-serif" x="30" y="368">제 형상대로 지은 사람</text>
+<rect class="f-spirit-t s-spirit w15" height="52" rx="3" width="212" x="330" y="328"></rect>
+<text class="t t-b t-spirit" x="340" y="349">개인적 자아</text>
+<text class="t t-sm t-soft" x="340" y="368">3~5세, 기억이 다시 색인됨</text>
+<line class="s-soft w15" marker-end="url(#f15-d)" x1="256" x2="326" y1="354.0" y2="354.0"></line>
+<rect class="f-panel s-rule w1" height="52" rx="3" width="232" x="20" y="386"></rect>
+<text class="t t-sm t-soft" x="30" y="406">일곱째 날</text>
+<text class="t t-serif" x="30" y="426">쉼</text>
+<rect class="f-rust-t s-rust w1" height="52" rx="3" width="212" x="330" y="386"></rect>
+<text class="t t-b t-spirit" x="340" y="407">엔진 완공 — 자아만 남음</text>
+<text class="t t-sm t-rust" x="340" y="426">짓던 기억은 잊힌다</text>
+<line class="s-soft w15" marker-end="url(#f15-d)" x1="256" x2="326" y1="412.0" y2="412.0"></line>
+<path class="s-spirit w15" d="M550,42 h5 V86 h-5"></path>
+<text class="t t-sm t-b t-spirit" x="559" y="68">의식</text>
+<path class="s-spirit w15" d="M550,100 h5 V318 h-5"></path>
+<text class="t t-sm t-b t-spirit" x="559" y="213">세계</text>
+<path class="s-spirit w15" d="M550,332 h5 V434 h-5"></path>
+<text class="t t-sm t-b t-spirit" x="559" y="387">자아</text>
+<text class="t t-sm t-rust" x="20" y="462">어긋남: 넷째 날의 해·달·별은 따로 자리 없이 ‘빛의 모형’에 녹고,</text>
+<text class="t t-sm t-rust" x="20" y="479">궁창은 바흐의 순서에서 대비보다 앞, 거의 첫걸음에 놓인다</text>
+</svg></svg>

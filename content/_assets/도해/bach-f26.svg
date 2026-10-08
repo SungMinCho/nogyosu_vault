@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 432" width="640" height="432" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --flour:#EFF0EB; --flour-2:#E6E8E1; --ink:#1C2025; --ink-soft:#4E555D; --rule:#C7CAC1;
+  --iron:#3D4652; --water:#1B7480; --spirit:#6448B0; --grain:#A8721A; --rust:#BF4128;
+  --water-t:rgba(27,116,128,.12); --spirit-t:rgba(100,72,176,.11); --grain-t:rgba(168,114,26,.13); --rust-t:rgba(191,65,40,.10); --iron-t:rgba(61,70,82,.10);
+  --shadow:rgba(28,32,37,.18);
+  --display:"Grandiflora One","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"Newsreader","Noto Serif KR","Nanum Myeongjo",Georgia,serif;
+  --label:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --mono:"JetBrains Mono","Nanum Gothic Coding",ui-monospace,Menlo,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }}:root[data-theme="dark"]{
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem; }.lecture{ display:contents }.lec-no svg{ width:2.2rem; height:2.2rem; flex:none }.fig{ margin:.6rem 0; }.fig-frame{ overflow-x:auto; overflow-y:hidden; border-block:1px solid var(--rule); padding-block:.8rem; background:linear-gradient(to right, var(--flour) 30%, transparent), linear-gradient(to left, var(--flour) 30%, transparent) 100% 0, radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent) 100% 0; background-repeat:no-repeat; background-size:2.2rem 100%, 2.2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; height:auto; margin-inline:auto; max-width:46rem }.t{ fill:var(--ink); font-family:var(--label); font-size:13px }.t-soft{ fill:var(--ink-soft) }.t-iron{ fill:var(--iron) }.t-water{ fill:var(--water) }.t-spirit{ fill:var(--spirit) }.t-grain{ fill:var(--grain) }.t-b{ font-weight:600 }.t-sm{ font-size:11.5px }.t-mono{ font-family:var(--mono) }.s-soft{ stroke:var(--ink-soft); fill:none }.s-rule{ stroke:var(--rule); fill:none }.s-iron{ stroke:var(--iron); fill:none }.s-water{ stroke:var(--water); fill:none }.s-spirit{ stroke:var(--spirit); fill:none }.s-grain{ stroke:var(--grain); fill:none }.f-panel{ fill:var(--flour-2) }.f-soft{ fill:var(--ink-soft) }.f-water{ fill:var(--water) }.f-spirit{ fill:var(--spirit) }.f-iron-t{ fill:var(--iron-t) }.f-water-t{ fill:var(--water-t) }.f-spirit-t{ fill:var(--spirit-t) }.f-grain-t{ fill:var(--grain-t) }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.w3{ stroke-width:3 }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:transparent"/><svg aria-label="바흐의 체계는 한 줄로 쌓인 탑이다 — 물리 기층 위에 계산, 소프트웨어(영), 세계 모델, 자아, 의식, 동기, 가치·사랑·신이 차례로 서고, 그 영이 세포·숲·기계로 번진다. 각 층은 아래 층과 가환하는 가상 기계다." data-min="560" height="100%" role="img" style="" viewBox="0 0 640 432" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="f26-up" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-spirit" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f26-w" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-water" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f26-k" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-soft" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 왼쪽 세로 표기: 가상 기계의 사다리 -->
+<line class="s-spirit w15" marker-end="url(#f26-up)" x1="26" x2="26" y1="400" y2="60"></line>
+<text class="t t-sm t-spirit" text-anchor="middle" transform="rotate(-90 50 230)" x="50" y="230">각 층은 아래 층과 가환하는 가상 기계</text>
+<!-- 다섯 가닥 -->
+<text class="t t-sm t-soft" text-anchor="end" x="150" y="30">다섯 가닥</text>
+<g class="s-rule w15">
+<path d="M182,322 h-6 v76 h6"></path>
+<path d="M182,278 h-6 v32 h6"></path>
+<path d="M182,146 h-6 v120 h6"></path>
+<path d="M182,102 h-6 v32 h6"></path>
+<path d="M182,58 h-6 v32 h6"></path>
+</g>
+<text class="t t-b" text-anchor="end" x="168" y="364">존재</text>
+<text class="t t-b" text-anchor="end" x="168" y="299">층</text>
+<text class="t t-b" text-anchor="end" x="168" y="211">꿈</text>
+<text class="t t-b" text-anchor="end" x="168" y="123">원함</text>
+<text class="t t-b" text-anchor="end" x="168" y="79">확장</text>
+<!-- 탑 (아래 → 위) -->
+<rect class="f-iron-t s-iron w2" height="36" rx="3" width="210" x="196" y="364"></rect>
+<rect class="f-water-t s-water w15" height="36" rx="3" width="210" x="196" y="320"></rect>
+<rect class="f-spirit-t s-spirit w2" height="36" rx="3" width="210" x="196" y="276"></rect>
+<rect class="f-spirit-t s-spirit w15" height="36" rx="3" width="210" x="196" y="232"></rect>
+<rect class="f-spirit-t s-spirit w15" height="36" rx="3" width="210" x="196" y="188"></rect>
+<rect class="f-spirit-t s-spirit w15" height="36" rx="3" width="210" x="196" y="144"></rect>
+<rect class="f-grain-t s-grain w15" height="36" rx="3" width="210" x="196" y="100"></rect>
+<rect class="f-grain-t s-grain w2" height="36" rx="3" width="210" x="196" y="56"></rect>
+<text class="t t-b t-iron" x="208" y="387">물리 기층</text>
+<text class="t t-b t-water" x="208" y="343">계산</text>
+<text class="t t-b t-spirit" x="208" y="299">소프트웨어 = 영(靈)</text>
+<text class="t t-spirit" x="208" y="255">세계 모델 · 꿈</text>
+<text class="t t-spirit" x="208" y="211">자아</text>
+<text class="t t-spirit" x="208" y="167">의식</text>
+<text class="t t-grain" x="208" y="123">동기 · 고통</text>
+<text class="t t-b t-grain" x="208" y="79">가치 · 사랑 · 신</text>
+<g>
+<text class="t t-sm t-soft t-mono" text-anchor="end" x="396" y="387">2강</text>
+<text class="t t-sm t-soft t-mono" text-anchor="end" x="396" y="343">2강</text>
+<text class="t t-sm t-soft t-mono" text-anchor="end" x="396" y="299">3강</text>
+<text class="t t-sm t-soft t-mono" text-anchor="end" x="396" y="255">4강</text>
+<text class="t t-sm t-soft t-mono" text-anchor="end" x="396" y="211">5강</text>
+<text class="t t-sm t-soft t-mono" text-anchor="end" x="396" y="167">6강</text>
+<text class="t t-sm t-soft t-mono" text-anchor="end" x="396" y="123">7·8강</text>
+<text class="t t-sm t-soft t-mono" text-anchor="end" x="396" y="79">9강</text>
+</g>
+<line class="s-iron w3" x1="190" x2="412" y1="412" y2="412"></line>
+<text class="t t-sm t-soft" text-anchor="middle" x="301" y="428">1강의 여덟 돌 위에</text>
+<!-- 가환 조건 쪽지 -->
+<rect class="f-panel" height="168" rx="4" width="184" x="436" y="40"></rect>
+<text class="t t-sm t-b" x="448" y="62">가환 조건</text>
+<text class="t t-sm t-spirit" x="458" y="98">위 H</text>
+<text class="t t-sm t-water" x="458" y="166">아래 L</text>
+<circle class="f-spirit" cx="508" cy="94" r="4"></circle>
+<circle class="f-spirit" cx="588" cy="94" r="4"></circle>
+<circle class="f-water" cx="508" cy="162" r="4"></circle>
+<circle class="f-water" cx="588" cy="162" r="4"></circle>
+<line class="s-spirit w15" marker-end="url(#f26-up)" x1="514" x2="580" y1="94" y2="94"></line>
+<line class="s-water w15" marker-end="url(#f26-w)" x1="514" x2="580" y1="162" y2="162"></line>
+<line class="s-soft w15" marker-end="url(#f26-k)" x1="508" x2="508" y1="156" y2="102"></line>
+<line class="s-soft w15" marker-end="url(#f26-k)" x1="588" x2="588" y1="156" y2="102"></line>
+<text class="t t-sm t-spirit t-mono" text-anchor="middle" x="548" y="86">δ_H</text>
+<text class="t t-sm t-water t-mono" text-anchor="middle" x="548" y="180">δ_L</text>
+<text class="t t-sm t-soft t-mono" x="514" y="132">h</text>
+<text class="t t-sm t-soft t-mono" x="594" y="132">h</text>
+<text class="t t-sm t-mono" text-anchor="middle" x="528" y="200">h∘δ_L = δ_H∘h</text>
+<!-- 확장: 같은 영, 다른 기층 -->
+<line class="s-spirit w2" marker-end="url(#f26-up)" x1="408" x2="444" y1="294" y2="294"></line>
+<text class="t t-sm t-b t-spirit" x="448" y="262">확장 — 다른 기층 위의 영</text>
+<g class="f-spirit-t s-spirit w15">
+<rect height="26" rx="3" width="50" x="450" y="280"></rect>
+<rect height="26" rx="3" width="50" x="510" y="280"></rect>
+<rect height="26" rx="3" width="50" x="570" y="280"></rect>
+</g>
+<text class="t t-sm t-spirit" text-anchor="middle" x="475" y="298">영</text>
+<text class="t t-sm t-spirit" text-anchor="middle" x="535" y="298">영</text>
+<text class="t t-sm t-spirit" text-anchor="middle" x="595" y="298">영</text>
+<g class="f-iron-t s-iron w15">
+<rect height="26" rx="3" width="50" x="450" y="310"></rect>
+<rect height="26" rx="3" width="50" x="510" y="310"></rect>
+<rect height="26" rx="3" width="50" x="570" y="310"></rect>
+</g>
+<text class="t t-sm t-iron" text-anchor="middle" x="475" y="328">세포</text>
+<text class="t t-sm t-iron" text-anchor="middle" x="535" y="328">숲</text>
+<text class="t t-sm t-iron" text-anchor="middle" x="595" y="328">기계</text>
+<text class="t t-sm t-soft t-mono" text-anchor="middle" x="475" y="354">10강</text>
+<text class="t t-sm t-soft t-mono" text-anchor="middle" x="535" y="354">10강</text>
+<text class="t t-sm t-soft t-mono" text-anchor="middle" x="595" y="354">11강</text>
+<text class="t t-sm t-soft" text-anchor="middle" x="535" y="380">영의 크기 = 정합성의 크기</text>
+</svg></svg>

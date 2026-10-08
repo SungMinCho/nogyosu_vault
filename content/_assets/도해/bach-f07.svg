@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 412" width="600" height="412" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --flour:#EFF0EB; --flour-2:#E6E8E1; --ink:#1C2025; --ink-soft:#4E555D; --rule:#C7CAC1;
+  --iron:#3D4652; --water:#1B7480; --spirit:#6448B0; --grain:#A8721A; --rust:#BF4128;
+  --water-t:rgba(27,116,128,.12); --spirit-t:rgba(100,72,176,.11); --grain-t:rgba(168,114,26,.13); --rust-t:rgba(191,65,40,.10); --iron-t:rgba(61,70,82,.10);
+  --shadow:rgba(28,32,37,.18);
+  --display:"Grandiflora One","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"Newsreader","Noto Serif KR","Nanum Myeongjo",Georgia,serif;
+  --label:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --mono:"JetBrains Mono","Nanum Gothic Coding",ui-monospace,Menlo,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }}:root[data-theme="dark"]{
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem; }.lecture{ display:contents }.lec-no svg{ width:2.2rem; height:2.2rem; flex:none }.fig{ margin:.6rem 0; }.fig-frame{ overflow-x:auto; overflow-y:hidden; border-block:1px solid var(--rule); padding-block:.8rem; background:linear-gradient(to right, var(--flour) 30%, transparent), linear-gradient(to left, var(--flour) 30%, transparent) 100% 0, radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent) 100% 0; background-repeat:no-repeat; background-size:2.2rem 100%, 2.2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; height:auto; margin-inline:auto; max-width:46rem }.t{ fill:var(--ink); font-family:var(--label); font-size:13px }.t-soft{ fill:var(--ink-soft) }.t-iron{ fill:var(--iron) }.t-water{ fill:var(--water) }.t-spirit{ fill:var(--spirit) }.t-rust{ fill:var(--rust) }.t-b{ font-weight:600 }.t-sm{ font-size:11.5px }.t-mono{ font-family:var(--mono) }.halo{ paint-order:stroke; stroke:var(--flour); stroke-width:4px; stroke-linejoin:round }.s-iron{ stroke:var(--iron); fill:none }.s-water{ stroke:var(--water); fill:none }.s-spirit{ stroke:var(--spirit); fill:none }.s-rust{ stroke:var(--rust); fill:none }.f-bg{ fill:var(--flour) }.f-iron{ fill:var(--iron) }.f-water{ fill:var(--water) }.f-spirit{ fill:var(--spirit) }.f-iron-t{ fill:var(--iron-t) }.f-spirit-t{ fill:var(--spirit-t) }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.w3{ stroke-width:3 }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:transparent"/><svg aria-label="인과적 절연체: 맨 아래에서 점토·종이·실리콘·뉴런이라는 서로 다른 기층이 저마다 요동하고, 그 위에 같은 전이 규칙이 보호되는 가상층이 한 겹 놓인다. 영은 그 가상층에 산다." data-min="520" height="100%" role="img" style="" viewBox="0 0 600 412" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="f07-up" markerHeight="6" markerWidth="6" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-water" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f07-st" markerHeight="6" markerWidth="6" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-spirit" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 가상층: 하나의 전이 규칙 -->
+<rect class="f-spirit-t" height="140" rx="4" width="568" x="16" y="14"></rect>
+<text class="t t-spirit t-b" x="30" y="38">가상층 — 하나의 전이 규칙</text>
+<text class="t t-sm t-soft" x="30" y="58">점토든 종이든 실리콘이든 뉴런이든 같다</text>
+<!-- 상태 전이 고리: 넷이 한 바퀴 -->
+<g class="s-spirit w15">
+<path d="M326 52 L384 52" marker-end="url(#f07-st)"></path>
+<path d="M436 68 L436 100" marker-end="url(#f07-st)"></path>
+<path d="M384 116 L326 116" marker-end="url(#f07-st)"></path>
+<path d="M274 100 L274 68" marker-end="url(#f07-st)"></path>
+</g>
+<g class="f-bg s-spirit w15">
+<rect height="32" rx="16" width="48" x="250" y="36"></rect>
+<rect height="32" rx="16" width="48" x="412" y="36"></rect>
+<rect height="32" rx="16" width="48" x="412" y="100"></rect>
+<rect height="32" rx="16" width="48" x="250" y="100"></rect>
+</g>
+<g class="t t-mono t-spirit" text-anchor="middle">
+<text x="274" y="57">s₀</text><text x="436" y="57">s₁</text><text x="436" y="121">s₂</text><text x="274" y="121">s₃</text>
+</g>
+<text class="t t-sm t-mono t-spirit" text-anchor="middle" x="355" y="89">δ</text>
+<text class="t t-spirit t-b" text-anchor="end" x="570" y="88">영(靈)은</text>
+<text class="t t-spirit t-b" text-anchor="end" x="570" y="108">여기에 산다</text>
+<text class="t t-sm t-soft" x="30" y="140">자기만의 규칙 · 자기만의 게임</text>
+<!-- 절연 둑 -->
+<line class="s-iron w3" x1="16" x2="584" y1="180" y2="180"></line>
+<line class="s-iron w1" x1="16" x2="584" y1="187" y2="187"></line>
+<text class="t t-sm t-iron" text-anchor="end" x="584" y="172">인과적 절연 — 요동은 여기서 막힌다</text>
+<text class="t t-sm t-iron" x="16" y="172">지어지고 수선되는 둑</text>
+<!-- 구현 화살표: 넷이 같은 한 층으로 모인다 -->
+<g class="s-water w15">
+<line marker-end="url(#f07-up)" x1="82" x2="318" y1="226" y2="140"></line>
+<line marker-end="url(#f07-up)" x1="227" x2="340" y1="226" y2="140"></line>
+<line marker-end="url(#f07-up)" x1="372" x2="370" y1="226" y2="140"></line>
+<line marker-end="url(#f07-up)" x1="517" x2="392" y1="226" y2="140"></line>
+</g>
+<text class="t t-sm t-water halo" x="150" y="214">구현</text>
+<text class="t t-sm t-water halo" text-anchor="end" x="450" y="214">구현</text>
+<!-- 막힌 요동: 둑 아래서 멈춘다 -->
+<path class="s-rust w15" d="M40 224 q-5 -5 0 -10 t0 -10 t0 -10"></path>
+<line class="s-rust w2" x1="32" x2="48" y1="194" y2="194"></line>
+<path class="s-rust w15" d="M560 224 q-5 -5 0 -10 t0 -10 t0 -10"></path>
+<line class="s-rust w2" x1="552" x2="568" y1="194" y2="194"></line>
+<!-- 기층 넷 -->
+<rect class="f-iron-t" height="152" rx="4" width="132" x="16" y="226"></rect>
+<rect class="f-iron-t" height="152" rx="4" width="132" x="161" y="226"></rect>
+<rect class="f-iron-t" height="152" rx="4" width="132" x="306" y="226"></rect>
+<rect class="f-iron-t" height="152" rx="4" width="132" x="451" y="226"></rect>
+<g class="t t-iron t-b" text-anchor="middle">
+<text x="82" y="250">점토판</text><text x="227" y="250">종이</text><text x="372" y="250">실리콘</text><text x="517" y="250">뉴런</text>
+</g>
+<!-- 점토판: 쐐기 자국 -->
+<rect class="f-bg s-iron w15" height="54" rx="8" width="72" x="46" y="264"></rect>
+<g class="f-iron">
+<path d="M56 276 l10 4 l-10 4 z"></path>
+<path d="M72 276 l10 4 l-10 4 z"></path>
+<path d="M88 276 l10 4 l-10 4 z"></path>
+<path d="M56 296 l10 4 l-10 4 z"></path>
+<path d="M72 296 l10 4 l-10 4 z"></path>
+</g>
+<!-- 종이: 칸 셋에 연필 -->
+<rect class="f-bg s-iron w15" height="54" width="68" x="193" y="264"></rect>
+<g class="s-iron w1"><line x1="193" x2="261" y1="282" y2="282"></line><line x1="193" x2="261" y1="300" y2="300"></line></g>
+<text class="t t-sm t-mono t-iron" text-anchor="middle" x="227" y="296">0 1 1</text>
+<!-- 실리콘: 칩 -->
+<rect class="f-iron" height="44" rx="2" width="56" x="344" y="270"></rect>
+<g class="s-iron w2">
+<line x1="336" x2="344" y1="280" y2="280"></line><line x1="400" x2="408" y1="280" y2="280"></line><line x1="336" x2="344" y1="292" y2="292"></line><line x1="400" x2="408" y1="292" y2="292"></line><line x1="336" x2="344" y1="304" y2="304"></line><line x1="400" x2="408" y1="304" y2="304"></line>
+</g>
+<!-- 뉴런 -->
+<circle class="f-iron" cx="517" cy="292" r="12"></circle>
+<g class="s-iron w15">
+<path d="M505 288 L485 274 M487 282 L473 284"></path>
+<path d="M511 280 L503 264"></path>
+<path d="M523 281 L533 266"></path>
+<path d="M529 296 L557 304 L569 296 M557 304 L569 312"></path>
+</g>
+<!-- 저마다의 요동: 서로 다른 잡음 -->
+<path class="s-rust w15" d="M34 346 l8 -8 l8 8 l8 -8 l8 8 l8 -8 l8 8 l8 -8 l8 8 l8 -8 l8 8 l8 -8 l8 8"></path>
+<path class="s-rust w15" d="M179 342 q12 -12 24 0 t24 0 t24 0 t24 0"></path>
+<path class="s-rust w15" d="M324 346 h12 v-10 h12 v10 h4 v-10 h18 v10 h10 v-10 h8 v10 h14 v-10 h6 v10 h12"></path>
+<path class="s-rust w15" d="M469 342 h18 l4 -14 l5 26 l5 -24 l4 12 h14 l4 -10 l5 18 l4 -8 h13"></path>
+<g class="t t-sm t-rust" text-anchor="middle">
+<text x="82" y="368">부스러짐·습기</text><text x="227" y="368">번짐·지우개</text><text x="372" y="368">전압 요동·우주선</text><text x="517" y="368">발화 잡음</text>
+</g>
+<text class="t t-sm t-soft" text-anchor="middle" x="300" y="400">기층: 서로 아무것도 닮지 않은 물리 과정 — 저마다 요동한다</text>
+</svg></svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 352" width="600" height="352" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --flour:#EFF0EB; --flour-2:#E6E8E1; --ink:#1C2025; --ink-soft:#4E555D; --rule:#C7CAC1;
+  --iron:#3D4652; --water:#1B7480; --spirit:#6448B0; --grain:#A8721A; --rust:#BF4128;
+  --water-t:rgba(27,116,128,.12); --spirit-t:rgba(100,72,176,.11); --grain-t:rgba(168,114,26,.13); --rust-t:rgba(191,65,40,.10); --iron-t:rgba(61,70,82,.10);
+  --shadow:rgba(28,32,37,.18);
+  --display:"Grandiflora One","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"Newsreader","Noto Serif KR","Nanum Myeongjo",Georgia,serif;
+  --label:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --mono:"JetBrains Mono","Nanum Gothic Coding",ui-monospace,Menlo,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }}:root[data-theme="dark"]{
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem; }.lecture{ display:contents }.lec-no svg{ width:2.2rem; height:2.2rem; flex:none }.fig{ margin:.6rem 0; }.fig-frame{ overflow-x:auto; overflow-y:hidden; border-block:1px solid var(--rule); padding-block:.8rem; background:linear-gradient(to right, var(--flour) 30%, transparent), linear-gradient(to left, var(--flour) 30%, transparent) 100% 0, radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent) 100% 0; background-repeat:no-repeat; background-size:2.2rem 100%, 2.2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; height:auto; margin-inline:auto; max-width:46rem }.t{ fill:var(--ink); font-family:var(--label); font-size:13px }.t-soft{ fill:var(--ink-soft) }.t-iron{ fill:var(--iron) }.t-water{ fill:var(--water) }.t-spirit{ fill:var(--spirit) }.t-rust{ fill:var(--rust) }.t-b{ font-weight:600 }.t-sm{ font-size:11.5px }.t-mono{ font-family:var(--mono) }.s-ink{ stroke:var(--ink); fill:none }.s-rule{ stroke:var(--rule); fill:none }.s-water{ stroke:var(--water); fill:none }.s-spirit{ stroke:var(--spirit); fill:none }.s-rust{ stroke:var(--rust); fill:none }.f-bg{ fill:var(--flour) }.f-panel{ fill:var(--flour-2) }.f-ink{ fill:var(--ink) }.f-iron{ fill:var(--iron) }.f-water{ fill:var(--water) }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.dash{ stroke-dasharray:5 4 }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:transparent"/><svg aria-label="느림의 사다리 — 로그 눈금 위에서 식물 신호(약 3 mm/s)와 유수 신경(약 100 m/s) 사이는 약 3.3×10⁴배, 요정 환율은 약 2.6×10³배다. 둘은 한 자릿수(약 13배) 어긋난다 — 같은 동네, 같은 번지는 아님." data-min="540" height="100%" role="img" style="" viewBox="0 0 600 352" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="f22-ax" markerHeight="7" markerWidth="7" orient="auto" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<text class="t t-b" x="20" y="24">신호 속도 — 로그 눈금 (m/s)</text>
+<text class="t t-sm t-soft" text-anchor="end" x="580" y="24">한 칸 = 열 배</text>
+<!-- 점 이름 -->
+<text class="t t-b t-water" text-anchor="middle" x="126" y="62">식물 신호</text>
+<text class="t t-sm t-water" text-anchor="middle" x="126" y="80">약 3 mm/s</text>
+<text class="t t-b t-iron" text-anchor="middle" x="348" y="62">무수 신경</text>
+<text class="t t-sm t-iron" text-anchor="middle" x="348" y="80">약 1 m/s</text>
+<text class="t t-b t-iron" text-anchor="middle" x="524" y="62">유수 신경</text>
+<text class="t t-sm t-iron" text-anchor="middle" x="524" y="80">약 100 m/s</text>
+<g class="s-rule w1">
+<line x1="126" x2="126" y1="88" y2="112"></line><line x1="348" x2="348" y1="88" y2="112"></line><line x1="524" x2="524" y1="88" y2="112"></line>
+</g>
+<!-- 축 띠 -->
+<rect class="f-panel" height="20" rx="2" width="548" x="40" y="110"></rect>
+<line class="s-ink w15" marker-end="url(#f22-ax)" x1="40" x2="582" y1="120" y2="120"></line>
+<!-- 축 절단: 0은 로그 눈금 위에 없다 -->
+<rect class="f-bg" height="32" width="10" x="55" y="104"></rect>
+<line class="s-ink w15" x1="51" x2="61" y1="134" y2="106"></line>
+<line class="s-ink w15" x1="59" x2="69" y1="134" y2="106"></line>
+<g class="s-ink w1">
+<line x1="84" x2="84" y1="114" y2="126"></line><line x1="172" x2="172" y1="114" y2="126"></line><line x1="260" x2="260" y1="114" y2="126"></line>
+<line x1="348" x2="348" y1="114" y2="126"></line><line x1="436" x2="436" y1="114" y2="126"></line><line x1="524" x2="524" y1="114" y2="126"></line>
+</g>
+<g>
+<text class="t t-sm t-soft t-mono" text-anchor="middle" x="84" y="148">10⁻³</text>
+<text class="t t-sm t-soft t-mono" text-anchor="middle" x="172" y="148">10⁻²</text>
+<text class="t t-sm t-soft t-mono" text-anchor="middle" x="260" y="148">10⁻¹</text>
+<text class="t t-sm t-soft t-mono" text-anchor="middle" x="348" y="148">1</text>
+<text class="t t-sm t-soft t-mono" text-anchor="middle" x="436" y="148">10</text>
+<text class="t t-sm t-soft t-mono" text-anchor="middle" x="524" y="148">100</text>
+</g>
+<text class="t t-sm t-soft" x="40" y="148">절단</text>
+<circle class="f-water" cx="126" cy="120" r="6"></circle>
+<circle class="f-iron" cx="348" cy="120" r="6"></circle>
+<circle class="f-iron" cx="524" cy="120" r="6"></circle>
+<!-- 1 m를 가는 시간 -->
+<text class="t t-sm t-soft" x="20" y="174">1 m 가는 데</text>
+<text class="t t-sm t-water" text-anchor="middle" x="126" y="174">≈ 5.5분</text>
+<text class="t t-sm t-iron" text-anchor="middle" x="348" y="174">≈ 1초</text>
+<text class="t t-sm t-iron" text-anchor="middle" x="524" y="174">10 ms</text>
+<!-- 괄호 1: 속도비 -->
+<path class="s-water w2" d="M126,192 v10 h398 v-10"></path>
+<line class="s-water w2" x1="325" x2="325" y1="202" y2="210"></line>
+<text class="t t-b t-water" text-anchor="middle" x="325" y="228">속도비 ≈ 3.3×10⁴</text>
+<text class="t t-sm t-soft" text-anchor="middle" x="325" y="245">100 ÷ 0.003 · 약 4.5칸</text>
+<!-- 괄호 2: 요정 환율, 같은 출발점에서 -->
+<path class="s-spirit w2" d="M126,264 v10 h300 v-10"></path>
+<line class="s-spirit w2" x1="276" x2="276" y1="274" y2="282"></line>
+<text class="t t-b t-spirit" text-anchor="middle" x="276" y="300">요정 환율 ≈ 2.6×10³</text>
+<text class="t t-sm t-soft" text-anchor="middle" x="276" y="317">1일 = 7년 = 2,557일 · 약 3.4칸</text>
+<!-- 남는 틈 -->
+<path class="s-rust w2 dash" d="M426,268 h98"></path>
+<line class="s-rust w15" x1="426" x2="426" y1="262" y2="274"></line>
+<line class="s-rust w15" x1="524" x2="524" y1="262" y2="274"></line>
+<text class="t t-b t-rust" text-anchor="middle" x="475" y="296">÷ 약 13</text>
+<text class="t t-sm t-rust" text-anchor="middle" x="475" y="313">한 자릿수 차이</text>
+<text class="t t-sm t-soft" x="20" y="342">식물 신호의 '초당 몇 mm'를 3으로 잡은 눈대중 — 측정도 증거도 아니다</text>
+</svg></svg>

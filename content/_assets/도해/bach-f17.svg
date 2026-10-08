@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 352" width="600" height="352" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --flour:#EFF0EB; --flour-2:#E6E8E1; --ink:#1C2025; --ink-soft:#4E555D; --rule:#C7CAC1;
+  --iron:#3D4652; --water:#1B7480; --spirit:#6448B0; --grain:#A8721A; --rust:#BF4128;
+  --water-t:rgba(27,116,128,.12); --spirit-t:rgba(100,72,176,.11); --grain-t:rgba(168,114,26,.13); --rust-t:rgba(191,65,40,.10); --iron-t:rgba(61,70,82,.10);
+  --shadow:rgba(28,32,37,.18);
+  --display:"Grandiflora One","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"Newsreader","Noto Serif KR","Nanum Myeongjo",Georgia,serif;
+  --label:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --mono:"JetBrains Mono","Nanum Gothic Coding",ui-monospace,Menlo,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }}:root[data-theme="dark"]{
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem; }.lecture{ display:contents }.lec-no svg{ width:2.2rem; height:2.2rem; flex:none }.fig{ margin:.6rem 0; }.fig-frame{ overflow-x:auto; overflow-y:hidden; border-block:1px solid var(--rule); padding-block:.8rem; background:linear-gradient(to right, var(--flour) 30%, transparent), linear-gradient(to left, var(--flour) 30%, transparent) 100% 0, radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent) 100% 0; background-repeat:no-repeat; background-size:2.2rem 100%, 2.2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; height:auto; margin-inline:auto; max-width:46rem }.t{ fill:var(--ink); font-family:var(--label); font-size:13px }.t-soft{ fill:var(--ink-soft) }.t-water{ fill:var(--water) }.t-rust{ fill:var(--rust) }.t-b{ font-weight:600 }.t-sm{ font-size:11.5px }.t-mono{ font-family:var(--mono) }.s-ink{ stroke:var(--ink); fill:none }.s-rule{ stroke:var(--rule); fill:none }.s-water{ stroke:var(--water); fill:none }.f-water{ fill:var(--water) }.f-water-t{ fill:var(--water-t) }.f-rust-t{ fill:var(--rust-t) }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:transparent"/><svg aria-label="같은 식, 다른 입력. 불안 예(되르너 백서: 확인 0.62, 도피 0.42, 공격 0.18, 각성 0.745, 해상도 0.37)와 구성한 예(확인 0.32, 도피 0.12, 공격 0.48, 각성 0.52, 해상도 0.56)를 0~1 같은 척도의 막대로 나란히 놓으면 도피와 공격이 자리를 바꾼다." data-min="520" height="100%" role="img" style="" viewBox="0 0 600 352" width="100%" xmlns="http://www.w3.org/2000/svg">
+<text class="t t-b" x="20" y="22">같은 식, 다른 입력</text>
+<rect class="f-water" height="12" width="22" x="20" y="36"></rect>
+<text class="t t-sm" x="48" y="47">불안 예 — 되르너 백서 (NI[cert] 0.6, NI[comp] 0.7)</text>
+<rect class="f-water-t s-water w15" height="12" stroke-dasharray="4 2" width="22" x="20" y="56"></rect>
+<text class="t t-sm" x="48" y="67">구성한 예 — NI[comp]만 0.2로 바꿈</text>
+<rect class="f-rust-t" height="92" rx="3" width="568" x="16" y="130"></rect>
+<line class="s-rule w1" x1="110" x2="110" y1="82" y2="318"></line>
+<line class="s-rule w1" x1="335.0" x2="335.0" y1="82" y2="318"></line>
+<line class="s-rule w1" x1="560" x2="560" y1="82" y2="318"></line>
+<text class="t t-b" x="20" y="109">확인</text>
+<rect class="f-water" height="14" width="279.0" x="110" y="88"></rect>
+<rect class="f-water-t s-water w15" height="14" stroke-dasharray="4 2" width="144.0" x="110" y="106"></rect>
+<text class="t t-sm t-mono" x="395.0" y="99">0.62</text>
+<text class="t t-sm t-mono t-water" x="260.0" y="117">0.32</text>
+<text class="t t-b" x="20" y="157">도피</text>
+<rect class="f-water" height="14" width="189.0" x="110" y="136"></rect>
+<rect class="f-water-t s-water w15" height="14" stroke-dasharray="4 2" width="54.0" x="110" y="154"></rect>
+<text class="t t-sm t-mono" x="305.0" y="147">0.42</text>
+<text class="t t-sm t-mono t-water" x="170.0" y="165">0.12</text>
+<text class="t t-b" x="20" y="205">공격</text>
+<rect class="f-water" height="14" width="81.0" x="110" y="184"></rect>
+<rect class="f-water-t s-water w15" height="14" stroke-dasharray="4 2" width="216.0" x="110" y="202"></rect>
+<text class="t t-sm t-mono" x="197.0" y="195">0.18</text>
+<text class="t t-sm t-mono t-water" x="332.0" y="213">0.48</text>
+<text class="t t-b" x="20" y="253">각성</text>
+<rect class="f-water" height="14" width="335.2" x="110" y="232"></rect>
+<rect class="f-water-t s-water w15" height="14" stroke-dasharray="4 2" width="234.0" x="110" y="250"></rect>
+<text class="t t-sm t-mono" x="451.2" y="243">0.745</text>
+<text class="t t-sm t-mono t-water" x="350.0" y="261">0.52</text>
+<text class="t t-b" x="20" y="301">해상도</text>
+<rect class="f-water" height="14" width="166.5" x="110" y="280"></rect>
+<rect class="f-water-t s-water w15" height="14" stroke-dasharray="4 2" width="252.0" x="110" y="298"></rect>
+<text class="t t-sm t-mono" x="282.5" y="291">0.37</text>
+<text class="t t-sm t-mono t-water" x="368.0" y="309">0.56</text>
+<text class="t t-sm" x="374" y="148">불안 예: 도피 0.42 &gt; 공격 0.18</text>
+<text class="t t-sm t-water" x="374" y="166">구성한 예: 공격 0.48 &gt; 도피 0.12</text>
+<text class="t t-b t-rust" x="374" y="205">→ 도피와 공격이 자리를 바꾼다</text>
+<text class="t t-sm t-soft" x="392.0" y="261">← 각성은 오히려 내려감</text>
+<line class="s-ink w1" x1="110" x2="560" y1="318" y2="318"></line>
+<line class="s-ink w1" x1="110" x2="110" y1="318" y2="323"></line>
+<text class="t t-sm t-mono t-soft" text-anchor="middle" x="110" y="337">0</text>
+<line class="s-ink w1" x1="335.0" x2="335.0" y1="318" y2="323"></line>
+<text class="t t-sm t-mono t-soft" text-anchor="middle" x="335.0" y="337">0.5</text>
+<line class="s-ink w1" x1="560" x2="560" y1="318" y2="323"></line>
+<text class="t t-sm t-mono t-soft" text-anchor="middle" x="560" y="337">1</text>
+</svg></svg>

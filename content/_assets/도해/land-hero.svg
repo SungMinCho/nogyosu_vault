@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 80 80" width="80" height="80" class="mast-title masthead"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EEEDF1; --paper-2:#E2E1E8; --ink:#1C1A25; --ink-2:#575465; --rule:#C9C7D3;
+  --sun:#8A5300; --sun-hi:#DA9B1E; --sun-soft:#F3DEB0;
+  --zero:#3B3896; --zero-soft:#D7D5F1;
+  --ledger:#21654D; --ledger-soft:#CFE4DA;
+  --blood:#A11F3A; --blood-soft:#F2D2D9;
+  --eclipse:#1C1A25; --shadow:rgba(28,26,37,.22);
+  --f-display:"Song Myung","Nanum Myeongjo","Noto Serif KR","AppleMyungjo",serif;
+  --f-body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","AppleMyungjo",serif;
+  --f-ui:"IBM Plex Sans KR","Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",system-ui,sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#121119; --paper-2:#1B1A24; --ink:#E7E4EE; --ink-2:#A6A2B5; --rule:#353240;
+  --sun:#EDB24F; --sun-hi:#E3A43A; --sun-soft:#3F2F12;
+  --zero:#ADA9FF; --zero-soft:#272552;
+  --ledger:#72CFA8; --ledger-soft:#17362A;
+  --blood:#F5809A; --blood-soft:#471925;
+  --eclipse:#06050A; --shadow:rgba(0,0,0,.6); color-scheme:dark }}:root[data-theme="dark"]{
+  --paper:#121119; --paper-2:#1B1A24; --ink:#E7E4EE; --ink-2:#A6A2B5; --rule:#353240;
+  --sun:#EDB24F; --sun-hi:#E3A43A; --sun-soft:#3F2F12;
+  --zero:#ADA9FF; --zero-soft:#272552;
+  --ledger:#72CFA8; --ledger-soft:#17362A;
+  --blood:#F5809A; --blood-soft:#471925;
+  --eclipse:#06050A; --shadow:rgba(0,0,0,.6); color-scheme:dark }.masthead{ max-width:var(--shell); margin-inline:auto; padding-inline:var(--pad);
+  padding-block:3.4rem 2.2rem; display:grid; gap:1.1rem }.mast-title{ display:flex; align-items:center; gap:clamp(.8rem,3vw,1.4rem) }.mark{ flex:none; width:clamp(3.4rem,11vw,4.8rem); height:auto }.mark .m-disc{ fill:var(--eclipse) }.mark .m-ring{ fill:none; stroke:var(--sun-hi); stroke-width:2.6; stroke-dasharray:1.5 4.2; stroke-linecap:round;
+  transform-origin:40px 40px; animation:turn 90s linear infinite }.mark .m-halo{ fill:none; stroke:var(--sun-hi); stroke-width:.8; opacity:.55 }@media (prefers-reduced-motion:reduce){.mark .m-ring{ animation:none }}.fig svg{ display:block; width:100%; min-width:var(--minw); height:auto }.fig svg text{ font-family:var(--f-ui); font-size:13px; fill:var(--ink) }.fig svg :is(line,polyline,polygon,path,rect,circle,ellipse){ stroke-width:1.5; stroke-linejoin:round; stroke-linecap:round }.fig line, .fig polyline, .fig path{ fill:none }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="mark" height="100%" viewBox="0 0 80 80" width="100%"><circle class="m-halo" cx="40" cy="40" r="37"></circle><circle class="m-ring" cx="40" cy="40" r="31"></circle><circle class="m-disc" cx="40" cy="40" r="25"></circle></svg></svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 360" width="600" height="360" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --flour:#EFF0EB; --flour-2:#E6E8E1; --ink:#1C2025; --ink-soft:#4E555D; --rule:#C7CAC1;
+  --iron:#3D4652; --water:#1B7480; --spirit:#6448B0; --grain:#A8721A; --rust:#BF4128;
+  --water-t:rgba(27,116,128,.12); --spirit-t:rgba(100,72,176,.11); --grain-t:rgba(168,114,26,.13); --rust-t:rgba(191,65,40,.10); --iron-t:rgba(61,70,82,.10);
+  --shadow:rgba(28,32,37,.18);
+  --display:"Grandiflora One","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"Newsreader","Noto Serif KR","Nanum Myeongjo",Georgia,serif;
+  --label:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --mono:"JetBrains Mono","Nanum Gothic Coding",ui-monospace,Menlo,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }}:root[data-theme="dark"]{
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem; }.lecture{ display:contents }.lec-no svg{ width:2.2rem; height:2.2rem; flex:none }.fig{ margin:.6rem 0; }.fig-frame{ overflow-x:auto; overflow-y:hidden; border-block:1px solid var(--rule); padding-block:.8rem; background:linear-gradient(to right, var(--flour) 30%, transparent), linear-gradient(to left, var(--flour) 30%, transparent) 100% 0, radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent) 100% 0; background-repeat:no-repeat; background-size:2.2rem 100%, 2.2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; height:auto; margin-inline:auto; max-width:46rem }.t{ fill:var(--ink); font-family:var(--label); font-size:13px }.t-soft{ fill:var(--ink-soft) }.t-iron{ fill:var(--iron) }.t-water{ fill:var(--water) }.t-spirit{ fill:var(--spirit) }.t-rust{ fill:var(--rust) }.t-b{ font-weight:600 }.t-sm{ font-size:11.5px }.halo{ paint-order:stroke; stroke:var(--flour); stroke-width:4px; stroke-linejoin:round }.s-ink{ stroke:var(--ink); fill:none }.s-iron{ stroke:var(--iron); fill:none }.s-water{ stroke:var(--water); fill:none }.s-spirit{ stroke:var(--spirit); fill:none }.s-rust{ stroke:var(--rust); fill:none }.f-bg{ fill:var(--flour) }.f-iron{ fill:var(--iron) }.f-water{ fill:var(--water) }.f-spirit{ fill:var(--spirit) }.f-iron-t{ fill:var(--iron-t) }.f-spirit-t{ fill:var(--spirit-t) }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.w3{ stroke-width:3 }.dot{ stroke-dasharray:1.5 4; stroke-linecap:round }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:transparent"/><svg aria-label="라이프니츠의 산책자는 톱니바퀴의 층에서 지각을 찾았다. 바흐의 답: 지각은 톱니바퀴가 구현하고 그 요동으로부터 절연된 가상의 층에 있다." data-min="520" height="100%" role="img" style="" viewBox="0 0 600 360" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="f01-up" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="5" refY="5" viewBox="0 0 10 10"><path class="f-water" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f01-st" markerHeight="7" markerWidth="7" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-spirit" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 가상층 -->
+<rect class="f-spirit-t" height="128" rx="4" width="560" x="20" y="16"></rect>
+<g class="s-spirit dot w15">
+<line x1="20" x2="580" y1="48" y2="48"></line><line x1="20" x2="580" y1="80" y2="80"></line><line x1="20" x2="580" y1="112" y2="112"></line>
+</g>
+<text class="t t-spirit t-b" x="34" y="38">가상층 — 소프트웨어, 바흐가 말하는 영(靈)</text>
+<g>
+<rect class="f-bg s-spirit w15" height="34" rx="17" width="88" x="150" y="70"></rect>
+<text class="t t-spirit" text-anchor="middle" x="194" y="92">지각</text>
+<rect class="f-bg s-spirit w15" height="34" rx="17" width="104" x="294" y="70"></rect>
+<text class="t t-spirit" text-anchor="middle" x="346" y="92">자기 모형</text>
+<rect class="f-bg s-spirit w15" height="34" rx="17" width="88" x="452" y="70"></rect>
+<text class="t t-spirit" text-anchor="middle" x="496" y="92">의식</text>
+<line class="s-spirit w15" marker-end="url(#f01-st)" x1="240" x2="290" y1="87" y2="87"></line>
+<line class="s-spirit w15" marker-end="url(#f01-st)" x1="400" x2="448" y1="87" y2="87"></line>
+<text class="t t-sm t-soft" x="34" y="132">자기만의 인과 규칙</text>
+</g>
+<!-- 절연 경계 -->
+<line class="s-iron w2" x1="20" x2="580" y1="168" y2="168"></line>
+<line class="s-iron w1" x1="20" x2="580" y1="174" y2="174"></line>
+<text class="t t-sm t-iron" text-anchor="end" x="580" y="160">인과적 절연 — 아래의 요동은 위로 올라오지 않는다</text>
+<!-- 구현 화살표 -->
+<line class="s-water w15" marker-end="url(#f01-up)" x1="194" x2="194" y1="226" y2="110"></line>
+<line class="s-water w15" marker-end="url(#f01-up)" x1="346" x2="346" y1="226" y2="110"></line>
+<text class="t t-sm t-water halo" x="200" y="196">구현</text>
+<text class="t t-sm t-water halo" x="352" y="196">구현</text>
+<!-- 기층: 톱니 -->
+<rect class="f-iron-t" height="160" rx="4" width="560" x="20" y="186"></rect>
+<text class="t t-iron t-b" x="34" y="208">기층 — 톱니·뉴런·실리콘</text>
+<g class="s-iron">
+<circle class="w3" cx="194" cy="270" r="40"></circle>
+<circle cx="194" cy="270" r="44" stroke-dasharray="6 6.5" stroke-width="8"></circle>
+<circle class="f-iron" cx="194" cy="270" r="6"></circle>
+<circle class="w3" cx="281" cy="282" r="30"></circle>
+<circle cx="281" cy="282" r="34" stroke-dasharray="6 6.5" stroke-width="8"></circle>
+<circle class="f-iron" cx="281" cy="282" r="5"></circle>
+<circle class="w3" cx="358" cy="262" r="34"></circle>
+<circle cx="358" cy="262" r="38" stroke-dasharray="6 6.5" stroke-width="8"></circle>
+<circle class="f-iron" cx="358" cy="262" r="5"></circle>
+</g>
+<!-- 요동 -->
+<path class="s-rust w15" d="M420 300 q6 -8 12 0 t12 0 t12 0 t12 0 t12 0"></path>
+<path class="s-rust w15" d="M420 318 q6 -8 12 0 t12 0 t12 0 t12 0 t12 0"></path>
+<text class="t t-sm t-rust" x="420" y="338">요동·잡음</text>
+<!-- 산책자 -->
+<g class="s-ink w15">
+<circle cx="70" cy="252" r="7"></circle>
+<line x1="70" x2="70" y1="259" y2="286"></line>
+<line x1="70" x2="84" y1="268" y2="262"></line>
+<line x1="70" x2="58" y1="268" y2="276"></line>
+<line x1="70" x2="61" y1="286" y2="304"></line>
+<line x1="70" x2="79" y1="286" y2="304"></line>
+<circle cx="92" cy="258" r="7"></circle>
+</g>
+<text class="t t-sm" x="40" y="326">산책자: 서로 미는 부품뿐,</text>
+<text class="t t-sm" x="40" y="342">지각은 보이지 않는다</text>
+</svg></svg>

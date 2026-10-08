@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 340" width="600" height="340" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --flour:#EFF0EB; --flour-2:#E6E8E1; --ink:#1C2025; --ink-soft:#4E555D; --rule:#C7CAC1;
+  --iron:#3D4652; --water:#1B7480; --spirit:#6448B0; --grain:#A8721A; --rust:#BF4128;
+  --water-t:rgba(27,116,128,.12); --spirit-t:rgba(100,72,176,.11); --grain-t:rgba(168,114,26,.13); --rust-t:rgba(191,65,40,.10); --iron-t:rgba(61,70,82,.10);
+  --shadow:rgba(28,32,37,.18);
+  --display:"Grandiflora One","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"Newsreader","Noto Serif KR","Nanum Myeongjo",Georgia,serif;
+  --label:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --mono:"JetBrains Mono","Nanum Gothic Coding",ui-monospace,Menlo,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }}:root[data-theme="dark"]{
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem; }.lecture{ display:contents }.lec-no svg{ width:2.2rem; height:2.2rem; flex:none }.fig{ margin:.6rem 0; }.fig-frame{ overflow-x:auto; overflow-y:hidden; border-block:1px solid var(--rule); padding-block:.8rem; background:linear-gradient(to right, var(--flour) 30%, transparent), linear-gradient(to left, var(--flour) 30%, transparent) 100% 0, radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent) 100% 0; background-repeat:no-repeat; background-size:2.2rem 100%, 2.2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; height:auto; margin-inline:auto; max-width:46rem }.t{ fill:var(--ink); font-family:var(--label); font-size:13px }.t-soft{ fill:var(--ink-soft) }.t-water{ fill:var(--water) }.t-rust{ fill:var(--rust) }.t-b{ font-weight:600 }.t-sm{ font-size:11.5px }.t-mono{ font-family:var(--mono) }.s-soft{ stroke:var(--ink-soft); fill:none }.s-rule{ stroke:var(--rule); fill:none }.s-water{ stroke:var(--water); fill:none }.s-rust{ stroke:var(--rust); fill:none }.f-water{ fill:var(--water) }.f-rust{ fill:var(--rust) }.f-rust-t{ fill:var(--rust-t) }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.dash{ stroke-dasharray:5 4 }.dot{ stroke-dasharray:1.5 4; stroke-linecap:round }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:transparent"/><svg aria-label="같은 규칙 z ← z² + c에서 c = −1은 0과 −1 사이를 영원히 오가고(유계), c = 1은 0·1·2·5·26으로 튀어 나간다(발산). 집합의 안팎은 공식이 아니라 반복이 정한다." data-min="520" height="100%" role="img" style="" viewBox="0 0 600 340" width="100%" xmlns="http://www.w3.org/2000/svg">
+<!-- 눈금: z=0 → y210, 1단위 30px (−2..2 구간만 선형) -->
+<text class="t t-b t-mono" text-anchor="middle" x="300" y="22">z ← z² + c ,  z₀ = 0</text>
+<!-- 탈출 영역 (|z| > 2) -->
+<rect class="f-rust-t" height="88" width="256" x="50" y="62"></rect>
+<rect class="f-rust-t" height="18" width="256" x="50" y="270"></rect>
+<rect class="f-rust-t" height="88" width="256" x="340" y="62"></rect>
+<rect class="f-rust-t" height="18" width="256" x="340" y="270"></rect>
+<g class="s-rust w1 dash">
+<line x1="50" x2="306" y1="150" y2="150"></line><line x1="50" x2="306" y1="270" y2="270"></line>
+<line x1="340" x2="596" y1="150" y2="150"></line><line x1="340" x2="596" y1="270" y2="270"></line>
+</g>
+<!-- 0 기준선 -->
+<line class="s-rule w1" x1="50" x2="306" y1="210" y2="210"></line>
+<line class="s-rule w1" x1="340" x2="596" y1="210" y2="210"></line>
+<!-- 축 -->
+<line class="s-soft w15" x1="50" x2="50" y1="62" y2="288"></line>
+<path class="s-soft w15" d="M340 288 V140 M340 128 V102 M340 90 V62"></path>
+<!-- 축 절단 표시 -->
+<g class="s-soft w15">
+<line x1="333" x2="347" y1="143" y2="137"></line><line x1="333" x2="347" y1="131" y2="125"></line>
+<line x1="333" x2="347" y1="105" y2="99"></line><line x1="333" x2="347" y1="93" y2="87"></line>
+</g>
+<g class="t t-sm t-mono t-soft" text-anchor="end">
+<text x="44" y="154">2</text><text x="44" y="214">0</text><text x="44" y="274">−2</text>
+<text x="334" y="154">2</text><text x="334" y="214">0</text><text x="334" y="274">−2</text>
+<text x="334" y="118">5</text><text x="334" y="80">26</text>
+</g>
+<text class="t t-sm t-rust" x="58" y="80">|z| &gt; 2 이면 탈출</text>
+<text class="t t-sm t-rust" x="58" y="98">— 그 뒤로는 무한정 커진다</text>
+<!-- 패널 이름 -->
+<text class="t t-b" x="58" y="50">c = −1</text>
+<text class="t t-b" x="348" y="50">c = 1</text>
+<!-- c = −1 궤적: 0, −1, 0, −1, 0 -->
+<polyline class="s-water w2" points="82,210 132,240 182,210 232,240 282,210"></polyline>
+<line class="s-water w15 dot" x1="282" x2="300" y1="210" y2="222"></line>
+<g class="f-water">
+<circle cx="82" cy="210" r="5"></circle><circle cx="132" cy="240" r="5"></circle><circle cx="182" cy="210" r="5"></circle><circle cx="232" cy="240" r="5"></circle><circle cx="282" cy="210" r="5"></circle>
+</g>
+<g class="t t-mono t-water" text-anchor="middle">
+<text x="82" y="198">0</text><text x="132" y="262">−1</text><text x="182" y="198">0</text><text x="232" y="262">−1</text><text x="282" y="198">0</text>
+</g>
+<!-- c = 1 궤적: 0, 1, 2, 5, 26 -->
+<polyline class="s-water w2" points="372,210 422,180 472,150"></polyline>
+<path class="s-rust w2" d="M472 150 L493.8 134.3 M500.2 129.7 L522 114 L543.8 97.4 M550.2 92.6 L572 76"></path>
+<!-- 궤적 위 절단 표시: 2 위로는 한 눈금이 아니다 -->
+<g class="s-rust w15">
+<line x1="490.3" x2="497.3" y1="129.4" y2="139.2"></line><line x1="496.7" x2="503.7" y1="124.8" y2="134.6"></line>
+<line x1="540.2" x2="547.4" y1="92.6" y2="102.2"></line><line x1="546.6" x2="553.8" y1="87.8" y2="97.4"></line>
+</g>
+<circle class="f-water" cx="372" cy="210" r="5"></circle>
+<circle class="f-water" cx="422" cy="180" r="5"></circle>
+<circle class="f-water" cx="472" cy="150" r="5"></circle>
+<circle class="f-rust" cx="522" cy="114" r="5"></circle>
+<circle class="f-rust" cx="572" cy="76" r="5"></circle>
+<g class="t t-mono" text-anchor="middle">
+<text class="t-water" x="372" y="198">0</text>
+<text class="t-water" x="422" y="168">1</text>
+<text class="t-water" x="482" y="170">2</text>
+</g>
+<text class="t t-mono t-rust" x="532" y="132">5</text>
+<text class="t t-mono t-rust" text-anchor="end" x="560" y="80">26</text>
+<text class="t t-sm t-rust t-b" text-anchor="end" x="496" y="118">탈출</text>
+<!-- 걸음 축 -->
+<g class="t t-sm t-mono t-soft" text-anchor="middle">
+<text x="82" y="306">z₀</text><text x="132" y="306">z₁</text><text x="182" y="306">z₂</text><text x="232" y="306">z₃</text><text x="282" y="306">z₄</text>
+<text x="372" y="306">z₀</text><text x="422" y="306">z₁</text><text x="472" y="306">z₂</text><text x="522" y="306">z₃</text><text x="572" y="306">z₄</text>
+</g>
+<!-- 결과 -->
+<text class="t t-sm t-water t-b" x="58" y="330">영원히 왕복 · 유계 → 집합 안</text>
+<text class="t t-sm t-rust t-b" x="348" y="330">z₃ = 5 &gt; 2 · 발산 → 집합 밖</text>
+</svg></svg>

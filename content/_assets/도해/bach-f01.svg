@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 432" width="640" height="432" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --flour:#EFF0EB; --flour-2:#E6E8E1; --ink:#1C2025; --ink-soft:#4E555D; --rule:#C7CAC1;
+  --iron:#3D4652; --water:#1B7480; --spirit:#6448B0; --grain:#A8721A; --rust:#BF4128;
+  --water-t:rgba(27,116,128,.12); --spirit-t:rgba(100,72,176,.11); --grain-t:rgba(168,114,26,.13); --rust-t:rgba(191,65,40,.10); --iron-t:rgba(61,70,82,.10);
+  --shadow:rgba(28,32,37,.18);
+  --display:"Grandiflora One","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"Newsreader","Noto Serif KR","Nanum Myeongjo",Georgia,serif;
+  --label:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --mono:"JetBrains Mono","Nanum Gothic Coding",ui-monospace,Menlo,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }}:root[data-theme="dark"]{
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem; }.lecture{ display:contents }.lec-no svg{ width:2.2rem; height:2.2rem; flex:none }.fig{ margin:.6rem 0; }.fig-frame{ overflow-x:auto; overflow-y:hidden; border-block:1px solid var(--rule); padding-block:.8rem; background:linear-gradient(to right, var(--flour) 30%, transparent), linear-gradient(to left, var(--flour) 30%, transparent) 100% 0, radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent) 100% 0; background-repeat:no-repeat; background-size:2.2rem 100%, 2.2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; height:auto; margin-inline:auto; max-width:46rem }.t{ fill:var(--ink); font-family:var(--label); font-size:13px }.t-soft{ fill:var(--ink-soft) }.t-b{ font-weight:600 }.t-sm{ font-size:11.5px }.t-mono{ font-family:var(--mono) }.s-ink{ stroke:var(--ink); fill:none }.s-soft{ stroke:var(--ink-soft); fill:none }.s-rule{ stroke:var(--rule); fill:none }.f-bg{ fill:var(--flour) }.f-panel{ fill:var(--flour-2) }.f-ink{ fill:var(--ink) }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.dot{ stroke-dasharray:1.5 4; stroke-linecap:round }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:transparent"/><svg aria-label="바흐의 철학은 한 권의 책이 아니라 2002~2026년에 걸친 네 겹의 사료 — 논문, CCC 연재 강연, 대담, 짧은 글 — 에 흩어져 있고, 손으로 다듬은 글과 즉흥의 말은 무게가 다르다." data-min="560" height="100%" role="img" style="" viewBox="0 0 640 432" width="100%" xmlns="http://www.w3.org/2000/svg">
+<!-- 연도 격자: 칸 너비 19.52, 2002 칸 시작 x=132, 칸 가운데 = 132 + (y-2002)*19.52 + 9.76 -->
+<g class="s-rule w1 dot">
+<line x1="219.8" x2="219.8" y1="14" y2="368"></line>
+<line x1="297.9" x2="297.9" y1="14" y2="368"></line>
+<line x1="376" x2="376" y1="14" y2="368"></line>
+<line x1="454.1" x2="454.1" y1="14" y2="368"></line>
+<line x1="532.2" x2="532.2" y1="14" y2="368"></line>
+</g>
+<!-- 겹 구분선 -->
+<g class="s-rule w1">
+<line x1="16" x2="624" y1="98" y2="98"></line>
+<line x1="16" x2="624" y1="174" y2="174"></line>
+<line x1="16" x2="624" y1="282" y2="282"></line>
+</g>
+<line class="s-soft w15" x1="16" x2="624" y1="368" y2="368"></line>
+<!-- 겹 이름 -->
+<text class="t t-b" x="18" y="48">논문·책</text>
+<text class="t t-sm t-soft" x="18" y="66">손으로 다듬은 문장</text>
+<text class="t t-b" x="18" y="130">CCC 연재 강연</text>
+<text class="t t-sm t-soft" x="18" y="148">준비된 말 · 7편</text>
+<text class="t t-b" x="18" y="206">대담</text>
+<text class="t t-sm t-soft" x="18" y="224">즉흥 · 자동 자막</text>
+<text class="t t-sm t-soft" x="18" y="240">양으로 압도적:</text>
+<text class="t t-sm t-soft" x="18" y="256">2020–26년 50편+</text>
+<text class="t t-b" x="18" y="318">짧은 글</text>
+<text class="t t-sm t-soft" x="18" y="336">손으로 다듬은 문장</text>
+<!-- ① 논문 겹 (기준선 y=56) -->
+<line class="s-ink w1" x1="141.8" x2="337" y1="56" y2="56"></line>
+<g class="s-ink w1">
+<line x1="141.8" x2="141.8" y1="51" y2="61"></line>
+<line x1="149.0" x2="149.0" y1="51" y2="61"></line>
+<line x1="156.2" x2="156.2" y1="51" y2="61"></line>
+<line x1="163.4" x2="163.4" y1="51" y2="61"></line>
+<line x1="170.7" x2="170.7" y1="51" y2="61"></line>
+<line x1="177.9" x2="177.9" y1="51" y2="61"></line>
+<line x1="185.1" x2="185.1" y1="51" y2="61"></line>
+<line x1="192.4" x2="192.4" y1="51" y2="61"></line>
+<line x1="199.6" x2="199.6" y1="51" y2="61"></line>
+<line x1="206.8" x2="206.8" y1="51" y2="61"></line>
+<line x1="214.1" x2="214.1" y1="51" y2="61"></line>
+<line x1="221.3" x2="221.3" y1="51" y2="61"></line>
+<line x1="228.5" x2="228.5" y1="51" y2="61"></line>
+<line x1="235.7" x2="235.7" y1="51" y2="61"></line>
+<line x1="243.0" x2="243.0" y1="51" y2="61"></line>
+<line x1="293.6" x2="293.6" y1="51" y2="61"></line>
+<line x1="300.8" x2="300.8" y1="51" y2="61"></line>
+<line x1="308.0" x2="308.0" y1="51" y2="61"></line>
+<line x1="315.3" x2="315.3" y1="51" y2="61"></line>
+<line x1="322.5" x2="322.5" y1="51" y2="61"></line>
+<line x1="329.7" x2="329.7" y1="51" y2="61"></line>
+<line x1="337.0" x2="337.0" y1="51" y2="61"></line>
+</g>
+<text class="t t-sm" text-anchor="middle" x="239" y="38">마이크로프시 논문 30여 편</text>
+<!-- 2008 일곱 원칙 -->
+<circle class="f-bg" cx="258.9" cy="56" r="7.5"></circle>
+<circle class="f-ink" cx="258.9" cy="56" r="5.5"></circle>
+<line class="s-soft w1" x1="258.9" x2="258.9" y1="63" y2="72"></line>
+<text class="t t-sm" text-anchor="end" x="262" y="86">일곱 원칙</text>
+<!-- 2009 책 -->
+<rect class="f-bg" height="18" rx="1.5" width="14" x="271.4" y="47"></rect>
+<rect class="f-ink" height="15" rx="1" width="11" x="272.9" y="48.5"></rect>
+<line class="s-soft w1" x1="278.4" x2="278.4" y1="65" y2="72"></line>
+<text class="t t-sm t-b" x="274" y="86">책 『합성 지능의 원리』</text>
+<!-- 2015 ReCoN -->
+<circle class="f-ink" cx="395.5" cy="56" r="5.5"></circle>
+<text class="t t-sm" text-anchor="end" x="400" y="38">ReCoN</text>
+<!-- 2017 발표 → 2018 피질 지휘자 -->
+<line class="s-ink w15" x1="434.6" x2="454.1" y1="56" y2="56"></line>
+<circle class="f-ink" cx="434.6" cy="56" r="3"></circle>
+<circle class="f-ink" cx="454.1" cy="56" r="5.5"></circle>
+<text class="t t-sm" x="430" y="38">피질 지휘자 (17/18)</text>
+<!-- 2025 기계 의식 가설 → 2026 개정 -->
+<circle class="f-ink" cx="590.7" cy="56" r="5.5"></circle>
+<text class="t t-sm" text-anchor="end" x="604" y="86">기계 의식 가설 (2026 개정)</text>
+<line class="s-soft w1" x1="590.7" x2="590.7" y1="63" y2="72"></line>
+<!-- 2026 CIMC 백서 -->
+<rect class="f-ink" height="10" width="10" x="605.2" y="51"></rect>
+<text class="t t-sm" text-anchor="end" x="620" y="38">CIMC 백서</text>
+<!-- ② CCC 겹 (기준선 y=136) -->
+<line class="s-rule w2" x1="356.5" x2="454.1" y1="136" y2="136"></line>
+<line class="s-rule w15 dot" x1="460" x2="546" y1="136" y2="136"></line>
+<line class="s-rule w2" x1="551.7" x2="571.2" y1="136" y2="136"></line>
+<g class="f-bg s-ink w15">
+<circle cx="356.5" cy="136" r="5.5"></circle><circle cx="376" cy="136" r="5.5"></circle><circle cx="395.5" cy="136" r="5.5"></circle><circle cx="415" cy="136" r="5.5"></circle>
+<circle cx="454.1" cy="136" r="5.5"></circle><circle cx="551.7" cy="136" r="5.5"></circle><circle cx="571.2" cy="136" r="5.5"></circle>
+</g>
+<g class="t t-sm t-mono" text-anchor="middle">
+<text x="356.5" y="122">30C3</text>
+<text x="376" y="160">31C3</text>
+<text x="395.5" y="122">32C3</text>
+<text x="415" y="160">33C3</text>
+<text x="454.1" y="122">35C3</text>
+<text x="551.7" y="122">37C3</text>
+<text x="571.2" y="160">38C3</text>
+</g>
+<!-- ③ 대담 겹 -->
+<rect class="f-panel" height="94" rx="3" width="142" x="482" y="182"></rect>
+<g class="t t-sm" text-anchor="end">
+<text x="480" y="198">렉스 프리드먼</text>
+<text x="480" y="216">짐 러트</text>
+<text x="480" y="234">모든 것의 이론 (6편+)</text>
+<text x="480" y="252">MLST</text>
+<text x="480" y="270">클리어 싱킹·매니폴드 외</text>
+</g>
+<line class="s-rule w2" x1="493.1" x2="551.7" y1="230" y2="230"></line>
+<g class="f-bg s-ink w15">
+<circle cx="493.1" cy="194" r="4.5"></circle><circle cx="512.6" cy="194" r="4.5"></circle><circle cx="551.7" cy="194" r="4.5"></circle>
+<circle cx="488.6" cy="212" r="4.5"></circle><circle cx="498.6" cy="212" r="4.5"></circle><circle cx="610.2" cy="212" r="4.5"></circle>
+<circle cx="493.1" cy="230" r="4.5"></circle><circle cx="532.2" cy="230" r="4.5"></circle><circle cx="551.7" cy="230" r="4.5"></circle>
+<circle cx="551.7" cy="248" r="4.5"></circle><circle cx="571.2" cy="248" r="4.5"></circle>
+<circle cx="532.2" cy="266" r="4.5"></circle><circle cx="590.7" cy="266" r="4.5"></circle><circle cx="605.2" cy="266" r="4.5"></circle><circle cx="615.2" cy="266" r="4.5"></circle>
+</g>
+<!-- ④ 짧은 글 겹 (기준선 y=324) -->
+<line class="s-rule w2" x1="395.5" x2="454.1" y1="324" y2="324"></line>
+<g class="f-ink">
+<circle cx="395.5" cy="324" r="5.5"></circle><circle cx="415" cy="324" r="5.5"></circle><circle cx="454.1" cy="324" r="5.5"></circle>
+<circle cx="547.2" cy="324" r="5.5"></circle><circle cx="558.2" cy="324" r="5.5"></circle>
+<circle cx="607" cy="324" r="5.5"></circle>
+</g>
+<text class="t t-sm" text-anchor="middle" x="425" y="306">에지 Edge ×3</text>
+<text class="t t-sm" text-anchor="middle" x="552.7" y="348">서브스택 2편</text>
+<text class="t t-sm" text-anchor="end" x="622" y="306">「AGE의 시대」</text>
+<!-- 연도 축 -->
+<g class="s-soft w1">
+<line x1="141.8" x2="141.8" y1="368" y2="374"></line><line x1="219.8" x2="219.8" y1="368" y2="374"></line><line x1="297.9" x2="297.9" y1="368" y2="374"></line><line x1="376" x2="376" y1="368" y2="374"></line>
+<line x1="454.1" x2="454.1" y1="368" y2="374"></line><line x1="532.2" x2="532.2" y1="368" y2="374"></line><line x1="610.2" x2="610.2" y1="368" y2="374"></line>
+</g>
+<g class="t t-sm t-mono t-soft" text-anchor="middle">
+<text x="141.8" y="388">2002</text>
+<text x="219.8" y="388">2006</text>
+<text x="297.9" y="388">2010</text>
+<text x="376" y="388">2014</text>
+<text x="454.1" y="388">2018</text>
+<text x="532.2" y="388">2022</text>
+<text x="610.2" y="388">2026</text>
+</g>
+<!-- 범례 -->
+<circle class="f-ink" cx="140" cy="414" r="5.5"></circle>
+<text class="t t-sm" x="152" y="418">자기 손으로 쓴 글</text>
+<circle class="f-bg s-ink w15" cx="290" cy="414" r="5.5"></circle>
+<text class="t t-sm" x="302" y="418">말 (강연·대담)</text>
+<rect class="f-ink" height="14" rx="1" width="11" x="420" y="407"></rect>
+<text class="t t-sm" x="438" y="418">책</text>
+<rect class="f-ink" height="10" width="10" x="470" y="409"></rect>
+<text class="t t-sm" x="487" y="418">연구소 백서</text>
+</svg></svg>

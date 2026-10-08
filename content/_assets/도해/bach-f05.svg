@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 316" width="640" height="316" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --flour:#EFF0EB; --flour-2:#E6E8E1; --ink:#1C2025; --ink-soft:#4E555D; --rule:#C7CAC1;
+  --iron:#3D4652; --water:#1B7480; --spirit:#6448B0; --grain:#A8721A; --rust:#BF4128;
+  --water-t:rgba(27,116,128,.12); --spirit-t:rgba(100,72,176,.11); --grain-t:rgba(168,114,26,.13); --rust-t:rgba(191,65,40,.10); --iron-t:rgba(61,70,82,.10);
+  --shadow:rgba(28,32,37,.18);
+  --display:"Grandiflora One","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"Newsreader","Noto Serif KR","Nanum Myeongjo",Georgia,serif;
+  --label:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --mono:"JetBrains Mono","Nanum Gothic Coding",ui-monospace,Menlo,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }}:root[data-theme="dark"]{
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem; }.lecture{ display:contents }.lec-no svg{ width:2.2rem; height:2.2rem; flex:none }.fig{ margin:.6rem 0; }.fig-frame{ overflow-x:auto; overflow-y:hidden; border-block:1px solid var(--rule); padding-block:.8rem; background:linear-gradient(to right, var(--flour) 30%, transparent), linear-gradient(to left, var(--flour) 30%, transparent) 100% 0, radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent) 100% 0; background-repeat:no-repeat; background-size:2.2rem 100%, 2.2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; height:auto; margin-inline:auto; max-width:46rem }.t{ fill:var(--ink); font-family:var(--label); font-size:13px }.t-soft{ fill:var(--ink-soft) }.t-iron{ fill:var(--iron) }.t-water{ fill:var(--water) }.t-spirit{ fill:var(--spirit) }.t-grain{ fill:var(--grain) }.t-b{ font-weight:600 }.t-sm{ font-size:11.5px }.t-lg{ font-size:15px }.t-mono{ font-family:var(--mono) }.s-ink{ stroke:var(--ink); fill:none }.s-soft{ stroke:var(--ink-soft); fill:none }.s-iron{ stroke:var(--iron); fill:none }.s-water{ stroke:var(--water); fill:none }.s-spirit{ stroke:var(--spirit); fill:none }.s-grain{ stroke:var(--grain); fill:none }.f-bg{ fill:var(--flour) }.f-iron{ fill:var(--iron) }.f-water{ fill:var(--water) }.f-spirit{ fill:var(--spirit) }.f-grain{ fill:var(--grain) }.f-water-t{ fill:var(--water-t) }.f-spirit-t{ fill:var(--spirit-t) }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.w3{ stroke-width:3 }.dash{ stroke-dasharray:5 4 }.dot{ stroke-dasharray:1.5 4; stroke-linecap:round }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:transparent"/><svg aria-label="바흐의 인과 개념은 2015 결정성의 스펙트럼, 2016 상태 전이, 2018 사물을 쪼갠 데서 생긴 인공물, 2026 모델의 속성(배고픔과 먹은 미래)으로, 세계의 존재론에서 기술의 성질로 옮겨 갔다." data-min="560" height="100%" role="img" style="" viewBox="0 0 640 316" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="f05-w" markerHeight="7" markerWidth="7" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-water" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f05-s" markerHeight="7" markerWidth="7" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-spirit" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f05-g" markerHeight="7" markerWidth="7" orient="auto" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-grain" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 연도·사료 -->
+<g class="t t-lg t-mono t-b">
+<text x="20" y="28">2015</text><text x="178" y="28">2016</text><text x="336" y="28">2018</text><text x="494" y="28">2026</text>
+</g>
+<g class="t t-sm t-soft">
+<text x="20" y="46">32C3 강연</text><text x="178" y="46">에지 글</text><text x="336" y="46">35C3 강연</text><text x="494" y="46">러트 대담</text>
+</g>
+<!-- 카드 -->
+<rect class="f-water-t s-water w15" height="172" rx="4" width="146" x="10" y="56"></rect>
+<rect class="f-water-t s-water w15" height="172" rx="4" width="146" x="168" y="56"></rect>
+<rect class="f-spirit-t s-spirit w15 dash" height="172" rx="4" width="146" x="326" y="56"></rect>
+<rect class="f-spirit-t s-spirit w2" height="172" rx="4" width="146" x="484" y="56"></rect>
+<!-- ① 2015 결정성의 스펙트럼 -->
+<text class="t t-b t-water" text-anchor="middle" x="83" y="84">결정성의</text>
+<text class="t t-b t-water" text-anchor="middle" x="83" y="102">스펙트럼</text>
+<line class="s-water w15" x1="30" x2="136" y1="140" y2="140"></line>
+<circle class="f-bg s-water w15" cx="30" cy="140" r="6"></circle>
+<circle class="f-water-t s-water w15" cx="56.5" cy="140" r="6"></circle>
+<circle class="f-water-t s-water w15" cx="83" cy="140" r="6"></circle>
+<circle class="f-water-t s-water w15" cx="109.5" cy="140" r="6"></circle>
+<circle class="f-water" cx="136" cy="140" r="6"></circle>
+<text class="t t-sm" x="22" y="168">약하게</text>
+<text class="t t-sm" text-anchor="end" x="144" y="168">강하게</text>
+<text class="t t-sm t-soft" x="22" y="186">연상·확률</text>
+<text class="t t-sm t-water" text-anchor="end" x="144" y="186">= 알고리즘</text>
+<!-- ② 2016 상태 전이 -->
+<text class="t t-b t-water" text-anchor="middle" x="241" y="92">상태 전이</text>
+<circle class="f-bg s-water w15" cx="207" cy="142" r="17"></circle>
+<circle class="f-bg s-water w15" cx="275" cy="142" r="17"></circle>
+<text class="t t-mono t-water" text-anchor="middle" x="207" y="147">s</text>
+<text class="t t-mono t-water" text-anchor="middle" x="275" y="147">s′</text>
+<line class="s-water w15" marker-end="url(#f05-w)" x1="225" x2="255" y1="142" y2="142"></line>
+<text class="t t-sm t-mono t-water" text-anchor="middle" x="241" y="130">δ</text>
+<text class="t t-sm" text-anchor="middle" x="241" y="186">한 상태 → 다음 상태</text>
+<!-- ③ 2018 쪼갠 데서 생긴 인공물 -->
+<text class="t t-b t-spirit" text-anchor="middle" x="399" y="84">사물을 쪼갠 데서</text>
+<text class="t t-b t-spirit" text-anchor="middle" x="399" y="102">생긴 인공물</text>
+<ellipse class="f-bg s-soft w15" cx="399" cy="146" rx="58" ry="26"></ellipse>
+<line class="s-spirit w15 dash" x1="399" x2="399" y1="114" y2="178"></line>
+<text class="t t-mono" text-anchor="middle" x="366" y="151">A</text>
+<text class="t t-mono" text-anchor="middle" x="432" y="151">B</text>
+<line class="s-spirit w15" marker-end="url(#f05-s)" x1="378" x2="418" y1="146" y2="146"></line>
+<text class="t t-sm" text-anchor="middle" x="399" y="196">우주는 하나 —</text>
+<text class="t t-sm t-spirit" text-anchor="middle" x="399" y="214">오린 경계면 = 인과</text>
+<!-- ④ 2026 모델의 속성 -->
+<text class="t t-b t-spirit" text-anchor="middle" x="557" y="92">모델의 속성</text>
+<rect class="f-bg s-ink w15" height="26" rx="13" width="40" x="580" y="132"></rect>
+<text class="t t-sm" text-anchor="middle" x="600" y="150">행동</text>
+<text class="t t-sm t-grain" x="494" y="126">배고픔</text>
+<line class="s-grain w15" marker-end="url(#f05-g)" x1="534" x2="576" y1="124" y2="138"></line>
+<text class="t t-sm t-spirit" x="494" y="176">먹은 미래</text>
+<line class="s-spirit w15" marker-end="url(#f05-s)" x1="552" x2="576" y1="170" y2="154"></line>
+<text class="t t-sm" text-anchor="middle" x="557" y="196">미느냐, 당기느냐 —</text>
+<text class="t t-sm t-spirit" text-anchor="middle" x="557" y="214">고르는 것은 모델</text>
+<!-- 인과가 놓인 자리: 세계 → 기술 -->
+<line class="s-iron w3" x1="20" x2="320" y1="268" y2="268"></line>
+<line class="s-spirit w3" marker-end="url(#f05-s)" x1="320" x2="616" y1="268" y2="268"></line>
+<g class="s-soft w1 dot">
+<line x1="83" x2="83" y1="232" y2="260"></line><line x1="241" x2="241" y1="232" y2="260"></line>
+<line x1="399" x2="399" y1="232" y2="260"></line><line x1="557" x2="557" y1="232" y2="260"></line>
+</g>
+<circle class="f-iron" cx="83" cy="268" r="6"></circle>
+<circle class="f-iron" cx="241" cy="268" r="6"></circle>
+<circle class="f-spirit" cx="399" cy="268" r="6"></circle>
+<circle class="f-spirit" cx="557" cy="268" r="6"></circle>
+<text class="t t-b t-iron" x="20" y="296">세계 쪽 · 존재론</text>
+<text class="t t-sm t-soft" text-anchor="middle" x="320" y="296">인과가 놓인 자리</text>
+<text class="t t-b t-spirit" text-anchor="end" x="620" y="296">기술하는 쪽 · 모델</text>
+</svg></svg>

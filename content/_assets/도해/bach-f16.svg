@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 372" width="600" height="372" class="fig-frame fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --flour:#EFF0EB; --flour-2:#E6E8E1; --ink:#1C2025; --ink-soft:#4E555D; --rule:#C7CAC1;
+  --iron:#3D4652; --water:#1B7480; --spirit:#6448B0; --grain:#A8721A; --rust:#BF4128;
+  --water-t:rgba(27,116,128,.12); --spirit-t:rgba(100,72,176,.11); --grain-t:rgba(168,114,26,.13); --rust-t:rgba(191,65,40,.10); --iron-t:rgba(61,70,82,.10);
+  --shadow:rgba(28,32,37,.18);
+  --display:"Grandiflora One","Noto Serif KR","Nanum Myeongjo",serif;
+  --body:"Newsreader","Noto Serif KR","Nanum Myeongjo",Georgia,serif;
+  --label:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --mono:"JetBrains Mono","Nanum Gothic Coding",ui-monospace,Menlo,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }}:root[data-theme="dark"]{
+  --flour:#11151A; --flour-2:#181E25; --ink:#E3E5E0; --ink-soft:#A2A9B0; --rule:#2F363E;
+  --iron:#A3AEBB; --water:#52B9C4; --spirit:#AE9AEE; --grain:#E3AC4C; --rust:#F07C61;
+  --water-t:rgba(82,185,196,.14); --spirit-t:rgba(174,154,238,.13); --grain-t:rgba(227,172,76,.13); --rust-t:rgba(240,124,97,.12); --iron-t:rgba(163,174,187,.10);
+  --shadow:rgba(0,0,0,.55); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.3rem; padding-inline:var(--pad); padding-block:0 4rem; }.lecture{ display:contents }.lec-no svg{ width:2.2rem; height:2.2rem; flex:none }.fig{ margin:.6rem 0; }.fig-frame{ overflow-x:auto; overflow-y:hidden; border-block:1px solid var(--rule); padding-block:.8rem; background:linear-gradient(to right, var(--flour) 30%, transparent), linear-gradient(to left, var(--flour) 30%, transparent) 100% 0, radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent) 100% 0; background-repeat:no-repeat; background-size:2.2rem 100%, 2.2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; height:auto; margin-inline:auto; max-width:46rem }.t{ fill:var(--ink); font-family:var(--label); font-size:13px }.t-soft{ fill:var(--ink-soft) }.t-water{ fill:var(--water) }.t-grain{ fill:var(--grain) }.t-b{ font-weight:600 }.t-sm{ font-size:11.5px }.s-ink{ stroke:var(--ink); fill:none }.s-soft{ stroke:var(--ink-soft); fill:none }.s-rule{ stroke:var(--rule); fill:none }.s-water{ stroke:var(--water); fill:none }.s-grain{ stroke:var(--grain); fill:none }.f-bg{ fill:var(--flour) }.f-soft{ fill:var(--ink-soft) }.f-water{ fill:var(--water) }.f-grain{ fill:var(--grain) }.f-water-t{ fill:var(--water-t) }.f-grain-t{ fill:var(--grain-t) }.w1{ stroke-width:1 }.w15{ stroke-width:1.5 }.w2{ stroke-width:2 }.w3{ stroke-width:3 }.dash{ stroke-dasharray:5 4 }.dot{ stroke-dasharray:1.5 4; stroke-linecap:round }</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:transparent"/><svg aria-label="프시의 동기 사슬: 필요 탱크의 설정값과 현재값의 차이가 충동이 되고, 목표와 묶여 동기가 되고, 기대 × 가치의 세기로 겨뤄 선택 문턱을 넘은 하나가 의도가 된다. 쾌·불쾌는 탱크 수위의 변화량이며, 역행 강화로 기록의 사슬을 거슬러 올라가 계획을 짓는다." data-min="540" height="100%" role="img" style="" viewBox="0 0 600 372" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="f16-g" markerHeight="10" markerUnits="userSpaceOnUse" markerWidth="10" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-grain" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f16-w" markerHeight="10" markerUnits="userSpaceOnUse" markerWidth="10" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-water" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f16-k" markerHeight="10" markerUnits="userSpaceOnUse" markerWidth="10" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-soft" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 필요 탱크 -->
+<text class="t t-b t-grain" x="24" y="22">필요 탱크</text>
+<text class="t t-sm t-grain" x="24" y="44">설정값 1.0</text>
+<rect class="f-grain-t" height="30" width="56" x="26" y="126"></rect>
+<path class="s-grain w2" d="M26 56 V156 H82 V56"></path>
+<line class="s-grain w15 dash" x1="20" x2="88" y1="56" y2="56"></line>
+<line class="s-grain w2" x1="26" x2="82" y1="126" y2="126"></line>
+<path class="s-grain w15" d="M90 58 h5 V124 h-5"></path>
+<text class="t t-b t-grain" x="100" y="88">충동</text>
+<text class="t t-sm t-grain" x="100" y="105">0.7</text>
+<text class="t t-sm t-soft" x="90" y="146">현재값 0.3</text>
+<line class="s-grain w15" marker-end="url(#f16-g)" x1="136" x2="176" y1="91" y2="91"></line>
+<!-- 동기 -->
+<rect class="f-grain-t s-grain w15" height="50" rx="4" width="112" x="180" y="66"></rect>
+<text class="t t-b t-grain" text-anchor="middle" x="236" y="87">동기</text>
+<text class="t t-sm" text-anchor="middle" x="236" y="105">충동 + 목표 상황</text>
+<line class="s-grain w15" marker-end="url(#f16-g)" x1="294" x2="314" y1="91" y2="91"></line>
+<!-- 세기: 겨루는 동기들 -->
+<rect class="f-bg s-rule w1" height="50" rx="4" width="90" x="330" y="78"></rect>
+<rect class="f-bg s-rule w1" height="50" rx="4" width="90" x="324" y="72"></rect>
+<rect class="f-bg s-grain w15" height="50" rx="4" width="90" x="318" y="66"></rect>
+<text class="t t-b t-grain" text-anchor="middle" x="363" y="87">세기</text>
+<text class="t t-sm" text-anchor="middle" x="363" y="105">기대 × 가치</text>
+<text class="t t-sm t-soft" text-anchor="middle" x="369" y="146">여럿이 겨룬다</text>
+<!-- 선택 문턱 -->
+<text class="t t-sm t-b" text-anchor="middle" x="446" y="44">선택 문턱</text>
+<line class="s-ink w3" x1="446" x2="446" y1="54" y2="132"></line>
+<line class="s-soft w15" marker-end="url(#f16-k)" x1="422" x2="440" y1="104" y2="104"></line>
+<line class="s-soft w15" marker-end="url(#f16-k)" x1="424" x2="440" y1="120" y2="120"></line>
+<line class="s-grain w2" marker-end="url(#f16-g)" x1="410" x2="462" y1="80" y2="80"></line>
+<text class="t t-sm t-soft" text-anchor="middle" x="446" y="152">현 의도에 덤</text>
+<!-- 의도 -->
+<rect class="f-grain-t s-grain w3" height="50" rx="4" width="110" x="466" y="56"></rect>
+<text class="t t-b t-grain" text-anchor="middle" x="521" y="77">의도</text>
+<text class="t t-sm" text-anchor="middle" x="521" y="95">목표들의 묶음</text>
+<line class="s-grain w15" marker-end="url(#f16-g)" x1="521" x2="521" y1="108" y2="226"></line>
+<text class="t t-sm t-grain" x="528" y="172">행동</text>
+<!-- 기록의 사슬 -->
+<text class="t t-b t-water" x="24" y="206">기록의 사슬 (프로토콜)</text>
+<g class="f-water-t s-water w1">
+<rect height="36" rx="18" width="78" x="120" y="232"></rect>
+<rect height="36" rx="18" width="78" x="228" y="232"></rect>
+<rect height="36" rx="18" width="78" x="336" y="232"></rect>
+</g>
+<rect class="f-water-t s-water w15" height="40" rx="20" width="110" x="466" y="230"></rect>
+<text class="t t-sm t-water" text-anchor="middle" x="159" y="255">상황</text>
+<text class="t t-sm t-water" text-anchor="middle" x="267" y="255">상황</text>
+<text class="t t-sm t-water" text-anchor="middle" x="375" y="255">상황</text>
+<text class="t t-sm t-water t-b" text-anchor="middle" x="521" y="255">탱크가 찬다</text>
+<line class="s-water w15" marker-end="url(#f16-w)" x1="200" x2="224" y1="250" y2="250"></line>
+<line class="s-water w2" marker-end="url(#f16-w)" x1="308" x2="332" y1="250" y2="250"></line>
+<line class="s-water w3" marker-end="url(#f16-w)" x1="416" x2="462" y1="250" y2="250"></line>
+<text class="t t-sm t-soft" x="24" y="226">시간 →</text>
+<!-- Δ 게이지 -->
+<rect class="f-grain-t" height="40" width="26" x="471" y="302"></rect>
+<path class="s-grain w15" d="M471 292 V342 H497 V292"></path>
+<line class="s-grain w1 dash" x1="471" x2="497" y1="327" y2="327"></line>
+<line class="s-grain w2" x1="471" x2="497" y1="302" y2="302"></line>
+<path class="s-grain w15" d="M501 303 h4 V326 h-4"></path>
+<text class="t t-sm t-grain t-b" x="510" y="312">Δ +0.5</text>
+<text class="t t-sm t-grain" x="510" y="330">= 쾌</text>
+<text class="t t-sm t-soft" x="510" y="358">0.3 → 0.8</text>
+<line class="s-soft w1" x1="484" x2="484" y1="272" y2="288"></line>
+<!-- 역행 강화 -->
+<path class="s-grain w2" d="M462 316 H122" marker-end="url(#f16-g)"></path>
+<g class="s-grain w15 dot">
+<line x1="212" x2="212" y1="312" y2="258"></line>
+<line x1="320" x2="320" y1="312" y2="258"></line>
+<line x1="439" x2="439" y1="312" y2="258"></line>
+</g>
+<text class="t t-sm t-grain t-b" text-anchor="middle" x="290" y="340">역행 강화 — 사슬을 거슬러 오르며 연결을 굳힌다</text>
+<text class="t t-sm t-soft" x="24" y="282">굳은 연결:</text>
+<text class="t t-sm t-soft" x="24" y="298">끝에 가까울수록 굵다</text>
+<text class="t t-b t-water" text-anchor="end" x="108" y="321">계획</text>
+<text class="t t-sm t-soft" x="24" y="358">불쾌 = Δ &lt; 0 · 채워져 있기만 하면(Δ = 0) 쾌도 0</text>
+</svg></svg>

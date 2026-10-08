@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 480 300" width="480" height="300" class="figscroll fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDEFEA; --plate:#E3E6E0; --ink:#26221E; --ink-2:#5B5750; --rule:#C6CBC3; --mark:#B9BEB5;
+  --cu:#9A5B2E; --vg:#2F7D6D; --pb:#2B4C7E; --vm:#C2412B;
+  --cu-soft:rgba(154,91,46,.10); --vg-soft:rgba(47,125,109,.10); --pb-soft:rgba(43,76,126,.10); --vm-soft:rgba(194,65,43,.08);
+  --f-display:"Hahmlet","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo",serif;
+  --f-latin:"EB Garamond","Noto Serif KR",Georgia,serif;
+  --f-mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{--pad:1.6rem}}@media (min-width:52em){:root{--pad:2rem}}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}}:root[data-theme="dark"]{
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}.cu{color:var(--cu)}.vg{color:var(--vg)}.pb{color:var(--pb)}.vm{color:var(--vm)}svg.defs{position:absolute;width:0;height:0;overflow:hidden}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-inline:var(--pad);padding-block:0 4rem}.lecture{display:contents}.webwrap svg{display:block;width:100%;height:auto}.sw-dot.cu{background:var(--cu)}.sw-dot.vg{background:var(--vg)}.sw-dot.pb{background:var(--pb)}.sw-dot.vm{background:var(--vm)}figure.fig{border:1px solid var(--mark);background:var(--plate);padding:.75rem .75rem .6rem;margin-block:.6rem}.figscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;
+  background:linear-gradient(to right,var(--plate) 30%,transparent),linear-gradient(to left,var(--plate) 30%,transparent) 100% 0,
+  radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.18),transparent),radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.18),transparent) 100% 0;
+  background-repeat:no-repeat;background-size:2.2rem 100%,2.2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}figure.fig svg{display:block;width:100%;height:auto;min-width:27rem}@media (max-width:34rem){.doc>figure.fig,.lecture>figure.fig{width:calc(100% + var(--pad)*2);max-width:none;margin-inline:calc(var(--pad)*-1);border-inline:0;padding-inline:.6rem}}.terms li.cu{color:var(--cu);background:var(--cu-soft)}.terms li.vg{color:var(--vg);background:var(--vg-soft)}.terms li.pb{color:var(--pb);background:var(--pb-soft)}.terms li.vm{color:var(--vm);background:var(--vm-soft)}svg .ln,svg .ln-cu,svg .ln-vg,svg .ln-pb,svg .ln-vm{stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}svg .ln:not([fill]),svg .ln-cu:not([fill]),svg .ln-vg:not([fill]),svg .ln-pb:not([fill]),svg .ln-vm:not([fill]){fill:none}svg .ln{stroke:var(--ink)}svg .ln-cu{stroke:var(--cu)}svg .ln-vg{stroke:var(--vg)}svg .ln-pb{stroke:var(--pb)}svg g.ln-vg>rect:not([fill]),svg g.ln-cu>rect:not([fill]),svg g.ln-pb>rect:not([fill]),svg g.ln-vm>rect:not([fill]){fill:none}svg .thick,svg g.thick>*{stroke-width:2.6}svg .dash,svg g.dash>*{stroke-dasharray:4 4}svg .dot-vm,svg g.dot-vm>*{fill:var(--vm)}svg text{fill:var(--ink);font-family:var(--f-body)}svg .ts{font-size:13px}svg .tm{font-family:var(--f-mono);font-size:11px}svg .c{text-anchor:middle}svg text.cu{fill:var(--cu)}svg text.vg{fill:var(--vg)}svg text.pb{fill:var(--pb)}svg text.vm{fill:var(--vm)}.m .sq>.rt path{fill:none;stroke:currentColor;stroke-width:1px;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}.m .sq>.rt path.rh{stroke-width:1.6px}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg aria-label="삼중 종합으로 로봇 짓기 — 흩어진 블록에 자리를 주고, 앞의 것을 데려오고, 하나의 로봇으로 알아볼 때 보기₁이 보기₂가 된다" height="100%" role="img" viewBox="0 0 480 300" width="100%" xmlns="http://www.w3.org/2000/svg">
+<text class="ts c" x="55" y="26">잡다</text>
+<text class="ts c" x="166" y="26">① 포착</text>
+<text class="ts c" x="281" y="26">② 재생</text>
+<text class="ts c" x="410" y="26">③ 재인</text>
+<rect class="ln-cu" fill="url(#h-cu)" height="10" transform="rotate(20 30 62)" width="18" x="21.0" y="57.0"></rect><rect class="ln-cu" fill="url(#h-cu)" height="12" transform="rotate(-15 60 56)" width="12" x="54.0" y="50.0"></rect><rect class="ln-cu" fill="url(#h-cu)" height="10" transform="rotate(40 84 74)" width="20" x="74.0" y="69.0"></rect><rect class="ln-cu" fill="url(#h-cu)" height="18" transform="rotate(-30 30 96)" width="10" x="25.0" y="87.0"></rect><rect class="ln-cu" fill="url(#h-cu)" height="10" transform="rotate(10 62 98)" width="18" x="53.0" y="93.0"></rect><rect class="ln-cu" fill="url(#h-cu)" height="12" transform="rotate(25 86 116)" width="12" x="80.0" y="110.0"></rect><rect class="ln-cu" fill="url(#h-cu)" height="10" transform="rotate(-10 32 132)" width="20" x="22.0" y="127.0"></rect><rect class="ln-cu" fill="url(#h-cu)" height="18" transform="rotate(35 58 140)" width="12" x="52.0" y="131.0"></rect><rect class="ln-cu" fill="url(#h-cu)" height="10" transform="rotate(-25 84 150)" width="18" x="75.0" y="145.0"></rect><line class="ln-pb" opacity="0.45" x1="122" x2="122" y1="54" y2="142"></line><line class="ln-pb" opacity="0.45" x1="144" x2="144" y1="54" y2="142"></line><line class="ln-pb" opacity="0.45" x1="166" x2="166" y1="54" y2="142"></line><line class="ln-pb" opacity="0.45" x1="188" x2="188" y1="54" y2="142"></line><line class="ln-pb" opacity="0.45" x1="210" x2="210" y1="54" y2="142"></line><line class="ln-pb" opacity="0.45" x1="122" x2="210" y1="54" y2="54"></line><line class="ln-pb" opacity="0.45" x1="122" x2="210" y1="76" y2="76"></line><line class="ln-pb" opacity="0.45" x1="122" x2="210" y1="98" y2="98"></line><line class="ln-pb" opacity="0.45" x1="122" x2="210" y1="120" y2="120"></line><line class="ln-pb" opacity="0.45" x1="122" x2="210" y1="142" y2="142"></line><rect class="ln-cu" fill="url(#h-cu)" height="10" width="14" x="126" y="60"></rect><rect class="ln-cu" fill="url(#h-cu)" height="10" width="14" x="170" y="60"></rect><rect class="ln-cu" fill="url(#h-cu)" height="10" width="14" x="148" y="82"></rect><rect class="ln-cu" fill="url(#h-cu)" height="10" width="14" x="192" y="82"></rect><rect class="ln-cu" fill="url(#h-cu)" height="10" width="14" x="126" y="104"></rect><rect class="ln-cu" fill="url(#h-cu)" height="10" width="14" x="170" y="104"></rect><rect class="ln-cu" fill="url(#h-cu)" height="10" width="14" x="148" y="126"></rect><rect class="ln-cu" fill="url(#h-cu)" height="10" width="14" x="192" y="126"></rect>
+<text class="tm c" x="55" y="176">쏟아진 블록</text>
+<text class="tm c" x="166" y="160">이건 여기, 저건 저기</text>
+<text class="tm c pb" x="166" y="176">시공간 자리를 준다</text>
+<line class="ln" marker-end="url(#ah)" x1="100" x2="116" y1="100" y2="100"></line>
+<line class="ln" marker-end="url(#ah)" x1="214" x2="230" y1="100" y2="100"></line>
+<line class="ln" marker-end="url(#ah)" x1="332" x2="364" y1="100" y2="100"></line>
+<text class="tm" x="238" y="58">재생 있음</text>
+<line class="ln thick" x1="240" x2="324" y1="76" y2="76"></line>
+<g class="ln"><line x1="240" x2="240" y1="70" y2="82"></line><line x1="268" x2="268" y1="70" y2="82"></line><line x1="296" x2="296" y1="70" y2="82"></line><line x1="324" x2="324" y1="70" y2="82"></line></g>
+<text class="tm vm" x="238" y="110">재생 없음</text>
+<circle class="dot-vm" cx="240" cy="126" r="3"></circle><circle class="dot-vm" cx="268" cy="126" r="3"></circle><circle class="dot-vm" cx="296" cy="126" r="3"></circle><circle class="dot-vm" cx="324" cy="126" r="3"></circle>
+<text class="tm c vm" x="282" y="146">점들만 남는다</text>
+<text class="tm c" x="281" y="176">앞의 것을 데려온다</text>
+<rect class="ln-cu" fill="url(#h-cu)" height="20" width="28" x="396" y="50"></rect>
+<rect class="ln-cu" fill="url(#h-cu)" height="36" width="40" x="390" y="72"></rect>
+<rect class="ln-cu" fill="url(#h-cu)" height="28" width="12" x="376" y="74"></rect>
+<rect class="ln-cu" fill="url(#h-cu)" height="28" width="12" x="432" y="74"></rect>
+<rect class="ln-cu" fill="url(#h-cu)" height="26" width="14" x="394" y="110"></rect>
+<rect class="ln-cu" fill="url(#h-cu)" height="26" width="14" x="412" y="110"></rect>
+<rect class="ln-vg dash" height="102" rx="4" width="84" x="368" y="42"></rect>
+<text class="tm c vg" x="410" y="160">이 이러저러한 로봇</text>
+<text class="tm c vg" x="410" y="176">“어제 그 로봇이다”</text>
+<path class="ln-vg dash" d="M410,188 C380,220 200,220 168,188" marker-end="url(#ah-vg)"></path>
+<text class="tm c vg" x="288" y="232">설계도가 있어야 블록이 한 로봇의 부분이 된다</text>
+<path class="ln-cu" d="M118,246 L118,252 L332,252 L332,246"></path>
+<path class="ln-vg" d="M352,246 L352,252 L468,252 L468,246"></path>
+<text class="tm c cu" x="225" y="268">형상적 종합 · 상상력</text>
+<text class="tm c vg" x="410" y="268">개념 · 통각</text>
+<text class="tm c" x="240" y="292">블록 k개 × 관점 p개 = 상 kp개 → 로봇 하나</text>
+</svg></svg>

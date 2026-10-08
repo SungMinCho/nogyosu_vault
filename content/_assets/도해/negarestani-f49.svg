@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 480 278" width="480" height="278" class="figscroll fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDEFEA; --plate:#E3E6E0; --ink:#26221E; --ink-2:#5B5750; --rule:#C6CBC3; --mark:#B9BEB5;
+  --cu:#9A5B2E; --vg:#2F7D6D; --pb:#2B4C7E; --vm:#C2412B;
+  --cu-soft:rgba(154,91,46,.10); --vg-soft:rgba(47,125,109,.10); --pb-soft:rgba(43,76,126,.10); --vm-soft:rgba(194,65,43,.08);
+  --f-display:"Hahmlet","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo",serif;
+  --f-latin:"EB Garamond","Noto Serif KR",Georgia,serif;
+  --f-mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{--pad:1.6rem}}@media (min-width:52em){:root{--pad:2rem}}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}}:root[data-theme="dark"]{
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}.cu{color:var(--cu)}.vg{color:var(--vg)}svg.defs{position:absolute;width:0;height:0;overflow:hidden}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-inline:var(--pad);padding-block:0 4rem}.lecture{display:contents}.webwrap svg{display:block;width:100%;height:auto}.sw-dot.cu{background:var(--cu)}.sw-dot.vg{background:var(--vg)}figure.fig{border:1px solid var(--mark);background:var(--plate);padding:.75rem .75rem .6rem;margin-block:.6rem}.figscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;
+  background:linear-gradient(to right,var(--plate) 30%,transparent),linear-gradient(to left,var(--plate) 30%,transparent) 100% 0,
+  radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.18),transparent),radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.18),transparent) 100% 0;
+  background-repeat:no-repeat;background-size:2.2rem 100%,2.2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}figure.fig svg{display:block;width:100%;height:auto;min-width:27rem}@media (max-width:34rem){.doc>figure.fig,.lecture>figure.fig{width:calc(100% + var(--pad)*2);max-width:none;margin-inline:calc(var(--pad)*-1);border-inline:0;padding-inline:.6rem}}.terms li.cu{color:var(--cu);background:var(--cu-soft)}.terms li.vg{color:var(--vg);background:var(--vg-soft)}svg .ln,svg .ln-cu,svg .ln-vg,svg .ln-pb,svg .ln-vm{stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}svg .ln:not([fill]),svg .ln-cu:not([fill]),svg .ln-vg:not([fill]),svg .ln-pb:not([fill]),svg .ln-vm:not([fill]){fill:none}svg .ln{stroke:var(--ink)}svg .ln-cu{stroke:var(--cu)}svg .ln-vg{stroke:var(--vg)}svg g.ln-vg>rect:not([fill]),svg g.ln-cu>rect:not([fill]),svg g.ln-pb>rect:not([fill]),svg g.ln-vm>rect:not([fill]){fill:none}svg .thick,svg g.thick>*{stroke-width:2.6}svg .faint,svg g.faint>*,svg g>.faint{stroke:var(--mark)}svg .dash,svg g.dash>*{stroke-dasharray:4 4}svg .dot-cu,svg g.dot-cu>*{fill:var(--cu)}svg text{fill:var(--ink);font-family:var(--f-body)}svg .ts{font-size:13px}svg .tm{font-family:var(--f-mono);font-size:11px}svg .c{text-anchor:middle}svg .r{text-anchor:end}svg text.cu{fill:var(--cu)}svg text.vg{fill:var(--vg)}svg text.pb{fill:var(--pb)}svg text.vm{fill:var(--vm)}svg .bgtext{paint-order:stroke;stroke:var(--plate);stroke-width:5px;stroke-linejoin:round}.m .sq>.rt path{fill:none;stroke:currentColor;stroke-width:1px;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}.m .sq>.rt path.rh{stroke-width:1.6px}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg aria-label="규칙과 기제 — 나머지 덧셈이라는 규칙과 원 위 회전 합성이라는 기제는 종류가 다르지만, 규칙을 알아야 기제가 읽힌다" height="100%" role="img" viewBox="0 0 480 278" width="100%" xmlns="http://www.w3.org/2000/svg">
+<text class="ts vg" x="16" y="28">규칙으로서의 기능</text>
+<rect class="ln-vg" fill="url(#h-vg)" fill-opacity="0.45" height="36" width="150" x="16" y="42"></rect>
+<text class="tm c bgtext" x="91" y="65">(a + b) mod 113</text>
+<text class="tm" x="16" y="98">무엇을 계산하는가</text>
+<text class="tm" x="16" y="150">회전을 아무리 들여다봐도</text>
+<text class="tm" x="16" y="166">‘나머지 덧셈’은 안 보인다</text>
+<rect fill="url(#h-ink)" height="160" width="34" x="196" y="44"></rect>
+<text class="tm c" x="213" y="222">범주적</text><text class="tm c" x="213" y="236">간극</text>
+<path class="ln-vg dash" d="M168,60 C212,54 240,82 272,108" marker-end="url(#ah-vg)"></path>
+<text class="ts cu" x="278" y="28">기제로서의 기능</text>
+<line class="ln faint" x1="270" x2="430" y1="128" y2="128"></line><line class="ln faint" x1="350" x2="350" y1="48" y2="208"></line>
+<text class="tm" x="434" y="132">cos</text><text class="tm" x="354" y="44">sin</text>
+<circle class="ln-cu" cx="350" cy="128" r="72"></circle>
+<line class="ln-cu" x1="350" x2="409.0" y1="128" y2="86.7"></line>
+<line class="ln-cu thick" x1="350" x2="331.4" y1="128" y2="58.5"></line>
+<path class="ln-cu" d="M378.0,128.0 A28,28 0 0 0 372.9,111.9" marker-end="url(#ah-cu)"></path>
+<path class="ln-cu" d="M386.0,102.8 A44,44 0 0 0 338.6,85.5" marker-end="url(#ah-cu)"></path>
+<text class="tm cu" x="386" y="123">wa</text>
+<text class="tm cu" x="362" y="80">wb</text>
+<circle class="dot-cu" cx="409.0" cy="86.7" r="4"></circle>
+<circle class="dot-cu" cx="331.4" cy="58.5" r="4.5"></circle>
+<text class="tm" x="417.0" y="82.7">a</text>
+<text class="tm r" x="323.4" y="52.5">a + b</text>
+<text class="tm c cu" x="240" y="252">cos w(a+b) = cos wa · cos wb − sin wa · sin wb</text>
+<text class="ts c vg" x="240" y="272">종류가 다른 두 기능 · 기제는 규칙을 본떠 모형화된다</text>
+</svg></svg>

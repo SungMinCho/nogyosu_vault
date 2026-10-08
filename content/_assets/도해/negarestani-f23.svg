@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 480 280" width="480" height="280" class="figscroll fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDEFEA; --plate:#E3E6E0; --ink:#26221E; --ink-2:#5B5750; --rule:#C6CBC3; --mark:#B9BEB5;
+  --cu:#9A5B2E; --vg:#2F7D6D; --pb:#2B4C7E; --vm:#C2412B;
+  --cu-soft:rgba(154,91,46,.10); --vg-soft:rgba(47,125,109,.10); --pb-soft:rgba(43,76,126,.10); --vm-soft:rgba(194,65,43,.08);
+  --f-display:"Hahmlet","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo",serif;
+  --f-latin:"EB Garamond","Noto Serif KR",Georgia,serif;
+  --f-mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{--pad:1.6rem}}@media (min-width:52em){:root{--pad:2rem}}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}}:root[data-theme="dark"]{
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}.pb{color:var(--pb)}.vm{color:var(--vm)}svg.defs{position:absolute;width:0;height:0;overflow:hidden}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-inline:var(--pad);padding-block:0 4rem}.lecture{display:contents}.webwrap svg{display:block;width:100%;height:auto}.sw-dot.pb{background:var(--pb)}.sw-dot.vm{background:var(--vm)}figure.fig{border:1px solid var(--mark);background:var(--plate);padding:.75rem .75rem .6rem;margin-block:.6rem}.figscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;
+  background:linear-gradient(to right,var(--plate) 30%,transparent),linear-gradient(to left,var(--plate) 30%,transparent) 100% 0,
+  radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.18),transparent),radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.18),transparent) 100% 0;
+  background-repeat:no-repeat;background-size:2.2rem 100%,2.2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}figure.fig svg{display:block;width:100%;height:auto;min-width:27rem}@media (max-width:34rem){.doc>figure.fig,.lecture>figure.fig{width:calc(100% + var(--pad)*2);max-width:none;margin-inline:calc(var(--pad)*-1);border-inline:0;padding-inline:.6rem}}.terms li.pb{color:var(--pb);background:var(--pb-soft)}.terms li.vm{color:var(--vm);background:var(--vm-soft)}svg .ln,svg .ln-cu,svg .ln-vg,svg .ln-pb,svg .ln-vm{stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}svg .ln:not([fill]),svg .ln-cu:not([fill]),svg .ln-vg:not([fill]),svg .ln-pb:not([fill]),svg .ln-vm:not([fill]){fill:none}svg .ln{stroke:var(--ink)}svg .ln-cu{stroke:var(--cu)}svg .ln-pb{stroke:var(--pb)}svg g.ln-vg>rect:not([fill]),svg g.ln-cu>rect:not([fill]),svg g.ln-pb>rect:not([fill]),svg g.ln-vm>rect:not([fill]){fill:none}svg .thick,svg g.thick>*{stroke-width:2.6}svg .faint,svg g.faint>*,svg g>.faint{stroke:var(--mark)}svg .dash,svg g.dash>*{stroke-dasharray:4 4}svg .bg,svg .bg:not([fill]){fill:var(--plate)}svg .dot-cu,svg g.dot-cu>*{fill:var(--cu)}svg text{fill:var(--ink);font-family:var(--f-body)}svg .ts{font-size:13px}svg .tm{font-family:var(--f-mono);font-size:11px}svg .c{text-anchor:middle}svg .r{text-anchor:end}svg text.cu{fill:var(--cu)}svg text.vg{fill:var(--vg)}svg text.pb{fill:var(--pb)}svg text.vm{fill:var(--vm)}.m .sq>.rt path{fill:none;stroke:currentColor;stroke-width:1px;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}.m .sq>.rt path.rh{stroke-width:1.6px}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg aria-label="원점 하나가 여는 공간 — 자기를 원점으로 점유하면 개념 없이도 가려진 먹이를 쫓고 멀어지는 먹이를 같은 것으로 다룬다" height="100%" role="img" viewBox="0 0 480 280" width="100%" xmlns="http://www.w3.org/2000/svg">
+<path class="ln-cu thick" d="M110,84 L157,84"></path>
+<path class="ln-cu thick" d="M251,84 L270,84"></path>
+<circle class="ln-cu bg" cx="110" cy="84" r="5"></circle>
+<circle class="dot-cu" cx="278" cy="84" r="6"></circle>
+<path class="bg" d="M134,100 L154,88 L176,94 L186,120 L168,136 L140,128 Z"></path>
+<path class="ln" d="M134,100 L154,88 L176,94 L186,120 L168,136 L140,128 Z" fill="url(#h-ink)"></path>
+<path class="ln-cu dash" d="M157,84 L251,84"></path>
+<line class="ln-pb dash" marker-end="url(#ah-pb)" x1="156" x2="190" y1="112" y2="92"></line>
+<text class="tm r pb" x="128" y="108">바위 기준 ‘뒤’</text>
+<text class="tm r pb" x="128" y="124">제한된 타중심</text>
+<text class="ts" x="20" y="34">가려진 먹이</text>
+<text class="ts c" x="212" y="70">뒤로 감 ≠ 소멸</text>
+<path class="ln" d="M50,186 C140,170 230,140 268,98" marker-end="url(#ah)"></path>
+<text class="tm c" x="206" y="180">가려져도 쫓는다</text>
+<line class="ln-pb" marker-end="url(#ah-pb)" x1="40" x2="96" y1="190" y2="190"></line>
+<line class="ln-pb" marker-end="url(#ah-pb)" x1="40" x2="40" y1="190" y2="140"></line>
+<text class="tm pb" x="100" y="206">앞</text>
+<text class="tm pb" x="48" y="150">옆</text>
+<circle class="ln bg" cx="40" cy="190" r="9"></circle>
+<text class="ts c" x="40" y="220">포식자</text>
+<text class="tm c pb" x="40" y="236">원점 = 자기</text>
+<line class="ln faint" x1="302" x2="302" y1="20" y2="226"></line>
+<text class="ts" x="318" y="34">달아나는 먹이</text>
+<line class="ln faint" x1="322" x2="470" y1="176" y2="176"></line>
+<line class="ln faint" x1="334" x2="380" y1="146" y2="116"></line><line class="ln faint" x1="334" x2="380" y1="146" y2="176"></line><line class="ln faint" x1="334" x2="440" y1="146" y2="116"></line><line class="ln faint" x1="334" x2="440" y1="146" y2="176"></line>
+<circle class="ln bg" cx="330" cy="146" r="5"></circle>
+<line class="ln-cu thick" x1="380" x2="380" y1="116" y2="176"></line>
+<line class="ln-cu thick" x1="440" x2="440" y1="116" y2="176"></line>
+<text class="tm c" x="380" y="194">d</text><text class="tm c" x="440" y="194">2d</text>
+<text class="tm" x="318" y="72">망막상 h → h/2</text>
+<text class="tm" x="318" y="90">줄어든다고 보지 않는다</text>
+<text class="ts c" x="240" y="254">자기를 주변에서 떼어 낸 원점 하나가 다른 것들 사이의 관계까지 연다</text>
+<text class="tm c vm" x="240" y="274">현상과 실재를 가르는 개념은 아직 없다 · 행동의 정합성뿐</text>
+</svg></svg>

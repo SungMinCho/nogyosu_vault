@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 300" width="640" height="300" class="webwrap hero doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDEFEA; --plate:#E3E6E0; --ink:#26221E; --ink-2:#5B5750; --rule:#C6CBC3; --mark:#B9BEB5;
+  --cu:#9A5B2E; --vg:#2F7D6D; --pb:#2B4C7E; --vm:#C2412B;
+  --cu-soft:rgba(154,91,46,.10); --vg-soft:rgba(47,125,109,.10); --pb-soft:rgba(43,76,126,.10); --vm-soft:rgba(194,65,43,.08);
+  --f-display:"Hahmlet","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo",serif;
+  --f-latin:"EB Garamond","Noto Serif KR",Georgia,serif;
+  --f-mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{--pad:1.6rem}}@media (min-width:52em){:root{--pad:2rem}}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}}:root[data-theme="dark"]{
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}svg.defs{position:absolute;width:0;height:0;overflow:hidden}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-inline:var(--pad);padding-block:0 4rem}.hero{padding-block:2.6rem 1rem;display:grid;gap:1.1rem}.webwrap{position:relative;border:1px solid var(--mark);background:var(--plate);padding:.6rem;max-width:100%}.webwrap svg{display:block;width:100%;height:auto}figure.fig svg{display:block;width:100%;height:auto;min-width:27rem}svg g.ln-vg>rect:not([fill]),svg g.ln-cu>rect:not([fill]),svg g.ln-pb>rect:not([fill]),svg g.ln-vm>rect:not([fill]){fill:none}svg text{fill:var(--ink);font-family:var(--f-body)}svg text.cu{fill:var(--cu)}svg text.vg{fill:var(--vg)}svg text.pb{fill:var(--pb)}svg text.vm{fill:var(--vm)}.m .sq>.rt path{fill:none;stroke:currentColor;stroke-width:1px;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}.m .sq>.rt path.rh{stroke-width:1.6px}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg xmlns="http://www.w3.org/2000/svg" aria-label="동판 위 거미줄이 오른쪽으로 갈수록 산에 물려 끊어지는 그림" height="100%" id="web" role="img" viewBox="0 0 640 300" width="100%"></svg></svg>

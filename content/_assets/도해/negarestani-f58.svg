@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 480 290" width="480" height="290" class="figscroll fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDEFEA; --plate:#E3E6E0; --ink:#26221E; --ink-2:#5B5750; --rule:#C6CBC3; --mark:#B9BEB5;
+  --cu:#9A5B2E; --vg:#2F7D6D; --pb:#2B4C7E; --vm:#C2412B;
+  --cu-soft:rgba(154,91,46,.10); --vg-soft:rgba(47,125,109,.10); --pb-soft:rgba(43,76,126,.10); --vm-soft:rgba(194,65,43,.08);
+  --f-display:"Hahmlet","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo",serif;
+  --f-latin:"EB Garamond","Noto Serif KR",Georgia,serif;
+  --f-mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{--pad:1.6rem}}@media (min-width:52em){:root{--pad:2rem}}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}}:root[data-theme="dark"]{
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}.cu{color:var(--cu)}.pb{color:var(--pb)}.vm{color:var(--vm)}svg.defs{position:absolute;width:0;height:0;overflow:hidden}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-inline:var(--pad);padding-block:0 4rem}.lecture{display:contents}.webwrap svg{display:block;width:100%;height:auto}.sw-dot.cu{background:var(--cu)}.sw-dot.pb{background:var(--pb)}.sw-dot.vm{background:var(--vm)}figure.fig{border:1px solid var(--mark);background:var(--plate);padding:.75rem .75rem .6rem;margin-block:.6rem}.figscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;
+  background:linear-gradient(to right,var(--plate) 30%,transparent),linear-gradient(to left,var(--plate) 30%,transparent) 100% 0,
+  radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.18),transparent),radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.18),transparent) 100% 0;
+  background-repeat:no-repeat;background-size:2.2rem 100%,2.2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}figure.fig svg{display:block;width:100%;height:auto;min-width:27rem}@media (max-width:34rem){.doc>figure.fig,.lecture>figure.fig{width:calc(100% + var(--pad)*2);max-width:none;margin-inline:calc(var(--pad)*-1);border-inline:0;padding-inline:.6rem}}.terms li.cu{color:var(--cu);background:var(--cu-soft)}.terms li.pb{color:var(--pb);background:var(--pb-soft)}.terms li.vm{color:var(--vm);background:var(--vm-soft)}svg .ln,svg .ln-cu,svg .ln-vg,svg .ln-pb,svg .ln-vm{stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}svg .ln:not([fill]),svg .ln-cu:not([fill]),svg .ln-vg:not([fill]),svg .ln-pb:not([fill]),svg .ln-vm:not([fill]){fill:none}svg .ln{stroke:var(--ink)}svg .ln-cu{stroke:var(--cu)}svg g.ln-vg>rect:not([fill]),svg g.ln-cu>rect:not([fill]),svg g.ln-pb>rect:not([fill]),svg g.ln-vm>rect:not([fill]){fill:none}svg .thick,svg g.thick>*{stroke-width:2.6}svg .dash,svg g.dash>*{stroke-dasharray:4 4}svg text{fill:var(--ink);font-family:var(--f-body)}svg .ts{font-size:13px}svg .tm{font-family:var(--f-mono);font-size:11px}svg .c{text-anchor:middle}svg .r{text-anchor:end}svg text.cu{fill:var(--cu)}svg text.vg{fill:var(--vg)}svg text.pb{fill:var(--pb)}svg text.vm{fill:var(--vm)}.m .sq>.rt path{fill:none;stroke:currentColor;stroke-width:1px;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}.m .sq>.rt path.rh{stroke-width:1.6px}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg aria-label="수렴을 주는 것 — 혼합 예측자의 수렴은 단순성 가중이 아니라 참 원천에 준 양의 무게, 곧 “세계는 계산 가능하다”에서 온다" height="100%" role="img" viewBox="0 0 480 290" width="100%" xmlns="http://www.w3.org/2000/svg"><rect class="ln" height="90.0" width="50" x="50" y="40.0"></rect><rect class="ln" height="45.0" width="50" x="50" y="130.0"></rect><rect class="ln" height="22.5" width="50" x="50" y="175.0"></rect><rect class="ln" height="11.2" width="50" x="50" y="197.5"></rect><rect class="ln" height="5.6" width="50" x="50" y="208.8"></rect><rect class="ln dash" height="5.6" width="50" x="50" y="214.4"></rect><rect class="ln" height="90.0" width="50" x="150" y="40.0"></rect><rect class="ln" height="30.0" width="50" x="150" y="130.0"></rect><rect class="ln" height="15.0" width="50" x="150" y="160.0"></rect><rect class="ln" height="9.0" width="50" x="150" y="175.0"></rect><rect class="ln" height="6.0" width="50" x="150" y="184.0"></rect><rect class="ln" height="4.3" width="50" x="150" y="190.0"></rect><rect class="ln" height="3.2" width="50" x="150" y="194.3"></rect><rect class="ln dash" height="22.5" width="50" x="150" y="197.5"></rect>
+<line class="ln-cu thick" x1="50" x2="100" y1="218" y2="218"></line>
+<line class="ln-cu thick" x1="150" x2="200" y1="214" y2="214"></line>
+<text class="ts r cu" x="44" y="222">μ</text>
+<text class="ts r cu" x="144" y="218">μ</text>
+<text class="tm c" x="75" y="22">짧을수록 무겁게</text>
+<text class="tm c" x="175" y="22">아무 번호 순서</text>
+<text class="ts c" x="75" y="240">2<tspan baseline-shift="super" font-size="9">−K(ν)</tspan></text>
+<text class="ts c" x="175" y="240">1/(i(i+1))</text>
+<text class="tm c" x="75" y="256">K(μ) = 100</text>
+<text class="tm c" x="175" y="256">μ = 1,000번째</text>
+<path class="ln-cu dash" d="M100,218 C150,238 204,238 236,84"></path>
+<path class="ln-cu dash" d="M200,214 C214,204 222,120 236,84" marker-end="url(#ah-cu)"></path>
+<text class="tm" x="242" y="62">ξ = Σ w(ν)·ν</text>
+<text class="tm" x="250" y="80">≥ w(μ)·μ  (합의 한 항 ≤ 합)</text>
+<line class="ln" marker-end="url(#ah)" x1="300" x2="300" y1="88" y2="104"></line>
+<text class="tm" x="242" y="122">누적 손실 ≤ ln 1/w(μ) &lt; ∞ → 수렴</text>
+<text class="tm" x="242" y="146">왼쪽: 오차 제곱 총합 ≤ 34.7</text>
+<text class="tm" x="242" y="162">오른쪽: ≤ ln(1000·1001) ≈ 13.8 nat</text>
+<text class="ts vm" x="242" y="192">일한 것은 단순성이 아니라 w(μ) &gt; 0</text>
+<text class="tm pb" x="242" y="210">= 참 원천이 클래스 안에 있다</text>
+<text class="tm pb" x="242" y="226">= ‘세계는 계산 가능하다’</text>
+<text class="tm c vm" x="240" y="282">실효성을 가정한 예측자는 실효성 가정 아래 신뢰할 만하다</text>
+</svg></svg>

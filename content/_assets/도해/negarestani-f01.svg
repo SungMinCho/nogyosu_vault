@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 480 292" width="480" height="292" class="figscroll fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDEFEA; --plate:#E3E6E0; --ink:#26221E; --ink-2:#5B5750; --rule:#C6CBC3; --mark:#B9BEB5;
+  --cu:#9A5B2E; --vg:#2F7D6D; --pb:#2B4C7E; --vm:#C2412B;
+  --cu-soft:rgba(154,91,46,.10); --vg-soft:rgba(47,125,109,.10); --pb-soft:rgba(43,76,126,.10); --vm-soft:rgba(194,65,43,.08);
+  --f-display:"Hahmlet","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo",serif;
+  --f-latin:"EB Garamond","Noto Serif KR",Georgia,serif;
+  --f-mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{--pad:1.6rem}}@media (min-width:52em){:root{--pad:2rem}}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}}:root[data-theme="dark"]{
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}.vg{color:var(--vg)}.vm{color:var(--vm)}svg.defs{position:absolute;width:0;height:0;overflow:hidden}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-inline:var(--pad);padding-block:0 4rem}.lecture{display:contents}.webwrap svg{display:block;width:100%;height:auto}.sw-dot.vg{background:var(--vg)}.sw-dot.vm{background:var(--vm)}figure.fig{border:1px solid var(--mark);background:var(--plate);padding:.75rem .75rem .6rem;margin-block:.6rem}.figscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;
+  background:linear-gradient(to right,var(--plate) 30%,transparent),linear-gradient(to left,var(--plate) 30%,transparent) 100% 0,
+  radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.18),transparent),radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.18),transparent) 100% 0;
+  background-repeat:no-repeat;background-size:2.2rem 100%,2.2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}figure.fig svg{display:block;width:100%;height:auto;min-width:27rem}@media (max-width:34rem){.doc>figure.fig,.lecture>figure.fig{width:calc(100% + var(--pad)*2);max-width:none;margin-inline:calc(var(--pad)*-1);border-inline:0;padding-inline:.6rem}}.terms li.vg{color:var(--vg);background:var(--vg-soft)}.terms li.vm{color:var(--vm);background:var(--vm-soft)}svg .ln,svg .ln-cu,svg .ln-vg,svg .ln-pb,svg .ln-vm{stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}svg .ln:not([fill]),svg .ln-cu:not([fill]),svg .ln-vg:not([fill]),svg .ln-pb:not([fill]),svg .ln-vm:not([fill]){fill:none}svg .ln{stroke:var(--ink)}svg .ln-cu{stroke:var(--cu)}svg .ln-vg{stroke:var(--vg)}svg .ln-vm{stroke:var(--vm)}svg g.ln-vg>rect:not([fill]),svg g.ln-cu>rect:not([fill]),svg g.ln-pb>rect:not([fill]),svg g.ln-vm>rect:not([fill]){fill:none}svg .thick,svg g.thick>*{stroke-width:2.6}svg .faint,svg g.faint>*,svg g>.faint{stroke:var(--mark)}svg .dash,svg g.dash>*{stroke-dasharray:4 4}svg text{fill:var(--ink);font-family:var(--f-body)}svg .tk{font-family:var(--f-display);font-size:17px;font-weight:600}svg .tx{font-size:15px}svg .ts{font-size:13px}svg .tm{font-family:var(--f-mono);font-size:11px}svg .it{font-family:var(--f-latin);font-style:italic;font-size:20px}svg .c{text-anchor:middle}svg .r{text-anchor:end}svg text.cu{fill:var(--cu)}svg text.vg{fill:var(--vg)}svg text.pb{fill:var(--pb)}svg text.vm{fill:var(--vm)}svg .bgtext{paint-order:stroke;stroke:var(--plate);stroke-width:5px;stroke-linejoin:round}.m .tx{font-family:var(--f-latin);font-style:normal}.m .sq>.rt path{fill:none;stroke:currentColor;stroke-width:1px;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}.m .sq>.rt path.rh{stroke-width:1.6px}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg aria-label="한 방과 지양의 노동 — 한 방의 부정은 대상을 덩어리로 전제해 직접성을 남기고, 지양은 매개를 하나씩 들추어 차이를 보존한다" height="100%" role="img" viewBox="0 0 480 292" width="100%" xmlns="http://www.w3.org/2000/svg">
+<text class="tk" x="16" y="26">추상적 부정</text>
+<text class="tm r" x="464" y="26">X = ‘나’ · 인간 조건 · 자본주의</text>
+<line class="ln faint" marker-end="url(#ah)" x1="30" x2="460" y1="104" y2="104"></line>
+<circle class="ln-cu" cx="70" cy="74" fill="url(#h-cu)" r="22"></circle>
+<text class="it c bgtext" x="70" y="81">X</text>
+<line class="ln" marker-end="url(#ah)" x1="96" x2="222" y1="74" y2="74"></line>
+<path class="ln-vm thick" d="M234,54 L248,72 L236,74 L250,94"></path>
+<line class="ln-vm thick" x1="242" x2="242" y1="98" y2="110"></line>
+<text class="ts c vm" x="242" y="44">‘X는 환상이다’ · 한 방</text>
+<line class="ln" marker-end="url(#ah)" x1="262" x2="374" y1="74" y2="74"></line>
+<circle class="ln-cu dash" cx="400" cy="74" fill="url(#h-cu)" fill-opacity="0.5" r="22"></circle>
+<text class="it c bgtext" x="400" y="81">X</text>
+<text class="tm c" x="70" y="124">매개 없는 덩어리로 전제</text>
+<text class="tm c vm" x="242" y="124">단 한 번 · 점적 행위</text>
+<text class="tm c" x="396" y="124">이해는 그대로 · 직접성 영속</text>
+<line class="ln faint" x1="16" x2="464" y1="138" y2="138"></line>
+<text class="tk" x="16" y="158">규정적 부정 · 지양</text>
+<rect class="ln-vg" fill="url(#h-vg)" fill-opacity="0.5" height="24" width="316" x="150" y="166"></rect>
+<text class="ts bgtext" x="160" y="183">보존: 직접성과 매개의 차이 · 한층 높은 수준</text>
+<circle class="ln-cu" cx="70" cy="216" fill="url(#h-cu)" r="28"></circle>
+<circle class="ln-vg dash" cx="70" cy="216" r="19"></circle>
+<circle class="ln-vg dash" cx="70" cy="216" r="10"></circle>
+<text class="tx c bgtext" x="70" y="221">X</text>
+<line class="ln" marker-end="url(#ah)" x1="102" x2="146" y1="222" y2="222"></line>
+<path class="ln-vg thick" d="M154,222 A18,18 0 0,1 186,222"></path><path class="ln-vg thick" d="M224,222 A18,18 0 0,1 256,222"></path><path class="ln-vg thick" d="M294,222 A18,18 0 0,1 326,222"></path>
+<g class="ln-vg"><line marker-end="url(#ah-vg)" x1="170" x2="170" y1="206" y2="193"></line><line marker-end="url(#ah-vg)" x1="240" x2="240" y1="206" y2="193"></line><line marker-end="url(#ah-vg)" x1="310" x2="310" y1="206" y2="193"></line></g>
+<text class="tm c vg" x="170" y="240">m₁</text><text class="tm c vg" x="240" y="240">m₂</text><text class="tm c vg" x="310" y="240">m₃</text>
+<circle class="ln-cu dash" cx="410" cy="216" fill="url(#h-cu)" fill-opacity="0.4" r="18"></circle>
+<line class="ln-vm" x1="396" x2="424" y1="202" y2="230"></line><line class="ln-vm" x1="424" x2="396" y1="202" y2="230"></line>
+<text class="tm c vm" x="410" y="248">직접적 동일성 취소</text>
+<line class="ln faint" marker-end="url(#ah)" x1="30" x2="460" y1="264" y2="264"></line>
+<rect class="ln-vg" fill="url(#h-vg)" height="10" width="200" x="140" y="259"></rect>
+<text class="tm c vg" x="240" y="285">시간이 걸린다 · 매개마다 하나씩 들춘다</text>
+</svg></svg>

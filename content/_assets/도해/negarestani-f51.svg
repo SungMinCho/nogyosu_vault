@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 480 210" width="480" height="210" class="figscroll fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDEFEA; --plate:#E3E6E0; --ink:#26221E; --ink-2:#5B5750; --rule:#C6CBC3; --mark:#B9BEB5;
+  --cu:#9A5B2E; --vg:#2F7D6D; --pb:#2B4C7E; --vm:#C2412B;
+  --cu-soft:rgba(154,91,46,.10); --vg-soft:rgba(47,125,109,.10); --pb-soft:rgba(43,76,126,.10); --vm-soft:rgba(194,65,43,.08);
+  --f-display:"Hahmlet","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo",serif;
+  --f-latin:"EB Garamond","Noto Serif KR",Georgia,serif;
+  --f-mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{--pad:1.6rem}}@media (min-width:52em){:root{--pad:2rem}}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}}:root[data-theme="dark"]{
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}.cu{color:var(--cu)}.pb{color:var(--pb)}.vm{color:var(--vm)}svg.defs{position:absolute;width:0;height:0;overflow:hidden}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-inline:var(--pad);padding-block:0 4rem}.lecture{display:contents}.webwrap svg{display:block;width:100%;height:auto}.sw-dot.cu{background:var(--cu)}.sw-dot.pb{background:var(--pb)}.sw-dot.vm{background:var(--vm)}figure.fig{border:1px solid var(--mark);background:var(--plate);padding:.75rem .75rem .6rem;margin-block:.6rem}.figscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;
+  background:linear-gradient(to right,var(--plate) 30%,transparent),linear-gradient(to left,var(--plate) 30%,transparent) 100% 0,
+  radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.18),transparent),radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.18),transparent) 100% 0;
+  background-repeat:no-repeat;background-size:2.2rem 100%,2.2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}figure.fig svg{display:block;width:100%;height:auto;min-width:27rem}@media (max-width:34rem){.doc>figure.fig,.lecture>figure.fig{width:calc(100% + var(--pad)*2);max-width:none;margin-inline:calc(var(--pad)*-1);border-inline:0;padding-inline:.6rem}}.terms li.cu{color:var(--cu);background:var(--cu-soft)}.terms li.pb{color:var(--pb);background:var(--pb-soft)}.terms li.vm{color:var(--vm);background:var(--vm-soft)}svg .ln,svg .ln-cu,svg .ln-vg,svg .ln-pb,svg .ln-vm{stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}svg .ln:not([fill]),svg .ln-cu:not([fill]),svg .ln-vg:not([fill]),svg .ln-pb:not([fill]),svg .ln-vm:not([fill]){fill:none}svg .ln{stroke:var(--ink)}svg .ln-cu{stroke:var(--cu)}svg .ln-pb{stroke:var(--pb)}svg g.ln-vg>rect:not([fill]),svg g.ln-cu>rect:not([fill]),svg g.ln-pb>rect:not([fill]),svg g.ln-vm>rect:not([fill]){fill:none}svg .thick,svg g.thick>*{stroke-width:2.6}svg text{fill:var(--ink);font-family:var(--f-body)}svg .tk{font-family:var(--f-display);font-size:17px;font-weight:600}svg .ts{font-size:13px}svg .tm{font-family:var(--f-mono);font-size:11px}svg .c{text-anchor:middle}svg text.cu{fill:var(--cu)}svg text.vg{fill:var(--vg)}svg text.pb{fill:var(--pb)}svg text.vm{fill:var(--vm)}.m .sq>.rt path{fill:none;stroke:currentColor;stroke-width:1px;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}.m .sq>.rt path.rh{stroke-width:1.6px}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg aria-label="선분의 비유 — 네 칸의 비율을 지키면 가운데 두 칸 B와 C는 언제나 같다" height="100%" role="img" viewBox="0 0 480 210" width="100%" xmlns="http://www.w3.org/2000/svg">
+<line class="ln thick" x1="40" x2="440" y1="110" y2="110"></line>
+<g class="ln"><line x1="40" x2="40" y1="98" y2="122"></line><line x1="84.4" x2="84.4" y1="98" y2="122"></line><line x1="173.3" x2="173.3" y1="98" y2="122"></line><line x1="262.2" x2="262.2" y1="98" y2="122"></line><line x1="440" x2="440" y1="98" y2="122"></line></g>
+<rect class="ln-cu" fill="url(#h-cu)" height="12" width="133.3" x="40" y="104"></rect>
+<rect class="ln-pb" fill="url(#h-pb)" height="12" width="266.7" x="173.3" y="104"></rect>
+<text class="tm c" x="62" y="142">A 1/9</text><text class="tm c" x="129" y="142">B 2/9</text><text class="tm c" x="218" y="142">C 2/9</text><text class="tm c" x="351" y="142">D 4/9</text>
+<text class="tm c" x="62" y="160">그림자</text><text class="tm c" x="129" y="160">사물</text><text class="tm c" x="218" y="160">수학적 대상</text><text class="tm c" x="351" y="160">형상</text>
+<path class="ln-cu" d="M40,88 Q106,62 173,88"></path><text class="ts c cu" x="106" y="64">보이는 것 3/9</text>
+<path class="ln-pb" d="M173,88 Q306,48 440,88"></path><text class="ts c pb" x="306" y="56">생각되는 것 6/9</text>
+<text class="tk c" x="240" y="28">A : B = C : D = (A+B) : (C+D)</text>
+<text class="ts c vm" x="240" y="190">⇒ B = C (가운데 둘은 언제나 같다 · 어느 쪽이 긴지는 정하지 않는다)</text>
+</svg></svg>

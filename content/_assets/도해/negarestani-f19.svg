@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 480 300" width="480" height="300" class="figscroll fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDEFEA; --plate:#E3E6E0; --ink:#26221E; --ink-2:#5B5750; --rule:#C6CBC3; --mark:#B9BEB5;
+  --cu:#9A5B2E; --vg:#2F7D6D; --pb:#2B4C7E; --vm:#C2412B;
+  --cu-soft:rgba(154,91,46,.10); --vg-soft:rgba(47,125,109,.10); --pb-soft:rgba(43,76,126,.10); --vm-soft:rgba(194,65,43,.08);
+  --f-display:"Hahmlet","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo",serif;
+  --f-latin:"EB Garamond","Noto Serif KR",Georgia,serif;
+  --f-mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{--pad:1.6rem}}@media (min-width:52em){:root{--pad:2rem}}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}}:root[data-theme="dark"]{
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}.cu{color:var(--cu)}.vg{color:var(--vg)}.vm{color:var(--vm)}svg.defs{position:absolute;width:0;height:0;overflow:hidden}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-inline:var(--pad);padding-block:0 4rem}.lecture{display:contents}.webwrap svg{display:block;width:100%;height:auto}.sw-dot.cu{background:var(--cu)}.sw-dot.vg{background:var(--vg)}.sw-dot.vm{background:var(--vm)}figure.fig{border:1px solid var(--mark);background:var(--plate);padding:.75rem .75rem .6rem;margin-block:.6rem}.figscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;
+  background:linear-gradient(to right,var(--plate) 30%,transparent),linear-gradient(to left,var(--plate) 30%,transparent) 100% 0,
+  radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.18),transparent),radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.18),transparent) 100% 0;
+  background-repeat:no-repeat;background-size:2.2rem 100%,2.2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}figure.fig svg{display:block;width:100%;height:auto;min-width:27rem}@media (max-width:34rem){.doc>figure.fig,.lecture>figure.fig{width:calc(100% + var(--pad)*2);max-width:none;margin-inline:calc(var(--pad)*-1);border-inline:0;padding-inline:.6rem}}.terms li.cu{color:var(--cu);background:var(--cu-soft)}.terms li.vg{color:var(--vg);background:var(--vg-soft)}.terms li.vm{color:var(--vm);background:var(--vm-soft)}svg .ln,svg .ln-cu,svg .ln-vg,svg .ln-pb,svg .ln-vm{stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}svg .ln:not([fill]),svg .ln-cu:not([fill]),svg .ln-vg:not([fill]),svg .ln-pb:not([fill]),svg .ln-vm:not([fill]){fill:none}svg .ln{stroke:var(--ink)}svg .ln-cu{stroke:var(--cu)}svg .ln-vg{stroke:var(--vg)}svg .ln-vm{stroke:var(--vm)}svg g.ln-vg>rect:not([fill]),svg g.ln-cu>rect:not([fill]),svg g.ln-pb>rect:not([fill]),svg g.ln-vm>rect:not([fill]){fill:none}svg .thick,svg g.thick>*{stroke-width:2.6}svg .faint,svg g.faint>*,svg g>.faint{stroke:var(--mark)}svg .dash,svg g.dash>*{stroke-dasharray:4 4}svg text{fill:var(--ink);font-family:var(--f-body)}svg .tk{font-family:var(--f-display);font-size:17px;font-weight:600}svg .ts{font-size:13px}svg .tm{font-family:var(--f-mono);font-size:11px}svg .c{text-anchor:middle}svg .r{text-anchor:end}svg text.cu{fill:var(--cu)}svg text.vg{fill:var(--vg)}svg text.pb{fill:var(--pb)}svg text.vm{fill:var(--vm)}.m .sq>.rt path{fill:none;stroke:currentColor;stroke-width:1px;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}.m .sq>.rt path.rh{stroke-width:1.6px}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg aria-label="상태와 사건의 장부 — 사건의 선후는 사건끼리가 아니라 상태들을 거쳐 읽히고, 이행은 어떤 사건도 잊지 않을 때만 허락된다" height="100%" role="img" viewBox="0 0 480 300" width="100%" xmlns="http://www.w3.org/2000/svg">
+<text class="tk" x="20" y="26">계단</text>
+<line class="ln faint" marker-end="url(#ah)" x1="34" x2="226" y1="200" y2="200"></line>
+<line class="ln faint" marker-end="url(#ah)" x1="34" x2="34" y1="200" y2="46"></line>
+<text class="tm" x="42" y="54">정보</text>
+<text class="tm r" x="226" y="216">시간</text>
+<line class="ln-vg thick" x1="34" x2="92" y1="180" y2="180"></line>
+<line class="ln-cu thick" x1="92" x2="92" y1="180" y2="134"></line>
+<line class="ln-vg thick" x1="92" x2="152" y1="134" y2="134"></line>
+<line class="ln-cu thick" x1="152" x2="152" y1="134" y2="88"></line>
+<line class="ln-vg thick" x1="152" x2="212" y1="88" y2="88"></line>
+<text class="tm c vg" x="63" y="172">x₀</text><text class="tm c vg" x="122" y="126">x₁</text><text class="tm c vg" x="182" y="80">x₂</text>
+<text class="ts cu" x="98" y="162">a 불 켜짐</text>
+<text class="ts cu" x="158" y="116">b 문 열림</text>
+<text class="tm vg" x="20" y="238">상태 ─ 시간만 흐르고 정보는 그대로</text>
+<text class="tm cu" x="20" y="256">사건 │ 정보만 뛰고 시간은 멈춤</text>
+<line class="ln faint" x1="240" x2="240" y1="20" y2="250"></line>
+<text class="tk" x="256" y="26">잔여</text>
+<path class="ln" d="M334,70 Q355,48 376,70" marker-end="url(#ah)"></path>
+<path class="ln" d="M384,70 Q405,48 426,70" marker-end="url(#ah)"></path>
+<text class="tm c" x="380" y="42">이행 허락</text>
+<text class="tm c vg" x="330" y="86">x₀</text><text class="tm c vg" x="380" y="86">x₁</text><text class="tm c vg" x="430" y="86">x₂</text>
+<line class="ln faint" x1="306" x2="456" y1="94" y2="94"></line>
+<line class="ln faint" x1="306" x2="306" y1="74" y2="150"></line>
+<text class="ts c cu" x="292" y="116">a</text><text class="ts c cu" x="292" y="144">b</text>
+<text class="tm c" x="330" y="116">0</text><text class="tm c" x="380" y="116">1</text><text class="tm c" x="430" y="116">1</text>
+<text class="tm c" x="330" y="144">0</text><text class="tm c" x="380" y="144">0</text><text class="tm c" x="430" y="144">1</text>
+<rect class="ln-vg dash" height="54" rx="3" width="36" x="412" y="98"></rect>
+<path class="ln-vm dash" d="M426,158 Q405,182 384,158" marker-end="url(#ah-vm)"></path>
+<text class="tm c vm" x="405" y="198">x₂→x₁ 금지: b를 잊는다</text>
+<text class="tm" x="256" y="226">b=1인 상태는 x₂뿐, 거기서 a=1</text>
+<text class="tm vg" x="256" y="244">⇒ a가 b에 선행</text>
+<text class="tm" x="256" y="262">역으로는 x₁이 반례 (a=1, b=0)</text>
+<text class="ts c" x="240" y="290">사건끼리는 직접 비교되지 않는다 — 상태들을 거쳐서만</text>
+</svg></svg>

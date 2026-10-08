@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 480 334" width="480" height="334" class="figscroll fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDEFEA; --plate:#E3E6E0; --ink:#26221E; --ink-2:#5B5750; --rule:#C6CBC3; --mark:#B9BEB5;
+  --cu:#9A5B2E; --vg:#2F7D6D; --pb:#2B4C7E; --vm:#C2412B;
+  --cu-soft:rgba(154,91,46,.10); --vg-soft:rgba(47,125,109,.10); --pb-soft:rgba(43,76,126,.10); --vm-soft:rgba(194,65,43,.08);
+  --f-display:"Hahmlet","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo",serif;
+  --f-latin:"EB Garamond","Noto Serif KR",Georgia,serif;
+  --f-mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{--pad:1.6rem}}@media (min-width:52em){:root{--pad:2rem}}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}}:root[data-theme="dark"]{
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}.vg{color:var(--vg)}.pb{color:var(--pb)}.vm{color:var(--vm)}svg.defs{position:absolute;width:0;height:0;overflow:hidden}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-inline:var(--pad);padding-block:0 4rem}.lecture{display:contents}.webwrap svg{display:block;width:100%;height:auto}.sw-dot.vg{background:var(--vg)}.sw-dot.pb{background:var(--pb)}.sw-dot.vm{background:var(--vm)}figure.fig{border:1px solid var(--mark);background:var(--plate);padding:.75rem .75rem .6rem;margin-block:.6rem}.figscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;
+  background:linear-gradient(to right,var(--plate) 30%,transparent),linear-gradient(to left,var(--plate) 30%,transparent) 100% 0,
+  radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.18),transparent),radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.18),transparent) 100% 0;
+  background-repeat:no-repeat;background-size:2.2rem 100%,2.2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}figure.fig svg{display:block;width:100%;height:auto;min-width:27rem}@media (max-width:34rem){.doc>figure.fig,.lecture>figure.fig{width:calc(100% + var(--pad)*2);max-width:none;margin-inline:calc(var(--pad)*-1);border-inline:0;padding-inline:.6rem}}.terms li.vg{color:var(--vg);background:var(--vg-soft)}.terms li.pb{color:var(--pb);background:var(--pb-soft)}.terms li.vm{color:var(--vm);background:var(--vm-soft)}svg .ln,svg .ln-cu,svg .ln-vg,svg .ln-pb,svg .ln-vm{stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}svg .ln:not([fill]),svg .ln-cu:not([fill]),svg .ln-vg:not([fill]),svg .ln-pb:not([fill]),svg .ln-vm:not([fill]){fill:none}svg .ln{stroke:var(--ink)}svg g.ln-vg>rect:not([fill]),svg g.ln-cu>rect:not([fill]),svg g.ln-pb>rect:not([fill]),svg g.ln-vm>rect:not([fill]){fill:none}svg .faint,svg g.faint>*,svg g>.faint{stroke:var(--mark)}svg .mk{fill:var(--ink)}svg .dot-vg,svg g.dot-vg>*{fill:var(--vg)}svg .dot-vm,svg g.dot-vm>*{fill:var(--vm)}svg text{fill:var(--ink);font-family:var(--f-body)}svg .ts{font-size:13px}svg .tm{font-family:var(--f-mono);font-size:11px}svg .c{text-anchor:middle}svg .r{text-anchor:end}svg text.cu{fill:var(--cu)}svg text.vg{fill:var(--vg)}svg text.pb{fill:var(--pb)}svg text.vm{fill:var(--vm)}.m .sq>.rt path{fill:none;stroke:currentColor;stroke-width:1px;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}.m .sq>.rt path.rh{stroke-width:1.6px}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg aria-label="여덟 막과 주소 — 여덟 막의 대화는 고르기와 범위 열기가 번갈아 주소를 한 칸씩 늘리는 일이다" height="100%" role="img" viewBox="0 0 480 334" width="100%" xmlns="http://www.w3.org/2000/svg">
+<text class="tm" x="20" y="20">점수 기록 = 주소 교환의 추적 · 막 배정은 원문을 정리한 재구성</text>
+<text class="ts c" x="140" y="46">A · 칸지(화자)</text>
+<text class="ts c vg" x="320" y="46">B · 수신자</text>
+<text class="ts c pb" x="430" y="46">주소</text>
+<line class="ln faint" x1="14" x2="466" y1="54" y2="54"></line>
+<polyline class="ln" points="226,72 226,96 254,120 226,144 254,168 226,192 254,216 226,240 254,264"></polyline>
+<text class="ts r" x="214" y="76">① 대상 {j}를 고른다</text><circle class="mk" cx="226" cy="72" r="3.5"></circle><text class="tm r pb" x="466" y="76">ξ.j</text><text class="ts r" x="214" y="100">② 속성의 범위를 연다 {0}</text><circle class="mk" cx="226" cy="96" r="3.5"></circle><text class="tm r pb" x="466" y="100">ξ.j.0</text><text class="ts vg" x="266" y="124">③ 속성을 고를 자격</text><circle class="dot-vg" cx="254" cy="120" r="3.5"></circle><text class="ts r" x="214" y="148">④ 속성 {k} · 값의 범위 {0}</text><circle class="mk" cx="226" cy="144" r="3.5"></circle><text class="tm r pb" x="466" y="148">ξ.j.0.k.0</text><text class="ts vg" x="266" y="172">⑤ 값을 고를 자격</text><circle class="dot-vg" cx="254" cy="168" r="3.5"></circle><text class="ts r" x="214" y="196">⑥ 값 {c} · 양상의 범위 {0}</text><circle class="mk" cx="226" cy="192" r="3.5"></circle><text class="tm r pb" x="466" y="196">ξ.j.0.k.0.c.0</text><text class="ts vg" x="266" y="220">⑦ 양상 {0, 1}을 내준다</text><circle class="dot-vg" cx="254" cy="216" r="3.5"></circle><text class="ts r" x="214" y="244">⑧ 양상 {1} · 인정을 기다린다</text><circle class="mk" cx="226" cy="240" r="3.5"></circle><text class="ts vm" x="266" y="268">✠ 다이몬 — 닫기</text><circle class="dot-vm" cx="254" cy="264" r="3.5"></circle>
+<line class="ln faint" x1="14" x2="466" y1="288" y2="288"></line>
+<text class="tm" x="20" y="306">B가 대비할 가지: 대상 5 × 속성 4 × 값 3 × 양상 2 = 120</text>
+<text class="tm vg" x="20" y="324">한 번의 대화가 밟는 길은 하나 — 모노리스 · 색 · 검정 · 참</text>
+</svg></svg>

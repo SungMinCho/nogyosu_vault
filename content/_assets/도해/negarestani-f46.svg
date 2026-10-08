@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 480 300" width="480" height="300" class="figscroll fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDEFEA; --plate:#E3E6E0; --ink:#26221E; --ink-2:#5B5750; --rule:#C6CBC3; --mark:#B9BEB5;
+  --cu:#9A5B2E; --vg:#2F7D6D; --pb:#2B4C7E; --vm:#C2412B;
+  --cu-soft:rgba(154,91,46,.10); --vg-soft:rgba(47,125,109,.10); --pb-soft:rgba(43,76,126,.10); --vm-soft:rgba(194,65,43,.08);
+  --f-display:"Hahmlet","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo",serif;
+  --f-latin:"EB Garamond","Noto Serif KR",Georgia,serif;
+  --f-mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{--pad:1.6rem}}@media (min-width:52em){:root{--pad:2rem}}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}}:root[data-theme="dark"]{
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}.cu{color:var(--cu)}.vg{color:var(--vg)}.pb{color:var(--pb)}.vm{color:var(--vm)}svg.defs{position:absolute;width:0;height:0;overflow:hidden}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-inline:var(--pad);padding-block:0 4rem}.lecture{display:contents}.webwrap svg{display:block;width:100%;height:auto}.sw-dot.cu{background:var(--cu)}.sw-dot.vg{background:var(--vg)}.sw-dot.pb{background:var(--pb)}.sw-dot.vm{background:var(--vm)}figure.fig{border:1px solid var(--mark);background:var(--plate);padding:.75rem .75rem .6rem;margin-block:.6rem}.figscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;
+  background:linear-gradient(to right,var(--plate) 30%,transparent),linear-gradient(to left,var(--plate) 30%,transparent) 100% 0,
+  radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.18),transparent),radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.18),transparent) 100% 0;
+  background-repeat:no-repeat;background-size:2.2rem 100%,2.2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}figure.fig svg{display:block;width:100%;height:auto;min-width:27rem}@media (max-width:34rem){.doc>figure.fig,.lecture>figure.fig{width:calc(100% + var(--pad)*2);max-width:none;margin-inline:calc(var(--pad)*-1);border-inline:0;padding-inline:.6rem}}.terms li.cu{color:var(--cu);background:var(--cu-soft)}.terms li.vg{color:var(--vg);background:var(--vg-soft)}.terms li.pb{color:var(--pb);background:var(--pb-soft)}.terms li.vm{color:var(--vm);background:var(--vm-soft)}svg .ln,svg .ln-cu,svg .ln-vg,svg .ln-pb,svg .ln-vm{stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}svg .ln:not([fill]),svg .ln-cu:not([fill]),svg .ln-vg:not([fill]),svg .ln-pb:not([fill]),svg .ln-vm:not([fill]){fill:none}svg .ln{stroke:var(--ink)}svg .ln-cu{stroke:var(--cu)}svg .ln-vg{stroke:var(--vg)}svg .ln-pb{stroke:var(--pb)}svg .ln-vm{stroke:var(--vm)}svg g.ln-vg>rect:not([fill]),svg g.ln-cu>rect:not([fill]),svg g.ln-pb>rect:not([fill]),svg g.ln-vm>rect:not([fill]){fill:none}svg .thick,svg g.thick>*{stroke-width:2.6}svg .faint,svg g.faint>*,svg g>.faint{stroke:var(--mark)}svg .dash,svg g.dash>*{stroke-dasharray:4 4}svg text{fill:var(--ink);font-family:var(--f-body)}svg .ts{font-size:13px}svg .tm{font-family:var(--f-mono);font-size:11px}svg .c{text-anchor:middle}svg text.cu{fill:var(--cu)}svg text.vg{fill:var(--vg)}svg text.pb{fill:var(--pb)}svg text.vm{fill:var(--vm)}.m .sq>.rt path{fill:none;stroke:currentColor;stroke-width:1px;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}.m .sq>.rt path.rh{stroke-width:1.6px}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg aria-label="파괴자와 구성자 — 파괴자가 구성자를 만나면 우회가 사라진다 — 플라톤은 사유 : 존재를 부수고 사유 : 형식적 비존재를 세웠다" height="100%" role="img" viewBox="0 0 480 300" width="100%" xmlns="http://www.w3.org/2000/svg">
+<text class="ts" x="16" y="26">장난감 계산 · 튜플</text>
+<rect class="ln" height="26" rx="2" width="104" x="16" y="56"></rect><text class="tm c" x="68" y="73">a : α,  b : β</text>
+<line class="ln-pb" marker-end="url(#ah-pb)" x1="122" x2="170" y1="69" y2="69"></line>
+<text class="ts c pb" x="146" y="50">구성자</text>
+<rect class="ln-pb" height="26" rx="2" width="116" x="174" y="56"></rect><text class="tm c" x="232" y="73">⟨a, b⟩ : α × β</text>
+<line class="ln" marker-end="url(#ah)" x1="292" x2="340" y1="69" y2="69"></line>
+<text class="ts c" x="316" y="50">파괴자 π₁</text>
+<rect class="ln" height="26" rx="2" width="72" x="344" y="56"></rect><text class="tm c" x="380" y="73">a : α</text>
+<path class="ln-vg dash" d="M40,84 C40,124 380,124 380,88" marker-end="url(#ah-vg)"></path>
+<text class="tm c vg" x="210" y="136">만들자마자 꺼내면 왕복이 사라지고 a만 남는다 = 계산</text>
+<line class="ln faint" x1="16" x2="464" y1="152" y2="152"></line>
+<text class="tm c" x="240" y="170">구성자 = 파르메니데스 · 파괴자 = 헤라클레이토스 (424쪽)</text>
+<text class="ts" x="16" y="198">플라톤의 타입 다시 쓰기 (433쪽)</text>
+<rect class="ln-cu" height="30" rx="2" width="120" x="16" y="212"></rect><text class="ts c" x="76" y="232">사유 : 존재</text>
+<line class="ln-vm" x1="24" x2="128" y1="227" y2="227"></line>
+<line class="ln-vm" x1="140" x2="190" y1="227" y2="227"></line>
+<line class="ln-pb" marker-end="url(#ah-pb)" x1="192" x2="244" y1="227" y2="227"></line>
+<text class="tm c vm" x="165" y="218">파괴자</text>
+<text class="tm c pb" x="218" y="218">구성자</text>
+<rect class="ln-pb thick" height="30" rx="2" width="170" x="248" y="212"></rect><text class="ts c" x="333" y="232">사유 : 형식적 비존재</text>
+<text class="tm cu" x="16" y="260">엘레아: 생각함과 있음은 같다</text>
+<text class="tm pb" x="248" y="260">비존재 = 다름 (『소피스트』 257b)</text>
+<text class="ts c vg" x="240" y="288">존재 물음을 사유의 객관적 타당성 물음으로 다시 써서 푼다</text>
+</svg></svg>

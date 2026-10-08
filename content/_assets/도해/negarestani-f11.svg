@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 480 296" width="480" height="296" class="figscroll fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDEFEA; --plate:#E3E6E0; --ink:#26221E; --ink-2:#5B5750; --rule:#C6CBC3; --mark:#B9BEB5;
+  --cu:#9A5B2E; --vg:#2F7D6D; --pb:#2B4C7E; --vm:#C2412B;
+  --cu-soft:rgba(154,91,46,.10); --vg-soft:rgba(47,125,109,.10); --pb-soft:rgba(43,76,126,.10); --vm-soft:rgba(194,65,43,.08);
+  --f-display:"Hahmlet","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo",serif;
+  --f-latin:"EB Garamond","Noto Serif KR",Georgia,serif;
+  --f-mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{--pad:1.6rem}}@media (min-width:52em){:root{--pad:2rem}}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}}:root[data-theme="dark"]{
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}.vg{color:var(--vg)}.vm{color:var(--vm)}svg.defs{position:absolute;width:0;height:0;overflow:hidden}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-inline:var(--pad);padding-block:0 4rem}.lecture{display:contents}.webwrap svg{display:block;width:100%;height:auto}.sw-dot.vg{background:var(--vg)}.sw-dot.vm{background:var(--vm)}figure.fig{border:1px solid var(--mark);background:var(--plate);padding:.75rem .75rem .6rem;margin-block:.6rem}.figscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;
+  background:linear-gradient(to right,var(--plate) 30%,transparent),linear-gradient(to left,var(--plate) 30%,transparent) 100% 0,
+  radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.18),transparent),radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.18),transparent) 100% 0;
+  background-repeat:no-repeat;background-size:2.2rem 100%,2.2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}figure.fig svg{display:block;width:100%;height:auto;min-width:27rem}@media (max-width:34rem){.doc>figure.fig,.lecture>figure.fig{width:calc(100% + var(--pad)*2);max-width:none;margin-inline:calc(var(--pad)*-1);border-inline:0;padding-inline:.6rem}}.terms li.vg{color:var(--vg);background:var(--vg-soft)}.terms li.vm{color:var(--vm);background:var(--vm-soft)}svg .ln,svg .ln-cu,svg .ln-vg,svg .ln-pb,svg .ln-vm{stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}svg .ln:not([fill]),svg .ln-cu:not([fill]),svg .ln-vg:not([fill]),svg .ln-pb:not([fill]),svg .ln-vm:not([fill]){fill:none}svg .ln-vg{stroke:var(--vg)}svg .ln-pb{stroke:var(--pb)}svg .ln-vm{stroke:var(--vm)}svg g.ln-vg>rect:not([fill]),svg g.ln-cu>rect:not([fill]),svg g.ln-pb>rect:not([fill]),svg g.ln-vm>rect:not([fill]){fill:none}svg .thick,svg g.thick>*{stroke-width:2.6}svg .dash,svg g.dash>*{stroke-dasharray:4 4}svg text{fill:var(--ink);font-family:var(--f-body)}svg .ts{font-size:13px}svg .tm{font-family:var(--f-mono);font-size:11px}svg .c{text-anchor:middle}svg text.cu{fill:var(--cu)}svg text.vg{fill:var(--vg)}svg text.pb{fill:var(--pb)}svg text.vm{fill:var(--vm)}.m .sq>.rt path{fill:none;stroke:currentColor;stroke-width:1px;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}.m .sq>.rt path.rh{stroke-width:1.6px}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg aria-label="판례법의 두 축 — 합리적 통합은 동료와 서로 인정하는 가로축과, 과거 판결을 가려 재구성하는 세로축으로 짜인다" height="100%" role="img" viewBox="0 0 480 296" width="100%" xmlns="http://www.w3.org/2000/svg">
+<text class="tm" x="16" y="34">과거</text>
+<text class="tm" x="16" y="143">지금</text>
+<text class="tm" x="16" y="230">미래</text>
+<g class="ln-vg">
+<rect height="24" width="58" x="70" y="18"></rect><rect height="24" width="58" x="142" y="18"></rect><rect height="24" width="58" x="214" y="18"></rect>
+</g>
+<rect class="ln-vm dash" height="24" width="58" x="286" y="18"></rect>
+<text class="tm c" x="99" y="34">판결₁</text><text class="tm c" x="171" y="34">판결₂</text><text class="tm c" x="243" y="34">판결₃</text><text class="tm c" x="315" y="34">판결₄</text>
+<line class="ln-vm" x1="286" x2="344" y1="42" y2="18"></line>
+<text class="tm vm" x="354" y="28">← 오늘이 가려냄</text>
+<text class="tm" x="354" y="44">과거를 향한 권위</text>
+<g class="ln-vg">
+<line marker-end="url(#ah-vg)" x1="99" x2="182" y1="42" y2="71"></line>
+<line marker-end="url(#ah-vg)" x1="171" x2="214" y1="42" y2="71"></line>
+<line marker-end="url(#ah-vg)" x1="243" x2="240" y1="42" y2="71"></line>
+</g>
+<rect class="ln-pb" fill="url(#h-pb)" fill-opacity="0.45" height="24" width="120" x="170" y="73"></rect>
+<text class="ts c" x="230" y="90">재구성된 원칙</text>
+<text class="tm" x="300" y="82">귀결은 포함</text><text class="tm" x="300" y="97">양립 불가는 배제</text>
+<line class="ln-pb" marker-end="url(#ah-pb)" x1="230" x2="230" y1="97" y2="124"></line>
+<rect class="ln-vg thick" height="26" width="120" x="170" y="126"></rect>
+<text class="ts c" x="230" y="144">오늘의 판결</text>
+<circle class="ln-vg" cx="96" cy="139" r="15"></circle><text class="ts c" x="96" y="144">너</text>
+<circle class="ln-vg" cx="364" cy="139" r="15"></circle><text class="ts c" x="364" y="144">그</text>
+<line class="ln-vg" marker-end="url(#ah-vg)" marker-start="url(#ah-vg)" x1="113" x2="167" y1="139" y2="139"></line>
+<line class="ln-vg" marker-end="url(#ah-vg)" marker-start="url(#ah-vg)" x1="293" x2="347" y1="139" y2="139"></line>
+<text class="tm c vg" x="140" y="130">점수 기록</text><text class="tm c vg" x="320" y="130">상호 인정</text>
+<g class="ln-vg dash">
+<rect height="24" width="76" x="142" y="214"></rect><rect height="24" width="76" x="242" y="214"></rect>
+</g>
+<text class="tm c" x="180" y="230">미래의 판결</text><text class="tm c" x="280" y="230">미래의 판결</text>
+<g class="ln-vg dash">
+<line marker-end="url(#ah-vg)" x1="180" x2="206" y1="214" y2="156"></line>
+<line marker-end="url(#ah-vg)" x1="280" x2="254" y1="214" y2="156"></line>
+</g>
+<text class="tm vg" x="328" y="222">← 미래가 평가</text>
+<text class="tm" x="328" y="238">미래를 향한 책임</text>
+<text class="tm c" x="240" y="266">가로축 · 지금 함께 있는 이들이 서로를 인정하며 점수를 적는다</text>
+<text class="tm c" x="240" y="284">세로축 · 과거 판단자들의 헌신을 통합해 지금의 통일을 짓는다</text>
+</svg></svg>

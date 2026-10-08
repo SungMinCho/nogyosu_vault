@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 480 300" width="480" height="300" class="figscroll fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDEFEA; --plate:#E3E6E0; --ink:#26221E; --ink-2:#5B5750; --rule:#C6CBC3; --mark:#B9BEB5;
+  --cu:#9A5B2E; --vg:#2F7D6D; --pb:#2B4C7E; --vm:#C2412B;
+  --cu-soft:rgba(154,91,46,.10); --vg-soft:rgba(47,125,109,.10); --pb-soft:rgba(43,76,126,.10); --vm-soft:rgba(194,65,43,.08);
+  --f-display:"Hahmlet","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo",serif;
+  --f-latin:"EB Garamond","Noto Serif KR",Georgia,serif;
+  --f-mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{--pad:1.6rem}}@media (min-width:52em){:root{--pad:2rem}}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}}:root[data-theme="dark"]{
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}.cu{color:var(--cu)}.pb{color:var(--pb)}.vm{color:var(--vm)}svg.defs{position:absolute;width:0;height:0;overflow:hidden}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-inline:var(--pad);padding-block:0 4rem}.lecture{display:contents}.webwrap svg{display:block;width:100%;height:auto}.sw-dot.cu{background:var(--cu)}.sw-dot.pb{background:var(--pb)}.sw-dot.vm{background:var(--vm)}figure.fig{border:1px solid var(--mark);background:var(--plate);padding:.75rem .75rem .6rem;margin-block:.6rem}.figscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;
+  background:linear-gradient(to right,var(--plate) 30%,transparent),linear-gradient(to left,var(--plate) 30%,transparent) 100% 0,
+  radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.18),transparent),radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.18),transparent) 100% 0;
+  background-repeat:no-repeat;background-size:2.2rem 100%,2.2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}figure.fig svg{display:block;width:100%;height:auto;min-width:27rem}@media (max-width:34rem){.doc>figure.fig,.lecture>figure.fig{width:calc(100% + var(--pad)*2);max-width:none;margin-inline:calc(var(--pad)*-1);border-inline:0;padding-inline:.6rem}}.terms li.cu{color:var(--cu);background:var(--cu-soft)}.terms li.pb{color:var(--pb);background:var(--pb-soft)}.terms li.vm{color:var(--vm);background:var(--vm-soft)}svg .ln,svg .ln-cu,svg .ln-vg,svg .ln-pb,svg .ln-vm{stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}svg .ln:not([fill]),svg .ln-cu:not([fill]),svg .ln-vg:not([fill]),svg .ln-pb:not([fill]),svg .ln-vm:not([fill]){fill:none}svg .ln{stroke:var(--ink)}svg .ln-cu{stroke:var(--cu)}svg .ln-pb{stroke:var(--pb)}svg .ln-vm{stroke:var(--vm)}svg g.ln-vg>rect:not([fill]),svg g.ln-cu>rect:not([fill]),svg g.ln-pb>rect:not([fill]),svg g.ln-vm>rect:not([fill]){fill:none}svg .faint,svg g.faint>*,svg g>.faint{stroke:var(--mark)}svg .dot-cu,svg g.dot-cu>*{fill:var(--cu)}svg text{fill:var(--ink);font-family:var(--f-body)}svg .tk{font-family:var(--f-display);font-size:17px;font-weight:600}svg .ts{font-size:13px}svg .tm{font-family:var(--f-mono);font-size:11px}svg .c{text-anchor:middle}svg .r{text-anchor:end}svg text.cu{fill:var(--cu)}svg text.vg{fill:var(--vg)}svg text.pb{fill:var(--pb)}svg text.vm{fill:var(--vm)}.m .sq>.rt path{fill:none;stroke:currentColor;stroke-width:1px;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}.m .sq>.rt path.rh{stroke-width:1.6px}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg aria-label="촘스키 지도 위의 얇은 띠 — 교차 의존 때문에 자연 언어는 문맥 자유를 조금 넘지만, 촘스키 위계 전체에서 보면 얇은 띠에 몰려 있다" height="100%" role="img" viewBox="0 0 480 300" width="100%" xmlns="http://www.w3.org/2000/svg">
+<text class="tk" x="16" y="26">중첩과 교차</text>
+<path class="ln-pb" d="M36,90 C36,36.7 196,36.7 196,90"></path><path class="ln-pb" d="M66,90 C66,52.7 166,52.7 166,90"></path><path class="ln-pb" d="M96,90 C96,68.7 136,68.7 136,90"></path><path class="ln-vm" d="M36,182 C36,136.7 136,136.7 136,182"></path><path class="ln-vm" d="M66,182 C66,136.7 166,136.7 166,182"></path><path class="ln-vm" d="M96,182 C96,136.7 196,136.7 196,182"></path><text class="tm c" x="36" y="104">n₁</text><text class="tm c" x="66" y="104">n₂</text><text class="tm c" x="96" y="104">n₃</text><text class="tm c" x="136" y="104">v₃</text><text class="tm c" x="166" y="104">v₂</text><text class="tm c" x="196" y="104">v₁</text><text class="tm c" x="36" y="196">n₁</text><text class="tm c" x="66" y="196">n₂</text><text class="tm c" x="96" y="196">n₃</text><text class="tm c" x="136" y="196">v₁</text><text class="tm c" x="166" y="196">v₂</text><text class="tm c" x="196" y="196">v₃</text>
+<text class="ts pb" x="16" y="124">중첩 → 문맥 자유로 된다</text>
+<text class="ts vm" x="16" y="216">교차 → 문맥 자유로는 안 된다</text>
+<text class="tm" x="16" y="233">aᵐbⁿcᵐdⁿ · 스위스 독일어 (쉬버)</text>
+<text class="tm" x="16" y="264">{a,b} 길이 ≤ 3 문자열 15개</text>
+<text class="tm" x="16" y="281">→ 언어만 2¹⁵ = 32,768개</text>
+<line class="ln faint" x1="236" x2="236" y1="16" y2="292"></line>
+<text class="tk" x="252" y="26">촘스키 지도</text>
+<path class="ln-pb" d="M246,236 A112,112 0 0 1 470,236"></path>
+<path class="ln-pb" d="M270,236 A88,88 0 0 1 446,236"></path>
+<path class="ln-cu" d="M292,236 A66,66 0 0 1 424,236 L414,236 A56,56 0 0 0 302,236 Z" fill="url(#h-cu)"></path>
+<path class="ln-pb" d="M302,236 A56,56 0 0 1 414,236"></path>
+<path class="ln-pb" d="M328,236 A30,30 0 0 1 388,236"></path>
+<line class="ln faint" x1="244" x2="472" y1="236" y2="236"></line>
+<text class="ts c" x="358" y="142">재귀 열거</text>
+<text class="ts c" x="358" y="165">문맥 의존</text>
+<text class="ts c" x="358" y="200">문맥 자유</text>
+<text class="ts c" x="358" y="231">정규</text>
+<line class="ln-cu" x1="326" x2="292" y1="184" y2="80"></line>
+<circle class="dot-cu" cx="327" cy="185" r="2.5"></circle>
+<text class="ts cu" x="252" y="56">자연 언어 = 얇은 띠</text>
+<text class="tm cu" x="252" y="72">가볍게 문맥 의존 (조시)</text>
+<text class="tm r" x="468" y="100">바깥: 어떤 기계로도</text>
+<text class="tm r" x="468" y="115">인식 못 하는 언어</text>
+<text class="tm vm" x="252" y="258">단서: 저자의 ‘일반 인공 언어’는</text>
+<text class="tm vm" x="252" y="274">통사-의미 접면과 상호작용을 갖춘 것</text>
+<text class="tm" x="252" y="290">모래알 전부보다 좁고, 띠보다 넓다</text>
+</svg></svg>

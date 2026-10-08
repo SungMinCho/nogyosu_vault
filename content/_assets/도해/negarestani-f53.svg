@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 480 306" width="480" height="306" class="figscroll fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDEFEA; --plate:#E3E6E0; --ink:#26221E; --ink-2:#5B5750; --rule:#C6CBC3; --mark:#B9BEB5;
+  --cu:#9A5B2E; --vg:#2F7D6D; --pb:#2B4C7E; --vm:#C2412B;
+  --cu-soft:rgba(154,91,46,.10); --vg-soft:rgba(47,125,109,.10); --pb-soft:rgba(43,76,126,.10); --vm-soft:rgba(194,65,43,.08);
+  --f-display:"Hahmlet","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo",serif;
+  --f-latin:"EB Garamond","Noto Serif KR",Georgia,serif;
+  --f-mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{--pad:1.6rem}}@media (min-width:52em){:root{--pad:2rem}}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}}:root[data-theme="dark"]{
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}.cu{color:var(--cu)}.vg{color:var(--vg)}.vm{color:var(--vm)}svg.defs{position:absolute;width:0;height:0;overflow:hidden}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-inline:var(--pad);padding-block:0 4rem}.lecture{display:contents}.webwrap svg{display:block;width:100%;height:auto}.sw-dot.cu{background:var(--cu)}.sw-dot.vg{background:var(--vg)}.sw-dot.vm{background:var(--vm)}figure.fig{border:1px solid var(--mark);background:var(--plate);padding:.75rem .75rem .6rem;margin-block:.6rem}.figscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;
+  background:linear-gradient(to right,var(--plate) 30%,transparent),linear-gradient(to left,var(--plate) 30%,transparent) 100% 0,
+  radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.18),transparent),radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.18),transparent) 100% 0;
+  background-repeat:no-repeat;background-size:2.2rem 100%,2.2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}figure.fig svg{display:block;width:100%;height:auto;min-width:27rem}@media (max-width:34rem){.doc>figure.fig,.lecture>figure.fig{width:calc(100% + var(--pad)*2);max-width:none;margin-inline:calc(var(--pad)*-1);border-inline:0;padding-inline:.6rem}}.terms li.cu{color:var(--cu);background:var(--cu-soft)}.terms li.vg{color:var(--vg);background:var(--vg-soft)}.terms li.vm{color:var(--vm);background:var(--vm-soft)}svg .ln,svg .ln-cu,svg .ln-vg,svg .ln-pb,svg .ln-vm{stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}svg .ln:not([fill]),svg .ln-cu:not([fill]),svg .ln-vg:not([fill]),svg .ln-pb:not([fill]),svg .ln-vm:not([fill]){fill:none}svg .ln{stroke:var(--ink)}svg g.ln-vg>rect:not([fill]),svg g.ln-cu>rect:not([fill]),svg g.ln-pb>rect:not([fill]),svg g.ln-vm>rect:not([fill]){fill:none}svg .thick,svg g.thick>*{stroke-width:2.6}svg .faint,svg g.faint>*,svg g>.faint{stroke:var(--mark)}svg .dash,svg g.dash>*{stroke-dasharray:4 4}svg .dot-cu,svg g.dot-cu>*{fill:var(--cu)}svg .dot-vg,svg g.dot-vg>*{fill:var(--vg)}svg text{fill:var(--ink);font-family:var(--f-body)}svg .ts{font-size:13px}svg .tm{font-family:var(--f-mono);font-size:11px}svg .c{text-anchor:middle}svg .r{text-anchor:end}svg text.cu{fill:var(--cu)}svg text.vg{fill:var(--vg)}svg text.pb{fill:var(--pb)}svg text.vm{fill:var(--vm)}.m .sq>.rt path{fill:none;stroke:currentColor;stroke-width:1px;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}.m .sq>.rt path.rh{stroke-width:1.6px}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg aria-label="10억 년을 하루로 — 10억 년을 하루로 접으면 과학적 자기 이해 전부가 자정 전 20분의 1초 안에 든다" height="100%" role="img" viewBox="0 0 480 306" width="100%" xmlns="http://www.w3.org/2000/svg"><line class="ln" x1="30" x2="450" y1="50" y2="50"></line><line class="ln" x1="30" x2="30" y1="46" y2="54"></line><line class="ln thick" x1="450" x2="450" y1="44" y2="56"></line><line class="ln" x1="30" x2="450" y1="114" y2="114"></line><line class="ln" x1="30" x2="30" y1="110" y2="118"></line><line class="ln thick" x1="450" x2="450" y1="108" y2="120"></line><line class="ln" x1="30" x2="450" y1="178" y2="178"></line><line class="ln" x1="30" x2="30" y1="174" y2="182"></line><line class="ln thick" x1="450" x2="450" y1="172" y2="184"></line><line class="ln" x1="30" x2="450" y1="242" y2="242"></line><line class="ln" x1="30" x2="30" y1="238" y2="246"></line><line class="ln thick" x1="450" x2="450" y1="236" y2="248"></line><line class="ln" x1="135.0" x2="135.0" y1="47" y2="53"></line><line class="ln" x1="240.0" x2="240.0" y1="47" y2="53"></line><line class="ln" x1="345.0" x2="345.0" y1="47" y2="53"></line><line class="ln dash" marker-end="url(#ah)" x1="462" x2="462" y1="54" y2="108"></line><line class="ln dash" marker-end="url(#ah)" x1="462" x2="462" y1="118" y2="172"></line><line class="ln dash" marker-end="url(#ah)" x1="462" x2="462" y1="182" y2="236"></line><text class="tm r" x="456" y="90">×2,880</text><text class="tm r" x="456" y="154">×60</text><text class="tm r" x="456" y="218">×10</text><line class="ln" x1="222.8" x2="222.8" y1="45" y2="55"></line><circle class="dot-cu" cx="222.8" cy="50" r="3.2"></circle><line class="ln" x1="86.0" x2="86.0" y1="109" y2="119"></line><circle class="dot-cu" cx="86.0" cy="114" r="3.2"></circle><line class="ln" x1="72.0" x2="72.0" y1="173" y2="183"></line><circle class="dot-vg" cx="72.0" cy="178" r="3.2"></circle><line class="ln" x1="265.2" x2="265.2" y1="173" y2="183"></line><circle class="dot-vg" cx="265.2" cy="178" r="3.2"></circle><line class="ln" x1="97.2" x2="97.2" y1="237" y2="247"></line><circle class="dot-vg" cx="97.2" cy="242" r="3.2"></circle><line class="ln" x1="206.4" x2="206.4" y1="237" y2="247"></line><circle class="dot-vg" cx="206.4" cy="242" r="3.2"></circle><line class="ln" x1="319.0" x2="319.0" y1="237" y2="247"></line><circle class="dot-vg" cx="319.0" cy="242" r="3.2"></circle><line class="ln" x1="329.0" x2="329.0" y1="237" y2="247"></line><circle class="dot-vg" cx="329.0" cy="242" r="3.2"></circle><line class="ln" x1="334.9" x2="334.9" y1="237" y2="247"></line><circle class="dot-vg" cx="334.9" cy="242" r="3.2"></circle>
+<text class="tm" x="30" y="68">0시 = 10억 년 전</text>
+<text class="tm r" x="450" y="40">자정 = 지금</text>
+<text class="tm r" x="450" y="68">1초 ≈ 11,574년</text>
+<text class="tm c cu" x="222.8" y="40">캄브리아기 · 오전 11:01</text>
+<text class="tm" x="30" y="132">자정 30초 전</text>
+<text class="tm c cu" x="86.0" y="104">호모 사피엔스 −26초</text>
+<text class="tm" x="30" y="196">0.5초 전</text>
+<text class="tm c vg" x="72.0" y="168">문자 −0.45</text>
+<text class="tm c vg" x="265.2" y="168">탈레스 −0.22</text>
+<text class="tm" x="30" y="260">0.05초 전</text>
+<text class="tm c vg" x="97.2" y="232">코페르니쿠스 −0.042</text>
+<text class="tm c vg" x="206.4" y="232">뉴턴 −0.029</text>
+<line class="ln faint" x1="319.0" x2="313.0" y1="236" y2="222"></line>
+<text class="tm r vg" x="313.0" y="218">『독일 이데올로기』 −0.016</text>
+<text class="tm c vg" x="329.0" y="260">다윈 −0.014</text>
+<text class="tm vg" x="340.9" y="232">『자본』 −0.014</text>
+<text class="tm vm" x="30" y="278">✕ 저자는 마르크스(‘한 세기 남짓’)를 다윈(‘150년’) 뒤에 둔다</text>
+<text class="ts c" x="240" y="298">과학적 자기 이해 전부가 하루의 마지막 0.05초 안에</text>
+</svg></svg>

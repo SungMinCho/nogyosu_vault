@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 480 300" width="480" height="300" class="figscroll fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDEFEA; --plate:#E3E6E0; --ink:#26221E; --ink-2:#5B5750; --rule:#C6CBC3; --mark:#B9BEB5;
+  --cu:#9A5B2E; --vg:#2F7D6D; --pb:#2B4C7E; --vm:#C2412B;
+  --cu-soft:rgba(154,91,46,.10); --vg-soft:rgba(47,125,109,.10); --pb-soft:rgba(43,76,126,.10); --vm-soft:rgba(194,65,43,.08);
+  --f-display:"Hahmlet","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo",serif;
+  --f-latin:"EB Garamond","Noto Serif KR",Georgia,serif;
+  --f-mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{--pad:1.6rem}}@media (min-width:52em){:root{--pad:2rem}}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}}:root[data-theme="dark"]{
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}.vg{color:var(--vg)}.pb{color:var(--pb)}.vm{color:var(--vm)}svg.defs{position:absolute;width:0;height:0;overflow:hidden}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-inline:var(--pad);padding-block:0 4rem}.lecture{display:contents}.webwrap svg{display:block;width:100%;height:auto}.sw-dot.vg{background:var(--vg)}.sw-dot.pb{background:var(--pb)}.sw-dot.vm{background:var(--vm)}figure.fig{border:1px solid var(--mark);background:var(--plate);padding:.75rem .75rem .6rem;margin-block:.6rem}.figscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;
+  background:linear-gradient(to right,var(--plate) 30%,transparent),linear-gradient(to left,var(--plate) 30%,transparent) 100% 0,
+  radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.18),transparent),radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.18),transparent) 100% 0;
+  background-repeat:no-repeat;background-size:2.2rem 100%,2.2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}figure.fig svg{display:block;width:100%;height:auto;min-width:27rem}@media (max-width:34rem){.doc>figure.fig,.lecture>figure.fig{width:calc(100% + var(--pad)*2);max-width:none;margin-inline:calc(var(--pad)*-1);border-inline:0;padding-inline:.6rem}}.terms li.vg{color:var(--vg);background:var(--vg-soft)}.terms li.pb{color:var(--pb);background:var(--pb-soft)}.terms li.vm{color:var(--vm);background:var(--vm-soft)}svg .ln,svg .ln-cu,svg .ln-vg,svg .ln-pb,svg .ln-vm{stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}svg .ln:not([fill]),svg .ln-cu:not([fill]),svg .ln-vg:not([fill]),svg .ln-pb:not([fill]),svg .ln-vm:not([fill]){fill:none}svg .ln{stroke:var(--ink)}svg .ln-vg{stroke:var(--vg)}svg .ln-pb{stroke:var(--pb)}svg .ln-vm{stroke:var(--vm)}svg g.ln-vg>rect:not([fill]),svg g.ln-cu>rect:not([fill]),svg g.ln-pb>rect:not([fill]),svg g.ln-vm>rect:not([fill]){fill:none}svg .thick,svg g.thick>*{stroke-width:2.6}svg .dash,svg g.dash>*{stroke-dasharray:4 4}svg .bg,svg .bg:not([fill]){fill:var(--plate)}svg text{fill:var(--ink);font-family:var(--f-body)}svg .ts{font-size:13px}svg .tm{font-family:var(--f-mono);font-size:11px}svg .c{text-anchor:middle}svg .r{text-anchor:end}svg text.cu{fill:var(--cu)}svg text.vg{fill:var(--vg)}svg text.pb{fill:var(--pb)}svg text.vm{fill:var(--vm)}.m .sq>.rt path{fill:none;stroke:currentColor;stroke-width:1px;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}.m .sq>.rt path.rh{stroke-width:1.6px}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg aria-label="어느 λ가 합리적인가 — 정칙 c 함수는 λ마다 다르게 배우지만, 처음 8개가 비초록이면 모두 m = 8에서 ½을 지난다" height="100%" role="img" viewBox="0 0 480 300" width="100%" xmlns="http://www.w3.org/2000/svg">
+<text class="tm" x="20" y="20">처음 8개 비초록, 그 뒤 초록 m개일 때</text><text class="tm" x="20" y="36">P(다음 초록) = (m + λ/2) / (m + 8 + λ)</text>
+<line class="ln" x1="60" x2="404" y1="240" y2="240"></line>
+<line class="ln" x1="60" x2="60" y1="240" y2="46"></line>
+<text class="tm r" x="54" y="244">0</text><text class="tm r" x="54" y="149.0">0.5</text><text class="tm r" x="54" y="54.0">1</text>
+<line class="ln" x1="56" x2="60" y1="50.0" y2="50.0"></line>
+<text class="tm c" x="60" y="256">0</text><text class="tm c pb" x="173.3" y="256">8</text><text class="tm c" x="400.0" y="256">24</text><text class="tm" x="414" y="244">m</text>
+<line class="ln-pb dash" x1="173.3" x2="173.3" y1="240" y2="145.0"></line>
+<line class="ln-vm dash" x1="60" x2="400.0" y1="145.0" y2="145.0"></line>
+<polyline class="ln-vg dash" points="60.0,152.0 67.1,151.6 74.2,151.1 81.2,150.6 88.3,150.2 95.4,149.7 102.5,149.3 109.6,148.8 116.7,148.4 123.8,148.0 130.8,147.5 137.9,147.1 145.0,146.7 152.1,146.2 159.2,145.8 166.2,145.4 173.3,145.0 180.4,144.6 187.5,144.2 194.6,143.8 201.7,143.4 208.8,143.0 215.8,142.6 222.9,142.2 230.0,141.8 237.1,141.5 244.2,141.1 251.2,140.7 258.3,140.3 265.4,140.0 272.5,139.6 279.6,139.2 286.7,138.9 293.8,138.5 300.8,138.2 307.9,137.8 315.0,137.5 322.1,137.1 329.2,136.8 336.2,136.4 343.3,136.1 350.4,135.8 357.5,135.4 364.6,135.1 371.7,134.8 378.8,134.4 385.8,134.1 392.9,133.8 400.0,133.5"></polyline>
+<polyline class="ln-vg thick" points="60.0,221.0 67.1,212.9 74.2,205.5 81.2,198.7 88.3,192.5 95.4,186.8 102.5,181.5 109.6,176.7 116.7,172.1 123.8,167.9 130.8,164.0 137.9,160.3 145.0,156.9 152.1,153.6 159.2,150.6 166.2,147.7 173.3,145.0 180.4,142.4 187.5,140.0 194.6,137.7 201.7,135.5 208.8,133.4 215.8,131.4 222.9,129.5 230.0,127.7 237.1,126.0 244.2,124.3 251.2,122.8 258.3,121.2 265.4,119.8 272.5,118.4 279.6,117.1 286.7,115.8 293.8,114.5 300.8,113.3 307.9,112.2 315.0,111.1 322.1,110.0 329.2,109.0 336.2,108.0 343.3,107.0 350.4,106.1 357.5,105.2 364.6,104.3 371.7,103.4 378.8,102.6 385.8,101.8 392.9,101.0 400.0,100.3"></polyline>
+<circle class="bg" cx="173.3" cy="145.0" r="5"></circle><circle class="ln-pb thick" cx="173.3" cy="145.0" r="5"></circle>
+<text class="tm r vg" x="400.0" y="90.3">λ = 2 · c* · 라플라스</text>
+<text class="tm vg" x="406.0" y="134.5">λ = 100</text>
+<text class="tm vm" x="406.0" y="159.0">λ = ∞ · c†</text>
+<text class="tm pb" x="66" y="104">모두 m = 8에서 정확히 1/2</text>
+<text class="tm pb" x="66" y="120">λ가 깨끗이 소거된다</text>
+<text class="tm" x="185.3" y="171.0">m = 9면 넘는다: 0.526 · 0.504</text>
+<text class="tm r vm" x="470" y="62">저자의 m = 10⁷ → 0.9999991 (과잉)</text>
+<text class="ts" x="20" y="276">모두 정칙, 모두 베이즈 — 어느 λ가 합리적인가?</text>
+<text class="tm vm" x="20" y="293">넘는 m은 언제나 n + 1 · 계산하기 쉽다(cp2) → 대각선 악마의 연료</text>
+</svg></svg>

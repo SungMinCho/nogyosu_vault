@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 480 252" width="480" height="252" class="figscroll fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDEFEA; --plate:#E3E6E0; --ink:#26221E; --ink-2:#5B5750; --rule:#C6CBC3; --mark:#B9BEB5;
+  --cu:#9A5B2E; --vg:#2F7D6D; --pb:#2B4C7E; --vm:#C2412B;
+  --cu-soft:rgba(154,91,46,.10); --vg-soft:rgba(47,125,109,.10); --pb-soft:rgba(43,76,126,.10); --vm-soft:rgba(194,65,43,.08);
+  --f-display:"Hahmlet","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo",serif;
+  --f-latin:"EB Garamond","Noto Serif KR",Georgia,serif;
+  --f-mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{--pad:1.6rem}}@media (min-width:52em){:root{--pad:2rem}}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}}:root[data-theme="dark"]{
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}.vg{color:var(--vg)}.vm{color:var(--vm)}svg.defs{position:absolute;width:0;height:0;overflow:hidden}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-inline:var(--pad);padding-block:0 4rem}.lecture{display:contents}.webwrap svg{display:block;width:100%;height:auto}.sw-dot.vg{background:var(--vg)}.sw-dot.vm{background:var(--vm)}figure.fig{border:1px solid var(--mark);background:var(--plate);padding:.75rem .75rem .6rem;margin-block:.6rem}.figscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;
+  background:linear-gradient(to right,var(--plate) 30%,transparent),linear-gradient(to left,var(--plate) 30%,transparent) 100% 0,
+  radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.18),transparent),radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.18),transparent) 100% 0;
+  background-repeat:no-repeat;background-size:2.2rem 100%,2.2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}figure.fig svg{display:block;width:100%;height:auto;min-width:27rem}@media (max-width:34rem){.doc>figure.fig,.lecture>figure.fig{width:calc(100% + var(--pad)*2);max-width:none;margin-inline:calc(var(--pad)*-1);border-inline:0;padding-inline:.6rem}}.terms li.vg{color:var(--vg);background:var(--vg-soft)}.terms li.vm{color:var(--vm);background:var(--vm-soft)}svg .ln,svg .ln-cu,svg .ln-vg,svg .ln-pb,svg .ln-vm{stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}svg .ln:not([fill]),svg .ln-cu:not([fill]),svg .ln-vg:not([fill]),svg .ln-pb:not([fill]),svg .ln-vm:not([fill]){fill:none}svg .ln{stroke:var(--ink)}svg .ln-cu{stroke:var(--cu)}svg .ln-vg{stroke:var(--vg)}svg g.ln-vg>rect:not([fill]),svg g.ln-cu>rect:not([fill]),svg g.ln-pb>rect:not([fill]),svg g.ln-vm>rect:not([fill]){fill:none}svg .faint,svg g.faint>*,svg g>.faint{stroke:var(--mark)}svg .dash,svg g.dash>*{stroke-dasharray:4 4}svg .dot-cu,svg g.dot-cu>*{fill:var(--cu)}svg text{fill:var(--ink);font-family:var(--f-body)}svg .tk{font-family:var(--f-display);font-size:17px;font-weight:600}svg .ts{font-size:13px}svg .tm{font-family:var(--f-mono);font-size:11px}svg text.cu{fill:var(--cu)}svg text.vg{fill:var(--vg)}svg text.pb{fill:var(--pb)}svg text.vm{fill:var(--vm)}.m .sq>.rt path{fill:none;stroke:currentColor;stroke-width:1px;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}.m .sq>.rt path.rh{stroke-width:1.6px}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg aria-label="지표와 상징 — 지표의 일대일 사상은 관계를 덮지 못하고, 상징은 지표 위에 관계의 그물을 짓는다" height="100%" role="img" viewBox="0 0 480 252" width="100%" xmlns="http://www.w3.org/2000/svg">
+<text class="tk" x="20" y="26">지표 · 그림</text>
+<g class="dot-cu"><circle cx="40" cy="60" r="5"></circle><circle cx="40" cy="96" r="5"></circle><circle cx="40" cy="132" r="5"></circle><circle cx="40" cy="168" r="5"></circle></g>
+<g class="ln-cu"><rect height="14" width="30" x="150" y="53"></rect><rect height="14" width="30" x="150" y="89"></rect><rect height="14" width="30" x="150" y="125"></rect><rect height="14" width="30" x="150" y="161"></rect></g>
+<g class="ln"><line marker-end="url(#ah)" x1="46" x2="148" y1="60" y2="60"></line><line marker-end="url(#ah)" x1="46" x2="148" y1="96" y2="96"></line><line marker-end="url(#ah)" x1="46" x2="148" y1="132" y2="132"></line><line marker-end="url(#ah)" x1="46" x2="148" y1="168" y2="168"></line></g>
+<text class="ts" x="20" y="204">일대일 사상은 관계를 덮지 못한다</text>
+<text class="tm vm" x="20" y="222">10 → 45 → 1,485 → 1,185,030</text>
+<text class="tm" x="20" y="240">관계를 다시 그리면 세 라운드에</text>
+<line class="ln faint" x1="236" x2="236" y1="20" y2="236"></line>
+<text class="tk" x="256" y="26">상징</text>
+<g class="ln-vg">
+<line x1="290" x2="360" y1="70" y2="56"></line><line x1="360" x2="430" y1="56" y2="84"></line><line x1="290" x2="330" y1="70" y2="120"></line><line x1="330" x2="430" y1="120" y2="84"></line><line x1="330" x2="400" y1="120" y2="140"></line><line x1="400" x2="430" y1="140" y2="84"></line><line x1="360" x2="400" y1="56" y2="140"></line><line x1="290" x2="270" y1="70" y2="140"></line><line x1="270" x2="330" y1="140" y2="120"></line></g>
+<g class="nd-vg"><circle cx="290" cy="70" r="7"></circle><circle cx="360" cy="56" r="7"></circle><circle cx="430" cy="84" r="7"></circle><circle cx="330" cy="120" r="7"></circle><circle cx="400" cy="140" r="7"></circle><circle cx="270" cy="140" r="7"></circle></g>
+<g class="ln-cu dash"><line x1="330" x2="330" y1="127" y2="180"></line><line x1="400" x2="410" y1="147" y2="180"></line></g>
+<g class="dot-cu"><circle cx="330" cy="184" r="4"></circle><circle cx="410" cy="184" r="4"></circle></g>
+<text class="ts" x="256" y="206">세계의 그림은 상징 사이의</text><text class="ts" x="256" y="222">실에 걸린다</text>
+<text class="tm vg" x="256" y="240">지표 위에, 지표로가 아니라</text>
+</svg></svg>

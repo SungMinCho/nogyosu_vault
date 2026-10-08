@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 480 306" width="480" height="306" class="figscroll fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDEFEA; --plate:#E3E6E0; --ink:#26221E; --ink-2:#5B5750; --rule:#C6CBC3; --mark:#B9BEB5;
+  --cu:#9A5B2E; --vg:#2F7D6D; --pb:#2B4C7E; --vm:#C2412B;
+  --cu-soft:rgba(154,91,46,.10); --vg-soft:rgba(47,125,109,.10); --pb-soft:rgba(43,76,126,.10); --vm-soft:rgba(194,65,43,.08);
+  --f-display:"Hahmlet","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo",serif;
+  --f-latin:"EB Garamond","Noto Serif KR",Georgia,serif;
+  --f-mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{--pad:1.6rem}}@media (min-width:52em){:root{--pad:2rem}}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}}:root[data-theme="dark"]{
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}.cu{color:var(--cu)}.pb{color:var(--pb)}.vm{color:var(--vm)}svg.defs{position:absolute;width:0;height:0;overflow:hidden}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-inline:var(--pad);padding-block:0 4rem}.lecture{display:contents}.webwrap svg{display:block;width:100%;height:auto}.sw-dot.cu{background:var(--cu)}.sw-dot.pb{background:var(--pb)}.sw-dot.vm{background:var(--vm)}figure.fig{border:1px solid var(--mark);background:var(--plate);padding:.75rem .75rem .6rem;margin-block:.6rem}.figscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;
+  background:linear-gradient(to right,var(--plate) 30%,transparent),linear-gradient(to left,var(--plate) 30%,transparent) 100% 0,
+  radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.18),transparent),radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.18),transparent) 100% 0;
+  background-repeat:no-repeat;background-size:2.2rem 100%,2.2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}figure.fig svg{display:block;width:100%;height:auto;min-width:27rem}@media (max-width:34rem){.doc>figure.fig,.lecture>figure.fig{width:calc(100% + var(--pad)*2);max-width:none;margin-inline:calc(var(--pad)*-1);border-inline:0;padding-inline:.6rem}}.terms li.cu{color:var(--cu);background:var(--cu-soft)}.terms li.pb{color:var(--pb);background:var(--pb-soft)}.terms li.vm{color:var(--vm);background:var(--vm-soft)}svg .ln,svg .ln-cu,svg .ln-vg,svg .ln-pb,svg .ln-vm{stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}svg .ln:not([fill]),svg .ln-cu:not([fill]),svg .ln-vg:not([fill]),svg .ln-pb:not([fill]),svg .ln-vm:not([fill]){fill:none}svg .ln{stroke:var(--ink)}svg .ln-cu{stroke:var(--cu)}svg .ln-pb{stroke:var(--pb)}svg g.ln-vg>rect:not([fill]),svg g.ln-cu>rect:not([fill]),svg g.ln-pb>rect:not([fill]),svg g.ln-vm>rect:not([fill]){fill:none}svg .thick,svg g.thick>*{stroke-width:2.6}svg .faint,svg g.faint>*,svg g>.faint{stroke:var(--mark)}svg .dash,svg g.dash>*{stroke-dasharray:4 4}svg .dot-cu,svg g.dot-cu>*{fill:var(--cu)}svg text{fill:var(--ink);font-family:var(--f-body)}svg .tk{font-family:var(--f-display);font-size:17px;font-weight:600}svg .ts{font-size:13px}svg .tm{font-family:var(--f-mono);font-size:11px}svg .c{text-anchor:middle}svg .r{text-anchor:end}svg text.cu{fill:var(--cu)}svg text.vg{fill:var(--vg)}svg text.pb{fill:var(--pb)}svg text.vm{fill:var(--vm)}.m .sq>.rt path{fill:none;stroke:currentColor;stroke-width:1px;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}.m .sq>.rt path.rh{stroke-width:1.6px}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg aria-label="세는 지성, 쥐는 이성 — 지성은 과거 상태를 끝없이 거슬러 세다 이율배반에 막히고, 이성은 그 계열 전체를 하나로 쥔다" height="100%" role="img" viewBox="0 0 480 306" width="100%" xmlns="http://www.w3.org/2000/svg">
+<text class="tk" x="16" y="28">지성 · 나쁜 무한</text>
+<text class="tm r cu" x="464" y="28">앞선 상태를 하나씩 거슬러 센다</text>
+<line class="ln-cu" marker-end="url(#ah-cu)" x1="431" x2="389" y1="84" y2="84"></line><line class="ln-cu" marker-end="url(#ah-cu)" x1="371" x2="329" y1="84" y2="84"></line><line class="ln-cu" marker-end="url(#ah-cu)" x1="311" x2="269" y1="84" y2="84"></line><line class="ln-cu" marker-end="url(#ah-cu)" x1="251" x2="209" y1="84" y2="84"></line><circle class="dot-cu" cx="440" cy="84" r="6"></circle><circle class="dot-cu" cx="380" cy="84" r="4"></circle><circle class="dot-cu" cx="320" cy="84" r="4"></circle><circle class="dot-cu" cx="260" cy="84" r="4"></circle><circle class="dot-cu" cx="200" cy="84" r="4"></circle>
+<text class="ts c" x="440" y="108">지금</text>
+<line class="ln-cu" x1="193" x2="152" y1="80" y2="54"></line>
+<line class="ln thick" x1="146" x2="146" y1="38" y2="68"></line>
+<text class="ts r" x="136" y="50">정립: 시작이 있다</text>
+<text class="tm r vm" x="136" y="66">그 전엔?</text>
+<line class="ln-cu dash" x1="193" x2="156" y1="88" y2="112"></line>
+<g class="dot-cu"><circle cx="146" cy="118" r="1.8"></circle><circle cx="136" cy="124" r="1.8"></circle><circle cx="126" cy="130" r="1.8"></circle></g>
+<text class="ts r" x="116" y="128">반정립: 끝이 없다</text>
+<text class="tm r vm" x="116" y="144">지금까지 어떻게?</text>
+<text class="tm r vm" x="464" y="140">둘 다 귀류법으로 ‘증명’된다 → 이율배반</text>
+<line class="ln faint" x1="16" x2="464" y1="160" y2="160"></line>
+<text class="tk" x="16" y="188">이성 · 참된 무한</text>
+<text class="ts c pb" x="292" y="204">계열 전체를 하나의 개념으로 쥔다 — 세지 않는다</text>
+<rect class="ln-pb" fill="url(#h-pb)" fill-opacity="0.35" height="40" rx="20" width="424" x="40" y="214"></rect>
+<line class="ln-pb" x1="64" x2="440" y1="234" y2="234"></line>
+<g class="dot-cu"><circle cx="64" cy="234" r="1.8"></circle><circle cx="82" cy="234" r="2.2"></circle><circle cx="102" cy="234" r="2.6"></circle><circle cx="124" cy="234" r="3"></circle><circle cx="148" cy="234" r="3.4"></circle><circle cx="174" cy="234" r="3.8"></circle></g>
+<circle class="dot-cu" cx="440" cy="234" r="6"></circle><circle class="dot-cu" cx="380" cy="234" r="4"></circle><circle class="dot-cu" cx="320" cy="234" r="4"></circle><circle class="dot-cu" cx="260" cy="234" r="4"></circle><circle class="dot-cu" cx="200" cy="234" r="4"></circle>
+<text class="tm c" x="240" y="276">자연수를 끝없이 세는 사람 ↔ 집합 ℕ을 한 대상으로 쥐는 수학자</text>
+<text class="ts c vm" x="240" y="297">이율배반은 절대자를 과거 상태의 계열로 센 지성의 거짓 문제</text>
+</svg></svg>

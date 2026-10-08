@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 480 310" width="480" height="310" class="figscroll fig lecture doc"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#EDEFEA; --plate:#E3E6E0; --ink:#26221E; --ink-2:#5B5750; --rule:#C6CBC3; --mark:#B9BEB5;
+  --cu:#9A5B2E; --vg:#2F7D6D; --pb:#2B4C7E; --vm:#C2412B;
+  --cu-soft:rgba(154,91,46,.10); --vg-soft:rgba(47,125,109,.10); --pb-soft:rgba(43,76,126,.10); --vm-soft:rgba(194,65,43,.08);
+  --f-display:"Hahmlet","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo",serif;
+  --f-latin:"EB Garamond","Noto Serif KR",Georgia,serif;
+  --f-mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem;
+}@media (min-width:34em){:root{--pad:1.6rem}}@media (min-width:52em){:root{--pad:2rem}}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}}:root[data-theme="dark"]{
+  --paper:#151715; --plate:#1C1F1C; --ink:#E7E3DA; --ink-2:#A7A39A; --rule:#323632; --mark:#3D423D;
+  --cu:#D49261; --vg:#5DB5A1; --pb:#8AAADB; --vm:#E8705A;
+  --cu-soft:rgba(212,146,97,.13); --vg-soft:rgba(93,181,161,.12); --pb-soft:rgba(138,170,219,.12); --vm-soft:rgba(232,112,90,.10);
+  color-scheme:dark}.cu{color:var(--cu)}.pb{color:var(--pb)}.vm{color:var(--vm)}svg.defs{position:absolute;width:0;height:0;overflow:hidden}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-inline:var(--pad);padding-block:0 4rem}.lecture{display:contents}.webwrap svg{display:block;width:100%;height:auto}.sw-dot.cu{background:var(--cu)}.sw-dot.pb{background:var(--pb)}.sw-dot.vm{background:var(--vm)}figure.fig{border:1px solid var(--mark);background:var(--plate);padding:.75rem .75rem .6rem;margin-block:.6rem}.figscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;
+  background:linear-gradient(to right,var(--plate) 30%,transparent),linear-gradient(to left,var(--plate) 30%,transparent) 100% 0,
+  radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.18),transparent),radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.18),transparent) 100% 0;
+  background-repeat:no-repeat;background-size:2.2rem 100%,2.2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}figure.fig svg{display:block;width:100%;height:auto;min-width:27rem}@media (max-width:34rem){.doc>figure.fig,.lecture>figure.fig{width:calc(100% + var(--pad)*2);max-width:none;margin-inline:calc(var(--pad)*-1);border-inline:0;padding-inline:.6rem}}.terms li.cu{color:var(--cu);background:var(--cu-soft)}.terms li.pb{color:var(--pb);background:var(--pb-soft)}.terms li.vm{color:var(--vm);background:var(--vm-soft)}svg .ln,svg .ln-cu,svg .ln-vg,svg .ln-pb,svg .ln-vm{stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}svg .ln:not([fill]),svg .ln-cu:not([fill]),svg .ln-vg:not([fill]),svg .ln-pb:not([fill]),svg .ln-vm:not([fill]){fill:none}svg .ln{stroke:var(--ink)}svg .ln-cu{stroke:var(--cu)}svg .ln-vm{stroke:var(--vm)}svg g.ln-vg>rect:not([fill]),svg g.ln-cu>rect:not([fill]),svg g.ln-pb>rect:not([fill]),svg g.ln-vm>rect:not([fill]){fill:none}svg .thick,svg g.thick>*{stroke-width:2.6}svg .faint,svg g.faint>*,svg g>.faint{stroke:var(--mark)}svg .dash,svg g.dash>*{stroke-dasharray:4 4}svg .bg,svg .bg:not([fill]){fill:var(--plate)}svg .dot-cu,svg g.dot-cu>*{fill:var(--cu)}svg .dot-vm,svg g.dot-vm>*{fill:var(--vm)}svg text{fill:var(--ink);font-family:var(--f-body)}svg .ts{font-size:13px}svg .tm{font-family:var(--f-mono);font-size:11px}svg .c{text-anchor:middle}svg .r{text-anchor:end}svg text.cu{fill:var(--cu)}svg text.vg{fill:var(--vg)}svg text.pb{fill:var(--pb)}svg text.vm{fill:var(--vm)}.m .sq>.rt path{fill:none;stroke:currentColor;stroke-width:1px;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}.m .sq>.rt path.rh{stroke-width:1.6px}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><svg aria-label="에렌페스트 항아리, 앞과 뒤 — 평형에서 벗어난 지금, 다음 상태도 직전 상태도 0.75의 확률로 평형에 더 가깝다" height="100%" role="img" viewBox="0 0 480 310" width="100%" xmlns="http://www.w3.org/2000/svg">
+<g class="ln"><line x1="72" x2="72" y1="30" y2="54"></line><line x1="72" x2="72" y1="70" y2="206"></line><line x1="72" x2="72" y1="220" y2="232"></line>
+<line x1="72" x2="458" y1="232" y2="232"></line></g>
+<g class="ln"><line x1="66" x2="78" y1="60" y2="55"></line><line x1="66" x2="78" y1="67" y2="62"></line><line x1="66" x2="78" y1="211" y2="206"></line><line x1="66" x2="78" y1="218" y2="213"></line></g>
+<line class="ln faint dash" x1="72" x2="458" y1="92" y2="92"></line><line class="ln faint dash" x1="72" x2="458" y1="142" y2="142"></line><line class="ln faint dash" x1="72" x2="458" y1="192" y2="192"></line>
+<text class="tm r" x="64" y="44">100</text><text class="tm r" x="64" y="96">76</text><text class="tm r" x="64" y="146">75</text><text class="tm r" x="64" y="196">74</text><text class="tm r" x="64" y="236">50</text>
+<text class="tm" x="80" y="226">반반 = 평형</text>
+<path class="ln-vm dash" d="M84,40 C104,56 132,78 156,89"></path>
+<circle class="dot-vm" cx="84" cy="40" r="4"></circle>
+<text class="ts vm" x="98" y="34">처음에 100개였다는 경계 조건을 알면</text>
+<text class="tm vm" x="176" y="54">→ 역추론은 평형 쪽이 아니라 시작 쪽을 가리킨다</text>
+<line class="ln-cu thick" marker-end="url(#ah-cu)" x1="277" x2="371" y1="146" y2="188"></line>
+<line class="ln-cu" marker-end="url(#ah-cu)" x1="277" x2="372" y1="138" y2="97"></line>
+<line class="ln-cu thick" marker-end="url(#ah-cu)" x1="263" x2="169" y1="146" y2="188"></line>
+<line class="ln-cu" marker-end="url(#ah-cu)" x1="263" x2="168" y1="138" y2="97"></line>
+<circle class="ln bg" cx="160" cy="92" r="4"></circle><circle class="ln bg" cx="160" cy="192" r="4"></circle>
+<circle class="ln bg" cx="380" cy="92" r="4"></circle><circle class="ln bg" cx="380" cy="192" r="4"></circle>
+<circle class="dot-cu" cx="270" cy="142" r="6"></circle>
+<text class="tm c cu" x="318" y="182">0.75</text><text class="tm c cu" x="318" y="112">0.25</text>
+<text class="tm c cu" x="222" y="182">0.75</text><text class="tm c cu" x="222" y="112">0.25</text>
+<text class="tm c" x="160" y="250">t−1</text><text class="tm c" x="270" y="250">지금 t</text><text class="tm c" x="380" y="250">t+1</text>
+<text class="ts c" x="160" y="266">← 역추론</text><text class="ts c" x="380" y="266">예측 →</text>
+<text class="tm c" x="240" y="285">직전이 74였을 확률 = (75/26) × (26/100) = 0.75</text>
+<text class="tm c pb" x="240" y="302">상세 균형 = 시간 반전 대칭 · 지금은 양쪽보다 드문 봉우리</text>
+</svg></svg>

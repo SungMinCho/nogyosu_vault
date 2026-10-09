@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 412" width="760" height="412" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t{ font-family:var(--f-ui); font-size:13px; fill:currentColor }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.t-l{ font-family:var(--f-ui); font-size:15px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.end{ text-anchor:end }.mute{ fill:var(--mute) }.halo{ paint-order:stroke; stroke:var(--panel-2); stroke-width:4px; stroke-linejoin:round }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-thin{ fill:none; stroke:currentColor; stroke-width:.8 }.s-bold{ fill:none; stroke:currentColor; stroke-width:2.4 }.dash{ stroke-dasharray:5 4 }.k-mute{ stroke:var(--mute) }.k-rule{ stroke:var(--rule) }.k-azu{ stroke:var(--azu) }.k-ver{ stroke:var(--ver) }.k-lak{ stroke:var(--lak) }.f-azu{ fill:var(--azu) }.f-ver{ fill:var(--ver) }.f-ink{ fill:currentColor }.f-bg{ fill:var(--panel-2) }.f-panel{ fill:var(--panel) }.f-none{ fill:none }.w-ver{ fill:var(--ver-w) }.c-azu{ fill:var(--azu) }.c-ver{ fill:var(--ver) }.c-lak{ fill:var(--lak) }svg.pz-root{width:760px!important;height:412px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="고전주의의 왕의 자리는 모델·화가·왕·관람자가 번갈아 들 뿐 늘 비어 있는 점이었는데, 1800년 무렵 그 자리에 몸 가진 인간 하나가 들어서서 앎의 대상과 앎의 근거를 한꺼번에 겸한다." class="pz-inner" height="100%" role="img" viewBox="0 0 760 412" width="100%">
+<defs><marker id="d-king-place-az" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-azu" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="d-king-place-azb" markerHeight="4.5" markerUnits="strokeWidth" markerWidth="4.5" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-azu" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="d-king-place-vr" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ver" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="d-king-place-ik" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<line class="s-bold" x1="380" x2="380" y1="24" y2="404"></line>
+<text class="t-s b mid" x="380.0" y="14.0">1800 무렵</text>
+<text class="t-l b c-azu" x="30.0" y="30.0">고전주의</text>
+<text class="t-s mute" x="102.0" y="30.0">1650~1800 · 표상의 시대</text>
+<text class="t-l b c-ver" x="400.0" y="30.0">근대</text>
+<text class="t-s mute" x="442.0" y="30.0">1800~ · 인간의 시대</text>
+<line class="s k-mute" x1="50" x2="222" y1="60" y2="60"></line>
+<line class="s k-mute" x1="246" x2="330" y1="60" y2="60"></line>
+<line class="s-bold" x1="175" x2="205" y1="60" y2="60"></line>
+<circle class="s-thin f-bg" cx="234" cy="49" r="6"></circle>
+<line class="s-thin k-mute" x1="50" x2="50" y1="60" y2="180"></line>
+<line class="s-thin k-mute" x1="330" x2="330" y1="60" y2="95"></line>
+<line class="s-thin k-mute" x1="330" x2="330" y1="135" y2="180"></line>
+<rect class="s-thin f-panel" height="7" width="64" x="66" y="150"></rect>
+<line class="s-bold" x1="66" x2="130" y1="157" y2="157"></line>
+<circle class="s-thin f-bg" cx="148" cy="132" r="8"></circle>
+<circle class="s-thin f-bg" cx="172" cy="140" r="8"></circle>
+<line class="s-bold" x1="40" x2="340" y1="180" y2="180"></line>
+<text class="t-s mute mid" x="148.0" y="117.0">화가</text>
+<text class="t-s mute mid" x="190.0" y="52.0">거울</text>
+<text class="t-s mute" x="246.0" y="46.0">방문객</text>
+<text class="t-s mute mid" x="172.0" y="125.0">공주</text>
+<text class="t-s mute" x="338.0" y="119.0">창</text>
+<text class="t-s mute end" x="334.0" y="195.0">그림 표면</text>
+<text class="t-s mute" x="44.0" y="195.0">그림 밖</text>
+<line class="s k-azu" x1="148.0" x2="182.5" y1="140.0" y2="240.3"></line>
+<line class="s k-azu" x1="172.0" x2="186.4" y1="148.0" y2="239.3"></line>
+<line class="s k-azu" x1="234.0" x2="194.8" y1="55.0" y2="239.5"></line>
+<line class="s-bold k-azu" marker-end="url(#d-king-place-azb)" x1="190.0" x2="190.0" y1="62.0" y2="237.0"></line>
+<text class="t-s c-azu halo" x="212.0" y="228.0">가리킨다</text>
+<circle class="s k-lak dash f-bg" cx="190" cy="262" r="22"></circle>
+<text class="t-s b c-lak mid" x="190.0" y="266.0">빈자리</text>
+<text class="t-s mid" x="190.0" y="318.0">모델 ⇄ 화가 ⇄ 왕 ⇄ 관람자</text>
+<text class="t-s mute mid" x="190.0" y="334.0">번갈아 깜박인다</text>
+<text class="t b c-azu mid" x="190.0" y="362.0">대상 ⇄ 주체</text>
+<text class="t-s mid" x="190.0" y="380.0">한 번에 하나씩 — 주체는 늘 빠져 있다</text>
+<polygon class="w-ver" points="565,242 425,180 425,60 705,60 705,180"></polygon>
+<line class="s k-rule" x1="425" x2="597" y1="60" y2="60"></line>
+<line class="s k-rule" x1="621" x2="705" y1="60" y2="60"></line>
+<line class="s-bold k-rule" x1="550" x2="580" y1="60" y2="60"></line>
+<circle class="s-thin k-rule f-bg" cx="609" cy="49" r="6"></circle>
+<line class="s-thin k-rule" x1="425" x2="425" y1="60" y2="180"></line>
+<line class="s-thin k-rule" x1="705" x2="705" y1="60" y2="95"></line>
+<line class="s-thin k-rule" x1="705" x2="705" y1="135" y2="180"></line>
+<rect class="s-thin k-rule f-panel" height="7" width="64" x="441" y="150"></rect>
+<line class="s-bold k-rule" x1="441" x2="505" y1="157" y2="157"></line>
+<circle class="s-thin k-rule f-bg" cx="523" cy="132" r="8"></circle>
+<circle class="s-thin k-rule f-bg" cx="547" cy="140" r="8"></circle>
+<line class="s-bold k-rule" x1="415" x2="715" y1="180" y2="180"></line>
+<line class="s k-ver" marker-end="url(#d-king-place-vr)" x1="544.3" x2="426.7" y1="249.9" y2="181.0"></line>
+<line class="s k-ver" marker-end="url(#d-king-place-vr)" x1="585.7" x2="703.3" y1="249.9" y2="181.0"></line>
+<text class="t-s b c-ver mid halo" x="565.0" y="102.0">표상의 공간 전체</text>
+<text class="t-s c-ver mid halo" x="565.0" y="117.0">→ 몸 가진 눈 하나에</text>
+<text class="t-s c-ver end halo" x="491.0" y="218.0">맞춰라</text>
+<circle class="s-thin k-lak dash f-none" cx="565" cy="262" r="27"></circle>
+<circle class="f-ver" cx="565" cy="262" r="20"></circle>
+<text class="t-l b c-ver" x="599.0" y="260.0">인간</text>
+<text class="t-s" x="599.0" y="276.0">한 몸으로 선다</text>
+<text class="t-s mid" x="502.0" y="318.0">모델</text>
+<line class="s-thin" marker-end="url(#d-king-place-ik)" x1="502.0" x2="540.2" y1="305.0" y2="278.9"></line>
+<text class="t-s mid" x="543.0" y="318.0">화가</text>
+<line class="s-thin" marker-end="url(#d-king-place-ik)" x1="543.0" x2="551.3" y1="305.0" y2="288.7"></line>
+<text class="t-s mid" x="582.0" y="318.0">왕</text>
+<line class="s-thin" marker-end="url(#d-king-place-ik)" x1="582.0" x2="576.0" y1="305.0" y2="289.9"></line>
+<text class="t-s mid" x="622.0" y="318.0">관람자</text>
+<line class="s-thin" marker-end="url(#d-king-place-ik)" x1="622.0" x2="588.9" y1="305.0" y2="280.1"></line>
+<text class="t-s mute mid" x="565.0" y="334.0">멈춰 서서 하나로 뭉친다</text>
+<text class="t b c-ver mid" x="565.0" y="362.0">대상 = 주체</text>
+<text class="t-s mid" x="565.0" y="380.0">앎의 대상이면서 앎의 근거 — 겸직</text>
+<text class="t-s mute mid" x="565.0" y="397.0">복종하는 주권자 · 구경당하는 구경꾼</text>
+</svg></g></g></g></g></g></svg>

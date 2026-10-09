@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 506" width="760" height="506" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t{ font-family:var(--f-ui); font-size:13px; fill:currentColor }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.t-d{ font-family:var(--f-disp); font-weight:800; font-size:16px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.end{ text-anchor:end }.mute{ fill:var(--mute) }.halo{ paint-order:stroke; stroke:var(--panel-2); stroke-width:4px; stroke-linejoin:round }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-thin{ fill:none; stroke:currentColor; stroke-width:.8 }.dash{ stroke-dasharray:5 4 }.dot{ stroke-dasharray:1.5 4; stroke-linecap:round }.k-mute{ stroke:var(--mute) }.k-och{ stroke:var(--och) }.f-och{ fill:var(--och) }.f-mute{ fill:var(--mute) }.f-bg{ fill:var(--panel-2) }.f-none{ fill:none }.w-och{ fill:var(--och-w) }.c-och{ fill:var(--och) }svg.pz-root{width:760px!important;height:506px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="르네상스의 기호는 표징·숨은 효능·닮음 세 항이 같은 닮음으로 녹아 하나가 되는 삼원 구조이고, 네 상사의 바깥 원과 표징의 안쪽 원은 한 칸 돌아 맞물리며, 같은 어긋남이 기호학과 해석학 두 판 사이에 틈을 내고 그 틈이 자연이다." class="pz-inner" height="100%" role="img" viewBox="0 0 760 506" width="100%">
+<defs>
+<marker id="d-ternary-sign-ar" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-och" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="d-ternary-sign-arm" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- ① 삼원 기호: 셋이면서 하나 -->
+<text class="t-d c-och" x="20" y="24">삼원 기호</text>
+<text class="t-s mute" x="96" y="24">셋이면서 하나</text>
+<line class="s k-och" x1="172.7" x2="87.3" y1="104.5" y2="225.5"></line>
+<line class="s k-och" x1="207.3" x2="292.7" y1="104.5" y2="225.5"></line>
+<line class="s k-och" marker-end="url(#d-ternary-sign-ar)" x1="100" x2="278" y1="250" y2="250"></line>
+<text class="t-s mid halo" x="130" y="169">묶는다</text>
+<text class="t-s mid halo" x="250" y="169">묶는다</text>
+<text class="t-s mid halo" x="190" y="243">가리킨다</text>
+<line class="s-thin k-och dash" marker-end="url(#d-ternary-sign-ar)" x1="190" x2="190" y1="112" y2="177"></line>
+<line class="s-thin k-och dash" marker-end="url(#d-ternary-sign-ar)" x1="98.9" x2="174.6" y1="236.3" y2="200.6"></line>
+<line class="s-thin k-och dash" marker-end="url(#d-ternary-sign-ar)" x1="281.1" x2="205.4" y1="236.3" y2="200.6"></line>
+<circle class="f-och" cx="190" cy="193.3" r="14"></circle>
+<text class="t-s mid b f-bg" x="190" y="197.3">하나</text>
+<circle class="s k-och w-och" cx="190" cy="80" r="30"></circle>
+<circle class="s k-och w-och" cx="70" cy="250" r="30"></circle>
+<circle class="s k-och w-och" cx="310" cy="250" r="30"></circle>
+<text class="t mid b" x="190" y="84.5">닮음</text>
+<text class="t mid b" x="70" y="254.5">표징</text>
+<text class="t mid b" x="310" y="246">숨은</text>
+<text class="t mid b" x="310" y="262">효능</text>
+<text class="t-s mute" x="228" y="84">둘을 잇는 것</text>
+<text class="t-s mid mute" x="70" y="298">표시하는 것</text>
+<text class="t-s mid mute" x="310" y="298">표시되는 것</text>
+<text class="t-s mid mute" x="190" y="322">세 항 모두 닮음 — 하나의 형식으로 녹아든다</text>
+<!-- ② 두 원: 표징의 원은 한 칸 돌아 있다 -->
+<text class="t-d end c-och" x="750" y="24">두 원 — 한 칸 돌림</text>
+<circle class="s-thin k-och f-none" cx="570" cy="176" r="118"></circle>
+<circle class="s-thin k-och dash f-none" cx="570" cy="176" r="48"></circle>
+<path class="s-thin k-mute dot" d="M586,118 Q650,112 673,161" marker-end="url(#d-ternary-sign-arm)"></path>
+<path class="s-thin k-mute dot" d="M628,192 Q634,256 585,279" marker-end="url(#d-ternary-sign-arm)"></path>
+<path class="s-thin k-mute dot" d="M554,234 Q490,240 467,191" marker-end="url(#d-ternary-sign-arm)"></path>
+<path class="s-thin k-mute dot" d="M512,160 Q506,96 555,73" marker-end="url(#d-ternary-sign-arm)"></path>
+<line class="s k-och" marker-end="url(#d-ternary-sign-ar)" x1="570" x2="570" y1="80" y2="107"></line>
+<line class="s k-och" marker-end="url(#d-ternary-sign-ar)" x1="666" x2="639" y1="176" y2="176"></line>
+<line class="s k-och" marker-end="url(#d-ternary-sign-ar)" x1="570" x2="570" y1="272" y2="245"></line>
+<line class="s k-och" marker-end="url(#d-ternary-sign-ar)" x1="474" x2="501" y1="176" y2="176"></line>
+<circle class="f-bg" cx="570" cy="58" r="21"></circle>
+<circle class="f-bg" cx="688" cy="176" r="21"></circle>
+<circle class="f-bg" cx="570" cy="294" r="21"></circle>
+<circle class="f-bg" cx="452" cy="176" r="21"></circle>
+<circle class="s k-och w-och" cx="570" cy="58" r="21"></circle>
+<circle class="s k-och w-och" cx="688" cy="176" r="21"></circle>
+<circle class="s k-och w-och" cx="570" cy="294" r="21"></circle>
+<circle class="s k-och w-och" cx="452" cy="176" r="21"></circle>
+<text class="t mid" x="570" y="62.5">공감</text>
+<text class="t mid" x="688" y="180.5">유비</text>
+<text class="t mid" x="570" y="298.5">경쟁</text>
+<text class="t mid" x="452" y="180.5">적합</text>
+<circle class="s k-och f-bg" cx="570" cy="128" r="19"></circle>
+<circle class="s k-och f-bg" cx="618" cy="176" r="19"></circle>
+<circle class="s k-och f-bg" cx="570" cy="224" r="19"></circle>
+<circle class="s k-och f-bg" cx="522" cy="176" r="19"></circle>
+<text class="t mid" x="570" y="132.5">유비</text>
+<text class="t mid" x="618" y="180.5">경쟁</text>
+<text class="t mid" x="570" y="228.5">적합</text>
+<text class="t mid" x="522" y="180.5">공감</text>
+<text class="t-s mid b c-och" x="570" y="180.5">표징</text>
+<text class="t-s end b c-och" x="482" y="84">내용</text>
+<text class="t-s" x="578" y="98">표는?</text>
+<path class="s-thin k-mute dot" d="M414,314 H438" marker-end="url(#d-ternary-sign-arm)"></path>
+<text class="t-s mute" x="444" y="318">또 물으면</text>
+<text class="t-s end mute" x="750" y="318">네 번 물으면 제자리</text>
+<!-- ③ 두 판: 같은 천이 한 칸 어긋나 포개진다 -->
+<text class="t b c-och" x="40" y="358">기호학</text>
+<text class="t-s mute" x="90" y="358">표가 어디 있고 어떻게 엮이나</text>
+<text class="t-s end mute" x="700" y="358">같은 천 — 대는 자리만 다르다</text>
+<rect class="w-och" height="42" width="440" x="150" y="402"></rect>
+<rect class="s k-och f-bg" height="34" width="550" x="40" y="368"></rect>
+<line class="s-thin k-och" x1="150" x2="150" y1="368" y2="402"></line>
+<line class="s-thin k-och" x1="260" x2="260" y1="368" y2="402"></line>
+<line class="s-thin k-och" x1="370" x2="370" y1="368" y2="402"></line>
+<line class="s-thin k-och" x1="480" x2="480" y1="368" y2="402"></line>
+<text class="t mid" x="95" y="389.5">공감</text>
+<text class="t mid" x="205" y="389.5">유비</text>
+<text class="t mid" x="315" y="389.5">경쟁</text>
+<text class="t mid" x="425" y="389.5">적합</text>
+<text class="t mid" x="535" y="389.5">공감</text>
+<rect class="s k-och f-bg" height="34" width="550" x="150" y="444"></rect>
+<line class="s-thin k-och" x1="260" x2="260" y1="444" y2="478"></line>
+<line class="s-thin k-och" x1="370" x2="370" y1="444" y2="478"></line>
+<line class="s-thin k-och" x1="480" x2="480" y1="444" y2="478"></line>
+<line class="s-thin k-och" x1="590" x2="590" y1="444" y2="478"></line>
+<text class="t mid" x="205" y="465.5">공감</text>
+<text class="t mid" x="315" y="465.5">유비</text>
+<text class="t mid" x="425" y="465.5">경쟁</text>
+<text class="t mid" x="535" y="465.5">적합</text>
+<text class="t mid" x="645" y="465.5">공감</text>
+<text class="t-d mid c-och" x="200" y="429">자연</text>
+<path class="s k-och" d="M250,440 L280,406 L310,440 L340,406 L370,440 L400,406 L430,440 L460,406 L490,440 L520,406 L550,440 L572,415" marker-end="url(#d-ternary-sign-ar)"></path>
+<text class="t-s" x="600" y="427">앎의 갈지자걸음</text>
+<line class="s-thin k-och dot" x1="40" x2="40" y1="402" y2="466"></line>
+<line class="s-thin k-och" marker-end="url(#d-ternary-sign-ar)" marker-start="url(#d-ternary-sign-ar)" x1="42" x2="148" y1="458" y2="458"></line>
+<text class="t-s mid b c-och" x="95" y="450">한 칸 어긋남</text>
+<text class="t-s mid mute" x="95" y="476">= 두 원의 한 칸</text>
+<text class="t b c-och" x="150" y="496">해석학</text>
+<text class="t-s mute" x="200" y="496">기호가 무슨 말을 하나 — 뜻</text>
+</svg></g></g></g></g></g></svg>

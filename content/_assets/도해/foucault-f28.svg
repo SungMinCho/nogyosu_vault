@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 340" width="760" height="340" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t{ font-family:var(--f-ui); font-size:13px; fill:currentColor }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.t-l{ font-family:var(--f-ui); font-size:15px; fill:currentColor }.t-d{ font-family:var(--f-disp); font-weight:800; font-size:16px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.end{ text-anchor:end }.mute{ fill:var(--mute) }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-thin{ fill:none; stroke:currentColor; stroke-width:.8 }.s-bold{ fill:none; stroke:currentColor; stroke-width:2.4 }.k-rule{ stroke:var(--rule) }.k-ver{ stroke:var(--ver) }.f-ink{ fill:currentColor }.w-ver{ fill:var(--ver-w) }.w-ink{ fill:var(--ink-w) }.c-ver{ fill:var(--ver) }svg.pz-root{width:760px!important;height:340px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="생명·노동·언어의 실정적 내용이 인간의 한계를 알리고, 그 한계가 다시 그 내용을 아는 조건이 된다 — 죽음·욕망·시간이 위아래 두 층에 같으면서 다르게 한 번씩 나타나는 반복" class="pz-inner" height="100%" role="img" viewBox="0 0 760 340" width="100%">
+<defs>
+<marker id="d-finitude-repeat-ar" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 제목어 -->
+<text class="t-d" x="20" y="34">반복</text>
+<!-- 세 영역 머리 -->
+<text class="t-l b mid c-ver" x="220" y="32">생명</text>
+<text class="t-l b mid c-ver" x="380" y="32">노동</text>
+<text class="t-l b mid c-ver" x="540" y="32">언어</text>
+<!-- 위층: 실정적인 것 -->
+<rect class="s-thin k-rule w-ink" height="96" rx="6" width="480" x="140" y="44"></rect>
+<text class="t-s" x="152" y="62"><tspan class="b">실정적인 것</tspan><tspan class="mute"> · 경험적 유한성 — 과학이 내용으로 알려 주는 한계</tspan></text>
+<text class="t-l b mid" x="220" y="98">죽음</text>
+<text class="t-s mid mute" x="220" y="120">생물을 이름 없이 갉아먹는</text>
+<text class="t-l b mid" x="380" y="98">욕망</text>
+<text class="t-s mid mute" x="380" y="120">시장에서 사람을 엮고 가르는</text>
+<text class="t-l b mid" x="540" y="98">시간</text>
+<text class="t-s mid mute" x="540" y="120">언어들을 싣고 닳게 하는</text>
+<!-- 두 층을 잇는 '같은 것' (겹줄) -->
+<line class="s k-ver" x1="217" x2="217" y1="140" y2="226"></line>
+<line class="s k-ver" x1="223" x2="223" y1="140" y2="226"></line>
+<line class="s k-ver" x1="377" x2="377" y1="140" y2="226"></line>
+<line class="s k-ver" x1="383" x2="383" y1="140" y2="226"></line>
+<line class="s k-ver" x1="537" x2="537" y1="140" y2="226"></line>
+<line class="s k-ver" x1="543" x2="543" y1="140" y2="226"></line>
+<text class="t-s end" x="208" y="181">내 몸으로</text>
+<text class="t-s end mute" x="208" y="196">닿는다</text>
+<text class="t-s b c-ver" x="232" y="188">같은 죽음</text>
+<text class="t-s end" x="368" y="181">내 욕망으로</text>
+<text class="t-s end mute" x="368" y="196">닿는다</text>
+<text class="t-s b c-ver" x="392" y="188">같은 욕망</text>
+<text class="t-s end" x="528" y="181">내 말로</text>
+<text class="t-s end mute" x="528" y="196">닿는다</text>
+<text class="t-s b c-ver" x="552" y="188">같은 시간</text>
+<!-- 아래층: 근본적인 것 -->
+<rect class="s-thin k-ver w-ver" height="96" rx="6" width="480" x="140" y="226"></rect>
+<text class="t-s" x="152" y="244"><tspan class="b c-ver">근본적인 것</tspan><tspan class="mute"> · 근본적 유한성 — 그 사실들의 밑바닥, '나'에게 주어진</tspan></text>
+<text class="t-l b mid" x="220" y="280">내 죽음</text>
+<text class="t-s mid mute" x="220" y="302">내 삶이 주어지는 바탕</text>
+<text class="t-l b mid" x="380" y="280">나의 욕망</text>
+<text class="t-s mid mute" x="380" y="302">무엇이든 내게 탐나게 하는</text>
+<text class="t-l b mid" x="540" y="280">내 말의 시간</text>
+<text class="t-s mid mute" x="540" y="302">말하기 전에 말을 끌고 가는</text>
+<!-- 왼쪽 화살: 내용이 한계를 알린다 (위 → 아래) -->
+<path class="s-bold" d="M140,92 H114 Q106,92 106,100 V266 Q106,274 114,274 H136" marker-end="url(#d-finitude-repeat-ar)"></path>
+<text class="t b end" x="94" y="180">한계를 알린다</text>
+<text class="t-s end mute" x="94" y="197">내용 → 한계</text>
+<!-- 오른쪽 화살: 한계가 내용을 아는 조건이 된다 (아래 → 위) -->
+<path class="s-bold" d="M620,274 H646 Q654,274 654,266 V100 Q654,92 646,92 H624" marker-end="url(#d-finitude-repeat-ar)"></path>
+<text class="t b" x="666" y="180">조건이 된다</text>
+<text class="t-s mute" x="666" y="197">한계 → 앎</text>
+</svg></g></g></g></g></g></svg>

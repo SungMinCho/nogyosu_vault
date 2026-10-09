@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 420" width="760" height="420" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t{ font-family:var(--f-ui); font-size:13px; fill:currentColor }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.t-m{ font-family:var(--f-mono); font-size:12.5px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.end{ text-anchor:end }.mute{ fill:var(--mute) }.halo{ paint-order:stroke; stroke:var(--panel-2); stroke-width:4px; stroke-linejoin:round }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-thin{ fill:none; stroke:currentColor; stroke-width:.8 }.s-bold{ fill:none; stroke:currentColor; stroke-width:2.4 }.dash{ stroke-dasharray:5 4 }.dot{ stroke-dasharray:1.5 4; stroke-linecap:round }.k-mute{ stroke:var(--mute) }.k-rule{ stroke:var(--rule) }.k-lak{ stroke:var(--lak) }.f-ink{ fill:currentColor }.f-bg{ fill:var(--panel-2) }.f-panel{ fill:var(--panel) }.f-none{ fill:none }.w-ink{ fill:var(--ink-w) }.c-lak{ fill:var(--lak) }svg.pz-root{width:760px!important;height:420px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="평면 거울 단순 모형에서 소실점 왼쪽 5~8피트의 거울은 관람자 줄의 왼쪽 10~16피트만 비출 수 있어 관람자 자리는 비칠 수 없고, 방 왼편 앞쪽의 캔버스 앞면은 비칠 수 있다." class="pz-inner" height="100%" role="img" viewBox="0 0 760 420" width="100%">
+<defs><marker id="d-mirror-geometry-ik" markerHeight="4.6" markerUnits="strokeWidth" markerWidth="4.6" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="d-mirror-geometry-ikt" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<polygon class="w-ink" points="336.0,96 435.0,96 270.0,360 72.0,360"></polygon>
+<line class="s-thin dash" x1="336.0" x2="72.0" y1="96" y2="360"></line>
+<line class="s-thin dash" x1="435.0" x2="270.0" y1="96" y2="360"></line>
+<line class="s" x1="30" x2="740" y1="96" y2="96"></line>
+<text class="t-s mute" x="34.0" y="88.0">뒷벽</text>
+<rect class="s-thin f-panel" height="6" width="99.0" x="336.0" y="90"></rect>
+<line class="s-bold" x1="336.0" x2="435.0" y1="96" y2="96"></line>
+<text class="t-s b mid" x="385.5" y="84.0">거울 · 폭 3ft</text>
+<circle class="f-ink" cx="600" cy="96" r="4"></circle>
+<text class="t b" x="610.0" y="88.0">소실점 V</text>
+<text class="t-s mute" x="610.0" y="112.0">니에토의 팔꿈치 언저리</text>
+<line class="s-thin k-mute dot" x1="336.0" x2="336.0" y1="34" y2="88"></line>
+<line class="s-thin" marker-end="url(#d-mirror-geometry-ikt)" marker-start="url(#d-mirror-geometry-ikt)" x1="336.0" x2="600" y1="40" y2="40"></line>
+<text class="t-m mid halo" x="468.0" y="35.0">8 ft</text>
+<line class="s-thin k-mute dot" x1="435.0" x2="435.0" y1="56" y2="88"></line>
+<line class="s-thin" marker-end="url(#d-mirror-geometry-ikt)" marker-start="url(#d-mirror-geometry-ikt)" x1="435.0" x2="600" y1="62" y2="62"></line>
+<text class="t-m mid halo" x="517.5" y="57.0">5 ft</text>
+<line class="s-thin k-mute dot" x1="600" x2="600" y1="34" y2="90"></line>
+<line class="s-thin" marker-end="url(#d-mirror-geometry-ikt)" marker-start="url(#d-mirror-geometry-ikt)" x1="385.5" x2="600" y1="110" y2="110"></line>
+<text class="t-m mid halo" x="510.8" y="126.0">a = 6.5 ft ≈ 2 m</text>
+<line class="s-thin k-mute dash" x1="600" x2="600" y1="100" y2="344"></line>
+<text class="t-m b end" x="592.0" y="301.9">Z</text>
+<line class="s-thin k-rule dash" x1="30" x2="594" y1="228.0" y2="228.0"></line>
+<text class="t-m mute" x="34.0" y="222.0">z = Z/2</text>
+<rect class="s-thin f-panel" height="8" width="122.1" x="217.2" y="224.0"></rect>
+<line class="s-bold" x1="217.2" x2="339.3" y1="224.0" y2="224.0"></line>
+<text class="t-s b end" x="180.1" y="226.0">등 돌린 캔버스</text>
+<text class="t-s mute end" x="180.1" y="241.0">앞면이 거울 쪽</text>
+<line class="s-thin k-mute dot" x1="30" x2="584" y1="360" y2="360"></line>
+<line class="s-bold" x1="72.0" x2="270.0" y1="360" y2="360"></line>
+<line class="s-thin k-mute" x1="274.0" x2="274.0" y1="354.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="274.0" x2="282.0" y1="362.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="278.0" x2="290.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="286.0" x2="298.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="294.0" x2="306.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="302.0" x2="314.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="310.0" x2="322.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="318.0" x2="330.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="326.0" x2="338.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="334.0" x2="346.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="342.0" x2="354.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="350.0" x2="362.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="358.0" x2="370.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="366.0" x2="378.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="374.0" x2="386.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="382.0" x2="394.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="390.0" x2="402.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="398.0" x2="410.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="406.0" x2="418.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="414.0" x2="426.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="422.0" x2="434.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="430.0" x2="442.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="438.0" x2="450.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="446.0" x2="458.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="454.0" x2="466.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="462.0" x2="474.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="470.0" x2="482.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="478.0" x2="490.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="486.0" x2="498.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="494.0" x2="506.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="502.0" x2="514.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="510.0" x2="522.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="518.0" x2="530.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="526.0" x2="538.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="534.0" x2="546.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="542.0" x2="554.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="550.0" x2="562.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="558.0" x2="570.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="566.0" x2="578.0" y1="366.0" y2="354.0"></line>
+<line class="s-thin k-mute" x1="574.0" x2="582.0" y1="366.0" y2="358.0"></line>
+<line class="s-thin k-mute" x1="582.0" x2="582.0" y1="366.0" y2="366.0"></line>
+<rect class="s-thin k-mute f-none" height="12" width="308.0" x="274.0" y="354"></rect>
+<line class="s-bold" marker-end="url(#d-mirror-geometry-ik)" x1="589.9" x2="386.8" y1="347.6" y2="97.6"></line>
+<line class="s-bold" marker-end="url(#d-mirror-geometry-ik)" x1="384.2" x2="172.9" y1="97.6" y2="357.7"></line>
+<line class="s-thin k-mute dot" x1="385.5" x2="385.5" y1="96" y2="136"></line>
+<circle class="f-ink" cx="278.2" cy="228.0" r="4"></circle>
+<text class="t-s b" x="300.2" y="218.0">비친다</text>
+<text class="t-s b end halo" x="548.0" y="314.0">보는 선</text>
+<text class="t-s b halo" x="219.6" y="312.5">꺾여 나온다</text>
+<circle class="s k-lak dash f-bg" cx="600" cy="360" r="14"></circle>
+<text class="t b" x="622.0" y="354.0">관람자</text>
+<text class="t-s" x="622.0" y="370.0">가로 0 · 우리가 선 자리</text>
+<text class="t-s b c-lak" x="622.0" y="386.0">여기 선 왕은 비칠 수 없다</text>
+<line class="s-thin" x1="72.0" x2="72.0" y1="363" y2="369"></line>
+<text class="t-m mid" x="72.0" y="382.0">16</text>
+<line class="s-thin" x1="270.0" x2="270.0" y1="363" y2="369"></line>
+<text class="t-m mid" x="270.0" y="382.0">10</text>
+<text class="t-m mid b" x="171.0" y="382.0">2a = 13</text>
+<circle class="f-ink" cx="171.0" cy="360" r="3.5"></circle>
+<text class="t-s b mid" x="171.0" y="402.0">비칠 수 있는 띠 · 10~16 ft ≈ 3~5 m</text>
+<text class="t-s mute mid" x="428.0" y="384.0">여기는 안 비친다</text>
+<text class="t-s mute mid" x="430.0" y="349.0">관람자와 같은 깊이 (z = Z)</text>
+<text class="t-s" x="610.0" y="168.0">거울 위 a 지점에</text>
+<text class="t-s" x="610.0" y="184.0">비치는 것의 가로 위치</text>
+<text class="t-m" x="610.0" y="206.0">z = Z   → 2a</text>
+<text class="t-m" x="610.0" y="224.0">z = Z/2 → 1.5a</text>
+<text class="t-m" x="610.0" y="242.0">일반: a(1 + z/Z)</text>
+</svg></g></g></g></g></g></svg>

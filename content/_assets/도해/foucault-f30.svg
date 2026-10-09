@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 740 500" width="740" height="500" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t{ font-family:var(--f-ui); font-size:13px; fill:currentColor }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.t-l{ font-family:var(--f-ui); font-size:15px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.end{ text-anchor:end }.mute{ fill:var(--mute) }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-thin{ fill:none; stroke:currentColor; stroke-width:.8 }.s-bold{ fill:none; stroke:currentColor; stroke-width:2.4 }.dash{ stroke-dasharray:5 4 }.k-mute{ stroke:var(--mute) }.k-ver{ stroke:var(--ver) }.k-lak{ stroke:var(--lak) }.f-ink{ fill:currentColor }.f-bg{ fill:var(--panel-2) }.w-ver{ fill:var(--ver-w) }.w-lak{ fill:var(--lak-w) }.c-lak{ fill:var(--lak) }svg.pz-root{width:740px!important;height:500px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="세 이중체 — 경험적/초월적, 코기토/비사유, 기원의 후퇴/회귀 — 는 모두 한 추가 두 자리를 오가는 진자이고, 두 자리 사이에는 ‘와’라는 메워지지 않는 틈이 남는다" class="pz-inner" height="100%" role="img" viewBox="0 0 740 500" width="100%">
+<defs>
+<marker id="d-doubles-ar" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<rect class="s-thin k-ver w-ver" height="50" rx="5" width="300" x="20" y="12"></rect>
+<text class="t b" x="32" y="33">원형 · 셋째 절의 반복</text>
+<text class="t-s mute" x="32" y="52">실정적인 것 = 근본적인 것 — 같으면서 다르다</text>
+<line class="s k-mute" x1="44" x2="44" y1="62" y2="444"></line>
+<text class="t-s mute" x="54" y="86">세 번 되풀이</text>
+<!-- 넷째 절: 경험적인 것 / 초월적인 것 -->
+<line class="s k-mute" marker-end="url(#d-doubles-ar)" x1="44" x2="58" y1="164" y2="164"></line>
+<text class="t-s mute" x="64" y="168">넷째 절</text>
+<line class="s-bold" x1="350" x2="390" y1="98" y2="98"></line>
+<line class="s-thin k-mute" x1="354" x2="348" y1="98" y2="91"></line>
+<line class="s-thin k-mute" x1="362" x2="356" y1="98" y2="91"></line>
+<line class="s-thin k-mute" x1="370" x2="364" y1="98" y2="91"></line>
+<line class="s-thin k-mute" x1="378" x2="372" y1="98" y2="91"></line>
+<line class="s-thin k-mute" x1="386" x2="380" y1="98" y2="91"></line>
+<line class="s-thin k-mute dash" x1="370" x2="250" y1="100" y2="152"></line>
+<line class="s-thin k-mute dash" x1="370" x2="490" y1="100" y2="152"></line>
+<circle class="f-ink" cx="370" cy="100" r="3"></circle>
+<circle class="f-bg" cx="250" cy="164" r="12"></circle>
+<circle class="s k-ver w-ver" cx="250" cy="164" r="12"></circle>
+<circle class="f-bg" cx="490" cy="164" r="12"></circle>
+<circle class="s k-ver w-ver" cx="490" cy="164" r="12"></circle>
+<path class="s" d="M262,159 Q370,129 476,159" marker-end="url(#d-doubles-ar)"></path>
+<text class="t b mid" x="370" y="134">조건이 된다</text>
+<path class="s" d="M478,169 Q370,199 264,169" marker-end="url(#d-doubles-ar)"></path>
+<text class="t b mid" x="370" y="204">내용이 된다</text>
+<rect class="s-thin k-lak dash w-lak" height="24" rx="3" width="26" x="357" y="152"></rect>
+<text class="t b mid c-lak" x="370" y="169">와</text>
+<text class="t-l b end" x="228" y="166">경험적인 것</text>
+<text class="t-s end mute" x="228" y="184">주어진 내용</text>
+<text class="t-l b" x="512" y="166">초월적인 것</text>
+<text class="t-s mute" x="512" y="184">그 가능 조건</text>
+<!-- 다섯째 절: 코기토 / 비사유 -->
+<line class="s k-mute" marker-end="url(#d-doubles-ar)" x1="44" x2="58" y1="304" y2="304"></line>
+<text class="t-s mute" x="64" y="308">다섯째 절</text>
+<line class="s-bold" x1="350" x2="390" y1="238" y2="238"></line>
+<line class="s-thin k-mute" x1="354" x2="348" y1="238" y2="231"></line>
+<line class="s-thin k-mute" x1="362" x2="356" y1="238" y2="231"></line>
+<line class="s-thin k-mute" x1="370" x2="364" y1="238" y2="231"></line>
+<line class="s-thin k-mute" x1="378" x2="372" y1="238" y2="231"></line>
+<line class="s-thin k-mute" x1="386" x2="380" y1="238" y2="231"></line>
+<line class="s-thin k-mute dash" x1="370" x2="250" y1="240" y2="292"></line>
+<line class="s-thin k-mute dash" x1="370" x2="490" y1="240" y2="292"></line>
+<circle class="f-ink" cx="370" cy="240" r="3"></circle>
+<circle class="f-bg" cx="250" cy="304" r="12"></circle>
+<circle class="s k-ver w-ver" cx="250" cy="304" r="12"></circle>
+<circle class="f-bg" cx="490" cy="304" r="12"></circle>
+<circle class="s k-ver w-ver" cx="490" cy="304" r="12"></circle>
+<path class="s" d="M262,299 Q370,269 476,299" marker-end="url(#d-doubles-ar)"></path>
+<text class="t b mid" x="370" y="274">내려간다</text>
+<path class="s" d="M478,309 Q370,339 264,309" marker-end="url(#d-doubles-ar)"></path>
+<text class="t b mid" x="370" y="344">깨운다</text>
+<rect class="s-thin k-lak dash w-lak" height="24" rx="3" width="26" x="357" y="292"></rect>
+<text class="t b mid c-lak" x="370" y="309">와</text>
+<text class="t-l b end" x="228" y="306">코기토</text>
+<text class="t-s end mute" x="228" y="324">‘나는 생각한다’</text>
+<text class="t-l b" x="512" y="306">비사유</text>
+<text class="t-s mute" x="512" y="324">생각되지 않은 것</text>
+<!-- 여섯째 절: 기원의 후퇴 / 기원의 회귀 -->
+<line class="s k-mute" marker-end="url(#d-doubles-ar)" x1="44" x2="58" y1="444" y2="444"></line>
+<text class="t-s mute" x="64" y="448">여섯째 절</text>
+<line class="s-bold" x1="350" x2="390" y1="378" y2="378"></line>
+<line class="s-thin k-mute" x1="354" x2="348" y1="378" y2="371"></line>
+<line class="s-thin k-mute" x1="362" x2="356" y1="378" y2="371"></line>
+<line class="s-thin k-mute" x1="370" x2="364" y1="378" y2="371"></line>
+<line class="s-thin k-mute" x1="378" x2="372" y1="378" y2="371"></line>
+<line class="s-thin k-mute" x1="386" x2="380" y1="378" y2="371"></line>
+<line class="s-thin k-mute dash" x1="370" x2="250" y1="380" y2="432"></line>
+<line class="s-thin k-mute dash" x1="370" x2="490" y1="380" y2="432"></line>
+<circle class="f-ink" cx="370" cy="380" r="3"></circle>
+<circle class="f-bg" cx="250" cy="444" r="12"></circle>
+<circle class="s k-ver w-ver" cx="250" cy="444" r="12"></circle>
+<circle class="f-bg" cx="490" cy="444" r="12"></circle>
+<circle class="s k-ver w-ver" cx="490" cy="444" r="12"></circle>
+<path class="s" d="M262,439 Q370,409 476,439" marker-end="url(#d-doubles-ar)"></path>
+<text class="t b mid" x="370" y="414">다가온다</text>
+<path class="s" d="M478,449 Q370,479 264,449" marker-end="url(#d-doubles-ar)"></path>
+<text class="t b mid" x="370" y="484">물러난다</text>
+<rect class="s-thin k-lak dash w-lak" height="24" rx="3" width="26" x="357" y="432"></rect>
+<text class="t b mid c-lak" x="370" y="449">와</text>
+<text class="t-l b end" x="228" y="446">기원의 후퇴</text>
+<text class="t-s end mute" x="228" y="464">먼 과거로 밀려남</text>
+<text class="t-l b" x="512" y="446">기원의 회귀</text>
+<text class="t-s mute" x="512" y="464">임박하되 오지 않음</text>
+</svg></g></g></g></g></g></svg>

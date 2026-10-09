@@ -17,10 +17,11 @@
 | 철학 | [지능과 정신](https://sungmincho.github.io/nogyosu_vault/책/지능과-정신/) | 레자 네가레스타니, 『지능과 정신』 | 「말하는 그것」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/negarestani.html)) | 21 | 752 |
 | 철학 | [절멸에의 갈증](https://sungmincho.github.io/nogyosu_vault/책/절멸에의-갈증/) | 닉 랜드, 『절멸에의 갈증』 — 바타유와 독성 니힐리즘 | 「절멸에의 갈증」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/land.html)) | 12 | 369 |
 | 철학 | [요샤 바흐의 마음 철학](https://sungmincho.github.io/nogyosu_vault/책/요샤-바흐의-마음-철학/) | 요샤 바흐의 강연과 대담을 엮은 열두 강 | 「방앗간의 유령」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/bach.html)) | 12 | 428 |
+| 철학 | [말과 사물](https://sungmincho.github.io/nogyosu_vault/책/말과-사물/) | 미셸 푸코, 『말과 사물』 — 인문과학의 고고학 | 「왕의 자리」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/foucault.html)) | 12 | 346 |
 | 수학 | [범주론 입문](https://sungmincho.github.io/nogyosu_vault/책/범주론-입문/) | 대학원 범주론 과정 | 「화살표의 수학」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/category.html)) | 14 | 351 |
 | 수학 | [선형대수학](https://sungmincho.github.io/nogyosu_vault/책/선형대수학/) | 학부 선형대수학 | 「확대하면 곧다」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/linalg.html)) | 18 | 390 |
 | 수학 | [딥러닝의 기하학](https://sungmincho.github.io/nogyosu_vault/책/딥러닝의-기하학/) | 현대 딥러닝의 기하 | 「조각마다 곧다」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/dlgeom.html)) | 10 | 304 |
-| 양자화 | [신경망 양자화 강좌](https://sungmincho.github.io/nogyosu_vault/책/신경망-양자화-강좌/) | 양자화 잡음 이론에서 GPTQ와 회전까지 | 「계단과 톱니」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/quantcourse.html)) | 16 | 349 |
+| 양자화 | [신경망 양자화 강좌](https://sungmincho.github.io/nogyosu_vault/책/신경망-양자화-강좌/) | 양자화 잡음 이론에서 GPTQ와 회전까지 | 「계단과 톱니」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/quantcourse.html)) | 16 | 350 |
 | 양자화 | [회전 양자화의 계보](https://sungmincho.github.io/nogyosu_vault/책/회전-양자화의-계보/) | 회전 양자화 논문 계보 | 「둘 다 뾰족할 수는 없다」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/spin.html)) | 14 | 300 |
 | 양자화 | [CAT](https://sungmincho.github.io/nogyosu_vault/책/CAT/) | 퀄컴 AI 리서치의 CAT 논문 | 「어긋난 눈금」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/cat.html)) | 8 | 146 |
 | 투자와 게임 | [Investments (보디·케인·마커스)](https://sungmincho.github.io/nogyosu_vault/책/Investments-(보디·케인·마커스)/) | 보디·케인·마커스, 『Investments』 13판 | 「공짜 점심은 드물다」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/bkm.html)) | 28 | 786 |
@@ -28,7 +29,7 @@
 | 투자와 게임 | [홀덤 GTO 기본 개념](https://sungmincho.github.io/nogyosu_vault/책/홀덤-GTO-기본-개념/) | 노리밋 홀덤의 GTO 기본 개념 | 「블러프는 방어다」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/holdem.html)) | 13 | 240 |
 | 소프트웨어 | [소프트웨어 설계의 철학](https://sungmincho.github.io/nogyosu_vault/책/소프트웨어-설계의-철학/) | 존 오스터하우트, 『A Philosophy of Software Design』 | 「탄광의 카나리아」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/ousterhout.html)) | 22 | 300 |
 
-원자 노트는 모두 7512개이고, 그 가운데 670개가 두 권 이상에 걸쳐 있다.
+원자 노트는 모두 7808개이고, 그 가운데 692개가 두 권 이상에 걸쳐 있다.
 
 ## 구조
 | 경로 | 무엇 |

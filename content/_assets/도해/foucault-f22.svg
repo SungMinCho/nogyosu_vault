@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 466" width="760" height="466" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t{ font-family:var(--f-ui); font-size:13px; fill:currentColor }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.t-m{ font-family:var(--f-mono); font-size:12.5px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.end{ text-anchor:end }.mute{ fill:var(--mute) }.halo{ paint-order:stroke; stroke:var(--panel-2); stroke-width:4px; stroke-linejoin:round }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-thin{ fill:none; stroke:currentColor; stroke-width:.8 }.s-bold{ fill:none; stroke:currentColor; stroke-width:2.4 }.dash{ stroke-dasharray:5 4 }.dot{ stroke-dasharray:1.5 4; stroke-linecap:round }.k-mute{ stroke:var(--mute) }.k-rule{ stroke:var(--rule) }.k-ver{ stroke:var(--ver) }.k-lak{ stroke:var(--lak) }.f-ink{ fill:currentColor }.f-bg{ fill:var(--panel-2) }.w-ver{ fill:var(--ver-w) }.w-ink{ fill:var(--ink-w) }.c-ver{ fill:var(--ver) }.c-lak{ fill:var(--lak) }svg.pz-root{width:760px!important;height:466px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="맨 끝에 간 땅의 소출이 선을 긋고, 그 위 빗금이 지대, 그 아래 임금까지가 이윤이다. 한계지가 내려갈수록 지대는 붓고 이윤은 깎이다가 0에 닿기 전에 멈춘다." class="pz-inner" height="100%" role="img" viewBox="0 0 760 466" width="100%">
+<defs>
+<marker id="d-ricardo-rent-ar" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<pattern height="6" id="d-ricardo-rent-hatch" patternTransform="rotate(45)" patternUnits="userSpaceOnUse" width="6"><rect class="w-ver" height="6" width="6" x="0" y="0"></rect><line class="s k-ver" x1="0" x2="0" y1="0" y2="6"></line></pattern>
+</defs>
+<text class="t-s mute" x="84" y="18">어느 땅이든 같은 노동 720일을 넣는다 · 막대 높이 = 소출(섬)</text>
+<line class="s-thin k-mute" x1="72" x2="72" y1="262.0" y2="54.0"></line>
+<line class="s-thin k-mute" x1="68" x2="72" y1="262.0" y2="262.0"></line>
+<text class="t-s end mute" x="64" y="266.0">0</text>
+<line class="s-thin k-mute" x1="68" x2="72" y1="142.0" y2="142.0"></line>
+<text class="t-s end mute" x="64" y="146.0">60</text>
+<line class="s-thin k-mute" x1="68" x2="72" y1="102.0" y2="102.0"></line>
+<text class="t-s end mute" x="64" y="106.0">80</text>
+<line class="s-thin k-mute" x1="68" x2="72" y1="82.0" y2="82.0"></line>
+<text class="t-s end mute" x="64" y="86.0">90</text>
+<line class="s-thin k-mute" x1="68" x2="72" y1="62.0" y2="62.0"></line>
+<text class="t-s end mute" x="64" y="66.0">100</text>
+<text class="t-s end mute" x="64" y="50.0">섬</text>
+<line class="s-thin k-mute" x1="72" x2="664" y1="262.0" y2="262.0"></line>
+<text class="t mid b" x="147.0" y="40">① 1등지만 간다</text>
+<rect class="w-ink" height="120.0" width="34" x="84" y="142.0"></rect><rect class="w-ink" height="120.0" width="34" x="84" y="142.0"></rect>
+<rect class="f-bg" height="80.0" width="34" x="84" y="62.0"></rect>
+<rect class="s" height="200.0" width="34" x="84" y="62.0"></rect>
+<line class="s-thin k-mute" x1="84" x2="118" y1="142.0" y2="142.0"></line>
+<text class="t-m mid mute" x="101.0" y="206.0">60</text>
+<text class="t-m mid" x="101.0" y="106.0">40</text>
+<text class="t-s mid mute" x="101.0" y="56.0">100</text>
+<text class="t-s mid" x="101.0" y="278.0">1등지</text>
+<rect class="s-thin k-mute dash" height="180.0" width="34" x="130" y="82.0"></rect>
+<text class="t-s mid mute" x="147.0" y="176.0">안 감</text>
+<text class="t-s mid mute" x="147.0" y="278.0">2등지</text>
+<rect class="s-thin k-mute dash" height="160.0" width="34" x="176" y="102.0"></rect>
+<text class="t-s mid mute" x="193.0" y="186.0">안 감</text>
+<text class="t-s mid mute" x="193.0" y="278.0">3등지</text>
+<line class="s k-ver dash" x1="78" x2="216" y1="62.0" y2="62.0"></line>
+<text class="t mid b" x="307.0" y="40">② 2등지까지 간다</text>
+<rect class="w-ink" height="120.0" width="34" x="244" y="142.0"></rect><rect class="w-ink" height="120.0" width="34" x="244" y="142.0"></rect>
+<rect class="f-bg" height="60.0" width="34" x="244" y="82.0"></rect>
+<rect fill="url(#d-ricardo-rent-hatch)" height="20.0" width="34" x="244" y="62.0"></rect>
+<rect class="s" height="200.0" width="34" x="244" y="62.0"></rect>
+<line class="s-thin k-mute" x1="244" x2="278" y1="142.0" y2="142.0"></line>
+<text class="t-m mid mute" x="261.0" y="206.0">60</text>
+<text class="t-m mid" x="261.0" y="116.0">30</text>
+<text class="t-m mid b c-ver halo" x="261.0" y="76.5">10</text>
+<text class="t-s mid mute" x="261.0" y="56.0">100</text>
+<text class="t-s mid" x="261.0" y="278.0">1등지</text>
+<rect class="w-ink" height="120.0" width="34" x="290" y="142.0"></rect><rect class="w-ink" height="120.0" width="34" x="290" y="142.0"></rect>
+<rect class="f-bg" height="60.0" width="34" x="290" y="82.0"></rect>
+<rect class="s" height="180.0" width="34" x="290" y="82.0"></rect>
+<line class="s-thin k-mute" x1="290" x2="324" y1="142.0" y2="142.0"></line>
+<text class="t-m mid mute" x="307.0" y="206.0">60</text>
+<text class="t-m mid" x="307.0" y="116.0">30</text>
+<text class="t-s mid mute" x="307.0" y="76.0">90</text>
+<text class="t-s mid" x="307.0" y="278.0">2등지</text>
+<rect class="s-thin k-mute dash" height="160.0" width="34" x="336" y="102.0"></rect>
+<text class="t-s mid mute" x="353.0" y="186.0">안 감</text>
+<text class="t-s mid mute" x="353.0" y="278.0">3등지</text>
+<line class="s k-ver dash" x1="238" x2="376" y1="82.0" y2="82.0"></line>
+<text class="t mid b" x="467.0" y="40">③ 3등지까지 간다</text>
+<rect class="w-ink" height="120.0" width="34" x="404" y="142.0"></rect><rect class="w-ink" height="120.0" width="34" x="404" y="142.0"></rect>
+<rect class="f-bg" height="40.0" width="34" x="404" y="102.0"></rect>
+<rect fill="url(#d-ricardo-rent-hatch)" height="40.0" width="34" x="404" y="62.0"></rect>
+<rect class="s" height="200.0" width="34" x="404" y="62.0"></rect>
+<line class="s-thin k-mute" x1="404" x2="438" y1="142.0" y2="142.0"></line>
+<text class="t-m mid mute" x="421.0" y="206.0">60</text>
+<text class="t-m mid" x="421.0" y="126.0">20</text>
+<text class="t-m mid b c-ver halo" x="421.0" y="86.5">20</text>
+<text class="t-s mid mute" x="421.0" y="56.0">100</text>
+<text class="t-s mid" x="421.0" y="278.0">1등지</text>
+<rect class="w-ink" height="120.0" width="34" x="450" y="142.0"></rect><rect class="w-ink" height="120.0" width="34" x="450" y="142.0"></rect>
+<rect class="f-bg" height="40.0" width="34" x="450" y="102.0"></rect>
+<rect fill="url(#d-ricardo-rent-hatch)" height="20.0" width="34" x="450" y="82.0"></rect>
+<rect class="s" height="180.0" width="34" x="450" y="82.0"></rect>
+<line class="s-thin k-mute" x1="450" x2="484" y1="142.0" y2="142.0"></line>
+<text class="t-m mid mute" x="467.0" y="206.0">60</text>
+<text class="t-m mid" x="467.0" y="126.0">20</text>
+<text class="t-m mid b c-ver halo" x="467.0" y="96.5">10</text>
+<text class="t-s mid mute" x="467.0" y="76.0">90</text>
+<text class="t-s mid" x="467.0" y="278.0">2등지</text>
+<rect class="w-ink" height="120.0" width="34" x="496" y="142.0"></rect><rect class="w-ink" height="120.0" width="34" x="496" y="142.0"></rect>
+<rect class="f-bg" height="40.0" width="34" x="496" y="102.0"></rect>
+<rect class="s" height="160.0" width="34" x="496" y="102.0"></rect>
+<line class="s-thin k-mute" x1="496" x2="530" y1="142.0" y2="142.0"></line>
+<text class="t-m mid mute" x="513.0" y="206.0">60</text>
+<text class="t-m mid" x="513.0" y="126.0">20</text>
+<text class="t-s mid mute" x="513.0" y="96.0">80</text>
+<text class="t-s mid" x="513.0" y="278.0">3등지</text>
+<line class="s k-ver dash" x1="398" x2="536" y1="102.0" y2="102.0"></line>
+<line class="s-thin" marker-end="url(#d-ricardo-rent-ar)" x1="206" x2="238" y1="36" y2="36"></line>
+<line class="s-thin" marker-end="url(#d-ricardo-rent-ar)" x1="366" x2="398" y1="36" y2="36"></line>
+<line class="s-thin" marker-end="url(#d-ricardo-rent-ar)" x1="526" x2="558" y1="36" y2="36"></line>
+<text class="t mid b mute" x="612" y="40">④ 더 내려가면</text>
+<rect class="w-ink" height="120.0" width="34" x="572" y="142.0"></rect><rect class="w-ink" height="120.0" width="34" x="572" y="142.0"></rect>
+<rect class="f-bg" height="20.0" width="34" x="572" y="122.0"></rect>
+<rect class="s k-mute dash" height="140.0" width="34" x="572" y="122.0"></rect>
+<text class="t-s mid mute" x="589.0" y="116.0">70</text>
+<text class="t-m mid mute" x="589.0" y="206.0">60</text>
+<text class="t-m mid mute" x="589.0" y="136.0">10</text>
+<rect class="w-ink" height="120.0" width="34" x="618" y="142.0"></rect><rect class="w-ink" height="120.0" width="34" x="618" y="142.0"></rect>
+<rect class="s k-mute dash" height="120.0" width="34" x="618" y="142.0"></rect>
+<text class="t-s mid mute" x="635.0" y="136.0">60</text>
+<text class="t-m mid mute" x="635.0" y="206.0">60</text>
+<text class="t-s mid mute" x="612" y="278.0">더 메마른 땅</text>
+<line class="s-bold k-lak" x1="612.0" x2="612.0" y1="58" y2="264.0"></line>
+<line class="s-thin k-lak" x1="612.0" x2="662" y1="71" y2="71"></line>
+<text class="t b c-lak" x="666" y="76">역사의 정지</text>
+<text class="t-s" x="666" y="96">이윤이 0에 닿기 전</text>
+<text class="t-s" x="666" y="112">새 일손을 못 불러</text>
+<text class="t-s" x="666" y="128">인구·경작지·</text>
+<text class="t-s" x="666" y="144">지대·이윤이</text>
+<text class="t-s" x="666" y="160">그대로 굳는다</text>
+<line class="s-thin k-rule" x1="10" x2="750" y1="292" y2="292"></line>
+<text class="t-s end b" x="70" y="314">밀 한 섬 값</text>
+<text class="t-m mid" x="147" y="314">720 ÷ 100 = 7.2일</text>
+<text class="t-m mid" x="307" y="314">720 ÷ 90 = 8일</text>
+<text class="t-m mid" x="467" y="314">720 ÷ 80 = 9일</text>
+<line class="s-thin k-rule dot" x1="10" x2="750" y1="322" y2="322"></line>
+<text class="t-s end b" x="70" y="338">지대 합계</text>
+<text class="t-m mid c-ver b" x="147" y="338">0섬</text>
+<text class="t-m mid c-ver b" x="307" y="338">10섬</text>
+<text class="t-m mid c-ver b" x="467" y="338">20 + 10 = 30섬</text>
+<line class="s-thin k-rule dot" x1="10" x2="750" y1="346" y2="346"></line>
+<text class="t-s end b" x="70" y="362">이윤</text>
+<text class="t-m mid" x="147" y="362">100 − 60 = 40섬</text>
+<text class="t-m mid" x="307" y="362">90 − 60 = 30섬</text>
+<text class="t-m mid" x="467" y="362">80 − 60 = 20섬</text>
+<text class="t-m mid mute" x="612" y="362">10 → 0섬</text>
+<line class="s-thin k-rule dot" x1="10" x2="750" y1="370" y2="370"></line>
+<text class="t-s end b" x="70" y="386">명목임금</text>
+<text class="t-m mid" x="147" y="386">60 × 7.2 = 432일</text>
+<text class="t-m mid" x="307" y="386">60 × 8 = 480일</text>
+<text class="t-m mid" x="467" y="386">60 × 9 = 540일</text>
+<line class="s-thin k-rule dot" x1="10" x2="750" y1="394" y2="394"></line>
+<text class="t-s end b" x="70" y="410">실질임금</text>
+<text class="t-m mid" x="147" y="410">60섬</text>
+<text class="t-m mid" x="307" y="410">60섬</text>
+<text class="t-m mid" x="467" y="410">60섬</text>
+<line class="s-thin k-rule" x1="10" x2="750" y1="420" y2="420"></line>
+<rect class="w-ink" height="12" width="14" x="84" y="434"></rect><rect class="w-ink" height="12" width="14" x="84" y="434"></rect><rect class="s-thin" height="12" width="14" x="84" y="434"></rect>
+<text class="t-s" x="104" y="444">임금(생계선 60섬)</text>
+<rect class="f-bg" height="12" width="14" x="222" y="434"></rect><rect class="s-thin" height="12" width="14" x="222" y="434"></rect>
+<text class="t-s" x="242" y="444">이윤</text>
+<rect fill="url(#d-ricardo-rent-hatch)" height="12" width="14" x="290" y="434"></rect><rect class="s-thin k-ver" height="12" width="14" x="290" y="434"></rect>
+<text class="t-s" x="310" y="444">지대</text>
+<line class="s k-ver dash" x1="358" x2="384" y1="440" y2="440"></line>
+<text class="t-s" x="390" y="444">맨 끝에 간 땅(한계지)의 소출 — 지대도 이윤도 이 선이 잰다</text>
+</svg></g></g></g></g></g></svg>

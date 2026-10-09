@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 740 338" width="740" height="338" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t{ font-family:var(--f-ui); font-size:13px; fill:currentColor }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.mute{ fill:var(--mute) }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-thin{ fill:none; stroke:currentColor; stroke-width:.8 }.s-bold{ fill:none; stroke:currentColor; stroke-width:2.4 }.dash{ stroke-dasharray:5 4 }.k-mute{ stroke:var(--mute) }.k-rule{ stroke:var(--rule) }.k-ver{ stroke:var(--ver) }.f-ver{ fill:var(--ver) }.f-ink{ fill:currentColor }.f-bg{ fill:var(--panel-2) }.w-ver{ fill:var(--ver-w) }.c-ver{ fill:var(--ver) }svg.pz-root{width:740px!important;height:338px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="인문과학의 세 지역은 생물학·경제학·언어 연구에서 기능·규범, 갈등·규칙, 의미작용·체계의 짝을 빌려 오고, 우세한 모델은 생명에서 언어 쪽으로, 짝 안의 무게는 앞의 항에서 뒤의 항으로 옮겨 간다" class="pz-inner" height="100%" role="img" viewBox="0 0 740 338" width="100%">
+<defs>
+<marker id="d-three-models-ar" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="d-three-models-arv" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ver" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<text class="t-s b mid mute" x="135" y="30">빌려 온 모델</text>
+<text class="t-s b mid mute" x="320" y="30">인문과학의 지역</text>
+<text class="t-s b mid mute" x="470" y="30">앞의 항</text>
+<text class="t-s b mid mute" x="642" y="30">뒤의 항</text>
+<line class="s-thin k-rule" x1="80" x2="690" y1="40" y2="40"></line>
+<text class="t-s b mid" x="40" y="52">우세 모델</text>
+<line class="s-bold k-ver" marker-end="url(#d-three-models-arv)" x1="40" x2="40" y1="62" y2="272"></line>
+<text class="t-s b mid c-ver" x="40" y="292">생명 → 언어</text>
+<!-- 심리학 -->
+<rect class="s f-bg" height="52" rx="4" width="110" x="80" y="60"></rect>
+<text class="t b mid" x="135" y="83">생물학</text>
+<text class="t-s mid mute" x="135" y="100">낭만주의 · 콩트</text>
+<line class="s" marker-end="url(#d-three-models-ar)" x1="192" x2="236" y1="86" y2="86"></line>
+<rect class="s-thin k-ver w-ver" height="52" rx="4" width="160" x="240" y="60"></rect>
+<text class="t b mid" x="320" y="83">심리학</text>
+<text class="t-s mid mute" x="320" y="100">기능·조절이 표상으로</text>
+<line class="s-thin k-mute" x1="402" x2="424" y1="86" y2="86"></line>
+<rect class="s-thin k-mute dash f-bg" height="34" rx="17" width="84" x="428" y="69"></rect>
+<text class="t mid mute" x="470" y="91">기능</text>
+<line class="s" marker-end="url(#d-three-models-ar)" x1="516" x2="594" y1="86" y2="86"></line>
+<text class="t-s mid" x="555" y="78">골트슈타인</text>
+<rect class="s k-ver w-ver" height="34" rx="17" width="84" x="600" y="69"></rect>
+<text class="t b mid c-ver" x="642" y="91">규범</text>
+<!-- 사회학 -->
+<rect class="s f-bg" height="52" rx="4" width="110" x="80" y="140"></rect>
+<text class="t b mid" x="135" y="163">경제학</text>
+<text class="t-s mid mute" x="135" y="180">마르크스</text>
+<line class="s" marker-end="url(#d-three-models-ar)" x1="192" x2="236" y1="166" y2="166"></line>
+<rect class="s-thin k-ver w-ver" height="52" rx="4" width="160" x="240" y="140"></rect>
+<text class="t b mid" x="320" y="163">사회학</text>
+<text class="t-s mid mute" x="320" y="180">제 사회를 표상하는 곳</text>
+<line class="s-thin k-mute" x1="402" x2="424" y1="166" y2="166"></line>
+<rect class="s-thin k-mute dash f-bg" height="34" rx="17" width="84" x="428" y="149"></rect>
+<text class="t mid mute" x="470" y="171">갈등</text>
+<line class="s" marker-end="url(#d-three-models-ar)" x1="516" x2="594" y1="166" y2="166"></line>
+<text class="t-s mid" x="555" y="158">모스</text>
+<rect class="s k-ver w-ver" height="34" rx="17" width="84" x="600" y="149"></rect>
+<text class="t b mid c-ver" x="642" y="171">규칙</text>
+<!-- 문학·신화 분석 -->
+<rect class="s f-bg" height="52" rx="4" width="110" x="80" y="220"></rect>
+<text class="t b mid" x="135" y="243">언어 연구</text>
+<text class="t-s mid mute" x="135" y="260">프로이트</text>
+<line class="s" marker-end="url(#d-three-models-ar)" x1="192" x2="236" y1="246" y2="246"></line>
+<rect class="s-thin k-ver w-ver" height="52" rx="4" width="160" x="240" y="220"></rect>
+<text class="t b mid" x="320" y="243">문학·신화 분석</text>
+<text class="t-s mid mute" x="320" y="260">한 문화가 남긴 말의 자국</text>
+<line class="s-thin k-mute" x1="402" x2="424" y1="246" y2="246"></line>
+<rect class="s-thin k-mute dash f-bg" height="34" rx="17" width="84" x="428" y="229"></rect>
+<text class="t mid mute" x="470" y="251">의미작용</text>
+<line class="s" marker-end="url(#d-three-models-ar)" x1="516" x2="594" y1="246" y2="246"></line>
+<text class="t-s mid" x="555" y="238">뒤메질</text>
+<rect class="s k-ver w-ver" height="34" rx="17" width="84" x="600" y="229"></rect>
+<text class="t b mid c-ver" x="642" y="251">체계</text>
+<line class="s-bold k-ver" marker-end="url(#d-three-models-arv)" x1="440" x2="672" y1="294" y2="294"></line>
+<text class="t-s b mid c-ver" x="556" y="314">무게: 앞의 항 → 뒤의 항</text>
+<text class="t-s mid mute" x="556" y="330">그 축에 프로이트</text>
+</svg></g></g></g></g></g></svg>

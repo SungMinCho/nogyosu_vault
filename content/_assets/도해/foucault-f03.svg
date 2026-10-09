@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 780 416" width="780" height="416" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t{ font-family:var(--f-ui); font-size:13px; fill:currentColor }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.t-l{ font-family:var(--f-ui); font-size:15px; fill:currentColor }.t-d{ font-family:var(--f-disp); font-weight:800; font-size:16px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.end{ text-anchor:end }.mute{ fill:var(--mute) }.halo{ paint-order:stroke; stroke:var(--panel-2); stroke-width:4px; stroke-linejoin:round }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-thin{ fill:none; stroke:currentColor; stroke-width:.8 }.s-bold{ fill:none; stroke:currentColor; stroke-width:2.4 }.dash{ stroke-dasharray:5 4 }.k-mute{ stroke:var(--mute) }.k-rule{ stroke:var(--rule) }.k-och{ stroke:var(--och) }.k-azu{ stroke:var(--azu) }.k-ver{ stroke:var(--ver) }.k-lak{ stroke:var(--lak) }.f-och{ fill:var(--och) }.f-azu{ fill:var(--azu) }.f-ver{ fill:var(--ver) }.f-mute{ fill:var(--mute) }.f-bg{ fill:var(--panel-2) }.w-och{ fill:var(--och-w) }.w-azu{ fill:var(--azu-w) }.w-ver{ fill:var(--ver-w) }.c-och{ fill:var(--och) }.c-azu{ fill:var(--azu) }.c-ver{ fill:var(--ver) }svg.pz-root{width:780px!important;height:416px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="세 시대 세 영역의 격자는 가로가 아니라 세로로 읽는다: 같은 시대의 세 영역은 같은 땅을 딛고 친척이 되고, 시대 사이에는 단층이 있어 박물학에서 생물학으로 가는 가로 화살은 끊긴다." class="pz-inner" height="100%" role="img" viewBox="0 0 780 416" width="100%">
+<defs><marker id="d-master-grid-och" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-och" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="d-master-grid-azu" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-azu" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="d-master-grid-ver" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ver" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="d-master-grid-mute" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<text class="t b mid" x="365" y="24">세로로 읽는다</text>
+<line class="s k-och" marker-end="url(#d-master-grid-och)" x1="155" x2="155" y1="34" y2="72"></line>
+<line class="s k-azu" marker-end="url(#d-master-grid-azu)" x1="345" x2="345" y1="34" y2="72"></line>
+<line class="s k-ver" marker-end="url(#d-master-grid-ver)" x1="555" x2="555" y1="34" y2="72"></line>
+<rect class="s-thin k-rule w-och" height="228" width="170" x="70" y="130"></rect>
+<rect class="s-thin k-rule w-azu" height="76" width="210" x="240" y="130"></rect>
+<rect class="s-thin k-rule w-ver" height="76" width="210" x="450" y="130"></rect>
+<rect class="s-thin k-rule w-azu" height="76" width="210" x="240" y="206"></rect>
+<rect class="s-thin k-rule w-ver" height="76" width="210" x="450" y="206"></rect>
+<rect class="s-thin k-rule w-azu" height="76" width="210" x="240" y="282"></rect>
+<rect class="s-thin k-rule w-ver" height="76" width="210" x="450" y="282"></rect>
+<rect class="s-thin k-och w-och" height="18" width="164" x="70" y="364"></rect>
+<text class="t-s b mid c-och" x="152" y="377">같은 땅</text>
+<rect class="s-thin k-azu w-azu" height="18" width="198" x="246" y="364"></rect>
+<text class="t-s b mid c-azu" x="345" y="377">같은 땅 — 표상</text>
+<rect class="s-thin k-ver w-ver" height="18" width="204" x="456" y="364"></rect>
+<text class="t-s b mid c-ver" x="558" y="377">같은 땅 — 시간</text>
+<text class="t-l b mid c-och" x="155" y="104">르네상스</text>
+<text class="t-s mid mute" x="155" y="121">16세기</text>
+<text class="t-l b mid c-azu" x="345" y="104">고전주의</text>
+<text class="t-s mid mute" x="345" y="121">1650–1800</text>
+<text class="t-l b mid c-ver" x="555" y="104">근대</text>
+<text class="t-s mid mute" x="555" y="121">1800–</text>
+<text class="t b end mute" x="62" y="172">언어</text>
+<text class="t b end mute" x="62" y="248">생명</text>
+<text class="t b end mute" x="62" y="324">부</text>
+<path class="s-bold" d="M236.5,80 L243.5,102 L237.5,124 L243,146 L237,168 L242.5,190 L236.5,212 L243.5,234 L237.5,256 L243,278 L237,300 L242.5,322 L236.5,344 L243.5,366 L237.5,388"></path>
+<path class="s-bold" d="M446.5,80 L453.5,102 L447.5,124 L453,146 L447,168 L452.5,190 L446.5,212 L453.5,234 L447.5,256 L453,278 L447,300 L452.5,322 L446.5,344 L453.5,366 L447.5,388"></path>
+<rect class="f-bg" height="14" width="64" x="208" y="76"></rect>
+<text class="t-s b mid" x="240" y="87">1650 무렵</text>
+<rect class="f-bg" height="14" width="64" x="418" y="76"></rect>
+<text class="t-s b mid" x="450" y="87">1800 무렵</text>
+<text class="t-d mid c-och" x="155" y="236">세계의 산문</text>
+<text class="t-s mid mute" x="155" y="258">세 영역이 아직</text>
+<text class="t-s mid mute" x="155" y="274">갈라지지 않음</text>
+<text class="t-l b mid c-azu" x="345" y="158">일반문법</text>
+<text class="t-s mid mute" x="345" y="178">보제</text>
+<text class="t-l b mid c-ver" x="555" y="158">문헌학</text>
+<text class="t-l b mid c-azu" x="345" y="234">박물학</text>
+<text class="t-s mid mute" x="345" y="254">린네</text>
+<text class="t-l b mid c-ver" x="555" y="234">생물학</text>
+<text class="t-s mid mute" x="555" y="254">퀴비에·다윈</text>
+<text class="t-l b mid c-azu" x="345" y="310">부의 분석</text>
+<text class="t-s mid mute" x="345" y="330">로·포르보네·튀르고</text>
+<text class="t-l b mid c-ver" x="555" y="310">정치경제학</text>
+<line class="s-thin k-azu" marker-end="url(#d-master-grid-azu)" marker-start="url(#d-master-grid-azu)" x1="290" x2="290" y1="188" y2="224"></line>
+<text class="t-s b c-azu halo" x="297" y="210">친척</text>
+<line class="s-thin k-azu" marker-end="url(#d-master-grid-azu)" marker-start="url(#d-master-grid-azu)" x1="290" x2="290" y1="264" y2="300"></line>
+<text class="t-s b c-azu halo" x="297" y="286">친척</text>
+<line class="s k-mute dash" marker-end="url(#d-master-grid-mute)" x1="398" x2="506" y1="246" y2="246"></line>
+<rect class="f-bg" height="14" width="66" x="419" y="223"></rect>
+<text class="t-s mid" x="452" y="234">가로로 읽기</text>
+<path class="s-bold k-lak" d="M443,239 L457,253 M457,239 L443,253"></path>
+<text class="t-s mid" x="240" y="406">칸 사이의 금 = 문턱</text>
+<text class="t-s mid" x="450" y="406">칸 사이의 금 = 문턱</text>
+<path class="s-thin" d="M666,134 Q672,134 672,140 L672,238 Q672,244 678,244 Q672,244 672,250 L672,348 Q672,354 666,354"></path>
+<text class="t-s b" x="684" y="236">세로 칸 하나</text>
+<text class="t-s" x="684" y="252">= 한 시대에</text>
+<text class="t-s" x="684" y="268">함께 성립</text>
+</svg></g></g></g></g></g></svg>

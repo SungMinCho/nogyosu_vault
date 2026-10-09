@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 740 372" width="740" height="372" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.t-l{ font-family:var(--f-ui); font-size:15px; fill:currentColor }.t-d{ font-family:var(--f-disp); font-weight:800; font-size:16px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.end{ text-anchor:end }.mute{ fill:var(--mute) }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-thin{ fill:none; stroke:currentColor; stroke-width:.8 }.s-bold{ fill:none; stroke:currentColor; stroke-width:2.4 }.dot{ stroke-dasharray:1.5 4; stroke-linecap:round }.k-mute{ stroke:var(--mute) }.k-rule{ stroke:var(--rule) }.f-ink{ fill:currentColor }.f-panel{ fill:var(--panel) }.f-none{ fill:none }svg.pz-root{width:740px!important;height:372px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="질서의 순수한 경험이라는 가운데 층은 아래 기본 코드에서 한 뼘 비켜선 자리이자 위 이론보다 먼저 있는 가장 근본적인 층이고, 이 층에서 질서가 띠는 꼴은 문화와 시대마다 다르다." class="pz-inner" height="100%" role="img" viewBox="0 0 740 372" width="100%">
+<defs>
+<marker id="d-three-regions-ar" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 위: 이론·해석 -->
+<rect class="s-thin f-panel" height="58" width="460" x="150" y="24"></rect>
+<text class="t-l b" x="170" y="48">이론 · 해석 <tspan class="t-s mute">— 반성의 층</tspan></text>
+<text class="t-s mute" x="170" y="68">과학 이론 · 철학적 해석 — 왜 질서가 있나, 왜 하필 이 질서인가</text>
+<line class="s" marker-end="url(#d-three-regions-ar)" x1="380" x2="380" y1="116" y2="86"></line>
+<text class="t-s" x="390" y="105">뒤늦게 정식화</text>
+<!-- 가운데: 질서의 순수한 경험 -->
+<rect class="s-bold f-panel" height="152" width="460" x="150" y="118"></rect>
+<text class="t-d" x="170" y="147">질서의 순수한 경험</text>
+<text class="t-s b end" x="594" y="146">셋 가운데 가장 근본적</text>
+<text class="t-s mute" x="170" y="167">코드에서 한 뼘 비켜서서 ‘질서가 있다’는 사실과 마주침</text>
+<text class="t-s mute end" x="594" y="167">이론보다 단단·오래</text>
+<!-- 질서의 네 가지 꼴 -->
+<!-- 1 끊김 없는 눈금 -->
+<line class="s-thin" x1="170" x2="260" y1="212" y2="212"></line>
+<path class="s-thin" d="M170,200 V212 M178,206 V212 M186,206 V212 M194,206 V212 M202,200 V212 M210,206 V212 M218,206 V212 M226,206 V212 M234,200 V212 M242,206 V212 M250,206 V212 M258,200 V212"></path>
+<!-- 2 낱낱의 조각 -->
+<path class="s" d="M288,200 L300,195 M307,214 L314,205 M322,197 L331,203 M339,212 L351,215 M354,199 L360,192 M294,216 L303,219"></path>
+<rect class="s-thin f-none" height="6" width="6" x="316" y="209"></rect>
+<rect class="s-thin f-none" height="5" width="5" x="343" y="193"></rect>
+<!-- 3 공간에 매임 -->
+<path class="s-thin" d="M407,192 H463 M407,206 H463 M407,220 H463 M407,192 V220 M421,192 V220 M435,192 V220 M449,192 V220 M463,192 V220"></path>
+<!-- 4 시간 따라 새로 짜임 -->
+<circle class="f-ink" cx="494" cy="200" r="2.5"></circle><circle class="f-ink" cx="504" cy="200" r="2.5"></circle><circle class="f-ink" cx="499" cy="212" r="2.5"></circle>
+<line class="s-thin" marker-end="url(#d-three-regions-ar)" x1="511" x2="531" y1="206" y2="206"></line>
+<circle class="f-ink" cx="539" cy="212" r="2.5"></circle><circle class="f-ink" cx="549" cy="212" r="2.5"></circle><circle class="f-ink" cx="544" cy="200" r="2.5"></circle>
+<line class="s-thin" marker-end="url(#d-three-regions-ar)" x1="556" x2="576" y1="206" y2="206"></line>
+<circle class="f-ink" cx="584" cy="200" r="2.5"></circle><circle class="f-ink" cx="596" cy="206" r="2.5"></circle><circle class="f-ink" cx="584" cy="212" r="2.5"></circle>
+<text class="t-s mid" x="215" y="240">끊김 없는 눈금</text>
+<text class="t-s mid" x="325" y="240">낱낱의 조각</text>
+<text class="t-s mid" x="435" y="240">공간에 매임</text>
+<text class="t-s mid" x="545" y="240">시간 따라 새로 짜임</text>
+<line class="s-thin k-rule" x1="170" x2="278" y1="256" y2="256"></line>
+<line class="s-thin k-rule" x1="482" x2="590" y1="256" y2="256"></line>
+<text class="t-s b mid" x="380" y="260">질서의 꼴은 문화와 시대마다 다르다</text>
+<!-- 이 책의 자리 -->
+<line class="s-thin" marker-end="url(#d-three-regions-ar)" x1="706" x2="614" y1="198" y2="198"></line>
+<text class="t-s b mid" x="662" y="188">이 책이 파는 층</text>
+<!-- 아래로: 코드에 드러남 -->
+<line class="s" marker-end="url(#d-three-regions-ar)" x1="380" x2="380" y1="272" y2="302"></line>
+<text class="t-s" x="390" y="292">말·지각·몸짓으로 드러남 (잘·서툴게)</text>
+<!-- 한 뼘 비켜섬 -->
+<line class="s-thin k-mute dot" x1="110" x2="110" y1="304" y2="276"></line>
+<line class="s-thin k-mute dot" x1="150" x2="150" y1="271" y2="296"></line>
+<line class="s-thin" marker-end="url(#d-three-regions-ar)" x1="112" x2="148" y1="284" y2="284"></line>
+<text class="t-s end" x="104" y="288">한 뼘 비켜섬</text>
+<!-- 아래: 기본 코드 -->
+<rect class="s-thin f-panel" height="56" width="460" x="110" y="304"></rect>
+<text class="t-l b" x="130" y="328">기본 코드</text>
+<text class="t-s mute" x="130" y="348">말 · 보는 버릇 · 교환 · 기술 · 가치 — 태어나면서 제집처럼 산다 (투명)</text>
+</svg></g></g></g></g></g></svg>

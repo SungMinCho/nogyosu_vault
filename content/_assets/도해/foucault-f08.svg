@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 376" width="760" height="376" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t{ font-family:var(--f-ui); font-size:13px; fill:currentColor }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.t-d{ font-family:var(--f-disp); font-weight:800; font-size:16px; fill:currentColor }.t-m{ font-family:var(--f-mono); font-size:12.5px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.mute{ fill:var(--mute) }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-thin{ fill:none; stroke:currentColor; stroke-width:.8 }.s-bold{ fill:none; stroke:currentColor; stroke-width:2.4 }.dash{ stroke-dasharray:5 4 }.k-mute{ stroke:var(--mute) }.k-rule{ stroke:var(--rule) }.k-azu{ stroke:var(--azu) }.k-lak{ stroke:var(--lak) }.f-azu{ fill:var(--azu) }.f-lak{ fill:var(--lak) }.f-none{ fill:none }.w-ink{ fill:var(--ink-w) }.c-azu{ fill:var(--azu) }.c-lak{ fill:var(--lak) }svg.pz-root{width:760px!important;height:376px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="막대 셋을 한 뼘 단위로 재면 갑 6, 을 4, 병 9의 같지 않음이 나오고, 그 수는 1에서 시작하는 계열 속 자리라서 측정은 을·갑·병의 질서로 환원된다; 거꾸로 잎 가장자리의 질서는 단위 없이 바로 서므로 화살표는 한 방향뿐이다." class="pz-inner" height="100%" role="img" viewBox="0 0 760 376" width="100%">
+<defs>
+<marker id="d-measure-order-ar" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-azu" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="d-measure-order-arl" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-lak" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 측정 -->
+<text class="t-d" x="30" y="32">측정</text>
+<text class="t-s mute" x="72" y="32">공통 단위로 쪼개 잰다</text>
+<path class="s-thin" d="M60,64 V58 H88 V64"></path>
+<text class="t-s mute" x="94" y="63">한 뼘 = 빌린 단위</text>
+<rect class="s w-ink" height="20" width="168" x="60" y="68"></rect>
+<path class="s-thin k-mute" d="M88,68 V88 M116,68 V88 M144,68 V88 M172,68 V88 M200,68 V88"></path>
+<rect class="s w-ink" height="20" width="112" x="60" y="102"></rect>
+<path class="s-thin k-mute" d="M88,102 V122 M116,102 V122 M144,102 V122"></path>
+<rect class="s w-ink" height="20" width="252" x="60" y="136"></rect>
+<path class="s-thin k-mute" d="M88,136 V156 M116,136 V156 M144,136 V156 M172,136 V156 M200,136 V156 M228,136 V156 M256,136 V156 M284,136 V156"></path>
+<text class="t mid b" x="44" y="82.5">갑</text>
+<text class="t mid b" x="44" y="116.5">을</text>
+<text class="t mid b" x="44" y="150.5">병</text>
+<text class="t-m" x="236" y="82.5">6<tspan class="t-s">뼘</tspan></text>
+<text class="t-m" x="180" y="116.5">4<tspan class="t-s">뼘</tspan></text>
+<text class="t-m" x="320" y="150.5">9<tspan class="t-s">뼘</tspan></text>
+<text class="t-m" x="60" y="188">4 &lt; 6 &lt; 9</text>
+<text class="t-s mute" x="140" y="188">같지 않다</text>
+<text class="t-m" x="60" y="208">6 − 4 = 2,  9 − 6 = 3</text>
+<text class="t-s mute" x="206" y="208">차이도 센다</text>
+<!-- 질서 -->
+<text class="t-d c-azu" x="420" y="32">질서</text>
+<text class="t-s mute" x="462" y="32">가장 단순한 것부터 늘어세운다</text>
+<line class="s k-azu" marker-end="url(#d-measure-order-ar)" x1="440" x2="730" y1="112" y2="112"></line>
+<circle class="f-azu" cx="452" cy="112" r="2.5"></circle>
+<circle class="f-azu" cx="484" cy="112" r="2.5"></circle>
+<circle class="f-azu" cx="516" cy="112" r="2.5"></circle>
+<circle class="f-azu" cx="580" cy="112" r="2.5"></circle>
+<circle class="f-azu" cx="644" cy="112" r="2.5"></circle>
+<circle class="f-azu" cx="676" cy="112" r="2.5"></circle>
+<circle class="f-azu" cx="548" cy="112" r="6"></circle>
+<circle class="f-azu" cx="612" cy="112" r="6"></circle>
+<circle class="f-azu" cx="708" cy="112" r="6"></circle>
+<text class="t-m mid mute" x="452" y="132">1</text>
+<text class="t-m mid mute" x="484" y="132">2</text>
+<text class="t-m mid mute" x="516" y="132">3</text>
+<text class="t-m mid" x="548" y="132">4</text>
+<text class="t-m mid mute" x="580" y="132">5</text>
+<text class="t-m mid" x="612" y="132">6</text>
+<text class="t-m mid mute" x="644" y="132">7</text>
+<text class="t-m mid mute" x="676" y="132">8</text>
+<text class="t-m mid" x="708" y="132">9</text>
+<text class="t-s mid mute" x="452" y="98">출발</text>
+<text class="t mid b c-azu" x="548" y="98">을</text>
+<text class="t mid b c-azu" x="612" y="98">갑</text>
+<text class="t mid b c-azu" x="708" y="98">병</text>
+<path class="s-thin k-azu" d="M548,140 Q580,162 612,140"></path>
+<path class="s-thin k-azu" d="M612,140 Q660,168 708,140"></path>
+<text class="t-s mid" x="580" y="170">두 칸</text>
+<text class="t-s mid" x="660" y="172">세 칸</text>
+<text class="t-s mute" x="440" y="206">계열</text>
+<text class="t b c-azu" x="472" y="206">을 → 갑 → 병</text>
+<!-- 환원: 한 방향 -->
+<line class="s-bold k-azu" marker-end="url(#d-measure-order-ar)" x1="348" x2="416" y1="100" y2="100"></line>
+<text class="t-s mid b c-azu" x="382" y="90">환원된다</text>
+<text class="t-s mid mute" x="382" y="118">늘 된다</text>
+<path class="s k-lak dash" d="M414,160 H393"></path>
+<path class="s k-lak dash" d="M371,160 H354" marker-end="url(#d-measure-order-arl)"></path>
+<path class="s k-lak" d="M388,153 L382,167 M380,153 L374,167"></path>
+<text class="t-s mid c-lak" x="382" y="184">거꾸로는</text>
+<text class="t-s mid c-lak" x="382" y="198">안 간다</text>
+<!-- 세 칸 비교 -->
+<path class="s-thin k-rule" d="M30,226 H330 M420,226 H740"></path>
+<text class="t-s b" x="30" y="244">출발</text>
+<text class="t-s" x="62" y="244">전체를 놓고 단위로 쪼갠다</text>
+<text class="t-s b" x="30" y="262">잣대</text>
+<text class="t-s" x="62" y="262">바깥 단위 — 뼘, 산수의 1</text>
+<text class="t-s b" x="30" y="280">결과</text>
+<text class="t-s" x="62" y="280">같다 · 같지 않다</text>
+<text class="t-s b c-azu" x="420" y="244">출발</text>
+<text class="t-s" x="452" y="244">가장 단순한 1</text>
+<text class="t-s b c-azu" x="420" y="262">잣대</text>
+<text class="t-s" x="452" y="262">없음 — 두 항만 놓고 앞뒤를 본다</text>
+<text class="t-s b c-azu" x="420" y="280">결과</text>
+<text class="t-s" x="452" y="280">계열 — 차이가 자리가 된다</text>
+<!-- 질서는 측정 없이 선다 -->
+<rect class="s-thin k-mute dash f-none" height="52" rx="4" width="270" x="60" y="306"></rect>
+<text class="t-s mid mute" x="195" y="328">잎 가장자리를 잴 단위 — 없다</text>
+<text class="t-s mid mute" x="195" y="344">측정 칸은 비어 있다</text>
+<text class="t-s b c-azu" x="420" y="304">질서는 측정 없이 선다 — 잎 가장자리</text>
+<path class="s k-azu" d="M430,336 H482"></path>
+<path class="s k-azu" d="M505,336 q6.5,-8 13,0 t13,0 t13,0 t13,0"></path>
+<path class="s k-azu" d="M580,336 l6.5,-8 l0,8 l6.5,-8 l0,8 l6.5,-8 l0,8 l6.5,-8 l0,8 l6.5,-8 l0,8 l6.5,-8 l0,8 l6.5,-8 l0,8 l6.5,-8 l0,8"></path>
+<path class="s k-azu" d="M655,336 q6.5,-30 13,0 q6.5,-30 13,0 q6.5,-30 13,0 q6.5,-30 13,0"></path>
+<line class="s-thin k-azu" marker-end="url(#d-measure-order-ar)" x1="486" x2="501" y1="332" y2="332"></line>
+<line class="s-thin k-azu" marker-end="url(#d-measure-order-ar)" x1="561" x2="576" y1="332" y2="332"></line>
+<line class="s-thin k-azu" marker-end="url(#d-measure-order-ar)" x1="636" x2="651" y1="332" y2="332"></line>
+<text class="t-s mid" x="456" y="360">매끈</text>
+<text class="t-s mid" x="531" y="360">물결</text>
+<text class="t-s mid" x="606" y="360">톱니</text>
+<text class="t-s mid" x="681" y="360">깊게 갈라짐</text>
+</svg></g></g></g></g></g></svg>

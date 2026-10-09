@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 740 640" width="740" height="640" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t{ font-family:var(--f-ui); font-size:13px; fill:currentColor }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.t-d{ font-family:var(--f-disp); font-weight:800; font-size:16px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.end{ text-anchor:end }.mute{ fill:var(--mute) }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-bold{ fill:none; stroke:currentColor; stroke-width:2.4 }.dash{ stroke-dasharray:5 4 }.k-och{ stroke:var(--och) }.k-azu{ stroke:var(--azu) }.f-ink{ fill:currentColor }.f-bg{ fill:var(--panel-2) }.w-och{ fill:var(--och-w) }.w-azu{ fill:var(--azu-w) }.c-och{ fill:var(--och) }.c-azu{ fill:var(--azu) }svg.pz-root{width:740px!important;height:640px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="언어의 사각형: 명제·분절·지시·파생 네 꼭짓점이 이웃끼리 받치고 맞서는 네 변으로 고리를 닫고, 분절–파생과 명제–지시 두 대각선이 가운데 이름에서 만나며, 바깥을 닮음의 고리가 두른다." class="pz-inner" height="100%" role="img" viewBox="0 0 740 640" width="100%">
+<defs>
+<marker id="d-quadrilateral-ar" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 바깥 고리: 닮음 -->
+<ellipse class="s-bold k-och w-och" cx="370" cy="320" rx="356" ry="292"></ellipse>
+<text class="t mid b c-och" x="370" y="62">닮음 — 바깥을 두른 고리</text>
+<!-- 안쪽: 동일성과 차이 -->
+<rect class="f-bg" height="320" width="320" x="210" y="160"></rect>
+<rect class="w-azu" height="320" width="320" x="210" y="160"></rect>
+<!-- 두 대각선 (가새) -->
+<!-- 명제–지시 (라벨 자리는 끊어 둠) -->
+<line class="s k-azu" x1="210" x2="259" y1="160" y2="209"></line>
+<line class="s k-azu" x1="319" x2="428" y1="269" y2="378"></line>
+<line class="s k-azu" x1="474" x2="530" y1="424" y2="480"></line>
+<!-- 분절–파생 -->
+<line class="s k-azu" x1="530" x2="481" y1="160" y2="209"></line>
+<line class="s k-azu" x1="421" x2="323" y1="269" y2="367"></line>
+<line class="s k-azu" x1="255" x2="210" y1="435" y2="480"></line>
+<!-- 네 변 -->
+<line class="s" x1="210" x2="530" y1="160" y2="160"></line>
+<line class="s" x1="530" x2="530" y1="160" y2="480"></line>
+<line class="s" x1="210" x2="530" y1="480" y2="480"></line>
+<line class="s" marker-end="url(#d-quadrilateral-ar)" x1="210" x2="210" y1="432" y2="202"></line>
+<!-- 닮음에 기대는 세 꼭짓점: 황토 겹테 -->
+<circle class="s dash k-och" cx="530" cy="160" r="47"></circle>
+<circle class="s dash k-och" cx="530" cy="480" r="47"></circle>
+<circle class="s dash k-och" cx="210" cy="480" r="47"></circle>
+<!-- 꼭짓점 -->
+<circle class="s f-bg" cx="210" cy="160" r="40"></circle>
+<circle class="s f-bg" cx="530" cy="160" r="40"></circle>
+<circle class="s f-bg" cx="530" cy="480" r="40"></circle>
+<circle class="s f-bg" cx="210" cy="480" r="40"></circle>
+<text class="t-d mid" x="210" y="162">명제</text>
+<text class="t-s mid" x="210" y="179">(귀속)</text>
+<text class="t-d mid" x="530" y="162">분절</text>
+<text class="t-s mid" x="530" y="179">일반성</text>
+<text class="t-d mid" x="530" y="482">지시</text>
+<text class="t-s mid" x="530" y="499">기원·어근</text>
+<text class="t-d mid" x="210" y="482">파생</text>
+<text class="t-s mid" x="210" y="499">비유</text>
+<!-- 대각선 라벨 -->
+<text class="t-s mid b c-azu" transform="rotate(45 289 239)" x="289" y="243">낱말 = 대리자</text>
+<text class="t-s mid c-azu" transform="rotate(45 451 401)" x="451" y="405">표상의 표상</text>
+<text class="t-s mid b c-azu" transform="rotate(-45 451 239)" x="451" y="243">낱말 = 요소</text>
+<text class="t-s mid c-azu" transform="rotate(-45 289 401)" x="289" y="405">자 · 가름과 역사</text>
+<text class="t-s mid b c-azu" x="370" y="222">안쪽 · 동일성과 차이</text>
+<!-- 가운데: 이름 -->
+<rect class="s-bold k-azu f-bg" height="60" rx="6" width="130" x="305" y="290"></rect>
+<text class="t-d mid c-azu" x="370" y="317">이름</text>
+<text class="t-s mid" x="370" y="338">말 주기 = 칸에 놓기</text>
+<!-- 윗변 -->
+<text class="t-s mid b mute" x="370" y="96">윗변 · 낱말끼리의 관계</text>
+<text class="t-s mid" x="370" y="122">분절이 명제의 빈 그릇을 채운다</text>
+<text class="t-s mid mute" x="370" y="139">맞섬 — 술어는 묶고 이름은 가른다</text>
+<!-- 오른변 -->
+<text class="t-s b mute" x="550" y="290">오른변</text>
+<text class="t-s" x="550" y="310">분절이 잘라 낸 이름이</text>
+<text class="t-s" x="550" y="326">어디 매달리는지 지시가 알린다</text>
+<text class="t-s mute" x="550" y="350">맞섬 — 단번에 콕 찍기</text>
+<text class="t-s mute" x="550" y="366">↔ 일반성을 차곡차곡</text>
+<!-- 아랫변 -->
+<text class="t-s mid" x="370" y="505">지시는 어근 하나를 표상 하나에 묶고</text>
+<text class="t-s mid" x="370" y="522">파생은 그 끈을 풀어 겉면 위로 흘린다</text>
+<text class="t-s mid b mute" x="370" y="548">아랫변 · 낱말과 사물의 관계</text>
+<!-- 왼변 (고리를 닫는다) -->
+<text class="t-s end b mute" x="190" y="290">왼변</text>
+<text class="t-s end" x="190" y="310">파생이 일반성을 대어</text>
+<text class="t-s end" x="190" y="326">명제로 길을 튼다</text>
+<text class="t-s end mute" x="190" y="350">맞섬 — 공간에 그림을 펼침</text>
+<text class="t-s end mute" x="190" y="366">↔ 한 줄로 늘어섬</text>
+<text class="t-s mid mute" x="370" y="580">황토 겹테 = 닮음에 기대는 셋 · 명제는 '이다'로 족하다</text>
+</svg></g></g></g></g></g></svg>

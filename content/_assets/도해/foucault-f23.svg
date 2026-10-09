@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 740 398" width="740" height="398" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t{ font-family:var(--f-ui); font-size:13px; fill:currentColor }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.end{ text-anchor:end }.mute{ fill:var(--mute) }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-thin{ fill:none; stroke:currentColor; stroke-width:.8 }.s-bold{ fill:none; stroke:currentColor; stroke-width:2.4 }.dash{ stroke-dasharray:5 4 }.k-mute{ stroke:var(--mute) }.k-ver{ stroke:var(--ver) }.k-lak{ stroke:var(--lak) }.f-ver{ fill:var(--ver) }.f-lak{ fill:var(--lak) }.f-ink{ fill:currentColor }.f-mute{ fill:var(--mute) }.f-bg{ fill:var(--panel-2) }.w-ver{ fill:var(--ver-w) }.w-ink{ fill:var(--ink-w) }.c-ver{ fill:var(--ver) }.c-lak{ fill:var(--lak) }svg.pz-root{width:740px!important;height:398px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="희소성이 노동을, 노동이 가치를, 쌓이는 생산이 역사를 낳고, 역사는 희소성에 밀려 정지에 이른다. 그 정지를 리카도는 느려짐으로, 마르크스는 뒤집힘으로 읽지만 둘 다 한 판 위에 있다." class="pz-inner" height="100%" role="img" viewBox="0 0 740 398" width="100%">
+<defs>
+<marker id="d-ricardo-chain-ar" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="d-ricardo-chain-arv" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ver" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="d-ricardo-chain-arl" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-lak" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="d-ricardo-chain-arm" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<rect class="w-ink" height="340" rx="6" width="716" x="12" y="12"></rect>
+<rect class="s-thin k-mute dash" height="340" rx="6" width="716" x="12" y="12"></rect>
+<text class="t-s b mute" x="28" y="34">한 판 — 19세기 초의 배치: 경제의 역사성 · 인간의 유한성 · 역사의 끝</text>
+<path class="w-ink" d="M28,214 C150,270 340,270 470,206 L470,322 L28,322 Z"></path>
+<path class="s k-mute" d="M28,214 C150,270 340,270 470,206"></path>
+<text class="t-s mid mute" x="249" y="238">경제학이 딛는 땅</text>
+<text class="t mid b" x="249" y="290">희소성 — 자연의 인색함 · 불어나는 인구</text>
+<text class="t-s mid" x="249" y="308">인간의 유한성이 파 놓은 움푹한 자리 — 인간학적 공동</text>
+<rect class="w-ver" height="36" width="56" x="72" y="104"></rect>
+<rect class="s k-ver" height="36" width="56" x="72" y="104"></rect>
+<text class="t mid b" x="96" y="127">노동<tspan class="t-s" dy="4">1</tspan></text>
+<rect class="f-bg" height="22" rx="11" width="48" x="76" y="56"></rect>
+<rect class="s-thin k-ver" height="22" rx="11" width="48" x="76" y="56"></rect>
+<text class="t-s mid c-ver b" x="100" y="71.5">가치</text>
+<line class="s-thin k-ver" marker-end="url(#d-ricardo-chain-arv)" x1="100" x2="100" y1="103" y2="80"></line>
+<rect class="w-ver" height="36" width="56" x="168" y="104"></rect>
+<rect class="s k-ver" height="36" width="56" x="168" y="104"></rect>
+<text class="t mid b" x="192" y="127">노동<tspan class="t-s" dy="4">2</tspan></text>
+<rect class="f-bg" height="22" rx="11" width="48" x="172" y="56"></rect>
+<rect class="s-thin k-ver" height="22" rx="11" width="48" x="172" y="56"></rect>
+<text class="t-s mid c-ver b" x="196" y="71.5">가치</text>
+<line class="s-thin k-ver" marker-end="url(#d-ricardo-chain-arv)" x1="196" x2="196" y1="103" y2="80"></line>
+<rect class="w-ver" height="36" width="56" x="264" y="104"></rect>
+<rect class="s k-ver" height="36" width="56" x="264" y="104"></rect>
+<text class="t mid b" x="288" y="127">노동<tspan class="t-s" dy="4">3</tspan></text>
+<rect class="f-bg" height="22" rx="11" width="48" x="268" y="56"></rect>
+<rect class="s-thin k-ver" height="22" rx="11" width="48" x="268" y="56"></rect>
+<text class="t-s mid c-ver b" x="292" y="71.5">가치</text>
+<line class="s-thin k-ver" marker-end="url(#d-ricardo-chain-arv)" x1="292" x2="292" y1="103" y2="80"></line>
+<text class="t-s" x="106" y="96">원천</text>
+<text class="t-s" x="324" y="71.5">= 노동의 산물, 기호 아님</text>
+<line class="s k-ver" marker-end="url(#d-ricardo-chain-arv)" x1="128" x2="167" y1="122" y2="122"></line>
+<text class="t-s mid" x="147.5" y="116">비용</text>
+<line class="s k-ver" marker-end="url(#d-ricardo-chain-arv)" x1="224" x2="263" y1="122" y2="122"></line>
+<text class="t-s mid" x="243.5" y="116">비용</text>
+<line class="s k-ver dash" marker-end="url(#d-ricardo-chain-arv)" x1="320" x2="371" y1="122" y2="122"></line>
+<text class="t-s mid" x="346" y="114">… 쌓여</text>
+<path class="s-thin k-mute" d="M72,148 v6 h248 v-6"></path>
+<text class="t-s mid" x="196" y="172">쌓이는 생산 = 연속된 역사적 시간</text>
+<text class="t-s mid mute" x="196" y="188">앞 노동이 다음 노동의 비용</text>
+<path class="s" d="M40,226 V122 H70" marker-end="url(#d-ricardo-chain-ar)"></path>
+<text class="t-s" x="46" y="208">일하게 한다</text>
+<rect class="f-bg" height="48" width="90" x="372" y="98"></rect>
+<rect class="s-bold" height="48" width="90" x="372" y="98"></rect>
+<text class="t mid b" x="417" y="119">역사의 정지</text>
+<text class="t-s mid mute" x="417" y="136">역사의 끝</text>
+<line class="s" marker-end="url(#d-ricardo-chain-ar)" x1="440" x2="440" y1="214" y2="149"></line>
+<text class="t-s end" x="434" y="186">밀어붙인다</text>
+<path class="s-thin" d="M462,122 H486 M486,84 V250"></path>
+<line class="s-thin" marker-end="url(#d-ricardo-chain-ar)" x1="486" x2="508" y1="84" y2="84"></line>
+<line class="s-thin" marker-end="url(#d-ricardo-chain-ar)" x1="486" x2="508" y1="250" y2="250"></line>
+<text class="t b" x="512" y="62">리카도 — 느려져 멈춘다</text>
+<line class="s" marker-end="url(#d-ricardo-chain-ar)" x1="512" x2="576" y1="84" y2="84"></line>
+<line class="s" marker-end="url(#d-ricardo-chain-ar)" x1="582" x2="624" y1="84" y2="84"></line>
+<line class="s" marker-end="url(#d-ricardo-chain-ar)" x1="630" x2="656" y1="84" y2="84"></line>
+<line class="s" marker-end="url(#d-ricardo-chain-ar)" x1="662" x2="677" y1="84" y2="84"></line>
+<line class="s-bold" x1="688" x2="688" y1="70" y2="98"></line>
+<text class="t-s mid" x="688" y="114">정지 상태</text>
+<text class="t-s mute" x="512" y="104">점점 느려진다</text>
+<text class="t-s" x="512" y="136">역사 = 희소성을 이기는 보상 (긍정)</text>
+<text class="t-s" x="512" y="152">유한성과 생산이 한 모양으로 포개진다</text>
+<text class="t b" x="512" y="206">마르크스 — 뒤집힌다</text>
+<path class="s" d="M512,250 H646 C694,250 694,224 646,224 H604" marker-end="url(#d-ricardo-chain-ar)"></path>
+<text class="t-s end" x="598" y="228">다른 결의 시간</text>
+<text class="t-s mid mute" x="580" y="266">궁핍이 쌓인다</text>
+<text class="t-s" x="512" y="290">역사 = 노동을 빼앗는 것 (부정)</text>
+<text class="t-s" x="512" y="306">벼랑 끝 계급이 '자연'을</text>
+<text class="t-s" x="512" y="322">소외된 유한성으로 알아본다</text>
+<text class="t-s end mute b" x="716" y="343">두 읽기 모두 한 물속 — 같은 판 위의 다툼</text>
+<line class="s k-lak" marker-end="url(#d-ricardo-chain-arl)" x1="28" x2="28" y1="390" y2="356"></line>
+<text class="t-s c-lak" x="38" y="380">19세기 끝, 니체가 이 판의 부품을 거의 다 다시 집어 들어 몽땅 불사른다</text>
+</svg></g></g></g></g></g></svg>

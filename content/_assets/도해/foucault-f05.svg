@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 446" width="760" height="446" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t{ font-family:var(--f-ui); font-size:13px; fill:currentColor }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.t-m{ font-family:var(--f-mono); font-size:12.5px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.end{ text-anchor:end }.mute{ fill:var(--mute) }.halo{ paint-order:stroke; stroke:var(--panel-2); stroke-width:4px; stroke-linejoin:round }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-thin{ fill:none; stroke:currentColor; stroke-width:.8 }.s-bold{ fill:none; stroke:currentColor; stroke-width:2.4 }.dash{ stroke-dasharray:5 4 }.dot{ stroke-dasharray:1.5 4; stroke-linecap:round }.k-mute{ stroke:var(--mute) }.k-rule{ stroke:var(--rule) }.k-azu{ stroke:var(--azu) }.k-lak{ stroke:var(--lak) }.f-azu{ fill:var(--azu) }.f-ink{ fill:currentColor }.f-mute{ fill:var(--mute) }.f-bg{ fill:var(--panel-2) }.f-panel{ fill:var(--panel) }.f-none{ fill:none }.w-ink{ fill:var(--ink-w) }.c-azu{ fill:var(--azu) }.c-lak{ fill:var(--lak) }svg.pz-root{width:760px!important;height:446px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="정면에서 X 자와 활 곡선이 공주와 거울에 두 중심을 주고, 옆에서 보면 공주 눈과 거울에서 앞으로 뻗은 두 선이 아주 좁은 각으로 그림 밖 한 점에 모인다 — 그 점은 비어 있다." class="pz-inner" height="100%" role="img" viewBox="0 0 760 446" width="100%">
+<defs><marker id="d-meninas-sight-az" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-azu" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="d-meninas-sight-azb" markerHeight="4.2" markerUnits="strokeWidth" markerWidth="4.2" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-azu" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="d-meninas-sight-mu" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<rect class="s f-panel" height="318" width="276" x="76" y="64"></rect>
+<line class="s-thin k-mute dot" x1="76" x2="352" y1="276" y2="276"></line>
+<line class="s-thin k-mute dot" x1="76" x2="352" y1="223" y2="223"></line>
+<rect class="s-thin k-rule f-none" height="166.0" width="180.0" x="146.0" y="120.0"></rect>
+<rect class="s-thin k-rule w-ink" height="34.0" width="54.0" x="162.0" y="126.0"></rect>
+<rect class="s-thin k-rule w-ink" height="34.0" width="54.0" x="236.0" y="126.0"></rect>
+<rect class="s f-bg" height="28.0" width="26.0" x="200.0" y="223.0"></rect>
+<circle class="s-thin k-mute f-none" cx="208.0" cy="234.0" r="3.5"></circle>
+<circle class="s-thin k-mute f-none" cx="218.0" cy="234.0" r="3.5"></circle>
+<ellipse class="s-thin k-mute f-none" cx="208.0" cy="244.0" rx="4.5" ry="5"></ellipse>
+<ellipse class="s-thin k-mute f-none" cx="218.0" cy="244.0" rx="4.5" ry="5"></ellipse>
+<rect class="s-thin k-mute f-bg" height="66.0" width="26.0" x="232.0" y="216.0"></rect>
+<circle class="s-thin f-panel" cx="245.0" cy="232.0" r="6"></circle>
+<ellipse class="s-thin f-panel" cx="245.0" cy="254.0" rx="7" ry="15"></ellipse>
+<rect class="s-thin k-mute f-bg" height="120.0" width="9.0" x="338.0" y="132.0"></rect>
+<circle class="s-thin k-mute f-panel" cx="274.0" cy="210.0" r="7"></circle>
+<ellipse class="s-thin k-mute f-panel" cx="274.0" cy="234.0" rx="9" ry="17"></ellipse>
+<ellipse class="s-thin f-panel" cx="290.0" cy="222.0" rx="9" ry="18"></ellipse>
+<circle class="s-thin f-panel" cx="290.0" cy="196.0" r="7"></circle>
+<rect class="s w-ink" height="294.0" width="62.0" x="76.0" y="80.0"></rect>
+<line class="s-thin k-mute" x1="107.0" x2="107.0" y1="374.0" y2="80.0"></line>
+<line class="s-thin k-mute" x1="76.0" x2="138.0" y1="177.0" y2="177.0"></line>
+<line class="s" x1="144.0" x2="134.0" y1="260.0" y2="358.0"></line>
+<ellipse class="s-thin f-panel" cx="164.0" cy="264.0" rx="13" ry="22"></ellipse>
+<circle class="s-thin f-panel" cx="164.0" cy="231.0" r="10"></circle>
+<ellipse class="s-thin k-mute f-panel" cx="250.0" cy="300.0" rx="12" ry="24"></ellipse>
+<circle class="s-thin k-mute f-panel" cx="248.0" cy="268.0" r="8"></circle>
+<ellipse class="s-thin f-panel" cx="180.0" cy="300.0" rx="12" ry="18"></ellipse>
+<circle class="s-thin f-panel" cx="186.0" cy="276.0" r="8"></circle>
+<ellipse class="s-thin f-panel" cx="214.0" cy="322.0" rx="27" ry="36"></ellipse>
+<circle class="s-thin f-panel" cx="214.0" cy="274.0" r="11"></circle>
+<circle class="f-ink" cx="210.0" cy="276.0" r="1.6"></circle>
+<circle class="f-ink" cx="218.0" cy="276.0" r="1.6"></circle>
+<ellipse class="s-thin k-mute f-panel" cx="290.0" cy="320.0" rx="15" ry="24"></ellipse>
+<circle class="s-thin k-mute f-panel" cx="290.0" cy="286.0" r="10"></circle>
+<ellipse class="s-thin f-panel" cx="298.0" cy="370.0" rx="34" ry="8"></ellipse>
+<ellipse class="s-thin f-panel" cx="323.0" cy="336.0" rx="9" ry="20"></ellipse>
+<circle class="s-thin f-panel" cx="326.0" cy="308.0" r="8"></circle>
+<line class="s-thin k-mute dash" x1="214.0" x2="214.0" y1="386.0" y2="60.0"></line>
+<line class="s k-azu" x1="164.0" x2="316.0" y1="233.4" y2="363.0"></line>
+<line class="s k-azu" x1="290.0" x2="134.0" y1="198.1" y2="358.0"></line>
+<path class="s-bold k-azu dash f-none" d="M164.0,233.4 C176,296 250,304 290.0,198.1"></path>
+<circle class="f-azu" cx="164.0" cy="233.4" r="3"></circle>
+<circle class="f-azu" cx="290.0" cy="198.1" r="3"></circle>
+<circle class="f-azu" cx="134.0" cy="358.0" r="3"></circle>
+<circle class="f-azu" cx="316.0" cy="363.0" r="3"></circle>
+<circle class="s k-azu f-none" cx="214.0" cy="276.0" r="6"></circle>
+<line class="s-thin k-mute" x1="62" x2="62" y1="382" y2="64"></line>
+<line class="s-thin" x1="57" x2="76" y1="382" y2="382"></line>
+<text class="t-m end" x="54" y="386">0</text>
+<line class="s-thin" x1="57" x2="76" y1="276" y2="276"></line>
+<text class="t-m end" x="54" y="280">106</text>
+<line class="s-thin" x1="57" x2="76" y1="223" y2="223"></line>
+<text class="t-m end" x="54" y="227">159</text>
+<line class="s-thin" x1="57" x2="76" y1="64" y2="64"></line>
+<text class="t-m end" x="54" y="68">318</text>
+<text class="t-s mute end" x="54" y="52">cm</text>
+<text class="t-s b" x="76.0" y="40.0">정면 · 축척대로</text>
+<text class="t-s mute mid" x="214.0" y="58.0">세로 중앙선</text>
+<text class="t-s b end halo" x="149.0" y="248.4">화가의 눈</text>
+<text class="t-s b mid halo" x="290.0" y="178.1">신하의 눈</text>
+<text class="t-s b end halo" x="127.0" y="362.0">이젤 다리</text>
+<line class="s-thin k-mute" x1="320.0" x2="356" y1="363.0" y2="363.0"></line>
+<text class="t-s b" x="360.0" y="367.0">난쟁이 아이</text>
+<text class="t-s b mid halo" x="214.0" y="318.0">공주의 눈</text>
+<text class="t-s mute mid halo" x="214.0" y="332.0">X의 교차점</text>
+<text class="t-s b mid halo" x="213.0" y="216.0">거울</text>
+<text class="t-s mute mid halo" x="245.0" y="210.0">니에토</text>
+<text class="t-s mute mid" x="342.5" y="124.0">창</text>
+<text class="t-s mute mid halo" x="107.0" y="120.0">등 돌린</text>
+<text class="t-s mute mid halo" x="107.0" y="134.0">캔버스</text>
+<text class="t-s b" x="430.0" y="40.0">옆에서 본 단면 · 앞뒤로 뻗는 두 선</text>
+<line class="s-thin k-mute" x1="440" x2="440" y1="90" y2="382"></line>
+<text class="t-s mute mid" x="440.0" y="84.0">뒷벽</text>
+<line class="s-bold" x1="600" x2="600" y1="64" y2="382"></line>
+<text class="t-s mid" x="600.0" y="56.0">그림 표면</text>
+<line class="s-thin" x1="595" x2="605" y1="276" y2="276"></line>
+<line class="s-thin" x1="595" x2="605" y1="223" y2="223"></line>
+<text class="t-m" x="608.0" y="219.0">159</text>
+<text class="t-m" x="608.0" y="292.0">106</text>
+<rect class="s-thin f-bg" height="28" width="6" x="597" y="223"></rect>
+<rect class="s-thin f-bg" height="61.2" width="4" x="436" y="182.7"></rect>
+<line class="s-bold" x1="440" x2="440" y1="182.7" y2="243.9"></line>
+<text class="t-s b mid" x="440.0" y="259.9">거울</text>
+<ellipse class="s-thin f-panel" cx="570" cy="322.2" rx="14" ry="30"></ellipse>
+<circle class="s-thin f-panel" cx="570" cy="282.2" r="8"></circle>
+<circle class="f-ink" cx="573" cy="280.2" r="1.8"></circle>
+<text class="t-s mute mid" x="570.0" y="370.2">공주</text>
+<line class="s k-azu dot" x1="440" x2="406" y1="213.3" y2="208.3"></line>
+<text class="t-s mute end" x="434.0" y="199.3">거울 속 깊이</text>
+<line class="s-thin k-mute" marker-end="url(#d-meninas-sight-mu)" x1="600" x2="718.3" y1="233.4" y2="254.1"></line>
+<line class="s-thin k-mute" marker-end="url(#d-meninas-sight-mu)" x1="600" x2="719.4" y1="198.1" y2="250.2"></line>
+<text class="t-s mute" x="640.0" y="202.1">다른 눈길들</text>
+<line class="s-bold k-azu" marker-end="url(#d-meninas-sight-azb)" x1="440" x2="718.2" y1="213.3" y2="254.5"></line>
+<line class="s-bold k-azu" marker-end="url(#d-meninas-sight-azb)" x1="573" x2="718.2" y1="280.2" y2="259.4"></line>
+<text class="t-s c-azu b halo" x="462.0" y="206.6">거울에서 — 방 깊이 전체</text>
+<text class="t-s c-azu b end halo" x="556.0" y="285.2">공주 눈에서 — 앞쪽만</text>
+<path class="s-thin f-none" d="M685.5,249.7 A50,50 0 0 0 685.5,264.0"></path>
+<text class="t-s mid" x="672.0" y="285.0">아주 좁은 각</text>
+<circle class="s k-lak dash f-none" cx="735" cy="257" r="15"></circle>
+<text class="t b end" x="752.0" y="305.0">우리가 선 자리</text>
+<text class="t-s end" x="752.0" y="321.0">안 보이나 정확한 점</text>
+<text class="t-s b c-lak end" x="752.0" y="337.0">비어 있음 · 왕의 자리</text>
+<line class="s k-azu" x1="76" x2="102" y1="412" y2="412"></line>
+<text class="t-s" x="108.0" y="416.0">X 자 — 한가운데 공주</text>
+<line class="s-bold k-azu dash" x1="246" x2="272" y1="412" y2="412"></line>
+<text class="t-s" x="278.0" y="416.0">활 곡선 — 오목한 데 거울</text>
+<text class="t-m mute" x="76.0" y="438.0">318 ÷ 2 = 159 · 318 ÷ 3 = 106 · 159 − 106 = 53</text>
+</svg></g></g></g></g></g></svg>

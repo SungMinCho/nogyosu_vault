@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 740 530" width="740" height="530" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t{ font-family:var(--f-ui); font-size:13px; fill:currentColor }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.t-d{ font-family:var(--f-disp); font-weight:800; font-size:16px; fill:currentColor }.t-m{ font-family:var(--f-mono); font-size:12.5px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.end{ text-anchor:end }.mute{ fill:var(--mute) }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-thin{ fill:none; stroke:currentColor; stroke-width:.8 }.s-bold{ fill:none; stroke:currentColor; stroke-width:2.4 }.dash{ stroke-dasharray:5 4 }.k-rule{ stroke:var(--rule) }.k-azu{ stroke:var(--azu) }.f-azu{ fill:var(--azu) }.f-ink{ fill:currentColor }.f-bg{ fill:var(--panel-2) }.f-none{ fill:none }.w-azu{ fill:var(--azu-w) }.w-ink{ fill:var(--ink-w) }.c-azu{ fill:var(--azu) }svg.pz-root{width:740px!important;height:530px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="체계는 미리 고른 몇 칸에만 동그라미를 쳐 종마다 그 칸만 읽고(6,000종이면 6,000번), 방법은 첫 종을 통째로 적고 다음부터 차이만 적다가 드러난 과를 앞세워 이웃과의 차이만 적는다(과 100개×60종이면 177,000번). 모든 종을 서로 맞대는 17,997,000번에 비하면 둘 다 지름길이다." class="pz-inner" height="100%" role="img" viewBox="0 0 740 530" width="100%">
+<defs>
+<marker id="d-system-method-ar" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="d-system-method-ara" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-azu" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<line class="s-thin k-rule" x1="370" x2="370" y1="20" y2="372"></line>
+<!-- ───────── 체계 ───────── -->
+<text class="t-d c-azu" x="24" y="38">체계</text>
+<text class="t-s mute" x="66" y="37">린네 · 잣대를 먼저 정한다</text>
+<text class="t-s b c-azu" x="24" y="62">열쇠 — 미리 친 동그라미</text>
+<!-- 열쇠: 다섯 부위 × 네 변수, 동그라미 밖은 셈에 안 넣음 -->
+<text class="t-s mid" x="64" y="80">형태</text>
+<text class="t-s mid" x="92" y="80">수</text>
+<text class="t-s mid" x="120" y="80">배치</text>
+<text class="t-s mid" x="148" y="80">크기</text>
+<rect class="s-thin dash k-rule f-none" height="54" width="112" x="50" y="86"></rect>
+<line class="s-thin dash k-rule" x1="78" x2="78" y1="86" y2="140"></line>
+<line class="s-thin dash k-rule" x1="106" x2="106" y1="86" y2="140"></line>
+<line class="s-thin dash k-rule" x1="134" x2="134" y1="86" y2="140"></line>
+<line class="s-thin dash k-rule" x1="50" x2="162" y1="104" y2="104"></line>
+<line class="s-thin dash k-rule" x1="50" x2="162" y1="122" y2="122"></line>
+<rect class="s-thin k-azu f-bg" height="36" width="112" x="50" y="140"></rect>
+<line class="s-thin k-azu" x1="78" x2="78" y1="140" y2="176"></line>
+<line class="s-thin k-azu" x1="106" x2="106" y1="140" y2="176"></line>
+<line class="s-thin k-azu" x1="134" x2="134" y1="140" y2="176"></line>
+<line class="s-thin k-azu" x1="50" x2="162" y1="158" y2="158"></line>
+<text class="t-s end mute" x="44" y="99">뿌리</text>
+<text class="t-s end mute" x="44" y="117">줄기</text>
+<text class="t-s end mute" x="44" y="135">잎</text>
+<text class="t-s end b" x="44" y="153">꽃</text>
+<text class="t-s end b" x="44" y="171">열매</text>
+<rect class="s-bold k-azu f-none" height="46" rx="12" width="120" x="46" y="135"></rect>
+<text class="t-s mid b c-azu" x="106" y="198">열매 맺는 기관만</text>
+<text class="t-s mid mute" x="106" y="214">잎·뿌리는 셈에 안 넣는다</text>
+<!-- 종 카드: 동그라미 속 두 줄만 읽는다 -->
+<text class="t-s mid b" x="190" y="80">대 본다</text>
+<line class="s" marker-end="url(#d-system-method-ar)" x1="202" x2="170" y1="100" y2="152"></line>
+<line class="s" marker-end="url(#d-system-method-ar)" x1="202" x2="170" y1="136" y2="158"></line>
+<line class="s" marker-end="url(#d-system-method-ar)" x1="202" x2="170" y1="172" y2="164"></line>
+<rect class="s-thin f-bg" height="24" width="60" x="206" y="88"></rect>
+<line class="s-thin" x1="221" x2="221" y1="88" y2="112"></line><line class="s-thin" x1="236" x2="236" y1="88" y2="112"></line><line class="s-thin" x1="251" x2="251" y1="88" y2="112"></line><line class="s-thin" x1="206" x2="266" y1="100" y2="100"></line>
+<rect class="f-azu" height="6" width="9" x="209" y="91"></rect><rect class="f-azu" height="6" width="9" x="239" y="91"></rect>
+<rect class="f-azu" height="6" width="9" x="224" y="103"></rect><rect class="f-azu" height="6" width="9" x="239" y="103"></rect>
+<text class="t-s" x="272" y="104">종 1</text>
+<rect class="s-thin f-bg" height="24" width="60" x="206" y="124"></rect>
+<line class="s-thin" x1="221" x2="221" y1="124" y2="148"></line><line class="s-thin" x1="236" x2="236" y1="124" y2="148"></line><line class="s-thin" x1="251" x2="251" y1="124" y2="148"></line><line class="s-thin" x1="206" x2="266" y1="136" y2="136"></line>
+<rect class="f-azu" height="6" width="9" x="209" y="127"></rect><rect class="f-azu" height="6" width="9" x="239" y="127"></rect>
+<rect class="f-azu" height="6" width="9" x="224" y="139"></rect><rect class="f-azu" height="6" width="9" x="239" y="139"></rect>
+<text class="t-s" x="272" y="140">종 2</text>
+<rect class="s-thin f-bg" height="24" width="60" x="206" y="160"></rect>
+<line class="s-thin" x1="221" x2="221" y1="160" y2="184"></line><line class="s-thin" x1="236" x2="236" y1="160" y2="184"></line><line class="s-thin" x1="251" x2="251" y1="160" y2="184"></line><line class="s-thin" x1="206" x2="266" y1="172" y2="172"></line>
+<rect class="f-azu" height="6" width="9" x="209" y="163"></rect><rect class="f-azu" height="6" width="9" x="224" y="163"></rect>
+<rect class="f-azu" height="6" width="9" x="239" y="175"></rect><rect class="f-azu" height="6" width="9" x="254" y="175"></rect>
+<text class="t-s" x="272" y="176">종 3</text>
+<path class="s-thin" d="M300,90 H305 V146 H300"></path>
+<text class="t-s b" x="311" y="114">같은 값</text>
+<text class="t-s b c-azu" x="311" y="129">→ 한 이름</text>
+<text class="t-s mute" x="300" y="176">다르면 따로</text>
+<text class="t-s mid mute" x="236" y="206">… 종 6,000까지</text>
+<text class="t-s" x="24" y="290">종마다 열쇠에 한 번씩 읽는다</text>
+<text class="t-m b c-azu" x="24" y="308">6,000종 → 6,000번</text>
+<text class="t-s mute" x="24" y="334">· 여럿 — 아당송 혼자 65개</text>
+<text class="t-s mute" x="24" y="350">· 정한 형질은 한 칸도 못 고친다</text>
+<text class="t-s mute" x="24" y="366">· 형질은 옆으로 나란할 뿐</text>
+<!-- ───────── 방법 ───────── -->
+<text class="t-d c-azu" x="386" y="38">방법</text>
+<text class="t-s mute" x="428" y="37">아당송 · 무리를 먼저 믿는다</text>
+<text class="t-s b c-azu" x="386" y="62">장부 — 앞에 적힌 것은 지운다</text>
+<!-- 장부 네 장: 뒤로 갈수록 얇아진다 -->
+<rect class="s-thin f-bg" height="78" width="44" x="392" y="72"></rect>
+<text class="t-s mid b" x="414" y="86">종 1</text>
+<line class="s" x1="399" x2="429" y1="98" y2="98"></line>
+<line class="s" x1="399" x2="429" y1="108" y2="108"></line>
+<line class="s" x1="399" x2="429" y1="118" y2="118"></line>
+<line class="s" x1="399" x2="429" y1="128" y2="128"></line>
+<line class="s" x1="399" x2="429" y1="138" y2="138"></line>
+<rect class="s-thin f-bg" height="78" width="44" x="446" y="72"></rect>
+<text class="t-s mid b" x="468" y="86">종 2</text>
+<line class="s-thin dash k-rule" x1="453" x2="483" y1="98" y2="98"></line>
+<line class="s-thin dash k-rule" x1="453" x2="483" y1="108" y2="108"></line>
+<line class="s" x1="453" x2="483" y1="118" y2="118"></line>
+<line class="s-thin dash k-rule" x1="453" x2="483" y1="128" y2="128"></line>
+<line class="s" x1="453" x2="483" y1="138" y2="138"></line>
+<rect class="s-thin f-bg" height="78" width="44" x="500" y="72"></rect>
+<text class="t-s mid b" x="522" y="86">종 3</text>
+<line class="s-thin dash k-rule" x1="507" x2="537" y1="98" y2="98"></line>
+<line class="s" x1="507" x2="537" y1="108" y2="108"></line>
+<line class="s-thin dash k-rule" x1="507" x2="537" y1="118" y2="118"></line>
+<line class="s-thin dash k-rule" x1="507" x2="537" y1="128" y2="128"></line>
+<line class="s-thin dash k-rule" x1="507" x2="537" y1="138" y2="138"></line>
+<rect class="s-thin f-bg" height="78" width="44" x="554" y="72"></rect>
+<text class="t-s mid b" x="576" y="86">종 4 …</text>
+<line class="s-thin dash k-rule" x1="561" x2="591" y1="98" y2="98"></line>
+<line class="s-thin dash k-rule" x1="561" x2="591" y1="108" y2="108"></line>
+<line class="s-thin dash k-rule" x1="561" x2="591" y1="118" y2="118"></line>
+<line class="s" x1="561" x2="576" y1="128" y2="128"></line>
+<line class="s-thin dash k-rule" x1="561" x2="591" y1="138" y2="138"></line>
+<line class="s" x1="608" x2="626" y1="96" y2="96"></line>
+<text class="t-s" x="632" y="100">적은 줄</text>
+<line class="s-thin dash k-rule" x1="608" x2="626" y1="112" y2="112"></line>
+<text class="t-s mute" x="632" y="116">지운 줄</text>
+<text class="t-s mid mute" x="495" y="166">첫 종은 통째로, 다음부터는 다른 것만</text>
+<line class="s k-azu" marker-end="url(#d-system-method-ara)" x1="495" x2="495" y1="174" y2="196"></line>
+<text class="t-s b" x="505" y="190">큰 과가 드러나면 방향을 튼다</text>
+<!-- 드러난 과를 앞세운다 -->
+<rect class="s k-azu f-none" height="68" width="156" x="392" y="202"></rect>
+<rect class="w-azu" height="20" width="156" x="392" y="202"></rect>
+<text class="t-s mid b c-azu" x="470" y="216">미나리아재비 무리</text>
+<text class="t-s mid" x="470" y="238">공통 특징을 앞장에</text>
+<rect class="s-thin dash" height="17" rx="2" width="44" x="398" y="247"></rect>
+<rect class="s-thin dash" height="17" rx="2" width="44" x="448" y="247"></rect>
+<rect class="s-thin dash" height="17" rx="2" width="44" x="498" y="247"></rect>
+<text class="t-s mid mute" x="420" y="260">차이만</text>
+<text class="t-s mid mute" x="470" y="260">차이만</text>
+<text class="t-s mid mute" x="520" y="260">차이만</text>
+<rect class="s k-azu f-none" height="68" width="156" x="562" y="202"></rect>
+<rect class="w-azu" height="20" width="156" x="562" y="202"></rect>
+<text class="t-s mid b c-azu" x="640" y="216">투구꽃 무리</text>
+<text class="t-s mid" x="640" y="238">공통 특징을 앞장에</text>
+<rect class="s-thin dash" height="17" rx="2" width="44" x="568" y="247"></rect>
+<rect class="s-thin dash" height="17" rx="2" width="44" x="618" y="247"></rect>
+<rect class="s-thin dash" height="17" rx="2" width="44" x="668" y="247"></rect>
+<text class="t-s mid mute" x="590" y="260">차이만</text>
+<text class="t-s mid mute" x="640" y="260">차이만</text>
+<text class="t-s mid mute" x="690" y="260">차이만</text>
+<text class="t-m" x="386" y="290">과 하나: 60 × 59 ÷ 2 = 1,770번</text>
+<text class="t-m b c-azu" x="386" y="308">과 100개: 1,770 × 100 = 177,000번</text>
+<text class="t-s mute" x="386" y="334">· 하나뿐</text>
+<text class="t-s mute" x="386" y="350">· 늘 고칠 각오를 한다</text>
+<text class="t-s mute" x="386" y="366">· 위아래 종속 — 본질적 형질이 큰 과를 가른다</text>
+<!-- ───────── 맞대는 횟수: 넓이 = 횟수 ───────── -->
+<line class="s-thin k-rule" x1="16" x2="724" y1="516" y2="516"></line>
+<rect class="s w-ink" height="120" width="120" x="24" y="396"></rect>
+<text class="t-s b mute" x="158" y="410">맞대는 횟수 — 네모의 넓이가 곧 횟수</text>
+<text class="t b" x="158" y="438">모든 종을 서로 맞대면</text>
+<text class="t-m" x="158" y="458">6,000 × 5,999 ÷ 2 = 17,997,000번</text>
+<text class="t-s mute" x="158" y="476">약 1,800만 번 · 번마다 20칸을 보면 3억 6천만 번</text>
+<rect class="f-azu" height="11.9" width="11.9" x="440" y="504.1"></rect>
+<text class="t b c-azu" x="462" y="496">방법 177,000번</text>
+<text class="t-s mute" x="462" y="512">1,800만의 백분의 일</text>
+<rect class="f-azu" height="2.2" width="2.2" x="604" y="513.8"></rect>
+<text class="t b c-azu" x="616" y="496">체계 6,000번</text>
+<text class="t-s mute" x="616" y="512">열쇠에 한 번씩</text>
+</svg></g></g></g></g></g></svg>

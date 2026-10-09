@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 740 548" width="740" height="548" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t{ font-family:var(--f-ui); font-size:13px; fill:currentColor }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.t-l{ font-family:var(--f-ui); font-size:15px; fill:currentColor }.t-d{ font-family:var(--f-disp); font-weight:800; font-size:16px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.end{ text-anchor:end }.mute{ fill:var(--mute) }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-thin{ fill:none; stroke:currentColor; stroke-width:.8 }.s-bold{ fill:none; stroke:currentColor; stroke-width:2.4 }.dash{ stroke-dasharray:5 4 }.k-mute{ stroke:var(--mute) }.k-rule{ stroke:var(--rule) }.k-azu{ stroke:var(--azu) }.f-azu{ fill:var(--azu) }.f-ink{ fill:currentColor }.f-mute{ fill:var(--mute) }.f-bg{ fill:var(--panel-2) }.w-azu{ fill:var(--azu-w) }.w-ink{ fill:var(--ink-w) }.c-och{ fill:var(--och) }.c-azu{ fill:var(--azu) }svg.pz-root{width:740px!important;height:548px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="보기에서 이름까지의 깔때기: 거름망 넷이 소문·책, 맛·냄새, 촉각 대부분, 색을 걸러 내면 흑백의 시각이 남고, 다섯 부위의 네 변수가 구조를, 그중 고른 몇 칸이 형질을 이루며, 형질이 무리를 짓고 이름 하나로 좁아진다." class="pz-inner" height="100%" role="img" viewBox="0 0 740 548" width="100%">
+<defs>
+<marker id="d-visibility-filter-ar" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="d-visibility-filter-arm" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="d-visibility-filter-ara" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-azu" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 깔때기 몸: 걸러 내기 전(잉크) / 걸러 낸 뒤(남청) -->
+<polygon class="w-ink" points="70,24 490,24 403.4,194 156.6,194"></polygon>
+<polygon class="w-azu" points="156.6,194 403.4,194 380,240 380,372 322,452 304,488 256,488 238,452 180,372 180,240"></polygon>
+<polyline class="s" points="70,24 180,240 180,372 238,452 256,488"></polyline>
+<polyline class="s" points="490,24 380,240 380,372 322,452 304,488"></polyline>
+<!-- 입구: 경험 전체 -->
+<text class="t-l mid b" x="280" y="46">경험 전체</text>
+<text class="t-s mid" x="280" y="64">소문 · 책 · 맛 · 냄새 · 촉각 · 색 · 형태</text>
+<!-- 거름망 넷 (점선) -->
+<line class="s dash" x1="95.5" x2="464.5" y1="74" y2="74"></line>
+<line class="s dash" x1="115.8" x2="444.2" y1="114" y2="114"></line>
+<line class="s dash" x1="136.2" x2="423.8" y1="154" y2="154"></line>
+<line class="s dash" x1="156.6" x2="403.4" y1="194" y2="194"></line>
+<text class="t-s end b mute" x="114" y="138">거름망 넷</text>
+<!-- 거름망 사이에 남은 것 -->
+<text class="t-s mid mute" x="280" y="99">맛 · 냄새 · 촉각 · 색 · 형태</text>
+<text class="t-s mid mute" x="280" y="139">촉각 · 색 · 형태</text>
+<text class="t-s mid mute" x="280" y="179">매끈·거칠 · 색 · 형태</text>
+<!-- 옆으로 걸러 낸 것 -->
+<text class="t-s b mute" x="528" y="50">걸러 낸 것</text>
+<line class="s k-mute" marker-end="url(#d-visibility-filter-arm)" x1="469" x2="520" y1="74" y2="74"></line>
+<text class="t-s b" x="528" y="78">소문 · 책</text>
+<text class="t-s mute" x="528" y="93">전해 들은 말 · 읽은 것</text>
+<line class="s k-mute" marker-end="url(#d-visibility-filter-arm)" x1="449" x2="520" y1="114" y2="114"></line>
+<text class="t-s b" x="528" y="118">맛 · 냄새</text>
+<text class="t-s mute" x="528" y="133">사람마다 날마다 달라 못 쪼갠다</text>
+<line class="s k-mute" marker-end="url(#d-visibility-filter-arm)" x1="428" x2="520" y1="154" y2="154"></line>
+<text class="t-s b" x="528" y="158">촉각 대부분</text>
+<text class="t-s mute" x="528" y="173">매끈·거칠만 남는다</text>
+<line class="s k-mute" marker-end="url(#d-visibility-filter-arm)" x1="408" x2="520" y1="194" y2="194"></line>
+<text class="t-s b" x="528" y="198">색</text>
+<text class="t-s mute" x="528" y="213">비교의 바탕에서 뺀다</text>
+<text class="t-s c-och" x="528" y="228">흐릿한 닮음도 함께</text>
+<!-- 보기: 흑백의 시각 -->
+<text class="t-l end b c-azu" x="160" y="222">보기</text>
+<text class="t mid b c-azu" x="280" y="216">흑백의 시각</text>
+<text class="t-s mid" x="280" y="232">선 · 면 · 형태 · 돋을새김</text>
+<!-- 구조: 다섯 부위 × 네 변수 -->
+<text class="t-l end b c-azu" x="166" y="268">구조</text>
+<text class="t-s end mute" x="166" y="284">부위 × 네 변수</text>
+<text class="t-s mid" x="248" y="266">형태</text>
+<text class="t-s mid" x="280" y="266">수</text>
+<text class="t-s mid" x="312" y="266">배치</text>
+<text class="t-s mid" x="344" y="266">크기</text>
+<rect class="s-thin k-azu f-bg" height="90" width="128" x="232" y="273"></rect>
+<line class="s-thin k-azu" x1="264" x2="264" y1="273" y2="363"></line>
+<line class="s-thin k-azu" x1="296" x2="296" y1="273" y2="363"></line>
+<line class="s-thin k-azu" x1="328" x2="328" y1="273" y2="363"></line>
+<line class="s-thin k-azu" x1="232" x2="360" y1="291" y2="291"></line>
+<line class="s-thin k-azu" x1="232" x2="360" y1="309" y2="309"></line>
+<line class="s-thin k-azu" x1="232" x2="360" y1="327" y2="327"></line>
+<line class="s-thin k-azu" x1="232" x2="360" y1="345" y2="345"></line>
+<text class="t-s end" x="226" y="286">뿌리</text>
+<text class="t-s end" x="226" y="304">줄기</text>
+<text class="t-s end" x="226" y="322">잎</text>
+<text class="t-s end" x="226" y="340">꽃</text>
+<text class="t-s end" x="226" y="358">열매</text>
+<!-- 골라 쥘 칸 -->
+<rect class="s-bold k-azu w-azu" height="18" width="32" x="264" y="327"></rect>
+<rect class="s-bold k-azu w-azu" height="18" width="32" x="296" y="327"></rect>
+<rect class="s-bold k-azu w-azu" height="18" width="32" x="232" y="345"></rect>
+<text class="t-s mute" x="396" y="300">같은 개체 → 같은 기술</text>
+<text class="t-s mute" x="396" y="316">같은 기술 → 같은 개체</text>
+<!-- 형질: 몇 칸만 -->
+<line class="s k-azu" marker-end="url(#d-visibility-filter-ara)" x1="280" x2="280" y1="366" y2="385"></line>
+<text class="t-l end b c-azu" x="194" y="404">형질</text>
+<text class="t-s end mute" x="194" y="420">몇 칸만 골라 쥔다</text>
+<rect class="s-thin k-rule f-bg" height="55" width="56" x="252" y="388"></rect>
+<line class="s-thin k-rule" x1="266" x2="266" y1="388" y2="443"></line>
+<line class="s-thin k-rule" x1="280" x2="280" y1="388" y2="443"></line>
+<line class="s-thin k-rule" x1="294" x2="294" y1="388" y2="443"></line>
+<line class="s-thin k-rule" x1="252" x2="308" y1="399" y2="399"></line>
+<line class="s-thin k-rule" x1="252" x2="308" y1="410" y2="410"></line>
+<line class="s-thin k-rule" x1="252" x2="308" y1="421" y2="421"></line>
+<line class="s-thin k-rule" x1="252" x2="308" y1="432" y2="432"></line>
+<rect class="f-azu" height="11" width="14" x="266" y="421"></rect>
+<rect class="f-azu" height="11" width="14" x="280" y="421"></rect>
+<rect class="f-azu" height="11" width="14" x="252" y="432"></rect>
+<!-- 무리 → 이름 -->
+<text class="t-s mid b c-azu" x="280" y="474">무리</text>
+<text class="t-s end mute" x="236" y="474">형질이 무리를 짓고, 무리 이름이 겹친다</text>
+<line class="s k-azu" marker-end="url(#d-visibility-filter-ara)" x1="280" x2="280" y1="490" y2="502"></line>
+<rect class="s-bold k-azu w-azu" height="30" rx="15" width="88" x="236" y="505"></rect>
+<text class="t-d mid c-azu" x="280" y="526">이름</text>
+<text class="t-s mute" x="338" y="524">학명 하나 — 강·목은 소리 없이, 속·종만 소리 낸다</text>
+</svg></g></g></g></g></g></svg>

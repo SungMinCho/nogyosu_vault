@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 740 446" width="740" height="446" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t{ font-family:var(--f-ui); font-size:13px; fill:currentColor }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.t-m{ font-family:var(--f-mono); font-size:12.5px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.end{ text-anchor:end }.mute{ fill:var(--mute) }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-thin{ fill:none; stroke:currentColor; stroke-width:.8 }.dash{ stroke-dasharray:5 4 }.dot{ stroke-dasharray:1.5 4; stroke-linecap:round }.k-mute{ stroke:var(--mute) }.k-azu{ stroke:var(--azu) }.k-lak{ stroke:var(--lak) }.f-azu{ fill:var(--azu) }.f-lak{ fill:var(--lak) }.f-ink{ fill:currentColor }.f-none{ fill:none }.w-azu{ fill:var(--azu-w) }.c-azu{ fill:var(--azu) }.c-lak{ fill:var(--lak) }svg.pz-root{width:740px!important;height:446px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="캉티용의 셈: 산출 900 가운데 정화로 치를 몫은 450, 연 1회 지불이면 600쯤 드는데, 분기 지불이면 150, 날과 주 단위 지불이면 100으로 줄어 산출이 같아도 지불 박자만으로 필요한 돈이 줄어든다" class="pz-inner" height="100%" role="img" viewBox="0 0 740 446" width="100%">
+<defs>
+<marker id="d-cantillon-ar" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="d-cantillon-az" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-azu" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="d-cantillon-lk" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-lak" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 막대 1: 산출 900 = 300 × 3 -->
+<rect class="f-none" height="90" width="64" x="30" y="60"></rect>
+<rect class="f-none" height="45" width="64" x="30" y="150"></rect>
+<rect class="w-azu" height="45" width="64" x="30" y="195"></rect>
+<rect class="w-azu" height="90" width="64" x="30" y="240"></rect>
+<rect class="s" height="270" width="64" x="30" y="60"></rect>
+<line class="s-thin" x1="30" x2="94" y1="150" y2="150"></line>
+<line class="s-thin" x1="30" x2="94" y1="240" y2="240"></line>
+<line class="s-thin dot" x1="30" x2="94" y1="195" y2="195"></line>
+<text class="t-s mid" x="62" y="109">생계 300</text>
+<text class="t-s mid" x="62" y="177">이윤 300</text>
+<text class="t-s mid mute" x="62" y="222">150</text>
+<text class="t-s mid" x="62" y="289">지대 300</text>
+<text class="t-m b mid" x="62" y="50">900</text>
+<!-- 같은 450 높이 -->
+<line class="s-thin k-mute dot" x1="94" x2="170" y1="195" y2="195"></line>
+<!-- 막대 2: 정화 몫 450 -->
+<rect class="s k-azu w-azu" height="135" width="64" x="170" y="195"></rect>
+<line class="s-thin k-azu" x1="170" x2="234" y1="240" y2="240"></line>
+<text class="t-s mid" x="202" y="222">이윤 ½</text>
+<text class="t-s mid" x="202" y="289">지대</text>
+<text class="t-m b mid" x="202" y="185">450</text>
+<!-- 막대 3: 연 1회 지불 ≈600 (유보) -->
+<rect class="s k-lak dash f-none" height="180" width="64" x="310" y="150"></rect>
+<text class="t-s b mid c-lak" x="342" y="245">유보</text>
+<text class="t-m b mid" x="342" y="140">≈600</text>
+<!-- 막대 4: 분기 지불 150 -->
+<rect class="s k-azu w-azu" height="45" width="64" x="450" y="285"></rect>
+<text class="t-m b mid" x="482" y="275">150</text>
+<!-- 막대 5: 날·주 지불 100 -->
+<rect class="s k-azu w-azu" height="30" width="64" x="590" y="300"></rect>
+<text class="t-m b mid" x="622" y="290">100</text>
+<!-- 바닥 -->
+<line class="s-thin" x1="16" x2="668" y1="330" y2="330"></line>
+<!-- 칸 사이 걸음 -->
+<line class="s" marker-end="url(#d-cantillon-ar)" x1="100" x2="164" y1="318" y2="318"></line>
+<text class="t-s b mid" x="132" y="308">정화만</text>
+<line class="s k-lak dash" marker-end="url(#d-cantillon-lk)" x1="240" x2="304" y1="318" y2="318"></line>
+<text class="t-s b mid c-lak" x="272" y="308">+도시 몫</text>
+<line class="s" marker-end="url(#d-cantillon-ar)" x1="380" x2="444" y1="318" y2="318"></line>
+<text class="t-s b mid" x="412" y="308">분기마다</text>
+<line class="s" marker-end="url(#d-cantillon-ar)" x1="520" x2="584" y1="318" y2="318"></line>
+<text class="t-s b mid" x="552" y="308">날·주마다</text>
+<!-- 이름 · 비율 -->
+<text class="t mid" x="62" y="350">산출</text>
+<text class="t mid" x="202" y="350">정화 몫</text>
+<text class="t mid" x="342" y="350">연 1회 지불</text>
+<text class="t mid" x="482" y="350">분기 지불</text>
+<text class="t mid" x="622" y="350">날·주 지불</text>
+<text class="t-m mid" x="62" y="368">1</text>
+<text class="t-m mid" x="202" y="368">1/2</text>
+<text class="t-m mid" x="342" y="368">≈2/3</text>
+<text class="t-m mid" x="482" y="368">1/6</text>
+<text class="t-m mid" x="622" y="368">1/9</text>
+<text class="t-s mid mute" x="202" y="386">지대 + 이윤 ½</text>
+<text class="t-s mid c-lak" x="342" y="386">푸코가 압축한 걸음</text>
+<text class="t-s mid mute" x="482" y="386">600 ÷ 4</text>
+<text class="t-s mid mute" x="622" y="386">900 ÷ 9</text>
+<text class="t-s b mid c-azu" x="622" y="402">= 지대의 1/3</text>
+<!-- 같은 산출, 박자만 -->
+<path class="s-thin k-mute" d="M310 414 V420 H654 V414"></path>
+<text class="t-s mid mute" x="482" y="436">같은 나라 · 같은 산출 — 박자만 빨라진다</text>
+<!-- 속그림: 분기마다 도는 75닢 -->
+<text class="t-s b mid mute" x="575" y="52">분기 지불 속의 75닢</text>
+<path class="s k-azu" d="M594.8 85.5 A58 58 0 0 1 632.1 150.1" marker-end="url(#d-cantillon-az)"></path>
+<path class="s k-azu" d="M612.3 184.4 A58 58 0 0 1 537.7 184.4" marker-end="url(#d-cantillon-az)"></path>
+<path class="s k-azu" d="M517.9 150.1 A58 58 0 0 1 555.2 85.5" marker-end="url(#d-cantillon-az)"></path>
+<text class="t-s b mid" x="575" y="86">지주</text>
+<text class="t-s b mid" x="626" y="173">상인</text>
+<text class="t-s b mid" x="524" y="173">농부</text>
+<text class="t-s" x="640" y="104">장보기</text>
+<text class="t-s mid" x="575" y="214">곡식값</text>
+<text class="t-s end" x="510" y="104">지대 75</text>
+<text class="t-m b mid c-azu" x="575" y="138">75닢</text>
+<text class="t-s mid" x="575" y="155">한 해 4바퀴</text>
+<line class="s-thin k-mute dot" x1="556" x2="498" y1="224" y2="264"></line>
+</svg></g></g></g></g></g></svg>

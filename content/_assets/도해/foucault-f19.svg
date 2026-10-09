@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 740 530" width="740" height="530" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t{ font-family:var(--f-ui); font-size:13px; fill:currentColor }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.t-d{ font-family:var(--f-disp); font-weight:800; font-size:16px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.end{ text-anchor:end }.mute{ fill:var(--mute) }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-thin{ fill:none; stroke:currentColor; stroke-width:.8 }.s-bold{ fill:none; stroke:currentColor; stroke-width:2.4 }.dash{ stroke-dasharray:5 4 }.dot{ stroke-dasharray:1.5 4; stroke-linecap:round }.k-mute{ stroke:var(--mute) }.k-och{ stroke:var(--och) }.k-azu{ stroke:var(--azu) }.f-och{ fill:var(--och) }.f-azu{ fill:var(--azu) }.f-bg{ fill:var(--panel-2) }.f-none{ fill:none }.w-azu{ fill:var(--azu-w) }.c-och{ fill:var(--och) }.c-azu{ fill:var(--azu) }svg.pz-root{width:740px!important;height:530px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="일반 표: 언어의 사각형 네 꼭짓점에 문법과 박물학과 부의 분석이 나란히 앉고, 위아래 두 실선 변은 가치=구조, 화폐·가격=형질로 닫힌 과학적으로 강한 자리이며, 좌우 두 점선 변은 존재의 연속이라는 전제에 기댄 형이상학적으로 강한 자리다" class="pz-inner" height="100%" role="img" viewBox="0 0 740 530" width="100%">
+<defs>
+<marker id="d-general-table-az" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-azu" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="d-general-table-oc" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-och" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 읽는 법 -->
+<text class="t-s mute" x="20" y="30">꼭짓점 아래 세 줄</text>
+<text class="t-s" x="20" y="46">문법 · 박물학 · <tspan class="b">부의 분석</tspan></text>
+<!-- 바깥 고리 = 닮음(연속) — 5강 사각형의 그 고리 -->
+<circle class="s k-och dot f-none" cx="370" cy="280" r="155.6"></circle>
+<!-- 대각선 -->
+<line class="s-thin k-mute" x1="260" x2="480" y1="170" y2="390"></line>
+<line class="s-thin k-mute" x1="480" x2="260" y1="170" y2="390"></line>
+<!-- 네 변: 위·아래 실선(과학), 좌·우 점선(형이상학) -->
+<line class="s-bold k-azu" x1="260" x2="480" y1="170" y2="170"></line>
+<line class="s-bold k-azu" x1="260" x2="480" y1="390" y2="390"></line>
+<line class="s k-azu dash" x1="480" x2="480" y1="170" y2="390"></line>
+<line class="s k-azu dash" x1="260" x2="260" y1="170" y2="390"></line>
+<text class="t-s b mid c-azu" x="370" y="192">과학적으로 강한 자리</text>
+<text class="t-s b mid c-azu" x="370" y="378">과학적으로 강한 자리</text>
+<!-- 가운데: 이름 -->
+<rect class="f-bg" height="44" width="112" x="314" y="260"></rect>
+<text class="t-d mid" x="370" y="280">이름</text>
+<text class="t-s mid mute" x="370" y="297">명명법이자 분류법</text>
+<!-- 꼭짓점 -->
+<circle class="f-azu" cx="260" cy="170" r="6"></circle>
+<circle class="f-azu" cx="480" cy="170" r="6"></circle>
+<circle class="f-azu" cx="480" cy="390" r="6"></circle>
+<circle class="f-azu" cx="260" cy="390" r="6"></circle>
+<text class="t-d end c-azu" x="246" y="110">명제<tspan class="t-s c-azu"> (귀속)</tspan></text>
+<text class="t-s end" x="246" y="128">동사</text>
+<text class="t-s end" x="246" y="143">존재의 보임</text>
+<text class="t-s b end" x="246" y="158">필요의 대상</text>
+<text class="t-d c-azu" x="494" y="110">분절</text>
+<text class="t-s" x="494" y="128">이름들</text>
+<text class="t-s" x="494" y="143">기술</text>
+<text class="t-s b" x="494" y="158">교환</text>
+<text class="t-d c-azu" x="494" y="414">지시</text>
+<text class="t-s" x="494" y="432">원초적 이름</text>
+<text class="t-s" x="494" y="447">종의 지시</text>
+<text class="t-s b" x="494" y="462">화폐 담보</text>
+<text class="t-d end c-azu" x="246" y="414">파생</text>
+<text class="t-s end" x="246" y="432">비유</text>
+<text class="t-s end" x="246" y="447">존재들의 인접</text>
+<text class="t-s b end" x="246" y="462">유통과 교역</text>
+<!-- 위 실선 변을 닫는 것: 가치 = 구조 -->
+<line class="s k-azu" marker-end="url(#d-general-table-az)" x1="266" x2="316" y1="163" y2="99"></line>
+<line class="s k-azu" marker-end="url(#d-general-table-az)" x1="474" x2="424" y1="163" y2="99"></line>
+<text class="t-s mid mute" x="370" y="113">닫는다</text>
+<rect class="s k-azu w-azu" height="52" width="216" x="262" y="42"></rect>
+<text class="t b mid c-azu" x="370" y="63">가치 = 구조</text>
+<text class="t-s mid" x="370" y="83">결합술 · 존재의 구조 · 사물의 가치</text>
+<!-- 아래 실선 변을 닫는 것: 화폐·가격 = 형질 -->
+<line class="s k-azu" marker-end="url(#d-general-table-az)" x1="266" x2="316" y1="397" y2="461"></line>
+<line class="s k-azu" marker-end="url(#d-general-table-az)" x1="474" x2="424" y1="397" y2="461"></line>
+<text class="t-s mid mute" x="370" y="455">닫는다</text>
+<rect class="s k-azu w-azu" height="52" width="216" x="262" y="466"></rect>
+<text class="t b mid c-azu" x="370" y="487">화폐·가격 = 형질</text>
+<text class="t-s mid" x="370" y="507">백과사전 · 속의 형질 · 상품의 가격</text>
+<!-- 좌우 점선 변이 기대는 것: 존재의 연속 -->
+<line class="s-thin k-och" marker-end="url(#d-general-table-oc)" x1="486" x2="523" y1="280" y2="280"></line>
+<text class="t-s mid mute" x="504" y="272">기댄다</text>
+<text class="t b c-och" x="536" y="277">존재의 연속</text>
+<text class="t-s mute" x="536" y="294">형이상학적으로 강한 자리</text>
+<line class="s-thin k-och" marker-end="url(#d-general-table-oc)" x1="254" x2="217" y1="280" y2="280"></line>
+<text class="t-s mid mute" x="236" y="272">기댄다</text>
+<text class="t b end c-och" x="204" y="277">존재의 표상 가능성</text>
+<text class="t-s end mute" x="204" y="294">형이상학적으로 강한 자리</text>
+</svg></g></g></g></g></g></svg>

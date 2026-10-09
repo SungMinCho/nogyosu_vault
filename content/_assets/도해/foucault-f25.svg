@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 740 512" width="740" height="512" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t{ font-family:var(--f-ui); font-size:13px; fill:currentColor }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.end{ text-anchor:end }.mute{ fill:var(--mute) }.halo{ paint-order:stroke; stroke:var(--panel-2); stroke-width:4px; stroke-linejoin:round }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-thin{ fill:none; stroke:currentColor; stroke-width:.8 }.dash{ stroke-dasharray:5 4 }.dot{ stroke-dasharray:1.5 4; stroke-linecap:round }.k-mute{ stroke:var(--mute) }.k-och{ stroke:var(--och) }.k-azu{ stroke:var(--azu) }.k-ver{ stroke:var(--ver) }.k-lak{ stroke:var(--lak) }.f-azu{ fill:var(--azu) }.f-ver{ fill:var(--ver) }.f-ink{ fill:currentColor }.f-bg{ fill:var(--panel-2) }.c-och{ fill:var(--och) }.c-azu{ fill:var(--azu) }.c-ver{ fill:var(--ver) }.c-lak{ fill:var(--lak) }svg.pz-root{width:740px!important;height:512px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="고전주의 언어의 사각형 네 꼭짓점에 문헌학의 굴절 체계, 음 법칙, 어근, 친족 관계가 겹쳐, 바깥의 표상을 보던 꼭짓점들이 모두 언어 안쪽을 보게 돌아앉는다. 가운데 이름의 자리는 비어 있다." class="pz-inner" height="100%" role="img" viewBox="0 0 740 512" width="100%">
+<defs>
+<marker id="d-bopp-quad-ara" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-azu" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="d-bopp-quad-arv" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ver" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="d-bopp-quad-ar" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<circle class="s-thin k-och dot" cx="370" cy="230" r="190"></circle>
+<text class="t-s mid c-och" x="370" y="32">바깥 고리 — 닮음(연속)</text>
+<polygon class="s k-azu dash" points="250,110 490,110 490,350 250,350"></polygon>
+<line class="s-thin k-azu dot" x1="490" x2="250" y1="110" y2="350"></line>
+<line class="s-thin k-azu dot" x1="250" x2="490" y1="110" y2="350"></line>
+<line class="s k-azu dash" x1="238.0" x2="230.9" y1="98.0" y2="90.9"></line>
+<line class="s k-azu dash" marker-end="url(#d-bopp-quad-ara)" x1="224.5" x2="216.1" y1="84.5" y2="76.1"></line>
+<line class="s" x1="225.6" x2="234.1" y1="94.1" y2="85.6"></line>
+<line class="s" x1="221.4" x2="229.8" y1="89.8" y2="81.4"></line>
+<line class="s k-azu dash" marker-end="url(#d-bopp-quad-ara)" x1="502.0" x2="523.9" y1="98.0" y2="76.1"></line>
+<line class="s k-azu dash" marker-end="url(#d-bopp-quad-ara)" x1="502.0" x2="523.9" y1="362.0" y2="383.9"></line>
+<line class="s k-azu dash" marker-end="url(#d-bopp-quad-ara)" x1="238.0" x2="216.1" y1="362.0" y2="383.9"></line>
+<text class="t-s halo" x="240" y="76">'이다'의 다리 끊김</text>
+<circle class="f-bg" cx="370" cy="230" r="34"></circle>
+<circle class="s k-lak dash" cx="370" cy="230" r="34"></circle>
+<text class="t-s mid c-azu" x="370" y="227">이름</text>
+<text class="t mid b c-lak" x="370" y="245">?</text>
+<line class="s-thin k-lak dot" x1="370" x2="370" y1="265" y2="368"></line>
+<text class="t-s mid c-lak b" x="370" y="382">가운데: 비었거나 (강의의 해석)</text>
+<text class="t-s mid c-lak" x="370" y="398">동사 뿌리·인칭 대명사가 넘봄</text>
+<line class="s k-ver" marker-end="url(#d-bopp-quad-arv)" x1="271.2" x2="344.8" y1="117.1" y2="190.6"></line>
+<line class="s k-ver" marker-end="url(#d-bopp-quad-arv)" x1="482.9" x2="409.4" y1="131.2" y2="204.8"></line>
+<line class="s k-ver" marker-end="url(#d-bopp-quad-arv)" x1="468.8" x2="395.2" y1="342.9" y2="269.4"></line>
+<line class="s k-ver" marker-end="url(#d-bopp-quad-arv)" x1="257.1" x2="330.6" y1="328.8" y2="255.2"></line>
+<circle class="f-bg" cx="250" cy="110" r="12"></circle>
+<circle class="s k-azu dash" cx="250" cy="110" r="12"></circle>
+<circle class="f-ver" cx="250" cy="110" r="6"></circle>
+<circle class="f-bg" cx="490" cy="110" r="12"></circle>
+<circle class="s k-azu dash" cx="490" cy="110" r="12"></circle>
+<circle class="f-ver" cx="490" cy="110" r="6"></circle>
+<circle class="f-bg" cx="490" cy="350" r="12"></circle>
+<circle class="s k-azu dash" cx="490" cy="350" r="12"></circle>
+<circle class="f-ver" cx="490" cy="350" r="6"></circle>
+<circle class="f-bg" cx="250" cy="350" r="12"></circle>
+<circle class="s k-azu dash" cx="250" cy="350" r="12"></circle>
+<circle class="f-ver" cx="250" cy="350" r="6"></circle>
+<text class="t-s b c-azu end" x="192" y="88">명제 · 귀속</text>
+<text class="t-s mute end" x="192" y="103">'이다'로 말을 사유에 묶음</text>
+<text class="t b c-ver end" x="192" y="124">① 굴절 체계</text>
+<text class="t-s c-ver end" x="192" y="140">문법 구조의 안쪽 짜임</text>
+<line class="s-thin k-mute" x1="236" x2="198" y1="110" y2="110"></line>
+<text class="t-s b c-azu" x="548" y="88">분절</text>
+<text class="t-s mute" x="548" y="103">표상의 내용으로 낱말을 가름</text>
+<text class="t b c-ver" x="548" y="124">② 음 법칙</text>
+<text class="t-s c-ver" x="548" y="140">소리·형태의 내부 변이로 가름</text>
+<line class="s-thin k-mute" x1="504" x2="542" y1="110" y2="110"></line>
+<text class="t-s b c-azu" x="548" y="328">지시</text>
+<text class="t-s mute" x="548" y="343">사물에 첫 이름을 붙임</text>
+<text class="t b c-ver" x="548" y="364">③ 어근</text>
+<text class="t-s c-ver" x="548" y="380">행위를 뜻하는 동사 뿌리</text>
+<line class="s-thin k-mute" x1="504" x2="542" y1="350" y2="350"></line>
+<text class="t-s b c-azu end" x="192" y="328">파생</text>
+<text class="t-s mute end" x="192" y="343">모든 언어에 바깥의 마모·뒤섞임</text>
+<text class="t b c-ver end" x="192" y="364">④ 친족 관계</text>
+<text class="t-s c-ver end" x="192" y="380">가족 안의 내적 법칙</text>
+<line class="s-thin k-mute" x1="236" x2="198" y1="350" y2="350"></line>
+<line class="s k-azu dash" marker-end="url(#d-bopp-quad-ara)" x1="150" x2="190" y1="454" y2="454"></line>
+<text class="t-s" x="200" y="458"><tspan class="b c-azu">고전주의(5강)</tspan> — 네 꼭짓점이 모두 바깥, 표상을 본다</text>
+<line class="s k-ver" marker-end="url(#d-bopp-quad-arv)" x1="150" x2="190" y1="478" y2="478"></line>
+<text class="t-s" x="200" y="482"><tspan class="b c-ver">문헌학(9강)</tspan> — 같은 자리에서 안, 언어 자신의 법칙을 본다</text>
+</svg></g></g></g></g></g></svg>

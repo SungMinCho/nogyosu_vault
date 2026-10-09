@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 740 470" width="740" height="470" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t{ font-family:var(--f-ui); font-size:13px; fill:currentColor }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.end{ text-anchor:end }.mute{ fill:var(--mute) }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-thin{ fill:none; stroke:currentColor; stroke-width:.8 }.s-bold{ fill:none; stroke:currentColor; stroke-width:2.4 }.dash{ stroke-dasharray:5 4 }.k-mute{ stroke:var(--mute) }.k-rule{ stroke:var(--rule) }.k-azu{ stroke:var(--azu) }.k-lak{ stroke:var(--lak) }.f-lak{ fill:var(--lak) }.f-ink{ fill:currentColor }.f-none{ fill:none }.w-azu{ fill:var(--azu-w) }.w-ink{ fill:var(--ink-w) }.c-azu{ fill:var(--azu) }.c-lak{ fill:var(--lak) }svg.pz-root{width:740px!important;height:470px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="표는 빈틈없이 이어진 천이고 시간은 그 위에 따로 그은 사건들의 줄이다. 사건은 먼저 바다와 뭍을 치고 그 여파로 천이 찢기고 섞일 뿐, 어느 칸 속으로도 파고들지 않으니 이것은 진화가 아니다." class="pz-inner" height="100%" role="img" viewBox="0 0 740 470" width="100%">
+<defs>
+<marker id="d-table-time-ar" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="d-table-time-arl" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-lak" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 시간: 표 바깥에 따로 그은 선 -->
+<text class="t b" x="24" y="28">시간 — 표 위에 따로 그은 사건들의 줄</text>
+<text class="t-s end mute" x="716" y="28">곧든 꺾이든 돌든, 선 하나</text>
+<line class="s" marker-end="url(#d-table-time-ar)" x1="24" x2="716" y1="48" y2="48"></line>
+<line class="s-bold" x1="420" x2="420" y1="41" y2="55"></line>
+<line class="s-bold" x1="480" x2="480" y1="41" y2="55"></line>
+<line class="s-bold" x1="540" x2="540" y1="41" y2="55"></line>
+<line class="s-bold" x1="600" x2="600" y1="41" y2="55"></line>
+<line class="s-bold" x1="660" x2="660" y1="41" y2="55"></line>
+<text class="t-s mid" x="420" y="72">해·땅</text>
+<text class="t-s mid" x="480" y="72">기후</text>
+<text class="t-s mid" x="540" y="72">땅껍질</text>
+<text class="t-s mid" x="600" y="72">홍수</text>
+<text class="t-s mid" x="660" y="72">혜성</text>
+<!-- 사건은 먼저 무대를 친다 -->
+<line class="s" marker-end="url(#d-table-time-ar)" x1="420" x2="420" y1="78" y2="99"></line>
+<line class="s" marker-end="url(#d-table-time-ar)" x1="480" x2="480" y1="78" y2="99"></line>
+<line class="s" marker-end="url(#d-table-time-ar)" x1="540" x2="540" y1="78" y2="99"></line>
+<line class="s" marker-end="url(#d-table-time-ar)" x1="600" x2="600" y1="78" y2="99"></line>
+<line class="s" marker-end="url(#d-table-time-ar)" x1="660" x2="660" y1="78" y2="99"></line>
+<text class="t-s end mute" x="406" y="92">먼저 맞는 건 무대</text>
+<rect class="s-thin k-mute w-ink" height="36" rx="4" width="332" x="384" y="102"></rect>
+<text class="t-s b" x="394" y="124">무대 — 바다 · 뭍</text>
+<path class="s k-mute" d="M492,120 Q501,114 510,120 T528,120 T546,120 T564,120 T582,120 T600,120 T618,120 T636,120 T654,120 T672,120 T690,120 T708,120"></path>
+<!-- 무대가 흔들리면 천이 찢기고 섞인다 -->
+<line class="s" marker-end="url(#d-table-time-ar)" x1="436" x2="436" y1="141" y2="172"></line>
+<line class="s" marker-end="url(#d-table-time-ar)" x1="560" x2="560" y1="141" y2="172"></line>
+<line class="s" marker-end="url(#d-table-time-ar)" x1="676" x2="676" y1="141" y2="172"></line>
+<text class="t-s mid b" x="498" y="161">찢고 섞는다</text>
+<text class="t-s mid mute" x="618" y="161">떠밀고 묻는다</text>
+<!-- 시간은 칸 속으로 들지 않는다 -->
+<line class="s dash k-lak" marker-end="url(#d-table-time-arl)" x1="303" x2="303" y1="52" y2="164"></line>
+<line class="s-bold k-lak" x1="296" x2="310" y1="169" y2="183"></line>
+<line class="s-bold k-lak" x1="310" x2="296" y1="169" y2="183"></line>
+<text class="t-s end c-lak" x="293" y="118">칸 속으로는 들지 않는다</text>
+<text class="t-s end b c-lak" x="293" y="134">그래서 진화가 아니다</text>
+<!-- 천: 빈틈없이 이어진 표 -->
+<rect class="s-thin k-azu w-azu" height="40" width="36" x="24" y="186"></rect>
+<rect class="s-thin k-azu w-azu" height="40" width="36" x="60" y="186"></rect>
+<rect class="s-thin k-azu w-azu" height="40" width="36" x="96" y="186"></rect>
+<rect class="s-thin k-azu w-azu" height="40" width="20" x="132" y="186"></rect>
+<rect class="s-thin k-azu w-azu" height="40" width="26" x="152" y="186"></rect>
+<rect class="s-thin k-azu w-azu" height="40" width="52" x="178" y="186"></rect>
+<rect class="s-thin k-azu w-azu" height="40" width="52" x="230" y="186"></rect>
+<rect class="s-thin k-azu w-azu" height="40" width="42" x="282" y="186"></rect>
+<rect class="s-thin k-azu w-azu" height="40" width="36" x="324" y="186"></rect>
+<text class="t-s mid" x="42" y="210">식물</text>
+<text class="t-s mid b c-azu" x="78" y="210">폴립</text>
+<text class="t-s mid" x="114" y="210">동물</text>
+<text class="t-s mid mute" x="142" y="210">…</text>
+<text class="t-s mid" x="165" y="210">새</text>
+<text class="t-s mid b c-azu" x="204" y="210">날다람쥐</text>
+<text class="t-s mid" x="256" y="210">네발짐승</text>
+<text class="t-s mid b c-azu" x="303" y="210">원숭이</text>
+<text class="t-s mid" x="342" y="210">사람</text>
+<text class="t-s b c-azu" x="24" y="246">빈틈없는 그물 — 형질로 이웃한다</text>
+<text class="t-s mute" x="24" y="262">폴립·날다람쥐·원숭이가 사이를 메운다 (보네)</text>
+<!-- 찢기고 섞인 조각 -->
+<g transform="translate(398 180) rotate(-4)">
+<rect class="s-thin k-azu w-azu" height="40" width="44" x="0" y="0"></rect>
+<rect class="s-thin k-azu w-azu" height="40" width="36" x="44" y="0"></rect>
+<text class="t-s mid" x="22" y="24">히드라</text>
+<text class="t-s mid" x="62" y="24">해캄</text>
+</g>
+<rect class="s-thin dash k-mute f-none" height="40" width="40" x="492" y="186"></rect>
+<text class="t-s mid mute" x="512" y="244">사라진 고리</text>
+<g transform="translate(546 192) rotate(3)">
+<rect class="s-thin k-azu w-azu" height="40" width="36" x="0" y="0"></rect>
+<rect class="s-thin k-azu w-azu" height="40" width="36" x="36" y="0"></rect>
+<text class="t-s mid" x="18" y="24">해면</text>
+<text class="t-s mid" x="54" y="24">산호</text>
+</g>
+<g transform="translate(628 184) rotate(-2)">
+<rect class="s-thin k-azu w-azu" height="40" width="44" x="0" y="0"></rect>
+<rect class="s-thin k-azu w-azu" height="40" width="44" x="44" y="0"></rect>
+<text class="t-s mid" x="22" y="24">제비꽃</text>
+<text class="t-s mid" x="66" y="24">참나무</text>
+</g>
+<text class="t-s b" x="392" y="264">이 빠지고 뒤섞인 조각 — 사는 꼴로 이웃한다</text>
+<text class="t-s mute" x="392" y="280">두 격변 사이에 찢겨 굳은 천 = 우리가 보는 표</text>
+<!-- 그물의 생김새 -->
+<line class="s-thin k-rule" x1="24" x2="716" y1="300" y2="300"></line>
+<text class="t-s b mute" x="24" y="320">그물의 생김새 — 저마다 달리 그려도 모두 빈틈없는 연속</text>
+<!-- 보네: 사다리 · 가지 친 줄기 -->
+<line class="s k-azu" x1="80" x2="80" y1="336" y2="424"></line>
+<line class="s k-azu" x1="100" x2="100" y1="336" y2="424"></line>
+<line class="s-thin k-azu" x1="80" x2="100" y1="342" y2="342"></line>
+<line class="s-thin k-azu" x1="80" x2="100" y1="352" y2="352"></line>
+<line class="s-thin k-azu" x1="80" x2="100" y1="362" y2="362"></line>
+<line class="s-thin k-azu" x1="80" x2="100" y1="372" y2="372"></line>
+<line class="s-thin k-azu" x1="80" x2="100" y1="382" y2="382"></line>
+<line class="s-thin k-azu" x1="80" x2="100" y1="392" y2="392"></line>
+<line class="s-thin k-azu" x1="80" x2="100" y1="402" y2="402"></line>
+<line class="s-thin k-azu" x1="80" x2="100" y1="412" y2="412"></line>
+<line class="s-thin k-azu" x1="80" x2="100" y1="422" y2="422"></line>
+<line class="s k-azu" x1="140" x2="140" y1="424" y2="336"></line>
+<path class="s k-azu" d="M140,404 C130,396 122,384 120,366"></path>
+<path class="s k-azu" d="M140,386 C150,378 158,366 160,350"></path>
+<text class="t mid b c-azu" x="110" y="446">보네</text>
+<text class="t-s mid mute" x="110" y="462">긴 사다리 · 가지 친 줄기</text>
+<!-- 뷔퐁: 곁가지 내는 다발 -->
+<path class="s k-azu" d="M262,424 C258,396 266,366 262,336"></path>
+<path class="s k-azu" d="M270,424 C266,396 274,366 270,336"></path>
+<path class="s k-azu" d="M278,424 C274,396 282,366 278,336"></path>
+<path class="s k-azu" d="M278,400 C292,392 306,382 314,366"></path>
+<path class="s k-azu" d="M314,424 C310,396 318,366 314,336"></path>
+<path class="s k-azu" d="M322,424 C318,396 326,366 322,336"></path>
+<text class="t mid b c-azu" x="292" y="446">뷔퐁</text>
+<text class="t-s mid mute" x="292" y="462">곁가지 내는 다발</text>
+<!-- 팔라스: 다면체 -->
+<polygon class="s k-azu w-azu" points="470,336 506,357 506,399 470,420 434,399 434,357"></polygon>
+<line class="s-thin k-azu" x1="470" x2="470" y1="378" y2="336"></line>
+<line class="s-thin k-azu" x1="470" x2="434" y1="378" y2="399"></line>
+<line class="s-thin k-azu" x1="470" x2="506" y1="378" y2="399"></line>
+<line class="s-thin k-azu" x1="470" x2="434" y1="378" y2="357"></line>
+<line class="s-thin k-azu" x1="470" x2="506" y1="378" y2="357"></line>
+<line class="s-thin k-azu" x1="470" x2="470" y1="378" y2="420"></line>
+<text class="t mid b c-azu" x="470" y="446">팔라스</text>
+<text class="t-s mid mute" x="470" y="462">다면체</text>
+<!-- 헤르만: 입체로 엮은 실타래 -->
+<path class="s k-azu" d="M644,424 C616,402 608,368 622,336"></path>
+<path class="s k-azu" d="M644,424 C672,402 680,368 666,336"></path>
+<path class="s k-azu" d="M644,424 C632,394 656,366 644,336"></path>
+<path class="s-thin k-azu" d="M616,388 C632,378 656,378 674,388"></path>
+<path class="s-thin k-azu" d="M620,356 C634,350 652,350 668,356"></path>
+<text class="t mid b c-azu" x="644" y="446">헤르만</text>
+<text class="t-s mid mute" x="644" y="462">입체로 엮은 실타래</text>
+</svg></g></g></g></g></g></svg>

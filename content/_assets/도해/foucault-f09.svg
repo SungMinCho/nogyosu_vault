@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 340" width="760" height="340" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t{ font-family:var(--f-ui); font-size:13px; fill:currentColor }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.t-d{ font-family:var(--f-disp); font-weight:800; font-size:16px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.end{ text-anchor:end }.mute{ fill:var(--mute) }.halo{ paint-order:stroke; stroke:var(--panel-2); stroke-width:4px; stroke-linejoin:round }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-thin{ fill:none; stroke:currentColor; stroke-width:.8 }.s-bold{ fill:none; stroke:currentColor; stroke-width:2.4 }.dash{ stroke-dasharray:5 4 }.dot{ stroke-dasharray:1.5 4; stroke-linecap:round }.k-och{ stroke:var(--och) }.k-azu{ stroke:var(--azu) }.k-lak{ stroke:var(--lak) }.f-och{ fill:var(--och) }.f-azu{ fill:var(--azu) }.f-ink{ fill:currentColor }.f-bg{ fill:var(--panel-2) }.f-none{ fill:none }.w-och{ fill:var(--och-w) }.w-azu{ fill:var(--azu-w) }.c-och{ fill:var(--och) }.c-azu{ fill:var(--azu) }.c-lak{ fill:var(--lak) }svg.pz-root{width:760px!important;height:340px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="16세기 기호는 표시·표시된 것·닮음의 세 항이었으나, 고전주의 기호는 대신 서는 관념과 대신 받는 관념 두 항뿐이고, 둘 사이에 매개항은 없으며, 대신 서는 관념이 가리키는 그 표상함을 제 안에 다시 표상하여 주름을 하나 잡는다." class="pz-inner" height="100%" role="img" viewBox="0 0 760 340" width="100%">
+<defs>
+<marker id="d-ternary-binary-aro" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-och" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="d-ternary-binary-ara" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-azu" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="d-ternary-binary-ari" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 왼쪽: 16세기 삼원 기호 -->
+<text class="t-d c-och" x="20" y="30">16세기 · 셋</text>
+<text class="t-s mute" x="20" y="50">끈 = 사물 쪽의 닮음</text>
+<line class="s k-och" x1="114" x2="64" y1="110" y2="206"></line>
+<line class="s k-och" x1="146" x2="196" y1="110" y2="206"></line>
+<line class="s k-och" marker-end="url(#d-ternary-binary-aro)" x1="92" x2="158" y1="221" y2="221"></line>
+<text class="t-s mid halo" x="89" y="162">묶는다</text>
+<text class="t-s mid halo" x="171" y="162">묶는다</text>
+<text class="t-s mid" x="125" y="212">가리킨다</text>
+<rect class="s k-och w-och" height="28" rx="14" width="68" x="96" y="82"></rect>
+<rect class="s k-och w-och" height="28" rx="14" width="72" x="20" y="207"></rect>
+<rect class="s k-och w-och" height="28" rx="14" width="88" x="160" y="207"></rect>
+<text class="t mid b" x="130" y="100.5">닮음</text>
+<text class="t mid b" x="56" y="225.5">표시</text>
+<text class="t mid b" x="204" y="225.5">표시된 것</text>
+<text class="t-s mid mute" x="56" y="252">(표징)</text>
+<text class="t-s mid mute" x="204" y="252">(숨은 효능)</text>
+<text class="t-s mid mute" x="134" y="282">닮음이 형식이자 내용</text>
+<text class="t-s mid mute" x="134" y="298">— 셋이면서 하나</text>
+<!-- 넘어감 -->
+<line class="s-bold" marker-end="url(#d-ternary-binary-ari)" x1="262" x2="322" y1="165" y2="165"></line>
+<text class="t-s mid b" x="292" y="154">17세기</text>
+<text class="t-s mid" x="292" y="184">셋 → 둘</text>
+<!-- 오른쪽: 고전주의 이원 기호 -->
+<text class="t-d c-azu" x="340" y="30">고전주의 · 둘</text>
+<text class="t-s mute" x="340" y="50">끈 = 앎 안, 관념과 관념 사이</text>
+<rect class="s-thin k-azu dash f-none" height="240" rx="8" width="400" x="340" y="66"></rect>
+<text class="t-s end c-azu" x="730" y="84">앎 안</text>
+<!-- 대신 서는 관념 (안에 주름) -->
+<rect class="s k-azu w-azu" height="112" rx="6" width="180" x="362" y="118"></rect>
+<rect class="s-thin k-azu f-bg" height="34" rx="4" width="148" x="378" y="130"></rect>
+<text class="t-s mid c-azu b" x="452" y="151.5">제 표상함을 표상</text>
+<text class="t mid b" x="452" y="194">대신 서는 관념</text>
+<text class="t-s mid mute" x="452" y="212">표상하는 관념</text>
+<!-- 대신 받는 관념 -->
+<rect class="s k-azu w-azu" height="56" rx="6" width="96" x="632" y="150"></rect>
+<text class="t mid b" x="680" y="174">대신 받는</text>
+<text class="t mid b" x="680" y="192">관념</text>
+<text class="t-s mid mute" x="684" y="224">표상되는 관념</text>
+<!-- 가로: 가리킨다 -->
+<line class="s k-azu" marker-end="url(#d-ternary-binary-ara)" x1="542" x2="630" y1="178" y2="178"></line>
+<text class="t-s mid" x="587" y="198">가로 · 가리킨다</text>
+<!-- 세로: 제 안으로 접혀 든다 -->
+<path class="s k-azu" d="M562,177 V122 Q562,104 544,104 H514 Q500,104 500,116 V127" marker-end="url(#d-ternary-binary-ara)"></path>
+<path class="s-thin k-azu" d="M562,170 H570 V178"></path>
+<text class="t-s c-azu" x="574" y="167">수직</text>
+<text class="t-s b c-azu" x="572" y="100">세로 · 내보인다</text>
+<text class="t-s mute" x="572" y="114">제 안으로 접혀 든다</text>
+<!-- 셋째 항의 빈자리 -->
+<line class="s-thin k-lak dot" x1="520" x2="578" y1="230" y2="250"></line>
+<line class="s-thin k-lak dot" x1="606" x2="640" y1="250" y2="208"></line>
+<circle class="s-thin k-lak dash f-none" cx="592" cy="256" r="15"></circle>
+<text class="t-s mid c-lak" x="592" y="290">매개항 없음</text>
+<text class="t-s mid mute" x="540" y="328">항은 여전히 둘 — 셋째는 바깥이 아니라 대신 서는 관념 안의 주름</text>
+</svg></g></g></g></g></g></svg>

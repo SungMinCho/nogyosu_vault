@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 438" width="760" height="438" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t{ font-family:var(--f-ui); font-size:13px; fill:currentColor }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.t-d{ font-family:var(--f-disp); font-weight:800; font-size:16px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.end{ text-anchor:end }.mute{ fill:var(--mute) }.halo{ paint-order:stroke; stroke:var(--panel-2); stroke-width:4px; stroke-linejoin:round }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-thin{ fill:none; stroke:currentColor; stroke-width:.8 }.k-rule{ stroke:var(--rule) }.k-och{ stroke:var(--och) }.f-och{ fill:var(--och) }.f-bg{ fill:var(--panel-2) }.f-none{ fill:none }.w-och{ fill:var(--och-w) }.c-och{ fill:var(--och) }svg.pz-root{width:760px!important;height:438px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="네 상사는 모양 셋에 힘 하나다. 위의 세 칸은 닮음이 놓이는 모양으로, 맞닿은 고리의 사슬(적합), 떨어져 서로 감싸는 동심원(경쟁), 사람을 지렛목으로 뻗는 관계의 별꼴(유비)이고, 아래 띠는 당기고 미는 공감과 반감의 장으로서 그 셋을 떠받친다." class="pz-inner" height="100%" role="img" viewBox="0 0 760 438" width="100%">
+<defs>
+<marker id="d-four-similitudes-ar" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-och" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 모양 셋 -->
+<text class="t mid b c-och" x="380" y="17">모양 셋 — 닮음이 놓이는 꼴</text>
+<path class="s-thin k-och" d="M10,34 V26 H750 V34"></path>
+<!-- 적합: 맞닿은 고리의 사슬 -->
+<rect class="s-thin k-rule" height="282" rx="4" width="240" x="10" y="40"></rect>
+<text class="t-d mid c-och" x="130" y="64">적합</text>
+<text class="t-s mid mute" x="130" y="82">맞닿은 고리의 사슬</text>
+<rect class="s k-och w-och" height="40" rx="20" width="76" x="72" y="94"></rect>
+<rect class="s k-och w-och" height="40" rx="20" width="76" x="72" y="128"></rect>
+<rect class="s k-och w-och" height="40" rx="20" width="76" x="72" y="162"></rect>
+<rect class="s k-och w-och" height="40" rx="20" width="76" x="72" y="196"></rect>
+<rect class="s k-och w-och" height="40" rx="20" width="76" x="72" y="230"></rect>
+<rect class="s k-och w-och" height="40" rx="20" width="76" x="72" y="264"></rect>
+<text class="t mid" x="110" y="118.5">신</text>
+<text class="t mid" x="110" y="152.5">별</text>
+<text class="t mid" x="110" y="186.5">사람</text>
+<text class="t mid" x="110" y="220.5">짐승</text>
+<text class="t mid" x="110" y="254.5">풀</text>
+<text class="t mid" x="110" y="288.5">물질</text>
+<line class="s-thin k-och" x1="58" x2="80" y1="131" y2="131"></line>
+<text class="t-s end" x="55" y="135">맞닿음</text>
+<line class="s k-och" marker-end="url(#d-four-similitudes-ar)" x1="170" x2="170" y1="100" y2="298"></line>
+<text class="t-s" x="178" y="194">신의 뜻이</text>
+<text class="t-s" x="178" y="209">스며 내린다</text>
+<!-- 경쟁: 떨어져 비추는 동심원 -->
+<rect class="s-thin k-rule" height="282" rx="4" width="240" x="260" y="40"></rect>
+<text class="t-d mid c-och" x="380" y="64">경쟁</text>
+<text class="t-s mid mute" x="380" y="82">떨어져 비추는 동심원</text>
+<circle class="s k-och f-none" cx="380" cy="200" r="98"></circle>
+<circle class="s k-och f-none" cx="380" cy="200" r="72"></circle>
+<circle class="s k-och f-none" cx="380" cy="200" r="46"></circle>
+<circle class="s k-och w-och" cx="380" cy="200" r="20"></circle>
+<text class="t mid b" x="380" y="204.5">사람</text>
+<text class="t-s mid halo" x="380" y="158">하늘</text>
+<text class="t-s mid halo" x="380" y="132">사람</text>
+<text class="t-s mid halo" x="380" y="106">하늘</text>
+<line class="s-thin k-och" marker-end="url(#d-four-similitudes-ar)" marker-start="url(#d-four-similitudes-ar)" x1="396.3" x2="410.4" y1="216.3" y2="230.4"></line>
+<line class="s-thin k-och" marker-end="url(#d-four-similitudes-ar)" marker-start="url(#d-four-similitudes-ar)" x1="414.6" x2="428.8" y1="234.6" y2="248.8"></line>
+<line class="s-thin k-och" marker-end="url(#d-four-similitudes-ar)" marker-start="url(#d-four-similitudes-ar)" x1="433.0" x2="447.2" y1="253.0" y2="267.2"></line>
+<text class="t-s" x="450" y="292">비춘다</text>
+<text class="t-s mid mute" x="380" y="314">닿지 않고 서로 감싼다</text>
+<!-- 유비: 사람을 지렛목으로 한 관계의 별꼴 -->
+<rect class="s-thin k-rule" height="282" rx="4" width="240" x="510" y="40"></rect>
+<text class="t-d mid c-och" x="630" y="64">유비</text>
+<text class="t-s mid mute" x="630" y="82">관계의 닮음 · A:B = C:D</text>
+<line class="s k-och" marker-end="url(#d-four-similitudes-ar)" marker-start="url(#d-four-similitudes-ar)" x1="630" x2="630" y1="170" y2="134"></line>
+<line class="s k-och" marker-end="url(#d-four-similitudes-ar)" marker-start="url(#d-four-similitudes-ar)" x1="630" x2="630" y1="230" y2="266"></line>
+<line class="s k-och" marker-end="url(#d-four-similitudes-ar)" marker-start="url(#d-four-similitudes-ar)" x1="600" x2="564" y1="200" y2="200"></line>
+<line class="s k-och" marker-end="url(#d-four-similitudes-ar)" marker-start="url(#d-four-similitudes-ar)" x1="660" x2="696" y1="200" y2="200"></line>
+<circle class="s k-och w-och" cx="630" cy="200" r="28"></circle>
+<text class="t mid b" x="630" y="198">사람</text>
+<text class="t-s mid" x="630" y="213">지렛목</text>
+<circle class="s k-och f-bg" cx="630" cy="112" r="20"></circle>
+<circle class="s k-och f-bg" cx="630" cy="288" r="20"></circle>
+<circle class="s k-och f-bg" cx="542" cy="200" r="20"></circle>
+<circle class="s k-och f-bg" cx="718" cy="200" r="20"></circle>
+<text class="t mid" x="630" y="116.5">하늘</text>
+<text class="t mid" x="630" y="292.5">땅</text>
+<text class="t mid" x="542" y="204.5">짐승</text>
+<text class="t mid" x="718" y="204.5">풀</text>
+<text class="t-s" x="640" y="156">받고 쏜다</text>
+<!-- 힘 하나: 공감과 반감이 셋을 떠받친다 -->
+<line class="s k-och" marker-end="url(#d-four-similitudes-ar)" x1="130" x2="130" y1="354" y2="324"></line>
+<line class="s k-och" marker-end="url(#d-four-similitudes-ar)" x1="380" x2="380" y1="354" y2="324"></line>
+<line class="s k-och" marker-end="url(#d-four-similitudes-ar)" x1="630" x2="630" y1="354" y2="324"></line>
+<text class="t-s" x="137" y="344">떠받친다</text>
+<text class="t-s" x="387" y="344">떠받친다</text>
+<text class="t-s" x="637" y="344">떠받친다</text>
+<rect class="s k-och w-och" height="74" rx="4" width="740" x="10" y="356"></rect>
+<text class="t-d c-och" x="26" y="388">공감 · 반감</text>
+<text class="t-s" x="26" y="408">힘 하나 — 움직이고 떼어 놓는다</text>
+<!-- 당김 / 밀어냄이 번갈아 뛰는 펌프 -->
+<circle class="f-och" cx="242" cy="384" r="4"></circle>
+<circle class="f-och" cx="302" cy="384" r="4"></circle>
+<line class="s k-och" marker-end="url(#d-four-similitudes-ar)" x1="248" x2="266" y1="384" y2="384"></line>
+<line class="s k-och" marker-end="url(#d-four-similitudes-ar)" x1="296" x2="278" y1="384" y2="384"></line>
+<text class="t-s mid" x="272" y="410">당김(공감)</text>
+<circle class="f-och" cx="351" cy="384" r="4"></circle>
+<circle class="f-och" cx="363" cy="384" r="4"></circle>
+<line class="s k-och" marker-end="url(#d-four-similitudes-ar)" x1="345" x2="325" y1="384" y2="384"></line>
+<line class="s k-och" marker-end="url(#d-four-similitudes-ar)" x1="369" x2="389" y1="384" y2="384"></line>
+<text class="t-s mid" x="357" y="410">밀어냄(반감)</text>
+<circle class="f-och" cx="412" cy="384" r="4"></circle>
+<circle class="f-och" cx="472" cy="384" r="4"></circle>
+<line class="s k-och" marker-end="url(#d-four-similitudes-ar)" x1="418" x2="436" y1="384" y2="384"></line>
+<line class="s k-och" marker-end="url(#d-four-similitudes-ar)" x1="466" x2="448" y1="384" y2="384"></line>
+<text class="t-s mid" x="442" y="410">당김</text>
+<circle class="f-och" cx="521" cy="384" r="4"></circle>
+<circle class="f-och" cx="533" cy="384" r="4"></circle>
+<line class="s k-och" marker-end="url(#d-four-similitudes-ar)" x1="515" x2="495" y1="384" y2="384"></line>
+<line class="s k-och" marker-end="url(#d-four-similitudes-ar)" x1="539" x2="559" y1="384" y2="384"></line>
+<text class="t-s mid" x="527" y="410">밀어냄</text>
+<circle class="f-och" cx="582" cy="384" r="4"></circle>
+<circle class="f-och" cx="642" cy="384" r="4"></circle>
+<line class="s k-och" marker-end="url(#d-four-similitudes-ar)" x1="588" x2="606" y1="384" y2="384"></line>
+<line class="s k-och" marker-end="url(#d-four-similitudes-ar)" x1="636" x2="618" y1="384" y2="384"></line>
+<text class="t-s mid" x="612" y="410">당김</text>
+<circle class="f-och" cx="691" cy="384" r="4"></circle>
+<circle class="f-och" cx="703" cy="384" r="4"></circle>
+<line class="s k-och" marker-end="url(#d-four-similitudes-ar)" x1="685" x2="665" y1="384" y2="384"></line>
+<line class="s k-och" marker-end="url(#d-four-similitudes-ar)" x1="709" x2="729" y1="384" y2="384"></line>
+<text class="t-s mid" x="697" y="410">밀어냄</text>
+</svg></g></g></g></g></g></svg>

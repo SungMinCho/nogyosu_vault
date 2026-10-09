@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 740 346" width="740" height="346" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t{ font-family:var(--f-ui); font-size:13px; fill:currentColor }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.t-l{ font-family:var(--f-ui); font-size:15px; fill:currentColor }.t-i{ font-family:var(--f-lat); font-style:italic; font-size:14px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.mute{ fill:var(--mute) }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-bold{ fill:none; stroke:currentColor; stroke-width:2.4 }.dash{ stroke-dasharray:5 4 }.k-mute{ stroke:var(--mute) }.k-azu{ stroke:var(--azu) }.f-ink{ fill:currentColor }.f-mute{ fill:var(--mute) }.f-bg{ fill:var(--panel-2) }.w-azu{ fill:var(--azu-w) }.w-ink{ fill:var(--ink-w) }.c-azu{ fill:var(--azu) }svg.pz-root{width:740px!important;height:346px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="동사 '나는 노래했다'를 바깥부터 벗기면 주어·시간·술어 껍질이 차례로 떨어지고 맨 안에 긍정하는 '이다'만 남는다. 거꾸로 읽으면 '이다'에 껍질을 덮어쓰는 길이다." class="pz-inner" height="100%" role="img" viewBox="0 0 740 346" width="100%">
+<defs>
+<marker id="d-verb-ar" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="d-verb-arm" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 위: 벗기는 방향 -->
+<line class="s k-mute" x1="24" x2="280" y1="30" y2="30"></line>
+<line class="s k-mute" marker-end="url(#d-verb-arm)" x1="460" x2="716" y1="30" y2="30"></line>
+<text class="t-s mid b" x="370" y="34">벗긴다 — 바깥 껍질부터 안으로</text>
+<!-- 단계 0: 껍질 3겹 + 핵 -->
+<rect class="s w-ink" height="142" rx="10" width="160" x="21" y="59"></rect>
+<rect class="s f-bg" height="106" rx="8" width="124" x="39" y="77"></rect>
+<rect class="s w-ink" height="70" rx="6" width="88" x="57" y="95"></rect>
+<rect class="s k-azu w-azu" height="34" rx="4" width="52" x="75" y="113"></rect>
+<text class="t-s mid b" x="101" y="72">주어</text>
+<text class="t-s mid b" x="101" y="90">시간</text>
+<text class="t-s mid b" x="101" y="108">술어</text>
+<text class="t-l mid b c-azu" x="101" y="135">이다</text>
+<!-- 단계 1: 껍질 2겹 + 핵 -->
+<rect class="s f-bg" height="106" rx="8" width="124" x="264" y="77"></rect>
+<rect class="s w-ink" height="70" rx="6" width="88" x="282" y="95"></rect>
+<rect class="s k-azu w-azu" height="34" rx="4" width="52" x="300" y="113"></rect>
+<text class="t-s mid b" x="326" y="90">시간</text>
+<text class="t-s mid b" x="326" y="108">술어</text>
+<text class="t-l mid b c-azu" x="326" y="135">이다</text>
+<!-- 단계 2: 껍질 1겹 + 핵 -->
+<rect class="s w-ink" height="70" rx="6" width="88" x="476" y="95"></rect>
+<rect class="s k-azu w-azu" height="34" rx="4" width="52" x="494" y="113"></rect>
+<text class="t-s mid b" x="520" y="108">술어</text>
+<text class="t-l mid b c-azu" x="520" y="135">이다</text>
+<!-- 단계 3: 껍질 0겹 + 핵 -->
+<rect class="s-bold k-azu w-azu" height="34" rx="4" width="52" x="667" y="113"></rect>
+<text class="t-l mid b c-azu" x="693" y="135">이다</text>
+<!-- 틈: 주어 껍질이 떨어진다 -->
+<line class="s" marker-end="url(#d-verb-ar)" x1="187" x2="258" y1="104" y2="104"></line>
+<text class="t-s mid mute" x="222.5" y="128">주어 껍질</text>
+<rect class="s dash w-ink" height="24" rx="3" width="56" x="194.5" y="136"></rect>
+<text class="t mid b" x="222.5" y="153">나</text>
+<!-- 틈: 시간 껍질이 떨어진다 -->
+<line class="s" marker-end="url(#d-verb-ar)" x1="394" x2="470" y1="104" y2="104"></line>
+<text class="t-s mid mute" x="432" y="128">시간 껍질</text>
+<rect class="s dash w-ink" height="24" rx="3" width="60" x="402" y="136"></rect>
+<text class="t mid b" x="432" y="153">이전에</text>
+<!-- 틈: 술어 껍질이 떨어진다 -->
+<line class="s" marker-end="url(#d-verb-ar)" x1="570" x2="661" y1="104" y2="104"></line>
+<text class="t-s mid mute" x="615.5" y="128">술어 껍질</text>
+<rect class="s dash w-ink" height="24" rx="3" width="84" x="573.5" y="136"></rect>
+<text class="t mid b" x="615.5" y="153">노래하는 자</text>
+<!-- 단계마다 남은 말 -->
+<text class="t mid b" x="101" y="226">나는 노래했다</text>
+<text class="t mid" x="326" y="226">이전에 노래하는 자이다</text>
+<text class="t-s mid mute" x="326" y="244">= 노래했다</text>
+<text class="t mid" x="520" y="226">노래하는 자이다</text>
+<text class="t-s mid mute" x="520" y="244">= 노래한다</text>
+<text class="t mid b c-azu" x="693" y="226">이다</text>
+<text class="t-s mid b c-azu" x="693" y="244">긍정한다</text>
+<!-- 아래: 거꾸로 덮어쓰는 방향 -->
+<line class="s k-mute" x1="716" x2="484" y1="272" y2="272"></line>
+<line class="s k-mute" marker-end="url(#d-verb-arm)" x1="256" x2="24" y1="272" y2="272"></line>
+<text class="t-s mid b" x="370" y="276">거꾸로 읽으면 — '이다'에 껍질을 덮어쓴다</text>
+<text class="t-s mid b" x="222.5" y="300">셋째 껍질 · 주어</text>
+<text class="t-s mid" x="222.5" y="316">나는 산다</text>
+<text class="t-s mid" x="222.5" y="332">→ <tspan class="t-i">vivo</tspan> (라틴어, 어미 속으로)</text>
+<text class="t-s mid b" x="432" y="300">둘째 껍질 · 시간</text>
+<text class="t-s mid" x="432" y="316">이전에 노래하는 자이다</text>
+<text class="t-s mid" x="432" y="332">→ 노래했다</text>
+<text class="t-s mid b" x="615.5" y="300">첫 껍질 · 술어</text>
+<text class="t-s mid" x="615.5" y="316">노래하는 자이다</text>
+<text class="t-s mid" x="615.5" y="332">→ 노래한다</text>
+</svg></g></g></g></g></g></svg>

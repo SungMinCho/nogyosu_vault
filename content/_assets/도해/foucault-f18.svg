@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 740 280" width="740" height="280" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --bg:#DDD8CC; --bg-2:#D3CDBF; --panel:#E9E5DB; --panel-2:#F2EFE8;
+  --ink:#1D1913; --ink-2:#3B352B; --mute:#625A4D; --rule:#B4AB9A; --rule-2:#C9C1B1;
+  --och:#8A6110; --azu:#1F4E8C; --ver:#AE3519; --lak:#9C2B66;
+  --och-w:rgba(138,97,16,.15); --azu-w:rgba(31,78,140,.13); --ver-w:rgba(174,53,25,.13); --lak-w:rgba(156,43,102,.13); --ink-w:rgba(29,25,19,.07);
+  --weave:rgba(60,48,30,.045);
+  --room:#2E2821; --linen:#CBC2AE; --door:#E3C37C; --glass:#A9C0E0; --ray:rgba(240,214,150,.16);
+  --f-disp:"Nanum Myeongjo","Noto Serif KR","Apple SD Gothic Neo",serif;
+  --f-lat:"Cormorant Garamond","Noto Serif KR",Georgia,serif;
+  --f-body:"Noto Serif KR","Nanum Myeongjo","AppleMyungjo","Batang",serif;
+  --f-ui:"Gothic A1","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"Inconsolata","Nanum Gothic Coding","D2Coding",ui-monospace,monospace;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#15120E; --bg-2:#1B1712; --panel:#1F1B15; --panel-2:#26211A;
+  --ink:#E7E0D2; --ink-2:#CFC6B5; --mute:#A39A89; --rule:#4C4538; --rule-2:#3A342A;
+  --och:#D7A64C; --azu:#86AEE6; --ver:#EF7A57; --lak:#E585B6;
+  --och-w:rgba(215,166,76,.16); --azu-w:rgba(134,174,230,.15); --ver-w:rgba(239,122,87,.15); --lak-w:rgba(229,133,182,.15); --ink-w:rgba(231,224,210,.07);
+  --weave:rgba(255,240,210,.025); --room:#0A0806; --linen:#81776A; --door:#C9A55A; --glass:#7E9DCB; --ray:rgba(240,214,150,.09); color-scheme:dark }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{ display:block; width:100%; height:auto }.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); padding-block:1.6rem 3rem }.lecture{ display:contents }figure.fig{ margin:.6rem 0 .4rem; display:grid; gap:.55rem }.fig .frame{ overflow-x:auto; overscroll-behavior-x:contain; background:var(--panel-2); border:1px solid var(--rule-2); padding:.9rem .8rem;
+  background-image:linear-gradient(to right,var(--panel-2) 30%,transparent),linear-gradient(to left,var(--panel-2) 30%,transparent),linear-gradient(to right,var(--ink-w),transparent),linear-gradient(to left,var(--ink-w),transparent);
+  background-position:left center,right center,left center,right center; background-repeat:no-repeat; background-size:2.2rem 100%,2.2rem 100%,1rem 100%,1rem 100%; background-attachment:local,local,scroll,scroll }.fig svg{ display:block; width:100%; height:auto; color:var(--ink) }.t-s{ font-family:var(--f-ui); font-size:11px; fill:currentColor }.t-l{ font-family:var(--f-ui); font-size:15px; fill:currentColor }.t-d{ font-family:var(--f-disp); font-weight:800; font-size:16px; fill:currentColor }.t-m{ font-family:var(--f-mono); font-size:12.5px; fill:currentColor }.b{ font-weight:700 }.mid{ text-anchor:middle }.end{ text-anchor:end }.mute{ fill:var(--mute) }.halo{ paint-order:stroke; stroke:var(--panel-2); stroke-width:4px; stroke-linejoin:round }.s{ fill:none; stroke:currentColor; stroke-width:1.4 }.s-thin{ fill:none; stroke:currentColor; stroke-width:.8 }.s-bold{ fill:none; stroke:currentColor; stroke-width:2.4 }.dash{ stroke-dasharray:5 4 }.k-mute{ stroke:var(--mute) }.k-azu{ stroke:var(--azu) }.f-azu{ fill:var(--azu) }.f-ink{ fill:currentColor }.w-azu{ fill:var(--azu-w) }.w-ink{ fill:var(--ink-w) }.c-azu{ fill:var(--azu) }svg.pz-root{width:740px!important;height:280px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><g class="pz-w fw"><svg xmlns="http://www.w3.org/2000/svg" aria-label="가치의 창출이라는 한 선분을 효용론은 필요의 판단 쪽 끝에서 출발해 더하기로, 중농주의는 땅의 잉여 쪽 끝에서 출발해 빼기로 반대 방향으로 읽어, 같은 1만 원이 한쪽엔 돋을새김, 다른 쪽엔 거푸집으로 보인다" class="pz-inner" height="100%" role="img" viewBox="0 0 740 280" width="100%">
+<defs>
+<marker id="d-value-two-readings-ar" markerHeight="7" markerUnits="strokeWidth" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 위: 효용론 -->
+<text class="t-d c-azu" x="150" y="38">효용론</text>
+<text class="t-s mute" x="214" y="37">콩디야크 · 갈리아니 · 그라슬랭</text>
+<text class="t-s end mute" x="590" y="37">전제: 자연은 유한</text>
+<path class="s" d="M150 142 V74 Q150 62 162 62 H578 Q590 62 590 74 V138" marker-end="url(#d-value-two-readings-ar)"></path>
+<text class="t-s b mid halo" x="370" y="66">더한다</text>
+<text class="t-s end" x="290" y="108">더 채운 필요만큼</text>
+<rect class="w-ink" height="10" width="140" x="300" y="112"></rect>
+<path class="s-thin k-mute" d="M300 112 V122 H440 V112"></path>
+<rect class="w-azu" height="26" width="80" x="330" y="86"></rect>
+<path class="s k-azu" d="M300 112 H330 V86 H410 V112 H440"></path>
+<text class="t-m b mid c-azu" x="370" y="104">+1만 원</text>
+<text class="t-s b" x="450" y="108">돋을새김</text>
+<!-- 한 선분 -->
+<line class="s-bold k-azu" x1="150" x2="590" y1="150" y2="150"></line>
+<line class="s k-azu" x1="370" x2="370" y1="144" y2="156"></line>
+<text class="t-s b mid c-azu" x="370" y="140">교환</text>
+<text class="t-s mid mute" x="250" y="144">가치의 창출</text>
+<circle class="f-azu" cx="150" cy="150" r="6"></circle>
+<circle class="f-azu" cx="590" cy="150" r="6"></circle>
+<text class="t-s mid mute" x="370" y="168">사과 한 상자: 산지 1만 원 → 서울 2만 원</text>
+<text class="t-l b end" x="138" y="146">필요</text>
+<text class="t-s end" x="138" y="163">쓸모의 판단</text>
+<text class="t-s end c-azu" x="138" y="179">동사 쪽</text>
+<text class="t-l b" x="602" y="146">땅</text>
+<text class="t-s" x="602" y="163">자연의 잉여</text>
+<text class="t-s c-azu" x="602" y="179">어근 쪽</text>
+<!-- 아래: 중농주의 -->
+<text class="t-s end" x="290" y="202">소모된 재화만큼</text>
+<path class="w-ink" d="M300 182 H330 V208 H410 V182 H440 V214 H300 Z"></path>
+<path class="s-thin k-mute" d="M440 182 V214 H300 V182"></path>
+<path class="s k-azu" d="M300 182 H330 V208 H410 V182 H440"></path>
+<line class="s-thin k-azu dash" x1="330" x2="410" y1="182" y2="182"></line>
+<text class="t-m b mid c-azu" x="370" y="200">−1만 원</text>
+<text class="t-s b" x="450" y="202">거푸집</text>
+<path class="s" d="M590 158 V222 Q590 234 578 234 H162 Q150 234 150 222 V162" marker-end="url(#d-value-two-readings-ar)"></path>
+<text class="t-s b mid halo" x="370" y="238">뺀다</text>
+<text class="t-d c-azu" x="150" y="264">중농주의</text>
+<text class="t-s mute" x="230" y="263">케네 · 미라보</text>
+<text class="t-s end mute" x="590" y="263">전제: 자연은 끝없이 비옥</text>
+</svg></g></g></g></g></g></svg>

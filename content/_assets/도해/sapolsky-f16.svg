@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 700 316" width="700" height="316" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#F1F3F1; --sheet:#FAFBF9; --ink:#1B2124; --ink-2:#3A4549; --mute:#5E6B71;
+  --grid:#C9D4D1; --grid-2:#E1E8E5; --rule:#B6C2C0;
+  --neuro:#3546A8; --soma:#8F5508; --life:#256B41; --deep:#8A4429; --alarm:#B01E4C;
+  --neuro-w:color-mix(in srgb, var(--neuro) 13%, var(--sheet));
+  --soma-w:color-mix(in srgb, var(--soma) 14%, var(--sheet));
+  --life-w:color-mix(in srgb, var(--life) 13%, var(--sheet));
+  --deep-w:color-mix(in srgb, var(--deep) 13%, var(--sheet));
+  --alarm-w:color-mix(in srgb, var(--alarm) 11%, var(--sheet));
+  --ink-w:color-mix(in srgb, var(--ink) 8%, var(--sheet));
+  --shadow:color-mix(in srgb, var(--ink) 16%, transparent);
+  --f-display:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --f-body:"Literata", "Noto Serif KR", "AppleMyungjo", "Batang", serif;
+  --f-label:"Sofia Sans Condensed", "Gothic A1", "Arial Narrow", sans-serif;
+  --f-mono:"DM Mono", "Nanum Gothic Coding", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --f-fig:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); }.hero svg{ display:block; width:100%; height:auto }figure.fig{ margin:1rem 0; }.fig-frame{ overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background-color:var(--sheet);
+  background-image:linear-gradient(to right, var(--sheet) 30%, transparent), linear-gradient(to left, var(--sheet) 30%, transparent),
+    radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent);
+  background-position:left center, right center, left center, right center; background-repeat:no-repeat;
+  background-size:2rem 100%, 2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; min-width:var(--figmin, 34rem); height:auto; }svg text{ font-family:var(--f-fig); font-size:12px; fill:var(--ink) }svg .t-2{ fill:var(--ink-2) }svg .t-m{ fill:var(--mute) }svg .t-s{ font-size:10.5px }svg .t-b{ font-weight:700 }svg .t-num{ font-family:var(--f-mono); font-variant-numeric:tabular-nums }svg .t-alarm{ fill:var(--alarm) }svg .t-paper{ fill:var(--sheet) }svg .halo{ paint-order:stroke; stroke:var(--sheet); stroke-width:3.5px; stroke-linejoin:round }svg .ln{ stroke:var(--ink); stroke-width:1.4; fill:none }svg .ln-m{ stroke:var(--mute); stroke-width:1; fill:none }svg .ln-g2{ stroke:var(--grid-2); stroke-width:1; fill:none }svg .dash{ stroke-dasharray:5 4 }svg .f-ink2{ fill:var(--ink-2) }svg .f-alarm{ fill:var(--alarm) }section.lecture-wrap{ content-visibility:auto; contain-intrinsic-size:auto 60000px }svg.pz-root{width:700px!important;height:316px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc lecture-wrap"><g class="pz-w fig"><g class="pz-w fig-frame"><svg aria-label="밀그램 실험 조건별로 450볼트까지 간 사람의 비율: 교사가 세기를 스스로 고르면 2.5%, 불복종하는 동료 둘이 곁에 있으면 10%, 학습자가 지인이면 15%, 전화 지시 22.5%, 손을 눌러야 하면 30%, 같은 방 40%, 브리지포트 47.5%, 옆방 비명 62.5%, 1963년 원 논문 65%, 남이 누르고 보조만 하면 92.5%. 21개 조건 740명의 평균은 43.6%." class="pz-inner" height="100%" role="img" viewBox="0 0 700 316" width="100%" xmlns="http://www.w3.org/2000/svg">
+<text class="t-s t-b t-m" x="16" y="22">450볼트까지 간 사람 · 조건별 · Haslam 외 2014 메타-밀그램</text>
+<line class="ln-g2" x1="258" x2="258" y1="42" y2="287"></line>
+<text class="t-s t-num t-m" text-anchor="middle" x="258" y="303">0%</text>
+<line class="ln-g2" x1="348" x2="348" y1="42" y2="287"></line>
+<text class="t-s t-num t-m" text-anchor="middle" x="348" y="303">25%</text>
+<line class="ln-g2" x1="438" x2="438" y1="42" y2="287"></line>
+<text class="t-s t-num t-m" text-anchor="middle" x="438" y="303">50%</text>
+<line class="ln-g2" x1="528" x2="528" y1="42" y2="287"></line>
+<text class="t-s t-num t-m" text-anchor="middle" x="528" y="303">75%</text>
+<line class="ln-m" x1="258" x2="591" y1="287" y2="287"></line>
+<text class="t-s t-2" text-anchor="end" x="202" y="61.5">교사가 충격 세기를 스스로 고름</text>
+<text class="t-s t-num t-m" text-anchor="end" x="250" y="61.5">1/40</text>
+<text class="t-s t-2" text-anchor="end" x="202" y="85.5">불복종하는 동료 교사 2명이 곁에</text>
+<text class="t-s t-num t-m" text-anchor="end" x="250" y="85.5">4/40</text>
+<text class="t-s t-2" text-anchor="end" x="202" y="109.5">학습자가 지인</text>
+<text class="t-s t-num t-m" text-anchor="end" x="250" y="109.5">3/20</text>
+<text class="t-s t-2" text-anchor="end" x="202" y="133.5">실험자가 전화로 지시</text>
+<text class="t-s t-num t-m" text-anchor="end" x="250" y="133.5">9/40</text>
+<text class="t-s t-2" text-anchor="end" x="202" y="157.5">교사가 학습자 손을 충격판에 눌러야 함</text>
+<text class="t-s t-num t-m" text-anchor="end" x="250" y="157.5">12/40</text>
+<text class="t-s t-2" text-anchor="end" x="202" y="181.5">학습자가 같은 방에</text>
+<text class="t-s t-num t-m" text-anchor="end" x="250" y="181.5">16/40</text>
+<text class="t-s t-2" text-anchor="end" x="202" y="205.5">브리지포트 사무실</text>
+<text class="t-s t-num t-m" text-anchor="end" x="250" y="205.5">19/40</text>
+<text class="t-s t-2" text-anchor="end" x="202" y="229.5">옆방 비명이 들림</text>
+<text class="t-s t-num t-m" text-anchor="end" x="250" y="229.5">25/40</text>
+<text class="t-s t-b t-alarm" text-anchor="end" x="202" y="253.5">1963년 원 논문 (벽 두드림)</text>
+<text class="t-s t-num t-m" text-anchor="end" x="250" y="253.5">26/40</text>
+<text class="t-s t-2" text-anchor="end" x="202" y="277.5">다른 사람이 누르고 교사는 보조만</text>
+<text class="t-s t-num t-m" text-anchor="end" x="250" y="277.5">37/40</text>
+<rect class="f-ink2" height="15" width="9" x="258" y="50"></rect>
+<rect class="f-ink2" height="15" width="36" x="258" y="74"></rect>
+<rect class="f-ink2" height="15" width="54" x="258" y="98"></rect>
+<rect class="f-ink2" height="15" width="81" x="258" y="122"></rect>
+<rect class="f-ink2" height="15" width="108" x="258" y="146"></rect>
+<rect class="f-ink2" height="15" width="144" x="258" y="170"></rect>
+<rect class="f-ink2" height="15" width="171" x="258" y="194"></rect>
+<rect class="f-ink2" height="15" width="225" x="258" y="218"></rect>
+<rect class="f-alarm" height="15" width="234" x="258" y="242"></rect>
+<rect class="f-ink2" height="15" width="333" x="258" y="266"></rect>
+<line class="halo" x1="414.96" x2="414.96" y1="38" y2="287"></line>
+<line class="ln dash" x1="414.96" x2="414.96" y1="38" y2="287"></line>
+<text class="t-s t-num t-b" x="273" y="61.5">2.5%</text>
+<text class="t-s t-num t-b" x="300" y="85.5">10%</text>
+<text class="t-s t-num t-b" x="318" y="109.5">15%</text>
+<text class="t-s t-num t-b" x="345" y="133.5">22.5%</text>
+<text class="t-s t-num t-b" x="372" y="157.5">30%</text>
+<text class="t-s t-num t-b t-paper" text-anchor="end" x="396" y="181.5">40%</text>
+<text class="t-s t-num t-b" x="435" y="205.5">47.5%</text>
+<text class="t-s t-num t-b" x="489" y="229.5">62.5%</text>
+<text class="t-s t-num t-b t-alarm" x="498" y="253.5">65%</text>
+<text class="t-s t-num t-b" x="597" y="277.5">92.5%</text>
+<text class="t-s t-b" x="420.96" y="46">평균 43.6% · 21개 조건 740명</text>
+<text class="t-s t-b t-alarm" x="534" y="253.5">← 흔히 인용되는 숫자</text>
+</svg></g></g></g></svg>

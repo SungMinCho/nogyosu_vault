@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 680 256" width="680" height="256" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#F1F3F1; --sheet:#FAFBF9; --ink:#1B2124; --ink-2:#3A4549; --mute:#5E6B71;
+  --grid:#C9D4D1; --grid-2:#E1E8E5; --rule:#B6C2C0;
+  --neuro:#3546A8; --soma:#8F5508; --life:#256B41; --deep:#8A4429; --alarm:#B01E4C;
+  --neuro-w:color-mix(in srgb, var(--neuro) 13%, var(--sheet));
+  --soma-w:color-mix(in srgb, var(--soma) 14%, var(--sheet));
+  --life-w:color-mix(in srgb, var(--life) 13%, var(--sheet));
+  --deep-w:color-mix(in srgb, var(--deep) 13%, var(--sheet));
+  --alarm-w:color-mix(in srgb, var(--alarm) 11%, var(--sheet));
+  --ink-w:color-mix(in srgb, var(--ink) 8%, var(--sheet));
+  --shadow:color-mix(in srgb, var(--ink) 16%, transparent);
+  --f-display:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --f-body:"Literata", "Noto Serif KR", "AppleMyungjo", "Batang", serif;
+  --f-label:"Sofia Sans Condensed", "Gothic A1", "Arial Narrow", sans-serif;
+  --f-mono:"DM Mono", "Nanum Gothic Coding", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --f-fig:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); }.hero svg{ display:block; width:100%; height:auto }figure.fig{ margin:1rem 0; }.fig-frame{ overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background-color:var(--sheet);
+  background-image:linear-gradient(to right, var(--sheet) 30%, transparent), linear-gradient(to left, var(--sheet) 30%, transparent),
+    radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent);
+  background-position:left center, right center, left center, right center; background-repeat:no-repeat;
+  background-size:2rem 100%, 2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; min-width:var(--figmin, 34rem); height:auto; }svg text{ font-family:var(--f-fig); font-size:12px; fill:var(--ink) }svg .t-m{ fill:var(--mute) }svg .t-s{ font-size:10.5px }svg .t-l{ font-size:14px }svg .t-b{ font-weight:700 }svg .t-k{ font-weight:900 }svg .t-neuro{ fill:var(--neuro) }svg .t-soma{ fill:var(--soma) }svg .t-deep{ fill:var(--deep) }svg .ln{ stroke:var(--ink); stroke-width:1.4; fill:none }svg .ln-neuro{ stroke:var(--neuro); stroke-width:1.8; fill:none }svg .ln-soma{ stroke:var(--soma); stroke-width:1.8; fill:none }svg .ln-deep{ stroke:var(--deep); stroke-width:1.8; fill:none }svg .w-thick{ stroke-width:2.8 }svg .w-heavy{ stroke-width:4 }svg .dash{ stroke-dasharray:5 4 }svg .f-paper{ fill:var(--sheet) }svg .f-ink{ fill:var(--ink) }svg .f-inkw{ fill:var(--ink-w) }svg .f-neuro-w{ fill:var(--neuro-w) }svg .f-soma-w{ fill:var(--soma-w) }svg .f-deep-w{ fill:var(--deep-w) }section.lecture-wrap{ content-visibility:auto; contain-intrinsic-size:auto 60000px }svg.pz-root{width:680px!important;height:256px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc lecture-wrap"><g class="pz-w fig"><g class="pz-w fig-frame"><svg aria-label="남의 고통이 두 밸브를 지나 갈림길에 이른다. 위쪽 '마치 내 것처럼' 길은 편도체·ACC·섬엽이 크게 켜지고 심박이 올라 도망으로, 아래쪽 '그를 위해' 길은 편도체가 조용하고 심박이 내려가 돕기로 간다. 스트레스 호르몬 밸브는 많을수록 위 길로, 막으면 아래 길을 열고, 우리/그들 밸브는 우리에게 열리고 그들에게 닫힌다." class="pz-inner" height="100%" role="img" viewBox="0 0 680 256" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="asif-ah" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="asif-ahb" markerHeight="12" markerUnits="userSpaceOnUse" markerWidth="12" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 들어오는 것 -->
+<rect class="f-paper ln" height="44" rx="3" width="80" x="16" y="110"></rect>
+<text class="t-b" text-anchor="middle" x="56" y="137">남의 고통</text>
+<!-- 본관 -->
+<path class="ln w-thick" d="M96,132 L320,132"></path>
+<!-- 밸브 1: 스트레스 호르몬 -->
+<text class="t-s t-b t-soma" text-anchor="middle" x="148" y="80">스트레스 호르몬</text>
+<text class="t-s t-soma" text-anchor="middle" x="148" y="95">글루코코르티코이드</text>
+<path class="ln-soma" d="M148,132 L148,112 M140,112 L156,112"></path>
+<path class="f-soma-w ln-soma" d="M136,122 L136,142 L148,132 Z M160,122 L160,142 L148,132 Z"></path>
+<text class="t-s" text-anchor="middle" x="148" y="168">많을수록 ↑ 위 길</text>
+<text class="t-s" text-anchor="middle" x="148" y="183">막으면 ↓ 아래 길</text>
+<text class="t-s t-m" text-anchor="middle" x="148" y="198">2015 · 낯선 이에게도</text>
+<!-- 밸브 2: 우리/그들 -->
+<text class="t-s t-b t-deep" text-anchor="middle" x="258" y="95">우리 / 그들</text>
+<path class="ln-deep" d="M258,132 L258,112 M250,112 L266,112"></path>
+<path class="f-deep-w ln-deep" d="M246,122 L246,142 L258,132 Z M270,122 L270,142 L258,132 Z"></path>
+<text class="t-s" text-anchor="middle" x="258" y="168">우리 → 열림</text>
+<text class="t-s" text-anchor="middle" x="258" y="183">그들 → 닫힘</text>
+<text class="t-s t-m" text-anchor="middle" x="258" y="198">경험으로 다시 맞춤</text>
+<!-- 갈림길 -->
+<path class="ln w-thick" d="M320,132 C338,132 330,70 346,70" marker-end="url(#asif-ahb)"></path>
+<path class="ln w-thick" d="M320,132 C338,132 330,194 346,194" marker-end="url(#asif-ahb)"></path>
+<!-- 위 길: 마치 내 것처럼 -->
+<text class="t-b" x="350" y="28">‘마치 내 것처럼’</text>
+<text class="t-s t-m" x="456" y="28">자기 지향</text>
+<rect class="f-neuro-w ln-neuro" height="52" rx="3" width="100" x="350" y="44"></rect>
+<text class="t-s t-b t-neuro" text-anchor="middle" x="400" y="66">편도체·ACC·섬엽</text>
+<text class="t-s t-neuro" text-anchor="middle" x="400" y="83">크게 켜짐</text>
+<path class="ln" d="M450,70 L470,70" marker-end="url(#asif-ah)"></path>
+<rect class="f-soma-w ln-soma" height="52" rx="3" width="80" x="474" y="44"></rect>
+<text class="t-b t-soma" text-anchor="middle" x="514" y="66">심박 ↑</text>
+<text class="t-s" text-anchor="middle" x="514" y="83">괴로움 ↑</text>
+<path class="ln" d="M554,70 L574,70" marker-end="url(#asif-ah)"></path>
+<rect class="f-paper ln" height="52" rx="10" width="88" x="578" y="44"></rect>
+<text class="t-b" text-anchor="middle" x="622" y="66">도망</text>
+<text class="t-s t-m" text-anchor="middle" x="622" y="83">내 괴로움 덜기</text>
+<!-- 아래 길: 그를 위해 -->
+<rect class="f-paper ln-neuro dash" height="52" rx="3" width="100" x="350" y="168"></rect>
+<text class="t-s t-b t-neuro" text-anchor="middle" x="400" y="190">편도체</text>
+<text class="t-s t-neuro" text-anchor="middle" x="400" y="207">조용</text>
+<path class="ln" d="M450,194 L470,194" marker-end="url(#asif-ah)"></path>
+<rect class="f-soma-w ln-soma" height="52" rx="3" width="80" x="474" y="168"></rect>
+<text class="t-b t-soma" text-anchor="middle" x="514" y="190">심박 ↓</text>
+<text class="t-s" text-anchor="middle" x="514" y="207">정향 반응</text>
+<path class="ln" d="M554,194 L574,194" marker-end="url(#asif-ah)"></path>
+<rect class="f-inkw ln w-heavy" height="52" rx="10" width="88" x="578" y="168"></rect>
+<text class="t-l t-k" text-anchor="middle" x="622" y="190">돕기</text>
+<text class="t-s t-m" text-anchor="middle" x="622" y="207">남의 고통 덜기</text>
+<text class="t-b" x="350" y="244">‘그를 위해’</text>
+<text class="t-s t-m" x="422" y="244">타자 지향 · 연민</text>
+</svg></g></g></g></svg>

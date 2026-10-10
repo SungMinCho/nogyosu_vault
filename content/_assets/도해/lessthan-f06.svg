@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 870 490" width="870" height="490" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#ECEAF0; --panel:#F7F6F9; --ink:#1D1A26; --muted:#5B5668; --rule:#C9C5D2; --rule-2:#DCD9E2;
+  --red:#B42318;   --red-fill:#F3D3CE;
+  --flesh:#995532; --flesh-fill:#ECCFBC;
+  --cob:#2B4A9B;   --cob-fill:#D3DBF1;
+  --verd:#1F6F62;  --verd-fill:#CDE7E1;
+  --void:#17141F;  --on-void:#F2EEF7;
+  --display-ko:"Hahmlet","Noto Serif KR","Noto Serif CJK KR",serif;
+  --body:"Noto Serif KR","Noto Serif CJK KR","Apple SD Gothic Neo",serif;
+  --display-la:"GFS Didot","Didot","Bodoni 72","Noto Serif",serif;
+  --sans:"Noto Sans KR","Noto Sans CJK KR","Apple SD Gothic Neo",system-ui,sans-serif;
+  --mono:"Red Hat Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }svg.fig{display:block;width:100%;height:auto;font-family:var(--sans);overflow:visible}svg.fig text{font-family:var(--sans);font-size:14px;fill:var(--ink)}svg.fig .t-s{font-size:12px}svg.fig .t-b{font-weight:700}svg.fig .t-mid{text-anchor:middle}svg.fig .t-end{text-anchor:end}svg.fig .t-muted{fill:var(--muted)}svg.fig .f-ink{fill:var(--ink)}svg.fig .f-muted{fill:var(--muted)}svg.fig .f-red{fill:var(--red)}svg.fig .f-cob{fill:var(--cob)}svg.fig .f-cobf{fill:var(--cob-fill)}svg.fig .f-none{fill:none}svg.fig .s-ink{stroke:var(--ink)}svg.fig .s-muted{stroke:var(--muted)}svg.fig .s-red{stroke:var(--red)}svg.fig .w15{stroke-width:1.5px}svg.fig .w2{stroke-width:2px}svg.fig .w3{stroke-width:3px}svg.fig .round{stroke-linecap:round;stroke-linejoin:round}:root{ --pad:1.15rem; --measure:39rem; --wide:52rem; --shell:calc(var(--wide) + var(--pad)*2); }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{max-width:560px;margin-inline:auto}.doc{padding-inline:var(--pad)}.lecture{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-block:2.5rem 3rem;
+  content-visibility:auto;border-top:1px solid var(--rule)}.fig-wrap{margin:.8rem 0 !important}.fig-scroll{overflow-x:auto;background:
+  linear-gradient(to right,var(--panel) 30%,transparent) left center/2.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--panel) 30%,transparent) right center/2.2rem 100% no-repeat local,
+  radial-gradient(farthest-side at 0 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) left center/.8rem 100% no-repeat scroll,
+  radial-gradient(farthest-side at 100% 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) right center/.8rem 100% no-repeat scroll,
+  var(--panel);padding:1rem .9rem .6rem}.fig-inner{width:100%}svg.pz-root{width:870px!important;height:490px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig-wrap"><g class="pz-w fig-scroll"><g class="pz-w fig-inner"><svg xmlns="http://www.w3.org/2000/svg" aria-label="아쿨라크와 기독교인은 객관적 분류의 한 칸에 딸린 아종이 아니라 모든 칸을 대각선으로 꿰는 주체화의 선이며, 테러적 판본과 해방적 판본은 같은 뼈대다" class="fig pz-inner" height="100%" role="img" viewBox="0 0 870 490" width="100%">
+<defs>
+<marker id="L02-3-ar-ink" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="L02-3-ar-mut" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-muted" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 위: 테러적 판본 -->
+<text class="t-b" x="40" y="38">테러적 판본</text>
+<text class="t-s t-muted" x="140" y="38">스탈린의 집단화, 1928–1933</text>
+<path class="f-none s-red w15" d="M120,82 L120,74 L720,74 L720,82"></path>
+<text class="t-mid t-s f-red" x="420" y="64">주체화의 지점 — 세 칸 모두에 걸친다</text>
+<rect class="f-cobf" height="70" width="198" x="120" y="110"></rect>
+<rect class="f-cobf" height="70" width="198" x="321" y="110"></rect>
+<rect class="f-cobf" height="70" width="198" x="522" y="110"></rect>
+<text class="t-end t-s t-muted" x="712" y="172">이름표: 쿨라크의 아종</text>
+<line class="s-red w3 round" x1="96" x2="744" y1="192" y2="98"></line>
+<path class="f-none s-red w2 round" d="M108.0,184.2 L109.7,196.1 M133.7,180.5 L135.5,192.3 M159.5,176.7 L161.2,188.6 M185.2,173.0 L186.9,184.9 M210.9,169.3 L212.6,181.1 M236.7,165.5 L238.4,177.4 M262.4,161.8 L264.1,173.7 M288.1,158.1 L289.8,169.9 M313.8,154.3 L315.6,166.2 M339.6,150.6 L341.3,162.5 M365.3,146.9 L367.0,158.7 M391.0,143.1 L392.8,155.0 M416.8,139.4 L418.5,151.3 M442.5,135.7 L444.2,147.5 M468.2,131.9 L470.0,143.8 M494.0,128.2 L495.7,140.1 M519.7,124.5 L521.4,136.4 M545.4,120.7 L547.1,132.6 M571.2,117.0 L572.9,128.9 M596.9,113.3 L598.6,125.2 M622.6,109.5 L624.3,121.4 M648.3,105.8 L650.1,117.7 M674.1,102.1 L675.8,114.0 M699.8,98.3 L701.5,110.2 M725.5,94.6 L727.3,106.5"></path>
+<text class="t-b f-red" x="752" y="98">아쿨라크</text>
+<text class="t-s" x="752" y="116">바깥을 꿰매는 봉합</text>
+<text class="t-mid t-b f-cob" x="219" y="208">빈농</text>
+<text class="t-mid t-s t-muted" x="219" y="226">베드냐키 · 노동자의 동맹</text>
+<text class="t-mid t-b f-cob" x="420" y="208">중농</text>
+<text class="t-mid t-s t-muted" x="420" y="226">세레드냐키 · 동요하는 자</text>
+<text class="t-mid t-b f-cob" x="621" y="208">쿨라크</text>
+<text class="t-mid t-s t-muted" x="621" y="226">청산할 계급의 적</text>
+<!-- 순환 정의 -->
+<text class="t-mid t-s" x="806" y="160">쿨라크</text>
+<text class="t-mid t-s f-red" x="806" y="214">아쿨라크</text>
+<path class="f-none s-muted w15" d="M772,164 Q758,187 772,204" marker-end="url(#L02-3-ar-mut)"></path>
+<path class="f-none s-muted w15" d="M840,204 Q854,187 840,164" marker-end="url(#L02-3-ar-mut)"></path>
+<text class="t-mid t-s t-muted" x="806" y="236">순환 정의</text>
+<!-- 같은 뼈대 -->
+<line class="s-ink w15" marker-end="url(#L02-3-ar-ink)" marker-start="url(#L02-3-ar-ink)" x1="60" x2="60" y1="246" y2="292"></line>
+<text class="t-s t-b" x="74" y="274">같은 뼈대</text>
+<!-- 아래: 해방적 판본 -->
+<text class="t-b" x="40" y="318">해방적 판본</text>
+<text class="t-s t-muted" x="140" y="318">바울, 갈라디아서 3:28</text>
+<path class="f-none s-red w15" d="M120,362 L120,354 L720,354 L720,362"></path>
+<text class="t-mid t-s f-red" x="420" y="344">수행적 자기명명 — 두 칸 모두에 걸친다</text>
+<rect class="f-cobf" height="70" width="298" x="120" y="390"></rect>
+<rect class="f-cobf" height="70" width="299" x="421" y="390"></rect>
+<line class="s-red w3 round" x1="96" x2="744" y1="472" y2="378"></line>
+<path class="f-none s-red w2 round" d="M108.0,464.2 L109.7,476.1 M133.7,460.5 L135.5,472.3 M159.5,456.7 L161.2,468.6 M185.2,453.0 L186.9,464.9 M210.9,449.3 L212.6,461.1 M236.7,445.5 L238.4,457.4 M262.4,441.8 L264.1,453.7 M288.1,438.1 L289.8,449.9 M313.8,434.3 L315.6,446.2 M339.6,430.6 L341.3,442.5 M365.3,426.9 L367.0,438.7 M391.0,423.1 L392.8,435.0 M416.8,419.4 L418.5,431.3 M442.5,415.7 L444.2,427.5 M468.2,411.9 L470.0,423.8 M494.0,408.2 L495.7,420.1 M519.7,404.5 L521.4,416.4 M545.4,400.7 L547.1,412.6 M571.2,397.0 L572.9,408.9 M596.9,393.3 L598.6,405.2 M622.6,389.5 L624.3,401.4 M648.3,385.8 L650.1,397.7 M674.1,382.1 L675.8,394.0 M699.8,378.3 L701.5,390.2 M725.5,374.6 L727.3,386.5"></path>
+<text class="t-b f-red" x="752" y="378">기독교인</text>
+<text class="t-s" x="752" y="396">비-비유대인</text>
+<text class="t-mid t-b f-cob" x="269" y="484">유대인</text>
+<text class="t-mid t-b f-cob" x="570" y="484">그리스인</text>
+</svg></g></g></g></g></g></svg>

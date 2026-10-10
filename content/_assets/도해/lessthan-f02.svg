@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 860 470" width="860" height="470" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#ECEAF0; --panel:#F7F6F9; --ink:#1D1A26; --muted:#5B5668; --rule:#C9C5D2; --rule-2:#DCD9E2;
+  --red:#B42318;   --red-fill:#F3D3CE;
+  --flesh:#995532; --flesh-fill:#ECCFBC;
+  --cob:#2B4A9B;   --cob-fill:#D3DBF1;
+  --verd:#1F6F62;  --verd-fill:#CDE7E1;
+  --void:#17141F;  --on-void:#F2EEF7;
+  --display-ko:"Hahmlet","Noto Serif KR","Noto Serif CJK KR",serif;
+  --body:"Noto Serif KR","Noto Serif CJK KR","Apple SD Gothic Neo",serif;
+  --display-la:"GFS Didot","Didot","Bodoni 72","Noto Serif",serif;
+  --sans:"Noto Sans KR","Noto Sans CJK KR","Apple SD Gothic Neo",system-ui,sans-serif;
+  --mono:"Red Hat Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }svg.fig{display:block;width:100%;height:auto;font-family:var(--sans);overflow:visible}svg.fig text{font-family:var(--sans);font-size:14px;fill:var(--ink)}svg.fig .t-s{font-size:12px}svg.fig .t-b{font-weight:700}svg.fig .t-mid{text-anchor:middle}svg.fig .t-end{text-anchor:end}svg.fig .t-muted{fill:var(--muted)}svg.fig .f-muted{fill:var(--muted)}svg.fig .f-rule{fill:var(--rule)}svg.fig .f-rule2{fill:var(--rule-2)}svg.fig .f-red{fill:var(--red)}svg.fig .f-none{fill:none}svg.fig .s-ink{stroke:var(--ink)}svg.fig .s-muted{stroke:var(--muted)}svg.fig .s-red{stroke:var(--red)}svg.fig .w1{stroke-width:1px}svg.fig .w15{stroke-width:1.5px}svg.fig .w3{stroke-width:3px}svg.fig .dash{stroke-dasharray:6 5}svg.fig .round{stroke-linecap:round;stroke-linejoin:round}:root{ --pad:1.15rem; --measure:39rem; --wide:52rem; --shell:calc(var(--wide) + var(--pad)*2); }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{max-width:560px;margin-inline:auto}.doc{padding-inline:var(--pad)}.lecture{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-block:2.5rem 3rem;
+  content-visibility:auto;border-top:1px solid var(--rule)}.fig-wrap{margin:.8rem 0 !important}.fig-scroll{overflow-x:auto;background:
+  linear-gradient(to right,var(--panel) 30%,transparent) left center/2.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--panel) 30%,transparent) right center/2.2rem 100% no-repeat local,
+  radial-gradient(farthest-side at 0 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) left center/.8rem 100% no-repeat scroll,
+  radial-gradient(farthest-side at 100% 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) right center/.8rem 100% no-repeat scroll,
+  var(--panel);padding:1rem .9rem .6rem}.fig-inner{width:100%}svg.pz-root{width:860px!important;height:470px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig-wrap"><g class="pz-w fig-scroll"><g class="pz-w fig-inner"><svg xmlns="http://www.w3.org/2000/svg" aria-label="네 입장은 두 축이 짠 사각형의 네 칸을 나눠 갖지만, 넷 모두가 놓치는 전초월론적 간극은 어느 칸도 아닌 그 바닥 밑에 있다" class="fig pz-inner" height="100%" role="img" viewBox="0 0 860 470" width="100%">
+<defs>
+<marker id="L01-2-ar-red" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-red" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="L01-2-ar-mut" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-muted" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 축 이름과 괄호(열) -->
+<text class="t-mid t-b" x="350" y="50">유물론</text>
+<text class="t-mid t-s t-muted" x="350" y="68">바디우의 '민주적 유물론'</text>
+<path class="f-none s-ink w15" d="M222,90 L222,82 L478,82 L478,90"></path>
+<text class="t-mid t-b" x="630" y="50">정신주의</text>
+<text class="t-mid t-s t-muted" x="630" y="68">그에 대한 '정신주의적 반동'</text>
+<path class="f-none s-ink w15" d="M502,90 L502,82 L758,82 L758,90"></path>
+<!-- 바닥판: 윗면 + 두께 -->
+<path class="f-rule s-muted w1" d="M150,290 L710,290 L710,308 L150,308 Z"></path>
+<path class="f-rule s-muted w1" d="M710,290 L770,110 L770,128 L710,308 Z"></path>
+<path class="f-rule2 s-ink w15" d="M210,110 L770,110 L710,290 L150,290 Z"></path>
+<line class="s-ink w1" x1="490" x2="430" y1="110" y2="290"></line>
+<line class="s-ink w1" x1="180" x2="740" y1="200" y2="200"></line>
+<!-- 세로축(깊이) -->
+<text class="t-end t-b" x="186" y="160">비역사</text>
+<text class="t-end t-b" x="156" y="250">역사</text>
+<line class="s-muted w15" marker-end="url(#L01-2-ar-mut)" marker-start="url(#L01-2-ar-mut)" x1="132" x2="114" y1="172" y2="226"></line>
+<!-- 네 칸 -->
+<text class="t-mid t-b" x="342" y="140">과학적 자연주의</text>
+<text class="t-mid t-s t-muted" x="342" y="158">뇌과학 · 다윈주의</text>
+<text class="t-mid t-s" x="342" y="176">초월론 차원을 지운다</text>
+<text class="t-mid t-b" x="622" y="140">서구 불교</text>
+<text class="t-mid t-s t-muted" x="622" y="158">뉴에이지</text>
+<text class="t-mid t-s" x="622" y="176">간극을 공(空)에 녹인다</text>
+<text class="t-mid t-b" x="300" y="230">담론적 역사주의</text>
+<text class="t-mid t-s t-muted" x="300" y="248">푸코 · 해체</text>
+<text class="t-mid t-s" x="300" y="266">주어진 지평에서 멈춘다</text>
+<text class="t-mid t-b" x="580" y="230">초월론적 유한성</text>
+<text class="t-mid t-s t-muted" x="580" y="248">하이데거</text>
+<text class="t-mid t-s" x="580" y="266">주어진 지평에서 멈춘다</text>
+<!-- 바닥 밑의 단층 -->
+<path class="f-none s-red w3 round" d="M120,380 L170,371 L210,386 L255,369 L298,384 L345,370 L388,387 L435,369 L478,384 L525,370 L568,386 L615,369 L658,383 L702,372 L745,381"></path>
+<line class="s-red w15 dash" marker-end="url(#L01-2-ar-red)" x1="255" x2="255" y1="366" y2="316"></line>
+<line class="s-red w15 dash" marker-end="url(#L01-2-ar-red)" x1="435" x2="435" y1="366" y2="316"></line>
+<line class="s-red w15 dash" marker-end="url(#L01-2-ar-red)" x1="615" x2="615" y1="366" y2="316"></line>
+<text class="t-mid t-s f-red" x="525" y="346">지평이 솟아나오는 자리</text>
+<text class="t-mid t-b f-red" x="432" y="418">전초월론적 간극 = 충동</text>
+<text class="t-mid t-s" x="432" y="438">네 칸이 모두 놓치는 차원 — 근대 주체성의 핵심</text>
+<text class="t-end t-s t-muted" x="845" y="462">칸 배치와 '놓치는 방식'은 강의의 재구성</text>
+</svg></g></g></g></g></g></svg>

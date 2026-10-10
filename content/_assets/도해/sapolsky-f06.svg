@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 392" width="720" height="392" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#F1F3F1; --sheet:#FAFBF9; --ink:#1B2124; --ink-2:#3A4549; --mute:#5E6B71;
+  --grid:#C9D4D1; --grid-2:#E1E8E5; --rule:#B6C2C0;
+  --neuro:#3546A8; --soma:#8F5508; --life:#256B41; --deep:#8A4429; --alarm:#B01E4C;
+  --neuro-w:color-mix(in srgb, var(--neuro) 13%, var(--sheet));
+  --soma-w:color-mix(in srgb, var(--soma) 14%, var(--sheet));
+  --life-w:color-mix(in srgb, var(--life) 13%, var(--sheet));
+  --deep-w:color-mix(in srgb, var(--deep) 13%, var(--sheet));
+  --alarm-w:color-mix(in srgb, var(--alarm) 11%, var(--sheet));
+  --ink-w:color-mix(in srgb, var(--ink) 8%, var(--sheet));
+  --shadow:color-mix(in srgb, var(--ink) 16%, transparent);
+  --f-display:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --f-body:"Literata", "Noto Serif KR", "AppleMyungjo", "Batang", serif;
+  --f-label:"Sofia Sans Condensed", "Gothic A1", "Arial Narrow", sans-serif;
+  --f-mono:"DM Mono", "Nanum Gothic Coding", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --f-fig:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); }.hero svg{ display:block; width:100%; height:auto }figure.fig{ margin:1rem 0; }.fig-frame{ overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background-color:var(--sheet);
+  background-image:linear-gradient(to right, var(--sheet) 30%, transparent), linear-gradient(to left, var(--sheet) 30%, transparent),
+    radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent);
+  background-position:left center, right center, left center, right center; background-repeat:no-repeat;
+  background-size:2rem 100%, 2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; min-width:var(--figmin, 34rem); height:auto; }svg text{ font-family:var(--f-fig); font-size:12px; fill:var(--ink) }svg .t-2{ fill:var(--ink-2) }svg .t-m{ fill:var(--mute) }svg .t-s{ font-size:10.5px }svg .t-b{ font-weight:700 }svg .t-en{ font-family:var(--f-label); letter-spacing:.04em }svg .t-neuro{ fill:var(--neuro) }svg .t-soma{ fill:var(--soma) }svg .t-alarm{ fill:var(--alarm) }svg .halo{ paint-order:stroke; stroke:var(--sheet); stroke-width:3.5px; stroke-linejoin:round }svg .ln{ stroke:var(--ink); stroke-width:1.4; fill:none }svg .ln-2{ stroke:var(--ink-2); stroke-width:1.2; fill:none }svg .ln-g{ stroke:var(--grid); stroke-width:1; fill:none }svg .ln-neuro{ stroke:var(--neuro); stroke-width:1.8; fill:none }svg .ln-soma{ stroke:var(--soma); stroke-width:1.8; fill:none }svg .ln-alarm{ stroke:var(--alarm); stroke-width:1.8; fill:none }svg .w-thick{ stroke-width:2.8 }svg .w-heavy{ stroke-width:4 }svg .dash{ stroke-dasharray:5 4 }svg .f-paper{ fill:var(--sheet) }svg .f-ink{ fill:var(--ink) }svg .f-soma{ fill:var(--soma) }svg .f-alarm{ fill:var(--alarm) }svg .f-neuro-w{ fill:var(--neuro-w) }svg .f-soma-w{ fill:var(--soma-w) }svg .f-alarm-w{ fill:var(--alarm-w) }section.lecture-wrap{ content-visibility:auto; contain-intrinsic-size:auto 60000px }svg.pz-root{width:720px!important;height:392px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc lecture-wrap"><g class="pz-w fig"><g class="pz-w fig-frame"><svg aria-label="스트레스 고리와 출구 — 스트레스원이 편도체를 켜고 편도체가 시상하부 PVN의 CRH, 뇌하수체의 ACTH, 부신을 거쳐 글루코코르티코이드를 분비시킨다. 글루코코르티코이드는 편도체 흥분성을 올리는 양성 되먹임을 돌리고 해마와 전전두피질의 고삐를 늦춰 편도체를 누르는 브레이크를 약하게 하며, 겁과 판단 흐림과 반응적 공격을 낳는다. 출구는 쳇바퀴·먹기·나무 갉기 같은 완충과, 특히 효과적인 아래 서열 물기(전위 공격)이고, 물린 쪽은 스트레스를 넘겨받는다" class="pz-inner" height="100%" role="img" viewBox="0 0 720 392" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="stress-ah" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="stress-ahs" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-soma" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="stress-aha" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-alarm" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 고리: 스트레스원 → 편도체 → HPA → 글루코코르티코이드 -->
+<rect class="f-paper ln" height="44" rx="3" width="110" x="16" y="36"></rect>
+<text class="t-b" text-anchor="middle" x="71" y="55">스트레스원</text>
+<text class="t-s t-m" text-anchor="middle" x="71" y="71">통제·예측 상실</text>
+<path class="ln" d="M126,58 L155,58" marker-end="url(#stress-ah)"></path>
+<rect class="f-neuro-w ln-neuro" height="44" rx="3" width="90" x="158" y="36"></rect>
+<text class="t-b t-neuro" text-anchor="middle" x="203" y="63">편도체</text>
+<path class="ln" d="M248,58 L277,58" marker-end="url(#stress-ah)"></path>
+<rect class="f-soma-w ln-soma" height="44" rx="3" width="100" x="280" y="36"></rect>
+<text class="t-b" text-anchor="middle" x="330" y="55">시상하부 PVN</text>
+<text class="t-s t-soma t-b t-en" text-anchor="middle" x="330" y="71">CRH</text>
+<path class="ln-soma" d="M380,58 L409,58" marker-end="url(#stress-ahs)"></path>
+<rect class="f-soma-w ln-soma" height="44" rx="3" width="90" x="412" y="36"></rect>
+<text class="t-b" text-anchor="middle" x="457" y="55">뇌하수체</text>
+<text class="t-s t-soma t-b t-en" text-anchor="middle" x="457" y="71">ACTH</text>
+<path class="ln-soma" d="M502,58 L531,58" marker-end="url(#stress-ahs)"></path>
+<rect class="f-soma-w ln-soma" height="44" rx="3" width="80" x="534" y="36"></rect>
+<text class="t-b" text-anchor="middle" x="574" y="63">부신</text>
+<path class="ln-soma" d="M574,80 L574,113" marker-end="url(#stress-ahs)"></path>
+<text class="t-s t-soma" x="582" y="101">분비</text>
+<rect class="f-soma-w ln-soma w-thick" height="44" rx="3" width="184" x="520" y="116"></rect>
+<text class="t-b t-soma" text-anchor="middle" x="612" y="143">글루코코르티코이드 ↑</text>
+<!-- 되먹임과 고삐 -->
+<path class="ln-soma" d="M520,130 L226,130 L226,83" marker-end="url(#stress-ahs)"></path>
+<text class="t-s t-soma t-b halo" text-anchor="middle" x="432" y="123">편도체 흥분성↑ · 양성 되먹임</text>
+<path class="ln-soma" d="M520,148 L146,148"></path>
+<path class="ln-soma w-thick" d="M144,140 L144,156"></path>
+<text class="t-s t-soma" text-anchor="middle" x="432" y="165">고삐 늦춤</text>
+<rect class="f-paper ln-neuro" height="44" rx="3" width="124" x="16" y="116"></rect>
+<text class="t-s t-b t-neuro" text-anchor="middle" x="78" y="135">해마 · 전전두피질</text>
+<text class="t-s t-m" text-anchor="middle" x="78" y="151">편도체를 누름</text>
+<path class="ln-neuro dash" d="M110,116 L110,98 L180,98 L180,85"></path>
+<path class="ln-neuro w-thick" d="M172,85 L188,85"></path>
+<text class="t-s t-neuro" x="16" y="104">약해진 브레이크</text>
+<!-- 결과 -->
+<path class="ln-soma" d="M640,160 L640,193" marker-end="url(#stress-ahs)"></path>
+<rect class="f-paper ln" height="48" rx="3" width="144" x="560" y="196"></rect>
+<text class="t-s t-2" text-anchor="middle" x="632" y="216">겁↑ · 판단 흐림</text>
+<text class="t-b" text-anchor="middle" x="632" y="234">반응적 공격↑</text>
+<path class="ln-g" d="M16,262 L704,262"></path>
+<!-- 출구 -->
+<text class="t-s t-b t-m" x="16" y="282">출구 — 반응을 낮추는 것</text>
+<rect class="f-paper ln-2" height="44" rx="3" width="150" x="16" y="300"></rect>
+<text class="t-s t-b" text-anchor="middle" x="91" y="319">쳇바퀴·먹기·나무 갉기</text>
+<text class="t-s t-m" text-anchor="middle" x="91" y="335">완충</text>
+<rect class="f-alarm-w ln-alarm" height="44" rx="3" width="150" x="196" y="300"></rect>
+<text class="t-b t-alarm" text-anchor="middle" x="271" y="319">아래 서열을 문다</text>
+<text class="t-s" text-anchor="middle" x="271" y="335">전위 공격 · 특히 효과적</text>
+<text class="t-s t-m" text-anchor="middle" x="271" y="362">비비 공격의 거의 절반</text>
+<text class="t-s t-m" text-anchor="middle" x="271" y="377">화풀이한 비비일수록 GC↓</text>
+<path class="ln-2" d="M91,300 L91,288 L271,288"></path>
+<path class="ln w-thick" d="M271,300 L271,288 L330,288 L330,86"></path>
+<path class="ln w-heavy" d="M320,85 L340,85"></path>
+<text class="t-s t-2" x="338" y="236">도파민 경로 → CRH↓ (추측)</text>
+<path class="ln-alarm" d="M346,322 L395,322" marker-end="url(#stress-aha)"></path>
+<rect class="f-paper ln-alarm dash" height="44" rx="3" width="140" x="398" y="300"></rect>
+<text class="t-b t-alarm" text-anchor="middle" x="468" y="319">물린 쪽</text>
+<text class="t-s" text-anchor="middle" x="468" y="335">스트레스를 넘겨받음</text>
+<path class="ln-alarm dash" d="M538,322 L567,322" marker-end="url(#stress-aha)"></path>
+<text class="t-s t-alarm" x="572" y="326">또 그 아래로</text>
+</svg></g></g></g></svg>

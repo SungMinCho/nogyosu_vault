@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 880 500" width="880" height="500" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#ECEAF0; --panel:#F7F6F9; --ink:#1D1A26; --muted:#5B5668; --rule:#C9C5D2; --rule-2:#DCD9E2;
+  --red:#B42318;   --red-fill:#F3D3CE;
+  --flesh:#995532; --flesh-fill:#ECCFBC;
+  --cob:#2B4A9B;   --cob-fill:#D3DBF1;
+  --verd:#1F6F62;  --verd-fill:#CDE7E1;
+  --void:#17141F;  --on-void:#F2EEF7;
+  --display-ko:"Hahmlet","Noto Serif KR","Noto Serif CJK KR",serif;
+  --body:"Noto Serif KR","Noto Serif CJK KR","Apple SD Gothic Neo",serif;
+  --display-la:"GFS Didot","Didot","Bodoni 72","Noto Serif",serif;
+  --sans:"Noto Sans KR","Noto Sans CJK KR","Apple SD Gothic Neo",system-ui,sans-serif;
+  --mono:"Red Hat Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }svg.fig{display:block;width:100%;height:auto;font-family:var(--sans);overflow:visible}svg.fig text{font-family:var(--sans);font-size:14px;fill:var(--ink)}svg.fig .t-s{font-size:12px}svg.fig .t-xl{font-size:22px}svg.fig .t-b{font-weight:700}svg.fig .t-mid{text-anchor:middle}svg.fig .t-muted{fill:var(--muted)}svg.fig .f-ink{fill:var(--ink)}svg.fig .f-flesh{fill:var(--flesh)}svg.fig .f-fleshf{fill:var(--flesh-fill)}svg.fig .f-cob{fill:var(--cob)}svg.fig .f-cobf{fill:var(--cob-fill)}svg.fig .f-none{fill:none}svg.fig .s-ink{stroke:var(--ink)}svg.fig .s-red{stroke:var(--red)}svg.fig .s-flesh{stroke:var(--flesh)}svg.fig .s-cob{stroke:var(--cob)}svg.fig .w15{stroke-width:1.5px}svg.fig .w2{stroke-width:2px}svg.fig .w3{stroke-width:3px}svg.fig .dash{stroke-dasharray:6 5}svg.fig .dot{stroke-dasharray:1.5 4;stroke-linecap:round}svg.fig .round{stroke-linecap:round;stroke-linejoin:round}:root{ --pad:1.15rem; --measure:39rem; --wide:52rem; --shell:calc(var(--wide) + var(--pad)*2); }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{max-width:560px;margin-inline:auto}.doc{padding-inline:var(--pad)}.lecture{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-block:2.5rem 3rem;
+  content-visibility:auto;border-top:1px solid var(--rule)}.fig-wrap{margin:.8rem 0 !important}.fig-scroll{overflow-x:auto;background:
+  linear-gradient(to right,var(--panel) 30%,transparent) left center/2.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--panel) 30%,transparent) right center/2.2rem 100% no-repeat local,
+  radial-gradient(farthest-side at 0 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) left center/.8rem 100% no-repeat scroll,
+  radial-gradient(farthest-side at 100% 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) right center/.8rem 100% no-repeat scroll,
+  var(--panel);padding:1rem .9rem .6rem}.fig-inner{width:100%}svg.pz-root{width:880px!important;height:500px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig-wrap"><g class="pz-w fig-scroll"><g class="pz-w fig-inner"><svg xmlns="http://www.w3.org/2000/svg" aria-label="대상 a는 일관된 대타자를 흔드는 바깥의 침입자에서 그 일관성의 보증인으로, 다시 상징 질서 자체의 안쪽 비틀림으로 바뀌어 출발점과 같은 자리, 다른 수준에 도착한다." class="fig pz-inner" height="100%" role="img" viewBox="0 0 880 500" width="100%">
+<defs>
+<marker id="L11-1-ar-ink" markerHeight="10" markerUnits="userSpaceOnUse" markerWidth="10" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<circle class="f-cobf s-cob w3" cx="170" cy="400" r="52"></circle>
+<text class="t-mid t-xl t-b f-cob" x="170" y="408">A</text>
+<text class="t-mid t-b" x="170" y="482">① 일관된 대타자 A</text>
+<circle class="f-cobf s-cob w3" cx="440" cy="400" r="52"></circle>
+<text class="t-mid t-xl t-b f-cob" x="440" y="408">A</text>
+<line class="s-red w3 round" x1="424" x2="456" y1="418" y2="384"></line>
+<circle class="f-flesh" cx="479.8" cy="366.6" r="9"></circle>
+<text class="t-b f-flesh" x="493.8" y="358.6">a</text>
+<text class="t-mid t-b" x="440" y="482">② Ⱥ — 침입한 잔여 a</text>
+<line class="s-ink w2" marker-end="url(#L11-1-ar-ink)" x1="232" x2="378" y1="400" y2="400"></line>
+<text class="t-mid t-s t-b" x="305" y="388">첫째 뒤집기</text>
+<text class="t-mid t-s" x="305" y="422">침입한 잔여가</text>
+<text class="t-mid t-s" x="305" y="438">빗금을 긋는다</text>
+<path class="f-none s-cob w3 round" d="M719.0,218.8 A52,52 0 0 1 758.9,252.2"></path>
+<line class="s-cob w15 dot" x1="739.6" x2="718.4" y1="234.8" y2="260.0"></line>
+<path class="f-none s-cob w3 round" d="M761.8,265.5 A52,52 0 0 1 739.8,312.6"></path>
+<line class="s-cob w15 dot" x1="751.7" x2="721.8" y1="289.4" y2="275.5"></line>
+<path class="f-none s-cob w3 round" d="M727.8,318.9 A52,52 0 0 1 676.6,309.8"></path>
+<line class="s-cob w15 dot" x1="702.0" x2="707.7" y1="315.3" y2="282.8"></line>
+<path class="f-none s-cob w3 round" d="M667.4,299.8 A52,52 0 0 1 661.1,252.2"></path>
+<line class="s-cob w15 dot" x1="664.4" x2="697.1" y1="276.0" y2="271.7"></line>
+<path class="f-none s-cob w3 round" d="M667.4,240.2 A52,52 0 0 1 705.5,218.2"></path>
+<line class="s-cob w15 dot" x1="687.0" x2="703.5" y1="230.2" y2="258.7"></line>
+<circle class="f-flesh" cx="710" cy="270" r="9"></circle>
+<text class="t-mid t-b" x="710" y="350">③ a가 일관성을 보증</text>
+<text class="t-mid t-s t-muted" x="710" y="368">파편들이 a에 대한 반응으로 묶인다</text>
+<path class="f-none s-ink w2" d="M492,384 C560,376 612,344 652,306" marker-end="url(#L11-1-ar-ink)"></path>
+<text class="t-mid t-s t-b" x="590" y="414">둘째 뒤집기</text>
+<text class="t-mid t-s" x="590" y="432">침입자가 보증인으로</text>
+<path class="f-cobf s-cob w3 round" d="M123.1,145.0 L121.3,142.2 L119.8,139.1 L118.6,135.8 L117.7,132.4 L117.2,128.7 L117.0,125.0 L117.2,121.2 L117.8,117.3 L118.8,113.4 L120.2,109.6 L122.0,105.9 L124.2,102.3 L126.8,98.8 L129.7,95.6 L132.9,92.6 L136.5,89.8 L140.4,87.4 L144.6,85.4 L148.9,83.7 L153.5,82.4 L158.2,81.5 L163.1,81.0 L168.0,81.0 L173.0,81.4 L177.9,82.3 L182.8,83.7 L187.5,85.5 L192.2,87.7 L196.6,90.4 L200.8,93.5 L204.7,96.9 L208.4,100.8 L211.7,104.9 L214.6,109.3 L217.1,114.0 L219.2,119.0 L220.8,124.1 L222.0,129.3 L222.7,134.6 L223.0,140.0 L222.7,145.4 L222.0,150.7 L220.8,155.9 L219.2,161.0 L217.1,166.0 L214.6,170.7 L211.7,175.1 L208.4,179.2 L204.7,183.1 L200.8,186.5 L196.6,189.6 L192.2,192.3 L187.5,194.5 L182.8,196.3 L177.9,197.7 L173.0,198.6 L168.0,199.0 L163.1,199.0 L158.2,198.5 L153.5,197.6 L148.9,196.3 L144.6,194.6 L140.4,192.6 L136.5,190.2 L132.9,187.4 L129.7,184.4 L126.8,181.2 L124.2,177.7 L122.0,174.1 L120.2,170.4 L118.8,166.6 L117.8,162.7 L117.2,158.8 L117.0,155.0 L117.2,151.3 L117.7,147.6 L118.6,144.2 L119.8,140.9 L121.3,137.8 L123.1,135.0"></path>
+<path class="f-fleshf s-flesh w3 round" d="M123.1,135.0 L124.1,133.7 L125.1,132.4 L126.2,131.3 L127.4,130.2 L128.5,129.2 L129.8,128.2 L131.0,127.4 L132.3,126.6 L133.6,125.9 L134.9,125.3 L136.3,124.8 L137.6,124.4 L139.0,124.0 L140.3,123.7 L141.7,123.6 L143.0,123.5 L144.3,123.4 L145.6,123.5 L146.9,123.6 L148.2,123.9 L149.4,124.2 L150.6,124.5 L151.7,125.0 L152.8,125.5 L153.9,126.0 L154.9,126.7 L155.9,127.4 L156.8,128.1 L157.6,128.9 L158.4,129.8 L159.1,130.7 L159.7,131.6 L160.3,132.6 L160.8,133.6 L161.2,134.6 L161.6,135.7 L161.8,136.7 L162.0,137.8 L162.2,138.9 L162.2,140.0 L162.2,141.1 L162.0,142.2 L161.8,143.3 L161.6,144.3 L161.2,145.4 L160.8,146.4 L160.3,147.4 L159.7,148.4 L159.1,149.3 L158.4,150.2 L157.6,151.1 L156.8,151.9 L155.9,152.6 L154.9,153.3 L153.9,154.0 L152.8,154.5 L151.7,155.0 L150.6,155.5 L149.4,155.8 L148.2,156.1 L146.9,156.4 L145.6,156.5 L144.3,156.6 L143.0,156.5 L141.7,156.4 L140.3,156.3 L139.0,156.0 L137.6,155.6 L136.3,155.2 L134.9,154.7 L133.6,154.1 L132.3,153.4 L131.0,152.6 L129.8,151.8 L128.5,150.8 L127.4,149.8 L126.2,148.7 L125.1,147.6 L124.1,146.3 L123.1,145.0"></path>
+<text class="t-mid t-b" x="170" y="40">④ a = 상징 질서 자체의 비틀림</text>
+<text class="t-s t-b f-flesh" x="235" y="168">안으로 굽은 고리</text>
+<path class="f-none s-ink w2" d="M705,214 C690,92 440,70 235,112" marker-end="url(#L11-1-ar-ink)"></path>
+<text class="t-mid t-s t-b" x="520" y="56">셋째 뒤집기</text>
+<text class="t-mid t-s" x="520" y="74">따로 있는 대상은 없다 — 비틀림일 뿐</text>
+<line class="s-ink w2 dash" marker-end="url(#L11-1-ar-ink)" x1="170" x2="170" y1="207" y2="342"></line>
+<text class="t-s t-b" x="184" y="262">넷째 뒤집기</text>
+<text class="t-s" x="184" y="280">출발점을 다시 쓴다</text>
+<text class="t-s t-muted" x="184" y="298">같은 자리, 다른 수준</text>
+</svg></g></g></g></g></g></svg>

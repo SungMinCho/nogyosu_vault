@@ -14,10 +14,12 @@
 | 철학 | [플랫라인 구성체](https://sungmincho.github.io/nogyosu_vault/책/플랫라인-구성체/) | 마크 피셔, 『플랫라인 구성체』 | 「평평한 선」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/flatline.html)) | 12 | 366 |
 | 철학 | [재귀성과 우연성](https://sungmincho.github.io/nogyosu_vault/책/재귀성과-우연성/) | 허욱(육휘), 『재귀성과 우연성』 | 「키질하는 노」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/yukhui.html)) | 14 | 294 |
 | 철학 | [부정적인 것과 함께 머물기](https://sungmincho.github.io/nogyosu_vault/책/부정적인-것과-함께-머물기/) | 슬라보예 지젝, 『부정적인 것과 함께 머물기』 | 「구멍 뚫린 깃발」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/zizek.html)) | 12 | 371 |
+| 철학 | [무보다 적은 것](https://sungmincho.github.io/nogyosu_vault/책/무보다-적은-것/) | 슬라보예 지젝, 『무보다 적은 것』 — 헤겔과 변증법적 유물론의 그림자 | 「그래도 움직인다」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/lessthan.html)) | 16 | 828 |
 | 철학 | [지능과 정신](https://sungmincho.github.io/nogyosu_vault/책/지능과-정신/) | 레자 네가레스타니, 『지능과 정신』 | 「말하는 그것」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/negarestani.html)) | 21 | 752 |
 | 철학 | [절멸에의 갈증](https://sungmincho.github.io/nogyosu_vault/책/절멸에의-갈증/) | 닉 랜드, 『절멸에의 갈증』 — 바타유와 독성 니힐리즘 | 「절멸에의 갈증」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/land.html)) | 12 | 369 |
 | 철학 | [요샤 바흐의 마음 철학](https://sungmincho.github.io/nogyosu_vault/책/요샤-바흐의-마음-철학/) | 요샤 바흐의 강연과 대담을 엮은 열두 강 | 「방앗간의 유령」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/bach.html)) | 12 | 428 |
 | 철학 | [말과 사물](https://sungmincho.github.io/nogyosu_vault/책/말과-사물/) | 미셸 푸코, 『말과 사물』 — 인문과학의 고고학 | 「왕의 자리」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/foucault.html)) | 12 | 346 |
+| 과학 | [행동 (새폴스키)](https://sungmincho.github.io/nogyosu_vault/책/행동-(새폴스키)/) | 로버트 새폴스키, 『행동』 — 인간의 최선과 최악의 생물학 | 「양동이는 없다」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/sapolsky.html)) | 18 | 676 |
 | 수학 | [범주론 입문](https://sungmincho.github.io/nogyosu_vault/책/범주론-입문/) | 대학원 범주론 과정 | 「화살표의 수학」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/category.html)) | 14 | 351 |
 | 수학 | [선형대수학](https://sungmincho.github.io/nogyosu_vault/책/선형대수학/) | 학부 선형대수학 | 「확대하면 곧다」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/linalg.html)) | 18 | 390 |
 | 수학 | [딥러닝의 기하학](https://sungmincho.github.io/nogyosu_vault/책/딥러닝의-기하학/) | 현대 딥러닝의 기하 | 「조각마다 곧다」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/dlgeom.html)) | 10 | 304 |
@@ -29,7 +31,7 @@
 | 투자와 게임 | [홀덤 GTO 기본 개념](https://sungmincho.github.io/nogyosu_vault/책/홀덤-GTO-기본-개념/) | 노리밋 홀덤의 GTO 기본 개념 | 「블러프는 방어다」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/holdem.html)) | 13 | 240 |
 | 소프트웨어 | [소프트웨어 설계의 철학](https://sungmincho.github.io/nogyosu_vault/책/소프트웨어-설계의-철학/) | 존 오스터하우트, 『A Philosophy of Software Design』 | 「탄광의 카나리아」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/ousterhout.html)) | 22 | 300 |
 
-원자 노트는 모두 7808개이고, 그 가운데 692개가 두 권 이상에 걸쳐 있다.
+원자 노트는 모두 9117개이고, 그 가운데 815개가 두 권 이상에 걸쳐 있다.
 
 ## 구조
 | 경로 | 무엇 |

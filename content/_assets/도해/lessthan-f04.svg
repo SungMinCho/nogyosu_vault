@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 880 426" width="880" height="426" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#ECEAF0; --panel:#F7F6F9; --ink:#1D1A26; --muted:#5B5668; --rule:#C9C5D2; --rule-2:#DCD9E2;
+  --red:#B42318;   --red-fill:#F3D3CE;
+  --flesh:#995532; --flesh-fill:#ECCFBC;
+  --cob:#2B4A9B;   --cob-fill:#D3DBF1;
+  --verd:#1F6F62;  --verd-fill:#CDE7E1;
+  --void:#17141F;  --on-void:#F2EEF7;
+  --display-ko:"Hahmlet","Noto Serif KR","Noto Serif CJK KR",serif;
+  --body:"Noto Serif KR","Noto Serif CJK KR","Apple SD Gothic Neo",serif;
+  --display-la:"GFS Didot","Didot","Bodoni 72","Noto Serif",serif;
+  --sans:"Noto Sans KR","Noto Sans CJK KR","Apple SD Gothic Neo",system-ui,sans-serif;
+  --mono:"Red Hat Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }svg.fig{display:block;width:100%;height:auto;font-family:var(--sans);overflow:visible}svg.fig text{font-family:var(--sans);font-size:14px;fill:var(--ink)}svg.fig .t-s{font-size:12px}svg.fig .t-b{font-weight:700}svg.fig .t-mid{text-anchor:middle}svg.fig .t-muted{fill:var(--muted)}svg.fig .f-ink{fill:var(--ink)}svg.fig .f-panel{fill:var(--panel)}svg.fig .f-rule2{fill:var(--rule-2)}svg.fig .f-red{fill:var(--red)}svg.fig .f-none{fill:none}svg.fig .s-ink{stroke:var(--ink)}svg.fig .s-muted{stroke:var(--muted)}svg.fig .s-rule{stroke:var(--rule)}svg.fig .s-red{stroke:var(--red)}svg.fig .w1{stroke-width:1px}svg.fig .w15{stroke-width:1.5px}svg.fig .w2{stroke-width:2px}svg.fig .w3{stroke-width:3px}svg.fig .dash{stroke-dasharray:6 5}svg.fig .dot{stroke-dasharray:1.5 4;stroke-linecap:round}svg.fig .round{stroke-linecap:round;stroke-linejoin:round}:root{ --pad:1.15rem; --measure:39rem; --wide:52rem; --shell:calc(var(--wide) + var(--pad)*2); }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{max-width:560px;margin-inline:auto}.doc{padding-inline:var(--pad)}.lecture{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-block:2.5rem 3rem;
+  content-visibility:auto;border-top:1px solid var(--rule)}.fig-wrap{margin:.8rem 0 !important}.fig-scroll{overflow-x:auto;background:
+  linear-gradient(to right,var(--panel) 30%,transparent) left center/2.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--panel) 30%,transparent) right center/2.2rem 100% no-repeat local,
+  radial-gradient(farthest-side at 0 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) left center/.8rem 100% no-repeat scroll,
+  radial-gradient(farthest-side at 100% 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) right center/.8rem 100% no-repeat scroll,
+  var(--panel);padding:1rem .9rem .6rem}.fig-inner{width:100%}svg.pz-root{width:880px!important;height:426px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig-wrap"><g class="pz-w fig-scroll"><g class="pz-w fig-inner"><svg xmlns="http://www.w3.org/2000/svg" aria-label="이데아는 사물 위의 다른 세계가 아니라, 궤적들이 끝없이 다가가되 아무도 닿지 않는 빈 중심, 고유한 인과력 없이 장 전체를 조직하는 끌개다" class="fig pz-inner" height="100%" role="img" viewBox="0 0 880 426" width="100%">
+<defs>
+<marker id="L02-1-ar-ink" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 왼쪽: 지워지는 플라톤의 두 층 -->
+<text class="t-mid t-b" x="140" y="60">플라톤의 두 층</text>
+<rect class="f-rule2 s-muted w1" height="56" rx="4" width="180" x="50" y="85"></rect>
+<text class="t-mid t-b" x="140" y="108">이데아</text>
+<text class="t-mid t-s" x="140" y="126">참된 세계 · 원본</text>
+<rect class="f-rule2 s-muted w1" height="56" rx="4" width="180" x="50" y="215"></rect>
+<text class="t-mid t-b" x="140" y="238">사물</text>
+<text class="t-mid t-s" x="140" y="256">모방물 · 그림자</text>
+<line class="s-ink w15" marker-end="url(#L02-1-ar-ink)" x1="200" x2="200" y1="211" y2="147"></line>
+<text class="t-s" x="208" y="184">참여</text>
+<path class="f-none s-red w3 round" d="M38,75 L242,281 M242,75 L38,281"></path>
+<text class="t-mid t-s f-red" x="140" y="306">플라톤의 오류 — 이데아의 존재론화</text>
+<!-- 바꾸기 -->
+<line class="s-ink w2" marker-end="url(#L02-1-ar-ink)" x1="266" x2="398" y1="180" y2="180"></line>
+<text class="t-mid t-s" x="332" y="170">두 층을 한 층으로</text>
+<text class="t-mid t-s t-muted" x="332" y="200">물질 현실이 전부</text>
+<!-- 오른쪽: 끌개 -->
+<circle class="f-none s-rule w15 dash" cx="575" cy="205" r="162"></circle>
+<text class="t-mid t-s t-muted" x="575" y="34">끌림 영역</text>
+<path class="f-none s-ink w15 round" d="M712.1,255.1 L697.0,275.6 L679.1,292.5 L659.3,305.6 L638.2,314.8 L616.7,319.9 L595.4,321.2 L574.9,318.9 L555.8,313.2 L538.6,304.6 L523.7,293.6 L511.4,280.6 L501.9,266.2 L495.3,250.9 L491.5,235.3 L490.6,219.8 L492.3,204.9 L496.4,191.1 L502.6,178.6 L510.6,167.8 L520.1,158.8 L530.5,151.9 L541.6,147.1 L553.0,144.3 L564.2,143.7 L575.1,144.9 L585.1,147.9 L594.2,152.4 L602.1,158.2 L608.6,165.1 L613.6,172.7 L617.1,180.8 L619.1,189.0 L619.6,197.2 L618.7,205.0 L616.5,212.4 L613.2,218.9 L609.0,224.7 L604.0,229.4 L598.5,233.0 L592.6,235.6 L586.6,237.0 L580.7,237.4 L575.0,236.7 L569.7,235.1 L564.9,232.8 L560.7,229.7 L557.3,226.1 L554.6,222.1 L553.4,219.5" marker-end="url(#L02-1-ar-ink)"></path>
+<path class="f-none s-ink w15 round" d="M524.9,342.1 L504.4,327.0 L487.5,309.1 L474.4,289.3 L465.2,268.2 L460.1,246.7 L458.8,225.4 L461.1,204.9 L466.8,185.8 L475.4,168.6 L486.4,153.7 L499.4,141.4 L513.8,131.9 L529.1,125.3 L544.7,121.5 L560.2,120.6 L575.1,122.3 L588.9,126.4 L601.4,132.6 L612.2,140.6 L621.2,150.1 L628.1,160.5 L632.9,171.6 L635.7,183.0 L636.3,194.2 L635.1,205.1 L632.1,215.1 L627.6,224.2 L621.8,232.1 L614.9,238.6 L607.3,243.6 L599.2,247.1 L591.0,249.1 L582.8,249.6 L575.0,248.7 L567.6,246.5 L561.1,243.2 L555.3,239.0 L550.6,234.0 L547.0,228.5 L544.4,222.6 L543.0,216.6 L542.6,210.7 L543.3,205.0 L544.9,199.7 L547.2,194.9 L550.3,190.7 L553.9,187.3 L557.9,184.6 L560.5,183.4" marker-end="url(#L02-1-ar-ink)"></path>
+<path class="f-none s-ink w15 round" d="M437.9,154.9 L453.0,134.4 L470.9,117.5 L490.7,104.4 L511.8,95.2 L533.3,90.1 L554.6,88.8 L575.1,91.1 L594.2,96.8 L611.4,105.4 L626.3,116.4 L638.6,129.4 L648.1,143.8 L654.7,159.1 L658.5,174.7 L659.4,190.2 L657.7,205.1 L653.6,218.9 L647.4,231.4 L639.4,242.2 L629.9,251.2 L619.5,258.1 L608.4,262.9 L597.0,265.7 L585.8,266.3 L574.9,265.1 L564.9,262.1 L555.8,257.6 L547.9,251.8 L541.4,244.9 L536.4,237.3 L532.9,229.2 L530.9,221.0 L530.4,212.8 L531.3,205.0 L533.5,197.6 L536.8,191.1 L541.0,185.3 L546.0,180.6 L551.5,177.0 L557.4,174.4 L563.4,173.0 L569.3,172.6 L575.0,173.3 L580.3,174.9 L585.1,177.2 L589.3,180.3 L592.7,183.9 L595.4,187.9 L596.6,190.5" marker-end="url(#L02-1-ar-ink)"></path>
+<path class="f-none s-ink w15 round" d="M625.1,67.9 L645.6,83.0 L662.5,100.9 L675.6,120.7 L684.8,141.8 L689.9,163.3 L691.2,184.6 L688.9,205.1 L683.2,224.2 L674.6,241.4 L663.6,256.3 L650.6,268.6 L636.2,278.1 L620.9,284.7 L605.3,288.5 L589.8,289.4 L574.9,287.7 L561.1,283.6 L548.6,277.4 L537.8,269.4 L528.8,259.9 L521.9,249.5 L517.1,238.4 L514.3,227.0 L513.7,215.8 L514.9,204.9 L517.9,194.9 L522.4,185.8 L528.2,177.9 L535.1,171.4 L542.7,166.4 L550.8,162.9 L559.0,160.9 L567.2,160.4 L575.0,161.3 L582.4,163.5 L588.9,166.8 L594.7,171.0 L599.4,176.0 L603.0,181.5 L605.6,187.4 L607.0,193.4 L607.4,199.3 L606.7,205.0 L605.1,210.3 L602.8,215.1 L599.7,219.3 L596.1,222.7 L592.1,225.4 L589.5,226.6" marker-end="url(#L02-1-ar-ink)"></path>
+<circle class="f-panel s-ink w15 dash" cx="575" cy="205" r="12"></circle>
+<text class="t-b" x="750" y="200">빈 중심 = 이데아</text>
+<text class="t-s" x="750" y="218">고유한 인과력 없음</text>
+<line class="s-muted w15 dot" x1="744" x2="592" y1="200" y2="205"></line>
+<text class="t-b" x="750" y="262">궤적</text>
+<text class="t-s" x="750" y="280">끝없이 다가가되</text>
+<text class="t-s" x="750" y="296">닿지 않는다</text>
+<line class="s-muted w15 dot" x1="745" x2="718" y1="258" y2="256"></line>
+<text class="t-mid t-b" x="575" y="394">장 전체를 조직하는 실재</text>
+<text class="t-mid t-s t-muted" x="575" y="413">모든 요소가 그 둘레를 도는, 움직이지 않는 초점</text>
+</svg></g></g></g></g></g></svg>

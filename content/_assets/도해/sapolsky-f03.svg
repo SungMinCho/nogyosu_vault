@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 590 476" width="590" height="476" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#F1F3F1; --sheet:#FAFBF9; --ink:#1B2124; --ink-2:#3A4549; --mute:#5E6B71;
+  --grid:#C9D4D1; --grid-2:#E1E8E5; --rule:#B6C2C0;
+  --neuro:#3546A8; --soma:#8F5508; --life:#256B41; --deep:#8A4429; --alarm:#B01E4C;
+  --neuro-w:color-mix(in srgb, var(--neuro) 13%, var(--sheet));
+  --soma-w:color-mix(in srgb, var(--soma) 14%, var(--sheet));
+  --life-w:color-mix(in srgb, var(--life) 13%, var(--sheet));
+  --deep-w:color-mix(in srgb, var(--deep) 13%, var(--sheet));
+  --alarm-w:color-mix(in srgb, var(--alarm) 11%, var(--sheet));
+  --ink-w:color-mix(in srgb, var(--ink) 8%, var(--sheet));
+  --shadow:color-mix(in srgb, var(--ink) 16%, transparent);
+  --f-display:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --f-body:"Literata", "Noto Serif KR", "AppleMyungjo", "Batang", serif;
+  --f-label:"Sofia Sans Condensed", "Gothic A1", "Arial Narrow", sans-serif;
+  --f-mono:"DM Mono", "Nanum Gothic Coding", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --f-fig:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); }.hero svg{ display:block; width:100%; height:auto }figure.fig{ margin:1rem 0; }.fig-frame{ overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background-color:var(--sheet);
+  background-image:linear-gradient(to right, var(--sheet) 30%, transparent), linear-gradient(to left, var(--sheet) 30%, transparent),
+    radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent);
+  background-position:left center, right center, left center, right center; background-repeat:no-repeat;
+  background-size:2rem 100%, 2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; min-width:var(--figmin, 34rem); height:auto; }svg text{ font-family:var(--f-fig); font-size:12px; fill:var(--ink) }svg .t-m{ fill:var(--mute) }svg .t-s{ font-size:10.5px }svg .t-b{ font-weight:700 }svg .t-num{ font-family:var(--f-mono); font-variant-numeric:tabular-nums }svg .t-neuro{ fill:var(--neuro) }svg .halo{ paint-order:stroke; stroke:var(--sheet); stroke-width:3.5px; stroke-linejoin:round }svg .ln-m{ stroke:var(--mute); stroke-width:1; fill:none }svg .ln-g{ stroke:var(--grid); stroke-width:1; fill:none }svg .ln-neuro{ stroke:var(--neuro); stroke-width:1.8; fill:none }svg .w-thick{ stroke-width:2.8 }svg .dot{ stroke-dasharray:1.5 3.5; stroke-linecap:round }svg .f-mute{ fill:var(--mute) }section.lecture-wrap{ content-visibility:auto; contain-intrinsic-size:auto 60000px }svg.pz-root{width:590px!important;height:476px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc lecture-wrap"><g class="pz-w fig"><g class="pz-w fig-frame"><svg aria-label="도파민 발화의 시간 이동 — 학습 전에는 보상 때 솟고, 학습 뒤에는 단서 때 솟고 보상 때는 평평하며, 보상이 빠지면 그 시각에 꺼진다. 보상 확률이 0.25, 0.5, 0.75일 때 단서 반응은 P를 따라 커지고, 단서와 보상 사이의 오르막은 P(1−P)를 따라 0.5에서 가장 높으며 0.25와 0.75가 같은 높이다" class="pz-inner" height="100%" role="img" viewBox="0 0 590 476" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="dopa-ah" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 사건 세로선 -->
+<text class="t-s t-b" text-anchor="middle" x="210" y="22">단서 (불빛)</text>
+<text class="t-s t-b" text-anchor="middle" x="450" y="22">보상 시각</text>
+<path class="ln-m dot" d="M210,30 L210,444"></path>
+<path class="ln-m dot" d="M450,30 L450,444"></path>
+<text class="t-s t-m t-b" text-anchor="middle" x="554" y="22">오르막</text>
+<text class="t-s t-m t-num" text-anchor="middle" x="554" y="36">∝ P(1−P)</text>
+<!-- 1. 학습 전 -->
+<text class="t-b" x="16" y="82">학습 전</text>
+<text class="t-s t-m" x="16" y="97">기대 없음</text>
+<path class="ln-neuro" d="M150,86 L444,86 L450,50 L456,86 L510,86"></path>
+<text class="t-s t-neuro" x="462" y="60">솟음</text>
+<!-- 2. 학습 뒤 P=1 -->
+<text class="t-b" x="16" y="142">학습 뒤</text>
+<text class="t-s t-m t-num" x="16" y="157">P = 1</text>
+<path class="ln-neuro" d="M150,146 L204,146 L210,110 L216,146 L510,146"></path>
+<text class="t-s t-neuro" x="222" y="120">단서로 옮겨 감</text>
+<text class="t-s t-m halo" text-anchor="middle" x="450" y="138">평평</text>
+<text class="t-s t-num" text-anchor="middle" x="554" y="150">0</text>
+<!-- 3. 학습 뒤, 보상 빠짐 -->
+<text class="t-b" x="16" y="202">학습 뒤</text>
+<text class="t-s t-m" x="16" y="217">기대한 보상이 빠짐</text>
+<path class="ln-neuro" d="M150,206 L204,206 L210,170 L216,206 L444,206 L450,222 L456,206 L510,206"></path>
+<text class="t-s t-neuro" x="462" y="226">꺼짐</text>
+<!-- '아마도' 블록 -->
+<path class="ln-g" d="M16,246 L574,246"></path>
+<text class="t-s t-m t-b" x="16" y="266">보상 확률을 P로 낮추면 (학습 뒤)</text>
+<text class="t-b t-num" x="16" y="306">P = 0.25</text>
+<path class="ln-neuro" d="M150,310 L204,310 L210,301 L216,310 L280,310 Q370,310 450,289 L454,310 L510,310"></path>
+<text class="t-s t-num" text-anchor="middle" x="554" y="314">0.1875</text>
+<text class="t-b t-num" x="16" y="366">P = 0.5</text>
+<text class="t-s t-m" x="16" y="381">가장 불확실</text>
+<path class="ln-neuro w-thick" d="M150,370 L204,370 L210,352 L216,370 L280,370 Q370,370 450,342 L454,370 L510,370"></path>
+<text class="t-s t-neuro t-b halo" text-anchor="middle" x="354" y="352">오르막</text>
+<text class="t-s t-num t-b" text-anchor="middle" x="554" y="374">0.25</text>
+<text class="t-b t-num" x="16" y="426">P = 0.75</text>
+<path class="ln-neuro" d="M150,430 L204,430 L210,403 L216,430 L280,430 Q370,430 450,409 L454,430 L510,430"></path>
+<text class="t-s t-num" text-anchor="middle" x="554" y="434">0.1875</text>
+<text class="t-s t-m" x="222" y="292">단서 반응 ∝ P</text>
+<!-- 시간축 -->
+<path class="ln-m" d="M150,452 L510,452" marker-end="url(#dopa-ah)"></path>
+<path class="ln-m" d="M216,448 L216,456 M280,448 L280,456"></path>
+<text class="t-s t-m" text-anchor="middle" x="248" y="469">레버 누르기</text>
+<text class="t-s t-m" text-anchor="end" x="510" y="469">시간</text>
+</svg></g></g></g></svg>

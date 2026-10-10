@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 880 390" width="880" height="390" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#ECEAF0; --panel:#F7F6F9; --ink:#1D1A26; --muted:#5B5668; --rule:#C9C5D2; --rule-2:#DCD9E2;
+  --red:#B42318;   --red-fill:#F3D3CE;
+  --flesh:#995532; --flesh-fill:#ECCFBC;
+  --cob:#2B4A9B;   --cob-fill:#D3DBF1;
+  --verd:#1F6F62;  --verd-fill:#CDE7E1;
+  --void:#17141F;  --on-void:#F2EEF7;
+  --display-ko:"Hahmlet","Noto Serif KR","Noto Serif CJK KR",serif;
+  --body:"Noto Serif KR","Noto Serif CJK KR","Apple SD Gothic Neo",serif;
+  --display-la:"GFS Didot","Didot","Bodoni 72","Noto Serif",serif;
+  --sans:"Noto Sans KR","Noto Sans CJK KR","Apple SD Gothic Neo",system-ui,sans-serif;
+  --mono:"Red Hat Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }svg.fig{display:block;width:100%;height:auto;font-family:var(--sans);overflow:visible}svg.fig text{font-family:var(--sans);font-size:14px;fill:var(--ink)}svg.fig .t-s{font-size:12px}svg.fig .t-b{font-weight:700}svg.fig .t-mid{text-anchor:middle}svg.fig .t-end{text-anchor:end}svg.fig .t-muted{fill:var(--muted)}svg.fig .f-ink{fill:var(--ink)}svg.fig .f-panel{fill:var(--panel)}svg.fig .f-rule{fill:var(--rule)}svg.fig .f-rule2{fill:var(--rule-2)}svg.fig .f-red{fill:var(--red)}svg.fig .f-verd{fill:var(--verd)}svg.fig .f-void{fill:var(--void)}svg.fig .f-onvoid{fill:var(--on-void)}svg.fig .f-none{fill:none}svg.fig .s-ink{stroke:var(--ink)}svg.fig .s-muted{stroke:var(--muted)}svg.fig .s-rule{stroke:var(--rule)}svg.fig .s-red{stroke:var(--red)}svg.fig .s-verd{stroke:var(--verd)}svg.fig .w1{stroke-width:1px}svg.fig .w15{stroke-width:1.5px}svg.fig .w2{stroke-width:2px}svg.fig .w3{stroke-width:3px}svg.fig .dash{stroke-dasharray:6 5}svg.fig .round{stroke-linecap:round;stroke-linejoin:round}:root{ --pad:1.15rem; --measure:39rem; --wide:52rem; --shell:calc(var(--wide) + var(--pad)*2); }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{max-width:560px;margin-inline:auto}.doc{padding-inline:var(--pad)}.lecture{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-block:2.5rem 3rem;
+  content-visibility:auto;border-top:1px solid var(--rule)}.fig-wrap{margin:.8rem 0 !important}.fig-scroll{overflow-x:auto;background:
+  linear-gradient(to right,var(--panel) 30%,transparent) left center/2.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--panel) 30%,transparent) right center/2.2rem 100% no-repeat local,
+  radial-gradient(farthest-side at 0 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) left center/.8rem 100% no-repeat scroll,
+  radial-gradient(farthest-side at 100% 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) right center/.8rem 100% no-repeat scroll,
+  var(--panel);padding:1rem .9rem .6rem}.fig-inner{width:100%}svg.pz-root{width:880px!important;height:390px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig-wrap"><g class="pz-w fig-scroll"><g class="pz-w fig-inner"><svg xmlns="http://www.w3.org/2000/svg" aria-label="양자물리학은 자생적 과학 존재론에서는 연속의 흐름을 바탕에서 위층으로 올리고, 상식에서는 파동을 위층에서 바탕으로 내려, 두 그림을 반대 방향으로 뒤집는다. 두 바탕이 다 뒤집힌 뒤 남는 것은 두 무언가가 아니라 공백과 잘린 무언가 사이의 간극이고, 둘째 무언가는 논리적으로 나중에 그 공백을 채운다." class="fig pz-inner" height="100%" role="img" viewBox="0 0 880 390" width="100%">
+<defs>
+<marker id="L15-1-ar-ink" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="L15-1-ar-red" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-red" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- ===== 첫째 뒤집기 ===== -->
+<text class="t-mid t-s t-b" x="119" y="40">자생적 과학 존재론</text>
+<text class="t-mid t-s t-b" x="401" y="40">양자물리학</text>
+<!-- 왼쪽 쌓기 -->
+<rect class="f-panel s-ink w15" height="40" rx="4" width="190" x="24" y="52"></rect>
+<text class="t-s t-muted" x="34" y="77">위층</text>
+<polygon class="f-none s-ink w15 round" points="72,79 80,64 88,79"></polygon>
+<text class="t-s" x="100" y="77">형태 — 부과됨</text>
+<rect class="f-rule2 s-ink w15" height="40" rx="4" width="190" x="24" y="98"></rect>
+<line class="s-ink w3" x1="24" x2="214" y1="138" y2="138"></line>
+<text class="t-s t-muted" x="34" y="123">바탕</text>
+<path class="f-none s-ink w15" d="M68,118 q3,-7 6,0 t6,0 t6,0 t6,0"></path>
+<text class="t-s" x="100" y="123">혼돈의 흐름</text>
+<!-- 오른쪽 쌓기 -->
+<rect class="f-panel s-ink w15" height="40" rx="4" width="190" x="306" y="52"></rect>
+<text class="t-s t-muted" x="316" y="77">위층</text>
+<path class="f-none s-ink w15" d="M350,72 q3,-7 6,0 t6,0 t6,0 t6,0"></path>
+<text class="t-s" x="382" y="77">흐름 — 상위 층위</text>
+<rect class="f-rule2 s-ink w15" height="40" rx="4" width="190" x="306" y="98"></rect>
+<line class="s-ink w3" x1="306" x2="496" y1="138" y2="138"></line>
+<text class="t-s t-muted" x="316" y="123">바탕</text>
+<rect class="f-rule s-ink w1" height="9" width="9" x="352" y="109"></rect>
+<rect class="f-rule s-ink w1" height="9" width="9" x="363" y="109"></rect>
+<rect class="f-rule s-ink w1" height="9" width="9" x="352" y="120"></rect>
+<rect class="f-rule s-ink w1" height="9" width="9" x="363" y="120"></rect>
+<text class="t-s" x="382" y="123">이산적 양자</text>
+<!-- 교차 -->
+<line class="s-ink w2" marker-end="url(#L15-1-ar-ink)" x1="218" x2="300" y1="118" y2="74"></line>
+<line class="s-ink w15 dash" marker-end="url(#L15-1-ar-ink)" x1="218" x2="300" y1="72" y2="116"></line>
+<text class="t-mid t-s t-b" x="260" y="158">흐름이 위로</text>
+<text class="t-mid t-s t-muted" x="119" y="158">형태가 흐름에 찍힌다</text>
+<text class="t-mid t-s t-muted" x="401" y="158">가까이 보니 레고 블록</text>
+<!-- ===== 둘째 뒤집기 ===== -->
+<text class="t-mid t-s t-b" x="119" y="200">상식</text>
+<text class="t-mid t-s t-b" x="401" y="200">양자물리학</text>
+<rect class="f-panel s-ink w15" height="40" rx="4" width="190" x="24" y="212"></rect>
+<text class="t-s t-muted" x="34" y="237">위층</text>
+<path class="f-none s-ink w15" d="M68,232 q3,-7 6,0 t6,0 t6,0 t6,0"></path>
+<text class="t-s" x="100" y="237">파동 — 효과</text>
+<rect class="f-rule2 s-ink w15" height="40" rx="4" width="190" x="24" y="258"></rect>
+<line class="s-ink w3" x1="24" x2="214" y1="298" y2="298"></line>
+<text class="t-s t-muted" x="34" y="283">바탕</text>
+<circle class="f-ink" cx="71" cy="282" r="2.5"></circle>
+<circle class="f-ink" cx="78" cy="276" r="2.5"></circle>
+<circle class="f-ink" cx="85" cy="282" r="2.5"></circle>
+<circle class="f-ink" cx="92" cy="277" r="2.5"></circle>
+<text class="t-s" x="100" y="283">입자 — 모래알</text>
+<rect class="f-panel s-ink w15" height="40" rx="4" width="190" x="306" y="212"></rect>
+<text class="t-s t-muted" x="316" y="237">위층</text>
+<path class="f-none s-ink w15" d="M350,226 Q362,242 374,226 M350,238 Q362,222 374,238"></path>
+<circle class="f-ink" cx="362" cy="232" r="3"></circle>
+<text class="t-s" x="382" y="237">입자 — 결절점</text>
+<rect class="f-rule2 s-ink w15" height="40" rx="4" width="190" x="306" y="258"></rect>
+<line class="s-ink w3" x1="306" x2="496" y1="298" y2="298"></line>
+<text class="t-s t-muted" x="316" y="283">바탕</text>
+<path class="f-none s-ink w15" d="M350,278 q3,-7 6,0 t6,0 t6,0 t6,0"></path>
+<text class="t-s" x="382" y="283">파동</text>
+<line class="s-ink w2" marker-end="url(#L15-1-ar-ink)" x1="218" x2="300" y1="232" y2="276"></line>
+<line class="s-ink w15 dash" marker-end="url(#L15-1-ar-ink)" x1="218" x2="300" y1="278" y2="234"></line>
+<text class="t-mid t-s t-b" x="260" y="318">파동이 아래로</text>
+<text class="t-mid t-s t-muted" x="119" y="318">모래 언덕 = 알갱이의 합</text>
+<text class="t-mid t-s t-muted" x="401" y="318">입자 = 파동들의 결절점</text>
+<!-- 범례 -->
+<line class="s-ink w2" x1="40" x2="72" y1="352" y2="352"></line>
+<text class="t-s t-muted" x="80" y="356">흐름 · 파동 쪽</text>
+<line class="s-ink w15 dash" x1="200" x2="232" y1="352" y2="352"></line>
+<text class="t-s t-muted" x="240" y="356">이산 · 입자 쪽 — 두 뒤집기는 방향이 반대</text>
+<!-- ===== 남는 것 ===== -->
+<line class="s-rule w1 dash" x1="522" x2="522" y1="24" y2="376"></line>
+<text class="t-mid t-b" x="710" y="40">남는 것: 어느 쪽도 바탕이 아니다</text>
+<text class="t-s t-b" x="550" y="72">첫째 시간</text>
+<text class="t-end t-s t-muted" x="870" y="72">≈ 여성 공식 · 수학적 이율배반</text>
+<rect class="f-void s-muted w1" height="50" width="130" x="550" y="84"></rect>
+<text class="t-mid t-b f-onvoid" x="615" y="114">공백</text>
+<polygon class="f-rule2 s-ink w15" points="758,84 870,84 870,134 740,134 740,102"></polygon>
+<line class="s-red w3 round" x1="740" x2="758" y1="102" y2="84"></line>
+<text class="t-mid" x="808" y="114">잘린 무언가</text>
+<text class="t-mid t-s t-b f-red" x="710" y="106">간극</text>
+<line class="s-red w15" marker-end="url(#L15-1-ar-red)" marker-start="url(#L15-1-ar-red)" x1="686" x2="734" y1="120" y2="120"></line>
+<line class="s-ink w15" marker-end="url(#L15-1-ar-ink)" x1="615" x2="615" y1="140" y2="192"></line>
+<text class="t-s" x="628" y="170">둘째 무언가가 공백을 채운다</text>
+<text class="t-s t-b" x="550" y="214">둘째 시간</text>
+<text class="t-end t-s t-muted" x="870" y="214">≈ 남성 공식 · 역학적 이율배반</text>
+<rect class="f-rule2 s-ink w15" height="50" width="130" x="550" y="226"></rect>
+<text class="t-mid" x="615" y="248">무언가</text>
+<text class="t-mid t-s t-muted" x="615" y="266">공백 자리를 메움</text>
+<polygon class="f-rule2 s-ink w15" points="758,226 870,226 870,276 740,276 740,244"></polygon>
+<line class="s-red w3 round" x1="740" x2="758" y1="244" y2="226"></line>
+<text class="t-mid" x="808" y="256">무언가</text>
+<text class="t-mid t-s t-b" x="710" y="244">시차</text>
+<line class="s-ink w15" marker-end="url(#L15-1-ar-ink)" marker-start="url(#L15-1-ar-ink)" x1="686" x2="734" y1="256" y2="256"></line>
+<text class="t-mid t-b" x="710" y="302">파동 / 입자 — 대칭이 아니다</text>
+<line class="s-verd w2" x1="542" x2="542" y1="322" y2="372"></line>
+<text class="t-s t-b f-verd" x="552" y="334">물리학의 칸 — 양자장론</text>
+<text class="t-s f-verd" x="552" y="352">장(연속)이 바탕이라 파동이 앞서고</text>
+<text class="t-s f-verd" x="552" y="370">들뜸이 덩어리로만 와서 이산이 앞선다</text>
+</svg></g></g></g></g></g></svg>

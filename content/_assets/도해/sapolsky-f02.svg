@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 352" width="760" height="352" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#F1F3F1; --sheet:#FAFBF9; --ink:#1B2124; --ink-2:#3A4549; --mute:#5E6B71;
+  --grid:#C9D4D1; --grid-2:#E1E8E5; --rule:#B6C2C0;
+  --neuro:#3546A8; --soma:#8F5508; --life:#256B41; --deep:#8A4429; --alarm:#B01E4C;
+  --neuro-w:color-mix(in srgb, var(--neuro) 13%, var(--sheet));
+  --soma-w:color-mix(in srgb, var(--soma) 14%, var(--sheet));
+  --life-w:color-mix(in srgb, var(--life) 13%, var(--sheet));
+  --deep-w:color-mix(in srgb, var(--deep) 13%, var(--sheet));
+  --alarm-w:color-mix(in srgb, var(--alarm) 11%, var(--sheet));
+  --ink-w:color-mix(in srgb, var(--ink) 8%, var(--sheet));
+  --shadow:color-mix(in srgb, var(--ink) 16%, transparent);
+  --f-display:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --f-body:"Literata", "Noto Serif KR", "AppleMyungjo", "Batang", serif;
+  --f-label:"Sofia Sans Condensed", "Gothic A1", "Arial Narrow", sans-serif;
+  --f-mono:"DM Mono", "Nanum Gothic Coding", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --f-fig:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); }.hero svg{ display:block; width:100%; height:auto }figure.fig{ margin:1rem 0; }.fig-frame{ overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background-color:var(--sheet);
+  background-image:linear-gradient(to right, var(--sheet) 30%, transparent), linear-gradient(to left, var(--sheet) 30%, transparent),
+    radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent);
+  background-position:left center, right center, left center, right center; background-repeat:no-repeat;
+  background-size:2rem 100%, 2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; min-width:var(--figmin, 34rem); height:auto; }svg text{ font-family:var(--f-fig); font-size:12px; fill:var(--ink) }svg .t-2{ fill:var(--ink-2) }svg .t-m{ fill:var(--mute) }svg .t-s{ font-size:10.5px }svg .t-b{ font-weight:700 }svg .t-en{ font-family:var(--f-label); letter-spacing:.04em }svg .t-neuro{ fill:var(--neuro) }svg .t-soma{ fill:var(--soma) }svg .t-alarm{ fill:var(--alarm) }svg .halo{ paint-order:stroke; stroke:var(--sheet); stroke-width:3.5px; stroke-linejoin:round }svg .ln{ stroke:var(--ink); stroke-width:1.4; fill:none }svg .ln-2{ stroke:var(--ink-2); stroke-width:1.2; fill:none }svg .ln-neuro{ stroke:var(--neuro); stroke-width:1.8; fill:none }svg .ln-soma{ stroke:var(--soma); stroke-width:1.8; fill:none }svg .ln-alarm{ stroke:var(--alarm); stroke-width:1.8; fill:none }svg .w-thick{ stroke-width:2.8 }svg .dash{ stroke-dasharray:5 4 }svg .f-paper{ fill:var(--sheet) }svg .f-ink{ fill:var(--ink) }svg .f-ink2{ fill:var(--ink-2) }svg .f-neuro{ fill:var(--neuro) }svg .f-alarm{ fill:var(--alarm) }svg .f-neuro-w{ fill:var(--neuro-w) }svg .f-soma-w{ fill:var(--soma-w) }svg .f-alarm-w{ fill:var(--alarm-w) }section.lecture-wrap{ content-visibility:auto; contain-intrinsic-size:auto 60000px }svg.pz-root{width:760px!important;height:352px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc lecture-wrap"><g class="pz-w fig"><g class="pz-w fig-frame"><svg aria-label="편도체의 입력과 출력 — 시상을 거치는 지름길과 감각 피질을 도는 정규 경로가 기저외측 편도체로 들어오고, 중심 편도체가 BNST를 거쳐 시상하부와 뇌간, 청반, 해마, 반사 운동 경로로 경보를 내보내며, 소거 때 내측 전두피질이 BLA의 억제 뉴런을 켜 출력을 끊는다" class="pz-inner" height="100%" role="img" viewBox="0 0 760 352" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="amyg-ah" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="amyg-ahm" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink2" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="amyg-ahn" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-neuro" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="amyg-aha" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-alarm" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 머리 -->
+<text class="t-s t-m t-b" x="16" y="20">들어오는 것</text>
+<text class="t-s t-m t-b" x="612" y="18">나가는 것</text>
+<!-- 편도체 -->
+<rect class="f-neuro-w ln-neuro" height="158" rx="10" width="210" x="290" y="128"></rect>
+<text class="t-b t-neuro" text-anchor="end" x="492" y="148">편도체</text>
+<rect class="f-paper ln-neuro" height="114" rx="3" width="102" x="302" y="158"></rect>
+<text class="t-b t-neuro t-en" x="310" y="178">BLA</text>
+<text class="t-s t-m" x="310" y="194">배운 공포</text>
+<rect class="f-paper ln-neuro" height="114" rx="3" width="56" x="432" y="158"></rect>
+<text class="t-b t-neuro" text-anchor="middle" x="460" y="182">중심</text>
+<text class="t-b t-neuro" text-anchor="middle" x="460" y="198">편도체</text>
+<text class="t-s t-m" text-anchor="middle" x="460" y="228">타고난</text>
+<text class="t-s t-m" text-anchor="middle" x="460" y="242">공포</text>
+<!-- 입력: 감각 → 시상 → (지름길) BLA / 시상 → 감각 피질 → BLA -->
+<rect class="f-paper ln" height="40" rx="3" width="60" x="16" y="190"></rect>
+<text class="t-b" text-anchor="middle" x="46" y="215">감각</text>
+<rect class="f-paper ln" height="40" rx="3" width="68" x="104" y="190"></rect>
+<text class="t-b" text-anchor="middle" x="138" y="215">시상</text>
+<path class="ln" d="M76,210 L102,210" marker-end="url(#amyg-ah)"></path>
+<rect class="f-paper ln-2" height="40" rx="3" width="110" x="104" y="64"></rect>
+<text text-anchor="middle" x="159" y="89">감각 피질</text>
+<path class="ln-2 dash" d="M138,190 L138,107" marker-end="url(#amyg-ahm)"></path>
+<text class="t-s t-m" x="146" y="152">정규 경로</text>
+<path class="ln-2 dash" d="M214,84 Q296,84 323,154" marker-end="url(#amyg-ahm)"></path>
+<text class="t-s t-m" x="226" y="122">길고 정확</text>
+<path class="ln-neuro w-thick" d="M172,210 L300,210" marker-end="url(#amyg-ahn)"></path>
+<text class="t-b t-neuro halo" text-anchor="middle" x="234" y="202">지름길</text>
+<text class="t-s t-neuro" text-anchor="middle" x="234" y="226">짧고 굵음 · 부정확</text>
+<!-- 입력: PAG(통증), 섬엽(혐오) -->
+<rect class="f-paper ln-2" height="40" rx="3" width="68" x="104" y="296"></rect>
+<text class="t-b t-en" text-anchor="middle" x="138" y="313">PAG</text>
+<text class="t-s t-m" text-anchor="middle" x="138" y="328">통증</text>
+<rect class="f-paper ln-2" height="40" rx="3" width="68" x="192" y="296"></rect>
+<text class="t-b" text-anchor="middle" x="226" y="313">섬엽</text>
+<text class="t-s t-m" text-anchor="middle" x="226" y="328">혐오</text>
+<path class="ln-2" d="M138,296 Q138,258 299,258" marker-end="url(#amyg-ahm)"></path>
+<path class="ln-2" d="M260,316 Q326,316 326,275" marker-end="url(#amyg-ahm)"></path>
+<!-- BLA 출력 뉴런 → 중심 편도체 -->
+<circle class="f-neuro" cx="388" cy="200" r="6"></circle>
+<path class="ln-neuro" d="M394,200 L430,200" marker-end="url(#amyg-ahn)"></path>
+<!-- 브레이크: 전두피질 → BLA 억제 뉴런 ⊣ 출력 -->
+<rect class="f-paper ln-neuro" height="44" rx="3" width="120" x="306" y="14"></rect>
+<text class="t-b t-neuro" text-anchor="middle" x="366" y="33">전두피질</text>
+<text class="t-s t-m" text-anchor="middle" x="366" y="50">내측 PFC (vmPFC)</text>
+<path class="ln-alarm w-thick" d="M366,58 L366,230" marker-end="url(#amyg-aha)"></path>
+<text class="t-s t-alarm t-b halo" x="374" y="98">소거 때 브레이크</text>
+<circle class="f-alarm-w ln-alarm" cx="366" cy="240" r="8"></circle>
+<path class="ln-alarm" d="M374,240 L388,240 L388,212"></path>
+<path class="ln-alarm w-thick" d="M380,212 L396,212"></path>
+<text class="t-s t-alarm" text-anchor="middle" x="366" y="264">억제 뉴런</text>
+<!-- 출력 -->
+<rect class="f-paper ln" height="34" rx="3" width="52" x="520" y="138"></rect>
+<text class="t-b t-en" text-anchor="middle" x="546" y="160">BNST</text>
+<path class="ln" d="M488,172 L518,162" marker-end="url(#amyg-ah)"></path>
+<rect class="f-paper ln" height="40" rx="3" width="136" x="612" y="28"></rect>
+<text class="t-b" text-anchor="middle" x="680" y="45">해마</text>
+<text class="t-s t-m" text-anchor="middle" x="680" y="60">단서·맥락 기억</text>
+<path class="ln" d="M500,138 Q548,48 609,48" marker-end="url(#amyg-ah)"></path>
+<rect class="f-soma-w ln-soma" height="44" rx="3" width="136" x="612" y="88"></rect>
+<text class="t-b" text-anchor="middle" x="680" y="106">시상하부 · HPA 축</text>
+<text class="t-s t-soma t-b" text-anchor="middle" x="680" y="123">→ 글루코코르티코이드</text>
+<path class="ln" d="M572,148 L609,118" marker-end="url(#amyg-ah)"></path>
+<rect class="f-soma-w ln-soma" height="58" rx="3" width="136" x="612" y="146"></rect>
+<text class="t-b" text-anchor="middle" x="680" y="164">뇌간</text>
+<text class="t-s t-2" text-anchor="middle" x="680" y="180">교감↑ 부교감↓</text>
+<text class="t-s t-soma t-b" text-anchor="middle" x="680" y="195">→ 심박·혈압↑</text>
+<path class="ln" d="M572,162 L609,172" marker-end="url(#amyg-ah)"></path>
+<rect class="f-paper ln" height="58" rx="3" width="136" x="612" y="220"></rect>
+<text class="t-b" text-anchor="middle" x="680" y="238">청반</text>
+<text class="t-s t-neuro" text-anchor="middle" x="680" y="254">노르에피네프린</text>
+<text class="t-s t-neuro" text-anchor="middle" x="680" y="269">→ 피질 전체</text>
+<path class="ln" d="M488,232 Q556,248 609,248" marker-end="url(#amyg-ah)"></path>
+<rect class="f-paper ln" height="40" rx="3" width="136" x="612" y="296"></rect>
+<text class="t-b" text-anchor="middle" x="680" y="313">반사 운동 경로</text>
+<text class="t-s t-m" text-anchor="middle" x="680" y="328">출력 지름길</text>
+<path class="ln" d="M488,260 Q532,316 609,316" marker-end="url(#amyg-ah)"></path>
+</svg></g></g></g></svg>

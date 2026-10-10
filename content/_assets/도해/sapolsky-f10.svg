@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 680 372" width="680" height="372" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#F1F3F1; --sheet:#FAFBF9; --ink:#1B2124; --ink-2:#3A4549; --mute:#5E6B71;
+  --grid:#C9D4D1; --grid-2:#E1E8E5; --rule:#B6C2C0;
+  --neuro:#3546A8; --soma:#8F5508; --life:#256B41; --deep:#8A4429; --alarm:#B01E4C;
+  --neuro-w:color-mix(in srgb, var(--neuro) 13%, var(--sheet));
+  --soma-w:color-mix(in srgb, var(--soma) 14%, var(--sheet));
+  --life-w:color-mix(in srgb, var(--life) 13%, var(--sheet));
+  --deep-w:color-mix(in srgb, var(--deep) 13%, var(--sheet));
+  --alarm-w:color-mix(in srgb, var(--alarm) 11%, var(--sheet));
+  --ink-w:color-mix(in srgb, var(--ink) 8%, var(--sheet));
+  --shadow:color-mix(in srgb, var(--ink) 16%, transparent);
+  --f-display:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --f-body:"Literata", "Noto Serif KR", "AppleMyungjo", "Batang", serif;
+  --f-label:"Sofia Sans Condensed", "Gothic A1", "Arial Narrow", sans-serif;
+  --f-mono:"DM Mono", "Nanum Gothic Coding", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --f-fig:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); }.hero svg{ display:block; width:100%; height:auto }figure.fig{ margin:1rem 0; }.fig-frame{ overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background-color:var(--sheet);
+  background-image:linear-gradient(to right, var(--sheet) 30%, transparent), linear-gradient(to left, var(--sheet) 30%, transparent),
+    radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent);
+  background-position:left center, right center, left center, right center; background-repeat:no-repeat;
+  background-size:2rem 100%, 2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; min-width:var(--figmin, 34rem); height:auto; }svg text{ font-family:var(--f-fig); font-size:12px; fill:var(--ink) }svg .t-2{ fill:var(--ink-2) }svg .t-m{ fill:var(--mute) }svg .t-s{ font-size:10.5px }svg .t-b{ font-weight:700 }svg .t-en{ font-family:var(--f-label); letter-spacing:.04em }svg .t-neuro{ fill:var(--neuro) }svg .t-soma{ fill:var(--soma) }svg .t-life{ fill:var(--life) }svg .t-paper{ fill:var(--sheet) }svg .ln{ stroke:var(--ink); stroke-width:1.4; fill:none }svg .ln-neuro{ stroke:var(--neuro); stroke-width:1.8; fill:none }svg .ln-soma{ stroke:var(--soma); stroke-width:1.8; fill:none }svg .ln-life{ stroke:var(--life); stroke-width:1.8; fill:none }svg .w-thin{ stroke-width:1 }svg .w-thick{ stroke-width:2.8 }svg .f-paper{ fill:var(--sheet) }svg .f-ink{ fill:var(--ink) }svg .f-neuro{ fill:var(--neuro) }svg .f-soma{ fill:var(--soma) }svg .f-life{ fill:var(--life) }svg .f-neuro-w{ fill:var(--neuro-w) }svg .f-soma-w{ fill:var(--soma-w) }svg .f-life-w{ fill:var(--life-w) }svg .op-50{ opacity:.5 }section.lecture-wrap{ content-visibility:auto; contain-intrinsic-size:auto 60000px }svg.pz-root{width:680px!important;height:372px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc lecture-wrap"><g class="pz-w fig"><g class="pz-w fig-frame"><svg aria-label="어미 쥐가 많이 핥으면 새끼 해마의 GR 유전자 프로모터에서 메틸기가 벗겨지고, GR이 늘어 HPA 축의 음성 되먹임이 예민해지며, 스트레스 반응이 빨리 꺼지는 어른이 되고, 그 딸이 다시 잘 핥는 어미가 되어 고리가 다음 세대로 돈다." class="pz-inner" height="100%" role="img" viewBox="0 0 680 372" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="lick-ah" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="lick-ahk" markerHeight="4.5" markerWidth="4.5" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="lick-ahs" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-soma" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="lick-ahl" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-life" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="lick-ahn" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-neuro" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="lick-bar" markerHeight="7" markerWidth="7" orient="auto" refX="8" refY="5" viewBox="0 0 10 10"><path class="ln-neuro w-thick" d="M8,0 V10"></path></marker>
+</defs>
+<!-- 어미 -->
+<rect class="f-paper ln" height="58" rx="3" width="120" x="16" y="36"></rect>
+<text class="t-b" text-anchor="middle" x="76" y="60">세심한 어미</text>
+<text class="t-s t-2" text-anchor="middle" x="76" y="79">핥기 · 털 고르기</text>
+<line class="ln" marker-end="url(#lick-ah)" x1="136" x2="194" y1="65" y2="65"></line>
+<text class="t-s t-m" text-anchor="middle" x="164" y="56">생후 첫 주</text>
+<!-- 새끼의 해마 -->
+<rect class="f-paper ln-neuro" height="186" rx="4" width="280" x="196" y="20"></rect>
+<text class="t-b t-neuro" x="208" y="40">새끼의 해마</text>
+<text class="t-s t-neuro" x="208" y="64">세로토닌 신호</text>
+<path class="ln-neuro w-thin" d="M232,70 Q232,88 238,90" marker-end="url(#lick-ahn)"></path>
+<!-- NGFI-A가 프로모터에 붙는다 -->
+<rect class="f-life-w ln-life" height="20" rx="8" width="68" x="242" y="80"></rect>
+<text class="t-s t-b t-en t-life" text-anchor="middle" x="276" y="94">NGFI-A ↑</text>
+<line class="ln-life" x1="210" x2="470" y1="112" y2="112"></line>
+<rect class="f-life-w ln-life" height="18" width="90" x="226" y="103"></rect>
+<text class="t-s t-life" text-anchor="middle" x="271" y="116">프로모터</text>
+<rect class="f-life ln-life" height="18" width="146" x="316" y="103"></rect>
+<text class="t-s t-b t-paper" text-anchor="middle" x="389" y="116">GR 유전자</text>
+<!-- 벗겨진 메틸기 -->
+<path class="ln-life w-thin op-50" d="M246,121 v7 M271,121 v7 M296,121 v7"></path>
+<circle class="f-paper ln-life w-thin op-50" cx="246" cy="133" r="5"></circle>
+<circle class="f-paper ln-life w-thin op-50" cx="271" cy="133" r="5"></circle>
+<circle class="f-paper ln-life w-thin op-50" cx="296" cy="133" r="5"></circle>
+<text class="t-s t-b t-life" text-anchor="middle" x="271" y="156">–CH₃ 벗겨짐</text>
+<text class="t-s t-life" text-anchor="middle" x="271" y="170">탈메틸화</text>
+<!-- 켜짐 → GR 수용체 증가 -->
+<line class="ln-life" marker-end="url(#lick-ahl)" x1="420" x2="420" y1="121" y2="168"></line>
+<text class="t-s t-life" text-anchor="end" x="414" y="148">켜짐</text>
+<line class="ln-neuro w-thin" x1="330" x2="470" y1="180" y2="180"></line>
+<path class="ln-life" d="M378,180 v9 h8 v-9 M400,180 v9 h8 v-9 M422,180 v9 h8 v-9 M444,180 v9 h8 v-9"></path>
+<text class="t-s t-b t-life" text-anchor="end" x="372" y="198">GR ↑</text>
+<!-- HPA 축 -->
+<text class="t-s t-b t-soma" text-anchor="middle" x="606" y="26">HPA 축</text>
+<rect class="f-neuro-w ln-neuro" height="40" rx="3" width="116" x="548" y="36"></rect>
+<text class="t-b t-neuro" text-anchor="middle" x="606" y="61">시상하부</text>
+<line class="ln-soma" marker-end="url(#lick-ahs)" x1="606" x2="606" y1="76" y2="114"></line>
+<text class="t-s t-b t-en t-soma" x="614" y="99">CRH</text>
+<rect class="f-soma-w ln-soma" height="40" rx="3" width="116" x="548" y="116"></rect>
+<text class="t-b t-soma" text-anchor="middle" x="606" y="141">뇌하수체</text>
+<line class="ln-soma" marker-end="url(#lick-ahs)" x1="606" x2="606" y1="156" y2="194"></line>
+<text class="t-s t-b t-en t-soma" x="614" y="179">ACTH</text>
+<rect class="f-soma-w ln-soma" height="40" rx="3" width="116" x="548" y="196"></rect>
+<text class="t-b t-soma" text-anchor="middle" x="606" y="221">부신</text>
+<!-- 글루코코르티코이드가 해마의 GR에 붙는다 -->
+<path class="ln-soma" d="M548,226 H448 V193" marker-end="url(#lick-ahs)"></path>
+<text class="t-s t-soma" text-anchor="middle" x="494" y="244">글루코코르티코이드</text>
+<!-- 그만 — 음성 되먹임 -->
+<line class="ln-neuro" marker-end="url(#lick-bar)" x1="476" x2="546" y1="56" y2="56"></line>
+<text class="t-s t-b t-neuro" text-anchor="middle" x="511" y="48">그만</text>
+<text class="t-s t-neuro" text-anchor="middle" x="511" y="72">되먹임</text>
+<text class="t-s t-neuro" text-anchor="middle" x="511" y="86">강화</text>
+<!-- 결과 -->
+<line class="ln" marker-end="url(#lick-ah)" x1="606" x2="606" y1="236" y2="296"></line>
+<text class="t-s t-2" x="614" y="270">빨리 꺼짐</text>
+<rect class="f-paper ln" height="56" rx="3" width="364" x="300" y="298"></rect>
+<text class="t-b" text-anchor="middle" x="482" y="321">스트레스 반응이 빨리 꺼지는 어른</text>
+<text class="t-s t-2" text-anchor="middle" x="482" y="340">글루코코르티코이드 낮고 덜 불안</text>
+<line class="ln" marker-end="url(#lick-ah)" x1="300" x2="138" y1="326" y2="326"></line>
+<text class="t-s t-2" text-anchor="middle" x="218" y="318">딸이 자라면</text>
+<!-- 딸 → 다음 세대의 어미 -->
+<rect class="f-paper ln" height="56" rx="3" width="120" x="16" y="298"></rect>
+<text class="t-b" text-anchor="middle" x="76" y="322">딸도</text>
+<text class="t-b" text-anchor="middle" x="76" y="340">세심한 어미</text>
+<line class="ln w-thick" marker-end="url(#lick-ahk)" x1="76" x2="76" y1="298" y2="98"></line>
+<text class="t-s t-b" x="86" y="190">다음 세대</text>
+<text class="t-s t-m" x="86" y="205">프랜시스 1999</text>
+</svg></g></g></g></svg>

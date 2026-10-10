@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 680 452" width="680" height="452" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#F1F3F1; --sheet:#FAFBF9; --ink:#1B2124; --ink-2:#3A4549; --mute:#5E6B71;
+  --grid:#C9D4D1; --grid-2:#E1E8E5; --rule:#B6C2C0;
+  --neuro:#3546A8; --soma:#8F5508; --life:#256B41; --deep:#8A4429; --alarm:#B01E4C;
+  --neuro-w:color-mix(in srgb, var(--neuro) 13%, var(--sheet));
+  --soma-w:color-mix(in srgb, var(--soma) 14%, var(--sheet));
+  --life-w:color-mix(in srgb, var(--life) 13%, var(--sheet));
+  --deep-w:color-mix(in srgb, var(--deep) 13%, var(--sheet));
+  --alarm-w:color-mix(in srgb, var(--alarm) 11%, var(--sheet));
+  --ink-w:color-mix(in srgb, var(--ink) 8%, var(--sheet));
+  --shadow:color-mix(in srgb, var(--ink) 16%, transparent);
+  --f-display:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --f-body:"Literata", "Noto Serif KR", "AppleMyungjo", "Batang", serif;
+  --f-label:"Sofia Sans Condensed", "Gothic A1", "Arial Narrow", sans-serif;
+  --f-mono:"DM Mono", "Nanum Gothic Coding", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --f-fig:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); }.hero svg{ display:block; width:100%; height:auto }figure.fig{ margin:1rem 0; }.fig-frame{ overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background-color:var(--sheet);
+  background-image:linear-gradient(to right, var(--sheet) 30%, transparent), linear-gradient(to left, var(--sheet) 30%, transparent),
+    radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent);
+  background-position:left center, right center, left center, right center; background-repeat:no-repeat;
+  background-size:2rem 100%, 2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; min-width:var(--figmin, 34rem); height:auto; }svg text{ font-family:var(--f-fig); font-size:12px; fill:var(--ink) }svg .t-2{ fill:var(--ink-2) }svg .t-m{ fill:var(--mute) }svg .t-s{ font-size:10.5px }svg .t-b{ font-weight:700 }svg .t-num{ font-family:var(--f-mono); font-variant-numeric:tabular-nums }svg .t-en{ font-family:var(--f-label); letter-spacing:.04em }svg .t-neuro{ fill:var(--neuro) }svg .t-alarm{ fill:var(--alarm) }svg .t-paper{ fill:var(--sheet) }svg .halo{ paint-order:stroke; stroke:var(--sheet); stroke-width:3.5px; stroke-linejoin:round }svg .ln{ stroke:var(--ink); stroke-width:1.4; fill:none }svg .ln-2{ stroke:var(--ink-2); stroke-width:1.2; fill:none }svg .ln-m{ stroke:var(--mute); stroke-width:1; fill:none }svg .ln-g{ stroke:var(--grid); stroke-width:1; fill:none }svg .ln-neuro{ stroke:var(--neuro); stroke-width:1.8; fill:none }svg .ln-alarm{ stroke:var(--alarm); stroke-width:1.8; fill:none }svg .w-thick{ stroke-width:2.8 }svg .w-heavy{ stroke-width:4 }svg .dash{ stroke-dasharray:5 4 }svg .dot{ stroke-dasharray:1.5 3.5; stroke-linecap:round }svg .f-paper{ fill:var(--sheet) }svg .f-ink{ fill:var(--ink) }svg .f-ink2{ fill:var(--ink-2) }svg .f-mute{ fill:var(--mute) }svg .f-grid{ fill:var(--grid) }svg .f-neuro{ fill:var(--neuro) }svg .f-neuro-w{ fill:var(--neuro-w) }section.lecture-wrap{ content-visibility:auto; contain-intrinsic-size:auto 60000px }svg.pz-root{width:680px!important;height:452px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc lecture-wrap"><g class="pz-w fig"><g class="pz-w fig-frame"><svg aria-label="얼굴 자극의 두 갈래 — 얼굴은 시상에서 편도체로 가는 지름길과 시각피질·방추상 얼굴 영역으로 가는 큰길로 들어오고, 의식할 만큼 길게 보이면 전두피질(ACC·dlPFC)이 뒤늦게 편도체에 브레이크를 건다. 100ms 노출 뒤 차폐하면 브레이크가 들어올 틈 없이 편도체 반응이 남고, 긴 노출에서는 P200 위협 신호 몇 ms 뒤 N200 브레이크가 편도체 반응을 누른다" class="pz-inner" height="100%" role="img" viewBox="0 0 680 452" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="faces-ah" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="faces-ahm" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink2" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="faces-ahn" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-neuro" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="faces-ahg" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 위: 두 갈래와 브레이크 -->
+<rect class="f-paper ln" height="36" rx="3" width="60" x="16" y="34"></rect>
+<text class="t-b" text-anchor="middle" x="46" y="57">얼굴</text>
+<rect class="f-paper ln" height="36" rx="3" width="64" x="100" y="34"></rect>
+<text class="t-b" text-anchor="middle" x="132" y="57">시상</text>
+<path class="ln" d="M76,52 L98,52" marker-end="url(#faces-ah)"></path>
+<rect class="f-neuro-w ln-neuro" height="44" rx="3" width="96" x="300" y="30"></rect>
+<text class="t-b t-neuro" text-anchor="middle" x="348" y="57">편도체</text>
+<path class="ln-neuro w-thick" d="M164,52 L298,52" marker-end="url(#faces-ahn)"></path>
+<text class="t-s t-neuro t-b halo" text-anchor="middle" x="231" y="43">지름길 · 빠름</text>
+<rect class="f-paper ln-2" height="36" rx="3" width="88" x="230" y="104"></rect>
+<text text-anchor="middle" x="274" y="127">시각피질</text>
+<rect class="f-paper ln-2" height="36" rx="3" width="124" x="358" y="104"></rect>
+<text text-anchor="middle" x="420" y="127">방추상 얼굴 영역</text>
+<path class="ln-2" d="M132,70 Q132,122 227,122" marker-end="url(#faces-ahm)"></path>
+<text class="t-s t-m" text-anchor="end" x="124" y="104">큰길 · 느림</text>
+<path class="ln-2" d="M318,122 L355,122" marker-end="url(#faces-ahm)"></path>
+<rect class="f-paper ln-neuro" height="44" rx="3" width="144" x="520" y="30"></rect>
+<text class="t-b t-neuro" text-anchor="middle" x="592" y="49">전두피질</text>
+<text class="t-s t-m t-en" text-anchor="middle" x="592" y="65">ACC · dlPFC</text>
+<path class="ln-2 dash" d="M482,122 Q592,122 592,77" marker-end="url(#faces-ahm)"></path>
+<text class="t-s t-m" x="510" y="142">의식할 만큼 길면</text>
+<path class="ln-alarm w-thick" d="M520,52 L404,52"></path>
+<path class="ln-alarm w-heavy" d="M403,40 L403,64"></path>
+<text class="t-s t-alarm t-b halo" text-anchor="middle" x="462" y="43">뒤늦게 브레이크</text>
+<path class="ln-g" d="M16,162 L664,162"></path>
+<!-- 아래: 두 시간축 -->
+<path class="ln-m dot" d="M300,182 L300,428"></path>
+<path class="ln-m dot" d="M318,182 L318,428"></path>
+<text class="t-s t-neuro t-b" text-anchor="end" x="294" y="186">P200 위협 · &lt;200ms</text>
+<text class="t-s t-alarm t-b" x="324" y="186">N200 브레이크 · 그 몇 ms 뒤</text>
+<!-- A. 짧은 노출 -->
+<text class="t-b" x="16" y="214">짧은 노출</text>
+<text class="t-s t-m" x="16" y="230">100ms 뒤 차폐</text>
+<text class="t-s t-m" x="16" y="245">역치 아래</text>
+<rect class="f-ink2" height="16" width="80" x="140" y="202"></rect>
+<text class="t-s t-paper t-b" text-anchor="middle" x="180" y="214">얼굴</text>
+<rect class="f-grid" height="16" width="120" x="220" y="202"></rect>
+<text class="t-s t-2" text-anchor="middle" x="280" y="214">차폐 무늬</text>
+<path class="ln-neuro w-thick" d="M140,292 L188,292 C218,292 238,258 290,256 L620,256"></path>
+<text class="t-s t-neuro t-b" text-anchor="end" x="620" y="248">편도체 반응 그대로</text>
+<text class="t-s t-alarm" x="330" y="282">브레이크가 들어올 틈 없음</text>
+<!-- B. 긴 노출 -->
+<text class="t-b" x="16" y="334">긴 노출</text>
+<text class="t-s t-m" x="16" y="350">의식할 만큼 길게</text>
+<rect class="f-ink2" height="16" width="472" x="140" y="322"></rect>
+<path class="f-ink2" d="M612,322 L626,330 L612,338 z"></path>
+<text class="t-s t-paper t-b" text-anchor="middle" x="180" y="334">얼굴</text>
+<text class="t-s t-paper" text-anchor="middle" x="560" y="334">계속 보임</text>
+<path class="ln-neuro w-thick" d="M140,412 L188,412 C218,412 238,378 290,376 C316,375 326,377 340,384 C366,396 392,398 430,398 L620,398"></path>
+<path class="ln-alarm w-thick" d="M352,352 L352,384"></path>
+<path class="ln-alarm w-thick" d="M342,386 L362,386"></path>
+<text class="t-s t-alarm t-b halo" x="360" y="364">전두피질이 누름</text>
+<text class="t-s t-neuro t-b" text-anchor="end" x="620" y="390">편도체 반응 눌림</text>
+<!-- 시간축 -->
+<path class="ln-m" d="M140,432 L628,432" marker-end="url(#faces-ahg)"></path>
+<path class="ln-m" d="M140,432 L140,437 M220,432 L220,437 M300,432 L300,437 M380,432 L380,437 M460,432 L460,437 M540,432 L540,437"></path>
+<text class="t-s t-m t-num" text-anchor="middle" x="140" y="448">0</text>
+<text class="t-s t-m t-num" text-anchor="middle" x="220" y="448">100</text>
+<text class="t-s t-m t-num" text-anchor="middle" x="300" y="448">200</text>
+<text class="t-s t-m t-num" text-anchor="middle" x="380" y="448">300</text>
+<text class="t-s t-m t-num" text-anchor="middle" x="460" y="448">400</text>
+<text class="t-s t-m t-num" text-anchor="middle" x="540" y="448">500</text>
+<text class="t-s t-m" text-anchor="middle" x="96" y="448">얼굴 뒤 ms</text>
+</svg></g></g></g></svg>

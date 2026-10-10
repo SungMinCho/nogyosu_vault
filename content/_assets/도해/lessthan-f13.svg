@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 860 390" width="860" height="390" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#ECEAF0; --panel:#F7F6F9; --ink:#1D1A26; --muted:#5B5668; --rule:#C9C5D2; --rule-2:#DCD9E2;
+  --red:#B42318;   --red-fill:#F3D3CE;
+  --flesh:#995532; --flesh-fill:#ECCFBC;
+  --cob:#2B4A9B;   --cob-fill:#D3DBF1;
+  --verd:#1F6F62;  --verd-fill:#CDE7E1;
+  --void:#17141F;  --on-void:#F2EEF7;
+  --display-ko:"Hahmlet","Noto Serif KR","Noto Serif CJK KR",serif;
+  --body:"Noto Serif KR","Noto Serif CJK KR","Apple SD Gothic Neo",serif;
+  --display-la:"GFS Didot","Didot","Bodoni 72","Noto Serif",serif;
+  --sans:"Noto Sans KR","Noto Sans CJK KR","Apple SD Gothic Neo",system-ui,sans-serif;
+  --mono:"Red Hat Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }svg.fig{display:block;width:100%;height:auto;font-family:var(--sans);overflow:visible}svg.fig text{font-family:var(--sans);font-size:14px;fill:var(--ink)}svg.fig .t-s{font-size:12px}svg.fig .t-b{font-weight:700}svg.fig .t-it{font-style:italic}svg.fig .t-mid{text-anchor:middle}svg.fig .t-muted{fill:var(--muted)}svg.fig .halo{paint-order:stroke fill;stroke:var(--panel);stroke-width:5px;stroke-linejoin:round}svg.fig .f-muted{fill:var(--muted)}svg.fig .f-red{fill:var(--red)}svg.fig .f-redf{fill:var(--red-fill)}svg.fig .f-cob{fill:var(--cob)}svg.fig .f-cobf{fill:var(--cob-fill)}svg.fig .f-none{fill:none}svg.fig .s-muted{stroke:var(--muted)}svg.fig .s-rule{stroke:var(--rule)}svg.fig .s-red{stroke:var(--red)}svg.fig .s-cob{stroke:var(--cob)}svg.fig .w1{stroke-width:1px}svg.fig .w15{stroke-width:1.5px}svg.fig .w2{stroke-width:2px}svg.fig .w3{stroke-width:3px}svg.fig .dash{stroke-dasharray:6 5}svg.fig .dot{stroke-dasharray:1.5 4;stroke-linecap:round}svg.fig .round{stroke-linecap:round;stroke-linejoin:round}:root{ --pad:1.15rem; --measure:39rem; --wide:52rem; --shell:calc(var(--wide) + var(--pad)*2); }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{max-width:560px;margin-inline:auto}.doc{padding-inline:var(--pad)}.lecture{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-block:2.5rem 3rem;
+  content-visibility:auto;border-top:1px solid var(--rule)}.fig-wrap{margin:.8rem 0 !important}.fig-scroll{overflow-x:auto;background:
+  linear-gradient(to right,var(--panel) 30%,transparent) left center/2.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--panel) 30%,transparent) right center/2.2rem 100% no-repeat local,
+  radial-gradient(farthest-side at 0 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) left center/.8rem 100% no-repeat scroll,
+  radial-gradient(farthest-side at 100% 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) right center/.8rem 100% no-repeat scroll,
+  var(--panel);padding:1rem .9rem .6rem}.fig-inner{width:100%}svg.pz-root{width:860px!important;height:390px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig-wrap"><g class="pz-w fig-scroll"><g class="pz-w fig-inner"><svg xmlns="http://www.w3.org/2000/svg" aria-label="행동화는 대타자의 원 안에서 원을 향해 터지고, 행위로의 이행은 원을 찢고 밖으로 튀어 나가며, 행위만이 원의 마디를 재배치해 원의 모양 자체를 바꾸고 과거 쪽으로 선구자를 만든다." class="fig pz-inner" height="100%" role="img" viewBox="0 0 860 390" width="100%">
+<defs>
+<marker id="L05-1-ar-red" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-red" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="L05-1-ar-muted" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-muted" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="L05-1-ar-cob" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-cob" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<circle class="f-cobf s-cob w2" cx="145" cy="180" r="86"></circle>
+<circle class="f-cob" cx="219.5" cy="223.0" r="5"></circle>
+<circle class="f-cob" cx="145.0" cy="266.0" r="5"></circle>
+<circle class="f-cob" cx="70.5" cy="223.0" r="5"></circle>
+<circle class="f-cob" cx="70.5" cy="137.0" r="5"></circle>
+<circle class="f-cob" cx="145.0" cy="94.0" r="5"></circle>
+<circle class="f-cob" cx="219.5" cy="137.0" r="5"></circle>
+<polygon class="f-redf s-red w2" points="145.0,154.0 149.2,169.8 163.4,161.6 155.2,175.8 171.0,180.0 155.2,184.2 163.4,198.4 149.2,190.2 145.0,206.0 140.8,190.2 126.6,198.4 134.8,184.2 119.0,180.0 134.8,175.8 126.6,161.6 140.8,169.8"></polygon>
+<line class="s-red w15" marker-end="url(#L05-1-ar-red)" x1="162.0" x2="180.0" y1="150.6" y2="119.4"></line>
+<line class="s-red w15" marker-end="url(#L05-1-ar-red)" x1="162.0" x2="180.0" y1="209.4" y2="240.6"></line>
+<line class="s-red w15" marker-end="url(#L05-1-ar-red)" x1="111.0" x2="75.0" y1="180.0" y2="180.0"></line>
+<text class="t-mid t-b" x="145" y="30">① 행동화</text>
+<text class="t-mid t-s t-muted t-it" x="145" y="48">acting out</text>
+<text class="t-mid t-s" x="145" y="310">무대 안에서 대타자를 향해</text>
+<text class="t-mid t-s t-b" x="145" y="328">원은 그대로</text>
+<text class="t-mid t-s t-muted" x="145" y="356">회의장에서 고함</text>
+<line class="s-rule w1 dash" x1="288" x2="288" y1="20" y2="366"></line>
+<path class="f-none s-cob w2 dash" d="M508.6,215.0 A86,86 0 1 1 508.6,145.0"></path>
+<circle class="f-muted" cx="430.0" cy="266.0" r="5"></circle>
+<circle class="f-muted" cx="355.5" cy="223.0" r="5"></circle>
+<circle class="f-muted" cx="355.5" cy="137.0" r="5"></circle>
+<circle class="f-muted" cx="430.0" cy="94.0" r="5"></circle>
+<path class="f-none s-cob w15 round" d="M508.6,215.0 l7,-7 l-6,-6 l8,-7"></path>
+<path class="f-none s-cob w15 round" d="M508.6,145.0 l7,7 l-6,6 l8,7"></path>
+<line class="s-red w3" marker-end="url(#L05-1-ar-red)" x1="400" x2="566" y1="180" y2="180"></line>
+<circle class="f-red" cx="400" cy="180" r="6"></circle>
+<text class="t-mid t-b" x="430" y="30">② 행위로의 이행</text>
+<text class="t-mid t-s t-muted t-it" x="430" y="48">passage à l'acte</text>
+<text class="t-mid t-s" x="430" y="310">무대 밖으로 — 대타자 정지</text>
+<text class="t-mid t-s t-b" x="430" y="328">원이 찢긴다</text>
+<text class="t-mid t-s t-muted" x="430" y="356">회의장에 불</text>
+<line class="s-rule w1 dash" x1="572" x2="572" y1="20" y2="366"></line>
+<circle class="f-none s-muted w1 dot" cx="712" cy="180" r="86"></circle>
+<ellipse class="f-cobf s-cob w2" cx="716" cy="182" rx="104" ry="66" transform="rotate(-16 716 182)"></ellipse>
+<circle class="f-none s-muted w1 dot" cx="712" cy="180" r="86"></circle>
+<circle class="f-none s-muted w1" cx="786.5" cy="223.0" r="4"></circle>
+<circle class="f-cob" cx="779.0" cy="224.6" r="5"></circle>
+<circle class="f-none s-muted w1" cx="712.0" cy="266.0" r="4"></circle>
+<circle class="f-cob" cx="695.4" cy="251.6" r="5"></circle>
+<circle class="f-none s-muted w1" cx="637.5" cy="223.0" r="4"></circle>
+<circle class="f-cob" cx="624.1" cy="226.1" r="5"></circle>
+<circle class="f-none s-muted w1" cx="637.5" cy="137.0" r="4"></circle>
+<circle class="f-cob" cx="617.7" cy="181.2" r="5"></circle>
+<circle class="f-none s-muted w1" cx="712.0" cy="94.0" r="4"></circle>
+<circle class="f-cob" cx="684.1" cy="123.2" r="5"></circle>
+<circle class="f-none s-red w2" cx="617.7" cy="181.2" r="9"></circle>
+<path class="f-none s-red w2 dash" d="M806.5,153.0 C764.5,209.0 677.7,221.2 629.7,185.2" marker-end="url(#L05-1-ar-red)"></path>
+<circle class="f-red" cx="814.5" cy="149.0" r="7"></circle>
+<text class="t-mid t-s t-b f-red" x="814.5" y="133.0">행위</text>
+<text class="t-mid t-s f-red" x="597.7" y="151.2">선구자</text>
+<text class="t-s t-muted" x="770" y="100">옛 좌표</text>
+<text class="t-mid t-s f-red halo" x="718" y="188">소급</text>
+<text class="t-mid t-b" x="712" y="30">③ 행위 — 사행</text>
+<text class="t-mid t-s t-muted t-it" x="712" y="48">Tathandlung</text>
+<text class="t-mid t-s" x="712" y="310">좌표를 소급적으로 다시 짠다</text>
+<text class="t-mid t-s t-b" x="712" y="328">원의 모양이 바뀐다</text>
+<text class="t-mid t-s t-muted" x="712" y="356">조용한 한마디</text>
+</svg></g></g></g></g></g></svg>

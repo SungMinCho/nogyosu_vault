@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 880 572" width="880" height="572" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#ECEAF0; --panel:#F7F6F9; --ink:#1D1A26; --muted:#5B5668; --rule:#C9C5D2; --rule-2:#DCD9E2;
+  --red:#B42318;   --red-fill:#F3D3CE;
+  --flesh:#995532; --flesh-fill:#ECCFBC;
+  --cob:#2B4A9B;   --cob-fill:#D3DBF1;
+  --verd:#1F6F62;  --verd-fill:#CDE7E1;
+  --void:#17141F;  --on-void:#F2EEF7;
+  --display-ko:"Hahmlet","Noto Serif KR","Noto Serif CJK KR",serif;
+  --body:"Noto Serif KR","Noto Serif CJK KR","Apple SD Gothic Neo",serif;
+  --display-la:"GFS Didot","Didot","Bodoni 72","Noto Serif",serif;
+  --sans:"Noto Sans KR","Noto Sans CJK KR","Apple SD Gothic Neo",system-ui,sans-serif;
+  --mono:"Red Hat Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }svg.fig{display:block;width:100%;height:auto;font-family:var(--sans);overflow:visible}svg.fig text{font-family:var(--sans);font-size:14px;fill:var(--ink)}svg.fig .t-s{font-size:12px}svg.fig .t-l{font-size:17px}svg.fig .t-b{font-weight:700}svg.fig .t-mid{text-anchor:middle}svg.fig .t-end{text-anchor:end}svg.fig .t-muted{fill:var(--muted)}svg.fig .f-ink{fill:var(--ink)}svg.fig .f-panel{fill:var(--panel)}svg.fig .f-red{fill:var(--red)}svg.fig .f-redf{fill:var(--red-fill)}svg.fig .f-verd{fill:var(--verd)}svg.fig .f-verdf{fill:var(--verd-fill)}svg.fig .f-none{fill:none}svg.fig .s-ink{stroke:var(--ink)}svg.fig .s-rule{stroke:var(--rule)}svg.fig .s-red{stroke:var(--red)}svg.fig .w1{stroke-width:1px}svg.fig .w15{stroke-width:1.5px}svg.fig .w2{stroke-width:2px}:root{ --pad:1.15rem; --measure:39rem; --wide:52rem; --shell:calc(var(--wide) + var(--pad)*2); }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{max-width:560px;margin-inline:auto}.doc{padding-inline:var(--pad)}.lecture{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-block:2.5rem 3rem;
+  content-visibility:auto;border-top:1px solid var(--rule)}.fig-wrap{margin:.8rem 0 !important}.fig-scroll{overflow-x:auto;background:
+  linear-gradient(to right,var(--panel) 30%,transparent) left center/2.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--panel) 30%,transparent) right center/2.2rem 100% no-repeat local,
+  radial-gradient(farthest-side at 0 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) left center/.8rem 100% no-repeat scroll,
+  radial-gradient(farthest-side at 100% 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) right center/.8rem 100% no-repeat scroll,
+  var(--panel);padding:1rem .9rem .6rem}.fig-inner{width:100%}svg.pz-root{width:880px!important;height:572px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig-wrap"><g class="pz-w fig-scroll"><g class="pz-w fig-inner"><svg xmlns="http://www.w3.org/2000/svg" aria-label="주장에서 반론으로 나간 화살이 되돌아와 그 반론이 곧 답이 되는 하나의 회로가 여덟 번 똑같이 찍힌다 — 세계에 새로 일어난 일은 없고 관점만 여덟 번 옮겨 간다." class="fig pz-inner" height="100%" role="img" viewBox="0 0 880 572" width="100%">
+<defs>
+<marker id="L09-2-ar-ink" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="L09-2-ar-red" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-red" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<rect class="f-panel s-ink w15" height="34" rx="17" width="84" x="248" y="104"></rect>
+<text class="t-mid t-l t-b" x="290" y="127">주장</text>
+<rect class="f-panel s-ink w15" height="34" rx="17" width="84" x="548" y="104"></rect>
+<text class="t-mid t-l t-b" x="590" y="127">반론</text>
+<rect class="f-redf s-red w15" height="34" rx="17" width="124" x="378" y="180"></rect>
+<text class="t-mid t-l t-b" x="440" y="203">그게 바로 답</text>
+<path class="f-none s-ink w2" d="M318,102 C362,38 518,38 562,102" marker-end="url(#L09-2-ar-ink)"></path>
+<text class="t-mid" x="440" y="36">반박한다</text>
+<path class="f-none s-red w2" d="M604,140 C616,182 576,197 506,197" marker-end="url(#L09-2-ar-red)"></path>
+<text class="t-s f-red t-b" x="616" y="186">반론을 그대로 답으로 — 관점만 옮긴다</text>
+<path class="f-none s-ink w2" d="M374,197 C304,197 264,182 276,142" marker-end="url(#L09-2-ar-ink)"></path>
+<text class="t-end t-s" x="262" y="186">주장에 대한 답으로 닫힌다</text>
+<text class="t-mid t-b f-verd" x="440" y="124">새 사건 0</text>
+<text class="t-mid t-s t-muted" x="440" y="143">사실은 그대로</text>
+<rect class="f-panel s-rule w15" height="122" rx="4" width="201" x="20" y="252"></rect>
+<path class="f-none s-ink w2" d="M30.4,271.9 A13,13 0 0 1 55.1,270.1"></path>
+<path class="f-ink" d="M55.6,271.5 L49.7,266.3 L56.2,263.7 z"></path>
+<path class="f-none s-red w2" d="M55.6,278.1 A13,13 0 0 1 45.3,287.8"></path>
+<path class="f-red" d="M43.8,288.1 L50.1,283.4 L51.3,290.3 z"></path>
+<path class="f-none s-ink w2" d="M40.7,287.8 A13,13 0 0 1 30.4,278.1"></path>
+<path class="f-ink" d="M30.0,276.7 L35.1,282.6 L28.3,284.3 z"></path>
+<text class="t-b" x="62" y="279">① 십자군</text>
+<text class="t-s t-muted" x="32" y="308">주장</text>
+<text class="t-s" x="64" y="308">무덤에서 신을 만난다</text>
+<text class="t-s t-muted" x="32" y="332">반론</text>
+<text class="t-s" x="64" y="332">무덤은 비었다, 너희뿐</text>
+<text class="t-s f-red t-b" x="32" y="356">답</text>
+<text class="t-s t-b" x="64" y="356">너희 공동체가 그리스도</text>
+<rect class="f-panel s-rule w15" height="122" rx="4" width="201" x="233" y="252"></rect>
+<path class="f-none s-ink w2" d="M243.4,271.9 A13,13 0 0 1 268.1,270.1"></path>
+<path class="f-ink" d="M268.6,271.5 L262.7,266.3 L269.2,263.7 z"></path>
+<path class="f-none s-red w2" d="M268.6,278.1 A13,13 0 0 1 258.3,287.8"></path>
+<path class="f-red" d="M256.8,288.1 L263.1,283.4 L264.3,290.3 z"></path>
+<path class="f-none s-ink w2" d="M253.7,287.8 A13,13 0 0 1 243.4,278.1"></path>
+<path class="f-ink" d="M243.0,276.7 L248.1,282.6 L241.3,284.3 z"></path>
+<text class="t-b" x="275" y="279">② 부활</text>
+<text class="t-s t-muted" x="245" y="308">주장</text>
+<text class="t-s" x="277" y="308">그리스도가 살아난다</text>
+<text class="t-s t-muted" x="245" y="332">반론</text>
+<text class="t-s" x="277" y="332">아무것도 안 보인다</text>
+<text class="t-s f-red t-b" x="245" y="356">답</text>
+<text class="t-s t-b" x="277" y="356">안 보이는 사랑이 부활</text>
+<rect class="f-panel s-rule w15" height="122" rx="4" width="201" x="446" y="252"></rect>
+<path class="f-none s-ink w2" d="M456.4,271.9 A13,13 0 0 1 481.1,270.1"></path>
+<path class="f-ink" d="M481.6,271.5 L475.7,266.3 L482.2,263.7 z"></path>
+<path class="f-none s-red w2" d="M481.6,278.1 A13,13 0 0 1 471.3,287.8"></path>
+<path class="f-red" d="M469.8,288.1 L476.1,283.4 L477.3,290.3 z"></path>
+<path class="f-none s-ink w2" d="M466.7,287.8 A13,13 0 0 1 456.4,278.1"></path>
+<path class="f-ink" d="M456.0,276.7 L461.1,282.6 L454.3,284.3 z"></path>
+<text class="t-b" x="488" y="279">③ 재림</text>
+<text class="t-s t-muted" x="458" y="308">주장</text>
+<text class="t-s" x="490" y="308">신이 온다</text>
+<text class="t-s t-muted" x="458" y="332">반론</text>
+<text class="t-s" x="490" y="332">아무 일도 없다</text>
+<text class="t-s f-red t-b" x="458" y="356">답</text>
+<text class="t-s t-b" x="490" y="356">신은 이미 여기 있다</text>
+<rect class="f-panel s-rule w15" height="122" rx="4" width="201" x="659" y="252"></rect>
+<path class="f-none s-ink w2" d="M669.4,271.9 A13,13 0 0 1 694.1,270.1"></path>
+<path class="f-ink" d="M694.6,271.5 L688.7,266.3 L695.2,263.7 z"></path>
+<path class="f-none s-red w2" d="M694.6,278.1 A13,13 0 0 1 684.3,287.8"></path>
+<path class="f-red" d="M682.8,288.1 L689.1,283.4 L690.3,290.3 z"></path>
+<path class="f-none s-ink w2" d="M679.7,287.8 A13,13 0 0 1 669.4,278.1"></path>
+<path class="f-ink" d="M669.0,276.7 L674.1,282.6 L667.3,284.3 z"></path>
+<text class="t-b" x="701" y="279">④ 파루시아</text>
+<text class="t-s t-muted" x="671" y="308">주장</text>
+<text class="t-s" x="703" y="308">끝이 온다</text>
+<text class="t-s t-muted" x="671" y="332">반론</text>
+<text class="t-s" x="703" y="332">끝없이 미뤄진다</text>
+<text class="t-s f-red t-b" x="671" y="356">답</text>
+<text class="t-s t-b" x="703" y="356">미뤄짐이 찾던 것</text>
+<rect class="f-panel s-rule w15" height="122" rx="4" width="201" x="20" y="386"></rect>
+<path class="f-none s-ink w2" d="M30.4,405.9 A13,13 0 0 1 55.1,404.1"></path>
+<path class="f-ink" d="M55.6,405.5 L49.7,400.3 L56.2,397.7 z"></path>
+<path class="f-none s-red w2" d="M55.6,412.1 A13,13 0 0 1 45.3,421.8"></path>
+<path class="f-red" d="M43.8,422.1 L50.1,417.4 L51.3,424.3 z"></path>
+<path class="f-none s-ink w2" d="M40.7,421.8 A13,13 0 0 1 30.4,412.1"></path>
+<path class="f-ink" d="M30.0,410.7 L35.1,416.6 L28.3,418.3 z"></path>
+<text class="t-b" x="62" y="413">⑤ 브레히트</text>
+<text class="t-s t-muted" x="32" y="442">주장</text>
+<text class="t-s" x="64" y="442">무죄여도 총살</text>
+<text class="t-s t-muted" x="32" y="466">반론</text>
+<text class="t-s" x="64" y="466">그건 전체주의 논리</text>
+<text class="t-s f-red t-b" x="32" y="490">답</text>
+<text class="t-s t-b" x="64" y="490">무죄일수록 더 죄</text>
+<rect class="f-panel s-rule w15" height="122" rx="4" width="201" x="233" y="386"></rect>
+<path class="f-none s-ink w2" d="M243.4,405.9 A13,13 0 0 1 268.1,404.1"></path>
+<path class="f-ink" d="M268.6,405.5 L262.7,400.3 L269.2,397.7 z"></path>
+<path class="f-none s-red w2" d="M268.6,412.1 A13,13 0 0 1 258.3,421.8"></path>
+<path class="f-red" d="M256.8,422.1 L263.1,417.4 L264.3,424.3 z"></path>
+<path class="f-none s-ink w2" d="M253.7,421.8 A13,13 0 0 1 243.4,412.1"></path>
+<path class="f-ink" d="M243.0,410.7 L248.1,416.6 L241.3,418.3 z"></path>
+<text class="t-b" x="275" y="413">⑥ 무한판단</text>
+<text class="t-s t-muted" x="245" y="442">주장</text>
+<text class="t-s" x="277" y="442">정신은 뼈다</text>
+<text class="t-s t-muted" x="245" y="466">반론</text>
+<text class="t-s" x="277" y="466">넌센스, 절대적 모순</text>
+<text class="t-s f-red t-b" x="245" y="490">답</text>
+<text class="t-s t-b" x="277" y="490">정신은 이 모순이다</text>
+<rect class="f-panel s-rule w15" height="122" rx="4" width="201" x="446" y="386"></rect>
+<path class="f-none s-ink w2" d="M456.4,405.9 A13,13 0 0 1 481.1,404.1"></path>
+<path class="f-ink" d="M481.6,405.5 L475.7,400.3 L482.2,397.7 z"></path>
+<path class="f-none s-red w2" d="M481.6,412.1 A13,13 0 0 1 471.3,421.8"></path>
+<path class="f-red" d="M469.8,422.1 L476.1,417.4 L477.3,424.3 z"></path>
+<path class="f-none s-ink w2" d="M466.7,421.8 A13,13 0 0 1 456.4,412.1"></path>
+<path class="f-ink" d="M456.0,410.7 L461.1,416.6 L454.3,418.3 z"></path>
+<text class="t-b" x="488" y="413">⑦ 집시 병사</text>
+<text class="t-s t-muted" x="458" y="442">주장</text>
+<text class="t-s" x="490" y="442">각운 맞춘 시</text>
+<text class="t-s t-muted" x="458" y="466">반론</text>
+<text class="t-s" x="490" y="466">각운이 안 맞는다</text>
+<text class="t-s f-red t-b" x="458" y="490">답</text>
+<text class="t-s t-b" x="490" y="490">그 말이 각운이 된다</text>
+<rect class="f-panel s-rule w15" height="122" rx="4" width="201" x="659" y="386"></rect>
+<path class="f-none s-ink w2" d="M669.4,405.9 A13,13 0 0 1 694.1,404.1"></path>
+<path class="f-ink" d="M694.6,405.5 L688.7,400.3 L695.2,397.7 z"></path>
+<path class="f-none s-red w2" d="M694.6,412.1 A13,13 0 0 1 684.3,421.8"></path>
+<path class="f-red" d="M682.8,422.1 L689.1,417.4 L690.3,424.3 z"></path>
+<path class="f-none s-ink w2" d="M679.7,421.8 A13,13 0 0 1 669.4,412.1"></path>
+<path class="f-ink" d="M669.0,410.7 L674.1,416.6 L667.3,418.3 z"></path>
+<text class="t-b" x="701" y="413">⑧ 사물</text>
+<text class="t-s t-muted" x="671" y="442">주장</text>
+<text class="t-s" x="703" y="442">사물에 닿으려 한다</text>
+<text class="t-s t-muted" x="671" y="466">반론</text>
+<text class="t-s" x="703" y="466">장애물이 막는다</text>
+<text class="t-s f-red t-b" x="671" y="490">답</text>
+<text class="t-s t-b" x="703" y="490">장애물이 사물이다</text>
+<rect class="f-verdf" height="19" rx="9.5" width="56" x="157" y="264"></rect>
+<text class="t-mid t-s f-verd t-b" x="185" y="278">새 사건 0</text>
+<rect class="f-verdf" height="19" rx="9.5" width="56" x="370" y="264"></rect>
+<text class="t-mid t-s f-verd t-b" x="398" y="278">새 사건 0</text>
+<rect class="f-verdf" height="19" rx="9.5" width="56" x="583" y="264"></rect>
+<text class="t-mid t-s f-verd t-b" x="611" y="278">새 사건 0</text>
+<rect class="f-verdf" height="19" rx="9.5" width="56" x="796" y="264"></rect>
+<text class="t-mid t-s f-verd t-b" x="824" y="278">새 사건 0</text>
+<rect class="f-verdf" height="19" rx="9.5" width="56" x="157" y="398"></rect>
+<text class="t-mid t-s f-verd t-b" x="185" y="412">새 사건 0</text>
+<rect class="f-verdf" height="19" rx="9.5" width="56" x="370" y="398"></rect>
+<text class="t-mid t-s f-verd t-b" x="398" y="412">새 사건 0</text>
+<rect class="f-verdf" height="19" rx="9.5" width="56" x="583" y="398"></rect>
+<text class="t-mid t-s f-verd t-b" x="611" y="412">새 사건 0</text>
+<rect class="f-verdf" height="19" rx="9.5" width="56" x="796" y="398"></rect>
+<text class="t-mid t-s f-verd t-b" x="824" y="412">새 사건 0</text>
+<line class="s-rule w1" x1="20" x2="860" y1="530" y2="530"></line>
+<text class="t-mid" x="440" y="558">변주 8 · 공통 회로 1 · <tspan class="f-verd t-b">새 사건 0</tspan> · <tspan class="f-red t-b">관점 이동 8</tspan></text>
+</svg></g></g></g></g></g></svg>

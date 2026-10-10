@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 860 470" width="860" height="470" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#ECEAF0; --panel:#F7F6F9; --ink:#1D1A26; --muted:#5B5668; --rule:#C9C5D2; --rule-2:#DCD9E2;
+  --red:#B42318;   --red-fill:#F3D3CE;
+  --flesh:#995532; --flesh-fill:#ECCFBC;
+  --cob:#2B4A9B;   --cob-fill:#D3DBF1;
+  --verd:#1F6F62;  --verd-fill:#CDE7E1;
+  --void:#17141F;  --on-void:#F2EEF7;
+  --display-ko:"Hahmlet","Noto Serif KR","Noto Serif CJK KR",serif;
+  --body:"Noto Serif KR","Noto Serif CJK KR","Apple SD Gothic Neo",serif;
+  --display-la:"GFS Didot","Didot","Bodoni 72","Noto Serif",serif;
+  --sans:"Noto Sans KR","Noto Sans CJK KR","Apple SD Gothic Neo",system-ui,sans-serif;
+  --mono:"Red Hat Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }svg.fig{display:block;width:100%;height:auto;font-family:var(--sans);overflow:visible}svg.fig text{font-family:var(--sans);font-size:14px;fill:var(--ink)}svg.fig .t-s{font-size:12px}svg.fig .t-l{font-size:17px}svg.fig .t-xl{font-size:22px}svg.fig .t-b{font-weight:700}svg.fig .t-mid{text-anchor:middle}svg.fig .t-end{text-anchor:end}svg.fig .t-muted{fill:var(--muted)}svg.fig .f-ink{fill:var(--ink)}svg.fig .f-red{fill:var(--red)}svg.fig .f-redf{fill:var(--red-fill)}svg.fig .f-cob{fill:var(--cob)}svg.fig .f-cobf{fill:var(--cob-fill)}svg.fig .f-void{fill:var(--void)}svg.fig .f-none{fill:none}svg.fig .s-ink{stroke:var(--ink)}svg.fig .s-muted{stroke:var(--muted)}svg.fig .s-rule{stroke:var(--rule)}svg.fig .s-red{stroke:var(--red)}svg.fig .s-cob{stroke:var(--cob)}svg.fig .w1{stroke-width:1px}svg.fig .w15{stroke-width:1.5px}svg.fig .w2{stroke-width:2px}svg.fig .dash{stroke-dasharray:6 5}:root{ --pad:1.15rem; --measure:39rem; --wide:52rem; --shell:calc(var(--wide) + var(--pad)*2); }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{max-width:560px;margin-inline:auto}.doc{padding-inline:var(--pad)}.lecture{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-block:2.5rem 3rem;
+  content-visibility:auto;border-top:1px solid var(--rule)}.fig-wrap{margin:.8rem 0 !important}.fig-scroll{overflow-x:auto;background:
+  linear-gradient(to right,var(--panel) 30%,transparent) left center/2.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--panel) 30%,transparent) right center/2.2rem 100% no-repeat local,
+  radial-gradient(farthest-side at 0 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) left center/.8rem 100% no-repeat scroll,
+  radial-gradient(farthest-side at 100% 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) right center/.8rem 100% no-repeat scroll,
+  var(--panel);padding:1rem .9rem .6rem}.fig-inner{width:100%}svg.pz-root{width:860px!important;height:470px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig-wrap"><g class="pz-w fig-scroll"><g class="pz-w fig-inner"><svg xmlns="http://www.w3.org/2000/svg" aria-label="소외에서 주체는 꽉 찬 대타자의 기표 속에서 말해지며 몫을 잃고, 분리에서는 주체의 구멍이 대타자 자신의 구멍과 포개진다 — 분리는 배가된 소외다." class="fig pz-inner" height="100%" role="img" viewBox="0 0 860 470" width="100%">
+<defs>
+<marker id="L03-3-ar-ink" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="L03-3-ar-red" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-red" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="L03-3-ar-cob" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-cob" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- ① 소외 -->
+<text class="t-mid t-l t-b" x="215" y="34">① 소외</text>
+<circle class="f-cobf s-cob w2" cx="270" cy="185" r="90"></circle>
+<circle class="f-none s-red w2 dash" cx="165" cy="185" r="90"></circle>
+<path class="f-redf s-red w15" d="M217.5,112 A90,90 0 0 1 217.5,258 A90,90 0 0 1 217.5,112 z"></path>
+<text class="t-mid t-xl t-b f-red" x="217.5" y="192">$</text>
+<text class="t-mid t-xl t-b f-red" x="118" y="172">S</text>
+<text class="t-mid t-s" x="118" y="195">주체</text>
+<text class="t-mid t-s t-muted" x="118" y="220">잃는 몫</text>
+<text class="t-mid t-xl t-b f-cob" x="302" y="172">A</text>
+<text class="t-mid t-s" x="302" y="195">대타자</text>
+<text class="t-mid t-s t-muted" x="302" y="220">다 아는 부모</text>
+<path class="f-none s-cob w15" d="M318,76 C290,70 240,82 224,124" marker-end="url(#L03-3-ar-cob)"></path>
+<text class="t-s" x="326" y="80">줄을 당긴다</text>
+<line class="s-muted w1" x1="217.5" x2="217.5" y1="262" y2="290"></line>
+<text class="t-mid t-s" x="217.5" y="306">말해지는 주체</text>
+<text class="t-mid t-s t-muted" x="217.5" y="332">돈이냐 목숨이냐 — 무엇을 골라도 잃는다</text>
+<!-- 이행 -->
+<line class="s-ink w2" marker-end="url(#L03-3-ar-ink)" x1="378" x2="488" y1="185" y2="185"></line>
+<text class="t-mid t-s" x="433" y="160">소외를</text>
+<text class="t-mid t-s" x="433" y="176">대타자 쪽으로</text>
+<text class="t-mid t-s t-muted" x="433" y="206">빠져나감 아님</text>
+<!-- ② 분리 -->
+<text class="t-mid t-l t-b" x="645" y="34">② 분리</text>
+<circle class="f-redf s-red w2" cx="595" cy="185" r="90"></circle>
+<circle class="f-cobf s-cob w2" cx="700" cy="185" r="90"></circle>
+<circle class="f-none s-red w2" cx="595" cy="185" r="90"></circle>
+<ellipse class="f-void" cx="647.5" cy="190" rx="22" ry="38"></ellipse>
+<text class="t-mid t-xl t-b f-red" x="548" y="172">$</text>
+<text class="t-mid t-s" x="548" y="195">주체</text>
+<text class="t-mid t-xl t-b f-cob" x="731" y="172">A</text>
+<line class="s-red w2" x1="719" x2="743" y1="176" y2="150"></line>
+<text class="t-mid t-s" x="731" y="195">대타자</text>
+<text class="t-mid t-s t-muted" x="731" y="220">부모도 모른다</text>
+<path class="f-none s-red w15" d="M566,80 C600,82 628,104 638,146" marker-end="url(#L03-3-ar-red)"></path>
+<text class="t-end t-s" x="560" y="84">내 결여</text>
+<path class="f-none s-cob w15" d="M730,80 C696,82 667,104 657,146" marker-end="url(#L03-3-ar-cob)"></path>
+<text class="t-s" x="736" y="84">대타자의 결여</text>
+<line class="s-muted w1" x1="647.5" x2="647.5" y1="262" y2="290"></line>
+<text class="t-mid t-s" x="647.5" y="306">구멍이 포개진다</text>
+<text class="t-mid t-b f-red" x="647.5" y="332">배가된 소외</text>
+<!-- 홍위병의 예 -->
+<line class="s-rule w1 dash" x1="30" x2="830" y1="360" y2="360"></line>
+<text class="t-s t-muted" x="30" y="384">홍위병의 경우</text>
+<circle class="f-red" cx="80" cy="415" r="7"></circle>
+<text class="t-mid t-s" x="80" y="447">나</text>
+<rect class="f-cobf s-cob w15" height="34" rx="3" width="180" x="190" y="398"></rect>
+<text class="t-mid t-s" x="280" y="420">당과 인민</text>
+<line class="s-red w15 dash" marker-end="url(#L03-3-ar-red)" marker-start="url(#L03-3-ar-red)" x1="94" x2="182" y1="415" y2="415"></line>
+<text class="t-mid t-s f-red" x="138" y="404">거리</text>
+<text class="t-mid t-s t-muted" x="280" y="455">자살 = 당과 인민에게서 소외</text>
+<circle class="f-red" cx="510" cy="415" r="7"></circle>
+<text class="t-mid t-s" x="510" y="447">나</text>
+<rect class="f-cobf s-cob w15" height="34" rx="3" width="95" x="600" y="398"></rect>
+<text class="t-mid t-s" x="647.5" y="420">당</text>
+<rect class="f-cobf s-cob w15" height="34" rx="3" width="95" x="735" y="398"></rect>
+<text class="t-mid t-s" x="782.5" y="420">인민</text>
+<line class="s-red w15 dash" marker-end="url(#L03-3-ar-red)" marker-start="url(#L03-3-ar-red)" x1="524" x2="592" y1="415" y2="415"></line>
+<text class="t-mid t-s f-red" x="558" y="404">거리</text>
+<text class="t-mid t-s f-red" x="715" y="403">거리</text>
+<line class="s-red w15 dash" marker-end="url(#L03-3-ar-red)" marker-start="url(#L03-3-ar-red)" x1="699" x2="731" y1="415" y2="415"></line>
+<text class="t-mid t-s t-muted" x="715" y="455">그 거리가 이미 당과 인민 안에</text>
+</svg></g></g></g></g></g></svg>

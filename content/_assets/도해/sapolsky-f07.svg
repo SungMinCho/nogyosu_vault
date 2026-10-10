@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 700 424" width="700" height="424" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#F1F3F1; --sheet:#FAFBF9; --ink:#1B2124; --ink-2:#3A4549; --mute:#5E6B71;
+  --grid:#C9D4D1; --grid-2:#E1E8E5; --rule:#B6C2C0;
+  --neuro:#3546A8; --soma:#8F5508; --life:#256B41; --deep:#8A4429; --alarm:#B01E4C;
+  --neuro-w:color-mix(in srgb, var(--neuro) 13%, var(--sheet));
+  --soma-w:color-mix(in srgb, var(--soma) 14%, var(--sheet));
+  --life-w:color-mix(in srgb, var(--life) 13%, var(--sheet));
+  --deep-w:color-mix(in srgb, var(--deep) 13%, var(--sheet));
+  --alarm-w:color-mix(in srgb, var(--alarm) 11%, var(--sheet));
+  --ink-w:color-mix(in srgb, var(--ink) 8%, var(--sheet));
+  --shadow:color-mix(in srgb, var(--ink) 16%, transparent);
+  --f-display:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --f-body:"Literata", "Noto Serif KR", "AppleMyungjo", "Batang", serif;
+  --f-label:"Sofia Sans Condensed", "Gothic A1", "Arial Narrow", sans-serif;
+  --f-mono:"DM Mono", "Nanum Gothic Coding", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --f-fig:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); }.hero svg{ display:block; width:100%; height:auto }figure.fig{ margin:1rem 0; }.fig-frame{ overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background-color:var(--sheet);
+  background-image:linear-gradient(to right, var(--sheet) 30%, transparent), linear-gradient(to left, var(--sheet) 30%, transparent),
+    radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent);
+  background-position:left center, right center, left center, right center; background-repeat:no-repeat;
+  background-size:2rem 100%, 2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; min-width:var(--figmin, 34rem); height:auto; }svg text{ font-family:var(--f-fig); font-size:12px; fill:var(--ink) }svg .t-2{ fill:var(--ink-2) }svg .t-m{ fill:var(--mute) }svg .t-s{ font-size:10.5px }svg .t-l{ font-size:14px }svg .t-b{ font-weight:700 }svg .t-neuro{ fill:var(--neuro) }svg .t-soma{ fill:var(--soma) }svg .ln-m{ stroke:var(--mute); stroke-width:1; fill:none }svg .ln-g{ stroke:var(--grid); stroke-width:1; fill:none }svg .ln-neuro{ stroke:var(--neuro); stroke-width:1.8; fill:none }svg .ln-soma{ stroke:var(--soma); stroke-width:1.8; fill:none }svg .w-thick{ stroke-width:2.8 }svg .f-mute{ fill:var(--mute) }svg .f-neuro{ fill:var(--neuro) }svg .f-soma{ fill:var(--soma) }svg .f-soma-w{ fill:var(--soma-w) }section.lecture-wrap{ content-visibility:auto; contain-intrinsic-size:auto 60000px }svg.pz-root{width:700px!important;height:424px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc lecture-wrap"><g class="pz-w fig"><g class="pz-w fig-frame"><svg aria-label="같은 지속 스트레스, 세 방향 — 지속 스트레스와 글루코코르티코이드가 해마에서는 가시와 LTP와 BDNF를 줄여 수상돌기를 위축시키고, 전두피질에서는 가시와 NCAM을 줄이며 해마와의 연결은 약하게 습관 회로와의 연결은 강하게 하고, 기저외측 편도체에서는 BDNF와 LTP를 늘리고 LTD를 줄여 수상돌기를 넓힌다" class="pz-inner" height="100%" role="img" viewBox="0 0 700 424" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="threeway-ahs" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-soma" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="threeway-ahm" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<rect class="f-soma-w ln-soma w-thick" height="40" rx="3" width="280" x="210" y="14"></rect>
+<text class="t-b t-soma" text-anchor="middle" x="350" y="39">지속 스트레스 · 글루코코르티코이드</text>
+<path class="ln-soma" d="M290,54 Q120,58 120,90" marker-end="url(#threeway-ahs)"></path>
+<path class="ln-soma" d="M350,54 L350,90" marker-end="url(#threeway-ahs)"></path>
+<path class="ln-soma" d="M410,54 Q580,58 580,90" marker-end="url(#threeway-ahs)"></path>
+<text class="t-l t-b t-neuro" text-anchor="middle" x="120" y="112">해마</text>
+<text class="t-l t-b t-neuro" text-anchor="middle" x="350" y="112">전두피질</text>
+<text class="t-l t-b t-neuro" text-anchor="middle" x="580" y="112">기저외측 편도체</text>
+<text class="t-b" text-anchor="middle" x="120" y="130">위축 ↓</text>
+<text class="t-b" text-anchor="middle" x="350" y="130">위축 ↓</text>
+<text class="t-b" text-anchor="middle" x="580" y="130">확장 ↑</text>
+<text class="t-s t-m" text-anchor="middle" x="64" y="160">전</text>
+<text class="t-s t-neuro t-b" text-anchor="middle" x="176" y="160">지속 스트레스 뒤</text>
+<text class="t-s t-m" text-anchor="middle" x="294" y="160">전</text>
+<text class="t-s t-neuro t-b" text-anchor="middle" x="406" y="160">뒤</text>
+<text class="t-s t-m" text-anchor="middle" x="524" y="160">전</text>
+<text class="t-s t-neuro t-b" text-anchor="middle" x="636" y="160">뒤</text>
+<!-- 해마 -->
+<path class="ln-m" d="M64,293.6 L64,263.2 M64,263.2 L41.6,240.8 M64,263.2 L86.4,240.8 M41.6,240.8 L27.2,216.8 M41.6,240.8 L52.8,213.6 M86.4,240.8 L75.2,213.6 M86.4,240.8 L100.8,216.8 M27.2,216.8 L16,197.6 M27.2,216.8 L33.6,194.4 M52.8,213.6 L46.4,191.2 M52.8,213.6 L60.8,192.8 M75.2,213.6 L67.2,192.8 M75.2,213.6 L81.6,191.2 M100.8,216.8 L94.4,194.4 M100.8,216.8 L112,197.6 M59.2,303.2 L43.2,317.6 M68.8,303.2 L84.8,317.6"></path>
+<circle class="f-mute" cx="66.2" cy="278.4" r="1.7"></circle>
+<circle class="f-mute" cx="55" cy="252" r="1.7"></circle>
+<circle class="f-mute" cx="77.4" cy="252" r="1.7"></circle>
+<circle class="f-mute" cx="36.6" cy="228.8" r="1.7"></circle>
+<circle class="f-mute" cx="49.4" cy="227.2" r="1.7"></circle>
+<circle class="f-mute" cx="83" cy="227.2" r="1.7"></circle>
+<circle class="f-mute" cx="95.8" cy="228.8" r="1.7"></circle>
+<circle class="f-mute" cx="23.8" cy="207.2" r="1.7"></circle>
+<circle class="f-mute" cx="32.6" cy="205.6" r="1.7"></circle>
+<circle class="f-mute" cx="51.8" cy="202.4" r="1.7"></circle>
+<circle class="f-mute" cx="59" cy="203.2" r="1.7"></circle>
+<circle class="f-mute" cx="73.4" cy="203.2" r="1.7"></circle>
+<circle class="f-mute" cx="80.6" cy="202.4" r="1.7"></circle>
+<circle class="f-mute" cx="99.8" cy="205.6" r="1.7"></circle>
+<circle class="f-mute" cx="108.6" cy="207.2" r="1.7"></circle>
+<circle class="f-mute" cx="53.4" cy="310.4" r="1.7"></circle>
+<circle class="f-mute" cx="79" cy="310.4" r="1.7"></circle>
+<path class="f-mute" d="M57,305 L71,305 L64,292 z"></path>
+<path class="ln-neuro" d="M176,293.6 L176,263.2 M176,263.2 L153.6,240.8 M176,263.2 L198.4,240.8 M153.6,240.8 L144,223.2 M153.6,240.8 L161.6,223.2 M198.4,240.8 L190.4,223.2 M198.4,240.8 L208,223.2 M171.2,303.2 L161.6,312.8 M180.8,303.2 L190.4,312.8"></path>
+<circle class="f-neuro" cx="178.2" cy="278.4" r="1.7"></circle>
+<circle class="f-neuro" cx="167" cy="252" r="1.7"></circle>
+<circle class="f-neuro" cx="189.4" cy="252" r="1.7"></circle>
+<circle class="f-neuro" cx="151" cy="232" r="1.7"></circle>
+<circle class="f-neuro" cx="159.8" cy="232" r="1.7"></circle>
+<circle class="f-neuro" cx="196.6" cy="232" r="1.7"></circle>
+<circle class="f-neuro" cx="205.4" cy="232" r="1.7"></circle>
+<circle class="f-neuro" cx="168.6" cy="308" r="1.7"></circle>
+<circle class="f-neuro" cx="187.8" cy="308" r="1.7"></circle>
+<path class="f-neuro" d="M169,305 L183,305 L176,292 z"></path>
+<path class="ln-m" d="M110,260 L128,260" marker-end="url(#threeway-ahm)"></path>
+<!-- 전두피질 -->
+<path class="ln-m" d="M294,293.6 L294,263.2 M294,263.2 L271.6,240.8 M294,263.2 L316.4,240.8 M271.6,240.8 L257.2,216.8 M271.6,240.8 L282.8,213.6 M316.4,240.8 L305.2,213.6 M316.4,240.8 L330.8,216.8 M257.2,216.8 L246,197.6 M257.2,216.8 L263.6,194.4 M282.8,213.6 L276.4,191.2 M282.8,213.6 L290.8,192.8 M305.2,213.6 L297.2,192.8 M305.2,213.6 L311.6,191.2 M330.8,216.8 L324.4,194.4 M330.8,216.8 L342,197.6 M289.2,303.2 L273.2,317.6 M298.8,303.2 L314.8,317.6"></path>
+<circle class="f-mute" cx="296.2" cy="278.4" r="1.7"></circle>
+<circle class="f-mute" cx="285" cy="252" r="1.7"></circle>
+<circle class="f-mute" cx="307.4" cy="252" r="1.7"></circle>
+<circle class="f-mute" cx="266.6" cy="228.8" r="1.7"></circle>
+<circle class="f-mute" cx="279.4" cy="227.2" r="1.7"></circle>
+<circle class="f-mute" cx="313" cy="227.2" r="1.7"></circle>
+<circle class="f-mute" cx="325.8" cy="228.8" r="1.7"></circle>
+<circle class="f-mute" cx="253.8" cy="207.2" r="1.7"></circle>
+<circle class="f-mute" cx="262.6" cy="205.6" r="1.7"></circle>
+<circle class="f-mute" cx="281.8" cy="202.4" r="1.7"></circle>
+<circle class="f-mute" cx="289" cy="203.2" r="1.7"></circle>
+<circle class="f-mute" cx="303.4" cy="203.2" r="1.7"></circle>
+<circle class="f-mute" cx="310.6" cy="202.4" r="1.7"></circle>
+<circle class="f-mute" cx="329.8" cy="205.6" r="1.7"></circle>
+<circle class="f-mute" cx="338.6" cy="207.2" r="1.7"></circle>
+<circle class="f-mute" cx="283.4" cy="310.4" r="1.7"></circle>
+<circle class="f-mute" cx="309" cy="310.4" r="1.7"></circle>
+<path class="f-mute" d="M287,305 L301,305 L294,292 z"></path>
+<path class="ln-neuro" d="M406,293.6 L406,263.2 M406,263.2 L383.6,240.8 M406,263.2 L428.4,240.8 M383.6,240.8 L374,223.2 M428.4,240.8 L417.2,213.6 M428.4,240.8 L438,223.2 M417.2,213.6 L414,204 M401.2,303.2 L391.6,312.8 M410.8,303.2 L420.4,312.8"></path>
+<circle class="f-neuro" cx="408.2" cy="278.4" r="1.7"></circle>
+<circle class="f-neuro" cx="397" cy="252" r="1.7"></circle>
+<circle class="f-neuro" cx="419.4" cy="252" r="1.7"></circle>
+<circle class="f-neuro" cx="381" cy="232" r="1.7"></circle>
+<circle class="f-neuro" cx="425" cy="227.2" r="1.7"></circle>
+<circle class="f-neuro" cx="435.4" cy="232" r="1.7"></circle>
+<circle class="f-neuro" cx="417.8" cy="208.8" r="1.7"></circle>
+<circle class="f-neuro" cx="398.6" cy="308" r="1.7"></circle>
+<circle class="f-neuro" cx="417.8" cy="308" r="1.7"></circle>
+<path class="f-neuro" d="M399,305 L413,305 L406,292 z"></path>
+<path class="ln-m" d="M340,260 L358,260" marker-end="url(#threeway-ahm)"></path>
+<!-- 기저외측 편도체 -->
+<path class="ln-m" d="M524,293.6 L524,263.2 M524,263.2 L501.6,240.8 M524,263.2 L546.4,240.8 M501.6,240.8 L487.2,216.8 M501.6,240.8 L512.8,213.6 M546.4,240.8 L535.2,213.6 M546.4,240.8 L560.8,216.8 M487.2,216.8 L476,197.6 M487.2,216.8 L493.6,194.4 M512.8,213.6 L506.4,191.2 M512.8,213.6 L520.8,192.8 M535.2,213.6 L527.2,192.8 M535.2,213.6 L541.6,191.2 M560.8,216.8 L554.4,194.4 M560.8,216.8 L572,197.6 M519.2,303.2 L503.2,317.6 M528.8,303.2 L544.8,317.6"></path>
+<circle class="f-mute" cx="526.2" cy="278.4" r="1.7"></circle>
+<circle class="f-mute" cx="515" cy="252" r="1.7"></circle>
+<circle class="f-mute" cx="537.4" cy="252" r="1.7"></circle>
+<circle class="f-mute" cx="496.6" cy="228.8" r="1.7"></circle>
+<circle class="f-mute" cx="509.4" cy="227.2" r="1.7"></circle>
+<circle class="f-mute" cx="543" cy="227.2" r="1.7"></circle>
+<circle class="f-mute" cx="555.8" cy="228.8" r="1.7"></circle>
+<circle class="f-mute" cx="483.8" cy="207.2" r="1.7"></circle>
+<circle class="f-mute" cx="492.6" cy="205.6" r="1.7"></circle>
+<circle class="f-mute" cx="511.8" cy="202.4" r="1.7"></circle>
+<circle class="f-mute" cx="519" cy="203.2" r="1.7"></circle>
+<circle class="f-mute" cx="533.4" cy="203.2" r="1.7"></circle>
+<circle class="f-mute" cx="540.6" cy="202.4" r="1.7"></circle>
+<circle class="f-mute" cx="559.8" cy="205.6" r="1.7"></circle>
+<circle class="f-mute" cx="568.6" cy="207.2" r="1.7"></circle>
+<circle class="f-mute" cx="513.4" cy="310.4" r="1.7"></circle>
+<circle class="f-mute" cx="539" cy="310.4" r="1.7"></circle>
+<path class="f-mute" d="M517,305 L531,305 L524,292 z"></path>
+<path class="ln-neuro" d="M636,293.6 L636,263.2 M636,263.2 L613.6,240.8 M636,263.2 L658.4,240.8 M613.6,240.8 L599.2,216.8 M613.6,240.8 L624.8,213.6 M658.4,240.8 L647.2,213.6 M658.4,240.8 L672.8,216.8 M599.2,216.8 L588,197.6 M599.2,216.8 L605.6,194.4 M624.8,213.6 L618.4,191.2 M624.8,213.6 L632.8,192.8 M647.2,213.6 L639.2,192.8 M647.2,213.6 L653.6,191.2 M672.8,216.8 L666.4,194.4 M672.8,216.8 L684,197.6 M631.2,303.2 L615.2,317.6 M640.8,303.2 L656.8,317.6 M588,197.6 L580,183.2 M605.6,194.4 L602.4,176.8 M618.4,191.2 L612,175.2 M632.8,192.8 L637.6,176.8 M639.2,192.8 L634.4,176.8 M653.6,191.2 L660,175.2 M666.4,194.4 L669.6,176.8 M684,197.6 L692,183.2 M599.2,216.8 L583.2,213.6 M672.8,216.8 L688.8,213.6 M613.6,240.8 L596,236 M658.4,240.8 L676,236 M615.2,317.6 L604,327.2 M656.8,317.6 L668,327.2 M636,304.8 L636,324"></path>
+<circle class="f-neuro" cx="638.2" cy="278.4" r="1.7"></circle>
+<circle class="f-neuro" cx="627" cy="252" r="1.7"></circle>
+<circle class="f-neuro" cx="649.4" cy="252" r="1.7"></circle>
+<circle class="f-neuro" cx="608.6" cy="228.8" r="1.7"></circle>
+<circle class="f-neuro" cx="621.4" cy="227.2" r="1.7"></circle>
+<circle class="f-neuro" cx="655" cy="227.2" r="1.7"></circle>
+<circle class="f-neuro" cx="667.8" cy="228.8" r="1.7"></circle>
+<circle class="f-neuro" cx="595.8" cy="207.2" r="1.7"></circle>
+<circle class="f-neuro" cx="604.6" cy="205.6" r="1.7"></circle>
+<circle class="f-neuro" cx="623.8" cy="202.4" r="1.7"></circle>
+<circle class="f-neuro" cx="631" cy="203.2" r="1.7"></circle>
+<circle class="f-neuro" cx="645.4" cy="203.2" r="1.7"></circle>
+<circle class="f-neuro" cx="652.6" cy="202.4" r="1.7"></circle>
+<circle class="f-neuro" cx="671.8" cy="205.6" r="1.7"></circle>
+<circle class="f-neuro" cx="680.6" cy="207.2" r="1.7"></circle>
+<circle class="f-neuro" cx="625.4" cy="310.4" r="1.7"></circle>
+<circle class="f-neuro" cx="651" cy="310.4" r="1.7"></circle>
+<circle class="f-neuro" cx="586.2" cy="190.4" r="1.7"></circle>
+<circle class="f-neuro" cx="606.2" cy="185.6" r="1.7"></circle>
+<circle class="f-neuro" cx="617.4" cy="183.2" r="1.7"></circle>
+<circle class="f-neuro" cx="637.4" cy="184.8" r="1.7"></circle>
+<circle class="f-neuro" cx="639" cy="184.8" r="1.7"></circle>
+<circle class="f-neuro" cx="659" cy="183.2" r="1.7"></circle>
+<circle class="f-neuro" cx="670.2" cy="185.6" r="1.7"></circle>
+<circle class="f-neuro" cx="690.2" cy="190.4" r="1.7"></circle>
+<circle class="f-neuro" cx="593.4" cy="215.2" r="1.7"></circle>
+<circle class="f-neuro" cx="683" cy="215.2" r="1.7"></circle>
+<circle class="f-neuro" cx="607" cy="238.4" r="1.7"></circle>
+<circle class="f-neuro" cx="669.4" cy="238.4" r="1.7"></circle>
+<circle class="f-neuro" cx="611.8" cy="322.4" r="1.7"></circle>
+<circle class="f-neuro" cx="664.6" cy="322.4" r="1.7"></circle>
+<circle class="f-neuro" cx="638.2" cy="314.4" r="1.7"></circle>
+<path class="f-neuro" d="M629,305 L643,305 L636,292 z"></path>
+<path class="ln-m" d="M570,260 L588,260" marker-end="url(#threeway-ahm)"></path>
+<text class="t-s t-2" text-anchor="middle" x="120" y="350">가시↓ · LTP↓ · BDNF↓</text>
+<text class="t-s t-2" text-anchor="middle" x="350" y="350">가시↓ · NCAM↓</text>
+<text class="t-s t-2" text-anchor="middle" x="350" y="366">해마 연결↓ · 습관 회로 연결↑</text>
+<text class="t-s t-2" text-anchor="middle" x="580" y="350">BDNF↑ · 수상돌기↑</text>
+<text class="t-s t-2" text-anchor="middle" x="580" y="366">LTP↑ · LTD↓</text>
+<path class="ln-g" d="M16,384 L684,384"></path>
+<text class="t-s t-b" text-anchor="middle" x="235" y="404">소거 · 유연한 전환 ↓</text>
+<text class="t-s t-b" text-anchor="middle" x="580" y="404">공포 학습 ↑</text>
+<text class="t-s t-m" text-anchor="middle" x="120" y="420">쳇바퀴면 반대로 ↑ · 스위치는 편도체</text>
+<text class="t-s t-m" text-anchor="middle" x="580" y="420">쥐: 한 번 투여, 12일 뒤 비대</text>
+</svg></g></g></g></svg>

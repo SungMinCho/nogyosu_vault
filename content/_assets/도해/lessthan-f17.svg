@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 420" width="900" height="420" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#ECEAF0; --panel:#F7F6F9; --ink:#1D1A26; --muted:#5B5668; --rule:#C9C5D2; --rule-2:#DCD9E2;
+  --red:#B42318;   --red-fill:#F3D3CE;
+  --flesh:#995532; --flesh-fill:#ECCFBC;
+  --cob:#2B4A9B;   --cob-fill:#D3DBF1;
+  --verd:#1F6F62;  --verd-fill:#CDE7E1;
+  --void:#17141F;  --on-void:#F2EEF7;
+  --display-ko:"Hahmlet","Noto Serif KR","Noto Serif CJK KR",serif;
+  --body:"Noto Serif KR","Noto Serif CJK KR","Apple SD Gothic Neo",serif;
+  --display-la:"GFS Didot","Didot","Bodoni 72","Noto Serif",serif;
+  --sans:"Noto Sans KR","Noto Sans CJK KR","Apple SD Gothic Neo",system-ui,sans-serif;
+  --mono:"Red Hat Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }svg.fig{display:block;width:100%;height:auto;font-family:var(--sans);overflow:visible}svg.fig text{font-family:var(--sans);font-size:14px;fill:var(--ink)}svg.fig .t-s{font-size:12px}svg.fig .t-l{font-size:17px}svg.fig .t-xl{font-size:22px}svg.fig .t-b{font-weight:700}svg.fig .t-mid{text-anchor:middle}svg.fig .t-muted{fill:var(--muted)}svg.fig .f-panel{fill:var(--panel)}svg.fig .f-red{fill:var(--red)}svg.fig .f-redf{fill:var(--red-fill)}svg.fig .f-cob{fill:var(--cob)}svg.fig .f-cobf{fill:var(--cob-fill)}svg.fig .f-none{fill:none}svg.fig .s-muted{stroke:var(--muted)}svg.fig .s-red{stroke:var(--red)}svg.fig .s-cob{stroke:var(--cob)}svg.fig .w1{stroke-width:1px}svg.fig .w15{stroke-width:1.5px}svg.fig .w2{stroke-width:2px}svg.fig .w3{stroke-width:3px}svg.fig .dash{stroke-dasharray:6 5}:root{ --pad:1.15rem; --measure:39rem; --wide:52rem; --shell:calc(var(--wide) + var(--pad)*2); }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{max-width:560px;margin-inline:auto}.doc{padding-inline:var(--pad)}.lecture{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-block:2.5rem 3rem;
+  content-visibility:auto;border-top:1px solid var(--rule)}.fig-wrap{margin:.8rem 0 !important}.fig-scroll{overflow-x:auto;background:
+  linear-gradient(to right,var(--panel) 30%,transparent) left center/2.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--panel) 30%,transparent) right center/2.2rem 100% no-repeat local,
+  radial-gradient(farthest-side at 0 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) left center/.8rem 100% no-repeat scroll,
+  radial-gradient(farthest-side at 100% 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) right center/.8rem 100% no-repeat scroll,
+  var(--panel);padding:1rem .9rem .6rem}.fig-inner{width:100%}svg.pz-root{width:900px!important;height:420px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig-wrap"><g class="pz-w fig-scroll"><g class="pz-w fig-inner"><svg xmlns="http://www.w3.org/2000/svg" aria-label="유가 자기 이름표를 단 종 하나로 종들 사이에 나타나 다른 종들을 집어삼킨다 — 6강은 이 틀을 네 번 채운다" class="fig pz-inner" height="100%" role="img" viewBox="0 0 900 420" width="100%">
+<defs>
+<marker id="L06-2-ar-red" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-red" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="L06-2-ar-cob" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-cob" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 왼쪽: 과일 바구니 — 유의 큰 원 -->
+<circle class="f-cobf s-cob w2" cx="200" cy="225" r="172"></circle>
+<text class="t-mid t-s t-muted" x="200" y="86">유 · 보편</text>
+<text class="t-mid t-xl t-b f-cob" x="200" y="114">과일</text>
+<!-- 종들 -->
+<circle class="f-panel s-muted w15" cx="112" cy="205" r="33"></circle>
+<text class="t-mid" x="112" y="210">사과</text>
+<circle class="f-panel s-muted w15" cx="128" cy="308" r="33"></circle>
+<text class="t-mid" x="128" y="313">배</text>
+<circle class="f-none s-muted w15 dash" cx="226" cy="345" r="33"></circle>
+<text class="t-mid t-muted" x="226" y="350">포도</text>
+<!-- 이름표 단 종 = 대립적 규정 -->
+<circle class="f-redf s-red w3" cx="276" cy="226" r="42"></circle>
+<text class="t-mid t-l t-b f-red" x="276" y="232">과일</text>
+<text class="t-mid t-s t-b f-red" x="276" y="290">대립적 규정</text>
+<!-- 같은 이름: 유의 이름이 종 자리로 내려온다 -->
+<path class="f-none s-cob w15 dash" d="M226,122 C252,140 262,158 266,178" marker-end="url(#L06-2-ar-cob)"></path>
+<text class="t-mid t-s f-cob" x="304" y="152">같은 이름</text>
+<!-- 먹어 치운다 -->
+<line class="s-red w2" marker-end="url(#L06-2-ar-red)" x1="236" x2="149" y1="220" y2="208"></line>
+<line class="s-red w2" marker-end="url(#L06-2-ar-red)" x1="243" x2="159" y1="252" y2="295"></line>
+<text class="t-mid t-s f-red" x="188" y="252">먹어 치운다</text>
+<!-- 오른쪽: 같은 틀, 네 번 -->
+<text class="t-s t-muted" x="440" y="60">큰 원 = 유</text>
+<text class="t-s t-muted" x="668" y="60">자기 종들 가운데 나타난 유</text>
+<g>
+<rect class="f-cobf s-cob w15" height="62" rx="31" width="460" x="424" y="78"></rect>
+<text class="t-l t-b f-cob" x="446" y="114">추상적 자유</text>
+<circle class="f-panel s-muted w1" cx="598" cy="109" r="7"></circle>
+<circle class="f-panel s-muted w1" cx="620" cy="109" r="7"></circle>
+<circle class="f-panel s-muted w1" cx="642" cy="109" r="7"></circle>
+<rect class="f-redf s-red w2" height="48" rx="24" width="212" x="662" y="85"></rect>
+<text class="t-mid t-b f-red" x="768" y="105">공포정치</text>
+<text class="t-mid t-s t-muted" x="768" y="123">단두대라는 특수한 힘</text>
+</g>
+<g>
+<rect class="f-cobf s-cob w15" height="62" rx="31" width="460" x="424" y="158"></rect>
+<text class="t-l t-b f-cob" x="446" y="194">신</text>
+<circle class="f-panel s-muted w1" cx="598" cy="189" r="7"></circle>
+<circle class="f-panel s-muted w1" cx="620" cy="189" r="7"></circle>
+<circle class="f-panel s-muted w1" cx="642" cy="189" r="7"></circle>
+<rect class="f-redf s-red w2" height="48" rx="24" width="212" x="662" y="165"></rect>
+<text class="t-mid t-b f-red" x="768" y="185">십자가의 예수</text>
+<text class="t-mid t-s t-muted" x="768" y="203">비참한 한 사람</text>
+</g>
+<g>
+<rect class="f-cobf s-cob w15" height="62" rx="31" width="460" x="424" y="238"></rect>
+<text class="t-l t-b f-cob" x="446" y="274">범죄</text>
+<circle class="f-panel s-muted w1" cx="598" cy="269" r="7"></circle>
+<circle class="f-panel s-muted w1" cx="620" cy="269" r="7"></circle>
+<circle class="f-panel s-muted w1" cx="642" cy="269" r="7"></circle>
+<rect class="f-redf s-red w2" height="48" rx="24" width="212" x="662" y="245"></rect>
+<text class="t-mid t-b f-red" x="768" y="265">법</text>
+<text class="t-mid t-s t-muted" x="768" y="283">범죄의 하위종</text>
+</g>
+<g>
+<rect class="f-cobf s-cob w15" height="62" rx="31" width="460" x="424" y="318"></rect>
+<text class="t-l t-b f-cob" x="446" y="354">축구</text>
+<circle class="f-panel s-muted w1" cx="598" cy="349" r="7"></circle>
+<circle class="f-panel s-muted w1" cx="620" cy="349" r="7"></circle>
+<circle class="f-panel s-muted w1" cx="642" cy="349" r="7"></circle>
+<rect class="f-redf s-red w2" height="48" rx="24" width="212" x="662" y="325"></rect>
+<text class="t-mid t-b f-red" x="768" y="345">야구</text>
+<text class="t-mid t-s t-muted" x="768" y="363">미국인의 축구</text>
+</g>
+</svg></g></g></g></g></g></svg>

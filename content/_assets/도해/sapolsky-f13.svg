@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 680 300" width="680" height="300" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#F1F3F1; --sheet:#FAFBF9; --ink:#1B2124; --ink-2:#3A4549; --mute:#5E6B71;
+  --grid:#C9D4D1; --grid-2:#E1E8E5; --rule:#B6C2C0;
+  --neuro:#3546A8; --soma:#8F5508; --life:#256B41; --deep:#8A4429; --alarm:#B01E4C;
+  --neuro-w:color-mix(in srgb, var(--neuro) 13%, var(--sheet));
+  --soma-w:color-mix(in srgb, var(--soma) 14%, var(--sheet));
+  --life-w:color-mix(in srgb, var(--life) 13%, var(--sheet));
+  --deep-w:color-mix(in srgb, var(--deep) 13%, var(--sheet));
+  --alarm-w:color-mix(in srgb, var(--alarm) 11%, var(--sheet));
+  --ink-w:color-mix(in srgb, var(--ink) 8%, var(--sheet));
+  --shadow:color-mix(in srgb, var(--ink) 16%, transparent);
+  --f-display:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --f-body:"Literata", "Noto Serif KR", "AppleMyungjo", "Batang", serif;
+  --f-label:"Sofia Sans Condensed", "Gothic A1", "Arial Narrow", sans-serif;
+  --f-mono:"DM Mono", "Nanum Gothic Coding", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --f-fig:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); }.hero svg{ display:block; width:100%; height:auto }figure.fig{ margin:1rem 0; }.fig-frame{ overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background-color:var(--sheet);
+  background-image:linear-gradient(to right, var(--sheet) 30%, transparent), linear-gradient(to left, var(--sheet) 30%, transparent),
+    radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent);
+  background-position:left center, right center, left center, right center; background-repeat:no-repeat;
+  background-size:2rem 100%, 2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; min-width:var(--figmin, 34rem); height:auto; }svg text{ font-family:var(--f-fig); font-size:12px; fill:var(--ink) }svg .t-2{ fill:var(--ink-2) }svg .t-m{ fill:var(--mute) }svg .t-s{ font-size:10.5px }svg .t-b{ font-weight:700 }svg .t-num{ font-family:var(--f-mono); font-variant-numeric:tabular-nums }svg .t-deep{ fill:var(--deep) }svg .ln{ stroke:var(--ink); stroke-width:1.4; fill:none }svg .ln-2{ stroke:var(--ink-2); stroke-width:1.2; fill:none }svg .ln-m{ stroke:var(--mute); stroke-width:1; fill:none }svg .ln-g2{ stroke:var(--grid-2); stroke-width:1; fill:none }svg .ln-deep{ stroke:var(--deep); stroke-width:1.8; fill:none }svg .w-thick{ stroke-width:2.8 }svg .dash{ stroke-dasharray:5 4 }svg .f-paper{ fill:var(--sheet) }svg .f-ink{ fill:var(--ink) }svg .f-none{ fill:none }section.lecture-wrap{ content-visibility:auto; contain-intrinsic-size:auto 60000px }svg.pz-root{width:680px!important;height:300px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc lecture-wrap"><g class="pz-w fig"><g class="pz-w fig-frame"><svg aria-label="팃포탯 비율 p에 따른 기대 점수: 팃포탯은 9 + 21p, 상시 배신은 10 + 4p. p = 0에서 10 대 9로 상시 배신이 위, p = 1에서 30 대 14로 팃포탯이 위, 두 직선은 p = 1/17, 약 5.9%에서 엇갈린다." class="pz-inner" height="100%" role="img" viewBox="0 0 680 300" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="tft-ah" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<text class="t-s t-b t-m" x="64" y="22">기대 점수 · 한 쌍 10판 · 5·3·1·0</text>
+<line class="ln-g2" x1="64" x2="384" y1="252" y2="252"></line>
+<text class="t-s t-num t-m" text-anchor="end" x="56" y="256">0</text>
+<line class="ln-g2" x1="64" x2="384" y1="182" y2="182"></line>
+<text class="t-s t-num t-m" text-anchor="end" x="56" y="186">10</text>
+<line class="ln-g2" x1="64" x2="384" y1="112" y2="112"></line>
+<text class="t-s t-num t-m" text-anchor="end" x="56" y="116">20</text>
+<line class="ln-g2" x1="64" x2="384" y1="42" y2="42"></line>
+<text class="t-s t-num t-m" text-anchor="end" x="56" y="46">30</text>
+<line class="ln-2" x1="64" x2="384" y1="252" y2="252"></line>
+<line class="ln-2" x1="64" x2="64" y1="252" y2="36"></line>
+<line class="ln-2" x1="64" x2="64" y1="252" y2="256"></line>
+<text class="t-s t-num t-m" text-anchor="middle" x="64" y="269">0</text>
+<line class="ln-2" x1="144" x2="144" y1="252" y2="256"></line>
+<text class="t-s t-num t-m" text-anchor="middle" x="144" y="269">25%</text>
+<line class="ln-2" x1="224" x2="224" y1="252" y2="256"></line>
+<text class="t-s t-num t-m" text-anchor="middle" x="224" y="269">50%</text>
+<line class="ln-2" x1="304" x2="304" y1="252" y2="256"></line>
+<text class="t-s t-num t-m" text-anchor="middle" x="304" y="269">75%</text>
+<line class="ln-2" x1="384" x2="384" y1="252" y2="256"></line>
+<text class="t-s t-num t-m" text-anchor="middle" x="384" y="269">100%</text>
+<text class="t-s t-b t-2" text-anchor="middle" x="224" y="290">집단 속 팃포탯 비율 p</text>
+<rect class="f-none ln-m dash" height="24.5" width="38.4" x="64" y="168"></rect>
+<text class="t-s t-m" x="106.4" y="206.5">확대 →</text>
+<line class="ln w-thick" x1="64" x2="384" y1="182" y2="154"></line>
+<line class="ln-deep w-thick" x1="64" x2="384" y1="189" y2="42"></line>
+<text class="t-s t-num t-b t-deep" x="390" y="46">30</text>
+<text class="t-s t-num t-b" x="390" y="158">14</text>
+<text class="t-b t-deep" text-anchor="end" x="250" y="88">팃포탯 9 + 21p</text>
+<text class="t-b" text-anchor="end" x="380" y="176">상시 배신 10 + 4p</text>
+<rect class="f-none ln-m dash" height="210" width="180" x="474" y="42"></rect>
+<text class="t-s t-b t-m" x="474" y="22">p = 0~12% 확대</text>
+<line class="ln-g2" x1="474" x2="654" y1="222" y2="222"></line>
+<text class="t-s t-num t-m" text-anchor="end" x="466" y="226">9</text>
+<line class="ln-g2" x1="474" x2="654" y1="162" y2="162"></line>
+<text class="t-s t-num t-m" text-anchor="end" x="466" y="166">10</text>
+<line class="ln-g2" x1="474" x2="654" y1="102" y2="102"></line>
+<text class="t-s t-num t-m" text-anchor="end" x="466" y="106">11</text>
+<line class="ln w-thick" x1="474" x2="654" y1="162" y2="133.2"></line>
+<line class="ln-deep w-thick" x1="474" x2="654" y1="222" y2="70.8"></line>
+<line class="ln-2 dash" x1="562.2" x2="562.2" y1="147.9" y2="252"></line>
+<circle class="f-paper ln" cx="562.2" cy="147.9" r="4"></circle>
+<text class="t-b" text-anchor="end" x="554.2" y="121.9">p* = 1/17</text>
+<text class="t-s t-2" text-anchor="end" x="554.2" y="135.9">≈ 5.9%</text>
+<line class="ln-2" x1="474" x2="474" y1="252" y2="256"></line>
+<text class="t-s t-num t-m" text-anchor="middle" x="474" y="269">0</text>
+<line class="ln-2" x1="562.2" x2="562.2" y1="252" y2="256"></line>
+<text class="t-s t-num t-m" text-anchor="middle" x="562.2" y="269">5.9%</text>
+<line class="ln-2" x1="654" x2="654" y1="252" y2="256"></line>
+<text class="t-s t-num t-m" text-anchor="middle" x="654" y="269">12%</text>
+<text class="t-s t-b t-deep" text-anchor="end" x="648" y="60.8">팃포탯</text>
+<text class="t-s t-b" text-anchor="end" x="648" y="153.2">상시 배신</text>
+<line class="ln-2" marker-end="url(#tft-ah)" x1="554.2" x2="482" y1="238" y2="238"></line>
+<line class="ln-2" marker-end="url(#tft-ah)" x1="570.2" x2="648" y1="238" y2="238"></line>
+<text class="t-s t-2" text-anchor="middle" x="609.1" y="232">팃포탯이 차지</text>
+<text class="t-s t-2" text-anchor="middle" x="518.1" y="232">밀려남</text>
+</svg></g></g></g></svg>

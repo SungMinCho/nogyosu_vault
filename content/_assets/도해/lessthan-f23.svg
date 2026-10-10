@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 860 480" width="860" height="480" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#ECEAF0; --panel:#F7F6F9; --ink:#1D1A26; --muted:#5B5668; --rule:#C9C5D2; --rule-2:#DCD9E2;
+  --red:#B42318;   --red-fill:#F3D3CE;
+  --flesh:#995532; --flesh-fill:#ECCFBC;
+  --cob:#2B4A9B;   --cob-fill:#D3DBF1;
+  --verd:#1F6F62;  --verd-fill:#CDE7E1;
+  --void:#17141F;  --on-void:#F2EEF7;
+  --display-ko:"Hahmlet","Noto Serif KR","Noto Serif CJK KR",serif;
+  --body:"Noto Serif KR","Noto Serif CJK KR","Apple SD Gothic Neo",serif;
+  --display-la:"GFS Didot","Didot","Bodoni 72","Noto Serif",serif;
+  --sans:"Noto Sans KR","Noto Sans CJK KR","Apple SD Gothic Neo",system-ui,sans-serif;
+  --mono:"Red Hat Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }svg.fig{display:block;width:100%;height:auto;font-family:var(--sans);overflow:visible}svg.fig text{font-family:var(--sans);font-size:14px;fill:var(--ink)}svg.fig .t-s{font-size:12px}svg.fig .t-l{font-size:17px}svg.fig .t-b{font-weight:700}svg.fig .t-la{font-family:var(--display-la)}svg.fig .t-mid{text-anchor:middle}svg.fig .t-end{text-anchor:end}svg.fig .t-muted{fill:var(--muted)}svg.fig .f-ink{fill:var(--ink)}svg.fig .f-rule2{fill:var(--rule-2)}svg.fig .f-red{fill:var(--red)}svg.fig .f-flesh{fill:var(--flesh)}svg.fig .f-fleshf{fill:var(--flesh-fill)}svg.fig .f-void{fill:var(--void)}svg.fig .f-onvoid{fill:var(--on-void)}svg.fig .f-none{fill:none}svg.fig .s-ink{stroke:var(--ink)}svg.fig .s-rule{stroke:var(--rule)}svg.fig .s-red{stroke:var(--red)}svg.fig .s-flesh{stroke:var(--flesh)}svg.fig .w1{stroke-width:1px}svg.fig .w15{stroke-width:1.5px}svg.fig .w2{stroke-width:2px}svg.fig .w3{stroke-width:3px}svg.fig .dash{stroke-dasharray:6 5}svg.fig .round{stroke-linecap:round;stroke-linejoin:round}:root{ --pad:1.15rem; --measure:39rem; --wide:52rem; --shell:calc(var(--wide) + var(--pad)*2); }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{max-width:560px;margin-inline:auto}.doc{padding-inline:var(--pad)}.lecture{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-block:2.5rem 3rem;
+  content-visibility:auto;border-top:1px solid var(--rule)}.fig-wrap{margin:.8rem 0 !important}.fig-scroll{overflow-x:auto;background:
+  linear-gradient(to right,var(--panel) 30%,transparent) left center/2.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--panel) 30%,transparent) right center/2.2rem 100% no-repeat local,
+  radial-gradient(farthest-side at 0 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) left center/.8rem 100% no-repeat scroll,
+  radial-gradient(farthest-side at 100% 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) right center/.8rem 100% no-repeat scroll,
+  var(--panel);padding:1rem .9rem .6rem}.fig-inner{width:100%}svg.pz-root{width:860px!important;height:480px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig-wrap"><g class="pz-w fig-scroll"><g class="pz-w fig-inner"><svg xmlns="http://www.w3.org/2000/svg" aria-label="무언가는 무보다, den은 무언가보다, 무는 den보다 크다 — 세 부등식이 한 바퀴 돌아 셋을 한 줄로 세울 수 없고, 무에서 무를 빼는 몸짓이 이 고리를 끊는다" class="fig pz-inner" height="100%" role="img" viewBox="0 0 860 480" width="100%">
+<defs>
+<marker id="L08-2-ar-ink" markerHeight="11" markerUnits="userSpaceOnUse" markerWidth="11" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="L08-2-ar-red" markerHeight="10" markerUnits="userSpaceOnUse" markerWidth="10" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-red" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 고리: 한 칸씩 '크다'로 오른다 -->
+<path class="f-none s-ink w3" d="M313.9,126.6 A150,150 0 0 1 416.2,303.7" marker-end="url(#L08-2-ar-ink)"></path>
+<path class="f-none s-ink w3" d="M372.3,379.7 A150,150 0 0 1 167.7,379.7" marker-end="url(#L08-2-ar-ink)"></path>
+<path class="f-none s-ink w3" d="M123.8,303.7 A150,150 0 0 1 226.1,126.6" marker-end="url(#L08-2-ar-ink)"></path>
+<text class="t-b" x="420" y="188">무언가 &gt; 무</text>
+<text class="t-s t-muted" x="420" y="207">무를 배경으로</text>
+<text class="t-mid t-b" x="270" y="448">den &gt; 무언가</text>
+<text class="t-mid t-s t-muted" x="270" y="467">일관성을 삐져나온 잉여</text>
+<text class="t-end t-b" x="120" y="188">무 &gt; den</text>
+<text class="t-end t-s t-muted" x="120" y="207">무보다 적은 것</text>
+<!-- 세 항 -->
+<circle class="f-void" cx="270" cy="120" r="38"></circle>
+<text class="t-mid t-l t-b f-onvoid" x="258" y="127">무</text>
+<circle class="f-rule2 s-ink w2" cx="399.9" cy="345" r="38"></circle>
+<text class="t-mid t-b" x="399.9" y="350">무언가</text>
+<circle class="f-fleshf s-flesh w2" cx="140.1" cy="345" r="38"></circle>
+<text class="t-mid t-l t-b f-flesh" x="140.1" y="344">den</text>
+<text class="t-mid t-s t-la f-flesh" x="140.1" y="362">δέν</text>
+<!-- 빼기: 무에서 무를 뺀다 -->
+<line class="s-red w2 dash" x1="284" x2="284" y1="66" y2="174"></line>
+<circle class="f-none s-red w15" cx="277" cy="40" r="6"></circle>
+<circle class="f-none s-red w15" cx="291" cy="40" r="6"></circle>
+<path class="f-none s-red w2 round" d="M279,46 L289,60 M289,46 L279,60"></path>
+<text class="t-b f-red" x="304" y="44">빼기</text>
+<text class="t-s t-muted" x="304" y="62">무에서 무를 빼 무를 무로서 정립</text>
+<!-- 옆 칸: 한 줄로 세우면 -->
+<line class="s-rule w1 dash" x1="560" x2="560" y1="24" y2="456"></line>
+<text class="t-s t-b t-muted" x="590" y="70">한 줄로 세우면</text>
+<line class="s-rule w1" x1="660" x2="660" y1="128" y2="420"></line>
+<rect class="f-fleshf s-flesh w15" height="32" rx="16" width="90" x="615" y="174"></rect>
+<text class="t-mid t-b f-flesh" x="660" y="195">den</text>
+<rect class="f-rule2 s-ink w15" height="32" rx="16" width="90" x="615" y="274"></rect>
+<text class="t-mid t-b" x="660" y="295">무언가</text>
+<rect class="f-void" height="32" rx="16" width="90" x="615" y="374"></rect>
+<text class="t-mid t-b f-onvoid" x="660" y="395">무</text>
+<line class="s-ink w2" marker-end="url(#L08-2-ar-ink)" x1="660" x2="660" y1="372" y2="310"></line>
+<line class="s-ink w2" marker-end="url(#L08-2-ar-ink)" x1="660" x2="660" y1="272" y2="210"></line>
+<text class="t-s" x="674" y="346">무언가 &gt; 무</text>
+<text class="t-s" x="674" y="246">den &gt; 무언가</text>
+<path class="f-none s-red w2 dash" d="M660,172 L660,144 C660,124 676,116 696,116 L760,116 C776,116 784,126 784,142 L784,370 C784,384 776,390 762,390 L711,390" marker-end="url(#L08-2-ar-red)"></path>
+<text class="t-mid t-s t-b f-red" x="722" y="106">무 &gt; den</text>
+<path class="f-none s-red w3 round" d="M776,246 L792,262 M792,246 L776,262"></path>
+</svg></g></g></g></g></g></svg>

@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 286" width="760" height="286" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#F1F3F1; --sheet:#FAFBF9; --ink:#1B2124; --ink-2:#3A4549; --mute:#5E6B71;
+  --grid:#C9D4D1; --grid-2:#E1E8E5; --rule:#B6C2C0;
+  --neuro:#3546A8; --soma:#8F5508; --life:#256B41; --deep:#8A4429; --alarm:#B01E4C;
+  --neuro-w:color-mix(in srgb, var(--neuro) 13%, var(--sheet));
+  --soma-w:color-mix(in srgb, var(--soma) 14%, var(--sheet));
+  --life-w:color-mix(in srgb, var(--life) 13%, var(--sheet));
+  --deep-w:color-mix(in srgb, var(--deep) 13%, var(--sheet));
+  --alarm-w:color-mix(in srgb, var(--alarm) 11%, var(--sheet));
+  --ink-w:color-mix(in srgb, var(--ink) 8%, var(--sheet));
+  --shadow:color-mix(in srgb, var(--ink) 16%, transparent);
+  --f-display:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --f-body:"Literata", "Noto Serif KR", "AppleMyungjo", "Batang", serif;
+  --f-label:"Sofia Sans Condensed", "Gothic A1", "Arial Narrow", sans-serif;
+  --f-mono:"DM Mono", "Nanum Gothic Coding", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --f-fig:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); }.hero svg{ display:block; width:100%; height:auto }figure.fig{ margin:1rem 0; }.fig-frame{ overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background-color:var(--sheet);
+  background-image:linear-gradient(to right, var(--sheet) 30%, transparent), linear-gradient(to left, var(--sheet) 30%, transparent),
+    radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent);
+  background-position:left center, right center, left center, right center; background-repeat:no-repeat;
+  background-size:2rem 100%, 2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; min-width:var(--figmin, 34rem); height:auto; }svg text{ font-family:var(--f-fig); font-size:12px; fill:var(--ink) }svg .t-2{ fill:var(--ink-2) }svg .t-m{ fill:var(--mute) }svg .t-s{ font-size:10.5px }svg .t-b{ font-weight:700 }svg .t-num{ font-family:var(--f-mono); font-variant-numeric:tabular-nums }svg .t-alarm{ fill:var(--alarm) }svg .t-paper{ fill:var(--sheet) }svg .ln{ stroke:var(--ink); stroke-width:1.4; fill:none }svg .ln-2{ stroke:var(--ink-2); stroke-width:1.2; fill:none }svg .ln-alarm{ stroke:var(--alarm); stroke-width:1.8; fill:none }svg .dash{ stroke-dasharray:5 4 }svg .f-paper{ fill:var(--sheet) }svg .f-ink{ fill:var(--ink) }svg .f-alarm{ fill:var(--alarm) }svg .f-alarm-w{ fill:var(--alarm-w) }section.lecture-wrap{ content-visibility:auto; contain-intrinsic-size:auto 60000px }svg.pz-root{width:760px!important;height:286px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc lecture-wrap"><g class="pz-w fig"><g class="pz-w fig-frame"><svg aria-label="출간 뒤 무너진 기둥과 버틴 기둥: 2~17강에서 책이 기댄 연구 39개를 강마다 쌓은 점 그림. 무너짐 13, 약해짐 12, 갈림 7, 버팀 7. 1부(2~10강) 20개 중 무너짐 4개(20%), 2부(11~17강) 19개 중 무너짐 9개(약 47%)." class="pz-inner" height="100%" role="img" viewBox="0 0 760 286" width="100%" xmlns="http://www.w3.org/2000/svg">
+<!-- 범례와 판정별 합계 -->
+<rect class="f-alarm ln-alarm" height="14" rx="2" width="14" x="44" y="8"></rect>
+<text class="t-s" x="64" y="19">무너짐 <tspan class="t-num t-b">13</tspan></text>
+<rect class="f-alarm-w ln-alarm" height="14" rx="2" width="14" x="134" y="8"></rect>
+<text class="t-s" x="154" y="19">약해짐 <tspan class="t-num t-b">12</tspan></text>
+<rect class="f-paper ln dash" height="14" rx="2" width="14" x="224" y="8"></rect>
+<text class="t-s" x="244" y="19">갈림 <tspan class="t-num t-b">7</tspan></text>
+<rect class="f-ink ln" height="14" rx="2" width="14" x="300" y="8"></rect>
+<text class="t-s" x="320" y="19">버팀 <tspan class="t-num t-b">7</tspan></text>
+<circle class="f-paper ln-alarm" cx="383" cy="15" r="4"></circle>
+<text class="t-s" x="393" y="19">결정타가 출간 전 <tspan class="t-num t-b">7</tspan></text>
+<text class="t-s t-m" text-anchor="end" x="732" y="19">금 간 것 <tspan class="t-num t-b t-alarm">25/39</tspan> ≈ <tspan class="t-num t-b t-alarm">64%</tspan></text>
+<!-- 1부/2부 -->
+<text class="t-s t-b t-2" text-anchor="middle" x="237.5" y="44">1부 · 2~10강</text>
+<text class="t-s t-b t-2" text-anchor="middle" x="581.5" y="44">2부 · 11~17강</text>
+<line class="ln-2 dash" x1="431" x2="431" y1="32" y2="280"></line>
+<!-- 축 -->
+<line class="ln" x1="44" x2="732" y1="230" y2="230"></line>
+<text class="t-s t-m" text-anchor="middle" x="26" y="246">강</text>
+<rect class="f-alarm ln-alarm" height="40" rx="2" width="40" x="45.5" y="186"></rect>
+<text class="t-s t-b t-paper" text-anchor="middle" x="65.5" y="203">자아</text>
+<text class="t-s t-b t-paper" text-anchor="middle" x="65.5" y="217">고갈</text>
+<rect class="f-alarm-w ln-alarm" height="40" rx="2" width="40" x="45.5" y="142"></rect>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="65.5" y="159">공포</text>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="65.5" y="173">중추</text>
+<text class="t-s t-num t-2" text-anchor="middle" x="65.5" y="246">2</text>
+<rect class="f-alarm ln-alarm" height="40" rx="2" width="40" x="88.5" y="186"></rect>
+<text class="t-s t-b t-paper" text-anchor="middle" x="108.5" y="203">파워</text>
+<text class="t-s t-b t-paper" text-anchor="middle" x="108.5" y="217">포즈</text>
+<rect class="f-alarm-w ln-alarm" height="40" rx="2" width="40" x="88.5" y="142"></rect>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="108.5" y="159">펜</text>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="108.5" y="173">물기</text>
+<rect class="f-paper ln dash" height="40" rx="2" width="40" x="88.5" y="98"></rect>
+<text class="t-s t-b t-2" text-anchor="middle" x="108.5" y="115">눈</text>
+<text class="t-s t-b t-2" text-anchor="middle" x="108.5" y="129">그림</text>
+<rect class="f-ink ln" height="40" rx="2" width="40" x="88.5" y="54"></rect>
+<text class="t-s t-b t-paper" text-anchor="middle" x="108.5" y="71">38명</text>
+<text class="t-s t-b t-paper" text-anchor="middle" x="108.5" y="85">방관자</text>
+<text class="t-s t-num t-2" text-anchor="middle" x="108.5" y="246">3</text>
+<rect class="f-alarm ln-alarm" height="40" rx="2" width="40" x="131.5" y="186"></rect>
+<text class="t-s t-b t-paper" text-anchor="middle" x="151.5" y="203">옥시</text>
+<text class="t-s t-b t-paper" text-anchor="middle" x="151.5" y="217">신뢰</text>
+<rect class="f-alarm-w ln-alarm" height="40" rx="2" width="40" x="131.5" y="142"></rect>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="151.5" y="159">들쥐</text>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="151.5" y="173">수용체</text>
+<rect class="f-ink ln" height="40" rx="2" width="40" x="131.5" y="98"></rect>
+<text class="t-s t-b t-paper" text-anchor="middle" x="151.5" y="115">테스토</text>
+<text class="t-s t-b t-paper" text-anchor="middle" x="151.5" y="129">증폭기</text>
+<text class="t-s t-num t-2" text-anchor="middle" x="151.5" y="246">4</text>
+<rect class="f-paper ln dash" height="40" rx="2" width="40" x="174.5" y="186"></rect>
+<text class="t-s t-b t-2" text-anchor="middle" x="194.5" y="203">해마</text>
+<text class="t-s t-b t-2" text-anchor="middle" x="194.5" y="217">새뉴런</text>
+<text class="t-s t-num t-2" text-anchor="middle" x="194.5" y="246">5</text>
+<rect class="f-alarm-w ln-alarm" height="40" rx="2" width="40" x="217.5" y="186"></rect>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="237.5" y="203">25세</text>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="237.5" y="217">성숙</text>
+<rect class="f-alarm-w ln-alarm" height="40" rx="2" width="40" x="217.5" y="142"></rect>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="237.5" y="159">거절</text>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="237.5" y="173">=통증</text>
+<text class="t-s t-num t-2" text-anchor="middle" x="237.5" y="246">6</text>
+<rect class="f-alarm-w ln-alarm" height="40" rx="2" width="40" x="260.5" y="186"></rect>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="280.5" y="203">마시</text>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="280.5" y="217">멜로</text>
+<rect class="f-alarm-w ln-alarm" height="40" rx="2" width="40" x="260.5" y="142"></rect>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="280.5" y="159">미디어</text>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="280.5" y="173">폭력</text>
+<rect class="f-ink ln" height="40" rx="2" width="40" x="260.5" y="98"></rect>
+<text class="t-s t-b t-paper" text-anchor="middle" x="280.5" y="115">핥기</text>
+<text class="t-s t-b t-paper" text-anchor="middle" x="280.5" y="129">메틸화</text>
+<text class="t-s t-num t-2" text-anchor="middle" x="280.5" y="246">7</text>
+<rect class="f-alarm ln-alarm" height="40" rx="2" width="40" x="303.5" y="186"></rect>
+<text class="t-s t-b t-paper" text-anchor="middle" x="323.5" y="203">5-HTT</text>
+<text class="t-s t-b t-paper" text-anchor="middle" x="323.5" y="217">×우울</text>
+<rect class="f-ink ln" height="40" rx="2" width="40" x="303.5" y="142"></rect>
+<text class="t-s t-b t-paper" text-anchor="middle" x="323.5" y="159">MAOA</text>
+<text class="t-s t-b t-paper" text-anchor="middle" x="323.5" y="173">×학대</text>
+<text class="t-s t-num t-2" text-anchor="middle" x="323.5" y="246">8</text>
+<rect class="f-alarm-w ln-alarm" height="40" rx="2" width="40" x="346.5" y="186"></rect>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="366.5" y="203">명예</text>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="366.5" y="217">모욕</text>
+<text class="t-s t-num t-2" text-anchor="middle" x="366.5" y="246">9</text>
+<rect class="f-paper ln dash" height="40" rx="2" width="40" x="389.5" y="186"></rect>
+<text class="t-s t-b t-2" text-anchor="middle" x="409.5" y="203">다수준</text>
+<text class="t-s t-b t-2" text-anchor="middle" x="409.5" y="217">선택</text>
+<rect class="f-ink ln" height="40" rx="2" width="40" x="389.5" y="142"></rect>
+<text class="t-s t-b t-paper" text-anchor="middle" x="409.5" y="159">흡혈</text>
+<text class="t-s t-b t-paper" text-anchor="middle" x="409.5" y="173">박쥐</text>
+<text class="t-s t-num t-2" text-anchor="middle" x="409.5" y="246">10</text>
+<rect class="f-alarm ln-alarm" height="40" rx="2" width="40" x="432.5" y="186"></rect>
+<text class="t-s t-b t-paper" text-anchor="middle" x="452.5" y="203">혐오</text>
+<text class="t-s t-b t-paper" text-anchor="middle" x="452.5" y="217">점화</text>
+<rect class="f-alarm-w ln-alarm" height="40" rx="2" width="40" x="432.5" y="142"></rect>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="452.5" y="159">암묵</text>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="452.5" y="173">편향</text>
+<rect class="f-paper ln dash" height="40" rx="2" width="40" x="432.5" y="98"></rect>
+<text class="t-s t-b t-2" text-anchor="middle" x="452.5" y="115">접촉</text>
+<text class="t-s t-b t-2" text-anchor="middle" x="452.5" y="129">가설</text>
+<text class="t-s t-num t-2" text-anchor="middle" x="452.5" y="246">11</text>
+<rect class="f-alarm ln-alarm" height="40" rx="2" width="40" x="475.5" y="186"></rect>
+<text class="t-s t-b t-paper" text-anchor="middle" x="495.5" y="203">감옥</text>
+<text class="t-s t-b t-paper" text-anchor="middle" x="495.5" y="217">실험</text>
+<rect class="f-alarm ln-alarm" height="40" rx="2" width="40" x="475.5" y="142"></rect>
+<text class="t-s t-b t-paper" text-anchor="middle" x="495.5" y="159">보수</text>
+<text class="t-s t-b t-paper" text-anchor="middle" x="495.5" y="173">생리</text>
+<rect class="f-alarm-w ln-alarm" height="40" rx="2" width="40" x="475.5" y="98"></rect>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="495.5" y="115">밀그램</text>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="495.5" y="129">복종</text>
+<rect class="f-paper ln dash" height="40" rx="2" width="40" x="475.5" y="54"></rect>
+<text class="t-s t-b t-2" text-anchor="middle" x="495.5" y="71">배고픈</text>
+<text class="t-s t-b t-2" text-anchor="middle" x="495.5" y="85">판사</text>
+<text class="t-s t-num t-2" text-anchor="middle" x="495.5" y="246">12</text>
+<rect class="f-alarm ln-alarm" height="40" rx="2" width="40" x="518.5" y="186"></rect>
+<text class="t-s t-b t-paper" text-anchor="middle" x="538.5" y="203">아기</text>
+<text class="t-s t-b t-paper" text-anchor="middle" x="538.5" y="217">선악</text>
+<rect class="f-alarm ln-alarm" height="40" rx="2" width="40" x="518.5" y="142"></rect>
+<text class="t-s t-b t-paper" text-anchor="middle" x="538.5" y="159">은행원</text>
+<text class="t-s t-b t-paper" text-anchor="middle" x="538.5" y="173">점화</text>
+<rect class="f-paper ln dash" height="40" rx="2" width="40" x="518.5" y="98"></rect>
+<text class="t-s t-b t-2" text-anchor="middle" x="538.5" y="115">직관</text>
+<text class="t-s t-b t-2" text-anchor="middle" x="538.5" y="129">협력</text>
+<text class="t-s t-num t-2" text-anchor="middle" x="538.5" y="246">13</text>
+<rect class="f-alarm ln-alarm" height="40" rx="2" width="40" x="561.5" y="186"></rect>
+<text class="t-s t-b t-paper" text-anchor="middle" x="581.5" y="203">부자</text>
+<text class="t-s t-b t-paper" text-anchor="middle" x="581.5" y="217">공감</text>
+<rect class="f-ink ln" height="40" rx="2" width="40" x="561.5" y="142"></rect>
+<text class="t-s t-b t-paper" text-anchor="middle" x="581.5" y="159">거울</text>
+<text class="t-s t-b t-paper" text-anchor="middle" x="581.5" y="173">뉴런</text>
+<rect class="f-ink ln" height="40" rx="2" width="40" x="561.5" y="98"></rect>
+<text class="t-s t-b t-paper" text-anchor="middle" x="581.5" y="115">남에게</text>
+<text class="t-s t-b t-paper" text-anchor="middle" x="581.5" y="129">쓰기</text>
+<text class="t-s t-num t-2" text-anchor="middle" x="581.5" y="246">14</text>
+<rect class="f-alarm ln-alarm" height="40" rx="2" width="40" x="604.5" y="186"></rect>
+<text class="t-s t-b t-paper" text-anchor="middle" x="624.5" y="203">맥베스</text>
+<text class="t-s t-b t-paper" text-anchor="middle" x="624.5" y="217">효과</text>
+<rect class="f-alarm ln-alarm" height="40" rx="2" width="40" x="604.5" y="142"></rect>
+<text class="t-s t-b t-paper" text-anchor="middle" x="624.5" y="159">따뜻한</text>
+<text class="t-s t-b t-paper" text-anchor="middle" x="624.5" y="173">커피</text>
+<rect class="f-paper ln dash" height="40" rx="2" width="40" x="604.5" y="98"></rect>
+<text class="t-s t-b t-2" text-anchor="middle" x="624.5" y="115">클립</text>
+<text class="t-s t-b t-2" text-anchor="middle" x="624.5" y="129">보드</text>
+<text class="t-s t-num t-2" text-anchor="middle" x="624.5" y="246">15</text>
+<rect class="f-alarm-w ln-alarm" height="40" rx="2" width="40" x="647.5" y="186"></rect>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="667.5" y="203">리벳</text>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="667.5" y="217">전위</text>
+<text class="t-s t-num t-2" text-anchor="middle" x="667.5" y="246">16</text>
+<rect class="f-alarm ln-alarm" height="40" rx="2" width="40" x="690.5" y="186"></rect>
+<text class="t-s t-b t-paper" text-anchor="middle" x="710.5" y="203">발포율</text>
+<text class="t-s t-b t-paper" text-anchor="middle" x="710.5" y="217">15~20</text>
+<rect class="f-alarm-w ln-alarm" height="40" rx="2" width="40" x="690.5" y="142"></rect>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="710.5" y="159">드론</text>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="710.5" y="173">PTSD</text>
+<text class="t-s t-num t-2" text-anchor="middle" x="710.5" y="246">17</text>
+<circle class="f-paper ln-alarm" cx="85.5" cy="186" r="4"></circle>
+<circle class="f-paper ln-alarm" cx="128.5" cy="186" r="4"></circle>
+<circle class="f-paper ln-alarm" cx="472.5" cy="186" r="4"></circle>
+<circle class="f-paper ln-alarm" cx="601.5" cy="186" r="4"></circle>
+<circle class="f-paper ln-alarm" cx="644.5" cy="186" r="4"></circle>
+<circle class="f-paper ln-alarm" cx="644.5" cy="142" r="4"></circle>
+<circle class="f-paper ln-alarm" cx="730.5" cy="186" r="4"></circle>
+<!-- 1부·2부 요약 -->
+<text class="t-s" text-anchor="middle" x="237.5" y="272">20개 중 무너짐 <tspan class="t-num t-b t-alarm">4</tspan> → <tspan class="t-num">20%</tspan></text>
+<text class="t-s" text-anchor="middle" x="581.5" y="272">19개 중 무너짐 <tspan class="t-num t-b t-alarm">9</tspan> → 약 <tspan class="t-num">47%</tspan> · <tspan class="t-b t-alarm">2.4배</tspan></text>
+</svg></g></g></g></svg>

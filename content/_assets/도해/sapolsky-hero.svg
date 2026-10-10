@@ -1,0 +1,305 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 470" width="960" height="470" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#F1F3F1; --sheet:#FAFBF9; --ink:#1B2124; --ink-2:#3A4549; --mute:#5E6B71;
+  --grid:#C9D4D1; --grid-2:#E1E8E5; --rule:#B6C2C0;
+  --neuro:#3546A8; --soma:#8F5508; --life:#256B41; --deep:#8A4429; --alarm:#B01E4C;
+  --neuro-w:color-mix(in srgb, var(--neuro) 13%, var(--sheet));
+  --soma-w:color-mix(in srgb, var(--soma) 14%, var(--sheet));
+  --life-w:color-mix(in srgb, var(--life) 13%, var(--sheet));
+  --deep-w:color-mix(in srgb, var(--deep) 13%, var(--sheet));
+  --alarm-w:color-mix(in srgb, var(--alarm) 11%, var(--sheet));
+  --ink-w:color-mix(in srgb, var(--ink) 8%, var(--sheet));
+  --shadow:color-mix(in srgb, var(--ink) 16%, transparent);
+  --f-display:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --f-body:"Literata", "Noto Serif KR", "AppleMyungjo", "Batang", serif;
+  --f-label:"Sofia Sans Condensed", "Gothic A1", "Arial Narrow", sans-serif;
+  --f-mono:"DM Mono", "Nanum Gothic Coding", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --f-fig:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.shell{ max-width:var(--shell); margin-inline:auto; padding-inline:var(--pad); }.hero{ margin-block:.6rem 1.4rem }.hero-frame{ background:var(--sheet); border:1px solid var(--rule); }.hero svg{ display:block; width:100%; height:auto }.hero .wide{ display:none }@media (min-width:46em){.hero .wide{ display:block }}.hero a:hover .hit, .hero a:focus-visible .hit{ fill:var(--ink-w) }.fig-frame svg{ display:block; width:100%; min-width:var(--figmin, 34rem); height:auto; }svg text{ font-family:var(--f-fig); font-size:12px; fill:var(--ink) }svg .t-2{ fill:var(--ink-2) }svg .t-m{ fill:var(--mute) }svg .t-s{ font-size:10.5px }svg .t-l{ font-size:14px }svg .t-b{ font-weight:700 }svg .t-k{ font-weight:900 }svg .t-neuro{ fill:var(--neuro) }svg .t-soma{ fill:var(--soma) }svg .t-life{ fill:var(--life) }svg .t-deep{ fill:var(--deep) }svg .halo{ paint-order:stroke; stroke:var(--sheet); stroke-width:3.5px; stroke-linejoin:round }svg .ln{ stroke:var(--ink); stroke-width:1.4; fill:none }svg .ln-g{ stroke:var(--grid); stroke-width:1; fill:none }svg .ln-g2{ stroke:var(--grid-2); stroke-width:1; fill:none }svg .ln-neuro{ stroke:var(--neuro); stroke-width:1.8; fill:none }svg .ln-soma{ stroke:var(--soma); stroke-width:1.8; fill:none }svg .ln-life{ stroke:var(--life); stroke-width:1.8; fill:none }svg .ln-deep{ stroke:var(--deep); stroke-width:1.8; fill:none }svg .ln-alarm{ stroke:var(--alarm); stroke-width:1.8; fill:none }svg .w-thin{ stroke-width:1 }svg .w-thick{ stroke-width:2.8 }svg .w-heavy{ stroke-width:4 }svg .f-ink{ fill:var(--ink) }svg .f-neuro{ fill:var(--neuro) }svg .f-soma{ fill:var(--soma) }svg .f-life{ fill:var(--life) }svg .f-deep{ fill:var(--deep) }svg .hit{ fill:transparent }svg .op-50{ opacity:.5 }.strip.wide{ display:none }@media (min-width:40em){.strip.wide{ display:block }}svg.pz-root{width:960px!important;height:470px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w shell hero"><g class="pz-w hero-frame"><svg aria-label="대수 눈금 시간 사다리: 오른쪽 끝의 행동에서 왼쪽으로 1초 전, 몇 분, 몇 시간, 며칠, 몇 달, 청소년기, 요람과 자궁, 수정란, 수백 년, 수백만 년 전까지 열네 자릿수를 거슬러 오르는 2~10강의 자리와, 사다리 전체를 오르내리는 11~17강" class="wide pz-inner" height="100%" role="img" viewBox="0 0 960 470" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="herow-ah" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<line class="ln-g" x1="872.0" x2="872.0" y1="46" y2="300"></line>
+<line class="ln-g2" x1="855.8" x2="855.8" y1="46" y2="300"></line>
+<line class="ln-g2" x1="846.3" x2="846.3" y1="46" y2="300"></line>
+<line class="ln-g2" x1="839.5" x2="839.5" y1="46" y2="300"></line>
+<line class="ln-g2" x1="834.3" x2="834.3" y1="46" y2="300"></line>
+<line class="ln-g2" x1="830.0" x2="830.0" y1="46" y2="300"></line>
+<line class="ln-g2" x1="826.4" x2="826.4" y1="46" y2="300"></line>
+<line class="ln-g2" x1="823.3" x2="823.3" y1="46" y2="300"></line>
+<line class="ln-g2" x1="820.5" x2="820.5" y1="46" y2="300"></line>
+<line class="ln-g" x1="818.1" x2="818.1" y1="46" y2="300"></line>
+<line class="ln-g2" x1="801.8" x2="801.8" y1="46" y2="300"></line>
+<line class="ln-g2" x1="792.3" x2="792.3" y1="46" y2="300"></line>
+<line class="ln-g2" x1="785.6" x2="785.6" y1="46" y2="300"></line>
+<line class="ln-g2" x1="780.4" x2="780.4" y1="46" y2="300"></line>
+<line class="ln-g2" x1="776.1" x2="776.1" y1="46" y2="300"></line>
+<line class="ln-g2" x1="772.5" x2="772.5" y1="46" y2="300"></line>
+<line class="ln-g2" x1="769.4" x2="769.4" y1="46" y2="300"></line>
+<line class="ln-g2" x1="766.6" x2="766.6" y1="46" y2="300"></line>
+<line class="ln-g" x1="764.1" x2="764.1" y1="46" y2="300"></line>
+<line class="ln-g2" x1="747.9" x2="747.9" y1="46" y2="300"></line>
+<line class="ln-g2" x1="738.4" x2="738.4" y1="46" y2="300"></line>
+<line class="ln-g2" x1="731.7" x2="731.7" y1="46" y2="300"></line>
+<line class="ln-g2" x1="726.4" x2="726.4" y1="46" y2="300"></line>
+<line class="ln-g2" x1="722.2" x2="722.2" y1="46" y2="300"></line>
+<line class="ln-g2" x1="718.5" x2="718.5" y1="46" y2="300"></line>
+<line class="ln-g2" x1="715.4" x2="715.4" y1="46" y2="300"></line>
+<line class="ln-g2" x1="712.7" x2="712.7" y1="46" y2="300"></line>
+<line class="ln-g" x1="710.2" x2="710.2" y1="46" y2="300"></line>
+<line class="ln-g2" x1="694.0" x2="694.0" y1="46" y2="300"></line>
+<line class="ln-g2" x1="684.5" x2="684.5" y1="46" y2="300"></line>
+<line class="ln-g2" x1="677.7" x2="677.7" y1="46" y2="300"></line>
+<line class="ln-g2" x1="672.5" x2="672.5" y1="46" y2="300"></line>
+<line class="ln-g2" x1="668.2" x2="668.2" y1="46" y2="300"></line>
+<line class="ln-g2" x1="664.6" x2="664.6" y1="46" y2="300"></line>
+<line class="ln-g2" x1="661.5" x2="661.5" y1="46" y2="300"></line>
+<line class="ln-g2" x1="658.7" x2="658.7" y1="46" y2="300"></line>
+<line class="ln-g" x1="656.3" x2="656.3" y1="46" y2="300"></line>
+<line class="ln-g2" x1="640.0" x2="640.0" y1="46" y2="300"></line>
+<line class="ln-g2" x1="630.5" x2="630.5" y1="46" y2="300"></line>
+<line class="ln-g2" x1="623.8" x2="623.8" y1="46" y2="300"></line>
+<line class="ln-g2" x1="618.6" x2="618.6" y1="46" y2="300"></line>
+<line class="ln-g2" x1="614.3" x2="614.3" y1="46" y2="300"></line>
+<line class="ln-g2" x1="610.7" x2="610.7" y1="46" y2="300"></line>
+<line class="ln-g2" x1="607.5" x2="607.5" y1="46" y2="300"></line>
+<line class="ln-g2" x1="604.8" x2="604.8" y1="46" y2="300"></line>
+<line class="ln-g" x1="602.3" x2="602.3" y1="46" y2="300"></line>
+<line class="ln-g2" x1="586.1" x2="586.1" y1="46" y2="300"></line>
+<line class="ln-g2" x1="576.6" x2="576.6" y1="46" y2="300"></line>
+<line class="ln-g2" x1="569.9" x2="569.9" y1="46" y2="300"></line>
+<line class="ln-g2" x1="564.6" x2="564.6" y1="46" y2="300"></line>
+<line class="ln-g2" x1="560.4" x2="560.4" y1="46" y2="300"></line>
+<line class="ln-g2" x1="556.7" x2="556.7" y1="46" y2="300"></line>
+<line class="ln-g2" x1="553.6" x2="553.6" y1="46" y2="300"></line>
+<line class="ln-g2" x1="550.9" x2="550.9" y1="46" y2="300"></line>
+<line class="ln-g" x1="548.4" x2="548.4" y1="46" y2="300"></line>
+<line class="ln-g2" x1="532.2" x2="532.2" y1="46" y2="300"></line>
+<line class="ln-g2" x1="522.7" x2="522.7" y1="46" y2="300"></line>
+<line class="ln-g2" x1="515.9" x2="515.9" y1="46" y2="300"></line>
+<line class="ln-g2" x1="510.7" x2="510.7" y1="46" y2="300"></line>
+<line class="ln-g2" x1="506.4" x2="506.4" y1="46" y2="300"></line>
+<line class="ln-g2" x1="502.8" x2="502.8" y1="46" y2="300"></line>
+<line class="ln-g2" x1="499.7" x2="499.7" y1="46" y2="300"></line>
+<line class="ln-g2" x1="496.9" x2="496.9" y1="46" y2="300"></line>
+<line class="ln-g" x1="494.5" x2="494.5" y1="46" y2="300"></line>
+<line class="ln-g2" x1="478.2" x2="478.2" y1="46" y2="300"></line>
+<line class="ln-g2" x1="468.7" x2="468.7" y1="46" y2="300"></line>
+<line class="ln-g2" x1="462.0" x2="462.0" y1="46" y2="300"></line>
+<line class="ln-g2" x1="456.8" x2="456.8" y1="46" y2="300"></line>
+<line class="ln-g2" x1="452.5" x2="452.5" y1="46" y2="300"></line>
+<line class="ln-g2" x1="448.9" x2="448.9" y1="46" y2="300"></line>
+<line class="ln-g2" x1="445.7" x2="445.7" y1="46" y2="300"></line>
+<line class="ln-g2" x1="443.0" x2="443.0" y1="46" y2="300"></line>
+<line class="ln-g" x1="440.5" x2="440.5" y1="46" y2="300"></line>
+<line class="ln-g2" x1="424.3" x2="424.3" y1="46" y2="300"></line>
+<line class="ln-g2" x1="414.8" x2="414.8" y1="46" y2="300"></line>
+<line class="ln-g2" x1="408.0" x2="408.0" y1="46" y2="300"></line>
+<line class="ln-g2" x1="402.8" x2="402.8" y1="46" y2="300"></line>
+<line class="ln-g2" x1="398.5" x2="398.5" y1="46" y2="300"></line>
+<line class="ln-g2" x1="394.9" x2="394.9" y1="46" y2="300"></line>
+<line class="ln-g2" x1="391.8" x2="391.8" y1="46" y2="300"></line>
+<line class="ln-g2" x1="389.0" x2="389.0" y1="46" y2="300"></line>
+<line class="ln-g" x1="386.6" x2="386.6" y1="46" y2="300"></line>
+<line class="ln-g2" x1="370.3" x2="370.3" y1="46" y2="300"></line>
+<line class="ln-g2" x1="360.8" x2="360.8" y1="46" y2="300"></line>
+<line class="ln-g2" x1="354.1" x2="354.1" y1="46" y2="300"></line>
+<line class="ln-g2" x1="348.9" x2="348.9" y1="46" y2="300"></line>
+<line class="ln-g2" x1="344.6" x2="344.6" y1="46" y2="300"></line>
+<line class="ln-g2" x1="341.0" x2="341.0" y1="46" y2="300"></line>
+<line class="ln-g2" x1="337.9" x2="337.9" y1="46" y2="300"></line>
+<line class="ln-g2" x1="335.1" x2="335.1" y1="46" y2="300"></line>
+<line class="ln-g" x1="332.6" x2="332.6" y1="46" y2="300"></line>
+<line class="ln-g2" x1="316.4" x2="316.4" y1="46" y2="300"></line>
+<line class="ln-g2" x1="306.9" x2="306.9" y1="46" y2="300"></line>
+<line class="ln-g2" x1="300.2" x2="300.2" y1="46" y2="300"></line>
+<line class="ln-g2" x1="294.9" x2="294.9" y1="46" y2="300"></line>
+<line class="ln-g2" x1="290.7" x2="290.7" y1="46" y2="300"></line>
+<line class="ln-g2" x1="287.1" x2="287.1" y1="46" y2="300"></line>
+<line class="ln-g2" x1="283.9" x2="283.9" y1="46" y2="300"></line>
+<line class="ln-g2" x1="281.2" x2="281.2" y1="46" y2="300"></line>
+<line class="ln-g" x1="278.7" x2="278.7" y1="46" y2="300"></line>
+<line class="ln-g2" x1="262.5" x2="262.5" y1="46" y2="300"></line>
+<line class="ln-g2" x1="253.0" x2="253.0" y1="46" y2="300"></line>
+<line class="ln-g2" x1="246.2" x2="246.2" y1="46" y2="300"></line>
+<line class="ln-g2" x1="241.0" x2="241.0" y1="46" y2="300"></line>
+<line class="ln-g2" x1="236.7" x2="236.7" y1="46" y2="300"></line>
+<line class="ln-g2" x1="233.1" x2="233.1" y1="46" y2="300"></line>
+<line class="ln-g2" x1="230.0" x2="230.0" y1="46" y2="300"></line>
+<line class="ln-g2" x1="227.2" x2="227.2" y1="46" y2="300"></line>
+<line class="ln-g" x1="224.8" x2="224.8" y1="46" y2="300"></line>
+<line class="ln-g2" x1="208.5" x2="208.5" y1="46" y2="300"></line>
+<line class="ln-g2" x1="199.0" x2="199.0" y1="46" y2="300"></line>
+<line class="ln-g2" x1="192.3" x2="192.3" y1="46" y2="300"></line>
+<line class="ln-g2" x1="187.1" x2="187.1" y1="46" y2="300"></line>
+<line class="ln-g2" x1="182.8" x2="182.8" y1="46" y2="300"></line>
+<line class="ln-g2" x1="179.2" x2="179.2" y1="46" y2="300"></line>
+<line class="ln-g2" x1="176.1" x2="176.1" y1="46" y2="300"></line>
+<line class="ln-g2" x1="173.3" x2="173.3" y1="46" y2="300"></line>
+<line class="ln-g" x1="170.8" x2="170.8" y1="46" y2="300"></line>
+<line class="ln-g2" x1="154.6" x2="154.6" y1="46" y2="300"></line>
+<line class="ln-g2" x1="145.1" x2="145.1" y1="46" y2="300"></line>
+<line class="ln-g2" x1="138.4" x2="138.4" y1="46" y2="300"></line>
+<line class="ln-g2" x1="133.1" x2="133.1" y1="46" y2="300"></line>
+<line class="ln-g2" x1="128.9" x2="128.9" y1="46" y2="300"></line>
+<line class="ln-g2" x1="125.3" x2="125.3" y1="46" y2="300"></line>
+<line class="ln-g2" x1="122.1" x2="122.1" y1="46" y2="300"></line>
+<line class="ln-g2" x1="119.4" x2="119.4" y1="46" y2="300"></line>
+<line class="ln-g" x1="116.9" x2="116.9" y1="46" y2="300"></line>
+<line class="ln-g2" x1="100.7" x2="100.7" y1="46" y2="300"></line>
+<line class="ln-g2" x1="91.2" x2="91.2" y1="46" y2="300"></line>
+<line class="ln-g2" x1="84.4" x2="84.4" y1="46" y2="300"></line>
+<line class="ln-g2" x1="79.2" x2="79.2" y1="46" y2="300"></line>
+<line class="ln-g2" x1="74.9" x2="74.9" y1="46" y2="300"></line>
+<line class="ln-g2" x1="71.3" x2="71.3" y1="46" y2="300"></line>
+<line class="ln-g2" x1="68.2" x2="68.2" y1="46" y2="300"></line>
+<line class="ln-g2" x1="65.4" x2="65.4" y1="46" y2="300"></line>
+<line class="ln-g" x1="63.0" x2="63.0" y1="46" y2="300"></line>
+<line class="ln-g2" x1="46.7" x2="46.7" y1="46" y2="300"></line>
+<line class="ln-g2" x1="37.2" x2="37.2" y1="46" y2="300"></line>
+<line class="ln w-thick" marker-end="url(#herow-ah)" x1="36" x2="912" y1="236" y2="236"></line>
+<line class="ln-alarm w-heavy" x1="922" x2="922" y1="202" y2="254"></line>
+<text class="t-k t-l" text-anchor="middle" x="922" y="194">행동</text>
+<text class="t-s t-m" text-anchor="middle" x="922" y="270">0초</text>
+<line class="ln" x1="818.1" x2="818.1" y1="236" y2="243"></line>
+<text class="t-2" text-anchor="middle" x="818.1" y="259">1초</text>
+<line class="ln" x1="722.2" x2="722.2" y1="236" y2="243"></line>
+<text class="t-2" text-anchor="middle" x="722.2" y="259">1분</text>
+<line class="ln" x1="626.3" x2="626.3" y1="236" y2="243"></line>
+<text class="t-2" text-anchor="middle" x="626.3" y="259">1시간</text>
+<line class="ln" x1="551.8" x2="551.8" y1="236" y2="243"></line>
+<text class="t-2" text-anchor="middle" x="551.8" y="259">1일</text>
+<line class="ln" x1="471.8" x2="471.8" y1="236" y2="243"></line>
+<text class="t-2" text-anchor="middle" x="471.8" y="259">1달</text>
+<line class="ln" x1="413.6" x2="413.6" y1="236" y2="243"></line>
+<text class="t-2" text-anchor="middle" x="413.6" y="259">1년</text>
+<line class="ln" x1="359.7" x2="359.7" y1="236" y2="243"></line>
+<text class="t-2" text-anchor="middle" x="359.7" y="259">10년</text>
+<line class="ln" x1="305.7" x2="305.7" y1="236" y2="243"></line>
+<text class="t-2" text-anchor="middle" x="305.7" y="259">100년</text>
+<line class="ln" x1="251.8" x2="251.8" y1="236" y2="243"></line>
+<text class="t-2" text-anchor="middle" x="251.8" y="259">1천 년</text>
+<line class="ln" x1="197.9" x2="197.9" y1="236" y2="243"></line>
+<text class="t-2" text-anchor="middle" x="197.9" y="259">1만 년</text>
+<line class="ln" x1="143.9" x2="143.9" y1="236" y2="243"></line>
+<text class="t-2" text-anchor="middle" x="143.9" y="259">10만 년</text>
+<line class="ln" x1="90.0" x2="90.0" y1="236" y2="243"></line>
+<text class="t-2" text-anchor="middle" x="90.0" y="259">100만 년</text>
+<text class="t-s t-m" x="36" y="280">← 더 먼 과거</text>
+<text class="t-s t-m" text-anchor="end" x="872" y="280">눈금 하나 = 10배 · 열네 자릿수</text>
+<a aria-label="2강 1초 전" href="#L02">
+<rect class="hit" height="34" width="140" x="810.0" y="54"></rect>
+<rect class="f-neuro" height="18" width="59.6" x="811.2" y="227"></rect>
+<line class="ln-neuro w-thin" x1="841.0" x2="841.0" y1="226" y2="86"></line>
+<line class="ln-neuro w-thin" x1="841.0" x2="902.0" y1="86" y2="86"></line>
+<text class="t-l t-b t-neuro halo" text-anchor="end" x="902.0" y="78">2 1초 전</text>
+</a>
+<a aria-label="3강 몇 초~몇 분 전" href="#L03">
+<rect class="hit" height="34" width="140" x="676.6" y="106"></rect>
+<rect class="f-neuro" height="18" width="124.3" x="684.4" y="227"></rect>
+<line class="ln-neuro w-thin" x1="746.6" x2="746.6" y1="226" y2="138"></line>
+<text class="t-l t-b t-neuro halo" text-anchor="middle" x="746.6" y="130">3 몇 초~몇 분 전</text>
+</a>
+<a aria-label="4강 몇 시간~며칠 전" href="#L04">
+<rect class="hit" height="34" width="140" x="508.1" y="54"></rect>
+<rect class="f-soma" height="18" width="110.9" x="522.6" y="227"></rect>
+<line class="ln-soma w-thin" x1="578.1" x2="578.1" y1="226" y2="86"></line>
+<text class="t-l t-b t-soma halo" text-anchor="middle" x="578.1" y="78">4 몇 시간~며칠 전</text>
+</a>
+<a aria-label="5강 며칠~몇 달 전" href="#L05">
+<rect class="hit" height="34" width="140" x="411.0" y="106"></rect>
+<rect class="f-soma" height="18" width="100.1" x="430.9" y="227"></rect>
+<line class="ln-soma w-thin" x1="481.0" x2="481.0" y1="226" y2="138"></line>
+<text class="t-l t-b t-soma halo" text-anchor="middle" x="481.0" y="130">5 며칠~몇 달 전</text>
+</a>
+<a aria-label="6강 청소년기" href="#L06">
+<rect class="hit" height="34" width="140" x="344.2" y="54"></rect>
+<rect class="f-life" height="18" width="10.0" x="339.2" y="227"></rect>
+<line class="ln-life w-thin" x1="344.2" x2="344.2" y1="226" y2="86"></line>
+<line class="ln-life w-thin" x1="344.2" x2="348.2" y1="86" y2="86"></line>
+<text class="t-l t-b t-life halo" text-anchor="start" x="348.2" y="78">6 청소년기</text>
+</a>
+<a aria-label="7강 요람·자궁" href="#L07">
+<rect class="hit" height="34" width="140" x="264.3" y="106"></rect>
+<rect class="f-life" height="18" width="5.2" x="331.7" y="227"></rect>
+<line class="ln-life w-thin" x1="334.3" x2="334.3" y1="226" y2="138"></line>
+<text class="t-l t-b t-life halo" text-anchor="middle" x="334.3" y="130">7 요람·자궁</text>
+</a>
+<a aria-label="8강 수정란" href="#L08">
+<rect class="hit" height="34" width="140" x="255.8" y="158"></rect>
+<rect class="f-life" height="18" width="2.5" x="330.1" y="227"></rect>
+<line class="ln-life w-thin" x1="329.8" x2="329.8" y1="226" y2="190"></line>
+<line class="ln-life w-thin" x1="325.8" x2="329.8" y1="190" y2="190"></line>
+<text class="t-l t-b t-life halo" text-anchor="end" x="325.8" y="182">8 수정란</text>
+</a>
+<a aria-label="9강 수백~수천 년 전" href="#L09">
+<rect class="hit" height="34" width="140" x="197.8" y="54"></rect>
+<rect class="f-deep" height="18" width="105.5" x="199.0" y="227"></rect>
+<line class="ln-deep w-thin" x1="251.7" x2="251.7" y1="226" y2="86"></line>
+<line class="ln-deep w-thin" x1="251.7" x2="311.7" y1="86" y2="86"></line>
+<text class="t-l t-b t-deep halo" text-anchor="end" x="311.7" y="78">9 수백~수천 년 전</text>
+</a>
+<a aria-label="10강 행동의 진화" href="#L10">
+<rect class="hit" height="34" width="140" x="36.0" y="106"></rect>
+<rect class="f-deep" height="18" width="159.4" x="37.2" y="227"></rect>
+<line class="ln-deep w-thin" x1="116.9" x2="116.9" y1="226" y2="138"></line>
+<text class="t-l t-b t-deep halo" text-anchor="middle" x="116.9" y="130">10 행동의 진화</text>
+</a>
+<text class="t-s t-m" x="36" y="316">11~17강은 한 시간 척도에 머물지 않고 사다리 전체를 오르내린다</text>
+<a aria-label="11강 우리와 그들" href="#L11"><rect class="hit" height="18" width="906" x="36" y="322"></rect>
+<text class="t-b" x="36" y="337">11 우리와 그들</text>
+<line class="ln-deep w-thick op-50" x1="212.0" x2="305.7" y1="332" y2="332"></line>
+<line class="ln-life w-thick op-50" x1="311.1" x2="354.2" y1="332" y2="332"></line>
+<line class="ln-soma w-thick op-50" x1="429.7" x2="634.7" y1="332" y2="332"></line>
+<line class="ln-neuro w-thick op-50" x1="683.2" x2="872.0" y1="332" y2="332"></line>
+</a>
+<a aria-label="12강 위계, 복종, 저항" href="#L12"><rect class="hit" height="18" width="906" x="36" y="341"></rect>
+<text class="t-b" x="36" y="356">12 위계, 복종, 저항</text>
+<line class="ln-deep w-thick op-50" x1="212.0" x2="305.7" y1="351" y2="351"></line>
+<line class="ln-life w-thick op-50" x1="311.1" x2="354.2" y1="351" y2="351"></line>
+<line class="ln-soma w-thick op-50" x1="429.7" x2="634.7" y1="351" y2="351"></line>
+<line class="ln-neuro w-thick op-50" x1="683.2" x2="872.0" y1="351" y2="351"></line>
+</a>
+<a aria-label="13강 도덕성" href="#L13"><rect class="hit" height="18" width="906" x="36" y="360"></rect>
+<text class="t-b" x="36" y="375">13 도덕성</text>
+<line class="ln-deep w-thick op-50" x1="212.0" x2="305.7" y1="370" y2="370"></line>
+<line class="ln-life w-thick op-50" x1="311.1" x2="354.2" y1="370" y2="370"></line>
+<line class="ln-soma w-thick op-50" x1="429.7" x2="634.7" y1="370" y2="370"></line>
+<line class="ln-neuro w-thick op-50" x1="683.2" x2="872.0" y1="370" y2="370"></line>
+</a>
+<a aria-label="14강 타인의 고통" href="#L14"><rect class="hit" height="18" width="906" x="36" y="379"></rect>
+<text class="t-b" x="36" y="394">14 타인의 고통</text>
+<line class="ln-deep w-thick op-50" x1="212.0" x2="305.7" y1="389" y2="389"></line>
+<line class="ln-life w-thick op-50" x1="311.1" x2="354.2" y1="389" y2="389"></line>
+<line class="ln-soma w-thick op-50" x1="429.7" x2="634.7" y1="389" y2="389"></line>
+<line class="ln-neuro w-thick op-50" x1="683.2" x2="872.0" y1="389" y2="389"></line>
+</a>
+<a aria-label="15강 살인을 부르는 메타포" href="#L15"><rect class="hit" height="18" width="906" x="36" y="398"></rect>
+<text class="t-b" x="36" y="413">15 살인을 부르는 메타포</text>
+<line class="ln-deep w-thick op-50" x1="212.0" x2="305.7" y1="408" y2="408"></line>
+<line class="ln-life w-thick op-50" x1="311.1" x2="354.2" y1="408" y2="408"></line>
+<line class="ln-soma w-thick op-50" x1="429.7" x2="634.7" y1="408" y2="408"></line>
+<line class="ln-neuro w-thick op-50" x1="683.2" x2="872.0" y1="408" y2="408"></line>
+</a>
+<a aria-label="16강 형사사법과 자유의지" href="#L16"><rect class="hit" height="18" width="906" x="36" y="417"></rect>
+<text class="t-b" x="36" y="432">16 형사사법과 자유의지</text>
+<line class="ln-deep w-thick op-50" x1="212.0" x2="305.7" y1="427" y2="427"></line>
+<line class="ln-life w-thick op-50" x1="311.1" x2="354.2" y1="427" y2="427"></line>
+<line class="ln-soma w-thick op-50" x1="429.7" x2="634.7" y1="427" y2="427"></line>
+<line class="ln-neuro w-thick op-50" x1="683.2" x2="872.0" y1="427" y2="427"></line>
+</a>
+<a aria-label="17강 전쟁과 평화" href="#L17"><rect class="hit" height="18" width="906" x="36" y="436"></rect>
+<text class="t-b" x="36" y="451">17 전쟁과 평화</text>
+<line class="ln-deep w-thick op-50" x1="212.0" x2="305.7" y1="446" y2="446"></line>
+<line class="ln-life w-thick op-50" x1="311.1" x2="354.2" y1="446" y2="446"></line>
+<line class="ln-soma w-thick op-50" x1="429.7" x2="634.7" y1="446" y2="446"></line>
+<line class="ln-neuro w-thick op-50" x1="683.2" x2="872.0" y1="446" y2="446"></line>
+</a>
+</svg></g></g></svg>

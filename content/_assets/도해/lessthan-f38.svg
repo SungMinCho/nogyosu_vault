@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 880 390" width="880" height="390" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#ECEAF0; --panel:#F7F6F9; --ink:#1D1A26; --muted:#5B5668; --rule:#C9C5D2; --rule-2:#DCD9E2;
+  --red:#B42318;   --red-fill:#F3D3CE;
+  --flesh:#995532; --flesh-fill:#ECCFBC;
+  --cob:#2B4A9B;   --cob-fill:#D3DBF1;
+  --verd:#1F6F62;  --verd-fill:#CDE7E1;
+  --void:#17141F;  --on-void:#F2EEF7;
+  --display-ko:"Hahmlet","Noto Serif KR","Noto Serif CJK KR",serif;
+  --body:"Noto Serif KR","Noto Serif CJK KR","Apple SD Gothic Neo",serif;
+  --display-la:"GFS Didot","Didot","Bodoni 72","Noto Serif",serif;
+  --sans:"Noto Sans KR","Noto Sans CJK KR","Apple SD Gothic Neo",system-ui,sans-serif;
+  --mono:"Red Hat Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }svg.fig{display:block;width:100%;height:auto;font-family:var(--sans);overflow:visible}svg.fig text{font-family:var(--sans);font-size:14px;fill:var(--ink)}svg.fig .t-s{font-size:12px}svg.fig .t-l{font-size:17px}svg.fig .t-b{font-weight:700}svg.fig .t-mid{text-anchor:middle}svg.fig .t-muted{fill:var(--muted)}svg.fig .f-ink{fill:var(--ink)}svg.fig .f-muted{fill:var(--muted)}svg.fig .f-panel{fill:var(--panel)}svg.fig .f-rule2{fill:var(--rule-2)}svg.fig .f-red{fill:var(--red)}svg.fig .f-none{fill:none}svg.fig .s-ink{stroke:var(--ink)}svg.fig .s-muted{stroke:var(--muted)}svg.fig .s-red{stroke:var(--red)}svg.fig .w1{stroke-width:1px}svg.fig .w15{stroke-width:1.5px}svg.fig .w2{stroke-width:2px}svg.fig .dash{stroke-dasharray:6 5}svg.fig .dot{stroke-dasharray:1.5 4;stroke-linecap:round}:root{ --pad:1.15rem; --measure:39rem; --wide:52rem; --shell:calc(var(--wide) + var(--pad)*2); }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{max-width:560px;margin-inline:auto}.doc{padding-inline:var(--pad)}.lecture{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-block:2.5rem 3rem;
+  content-visibility:auto;border-top:1px solid var(--rule)}.fig-wrap{margin:.8rem 0 !important}.fig-scroll{overflow-x:auto;background:
+  linear-gradient(to right,var(--panel) 30%,transparent) left center/2.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--panel) 30%,transparent) right center/2.2rem 100% no-repeat local,
+  radial-gradient(farthest-side at 0 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) left center/.8rem 100% no-repeat scroll,
+  radial-gradient(farthest-side at 100% 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) right center/.8rem 100% no-repeat scroll,
+  var(--panel);padding:1rem .9rem .6rem}.fig-inner{width:100%}svg.pz-root{width:880px!important;height:390px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig-wrap"><g class="pz-w fig-scroll"><g class="pz-w fig-inner"><svg xmlns="http://www.w3.org/2000/svg" aria-label="지젝의 셋째 계열에서 용기는 불안을, 열광은 공포를 배경으로 서지만(p. 834), 몇 쪽 뒤의 전환 사슬에서 열광은 용기를 거친 불안의 전환이 된다(p. 838) — 두 판본이 어긋나는 자리는 공포와 불안을 같은 부정성으로 볼 때에만 접힌다(재구성)." class="fig pz-inner" height="100%" role="img" viewBox="0 0 880 390" width="100%">
+<defs><marker id="L13-2-ar-ink" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="L13-2-ar-mut" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-muted" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<text class="t-mid t-b" x="205" y="28">셋째 계열 — 정적 짝짓기</text>
+<text class="t-mid t-s t-muted" x="205" y="46">p. 834 · 짝마다 부정적 정서가 바탕</text>
+<text class="t-mid t-s t-muted" x="105" y="88">바탕</text>
+<text class="t-mid t-s t-muted" x="305" y="88">전경</text>
+<rect class="f-rule2 s-ink w15" height="70" rx="4" width="110" x="50" y="100"></rect>
+<rect class="f-panel s-ink w15" height="70" rx="4" width="110" x="250" y="100"></rect>
+<rect class="f-rule2 s-ink w15" height="70" rx="4" width="110" x="50" y="210"></rect>
+<rect class="f-panel s-ink w15" height="70" rx="4" width="110" x="250" y="210"></rect>
+<text class="t-mid t-l t-b" x="105" y="141">불안</text>
+<text class="t-mid t-l t-b" x="305" y="141">용기</text>
+<text class="t-mid t-l t-b" x="105" y="242">공포</text>
+<text class="t-mid t-l t-b" x="305" y="242">열광</text>
+<text class="t-mid t-s t-muted" x="105" y="264">초자아 · 1982</text>
+<line class="s-muted w15" x1="70" x2="102" y1="260" y2="260"></line>
+<text class="t-mid t-s t-muted" x="305" y="264">정의 · 1982·2006</text>
+<line class="s-muted w15" x1="261" x2="283" y1="260" y2="260"></line>
+<line class="s-ink w2" marker-end="url(#L13-2-ar-ink)" x1="162" x2="247" y1="135" y2="135"></line>
+<text class="t-mid t-s" x="204" y="126">배경으로</text>
+<line class="s-ink w2" marker-end="url(#L13-2-ar-ink)" x1="162" x2="247" y1="245" y2="245"></line>
+<text class="t-mid t-s" x="204" y="236">내재적 반전</text>
+<text class="t-mid t-b" x="634" y="28">전환의 사슬</text>
+<text class="t-mid t-s t-muted" x="634" y="46">p. 838 · 불안 없는 열광은 없다</text>
+<rect class="f-panel s-ink w15 dash" height="50" rx="4" width="70" x="420" y="110"></rect>
+<text class="t-mid t-b" x="455" y="140">사건</text>
+<rect class="f-rule2 s-ink w15" height="50" rx="4" width="90" x="526" y="110"></rect>
+<text class="t-mid t-b" x="571" y="132">불안</text>
+<text class="t-mid t-s t-muted" x="571" y="150">보편적</text>
+<rect class="f-panel s-ink w15" height="50" rx="4" width="90" x="652" y="110"></rect>
+<rect class="f-none s-ink w1" height="42" rx="2" width="82" x="656" y="114"></rect>
+<text class="t-mid t-b" x="697" y="132">용기</text>
+<text class="t-mid t-s t-muted" x="697" y="150">충실성의 장치</text>
+<rect class="f-panel s-ink w15" height="50" rx="4" width="70" x="778" y="110"></rect>
+<text class="t-mid t-b" x="813" y="140">열광</text>
+<line class="s-ink w2" marker-end="url(#L13-2-ar-ink)" x1="491" x2="524" y1="135" y2="135"></line>
+<line class="s-ink w2" marker-end="url(#L13-2-ar-ink)" x1="617" x2="650" y1="135" y2="135"></line>
+<line class="s-ink w2" marker-end="url(#L13-2-ar-ink)" x1="743" x2="776" y1="135" y2="135"></line>
+<path class="f-none s-ink w1" d="M571,106 L571,96 L813,96 L813,106"></path>
+<text class="t-mid t-s t-b" x="692" y="86">전환 — 불안이 열광으로</text>
+<text class="t-s t-muted" x="612" y="192">불안이 촉발한 반동들</text>
+<path class="f-none s-muted w15" d="M571,162 Q574,212 604,212" marker-end="url(#L13-2-ar-mut)"></path>
+<text class="t-s" x="612" y="216">사회민주주의</text>
+<path class="f-none s-muted w15" d="M571,162 Q574,236 604,236" marker-end="url(#L13-2-ar-mut)"></path>
+<text class="t-s" x="612" y="240">자유주의적 무시</text>
+<path class="f-none s-muted w15" d="M571,162 Q574,260 604,260" marker-end="url(#L13-2-ar-mut)"></path>
+<text class="t-s" x="612" y="264">파시즘</text>
+<path class="f-none s-red w2 dot" d="M105,281 L105,318 L540,318 L540,162"></path>
+<circle class="f-panel s-red w2" cx="540" cy="318" r="13"></circle>
+<text class="t-mid t-b f-red" x="540" y="324">?</text>
+<text class="t-mid t-s t-b f-red" x="322" y="340">공포 ≈ 불안 ? — 재구성</text>
+<text class="t-s t-muted" x="50" y="376">지운 글씨 — 바디우의 앞 판본: 1982 《주체의 이론》, 2006 《세계의 논리》</text>
+</svg></g></g></g></g></g></svg>

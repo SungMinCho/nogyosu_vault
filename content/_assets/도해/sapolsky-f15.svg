@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 700 478" width="700" height="478" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#F1F3F1; --sheet:#FAFBF9; --ink:#1B2124; --ink-2:#3A4549; --mute:#5E6B71;
+  --grid:#C9D4D1; --grid-2:#E1E8E5; --rule:#B6C2C0;
+  --neuro:#3546A8; --soma:#8F5508; --life:#256B41; --deep:#8A4429; --alarm:#B01E4C;
+  --neuro-w:color-mix(in srgb, var(--neuro) 13%, var(--sheet));
+  --soma-w:color-mix(in srgb, var(--soma) 14%, var(--sheet));
+  --life-w:color-mix(in srgb, var(--life) 13%, var(--sheet));
+  --deep-w:color-mix(in srgb, var(--deep) 13%, var(--sheet));
+  --alarm-w:color-mix(in srgb, var(--alarm) 11%, var(--sheet));
+  --ink-w:color-mix(in srgb, var(--ink) 8%, var(--sheet));
+  --shadow:color-mix(in srgb, var(--ink) 16%, transparent);
+  --f-display:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --f-body:"Literata", "Noto Serif KR", "AppleMyungjo", "Batang", serif;
+  --f-label:"Sofia Sans Condensed", "Gothic A1", "Arial Narrow", sans-serif;
+  --f-mono:"DM Mono", "Nanum Gothic Coding", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --f-fig:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); }.hero svg{ display:block; width:100%; height:auto }figure.fig{ margin:1rem 0; }.fig-frame{ overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background-color:var(--sheet);
+  background-image:linear-gradient(to right, var(--sheet) 30%, transparent), linear-gradient(to left, var(--sheet) 30%, transparent),
+    radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent);
+  background-position:left center, right center, left center, right center; background-repeat:no-repeat;
+  background-size:2rem 100%, 2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; min-width:var(--figmin, 34rem); height:auto; }svg text{ font-family:var(--f-fig); font-size:12px; fill:var(--ink) }svg .t-2{ fill:var(--ink-2) }svg .t-m{ fill:var(--mute) }svg .t-s{ font-size:10.5px }svg .t-xl{ font-size:18px }svg .t-b{ font-weight:700 }svg .t-en{ font-family:var(--f-label); letter-spacing:.04em }svg .t-alarm{ fill:var(--alarm) }svg .ln{ stroke:var(--ink); stroke-width:1.4; fill:none }svg .ln-alarm{ stroke:var(--alarm); stroke-width:1.8; fill:none }svg .w-heavy{ stroke-width:4 }svg .f-paper{ fill:var(--sheet) }svg .f-ink{ fill:var(--ink) }svg .f-alarm{ fill:var(--alarm) }svg .f-none{ fill:none }section.lecture-wrap{ content-visibility:auto; contain-intrinsic-size:auto 60000px }svg.pz-root{width:700px!important;height:478px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc lecture-wrap"><g class="pz-w fig"><g class="pz-w fig-frame"><svg aria-label="피스크의 따뜻함×유능함 2×2: HH 자부심, HL 연민, LH 질투, LL 혐오. 집단은 칸을 옮겨 가는데, 가장 위험한 것은 박해 전에 모욕 의식으로 질투의 대상 LH를 혐오의 대상 LL로 끌어내리는 화살표다." class="pz-inner" height="100%" role="img" viewBox="0 0 700 478" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="fiske-ah" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="fiske-aha" markerHeight="3.6" markerWidth="3.6" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-alarm" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<rect class="f-paper ln" height="320" width="360" x="170" y="90"></rect>
+<line class="ln" x1="350" x2="350" y1="90" y2="410"></line>
+<line class="ln" x1="170" x2="530" y1="250" y2="250"></line>
+<rect class="f-none ln" height="320" width="360" x="170" y="90"></rect>
+<text class="t-s t-m" text-anchor="middle" x="214" y="80">유능함 낮음</text>
+<text class="t-s t-m" text-anchor="middle" x="486" y="80">유능함 높음</text>
+<text class="t-s t-m" text-anchor="end" x="160" y="114">따뜻함 높음</text>
+<text class="t-s t-m" text-anchor="end" x="160" y="392">따뜻함 낮음</text>
+<text class="t-s t-b t-en t-m" text-anchor="start" x="184" y="112">HL</text>
+<text class="t-xl t-b" text-anchor="start" x="184" y="136">연민</text>
+<text class="t-s t-2" text-anchor="start" x="184" y="154">노인 · 장애인</text>
+<text class="t-s t-b t-en t-m" text-anchor="end" x="516" y="112">HH</text>
+<text class="t-xl t-b" text-anchor="end" x="516" y="136">자부심</text>
+<text class="t-s t-2" text-anchor="end" x="516" y="154">우리 · 중산층</text>
+<text class="t-s t-b t-en t-m" text-anchor="start" x="184" y="358">LL</text>
+<text class="t-xl t-b" text-anchor="start" x="184" y="382">혐오</text>
+<text class="t-s t-2" text-anchor="start" x="184" y="400">노숙인 · 빈민</text>
+<text class="t-s t-b t-en t-m" text-anchor="end" x="516" y="358">LH</text>
+<text class="t-xl t-b" text-anchor="end" x="516" y="382">질투</text>
+<text class="t-s t-2" text-anchor="end" x="516" y="400">부자 · 유럽이 본 유대인</text>
+<path class="ln" d="M420,88 C420,58 280,58 280,86" marker-end="url(#fiske-ah)"></path>
+<text class="t-s t-2" text-anchor="middle" x="350" y="46">치매에 기우는 부모 · 보호</text>
+<path class="ln" d="M168,170 C138,170 138,330 166,330" marker-end="url(#fiske-ah)"></path>
+<text class="t-s t-2" text-anchor="end" x="132" y="246">청소부의 냉대</text>
+<text class="t-s t-2" text-anchor="end" x="132" y="260">배은망덕</text>
+<path class="ln" d="M280,412 C280,442 420,442 420,414" marker-end="url(#fiske-ah)"></path>
+<text class="t-s t-2" text-anchor="middle" x="350" y="464">메이드 인 재팬 · 경각심</text>
+<path class="ln" d="M532,170 C562,170 562,330 534,330" marker-end="url(#fiske-ah)"></path>
+<text class="t-s t-2" x="566" y="246">횡령한 동업자</text>
+<text class="t-s t-2" x="566" y="260">배신</text>
+<line class="ln" marker-end="url(#fiske-ah)" x1="470" x2="266" y1="172" y2="298"></line>
+<text class="t-s t-2" x="420" y="214">노숙자 된 친구</text>
+<line class="ln" marker-end="url(#fiske-ah)" x1="200" x2="200" y1="332" y2="176"></line>
+<text class="t-s t-2" x="208" y="200">지갑 돌려준 노숙인</text>
+<rect class="f-paper" height="15" width="52" x="324" y="117"></rect>
+<text class="t-s t-b t-2" text-anchor="middle" x="350" y="128">돕고 싶음</text>
+<rect class="f-paper" height="15" width="62" x="249" y="243"></rect>
+<text class="t-s t-b t-2" text-anchor="middle" x="280" y="254">배제 · 비하</text>
+<rect class="f-paper" height="15" width="78" x="423" y="243"></rect>
+<text class="t-s t-b t-2" text-anchor="middle" x="462" y="254">어울려 덕 보기</text>
+<line class="ln-alarm w-heavy" marker-end="url(#fiske-aha)" x1="504" x2="216" y1="326" y2="326"></line>
+<text class="t-b t-alarm" text-anchor="middle" x="436" y="314">박해 전 모욕 의식</text>
+<rect class="f-paper" height="15" width="124" x="288" y="339"></rect>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="350" y="350">가장 적대적인 공격 충동</text>
+</svg></g></g></g></svg>

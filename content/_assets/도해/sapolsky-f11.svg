@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 680 366" width="680" height="366" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#F1F3F1; --sheet:#FAFBF9; --ink:#1B2124; --ink-2:#3A4549; --mute:#5E6B71;
+  --grid:#C9D4D1; --grid-2:#E1E8E5; --rule:#B6C2C0;
+  --neuro:#3546A8; --soma:#8F5508; --life:#256B41; --deep:#8A4429; --alarm:#B01E4C;
+  --neuro-w:color-mix(in srgb, var(--neuro) 13%, var(--sheet));
+  --soma-w:color-mix(in srgb, var(--soma) 14%, var(--sheet));
+  --life-w:color-mix(in srgb, var(--life) 13%, var(--sheet));
+  --deep-w:color-mix(in srgb, var(--deep) 13%, var(--sheet));
+  --alarm-w:color-mix(in srgb, var(--alarm) 11%, var(--sheet));
+  --ink-w:color-mix(in srgb, var(--ink) 8%, var(--sheet));
+  --shadow:color-mix(in srgb, var(--ink) 16%, transparent);
+  --f-display:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --f-body:"Literata", "Noto Serif KR", "AppleMyungjo", "Batang", serif;
+  --f-label:"Sofia Sans Condensed", "Gothic A1", "Arial Narrow", sans-serif;
+  --f-mono:"DM Mono", "Nanum Gothic Coding", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --f-fig:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); }.hero svg{ display:block; width:100%; height:auto }figure.fig{ margin:1rem 0; }.fig-frame{ overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background-color:var(--sheet);
+  background-image:linear-gradient(to right, var(--sheet) 30%, transparent), linear-gradient(to left, var(--sheet) 30%, transparent),
+    radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent);
+  background-position:left center, right center, left center, right center; background-repeat:no-repeat;
+  background-size:2rem 100%, 2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; min-width:var(--figmin, 34rem); height:auto; }svg text{ font-family:var(--f-fig); font-size:12px; fill:var(--ink) }svg .t-2{ fill:var(--ink-2) }svg .t-m{ fill:var(--mute) }svg .t-s{ font-size:10.5px }svg .t-b{ font-weight:700 }svg .t-num{ font-family:var(--f-mono); font-variant-numeric:tabular-nums }svg .t-en{ font-family:var(--f-label); letter-spacing:.04em }svg .t-life{ fill:var(--life) }svg .t-alarm{ fill:var(--alarm) }svg .t-paper{ fill:var(--sheet) }svg .ln-2{ stroke:var(--ink-2); stroke-width:1.2; fill:none }svg .ln-m{ stroke:var(--mute); stroke-width:1; fill:none }svg .ln-g{ stroke:var(--grid); stroke-width:1; fill:none }svg .ln-life{ stroke:var(--life); stroke-width:1.8; fill:none }svg .w-thick{ stroke-width:2.8 }svg .f-ink2{ fill:var(--ink-2) }svg .f-life{ fill:var(--life) }svg .f-alarm{ fill:var(--alarm) }section.lecture-wrap{ content-visibility:auto; contain-intrinsic-size:auto 60000px }svg.pz-root{width:680px!important;height:366px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc lecture-wrap"><g class="pz-w fig"><g class="pz-w fig-frame"><svg aria-label="반응규준 네 장: 세 유전형의 선이 겹쳐 통째로 오르면 유전율 0, 수평으로 나란하면 100%, 나란히 비스듬하면 약 91%, X자로 교차하면 덧셈식 유전율 0. 아래는 크래브 1999의 세 실험실에서 같은 생쥐 계통의 코카인 반응이 667, 701, 5,000 넘게 갈린 막대." class="pz-inner" height="100%" role="img" viewBox="0 0 680 366" width="100%" xmlns="http://www.w3.org/2000/svg">
+<!-- 판 1 -->
+<text class="t-s t-b" text-anchor="middle" x="96" y="30">가. 겹친 선이 통째로 오름</text>
+<line class="ln-g" x1="60" x2="60" y1="52" y2="172"></line>
+<line class="ln-g" x1="132" x2="132" y1="52" y2="172"></line>
+<line class="ln-2" x1="42" x2="150" y1="172" y2="172"></line>
+<text class="t-s t-b t-en t-2" text-anchor="middle" x="60" y="187">환경 A</text>
+<text class="t-s t-b t-en t-2" text-anchor="middle" x="132" y="187">환경 B</text>
+<line class="ln-life w-thick" x1="60" x2="132" y1="155" y2="58"></line>
+<circle class="f-life" cx="60" cy="155" r="2.6"></circle>
+<circle class="f-life" cx="132" cy="58" r="2.6"></circle>
+<text class="t-s t-num t-life" text-anchor="end" x="53" y="159">1</text>
+<text class="t-s t-num t-life" x="139" y="62">10</text>
+<path class="ln-2" d="M94.8,98.05 l9.6,7.2 M98.4,93.2 l9.6,7.2"></path>
+<text class="t-s t-life" x="50" y="72">세 선이</text>
+<text class="t-s t-life" x="50" y="86">하나로 겹침</text>
+<text class="t-s t-b t-life" text-anchor="middle" x="96" y="208">h² = 0</text>
+<text class="t-s t-2" text-anchor="middle" x="96" y="224">환경만 갈림</text>
+<!-- 판 2 -->
+<text class="t-s t-b" text-anchor="middle" x="260" y="30">나. 수평으로 나란함</text>
+<line class="ln-g" x1="224" x2="224" y1="52" y2="172"></line>
+<line class="ln-g" x1="296" x2="296" y1="52" y2="172"></line>
+<line class="ln-2" x1="206" x2="314" y1="172" y2="172"></line>
+<text class="t-s t-b t-en t-2" text-anchor="middle" x="224" y="187">환경 A</text>
+<text class="t-s t-b t-en t-2" text-anchor="middle" x="296" y="187">환경 B</text>
+<line class="ln-life" x1="224" x2="296" y1="155" y2="155"></line>
+<circle class="f-life" cx="224" cy="155" r="2.6"></circle>
+<circle class="f-life" cx="296" cy="155" r="2.6"></circle>
+<text class="t-s t-num t-life" text-anchor="end" x="217" y="159">1</text>
+<text class="t-s t-num t-life" x="303" y="159">1</text>
+<line class="ln-life" x1="224" x2="296" y1="125" y2="125"></line>
+<circle class="f-life" cx="224" cy="125" r="2.6"></circle>
+<circle class="f-life" cx="296" cy="125" r="2.6"></circle>
+<text class="t-s t-num t-life" text-anchor="end" x="217" y="129">2</text>
+<text class="t-s t-num t-life" x="303" y="129">2</text>
+<line class="ln-life" x1="224" x2="296" y1="95" y2="95"></line>
+<circle class="f-life" cx="224" cy="95" r="2.6"></circle>
+<circle class="f-life" cx="296" cy="95" r="2.6"></circle>
+<text class="t-s t-num t-life" text-anchor="end" x="217" y="99">3</text>
+<text class="t-s t-num t-life" x="303" y="99">3</text>
+<text class="t-s t-b t-life" text-anchor="middle" x="260" y="208">h² = 100%</text>
+<text class="t-s t-2" text-anchor="middle" x="260" y="224">유전형만 갈림</text>
+<!-- 판 3 -->
+<text class="t-s t-b" text-anchor="middle" x="424" y="30">다. 나란히 비스듬히</text>
+<line class="ln-g" x1="388" x2="388" y1="52" y2="172"></line>
+<line class="ln-g" x1="460" x2="460" y1="52" y2="172"></line>
+<line class="ln-2" x1="370" x2="478" y1="172" y2="172"></line>
+<text class="t-s t-b t-en t-2" text-anchor="middle" x="388" y="187">환경 A</text>
+<text class="t-s t-b t-en t-2" text-anchor="middle" x="460" y="187">환경 B</text>
+<line class="ln-life" x1="388" x2="460" y1="155" y2="140"></line>
+<circle class="f-life" cx="388" cy="155" r="2.6"></circle>
+<circle class="f-life" cx="460" cy="140" r="2.6"></circle>
+<text class="t-s t-num t-life" text-anchor="end" x="381" y="159">1</text>
+<text class="t-s t-num t-life" x="467" y="144">1.5</text>
+<line class="ln-life" x1="388" x2="460" y1="125" y2="110"></line>
+<circle class="f-life" cx="388" cy="125" r="2.6"></circle>
+<circle class="f-life" cx="460" cy="110" r="2.6"></circle>
+<text class="t-s t-num t-life" text-anchor="end" x="381" y="129">2</text>
+<text class="t-s t-num t-life" x="467" y="114">2.5</text>
+<line class="ln-life" x1="388" x2="460" y1="95" y2="80"></line>
+<circle class="f-life" cx="388" cy="95" r="2.6"></circle>
+<circle class="f-life" cx="460" cy="80" r="2.6"></circle>
+<text class="t-s t-num t-life" text-anchor="end" x="381" y="99">3</text>
+<text class="t-s t-num t-life" x="467" y="84">3.5</text>
+<text class="t-s t-b t-life" text-anchor="middle" x="424" y="208">h² ≈ 91%</text>
+<text class="t-s t-2" text-anchor="middle" x="424" y="224">평행 · 덧셈 성립</text>
+<!-- 판 4 -->
+<text class="t-s t-b" text-anchor="middle" x="588" y="30">라. X자로 교차</text>
+<line class="ln-g" x1="552" x2="552" y1="52" y2="172"></line>
+<line class="ln-g" x1="624" x2="624" y1="52" y2="172"></line>
+<line class="ln-2" x1="534" x2="642" y1="172" y2="172"></line>
+<text class="t-s t-b t-en t-2" text-anchor="middle" x="552" y="187">환경 A</text>
+<text class="t-s t-b t-en t-2" text-anchor="middle" x="624" y="187">환경 B</text>
+<line class="ln-life" x1="552" x2="624" y1="155" y2="95"></line>
+<circle class="f-life" cx="552" cy="155" r="2.6"></circle>
+<circle class="f-life" cx="624" cy="95" r="2.6"></circle>
+<text class="t-s t-num t-life" text-anchor="end" x="545" y="159">1</text>
+<text class="t-s t-num t-life" x="631" y="99">3</text>
+<line class="ln-life" x1="552" x2="624" y1="125" y2="125"></line>
+<circle class="f-life" cx="552" cy="125" r="2.6"></circle>
+<circle class="f-life" cx="624" cy="125" r="2.6"></circle>
+<text class="t-s t-num t-life" text-anchor="end" x="545" y="129">2</text>
+<text class="t-s t-num t-life" x="631" y="129">2</text>
+<line class="ln-life" x1="552" x2="624" y1="95" y2="155"></line>
+<circle class="f-life" cx="552" cy="95" r="2.6"></circle>
+<circle class="f-life" cx="624" cy="155" r="2.6"></circle>
+<text class="t-s t-num t-life" text-anchor="end" x="545" y="99">3</text>
+<text class="t-s t-num t-life" x="631" y="159">1</text>
+<text class="t-s t-b t-life" text-anchor="middle" x="588" y="208">덧셈식 h² = 0</text>
+<text class="t-s t-2" text-anchor="middle" x="588" y="224">질적 상호작용</text>
+<line class="ln-g" x1="20" x2="660" y1="240" y2="240"></line>
+<text class="t-b" x="20" y="262">크래브 1999 — 강박적으로 맞춘 세 실험실</text>
+<text class="t-s t-m" text-anchor="end" x="660" y="262">129/SvEvTac 생쥐 · 코카인 뒤 이동 증가 · cm/15분</text>
+<text class="t-s t-b" text-anchor="end" x="92" y="288">오리건</text>
+<rect class="f-ink2" height="16" width="66.7" x="100" y="276"></rect>
+<text class="t-s t-num t-b" x="172.7" y="288">667</text>
+<text class="t-s t-b" text-anchor="end" x="92" y="312">올버니</text>
+<rect class="f-ink2" height="16" width="70.1" x="100" y="300"></rect>
+<text class="t-s t-num t-b" x="176.1" y="312">701</text>
+<text class="t-s t-b t-alarm" text-anchor="end" x="92" y="336">앨버타</text>
+<rect class="f-alarm" height="16" width="500" x="100" y="324"></rect>
+<text class="t-s t-num t-b t-alarm" x="606" y="336">5,000+</text>
+<text class="t-s t-b t-paper" text-anchor="end" x="592" y="336">두 곳 평균 684의 7.3배</text>
+<line class="ln-m" x1="100" x2="600.0" y1="346" y2="346"></line>
+<line class="ln-m" x1="100" x2="100" y1="346" y2="350"></line>
+<text class="t-s t-num t-m" text-anchor="middle" x="100" y="362">0</text>
+<line class="ln-m" x1="200" x2="200" y1="346" y2="350"></line>
+<text class="t-s t-num t-m" text-anchor="middle" x="200" y="362">1,000</text>
+<line class="ln-m" x1="300" x2="300" y1="346" y2="350"></line>
+<text class="t-s t-num t-m" text-anchor="middle" x="300" y="362">2,000</text>
+<line class="ln-m" x1="400" x2="400" y1="346" y2="350"></line>
+<text class="t-s t-num t-m" text-anchor="middle" x="400" y="362">3,000</text>
+<line class="ln-m" x1="500" x2="500" y1="346" y2="350"></line>
+<text class="t-s t-num t-m" text-anchor="middle" x="500" y="362">4,000</text>
+<line class="ln-m" x1="600" x2="600" y1="346" y2="350"></line>
+<text class="t-s t-num t-m" text-anchor="middle" x="600" y="362">5,000</text>
+</svg></g></g></g></svg>

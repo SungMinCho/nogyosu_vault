@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 262" width="640" height="262" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#F1F3F1; --sheet:#FAFBF9; --ink:#1B2124; --ink-2:#3A4549; --mute:#5E6B71;
+  --grid:#C9D4D1; --grid-2:#E1E8E5; --rule:#B6C2C0;
+  --neuro:#3546A8; --soma:#8F5508; --life:#256B41; --deep:#8A4429; --alarm:#B01E4C;
+  --neuro-w:color-mix(in srgb, var(--neuro) 13%, var(--sheet));
+  --soma-w:color-mix(in srgb, var(--soma) 14%, var(--sheet));
+  --life-w:color-mix(in srgb, var(--life) 13%, var(--sheet));
+  --deep-w:color-mix(in srgb, var(--deep) 13%, var(--sheet));
+  --alarm-w:color-mix(in srgb, var(--alarm) 11%, var(--sheet));
+  --ink-w:color-mix(in srgb, var(--ink) 8%, var(--sheet));
+  --shadow:color-mix(in srgb, var(--ink) 16%, transparent);
+  --f-display:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --f-body:"Literata", "Noto Serif KR", "AppleMyungjo", "Batang", serif;
+  --f-label:"Sofia Sans Condensed", "Gothic A1", "Arial Narrow", sans-serif;
+  --f-mono:"DM Mono", "Nanum Gothic Coding", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --f-fig:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); }.hero svg{ display:block; width:100%; height:auto }figure.fig{ margin:1rem 0; }.fig-frame{ overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background-color:var(--sheet);
+  background-image:linear-gradient(to right, var(--sheet) 30%, transparent), linear-gradient(to left, var(--sheet) 30%, transparent),
+    radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent);
+  background-position:left center, right center, left center, right center; background-repeat:no-repeat;
+  background-size:2rem 100%, 2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; min-width:var(--figmin, 34rem); height:auto; }svg text{ font-family:var(--f-fig); font-size:12px; fill:var(--ink) }svg .t-2{ fill:var(--ink-2) }svg .t-m{ fill:var(--mute) }svg .t-s{ font-size:10.5px }svg .t-l{ font-size:14px }svg .t-b{ font-weight:700 }svg .t-en{ font-family:var(--f-label); letter-spacing:.04em }svg .t-alarm{ fill:var(--alarm) }svg .halo{ paint-order:stroke; stroke:var(--sheet); stroke-width:3.5px; stroke-linejoin:round }svg .ln-2{ stroke:var(--ink-2); stroke-width:1.2; fill:none }svg .ln-m{ stroke:var(--mute); stroke-width:1; fill:none }svg .ln-alarm{ stroke:var(--alarm); stroke-width:1.8; fill:none }svg .w-thin{ stroke-width:1 }svg .dash{ stroke-dasharray:5 4 }svg .dot{ stroke-dasharray:1.5 3.5; stroke-linecap:round }svg .f-ink{ fill:var(--ink) }svg .f-inkw{ fill:var(--ink-w) }svg .f-alarm-w{ fill:var(--alarm-w) }section.lecture-wrap{ content-visibility:auto; contain-intrinsic-size:auto 60000px }svg.pz-root{width:640px!important;height:262px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc lecture-wrap"><g class="pz-w fig"><g class="pz-w fig-frame"><svg aria-label="연속된 파장 띠 위에 '파랑|초록' 경계를 그으면, 지각된 거리에는 경계 자리에 λ만큼의 틈이 끼어든다. 물리적으로 Δ만큼 가까운 a와 b는 Δ+λ로 멀어져 다른 색이 되고, 3Δ 떨어진 c와 a는 그대로 같은 색으로 남는다." class="pz-inner" height="100%" role="img" viewBox="0 0 640 262" width="100%" xmlns="http://www.w3.org/2000/svg">
+<!-- 이름 줄 ①: 푸르다 — 경계 없음 -->
+<path class="ln-m" d="M110,28 V23 H520 V28"></path>
+<text class="t-s t-m" text-anchor="middle" x="315" y="16">'푸르다' 한 낱말 — 하늘·들판·파란불 · 경계 없음</text>
+<!-- 이름 줄 ②: 파랑 | 초록 -->
+<text class="t-b" text-anchor="middle" x="217" y="44">파랑</text>
+<text class="t-b" text-anchor="middle" x="422" y="44">초록</text>
+<text class="t-s t-b t-alarm" x="333" y="44">경계</text>
+<!-- 틈(쐐기) -->
+<polygon class="f-alarm-w" points="325,88 325,150 415,150"></polygon>
+<rect class="f-alarm-w" height="22" width="90" x="325" y="150"></rect>
+<!-- 대응선 -->
+<line class="ln-m dot" x1="110" x2="110" y1="88" y2="150"></line>
+<line class="ln-m dot" x1="220" x2="220" y1="88" y2="150"></line>
+<line class="ln-m dot" x1="310" x2="310" y1="88" y2="150"></line>
+<line class="ln-m dot" x1="340" x2="430" y1="88" y2="150"></line>
+<line class="ln-m dot" x1="520" x2="610" y1="88" y2="150"></line>
+<line class="ln-alarm w-thin" x1="325" x2="415" y1="88" y2="150"></line>
+<!-- 물리 띠 -->
+<text class="t-b" text-anchor="end" x="96" y="81">물리</text>
+<rect class="f-inkw ln-2" height="22" width="410" x="110" y="66"></rect>
+<path class="ln-m" d="M130,88 v-4 M150,88 v-4 M170,88 v-4 M190,88 v-4 M210,88 v-4 M230,88 v-4 M250,88 v-4 M270,88 v-4 M290,88 v-4 M310,88 v-4 M330,88 v-4 M350,88 v-4 M370,88 v-4 M390,88 v-4 M410,88 v-4 M430,88 v-4 M450,88 v-4 M470,88 v-4 M490,88 v-4 M510,88 v-4"></path>
+<!-- 물리 거리 치수 -->
+<path class="ln-m" d="M220,57 V63 M220,60 H310 M310,57 V63 M340,57 V63 M310,60 H340"></path>
+<text class="t-s t-2" text-anchor="middle" x="265" y="55">3Δ</text>
+<!-- 경계선 -->
+<line class="ln-alarm" x1="325" x2="325" y1="30" y2="150"></line>
+<text class="t-s t-2 halo" text-anchor="middle" x="325" y="55">Δ</text>
+<!-- 물리 띠의 점 -->
+<circle class="f-ink" cx="220" cy="77" r="4.5"></circle>
+<circle class="f-ink" cx="310" cy="77" r="4.5"></circle>
+<circle class="f-ink" cx="340" cy="77" r="4.5"></circle>
+<text class="t-b t-en halo" text-anchor="end" x="213" y="81">c</text>
+<text class="t-b t-en halo" text-anchor="end" x="303" y="81">a</text>
+<text class="t-b t-en halo" x="347" y="81">b</text>
+<!-- 지각 띠 -->
+<text class="t-b" text-anchor="end" x="96" y="165">지각</text>
+<rect class="f-inkw ln-2" height="22" width="215" x="110" y="150"></rect>
+<rect class="f-inkw ln-2" height="22" width="195" x="415" y="150"></rect>
+<line class="ln-alarm dash" x1="325" x2="325" y1="150" y2="172"></line>
+<line class="ln-alarm dash" x1="415" x2="415" y1="150" y2="172"></line>
+<text class="t-l t-b t-alarm" text-anchor="middle" x="370" y="166">λ</text>
+<circle class="f-ink" cx="220" cy="161" r="4.5"></circle>
+<circle class="f-ink" cx="310" cy="161" r="4.5"></circle>
+<circle class="f-ink" cx="430" cy="161" r="4.5"></circle>
+<text class="t-b t-en halo" text-anchor="end" x="213" y="165">c</text>
+<text class="t-b t-en halo" text-anchor="end" x="303" y="165">a</text>
+<text class="t-b t-en halo" x="437" y="165">b</text>
+<!-- 지각 거리 치수 -->
+<path class="ln-m" d="M220,181 V187 M220,184 H310 M310,181 V187"></path>
+<path class="ln-alarm w-thin" d="M312,181 V187 M312,184 H430 M430,181 V187"></path>
+<text class="t-s t-2" text-anchor="middle" x="265" y="201">3Δ 그대로</text>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="371" y="201">Δ + λ</text>
+<text class="t-b" text-anchor="middle" x="265" y="221">같은 색</text>
+<text class="t-b t-alarm" text-anchor="middle" x="371" y="221">다른 색</text>
+<text class="t-s t-m" text-anchor="middle" x="371" y="250">말을 막으면 λ → 0 · 위너워 2007</text>
+</svg></g></g></g></svg>

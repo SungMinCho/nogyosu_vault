@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 344" width="640" height="344" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#F1F3F1; --sheet:#FAFBF9; --ink:#1B2124; --ink-2:#3A4549; --mute:#5E6B71;
+  --grid:#C9D4D1; --grid-2:#E1E8E5; --rule:#B6C2C0;
+  --neuro:#3546A8; --soma:#8F5508; --life:#256B41; --deep:#8A4429; --alarm:#B01E4C;
+  --neuro-w:color-mix(in srgb, var(--neuro) 13%, var(--sheet));
+  --soma-w:color-mix(in srgb, var(--soma) 14%, var(--sheet));
+  --life-w:color-mix(in srgb, var(--life) 13%, var(--sheet));
+  --deep-w:color-mix(in srgb, var(--deep) 13%, var(--sheet));
+  --alarm-w:color-mix(in srgb, var(--alarm) 11%, var(--sheet));
+  --ink-w:color-mix(in srgb, var(--ink) 8%, var(--sheet));
+  --shadow:color-mix(in srgb, var(--ink) 16%, transparent);
+  --f-display:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --f-body:"Literata", "Noto Serif KR", "AppleMyungjo", "Batang", serif;
+  --f-label:"Sofia Sans Condensed", "Gothic A1", "Arial Narrow", sans-serif;
+  --f-mono:"DM Mono", "Nanum Gothic Coding", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --f-fig:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); }.hero svg{ display:block; width:100%; height:auto }figure.fig{ margin:1rem 0; }.fig-frame{ overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background-color:var(--sheet);
+  background-image:linear-gradient(to right, var(--sheet) 30%, transparent), linear-gradient(to left, var(--sheet) 30%, transparent),
+    radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent);
+  background-position:left center, right center, left center, right center; background-repeat:no-repeat;
+  background-size:2rem 100%, 2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; min-width:var(--figmin, 34rem); height:auto; }svg text{ font-family:var(--f-fig); font-size:12px; fill:var(--ink) }svg .t-m{ fill:var(--mute) }svg .t-s{ font-size:10.5px }svg .t-b{ font-weight:700 }svg .t-alarm{ fill:var(--alarm) }svg .halo{ paint-order:stroke; stroke:var(--sheet); stroke-width:3.5px; stroke-linejoin:round }svg .ln{ stroke:var(--ink); stroke-width:1.4; fill:none }svg .ln-2{ stroke:var(--ink-2); stroke-width:1.2; fill:none }svg .ln-m{ stroke:var(--mute); stroke-width:1; fill:none }svg .ln-g{ stroke:var(--grid); stroke-width:1; fill:none }svg .ln-alarm{ stroke:var(--alarm); stroke-width:1.8; fill:none }svg .w-thin{ stroke-width:1 }svg .w-thick{ stroke-width:2.8 }svg .dot{ stroke-dasharray:1.5 3.5; stroke-linecap:round }svg .f-paper{ fill:var(--sheet) }svg .f-ink{ fill:var(--ink) }svg .f-grid{ fill:var(--grid) }svg .f-inkw{ fill:var(--ink-w) }svg .f-alarm{ fill:var(--alarm) }svg .f-alarm-w{ fill:var(--alarm-w) }svg .f-none{ fill:none }section.lecture-wrap{ content-visibility:auto; contain-intrinsic-size:auto 60000px }svg.pz-root{width:640px!important;height:344px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc lecture-wrap"><g class="pz-w fig"><g class="pz-w fig-frame"><svg aria-label="벙커 단면 두 장. 왼쪽 대중의 직관: 캔터의 표 왼쪽 칸 '생물학적인 것'은 벙커 밖에서 혈당·수면·납·문화·땀 냄새 같은 입력을 받고, 오른쪽 칸 '호문쿨루스의 근성'은 벙커 안에서 호문쿨루스가 채운다. 오른쪽 새폴스키의 목록 뒤: 같은 입력이 두 칸 모두로 들어가고, 벙커 벽이 녹아 호문쿨루스가 앉을 자리가 사라진다." class="pz-inner" height="100%" role="img" viewBox="0 0 640 344" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="homunculus-ah" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<line class="ln-g" x1="320" x2="320" y1="8" y2="336"></line>
+<!-- ===== ① 대중의 직관 ===== -->
+<text class="t-b" x="8" y="18">① 대중의 직관</text>
+<text class="t-s t-m" x="108" y="18">캔터의 표를 벙커에 포개면</text>
+<rect class="f-inkw ln-2" height="26" rx="3" width="300" x="8" y="46"></rect>
+<text class="t-s" text-anchor="middle" x="158" y="63">혈당 · 수면 · 납 · 문화 · 땀 냄새 …</text>
+<path class="ln" d="M73,72 L73,102" marker-end="url(#homunculus-ah)"></path>
+<path class="ln" d="M198,72 L198,90 M191,91 L205,91"></path>
+<path class="ln" d="M258,72 L258,90 M251,91 L265,91"></path>
+<text class="t-s t-m" text-anchor="middle" x="228" y="88">막힘</text>
+<rect class="f-paper ln" height="154" rx="2" width="110" x="18" y="104"></rect>
+<text class="t-s t-b" text-anchor="middle" x="73" y="122">생물학적인 것</text>
+<line class="ln-g" x1="24" x2="122" y1="130" y2="130"></line>
+<text class="t-s" text-anchor="middle" x="73" y="148">성적 충동</text>
+<text class="t-s" text-anchor="middle" x="73" y="168">환청</text>
+<text class="t-s" text-anchor="middle" x="73" y="188">중독 성향</text>
+<text class="t-s" text-anchor="middle" x="73" y="208">발작</text>
+<text class="t-s" text-anchor="middle" x="73" y="228">머리 평범</text>
+<text class="t-s" text-anchor="middle" x="73" y="248">얼굴 평범</text>
+<path class="f-grid ln" d="M148,96 L308,96 L308,320 L148,320 Z M158,106 L158,310 L298,310 L298,106 Z" fill-rule="evenodd"></path>
+<rect class="f-paper ln" height="146" rx="2" width="128" x="164" y="112"></rect>
+<text class="t-s t-b" text-anchor="middle" x="228" y="126">호문쿨루스의 근성</text>
+<line class="ln-g" x1="170" x2="286" y1="132" y2="132"></line>
+<text class="t-s" text-anchor="middle" x="228" y="148">옮기지 않기</text>
+<text class="t-s" text-anchor="middle" x="228" y="168">명령 거부</text>
+<text class="t-s" text-anchor="middle" x="228" y="188">술 안 마시기</text>
+<text class="t-s" text-anchor="middle" x="228" y="208">약 없인 운전 안 함</text>
+<text class="t-s" text-anchor="middle" x="228" y="228">버티고 나아가기</text>
+<text class="t-s" text-anchor="middle" x="228" y="248">코걸이 안 하기</text>
+<!-- 호문쿨루스와 제어판 -->
+<circle class="f-paper ln" cx="190" cy="276" r="6"></circle>
+<path class="ln" d="M190,282 L190,296 M190,288 L204,290 M190,296 L184,306 M190,296 L198,306"></path>
+<rect class="f-inkw ln" height="18" rx="2" width="56" x="208" y="284"></rect>
+<circle class="f-ink" cx="220" cy="293" r="3"></circle>
+<circle class="f-ink" cx="234" cy="293" r="3"></circle>
+<circle class="f-ink" cx="248" cy="293" r="3"></circle>
+<path class="ln" d="M236,284 L236,262" marker-end="url(#homunculus-ah)"></path>
+<text class="t-s t-b" x="244" y="277">근성</text>
+<text class="t-s t-m" text-anchor="middle" x="228" y="336">콘크리트 벙커</text>
+<!-- ===== ② 새폴스키의 목록 뒤 ===== -->
+<text class="t-b" x="332" y="18">② 새폴스키의 목록 뒤</text>
+<text class="t-s t-m" x="470" y="18">같은 입력, 두 칸 모두</text>
+<rect class="f-inkw ln-2" height="26" rx="3" width="300" x="332" y="46"></rect>
+<text class="t-s" text-anchor="middle" x="482" y="63">혈당 · 수면 · 납 · 문화 · 땀 냄새 …</text>
+<rect class="f-paper ln" height="154" rx="2" width="110" x="342" y="104"></rect>
+<text class="t-s t-b" text-anchor="middle" x="397" y="122">생물학적인 것</text>
+<line class="ln-g" x1="348" x2="446" y1="130" y2="130"></line>
+<line class="ln-g" x1="352" x2="442" y1="150" y2="150"></line>
+<line class="ln-g" x1="352" x2="442" y1="170" y2="170"></line>
+<line class="ln-g" x1="352" x2="442" y1="190" y2="190"></line>
+<line class="ln-g" x1="352" x2="442" y1="210" y2="210"></line>
+<line class="ln-g" x1="352" x2="442" y1="230" y2="230"></line>
+<!-- 녹는 벽: 지붕은 끊기고 벽은 흘러내린다 -->
+<path class="f-alarm-w ln-alarm" d="M472,96 L536,96 L536,106 L482,106 L482,250 L472,250 Z"></path>
+<path class="f-alarm-w ln-alarm" d="M568,96 L632,96 L632,220 L622,220 L622,106 L568,106 Z"></path>
+<path class="f-alarm ln-alarm w-thin" d="M477,250 C483,258 483,272 477,278 C471,272 471,258 477,250 Z M627,220 C633,230 633,248 627,254 C621,248 621,230 627,220 Z M627,262 C630,266 630,272 627,274 C624,272 624,266 627,262 Z"></path>
+<path class="f-alarm-w ln-alarm" d="M468,324 Q470,314 492,315 L610,315 Q634,314 636,324 Z"></path>
+<rect class="f-paper ln" height="146" rx="2" width="128" x="488" y="112"></rect>
+<text class="t-s t-b" text-anchor="middle" x="552" y="126">호문쿨루스의 근성</text>
+<line class="ln-g" x1="494" x2="610" y1="132" y2="132"></line>
+<line class="ln-g" x1="498" x2="606" y1="150" y2="150"></line>
+<line class="ln-g" x1="498" x2="606" y1="170" y2="170"></line>
+<line class="ln-g" x1="498" x2="606" y1="190" y2="190"></line>
+<line class="ln-g" x1="498" x2="606" y1="210" y2="210"></line>
+<line class="ln-g" x1="498" x2="606" y1="230" y2="230"></line>
+<path class="ln" d="M397,72 L397,102" marker-end="url(#homunculus-ah)"></path>
+<path class="ln w-thick" d="M552,72 L552,110" marker-end="url(#homunculus-ah)"></path>
+<text class="t-s t-b halo" x="560" y="90">똑같이 들어감</text>
+<!-- 사라진 호문쿨루스 -->
+<circle class="f-none ln-m dot" cx="514" cy="276" r="6"></circle>
+<path class="ln-m dot" d="M514,282 L514,296 M514,288 L528,290 M514,296 L508,306 M514,296 L522,306"></path>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="572" y="290">앉을 자리 없음</text>
+<text class="t-s t-b t-alarm" text-anchor="middle" x="552" y="336">벽이 녹는다</text>
+</svg></g></g></g></svg>

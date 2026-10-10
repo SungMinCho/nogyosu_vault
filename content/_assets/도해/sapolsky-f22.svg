@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 332" width="640" height="332" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#F1F3F1; --sheet:#FAFBF9; --ink:#1B2124; --ink-2:#3A4549; --mute:#5E6B71;
+  --grid:#C9D4D1; --grid-2:#E1E8E5; --rule:#B6C2C0;
+  --neuro:#3546A8; --soma:#8F5508; --life:#256B41; --deep:#8A4429; --alarm:#B01E4C;
+  --neuro-w:color-mix(in srgb, var(--neuro) 13%, var(--sheet));
+  --soma-w:color-mix(in srgb, var(--soma) 14%, var(--sheet));
+  --life-w:color-mix(in srgb, var(--life) 13%, var(--sheet));
+  --deep-w:color-mix(in srgb, var(--deep) 13%, var(--sheet));
+  --alarm-w:color-mix(in srgb, var(--alarm) 11%, var(--sheet));
+  --ink-w:color-mix(in srgb, var(--ink) 8%, var(--sheet));
+  --shadow:color-mix(in srgb, var(--ink) 16%, transparent);
+  --f-display:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --f-body:"Literata", "Noto Serif KR", "AppleMyungjo", "Batang", serif;
+  --f-label:"Sofia Sans Condensed", "Gothic A1", "Arial Narrow", sans-serif;
+  --f-mono:"DM Mono", "Nanum Gothic Coding", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --f-fig:"Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  color-scheme:light;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#111517; --sheet:#181D20; --ink:#E2E8E7; --ink-2:#C2CBCB; --mute:#93A0A4;
+  --grid:#2E3A3D; --grid-2:#1D2629; --rule:#3A4746;
+  --neuro:#9AA8FF; --soma:#E5A64A; --life:#6CC895; --deep:#E39A74; --alarm:#FF7AA0;
+  --shadow:rgba(0,0,0,.5); color-scheme:dark; }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.doc{ display:grid; grid-template-columns:minmax(0,1fr); row-gap:1.35rem; padding-inline:var(--pad); }.hero svg{ display:block; width:100%; height:auto }figure.fig{ margin:1rem 0; }.fig-frame{ overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--rule); background-color:var(--sheet);
+  background-image:linear-gradient(to right, var(--sheet) 30%, transparent), linear-gradient(to left, var(--sheet) 30%, transparent),
+    radial-gradient(farthest-side at 0 50%, var(--shadow), transparent), radial-gradient(farthest-side at 100% 50%, var(--shadow), transparent);
+  background-position:left center, right center, left center, right center; background-repeat:no-repeat;
+  background-size:2rem 100%, 2rem 100%, .8rem 100%, .8rem 100%; background-attachment:local, local, scroll, scroll; }.fig-frame svg{ display:block; width:100%; min-width:var(--figmin, 34rem); height:auto; }svg text{ font-family:var(--f-fig); font-size:12px; fill:var(--ink) }svg .t-m{ fill:var(--mute) }svg .t-s{ font-size:10.5px }svg .t-b{ font-weight:700 }svg .t-deep{ fill:var(--deep) }svg .t-alarm{ fill:var(--alarm) }svg .halo{ paint-order:stroke; stroke:var(--sheet); stroke-width:3.5px; stroke-linejoin:round }svg .ln{ stroke:var(--ink); stroke-width:1.4; fill:none }svg .ln-deep{ stroke:var(--deep); stroke-width:1.8; fill:none }svg .ln-alarm{ stroke:var(--alarm); stroke-width:1.8; fill:none }svg .w-thick{ stroke-width:2.8 }svg .f-alarm{ fill:var(--alarm) }svg .f-deep-w{ fill:var(--deep-w) }svg .f-alarm-w{ fill:var(--alarm-w) }section.lecture-wrap{ content-visibility:auto; contain-intrinsic-size:auto 60000px }svg.pz-root{width:640px!important;height:332px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc lecture-wrap"><g class="pz-w fig"><g class="pz-w fig-frame"><svg aria-label="'살고 살게 하라'의 계단: 식사 때 조용 → 보급 마차·변소를 안 쏨 → 폐가 벽을 거듭 저격하는 신호 → 서로 머리 위로 쏘기 → 의례화 → 위반엔 두 발로 응수하고 사과를 받아 평화로. 바탕은 같은 참호에서 날마다 같은 상대를 보는 것. 위에서 후방 고위 장교의 부대 교대, 군법회의 위협, 백병전 기습 명령이 내리꽂힌다." class="pz-inner" height="100%" role="img" viewBox="0 0 640 332" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="livelet-aha" markerHeight="12" markerUnits="userSpaceOnUse" markerWidth="12" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-alarm" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 위에서 부수는 힘 -->
+<rect class="f-alarm-w ln-alarm" height="38" rx="3" width="580" x="30" y="8"></rect>
+<text class="t-b t-alarm" text-anchor="middle" x="320" y="25">후방 고위 장교</text>
+<text class="t-s t-alarm" text-anchor="middle" x="320" y="40">끝내 소모전 전략으로 지움</text>
+<!-- 계단 -->
+<rect class="f-deep-w ln-deep" height="50" width="95" x="40" y="250"></rect>
+<rect class="f-deep-w ln-deep" height="78" width="95" x="135" y="222"></rect>
+<rect class="f-deep-w ln-deep" height="106" width="95" x="230" y="194"></rect>
+<rect class="f-deep-w ln-deep" height="134" width="95" x="325" y="166"></rect>
+<rect class="f-deep-w ln-deep" height="162" width="95" x="420" y="138"></rect>
+<rect class="f-deep-w ln-deep" height="190" width="95" x="515" y="110"></rect>
+<text class="t-s t-b t-deep" text-anchor="middle" x="87" y="268">식사 땐 조용</text>
+<text class="t-s" text-anchor="middle" x="87" y="284">수동적·궂은 날씨</text>
+<text class="t-s t-b t-deep" text-anchor="middle" x="182" y="240">마차·변소 안 쏨</text>
+<text class="t-s" text-anchor="middle" x="182" y="256">상호 자제</text>
+<text class="t-s t-b t-deep" text-anchor="middle" x="277" y="212">폐가 벽 저격</text>
+<text class="t-s" text-anchor="middle" x="277" y="228">겨눌 수 있었다</text>
+<text class="t-s t-b t-deep" text-anchor="middle" x="372" y="184">머리 위로 쏘기</text>
+<text class="t-s" text-anchor="middle" x="372" y="200">화답 → 합의</text>
+<text class="t-s t-b t-deep" text-anchor="middle" x="467" y="156">의례화</text>
+<text class="t-s" text-anchor="middle" x="467" y="172">날마다 같은 표적</text>
+<text class="t-s t-b t-deep" text-anchor="middle" x="562" y="128">위반엔 두 발</text>
+<text class="t-s" text-anchor="middle" x="562" y="144">사과 → 다시 평화</text>
+<!-- 내리꽂는 화살표 -->
+<path class="ln-alarm w-thick" d="M87,46 L87,246" marker-end="url(#livelet-aha)"></path>
+<path class="ln-alarm" d="M75,244 L82,250 M99,244 L92,250"></path>
+<text class="t-s t-b t-alarm halo" x="96" y="150">부대 교대</text>
+<path class="ln-alarm w-thick" d="M277,46 L277,190" marker-end="url(#livelet-aha)"></path>
+<path class="ln-alarm" d="M265,188 L272,194 M289,188 L282,194"></path>
+<text class="t-s t-b t-alarm halo" x="286" y="120">군법회의 위협</text>
+<path class="ln-alarm w-thick" d="M562,46 L562,106" marker-end="url(#livelet-aha)"></path>
+<path class="ln-alarm" d="M550,104 L557,110 M574,104 L567,110"></path>
+<text class="t-s t-b t-alarm halo" text-anchor="end" x="553" y="80">백병전 기습 명령</text>
+<!-- 바탕 -->
+<path class="ln w-thick" d="M30,300 L610,300"></path>
+<text class="t-s t-m" x="36" y="320">바탕: 같은 참호 · 날마다 같은 상대 · w ≈ 1</text>
+<text class="t-s t-deep" text-anchor="end" x="606" y="320">저비용 첫 제안 → 정교한 자제와 신호</text>
+</svg></g></g></g></svg>

@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 530" width="900" height="530" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#ECEAF0; --panel:#F7F6F9; --ink:#1D1A26; --muted:#5B5668; --rule:#C9C5D2; --rule-2:#DCD9E2;
+  --red:#B42318;   --red-fill:#F3D3CE;
+  --flesh:#995532; --flesh-fill:#ECCFBC;
+  --cob:#2B4A9B;   --cob-fill:#D3DBF1;
+  --verd:#1F6F62;  --verd-fill:#CDE7E1;
+  --void:#17141F;  --on-void:#F2EEF7;
+  --display-ko:"Hahmlet","Noto Serif KR","Noto Serif CJK KR",serif;
+  --body:"Noto Serif KR","Noto Serif CJK KR","Apple SD Gothic Neo",serif;
+  --display-la:"GFS Didot","Didot","Bodoni 72","Noto Serif",serif;
+  --sans:"Noto Sans KR","Noto Sans CJK KR","Apple SD Gothic Neo",system-ui,sans-serif;
+  --mono:"Red Hat Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }svg.fig{display:block;width:100%;height:auto;font-family:var(--sans);overflow:visible}svg.fig text{font-family:var(--sans);font-size:14px;fill:var(--ink)}svg.fig .t-s{font-size:12px}svg.fig .t-l{font-size:17px}svg.fig .t-b{font-weight:700}svg.fig .t-mono{font-family:var(--mono)}svg.fig .t-mid{text-anchor:middle}svg.fig .t-end{text-anchor:end}svg.fig .t-muted{fill:var(--muted)}svg.fig .halo{paint-order:stroke fill;stroke:var(--panel);stroke-width:5px;stroke-linejoin:round}svg.fig .f-ink{fill:var(--ink)}svg.fig .f-muted{fill:var(--muted)}svg.fig .f-red{fill:var(--red)}svg.fig .f-none{fill:none}svg.fig .s-ink{stroke:var(--ink)}svg.fig .s-muted{stroke:var(--muted)}svg.fig .s-rule{stroke:var(--rule)}svg.fig .s-red{stroke:var(--red)}svg.fig .w1{stroke-width:1px}svg.fig .w15{stroke-width:1.5px}svg.fig .w2{stroke-width:2px}svg.fig .w3{stroke-width:3px}svg.fig .dash{stroke-dasharray:6 5}svg.fig .dot{stroke-dasharray:1.5 4;stroke-linecap:round}:root{ --pad:1.15rem; --measure:39rem; --wide:52rem; --shell:calc(var(--wide) + var(--pad)*2); }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{max-width:560px;margin-inline:auto}.doc{padding-inline:var(--pad)}.lecture{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-block:2.5rem 3rem;
+  content-visibility:auto;border-top:1px solid var(--rule)}.fig-wrap{margin:.8rem 0 !important}.fig-scroll{overflow-x:auto;background:
+  linear-gradient(to right,var(--panel) 30%,transparent) left center/2.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--panel) 30%,transparent) right center/2.2rem 100% no-repeat local,
+  radial-gradient(farthest-side at 0 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) left center/.8rem 100% no-repeat scroll,
+  radial-gradient(farthest-side at 100% 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) right center/.8rem 100% no-repeat scroll,
+  var(--panel);padding:1rem .9rem .6rem}.fig-inner{width:100%}svg.pz-root{width:900px!important;height:530px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig-wrap"><g class="pz-w fig-scroll"><g class="pz-w fig-inner"><svg xmlns="http://www.w3.org/2000/svg" aria-label="아리스토텔레스의 사각형에서는 왼쪽과 오른쪽이 반대·양립·모순으로 얽히지만, 지젝이 배치한 라캉의 사각형에서는 모순이 모두 위아래 사이로 옮겨 가고 왼쪽 남성 줄과 오른쪽 여성 줄 사이에는 동치, 곧 관계 없음만 남는다." class="fig pz-inner" height="100%" role="img" viewBox="0 0 900 530" width="100%">
+<defs>
+<marker id="L12-2-ar-ink" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="L12-2-ar-mut" markerHeight="8" markerUnits="userSpaceOnUse" markerWidth="8" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-muted" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- ===== 왼쪽: 아리스토텔레스 ===== -->
+<text class="t-mid t-l t-b" x="220" y="34">아리스토텔레스</text>
+<text class="t-mid t-s t-muted" x="100" y="72">왼쪽</text>
+<text class="t-mid t-s t-muted" x="340" y="72">오른쪽</text>
+<!-- 모순: 대각 -->
+<line class="s-red w3" x1="100" x2="340" y1="130" y2="350"></line>
+<line class="s-red w3" x1="340" x2="100" y1="130" y2="350"></line>
+<!-- 반대: 위 가로 -->
+<line class="s-ink w2 dash" x1="106" x2="334" y1="130" y2="130"></line>
+<!-- 양립: 아래 가로 -->
+<line class="s-ink w3 dot" x1="108" x2="332" y1="350" y2="350"></line>
+<!-- 함축: 세로 -->
+<line class="s-ink w2" marker-end="url(#L12-2-ar-ink)" x1="100" x2="100" y1="136" y2="342"></line>
+<line class="s-ink w2" marker-end="url(#L12-2-ar-ink)" x1="340" x2="340" y1="136" y2="342"></line>
+<circle class="f-ink" cx="100" cy="130" r="4"></circle><circle class="f-ink" cx="340" cy="130" r="4"></circle>
+<circle class="f-ink" cx="100" cy="350" r="4"></circle><circle class="f-ink" cx="340" cy="350" r="4"></circle>
+<text class="t-mid" x="100" y="112"><tspan class="t-b">A</tspan>  모든 x는 F다</text>
+<text class="t-mid" x="340" y="112"><tspan class="t-b">E</tspan>  모든 x는 F가 아니다</text>
+<text class="t-mid" x="100" y="378"><tspan class="t-b">I</tspan>  어떤 x는 F다</text>
+<text class="t-mid" x="340" y="378"><tspan class="t-b">O</tspan>  어떤 x는 F가 아니다</text>
+<text class="t-mid t-s t-b" x="220" y="122">반대</text>
+<text class="t-mid t-s t-b" x="220" y="368">양립</text>
+<text class="t-end t-s t-b" x="88" y="245">함축</text>
+<text class="t-s t-b" x="352" y="245">함축</text>
+<text class="t-mid t-s t-b f-red halo" x="220" y="192">모순</text>
+<!-- ===== 오른쪽: 라캉(지젝의 배치) ===== -->
+<text class="t-mid t-l t-b" x="680" y="34">라캉 — 지젝의 배치</text>
+<text class="t-mid t-l t-b" x="560" y="74">남</text>
+<text class="t-mid t-l t-b" x="800" y="74">여</text>
+<text class="t-mid t-s t-muted" x="680" y="72">← 관계 없음 →</text>
+<!-- 모순: 대각(그림자) -->
+<line class="s-red w15" x1="560" x2="800" y1="130" y2="350"></line>
+<line class="s-red w15" x1="800" x2="560" y1="130" y2="350"></line>
+<!-- 모순: 세로 -->
+<line class="s-red w3" x1="560" x2="560" y1="130" y2="350"></line>
+<line class="s-red w3" x1="800" x2="800" y1="130" y2="350"></line>
+<!-- 동치: 위·아래 가로 이중선 -->
+<line class="s-ink w15" x1="568" x2="792" y1="127" y2="127"></line>
+<line class="s-ink w15" x1="568" x2="792" y1="133" y2="133"></line>
+<line class="s-ink w15" x1="568" x2="792" y1="347" y2="347"></line>
+<line class="s-ink w15" x1="568" x2="792" y1="353" y2="353"></line>
+<circle class="f-ink" cx="560" cy="130" r="4"></circle><circle class="f-ink" cx="800" cy="130" r="4"></circle>
+<circle class="f-ink" cx="560" cy="350" r="4"></circle><circle class="f-ink" cx="800" cy="350" r="4"></circle>
+<text class="t-mid t-l t-mono" x="560" y="112">∀x Φx</text>
+<text class="t-mid t-l t-mono" x="800" y="112">¬∃x ¬Φx</text>
+<text class="t-mid t-l t-mono" x="560" y="380">∃x ¬Φx</text>
+<text class="t-mid t-l t-mono" x="800" y="380">¬∀x Φx</text>
+<text class="t-mid t-s t-b" x="680" y="120">동치</text>
+<text class="t-mid t-s t-b" x="680" y="370">동치</text>
+<text class="t-end t-s t-b f-red" x="548" y="245">모순</text>
+<text class="t-s t-b f-red" x="812" y="245">모순</text>
+<text class="t-mid t-s f-red halo" x="680" y="194">세로 모순의 그림자</text>
+<!-- ===== 범례 ===== -->
+<line class="s-rule w1" x1="30" x2="520" y1="410" y2="410"></line>
+<line class="s-red w3" x1="30" x2="66" y1="438" y2="438"></line>
+<text class="t-s" x="74" y="443">모순</text>
+<line class="s-ink w2 dash" x1="126" x2="162" y1="438" y2="438"></line>
+<text class="t-s" x="170" y="443">반대</text>
+<line class="s-ink w3 dot" x1="222" x2="258" y1="438" y2="438"></line>
+<text class="t-s" x="266" y="443">양립</text>
+<line class="s-ink w2" marker-end="url(#L12-2-ar-ink)" x1="318" x2="352" y1="438" y2="438"></line>
+<text class="t-s" x="362" y="443">함축</text>
+<line class="s-ink w15" x1="414" x2="450" y1="435" y2="435"></line>
+<line class="s-ink w15" x1="414" x2="450" y1="441" y2="441"></line>
+<text class="t-s" x="458" y="443">동치</text>
+<text class="t-s t-muted" x="30" y="476">모순 2쌍 → 4쌍 · 좌우를 잇는 가로 관계: 반대·양립 → 동치</text>
+<!-- ===== 《앙코르》 원표 ===== -->
+<rect class="f-none s-rule w1" height="118" rx="4" width="336" x="548" y="404"></rect>
+<text class="t-mid t-s t-b" x="716" y="426">《앙코르》의 원래 표</text>
+<text class="t-mid t-mono" x="640" y="456">∃x ¬Φx</text>
+<text class="t-mid t-mono" x="790" y="456">¬∃x ¬Φx</text>
+<text class="t-mid t-mono" x="640" y="484">∀x Φx</text>
+<text class="t-mid t-mono" x="790" y="484">¬∀x Φx</text>
+<path class="f-none s-muted w15" d="M596,449 C578,456 578,474 596,481" marker-end="url(#L12-2-ar-mut)" marker-start="url(#L12-2-ar-mut)"></path>
+<text class="t-mid t-s t-muted" x="716" y="510">남 줄만 위아래를 바꾸면 지젝의 배치</text>
+</svg></g></g></g></g></g></svg>

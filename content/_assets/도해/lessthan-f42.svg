@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 880 440" width="880" height="440" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#ECEAF0; --panel:#F7F6F9; --ink:#1D1A26; --muted:#5B5668; --rule:#C9C5D2; --rule-2:#DCD9E2;
+  --red:#B42318;   --red-fill:#F3D3CE;
+  --flesh:#995532; --flesh-fill:#ECCFBC;
+  --cob:#2B4A9B;   --cob-fill:#D3DBF1;
+  --verd:#1F6F62;  --verd-fill:#CDE7E1;
+  --void:#17141F;  --on-void:#F2EEF7;
+  --display-ko:"Hahmlet","Noto Serif KR","Noto Serif CJK KR",serif;
+  --body:"Noto Serif KR","Noto Serif CJK KR","Apple SD Gothic Neo",serif;
+  --display-la:"GFS Didot","Didot","Bodoni 72","Noto Serif",serif;
+  --sans:"Noto Sans KR","Noto Sans CJK KR","Apple SD Gothic Neo",system-ui,sans-serif;
+  --mono:"Red Hat Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }svg.fig{display:block;width:100%;height:auto;font-family:var(--sans);overflow:visible}svg.fig text{font-family:var(--sans);font-size:14px;fill:var(--ink)}svg.fig .t-s{font-size:12px}svg.fig .t-l{font-size:17px}svg.fig .t-b{font-weight:700}svg.fig .t-mid{text-anchor:middle}svg.fig .t-end{text-anchor:end}svg.fig .t-muted{fill:var(--muted)}svg.fig .f-ink{fill:var(--ink)}svg.fig .f-muted{fill:var(--muted)}svg.fig .f-red{fill:var(--red)}svg.fig .f-redf{fill:var(--red-fill)}svg.fig .f-cob{fill:var(--cob)}svg.fig .f-cobf{fill:var(--cob-fill)}svg.fig .f-none{fill:none}svg.fig .s-ink{stroke:var(--ink)}svg.fig .s-muted{stroke:var(--muted)}svg.fig .s-rule{stroke:var(--rule)}svg.fig .s-red{stroke:var(--red)}svg.fig .s-cob{stroke:var(--cob)}svg.fig .w1{stroke-width:1px}svg.fig .w15{stroke-width:1.5px}svg.fig .w2{stroke-width:2px}svg.fig .w3{stroke-width:3px}svg.fig .dash{stroke-dasharray:6 5}svg.fig .round{stroke-linecap:round;stroke-linejoin:round}:root{ --pad:1.15rem; --measure:39rem; --wide:52rem; --shell:calc(var(--wide) + var(--pad)*2); }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{max-width:560px;margin-inline:auto}.doc{padding-inline:var(--pad)}.lecture{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-block:2.5rem 3rem;
+  content-visibility:auto;border-top:1px solid var(--rule)}.fig-wrap{margin:.8rem 0 !important}.fig-scroll{overflow-x:auto;background:
+  linear-gradient(to right,var(--panel) 30%,transparent) left center/2.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--panel) 30%,transparent) right center/2.2rem 100% no-repeat local,
+  radial-gradient(farthest-side at 0 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) left center/.8rem 100% no-repeat scroll,
+  radial-gradient(farthest-side at 100% 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) right center/.8rem 100% no-repeat scroll,
+  var(--panel);padding:1rem .9rem .6rem}.fig-inner{width:100%}svg.pz-root{width:880px!important;height:440px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig-wrap"><g class="pz-w fig-scroll"><g class="pz-w fig-inner"><svg xmlns="http://www.w3.org/2000/svg" aria-label="셸링에게는 사랑의 동일성인 선이 바탕에 먼저 있고 악은 대립 속의 들러리로 솟았다가 선의 계시로 거두어진다. 데이비스의 하이데거에게는 선과 악의 투쟁 자체가 바탕이고 화해는 없다. 지젝의 헤겔에게는 꼼짝 못하는 원초적 불협화인 악이 바탕이고, 선은 그 위에 군데군데 떠 있는 악의 위태로운 자기 지양들일 뿐이다." class="fig pz-inner" height="100%" role="img" viewBox="0 0 880 440" width="100%">
+<defs>
+<marker id="L14-3-ar-ink" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="L14-3-ar-red" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-red" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="L14-3-ar-cob" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-cob" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="L14-3-ar-muted" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-muted" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 존재론적 순서 축 -->
+<line class="s-muted w15" marker-end="url(#L14-3-ar-muted)" x1="22" x2="22" y1="330" y2="104"></line>
+<text class="t-mid t-s t-muted" x="22" y="350">먼저</text>
+<text class="t-mid t-s t-muted" x="22" y="92">나중</text>
+<line class="s-rule w1 dash" x1="296" x2="296" y1="24" y2="400"></line>
+<line class="s-rule w1 dash" x1="586" x2="586" y1="24" y2="400"></line>
+<!-- 셸링 -->
+<text class="t-mid t-l t-b" x="160" y="36">셸링</text>
+<text class="t-mid t-s t-muted" x="160" y="58">선이 먼저, 악은 대립 속에서만</text>
+<rect class="f-cobf s-cob w2" height="36" rx="6" width="150" x="120" y="98"></rect>
+<text class="t-mid t-b f-cob" x="195" y="121">선의 계시 · 전능</text>
+<path class="f-redf s-red w15 round" d="M60,186 L74,176 L82,190 L96,174 L106,190 L120,178 L130,194 L124,212 L108,206 L96,220 L84,206 L70,216 L58,204 z"></path>
+<text class="t-mid t-b f-red" x="94" y="200">악</text>
+<text class="t-s t-b f-red" x="146" y="196">비본질</text>
+<text class="t-s t-muted" x="146" y="212">대립 속에서만 실재</text>
+<text class="t-s t-muted" x="146" y="228">전능을 돋보일 들러리</text>
+<path class="f-none s-ink w15" d="M94,288 L94,226" marker-end="url(#L14-3-ar-ink)"></path>
+<text class="t-s" x="102" y="264">근거를 작동하게 둠</text>
+<path class="f-none s-cob w15" d="M112,172 Q124,150 150,138" marker-end="url(#L14-3-ar-cob)"></path>
+<text class="t-end t-s f-cob" x="102" y="150">빛 아래 꿇린다</text>
+<rect class="f-cobf s-cob w2" height="40" rx="6" width="232" x="44" y="292"></rect>
+<text class="t-mid t-b f-cob" x="160" y="317">선 — 사랑의 동일성</text>
+<text class="t-mid t-s t-muted" x="160" y="356">절대적 동일성이 악보다 앞선다</text>
+<!-- 데이비스의 하이데거 -->
+<text class="t-mid t-l t-b" x="441" y="36">데이비스의 하이데거</text>
+<text class="t-mid t-s t-muted" x="441" y="58">투쟁이 먼저, 끝이 열림</text>
+<rect class="f-none s-muted w15 dash" height="36" rx="6" width="140" x="371" y="98"></rect>
+<text class="t-mid t-muted" x="441" y="121">화해 — 없음</text>
+<path class="f-none s-cob w3 round" d="M330,312 C343.5,298 356.5,298 370,312 S396.5,326 410,312 S436.5,298 450,312 S476.5,326 490,312 S516.5,298 530,312" marker-end="url(#L14-3-ar-cob)"></path>
+<path class="f-none s-red w3 round" d="M330,312 C343.5,326 356.5,326 370,312 S396.5,298 410,312 S436.5,326 450,312 S476.5,298 490,312 S516.5,326 530,312" marker-end="url(#L14-3-ar-red)"></path>
+<text class="t-end t-s t-b f-cob" x="322" y="300">선</text>
+<text class="t-end t-s t-b f-red" x="322" y="334">악</text>
+<text class="t-mid t-b t-muted" x="556" y="317">…</text>
+<text class="t-mid t-s t-muted" x="441" y="356">원초적·구성적 투쟁, 결과 보장 없음</text>
+<!-- 지젝의 헤겔 -->
+<text class="t-mid t-l t-b" x="730" y="36">지젝의 헤겔</text>
+<text class="t-mid t-s t-muted" x="730" y="58">악이 먼저, 선은 위태로운 자기 지양들</text>
+<text class="t-mid t-s f-cob" x="730" y="84">선 = 자기 지양된, 보편화된 악</text>
+<rect class="f-cobf s-cob w15 dash" height="30" rx="14" width="64" x="622" y="196"></rect>
+<text class="t-mid t-b f-cob" x="654" y="216">선</text>
+<rect class="f-cobf s-cob w15 dash" height="30" rx="14" width="64" x="700" y="112"></rect>
+<text class="t-mid t-b f-cob" x="732" y="132">선</text>
+<rect class="f-cobf s-cob w15 dash" height="30" rx="14" width="64" x="790" y="176"></rect>
+<text class="t-mid t-b f-cob" x="822" y="196">선</text>
+<line class="s-cob w15" marker-end="url(#L14-3-ar-cob)" x1="654" x2="654" y1="284" y2="230"></line>
+<line class="s-cob w15" marker-end="url(#L14-3-ar-cob)" x1="732" x2="732" y1="282" y2="146"></line>
+<line class="s-cob w15" marker-end="url(#L14-3-ar-cob)" x1="822" x2="822" y1="284" y2="210"></line>
+<text class="t-s f-cob" x="742" y="240">자기 지양</text>
+<path class="f-redf s-red w2 round" d="M606,334 L606,294 L620,284 L632,296 L646,282 L660,296 L674,280 L688,294 L702,282 L716,296 L730,280 L744,294 L758,282 L772,296 L786,280 L800,294 L814,282 L828,296 L842,284 L856,294 L856,334 z"></path>
+<text class="t-mid t-b f-red" x="731" y="320">악 — 원초적 불협화 · 과잉</text>
+<text class="t-mid t-s t-muted" x="731" y="356">꼼짝 못함 · 투쟁이 곧 악</text>
+<!-- 아래 판정 -->
+<line class="s-rule w1" x1="40" x2="860" y1="374" y2="374"></line>
+<text class="t-mid t-s t-b" x="160" y="398">짜고 친 판 — 결과 보장</text>
+<text class="t-mid t-s t-muted" x="160" y="416">데이비스: 헤겔도 여기</text>
+<text class="t-mid t-s t-b" x="441" y="398">열린 판 — 화해 없음</text>
+<text class="t-mid t-s t-b" x="730" y="398">보장할 결과도, 판 짜는 주인도 없음</text>
+<text class="t-mid t-s t-muted" x="730" y="416">지젝: 열린 투쟁보다 더 급진적</text>
+</svg></g></g></g></g></g></svg>

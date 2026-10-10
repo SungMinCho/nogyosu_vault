@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 880 530" width="880" height="530" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#ECEAF0; --panel:#F7F6F9; --ink:#1D1A26; --muted:#5B5668; --rule:#C9C5D2; --rule-2:#DCD9E2;
+  --red:#B42318;   --red-fill:#F3D3CE;
+  --flesh:#995532; --flesh-fill:#ECCFBC;
+  --cob:#2B4A9B;   --cob-fill:#D3DBF1;
+  --verd:#1F6F62;  --verd-fill:#CDE7E1;
+  --void:#17141F;  --on-void:#F2EEF7;
+  --display-ko:"Hahmlet","Noto Serif KR","Noto Serif CJK KR",serif;
+  --body:"Noto Serif KR","Noto Serif CJK KR","Apple SD Gothic Neo",serif;
+  --display-la:"GFS Didot","Didot","Bodoni 72","Noto Serif",serif;
+  --sans:"Noto Sans KR","Noto Sans CJK KR","Apple SD Gothic Neo",system-ui,sans-serif;
+  --mono:"Red Hat Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }svg.fig{display:block;width:100%;height:auto;font-family:var(--sans);overflow:visible}svg.fig text{font-family:var(--sans);font-size:14px;fill:var(--ink)}svg.fig .t-s{font-size:12px}svg.fig .t-b{font-weight:700}svg.fig .t-mid{text-anchor:middle}svg.fig .t-end{text-anchor:end}svg.fig .t-muted{fill:var(--muted)}svg.fig .halo{paint-order:stroke fill;stroke:var(--panel);stroke-width:5px;stroke-linejoin:round}svg.fig .f-ink{fill:var(--ink)}svg.fig .f-panel{fill:var(--panel)}svg.fig .f-red{fill:var(--red)}svg.fig .f-flesh{fill:var(--flesh)}svg.fig .f-fleshf{fill:var(--flesh-fill)}svg.fig .f-none{fill:none}svg.fig .s-ink{stroke:var(--ink)}svg.fig .s-rule{stroke:var(--rule)}svg.fig .s-red{stroke:var(--red)}svg.fig .s-flesh{stroke:var(--flesh)}svg.fig .w1{stroke-width:1px}svg.fig .w15{stroke-width:1.5px}svg.fig .w2{stroke-width:2px}svg.fig .dash{stroke-dasharray:6 5}svg.fig .dot{stroke-dasharray:1.5 4;stroke-linecap:round}:root{ --pad:1.15rem; --measure:39rem; --wide:52rem; --shell:calc(var(--wide) + var(--pad)*2); }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{max-width:560px;margin-inline:auto}.doc{padding-inline:var(--pad)}.lecture{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-block:2.5rem 3rem;
+  content-visibility:auto;border-top:1px solid var(--rule)}.fig-wrap{margin:.8rem 0 !important}.fig-scroll{overflow-x:auto;background:
+  linear-gradient(to right,var(--panel) 30%,transparent) left center/2.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--panel) 30%,transparent) right center/2.2rem 100% no-repeat local,
+  radial-gradient(farthest-side at 0 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) left center/.8rem 100% no-repeat scroll,
+  radial-gradient(farthest-side at 100% 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) right center/.8rem 100% no-repeat scroll,
+  var(--panel);padding:1rem .9rem .6rem}.fig-inner{width:100%}svg.pz-root{width:880px!important;height:530px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig-wrap"><g class="pz-w fig-scroll"><g class="pz-w fig-inner"><svg xmlns="http://www.w3.org/2000/svg" aria-label="오른손과 왼손 두 선이 서로 잇닿지 않는 틈에서 연주되지 않는 셋째 선이 소급적으로 세워지고, 되풀이에서는 그 셋째 줄마저 빠져 부재의 부재가 된다 — 소설과 영화라는 두 계열도 그렇게 대상 = x를 세운다." class="fig pz-inner" height="100%" role="img" viewBox="0 0 880 530" width="100%">
+<defs>
+<marker id="L10-2-ar-ink" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="L10-2-ar-red" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-red" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<text class="t-mid t-b" x="265" y="38">처음 — 셋째 줄이 적혀 있다</text>
+<line class="s-ink w15" x1="110" x2="420" y1="96" y2="96"></line>
+<line class="s-ink w15" x1="110" x2="420" y1="176" y2="176"></line>
+<ellipse class="f-ink" cx="140" cy="90" rx="6.5" ry="4.6" transform="rotate(-20 140 90)"></ellipse>
+<line class="s-ink w15" x1="146" x2="146" y1="89" y2="64"></line>
+<ellipse class="f-ink" cx="190" cy="98" rx="6.5" ry="4.6" transform="rotate(-20 190 98)"></ellipse>
+<line class="s-ink w15" x1="196" x2="196" y1="97" y2="72"></line>
+<ellipse class="f-ink" cx="240" cy="86" rx="6.5" ry="4.6" transform="rotate(-20 240 86)"></ellipse>
+<line class="s-ink w15" x1="246" x2="246" y1="85" y2="60"></line>
+<ellipse class="f-ink" cx="290" cy="94" rx="6.5" ry="4.6" transform="rotate(-20 290 94)"></ellipse>
+<line class="s-ink w15" x1="296" x2="296" y1="93" y2="68"></line>
+<ellipse class="f-ink" cx="340" cy="102" rx="6.5" ry="4.6" transform="rotate(-20 340 102)"></ellipse>
+<line class="s-ink w15" x1="346" x2="346" y1="101" y2="76"></line>
+<ellipse class="f-ink" cx="390" cy="92" rx="6.5" ry="4.6" transform="rotate(-20 390 92)"></ellipse>
+<line class="s-ink w15" x1="396" x2="396" y1="91" y2="66"></line>
+<ellipse class="f-ink" cx="165" cy="180" rx="6.5" ry="4.6" transform="rotate(-20 165 180)"></ellipse>
+<line class="s-ink w15" x1="159" x2="159" y1="181" y2="206"></line>
+<ellipse class="f-ink" cx="215" cy="172" rx="6.5" ry="4.6" transform="rotate(-20 215 172)"></ellipse>
+<line class="s-ink w15" x1="209" x2="209" y1="173" y2="198"></line>
+<ellipse class="f-ink" cx="265" cy="184" rx="6.5" ry="4.6" transform="rotate(-20 265 184)"></ellipse>
+<line class="s-ink w15" x1="259" x2="259" y1="185" y2="210"></line>
+<ellipse class="f-ink" cx="315" cy="176" rx="6.5" ry="4.6" transform="rotate(-20 315 176)"></ellipse>
+<line class="s-ink w15" x1="309" x2="309" y1="177" y2="202"></line>
+<ellipse class="f-ink" cx="365" cy="170" rx="6.5" ry="4.6" transform="rotate(-20 365 170)"></ellipse>
+<line class="s-ink w15" x1="359" x2="359" y1="171" y2="196"></line>
+<line class="s-flesh w15 dash" x1="110" x2="420" y1="136" y2="136"></line>
+<ellipse class="f-fleshf s-flesh w2" cx="152" cy="136" rx="8" ry="5.6" transform="rotate(-20 152 136)"></ellipse>
+<ellipse class="f-fleshf s-flesh w2" cx="202" cy="131" rx="8" ry="5.6" transform="rotate(-20 202 131)"></ellipse>
+<ellipse class="f-fleshf s-flesh w2" cx="252" cy="140" rx="8" ry="5.6" transform="rotate(-20 252 140)"></ellipse>
+<ellipse class="f-fleshf s-flesh w2" cx="302" cy="133" rx="8" ry="5.6" transform="rotate(-20 302 133)"></ellipse>
+<ellipse class="f-fleshf s-flesh w2" cx="352" cy="141" rx="8" ry="5.6" transform="rotate(-20 352 141)"></ellipse>
+<ellipse class="f-fleshf s-flesh w2" cx="397" cy="134" rx="8" ry="5.6" transform="rotate(-20 397 134)"></ellipse>
+<text class="t-end" x="98" y="101">오른손</text>
+<text class="t-end t-b f-flesh" x="98" y="141">내적 목소리</text>
+<text class="t-end" x="98" y="181">왼손</text>
+<text class="t-mid t-s t-muted" x="265" y="226">소리 나지 않는 셋째 선 — 눈의 음악</text>
+<line class="s-ink w15" marker-end="url(#L10-2-ar-ink)" x1="438" x2="438" y1="100" y2="126"></line>
+<line class="s-ink w15" marker-end="url(#L10-2-ar-ink)" x1="438" x2="438" y1="172" y2="146"></line>
+<text class="t-s" x="450" y="132">두 선의 틈에서</text>
+<text class="t-s" x="450" y="150">거꾸로 짜 맞춤</text>
+<text class="t-mid t-b" x="705" y="38">되풀이 — 같은 두 선</text>
+<line class="s-ink w15" x1="550" x2="860" y1="96" y2="96"></line>
+<line class="s-ink w15" x1="550" x2="860" y1="176" y2="176"></line>
+<ellipse class="f-ink" cx="580" cy="90" rx="6.5" ry="4.6" transform="rotate(-20 580 90)"></ellipse>
+<line class="s-ink w15" x1="586" x2="586" y1="89" y2="64"></line>
+<ellipse class="f-ink" cx="630" cy="98" rx="6.5" ry="4.6" transform="rotate(-20 630 98)"></ellipse>
+<line class="s-ink w15" x1="636" x2="636" y1="97" y2="72"></line>
+<ellipse class="f-ink" cx="680" cy="86" rx="6.5" ry="4.6" transform="rotate(-20 680 86)"></ellipse>
+<line class="s-ink w15" x1="686" x2="686" y1="85" y2="60"></line>
+<ellipse class="f-ink" cx="730" cy="94" rx="6.5" ry="4.6" transform="rotate(-20 730 94)"></ellipse>
+<line class="s-ink w15" x1="736" x2="736" y1="93" y2="68"></line>
+<ellipse class="f-ink" cx="780" cy="102" rx="6.5" ry="4.6" transform="rotate(-20 780 102)"></ellipse>
+<line class="s-ink w15" x1="786" x2="786" y1="101" y2="76"></line>
+<ellipse class="f-ink" cx="830" cy="92" rx="6.5" ry="4.6" transform="rotate(-20 830 92)"></ellipse>
+<line class="s-ink w15" x1="836" x2="836" y1="91" y2="66"></line>
+<ellipse class="f-ink" cx="605" cy="180" rx="6.5" ry="4.6" transform="rotate(-20 605 180)"></ellipse>
+<line class="s-ink w15" x1="599" x2="599" y1="181" y2="206"></line>
+<ellipse class="f-ink" cx="655" cy="172" rx="6.5" ry="4.6" transform="rotate(-20 655 172)"></ellipse>
+<line class="s-ink w15" x1="649" x2="649" y1="173" y2="198"></line>
+<ellipse class="f-ink" cx="705" cy="184" rx="6.5" ry="4.6" transform="rotate(-20 705 184)"></ellipse>
+<line class="s-ink w15" x1="699" x2="699" y1="185" y2="210"></line>
+<ellipse class="f-ink" cx="755" cy="176" rx="6.5" ry="4.6" transform="rotate(-20 755 176)"></ellipse>
+<line class="s-ink w15" x1="749" x2="749" y1="177" y2="202"></line>
+<ellipse class="f-ink" cx="805" cy="170" rx="6.5" ry="4.6" transform="rotate(-20 805 170)"></ellipse>
+<line class="s-ink w15" x1="799" x2="799" y1="171" y2="196"></line>
+<rect class="f-none s-red w15 dash" height="32" rx="3" width="322" x="544" y="120"></rect>
+<text class="t-mid t-s t-b f-red halo" x="705" y="141">셋째 줄 자체가 없다</text>
+<text class="t-mid t-s t-muted" x="705" y="226">부재의 부재 — 갖지도 않은 것마저 잃는다</text>
+<line class="s-rule w1 dash" x1="20" x2="860" y1="250" y2="250"></line>
+<text class="t-s t-muted" x="30" y="282">두 실재 계열 — 소설과 영화 · 오른손과 왼손</text>
+<circle class="f-fleshf s-flesh w2 dash" cx="440" cy="330" r="44"></circle>
+<text class="t-mid t-b" x="440" y="336">대상 = x</text>
+<text class="t-b f-flesh" x="500" y="318">더 나은 소설 · 연주되지 않는 선율</text>
+<text class="t-s" x="500" y="338">두 계열 사이의 틈에서 나타난다</text>
+<text class="t-s t-muted" x="500" y="356">그 효과로 소급적으로 정립된다</text>
+<rect class="f-panel s-ink w15" height="52" rx="3" width="170" x="170" y="404"></rect>
+<text class="t-mid t-b" x="255" y="426">소설 1989</text>
+<text class="t-mid t-s t-muted" x="255" y="445">첫째 계열</text>
+<rect class="f-panel s-ink w15" height="52" rx="3" width="170" x="540" y="404"></rect>
+<text class="t-mid t-b" x="625" y="426">영화 1991</text>
+<text class="t-mid t-s t-muted" x="625" y="445">둘째 계열 — 되풀이</text>
+<line class="s-ink w15" marker-end="url(#L10-2-ar-ink)" x1="346" x2="532" y1="430" y2="430"></line>
+<text class="t-mid t-s" x="440" y="422">각색</text>
+<line class="s-flesh w15 dot" x1="282" x2="406" y1="402" y2="358"></line>
+<line class="s-flesh w15 dot" x1="598" x2="474" y1="402" y2="358"></line>
+<path class="f-none s-red w2" d="M625,458 C620,500 260,500 255,464" marker-end="url(#L10-2-ar-red)"></path>
+<text class="t-mid t-s t-b f-red" x="440" y="512">더 나은 소설을 거꾸로 끼워 넣는다</text>
+<text class="t-end t-s t-muted" x="860" y="512">시간적 계기가 영원을 낳는다</text>
+</svg></g></g></g></g></g></svg>

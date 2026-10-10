@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 400" width="900" height="400" class="pz-root"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}:root{
+  --paper:#ECEAF0; --panel:#F7F6F9; --ink:#1D1A26; --muted:#5B5668; --rule:#C9C5D2; --rule-2:#DCD9E2;
+  --red:#B42318;   --red-fill:#F3D3CE;
+  --flesh:#995532; --flesh-fill:#ECCFBC;
+  --cob:#2B4A9B;   --cob-fill:#D3DBF1;
+  --verd:#1F6F62;  --verd-fill:#CDE7E1;
+  --void:#17141F;  --on-void:#F2EEF7;
+  --display-ko:"Hahmlet","Noto Serif KR","Noto Serif CJK KR",serif;
+  --body:"Noto Serif KR","Noto Serif CJK KR","Apple SD Gothic Neo",serif;
+  --display-la:"GFS Didot","Didot","Bodoni 72","Noto Serif",serif;
+  --sans:"Noto Sans KR","Noto Sans CJK KR","Apple SD Gothic Neo",system-ui,sans-serif;
+  --mono:"Red Hat Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }}:root[data-theme="dark"]{
+  --paper:#14121A; --panel:#1C1925; --ink:#E8E4EF; --muted:#A39DB0; --rule:#3A3546; --rule-2:#2A2633;
+  --red:#F06A5C;   --red-fill:#4A1F1C;
+  --flesh:#E0A07E; --flesh-fill:#4A3428;
+  --cob:#93ABEC;   --cob-fill:#22304F;
+  --verd:#5EC4B0;  --verd-fill:#173A35;
+  --void:#040306;  --on-void:#E8E4EF;
+  color-scheme:dark; }svg.fig{display:block;width:100%;height:auto;font-family:var(--sans);overflow:visible}svg.fig text{font-family:var(--sans);font-size:14px;fill:var(--ink)}svg.fig .t-s{font-size:12px}svg.fig .t-b{font-weight:700}svg.fig .t-mid{text-anchor:middle}svg.fig .t-end{text-anchor:end}svg.fig .t-muted{fill:var(--muted)}svg.fig .halo{paint-order:stroke fill;stroke:var(--panel);stroke-width:5px;stroke-linejoin:round}svg.fig .f-ink{fill:var(--ink)}svg.fig .f-rule2{fill:var(--rule-2)}svg.fig .f-red{fill:var(--red)}svg.fig .f-cob{fill:var(--cob)}svg.fig .f-cobf{fill:var(--cob-fill)}svg.fig .f-void{fill:var(--void)}svg.fig .f-none{fill:none}svg.fig .s-ink{stroke:var(--ink)}svg.fig .s-muted{stroke:var(--muted)}svg.fig .s-red{stroke:var(--red)}svg.fig .s-cob{stroke:var(--cob)}svg.fig .w1{stroke-width:1px}svg.fig .w15{stroke-width:1.5px}svg.fig .w2{stroke-width:2px}svg.fig .w3{stroke-width:3px}svg.fig .dash{stroke-dasharray:6 5}svg.fig .round{stroke-linecap:round;stroke-linejoin:round}:root{ --pad:1.15rem; --measure:39rem; --wide:52rem; --shell:calc(var(--wide) + var(--pad)*2); }@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}.hero-fig svg{max-width:560px;margin-inline:auto}.doc{padding-inline:var(--pad)}.lecture{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.15rem;padding-block:2.5rem 3rem;
+  content-visibility:auto;border-top:1px solid var(--rule)}.fig-wrap{margin:.8rem 0 !important}.fig-scroll{overflow-x:auto;background:
+  linear-gradient(to right,var(--panel) 30%,transparent) left center/2.2rem 100% no-repeat local,
+  linear-gradient(to left,var(--panel) 30%,transparent) right center/2.2rem 100% no-repeat local,
+  radial-gradient(farthest-side at 0 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) left center/.8rem 100% no-repeat scroll,
+  radial-gradient(farthest-side at 100% 50%,color-mix(in srgb,var(--ink) 22%,transparent),transparent) right center/.8rem 100% no-repeat scroll,
+  var(--panel);padding:1rem .9rem .6rem}.fig-inner{width:100%}svg.pz-root{width:900px!important;height:400px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--paper)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig-wrap"><g class="pz-w fig-scroll"><g class="pz-w fig-inner"><svg xmlns="http://www.w3.org/2000/svg" aria-label="실재 위에 상징계의 원을 긋는 한 획이 펜을 떼지 않고 원 안에 구멍을 뚫는다 — 축출과 폐제는 한 몸짓이고, 신경증과 정신병의 차이는 구멍이 있느냐가 아니라 그 구멍에 S(Ⱥ)라는 표지가 꽂혀 있느냐이다." class="fig pz-inner" height="100%" role="img" viewBox="0 0 900 400" width="100%">
+<defs><marker id="L14-1-ar-ink" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="L14-1-ar-red" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="9" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-red" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<text class="t-mid t-b" x="122" y="30">발메스 — 두 층</text>
+<text class="t-mid t-s t-muted" x="122" y="48">층을 나눈 해법</text>
+<rect class="f-rule2 s-ink w1" height="70" width="136" x="84" y="180"></rect>
+<text class="t-mid t-s t-b" x="152" y="210">② 긍정 / 폐제</text>
+<text class="t-mid t-s t-muted" x="152" y="228">주체적 떠맡음</text>
+<rect class="f-rule2 s-ink w1" height="56" width="196" x="24" y="250"></rect>
+<text class="t-mid t-s t-b" x="122" y="274">① 일차 상징화</text>
+<text class="t-mid t-s t-muted" x="122" y="292">뒷면: 실재의 축출</text>
+<text class="t-s t-muted" x="24" y="336">첫째 독해 — 정신병자는 ①만</text>
+<text class="t-s t-muted" x="24" y="354">둘째 독해 — 정신병자는 ②만</text>
+<line class="s-ink w2" marker-end="url(#L14-1-ar-ink)" x1="226" x2="274" y1="222" y2="222"></line>
+<text class="t-mid t-s" x="250" y="212">겹친다</text>
+<text class="t-mid t-b" x="432" y="30">지젝 — 한 몸짓</text>
+<text class="t-mid t-s t-muted" x="432" y="48">폐제 없는 축출은 없다</text>
+<rect class="f-rule2" height="310" width="300" x="282" y="66"></rect>
+<path class="f-none s-muted w1" d="M290,142 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0"></path>
+<path class="f-none s-muted w1" d="M290,182 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0"></path>
+<path class="f-none s-muted w1" d="M290,268 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0"></path>
+<path class="f-none s-muted w1" d="M290,308 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0 q7,-6 14,0 t14,0"></path>
+<circle class="f-cobf" cx="432" cy="222" r="95"></circle>
+<circle class="f-void" cx="456" cy="238" r="20"></circle>
+<path class="f-none s-red w3 round" d="M432,127 A95,95 0 0 1 432,317 A95,95 0 0 1 432,127 C432,160 456,180 456,218 A20,20 0 1 1 456,258 A20,20 0 1 1 456,218"></path>
+<circle class="f-red" cx="432" cy="127" r="5"></circle>
+<text class="t-s t-b f-red" x="446" y="118">한 획</text>
+<text class="t-s t-b halo" x="292" y="100">바깥 경계 — 실재의 축출</text>
+<line class="s-ink w1" x1="346" x2="361" y1="106" y2="149"></line>
+<text class="t-end t-s t-muted halo" x="574" y="100">실재</text>
+<text class="t-end t-s t-b halo" x="576" y="358">안쪽 경계 — 구멍</text>
+<line class="s-ink w1" x1="528" x2="472" y1="344" y2="254"></line>
+<text class="t-mid t-s t-b f-cob" x="384" y="292">상징계</text>
+<line class="s-ink w15" marker-end="url(#L14-1-ar-ink)" x1="588" x2="636" y1="212" y2="156"></line>
+<line class="s-ink w15" marker-end="url(#L14-1-ar-ink)" x1="588" x2="636" y1="232" y2="310"></line>
+<text class="t-mid t-b" x="690" y="74">신경증</text>
+<circle class="f-cobf s-cob w2" cx="690" cy="150" r="46"></circle>
+<circle class="f-void" cx="700" cy="160" r="11"></circle>
+<line class="s-ink w2" x1="700" x2="700" y1="160" y2="92"></line>
+<polygon class="f-cob" points="700,92 728,101 700,110"></polygon>
+<text class="t-b f-cob" x="734" y="107">S(Ⱥ)</text>
+<text class="t-s" x="752" y="156">구멍에 표지가</text>
+<text class="t-s" x="752" y="174">꽂혀 있다</text>
+<text class="t-mid t-b" x="690" y="256">정신병</text>
+<circle class="f-cobf s-cob w2" cx="690" cy="320" r="46"></circle>
+<circle class="f-none s-cob w1 dash" cx="700" cy="330" r="11"></circle>
+<line class="s-muted w2" x1="742" x2="796" y1="378" y2="362"></line>
+<polygon class="f-rule2 s-muted w15 dash" points="796,362 778.7,367.1 780.0,339.7"></polygon>
+<text class="t-s t-muted" x="800" y="384">뽑힌 S(Ⱥ)</text>
+<text class="t-s" x="752" y="304">표지가 뽑혀</text>
+<text class="t-s" x="752" y="322">'꽉 찬' 대타자처럼</text>
+</svg></g></g></g></g></g></svg>

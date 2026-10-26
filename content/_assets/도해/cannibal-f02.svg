@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 680 394" width="680" height="394" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .te{text-anchor:end}svg.d .c-mod{fill:var(--mod)}svg.d .s-jag{fill:none;stroke:var(--jag);stroke-width:1.8}svg.d .s-mod{fill:none;stroke:var(--mod);stroke-width:1.8}svg.d .s-dim{fill:none;stroke:var(--dim);stroke-width:1.2}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .f-jag{fill:var(--jag)}svg.d .f-mod{fill:var(--mod)}svg.d .f-bg{fill:var(--bg)}svg.d .t-mod{fill:var(--mod-t)}svg.pz-root{width:680px!important;height:394px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="실제 넓이로는 남아메리카가 유럽의 1.75배인데, 메르카토르 지도 위에서는 유럽이 남아메리카보다 크게 그려진다. 고위도일수록 넓이를 부풀리는 배율 때문이다." class="d pz-inner" height="100%" role="img" viewBox="0 0 680 394" width="100%">
+<defs><pattern height="7" id="f02-hm" patternTransform="rotate(45)" patternUnits="userSpaceOnUse" width="7"><line class="s-mod w2" x1="0" x2="0" y1="0" y2="7"></line></pattern><pattern height="7" id="f02-hj" patternTransform="rotate(45)" patternUnits="userSpaceOnUse" width="7"><line class="s-jag w2" x1="0" x2="0" y1="0" y2="7"></line></pattern></defs>
+<text class="tl" x="150" y="24">진한 막대 = 실제 넓이 · 빗금까지 = 메르카토르 지도 위의 몫 (만 km²)</text>
+<text class="te" x="138" y="65">유럽</text>
+<rect class="f-mod" height="32" width="128.5" x="150" y="44"></rect>
+<rect fill="url(#f02-hm)" height="32" width="271.5" x="278.5" y="44"></rect>
+<rect class="s-mod w1" height="32" width="400.0" x="150" y="44"></rect>
+<text class="ts f-bg" x="158" y="65">실제 1,018</text>
+<text class="ts" x="558.0" y="58">3,170</text>
+<text class="tl" x="558.0" y="73">부풀림 ×3.1</text>
+<text class="te" x="138" y="119">남아메리카</text>
+<rect class="f-jag" height="32" width="225.1" x="150" y="98"></rect>
+<rect fill="url(#f02-hj)" height="32" width="73.9" x="375.1" y="98"></rect>
+<rect class="s-jag w1" height="32" width="299.1" x="150" y="98"></rect>
+<text class="ts f-bg" x="158" y="119">실제 1,784</text>
+<text class="ts" x="457.1" y="112">2,370</text>
+<text class="tl" x="457.1" y="127">부풀림 ×1.3</text>
+<text class="ts" x="150" y="162">실제 넓이: 남아메리카가 유럽의 1.75배</text>
+<text class="ts" x="150" y="184">지도 위: 유럽이 남아메리카의 1.34배 → 유럽이 약 <tspan class="tb c-mod">2.3배</tspan> 부풀어 보인다</text>
+<text class="tl" x="150" y="226">위도별 넓이 배율 1/cos²φ — 적도에서 멀수록 크게 그려진다</text>
+<g transform="translate(0,24)"><rect class="t-mod s-mod w1" height="7.2" width="34" x="168" y="310.8"></rect>
+<text class="tl tm" x="185" y="304.8">×1</text>
+<text class="tl tm" x="185" y="335">0°</text>
+<rect class="t-mod s-mod w1" height="9.6" width="34" x="246" y="308.4"></rect>
+<text class="tl tm" x="263" y="302.4">×1.33</text>
+<text class="tl tm" x="263" y="335">30°</text>
+<rect class="t-mod s-mod w1" height="14.5" width="34" x="324" y="303.5"></rect>
+<text class="tl tm" x="341" y="297.5">×2</text>
+<text class="tl tm" x="341" y="335">45°</text>
+<rect class="t-mod s-mod w1" height="29.0" width="34" x="402" y="289.0"></rect>
+<text class="tl tm" x="419" y="283.0">×4</text>
+<text class="tl tm" x="419" y="335">60°</text>
+<rect class="t-mod s-mod w1" height="76.0" width="34" x="480" y="242.0"></rect>
+<text class="tl tm" x="497" y="236.0">×10.5</text>
+<text class="tl tm" x="497" y="335">72°</text>
+<line class="s-dim" x1="156" x2="540" y1="318" y2="318"></line>
+</g><text class="tl" x="150" y="384">대륙이 위도 띠에 고르게 퍼져 있다고 보는 거친 가정의 셈</text>
+</svg></g></g></g></g></svg>

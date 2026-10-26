@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 384" width="720" height="384" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tbig{font-size:19px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .te{text-anchor:end}svg.d .c-uru{fill:var(--uru)}svg.d .c-jen{fill:var(--jen)}svg.d .c-mod{fill:var(--mod)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-uru{fill:none;stroke:var(--uru);stroke-width:1.8}svg.d .s-mod{fill:none;stroke:var(--mod);stroke-width:1.8}svg.d .s-dim{fill:none;stroke:var(--dim);stroke-width:1.2}svg.d .s-rule{fill:none;stroke:var(--rule);stroke-width:1}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .f-uru{fill:var(--uru)}svg.d .f-ink{fill:var(--ink)}svg.d .f-panel{fill:var(--panel)}svg.d .t-uru{fill:var(--uru-t)}svg.d .t-mod{fill:var(--mod-t)}svg.pz-root{width:720px!important;height:384px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="다문화주의 F하나(자연) : F여럿(문화)를 레비스트로스의 신화 정식에 넣으면 F하나(문화) : F자연⁻¹(여럿)이 나온다. 항이던 자연은 뒤집혀 기능 자리로 올라가고, 기능이던 여럿은 항 자리로 내려앉는다. 두 비틀기가 넷째 칸에서 엇갈려 변이가 자연 노릇을 한다. 항만 맞바꾼 거울상 F하나(문화) : F여럿(자연)은 여러 자연이라는 어법 위반일 뿐이다." class="d pz-inner" height="100%" role="img" viewBox="0 0 720 384" width="100%">
+<defs><marker id="f07b-a-uru" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-uru" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f07b-a-ink" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<text class="ts" x="92" y="24">정식  F<tspan class="tl" dy="4">x</tspan><tspan dy="-4">(a) : F</tspan><tspan class="tl" dy="4">y</tspan><tspan dy="-4">(b)  ≃  F</tspan><tspan class="tl" dy="4">x</tspan><tspan dy="-4">(b) : F</tspan><tspan class="tl" dy="4">a</tspan><tspan class="tl" dy="-10">−1</tspan><tspan dy="6">(y)</tspan></text>
+<text class="tl te" x="640" y="24">a = 자연 · b = 문화 · x = 하나 · y = 여럿</text>
+<path class="s-dim" d="M92,68 L92,62 L344,62 L344,68"></path>
+<text class="ts tm c-mod" x="218" y="54">다문화주의: 자연은 하나, 문화는 여럿</text>
+<path class="s-dim" d="M388,68 L388,62 L640,62 L640,68"></path>
+<text class="ts tb tm" x="514" y="54">다자연주의</text>
+<text class="tl te" x="80" y="137">기능</text>
+<text class="tl te" x="80" y="178">항</text>
+<rect class="f-panel s-ink w1" height="82" width="108" x="92" y="116"></rect>
+<line class="s-dim w1" x1="92" x2="200" y1="150" y2="150"></line>
+<text class="ts tm" x="146" y="138">하나</text>
+<text class="tbig tb tm c-uru" x="146" y="181">자연</text>
+<rect class="f-panel s-ink w1" height="82" width="108" x="236" y="116"></rect>
+<line class="s-dim w1" x1="236" x2="344" y1="150" y2="150"></line>
+<text class="ts tm" x="290" y="138">여럿</text>
+<text class="tbig tb tm c-jen" x="290" y="181">문화</text>
+<rect class="f-panel s-ink w1" height="82" width="108" x="388" y="116"></rect>
+<line class="s-dim w1" x1="388" x2="496" y1="150" y2="150"></line>
+<text class="ts tm" x="442" y="138">하나</text>
+<text class="tbig tb tm c-jen" x="442" y="181">문화</text>
+<rect class="t-uru" height="34" width="108" x="532" y="116"></rect>
+<rect class="f-panel" height="48" width="108" x="532" y="150"></rect>
+<rect class="s-ink w2" height="82" width="108" x="532" y="116"></rect>
+<line class="s-dim w1" x1="532" x2="640" y1="150" y2="150"></line>
+<text class="ts tb tm c-uru" x="586" y="138">자연<tspan class="tl c-uru" dy="-6">−1</tspan></text>
+<text class="tbig tb tm" x="586" y="181">여럿</text>
+<text class="tbig tb tm" x="218" y="163">:</text>
+<text class="tbig tb tm" x="366" y="164">≃</text>
+<text class="tbig tb tm" x="514" y="163">:</text>
+<text class="tl tm" x="366" y="218">등호 아님</text>
+<text class="ts te" x="640" y="220">변이가 (뒤집힌) 자연 노릇을 한다</text>
+<text class="ts tb te" x="640" y="239">= 자연으로서의 변이</text>
+<path class="s-uru w2" d="M146,200 C146,242 166,264 206,264 L600,264 C694,264 700,133 643,133" marker-end="url(#f07b-a-uru)"></path>
+<text class="ts" x="216" y="286"><tspan class="tb c-uru">비틀기 1</tspan>  항 → 반대로 뒤집혀 기능으로 (a → a⁻¹)</text>
+<path class="s-ink w2" d="M290,114 C290,102 300,98 330,98 L600,98 C694,98 700,174 643,174" marker-end="url(#f07b-a-ink)"></path>
+<text class="ts" x="340" y="90"><tspan class="tb">비틀기 2</tspan>  기능 → 항으로 (y가 주어가 됨)</text>
+<line class="s-rule" x1="16" x2="704" y1="304" y2="304"></line>
+<rect class="t-mod s-mod w1" height="46" width="108" x="388" y="322"></rect>
+<line class="s-mod w1" x1="388" x2="496" y1="342" y2="342"></line>
+<text class="ts tm c-mod" x="442" y="337">하나</text>
+<text class="ts tm c-mod" x="442" y="360">문화</text>
+<rect class="t-mod s-mod w1" height="46" width="108" x="532" y="322"></rect>
+<line class="s-mod w1" x1="532" x2="640" y1="342" y2="342"></line>
+<text class="ts tm c-mod" x="586" y="337">여럿</text>
+<text class="ts tm c-mod" x="586" y="360">자연</text>
+<text class="ts tb tm c-mod" x="514" y="350">:</text>
+<text class="ts te c-mod" x="372" y="338">항만 맞바꾼 거울상 (모스코 1991식 대칭판)</text>
+<text class="ts te c-mod" x="372" y="358">= 「여러 자연」, 어법 위반</text>
+</svg></g></g></g></g></svg>

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 374" width="720" height="374" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tbig{font-size:19px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .te{text-anchor:end}svg.d .c-mod{fill:var(--mod)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-jag{fill:none;stroke:var(--jag);stroke-width:1.8}svg.d .s-mod{fill:none;stroke:var(--mod);stroke-width:1.8}svg.d .s-rule{fill:none;stroke:var(--rule);stroke-width:1}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .w3{stroke-width:4}svg.d .dash{stroke-dasharray:6 5}svg.d .dot{stroke-dasharray:1.5 4.5;stroke-linecap:round}svg.d .f-mod{fill:var(--mod)}svg.d .f-ink{fill:var(--ink)}svg.d .f-panel{fill:var(--panel)}svg.d .t-jag{fill:var(--jag-t)}svg.d .t-mod{fill:var(--mod-t)}svg.d .round{stroke-linecap:round;stroke-linejoin:round}svg.pz-root{width:720px!important;height:374px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="인류학 이론은 원주민 앎을 비추는 나르키소스의 샘물이 아니다. 원주민 앎의 실천을 변환 T로 옮긴, 같은 변환군 안의 또 하나의 판본이다. 그리고 그 판본 만들기에서 새로운 인류학의 개념이 역실행되어 다른 실천들로 다시 현실화된다." class="d pz-inner" height="100%" role="img" viewBox="0 0 720 374" width="100%">
+<defs>
+<marker id="f03-a" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f03-a2" markerHeight="4" markerWidth="4" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker>
+<marker id="f03-am" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-mod" d="M0,0 L10,5 L0,10 z"></path></marker>
+</defs>
+<!-- 왼쪽 판: 나르키소스의 그림 -->
+<text class="tb tm" x="118" y="28">나르키소스의 그림</text>
+<text class="tl tm" x="118" y="46">거울 테제</text>
+<text class="ts tm c-mod" x="118" y="90">인류학자</text>
+<ellipse class="t-mod s-mod w1" cx="128" cy="198" rx="82" ry="24"></ellipse>
+<path class="s-mod w2 round" d="M109,120 L66,150 L70,178 L38,180 M100,127 L88,168"></path>
+<circle class="f-panel s-mod w2" cx="118" cy="112" r="11"></circle>
+<circle class="f-mod" cx="114" cy="115" r="1.6"></circle>
+<circle class="f-mod" cx="122" cy="115" r="1.6"></circle>
+<path class="s-mod w1 dot" d="M118,125 L118,186" marker-end="url(#f03-am)"></path>
+<text class="tl c-mod" x="134" y="152">본다</text>
+<circle class="f-panel s-mod w2" cx="118" cy="203" r="10"></circle>
+<circle class="f-mod" cx="114" cy="200" r="1.6"></circle>
+<circle class="f-mod" cx="122" cy="200" r="1.6"></circle>
+<text class="ts tm c-mod" x="128" y="244">"타자" = 우리의 표상</text>
+<path class="s-ink w3 round" d="M30,64 L206,228 M206,64 L30,228"></path>
+<text class="tb tm" x="118" y="272">같은 것만 비춘다</text>
+<text class="tl tm" x="118" y="292">이론적 탈식민주의의 반사 신경</text>
+<line class="s-rule" x1="236" x2="236" y1="16" y2="362"></line>
+<!-- 오른쪽 판: 변환의 그림 -->
+<text class="tb tm" x="430" y="28">변환의 그림</text>
+<text class="tl tm" x="430" y="46">또 하나의 판본</text>
+<!-- 잠재: 새로운 인류학의 개념 -->
+<rect class="f-panel s-ink w1" height="44" width="146" x="566" y="40"></rect>
+<text class="ts tb tm" x="639" y="59">새로운 인류학의 개념</text>
+<text class="tl tm" x="639" y="76">인류학이란 무엇인가</text>
+<path class="s-ink" d="M580,145 C580,114 596,112 596,86" marker-end="url(#f03-a)"></path>
+<text class="te" x="582" y="106"><tspan class="ts tb">역실행</tspan> <tspan class="tl">현실 → 잠재</tspan></text>
+<path class="s-ink w1 dash" d="M656,84 L656,144" marker-end="url(#f03-a)"></path>
+<path class="s-ink w1 dash" d="M694,84 L694,144" marker-end="url(#f03-a)"></path>
+<rect class="s-ink w1 dash" height="28" width="28" x="642" y="146"></rect>
+<rect class="s-ink w1 dash" height="28" width="28" x="680" y="146"></rect>
+<text class="tl tm" x="675" y="192">다른 실천들</text>
+<text class="tl tm" x="675" y="208">다른 현실화</text>
+<!-- 같은 변환군 -->
+<rect class="s-ink w1 dash" height="134" rx="10" width="368" x="246" y="118"></rect>
+<text class="ts tm" x="430" y="136">변환 T = 담론적 왜상(歪像)</text>
+<rect class="t-jag s-jag w1" height="96" width="148" x="254" y="146"></rect>
+<text class="ts tb tm" x="328" y="168">원주민 앎의 실천</text>
+<text class="tl tm" x="328" y="186">그들의 민족-인류학</text>
+<text class="ts tm" x="328" y="210">관점주의</text>
+<text class="ts tm" x="328" y="230">다자연주의</text>
+<rect class="t-mod s-mod w1" height="96" width="148" x="458" y="146"></rect>
+<text class="ts tb tm" x="532" y="168">인류학 이론</text>
+<text class="tl tm" x="532" y="186">개념의 인류학</text>
+<text class="ts tm" x="532" y="210">"관점주의"</text>
+<text class="ts tm" x="532" y="230">"다자연주의"</text>
+<path class="s-ink w2" d="M403,200 L456,200" marker-end="url(#f03-a2)"></path>
+<text class="tbig tb tm" x="430" y="190">T</text>
+<text class="ts tm" x="430" y="272"><tspan class="tb">같은 변환군</tspan> — 연속성 ○ · 동질성 ×</text>
+<text class="tl te" x="614" y="272">각주 2</text>
+<!-- 1강의 변환군 -->
+<text class="tl" x="254" y="306">1강에서 — 이웃 신화도 서로의 판본</text>
+<rect class="s-ink w1" height="48" width="148" x="254" y="314"></rect>
+<text class="ts tb tm" x="328" y="334">벨라벨라</text>
+<text class="tl tm" x="328" y="352">조개 수관 → 땅의 부</text>
+<rect class="s-ink w1" height="48" width="148" x="458" y="314"></rect>
+<text class="ts tb tm" x="532" y="334">칠코틴</text>
+<text class="tl tm" x="532" y="352">산양 뿔 → 바다의 부</text>
+<path class="s-ink w1" d="M408,340 L452,340" marker-end="url(#f03-a)"></path>
+<path class="s-ink w1" d="M452,352 L408,352" marker-end="url(#f03-a)"></path>
+<text class="ts tb tm" x="430" y="332">T</text>
+</svg></g></g></g></g></svg>

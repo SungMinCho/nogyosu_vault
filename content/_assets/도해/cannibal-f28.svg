@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 680 486" width="680" height="486" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .te{text-anchor:end}svg.d .c-uru{fill:var(--uru)}svg.d .c-jag{fill:var(--jag)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-jag{fill:none;stroke:var(--jag);stroke-width:1.8}svg.d .s-dim{fill:none;stroke:var(--dim);stroke-width:1.2}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .w3{stroke-width:4}svg.d .dash{stroke-dasharray:6 5}svg.d .dot{stroke-dasharray:1.5 4.5;stroke-linecap:round}svg.d .f-uru{fill:var(--uru)}svg.d .f-jag{fill:var(--jag)}svg.d .f-ink{fill:var(--ink)}svg.d .f-panel{fill:var(--panel)}svg.d .f-bg{fill:var(--bg)}svg.d .t-uru{fill:var(--uru-t)}svg.d .t-jag{fill:var(--jag-t)}svg.d .round{stroke-linecap:round;stroke-linejoin:round}svg.pz-root{width:680px!important;height:486px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="마을을 중심에 둔 동심원. 안쪽 이상적 마을에서는 인척이 혈족의 말로 덧칠되어 보이지 않고, 다른 마을·적·백인, 짐승·식물·영으로 나갈수록 인척이 표시 없는 기본 관계가 되어 강해진다. 한가운데의 누이는 교차사촌, 누이의 딸로 다가가는 혼인들의 하한이지만 끝내 닿지 않는다." class="d pz-inner" height="100%" role="img" viewBox="0 0 680 486" width="100%">
+<defs><pattern height="6" id="f21-h" patternTransform="rotate(45)" patternUnits="userSpaceOnUse" width="6"><line class="s-jag w2" x1="0" x2="0" y1="0" y2="6"></line></pattern><marker id="f21-a-ink" markerHeight="4.6" markerWidth="4.6" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f21-a-w3" markerHeight="3.6" markerWidth="3.6" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f21-a-jag" markerHeight="5" markerWidth="5" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-jag" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<path class="t-jag" d="M52,316 A292,292 0 0 1 636,316 Z"></path>
+<path class="s-jag w1 dash" d="M52,316 A292,292 0 0 1 636,316"></path>
+<path class="s-jag w1" d="M118,316 A226,226 0 0 1 570,316"></path>
+<path class="t-uru" d="M179,316 A165,165 0 0 1 509,316 Z"></path>
+<path d="M179,316 A165,165 0 0 1 509,316 L499,316 A155,155 0 0 0 189,316 Z" fill="url(#f21-h)"></path>
+<path class="s-dim w1" d="M179,316 A165,165 0 0 1 509,316"></path>
+<path class="s-dim w1" d="M189,316 A155,155 0 0 1 499,316"></path>
+<path class="f-bg" d="M314,316 A30,30 0 0 1 374,316 Z"></path>
+<path class="s-ink w1 dot" d="M314,316 A30,30 0 0 1 374,316"></path>
+<line class="s-dim w1" x1="52" x2="636" y1="316" y2="316"></line>
+<text class="tb tm" x="344" y="50">짐승 · 식물 · 영</text>
+<text class="ts tm c-jag" x="344" y="70">동물 인척 (재규어 = 처남)</text>
+<text class="tb tm" x="344" y="118">다른 마을 · 적 · 백인</text>
+<text class="ts tm c-jag" x="344" y="138">인척 = 적 (처남 · 토자바르)</text>
+<text class="tb tm" x="344" y="184">이상적 마을</text>
+<text class="tl tm" x="344" y="201">마을 내혼</text>
+<text class="ts tm c-uru tb" x="344" y="223">인척 → 혈족으로 위장</text>
+<text class="ts tm" x="344" y="243">사촌 · 아들의 외삼촌</text>
+<text class="ts tm" x="344" y="262">한 몸(우나 카로)</text>
+<text class="tm" x="344" y="308">누이</text>
+<text class="ts tb te" x="480" y="272">실제 마을</text>
+<text class="tl te" x="480" y="288">사위 · 장인</text>
+<text class="tl te c-jag" x="480" y="304">= 숨은 인척</text>
+<text class="ts tb c-jag" x="16" y="42">투피남바 포로</text>
+<text class="tl" x="16" y="60">바깥에서 끌려와</text>
+<text class="tl" x="16" y="77">안에서 처남이 됨</text>
+<text class="tl" x="16" y="94">아내 = 처형자의 누이</text>
+<path class="s-dim w1 dot" d="M110,101 L194.5,156.3"></path>
+<path class="f-panel s-jag w1" d="M203.5,156.7 L211.9,171.2 L195.1,171.2 Z"></path>
+<path class="s-jag w2 round" d="M201.5,175.3 Q173.5,225.3 228.2,274" marker-end="url(#f21-a-jag)"></path>
+<path class="f-jag" d="M240.2,265.4 L248.6,279.9 L231.8,279.9 Z"></path>
+<text class="ts tb c-jag" x="252.2" y="279">처남</text>
+<line class="s-ink w2" marker-end="url(#f21-a-ink)" x1="144" x2="308" y1="352" y2="352"></line>
+<text class="tl" x="144" y="340">혼인이 안쪽으로 다가간다</text>
+<circle class="f-uru" cx="220" cy="352" r="4.5"></circle>
+<text class="ts tm" x="220" y="372">교차사촌</text>
+<circle class="f-uru" cx="280" cy="352" r="4.5"></circle>
+<text class="ts tm" x="280" y="372">누이의 딸</text>
+<text class="tl tm" x="280" y="388">우대혼</text>
+<path class="s-ink w1 dot" d="M314,316 V360 M374,316 V360"></path>
+<text class="ts tb tm" x="344" y="357">하한</text>
+<text class="tl tm" x="344" y="372">닿지 않음</text>
+<line class="s-ink w3" marker-end="url(#f21-a-w3)" x1="380" x2="662" y1="352" y2="352"></line>
+<line class="s-ink w1 dash" x1="504" x2="504" y1="316" y2="360"></line>
+<text class="ts" x="380" y="340">혈족이 무표</text>
+<text class="ts te" x="662" y="340">인척이 무표</text>
+<text class="ts tb tm" x="504" y="374">위장이 뒤집힌다</text>
+<text class="ts c-uru" x="380" y="404">현실적 혼인 많음</text>
+<text class="tl te" x="636" y="404">혼인 없음</text>
+<path class="f-uru" d="M380,410 L636,417 L380,424 Z"></path>
+<path class="f-jag" d="M380,445 L636,438 L636,452 Z"></path>
+<text class="tl" x="380" y="472">인척 강도 약함</text>
+<text class="ts te c-jag" x="636" y="472">인척 강도 강함</text>
+<text class="ts tb" x="16" y="472">모든 현실적 내혼은 잠재적 외혼의 하한</text>
+</svg></g></g></g></g></svg>

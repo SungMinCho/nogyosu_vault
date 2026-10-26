@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 680 616" width="680" height="616" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .te{text-anchor:end}svg.d .c-uru{fill:var(--uru)}svg.d .c-jen{fill:var(--jen)}svg.d .c-jag{fill:var(--jag)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-jen{fill:none;stroke:var(--jen);stroke-width:1.8}svg.d .s-rule{fill:none;stroke:var(--rule);stroke-width:1}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .dash{stroke-dasharray:6 5}svg.d .f-ink{fill:var(--ink)}svg.d .f-panel{fill:var(--panel)}svg.d .t-uru{fill:var(--uru-t)}svg.d .t-jen{fill:var(--jen-t)}svg.d .t-jag{fill:var(--jag-t)}svg.pz-root{width:680px!important;height:616px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="같은 것을 사람은 날것의 자연으로 보고, 그것을 다루는 다른 종은 문화로 겪는다. 사람의 피는 재규어에게 마니옥 맥주, 썩은 고기의 구더기는 독수리에게 구운 생선, 진흙 웅덩이는 맥에게 의례의 집이다. 서로를 볼 때는 위의 것이 아래를 먹잇감으로, 아래의 것이 위를 포식자나 영으로 보고, 저마다 제 자신은 사람으로 본다. 대각선은 언제나 사람이다." class="d pz-inner" height="100%" role="img" viewBox="0 0 680 616" width="100%">
+<defs><marker id="f05-a-ink" markerHeight="8" markerWidth="8" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<text class="tb" x="16" y="24">① 같은 것 — 한쪽의 자연은 다른 쪽의 문화</text>
+<text class="tl" x="16" y="66">보는 자</text>
+<text class="ts tb tm" x="288" y="50">사람의 눈에는</text>
+<text class="tl tm c-uru" x="288" y="66">자연 · 날것</text>
+<text class="tl tm" x="414" y="66">같은 것</text>
+<text class="ts tb tm" x="553" y="50">그 존재의 눈에는</text>
+<text class="tl tm c-jen" x="553" y="66">문화 · 인공물</text>
+<text class="tb" x="16" y="99">재규어*</text>
+<rect class="t-uru" height="32" width="196" x="190" y="78"></rect>
+<text class="tm" x="288" y="99">피</text>
+<line class="s-ink" marker-end="url(#f05-a-ink)" x1="391" x2="437" y1="94" y2="94"></line>
+<rect class="t-jen" height="32" width="222" x="442" y="78"></rect>
+<text class="tm" x="553" y="99">마니옥 맥주</text>
+<text class="tb" x="16" y="139">독수리*</text>
+<rect class="t-uru" height="32" width="196" x="190" y="118"></rect>
+<text class="tm" x="288" y="139">썩은 고기의 구더기</text>
+<line class="s-ink" marker-end="url(#f05-a-ink)" x1="391" x2="437" y1="134" y2="134"></line>
+<rect class="t-jen" height="32" width="222" x="442" y="118"></rect>
+<text class="tm" x="553" y="139">구운 생선</text>
+<text class="tb" x="16" y="179">맥</text>
+<rect class="t-uru" height="32" width="196" x="190" y="158"></rect>
+<text class="tm" x="288" y="179">진흙 웅덩이</text>
+<line class="s-ink" marker-end="url(#f05-a-ink)" x1="391" x2="437" y1="174" y2="174"></line>
+<rect class="t-jen" height="32" width="222" x="442" y="158"></rect>
+<text class="tm" x="553" y="179">웅장한 의례의 집</text>
+<text class="tb" x="16" y="219">재규어·독수리 등</text>
+<rect class="t-uru" height="32" width="196" x="190" y="198"></rect>
+<text class="tm" x="288" y="219">털 · 깃털 · 발톱 · 부리</text>
+<line class="s-ink" marker-end="url(#f05-a-ink)" x1="391" x2="437" y1="214" y2="214"></line>
+<rect class="t-jen" height="32" width="222" x="442" y="198"></rect>
+<text class="tm" x="553" y="219">장신구 · 도구</text>
+<line class="s-rule" x1="16" x2="664" y1="250" y2="250"></line>
+<text class="tb" x="16" y="276">② 서로를 볼 때 — 누가 누구를 무엇으로</text>
+<text class="tl te" x="180" y="300">보이는 자 →</text>
+<text class="tl" x="16" y="316">보는 자 ↓</text>
+<text class="ts tb tm" x="265" y="314">재규어</text>
+<text class="ts tb tm" x="427" y="314">사람</text>
+<text class="ts tb tm" x="589" y="314">페커리</text>
+<text class="tb" x="16" y="346">재규어</text>
+<text class="tl" x="16" y="363">달·뱀·천연두의 어머니도</text>
+<rect class="t-jen s-jen w2" height="44" width="150" x="190" y="326"></rect>
+<text class="tb tm c-jen" x="265" y="353">사람</text>
+<rect class="t-uru" height="44" width="150" x="352" y="326"></rect>
+<text class="tb tm c-uru" x="427" y="345">먹잇감</text>
+<text class="tl tm" x="427" y="362">잡아 죽일 맥·페커리</text>
+<rect class="t-uru" height="44" width="150" x="514" y="326"></rect>
+<text class="tb tm c-uru" x="589" y="353">먹잇감</text>
+<text class="tb" x="16" y="405">사람</text>
+<rect class="t-jag" height="44" width="150" x="190" y="378"></rect>
+<text class="tb tm c-jag" x="265" y="397">포식자</text>
+<text class="tl tm" x="265" y="414">짐승</text>
+<rect class="t-jen s-jen w2" height="44" width="150" x="352" y="378"></rect>
+<text class="tb tm c-jen" x="427" y="405">사람</text>
+<rect class="t-uru" height="44" width="150" x="514" y="378"></rect>
+<text class="tb tm c-uru" x="589" y="405">먹잇감</text>
+<text class="tb" x="16" y="457">페커리</text>
+<rect class="t-jag" height="44" width="150" x="190" y="430"></rect>
+<text class="tb tm c-jag" x="265" y="457">포식자 · 영</text>
+<rect class="t-jag" height="44" width="150" x="352" y="430"></rect>
+<text class="tb tm c-jag" x="427" y="457">포식자 · 영</text>
+<rect class="t-jen s-jen w2" height="44" width="150" x="514" y="430"></rect>
+<text class="tb tm c-jen" x="589" y="457">사람</text>
+<rect class="s-ink w1 dash" height="184" width="162" x="346" y="296"></rect>
+<text class="tl tm" x="427" y="498">같은 「우리」가 받는 이름 셋</text>
+<rect class="f-panel s-jen w1" height="48" width="648" x="16" y="512"></rect>
+<text class="tb tm c-jen" x="340" y="532">대각선은 언제나 「사람」 — 사람은 대명사</text>
+<text class="ts tm" x="340" y="551">저마다 제 종을 사람으로 본다 · 제 집과 마을에서는 사람 모습</text>
+<text class="tl" x="16" y="584">칸에 적히는 이름은 셋뿐 — 포식 사다리(재규어 &gt; 사람 &gt; 페커리)의 위아래가 정한다</text>
+<text class="tl" x="16" y="604">* 한 부족의 진술이 아니라 여러 민족지(캄파·마치겡가·와야피·아라웨테·우와)의 합성 요약</text>
+</svg></g></g></g></g></svg>

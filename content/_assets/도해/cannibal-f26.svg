@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 436" width="720" height="436" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tbig{font-size:19px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .te{text-anchor:end}svg.d .c-uru{fill:var(--uru)}svg.d .c-jag{fill:var(--jag)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-uru{fill:none;stroke:var(--uru);stroke-width:1.8}svg.d .s-jag{fill:none;stroke:var(--jag);stroke-width:1.8}svg.d .s-dim{fill:none;stroke:var(--dim);stroke-width:1.2}svg.d .s-rule{fill:none;stroke:var(--rule);stroke-width:1}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .w3{stroke-width:4}svg.d .dash{stroke-dasharray:6 5}svg.d .f-uru{fill:var(--uru)}svg.d .f-jag{fill:var(--jag)}svg.d .f-ink{fill:var(--ink)}svg.d .f-panel{fill:var(--panel)}svg.d .t-uru{fill:var(--uru-t)}svg.d .t-jag{fill:var(--jag-t)}svg.d .f-none{fill:none}svg.d .round{stroke-linecap:round;stroke-linejoin:round}svg.pz-root{width:720px!important;height:436px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="『안티 오이디푸스』는 출계를 강도적·외연적 둘로 가르고 결연을 외연 쪽 하나로 두어, 외연적 결연이 강도적 출계를 제한한다. 『천 개의 고원』은 결연을 외연적·강도적 둘로 가르고 출계 전체를 상상적인 것으로 내려, 출계가 강도적 결연을 제한한다. 시야가 종 안에서 종 사이로 넓어지자 강도의 칸에 앉는 관계가 출계에서 결연으로 바뀌었다." class="d pz-inner" height="100%" role="img" viewBox="0 0 720 436" width="100%">
+<defs><marker id="f19-a-ink" markerHeight="4.5" markerWidth="4.5" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f19-a-jag" markerHeight="4" markerWidth="4" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-jag" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f19-a-uru" markerHeight="4" markerWidth="4" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-uru" d="M0,0 L10,5 L0,10 z"></path></marker><pattern height="8" id="f19-h" patternTransform="rotate(45)" patternUnits="userSpaceOnUse" width="8"><line class="s-rule w2" x1="0" x2="0" y1="0" y2="8"></line></pattern></defs>
+<text class="tb tm" x="174.0" y="70">『안티 오이디푸스』 1972</text>
+<text class="tl tm" x="174.0" y="89">종 안 · 욕망의 경제</text>
+<text class="tb tm" x="546.0" y="70">『천 개의 고원』 1980</text>
+<text class="tl tm" x="546.0" y="89">종 사이 · 정동의 경제</text>
+<path class="s-ink w2 round" d="M292,64 Q367,14 446,62" marker-end="url(#f19-a-ink)"></path>
+<text class="ts tb tm" x="367" y="26">시야: 종 안 → 종 사이</text>
+<text class="ts tb tm c-uru" x="92.5" y="118">출계</text>
+<text class="ts tb tm c-jag" x="255.5" y="118">결연</text>
+<text class="ts tb tm c-uru" x="464.5" y="118">출계</text>
+<text class="ts tb tm c-jag" x="627.5" y="118">결연</text>
+<text class="ts tb tm" x="360" y="191.0">강도적</text>
+<text class="ts tb tm" x="360" y="335.0">외연적</text>
+<rect class="t-uru s-uru w3" height="116" width="153" x="16" y="128"></rect>
+<text class="ts tb tm" x="92.5" y="160">배아적 · 밤의 출계</text>
+<text class="ts tm" x="92.5" y="180">도곤의 노모 · 누멘</text>
+<text class="tl tm" x="92.5" y="210">일차적인 것</text>
+<rect class="f-none s-dim w1 dash" height="116" width="153" x="179" y="128"></rect>
+<text class="tbig tb tm c-jag" x="255.5" y="178">?</text>
+<text class="tl tm" x="255.5" y="206">7장의 물음:</text>
+<text class="tl tm" x="255.5" y="222">결연의 에너지는?</text>
+<rect class="f-panel s-ink w1" height="68" width="153" x="16" y="296"></rect>
+<text class="ts tm" x="92.5" y="326">체세포적 출계</text>
+<text class="tl tm" x="92.5" y="346">출계 집단</text>
+<rect class="f-panel s-ink w1" height="68" width="153" x="179" y="296"></rect>
+<text class="ts tm" x="255.5" y="326">교환 · 외혼</text>
+<text class="tl tm" x="255.5" y="346">“억압하는 재현”</text>
+<line class="s-jag w3 round" marker-end="url(#f19-a-jag)" x1="203" x2="152" y1="295.5" y2="248"></line>
+<text class="ts te c-jag" x="138" y="268">몰적 형태로</text>
+<text class="ts te c-jag" x="138" y="285">현실화하며 제한</text>
+<rect fill="url(#f19-h)" height="236" width="153" x="388" y="128"></rect>
+<rect class="f-none s-dim w1 dash" height="236" width="153" x="388" y="128"></rect>
+<rect class="f-panel" height="122" width="116" x="406.5" y="186"></rect>
+<text class="ts tm" x="464.5" y="208">모든 출계는</text>
+<text class="tbig tb tm" x="464.5" y="232">상상적</text>
+<text class="tl tm" x="464.5" y="258">신화적 계보</text>
+<text class="tl tm" x="464.5" y="276">동물 조상</text>
+<text class="tl tm" x="464.5" y="294">종 분화</text>
+<rect class="t-jag s-jag w3" height="116" width="153" x="551" y="128"></rect>
+<text class="ts tb tm" x="627.5" y="156">반자연적 · 악마적</text>
+<text class="ts tb tm" x="627.5" y="175">결연 = 되기</text>
+<text class="tl tm" x="627.5" y="200">말벌-난초</text>
+<text class="tl tm" x="627.5" y="217">하이에나 인간</text>
+<text class="tl tm" x="627.5" y="234">샤먼-재규어</text>
+<rect class="f-panel s-ink w1" height="68" width="153" x="551" y="296"></rect>
+<text class="ts tm" x="627.5" y="326">합의적 결연</text>
+<text class="tl tm" x="627.5" y="346">외혼 · 토테미즘</text>
+<line class="s-uru w3 round" marker-end="url(#f19-a-uru)" x1="542" x2="584" y1="291" y2="248"></line>
+<text class="ts c-uru" x="598" y="268">상상적 동일시로</text>
+<text class="ts c-uru" x="598" y="285">제한</text>
+<text class="ts tm" x="174.0" y="396">매질은 <tspan class="tb c-uru">출계</tspan> · 칼질은 <tspan class="tb c-jag">결연</tspan></text>
+<text class="ts tm" x="546.0" y="396">매질은 <tspan class="tb c-jag">결연</tspan> · 칼질은 <tspan class="tb c-uru">출계</tspan></text>
+<text class="tl tm" x="546.0" y="420">모든 되기는 결연이다 · 모든 결연이 되기는 아니다</text>
+</svg></g></g></g></g></svg>

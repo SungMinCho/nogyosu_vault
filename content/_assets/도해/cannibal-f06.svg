@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 680 408" width="680" height="408" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tbig{font-size:19px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .c-uru{fill:var(--uru)}svg.d .c-jen{fill:var(--jen)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-uru{fill:none;stroke:var(--uru);stroke-width:1.8}svg.d .s-jen{fill:none;stroke:var(--jen);stroke-width:1.8}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .dot{stroke-dasharray:1.5 4.5;stroke-linecap:round}svg.d .f-ink{fill:var(--ink)}svg.d .f-panel{fill:var(--panel)}svg.d .t-uru{fill:var(--uru-t)}svg.d .t-jen{fill:var(--jen-t)}svg.pz-root{width:680px!important;height:408px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="서양은 주어진 하나의 몸·물질·자연 위에서 여럿의 영혼과 문화를 짓고, 아메리카 원주민은 신화 속에서 주어진 하나의 영혼, 사회-정신의 연속체 위에서 여럿의 몸과 종을 짓는다. 몸과 영혼은 주어진 층과 지어지는 층의 자리를 맞바꾸고, 주어진 것이 곧 의심받지 않는 무표항이다." class="d pz-inner" height="100%" role="img" viewBox="0 0 680 408" width="100%">
+<defs><marker id="f04b-a-ink" markerHeight="8" markerWidth="8" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<text class="tbig tb tm" x="223" y="30">서양</text>
+<text class="tl tm" x="223" y="50">주어진 몸 위에서 영혼을 짓는다</text>
+<text class="tbig tb tm" x="569" y="30">아메리카 원주민</text>
+<text class="tl tm" x="569" y="50">주어진 영혼 위에서 몸을 짓는다</text>
+<text class="tb" x="16" y="120">지어지는 것</text>
+<text class="tl" x="16" y="140">행위자의 책임</text>
+<text class="tl" x="16" y="158">= 유표</text>
+<text class="tb" x="16" y="258">주어진 것</text>
+<text class="tl" x="16" y="278">역발명된 바탕</text>
+<text class="tl" x="16" y="296">= 무표</text>
+<rect class="f-panel s-jen w1" height="78" width="178" x="140" y="80"></rect>
+<rect class="f-panel s-jen w1" height="78" width="178" x="134" y="86"></rect>
+<rect class="f-panel s-jen w2" height="78" width="178" x="128" y="92"></rect>
+<text class="tb tm c-jen" x="217" y="118">영혼 · 문화</text>
+<text class="ts tm" x="217" y="138">여럿 — 영혼 만들기</text>
+<text class="tl tm" x="217" y="158">세례·이성·문명 → 문화</text>
+<rect class="f-panel s-uru w1" height="78" width="178" x="486" y="80"></rect>
+<rect class="f-panel s-uru w1" height="78" width="178" x="480" y="86"></rect>
+<rect class="f-panel s-uru w2" height="78" width="178" x="474" y="92"></rect>
+<text class="tb tm c-uru" x="563" y="118">몸 · 종</text>
+<text class="ts tm" x="563" y="138">여럿 — 몸 만들기</text>
+<text class="tl tm" x="563" y="158">금식·격리·칠·상처</text>
+<line class="s-ink" marker-end="url(#f04b-a-ink)" x1="146" x2="146" y1="229" y2="173"></line>
+<text class="ts" x="158" y="205">차이화: 문화들을 가른다</text>
+<line class="s-ink" marker-end="url(#f04b-a-ink)" x1="492" x2="492" y1="229" y2="173"></line>
+<text class="ts" x="504" y="205">차이화: 종들을 가른다</text>
+<rect class="t-uru" height="76" width="190" x="128" y="230"></rect>
+<text class="tb tm c-uru" x="223" y="255">몸 · 물질 · 자연</text>
+<text class="ts tm" x="223" y="275">하나 — 주어진 바탕</text>
+<text class="tl tm" x="223" y="295">관습화가 역발명한 「자연」</text>
+<rect class="t-jen" height="76" width="190" x="474" y="230"></rect>
+<text class="tb tm c-jen" x="569" y="255">영혼 · 사회-정신</text>
+<text class="ts tm" x="569" y="275">하나 — 주어진 바탕</text>
+<text class="tl tm" x="569" y="295">신화 속에서 주어진 연속체</text>
+<line class="s-uru w2 dot" x1="321" x2="471" y1="268" y2="131"></line>
+<line class="s-jen w2 dot" x1="321" x2="471" y1="119" y2="268"></line>
+<rect class="f-panel" height="22" width="98" x="350" y="186"></rect>
+<text class="ts tb tm" x="399" y="202">자리가 뒤바뀜</text>
+<rect class="f-panel s-ink w1" height="40" width="648" x="16" y="330"></rect>
+<text class="ts tm" x="340" y="355"><tspan class="tb">와그너</tspan> — 가능성은 둘뿐: 하나를 행위로 짜 맞추면, 다른 하나는 「주어진 것」으로 역발명된다</text>
+<text class="tl tm" x="340" y="396">아래 칸 = 앤틸리스에서 아무도 의심하지 않은 항(무표) · 위 칸 = 물음표가 붙은 항(유표)</text>
+</svg></g></g></g></g></svg>

@@ -11,6 +11,7 @@
 | 철학 | [헤르메스 (총서)](https://sungmincho.github.io/nogyosu_vault/책/헤르메스-(총서)/) | 미셸 세르, 『헤르메스』 다섯 권 | 「질서라는 드문 섬」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/serres.html)) | 22 | 598 |
 | 철학 | [형태와 정보 개념에 비추어 본 개체화](https://sungmincho.github.io/nogyosu_vault/책/형태와-정보-개념에-비추어-본-개체화/) | 질베르 시몽동, 『형태와 정보 개념에 비추어 본 개체화』 | 「모액 속의 결정」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/simondon.html)) | 16 | 450 |
 | 철학 | [자본주의와 분열증](https://sungmincho.github.io/nogyosu_vault/책/자본주의와-분열증/) | 질 들뢰즈·펠릭스 가타리, 『안티 오이디푸스』와 『천 개의 고원』 | 「산책하는 분열자」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/dg.html)) | 24 | 737 |
+| 철학 | [식인의 형이상학](https://sungmincho.github.io/nogyosu_vault/책/식인의-형이상학/) | 에두아르두 비베이루스 지 카스트루, 『식인의 형이상학』 — 탈구조적 인류학의 노선들 | 「재규어의 맥주」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/cannibal.html)) | 15 | 386 |
 | 철학 | [플랫라인 구성체](https://sungmincho.github.io/nogyosu_vault/책/플랫라인-구성체/) | 마크 피셔, 『플랫라인 구성체』 | 「평평한 선」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/flatline.html)) | 12 | 366 |
 | 철학 | [재귀성과 우연성](https://sungmincho.github.io/nogyosu_vault/책/재귀성과-우연성/) | 허욱(육휘), 『재귀성과 우연성』 | 「키질하는 노」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/yukhui.html)) | 14 | 294 |
 | 철학 | [부정적인 것과 함께 머물기](https://sungmincho.github.io/nogyosu_vault/책/부정적인-것과-함께-머물기/) | 슬라보예 지젝, 『부정적인 것과 함께 머물기』 | 「구멍 뚫린 깃발」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/zizek.html)) | 12 | 371 |
@@ -31,7 +32,7 @@
 | 투자와 게임 | [홀덤 GTO 기본 개념](https://sungmincho.github.io/nogyosu_vault/책/홀덤-GTO-기본-개념/) | 노리밋 홀덤의 GTO 기본 개념 | 「블러프는 방어다」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/holdem.html)) | 13 | 240 |
 | 소프트웨어 | [소프트웨어 설계의 철학](https://sungmincho.github.io/nogyosu_vault/책/소프트웨어-설계의-철학/) | 존 오스터하우트, 『A Philosophy of Software Design』 | 「탄광의 카나리아」 ([원본](https://sungmincho.github.io/nogyosu_vault/static/panseo/ousterhout.html)) | 22 | 300 |
 
-원자 노트는 모두 9117개이고, 그 가운데 815개가 두 권 이상에 걸쳐 있다.
+원자 노트는 모두 9402개이고, 그 가운데 880개가 두 권 이상에 걸쳐 있다.
 
 ## 구조
 | 경로 | 무엇 |

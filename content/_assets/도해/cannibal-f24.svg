@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 654" width="720" height="654" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tbig{font-size:19px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .c-jen{fill:var(--jen)}svg.d .c-jag{fill:var(--jag)}svg.d .c-mod{fill:var(--mod)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-jen{fill:none;stroke:var(--jen);stroke-width:1.8}svg.d .s-jag{fill:none;stroke:var(--jag);stroke-width:1.8}svg.d .s-mod{fill:none;stroke:var(--mod);stroke-width:1.8}svg.d .s-dim{fill:none;stroke:var(--dim);stroke-width:1.2}svg.d .s-rule{fill:none;stroke:var(--rule);stroke-width:1}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .w3{stroke-width:4}svg.d .dash{stroke-dasharray:6 5}svg.d .f-jen{fill:var(--jen)}svg.d .f-jag{fill:var(--jag)}svg.d .f-mod{fill:var(--mod)}svg.d .f-ink{fill:var(--ink)}svg.d .f-panel{fill:var(--panel)}svg.d .f-bg{fill:var(--bg)}svg.d .t-jen{fill:var(--jen-t)}svg.d .t-jag{fill:var(--jag-t)}svg.d .round{stroke-linecap:round;stroke-linejoin:round}svg.pz-root{width:720px!important;height:654px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="수평 샤머니즘에서는 죽은 이와 동물이 산 사람 바깥의 한 자리(타자)에 겹쳐 있다. 그 자리가 둘로 갈라지면 죽은 이는 위로 올라가 조상이 되고 동물은 사람 아래로 떠내려가 대상화되며, 그때 수직 샤먼이 선다. 그러나 아마존에서는 이 갈라짐이 끝내 완결되지 않는다." class="d pz-inner" height="100%" role="img" viewBox="0 0 720 654" width="100%">
+<defs><marker id="f17-a-ink" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f17-a-jen" markerHeight="5" markerWidth="5" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-jen" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f17-a-mod" markerHeight="5" markerWidth="5" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-mod" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<text class="tbig tb" x="16" y="26">수평 샤머니즘</text>
+<text class="tl" x="16" y="46">바깥 실천 · 엑소프락시스</text>
+<text class="ts tm" x="244" y="160">죽은 이가 되는 짐승</text>
+<text class="tl tm" x="200" y="188">다른 이들</text>
+<text class="ts tm c-jag" x="200" y="205">재규어</text>
+<g transform="translate(173,218)"><path class="s-jag w2 round" d="M42,13 C52,12 56,6 53,0"></path><path class="s-jag w2 round" d="M17,19 L16,28 M23,20 L23,28 M34,20 L35,28 M40,18 L42,28"></path><ellipse class="f-jag" cx="29" cy="14" rx="15" ry="7.5"></ellipse><circle class="f-jag" cx="11" cy="11" r="6.5"></circle><circle class="f-jag" cx="7" cy="5" r="2.3"></circle><circle class="f-jag" cx="14" cy="4.6" r="2.3"></circle><circle class="f-bg" cx="24" cy="12" r="1.5"></circle><circle class="f-bg" cx="30" cy="16" r="1.5"></circle><circle class="f-bg" cx="36" cy="11" r="1.5"></circle><circle class="f-bg" cx="29" cy="9" r="1.2"></circle></g>
+<text class="tl tm" x="288" y="188">와리</text>
+<text class="ts tm c-jag" x="288" y="205">흰입술페커리</text>
+<g transform="translate(261,218)"><path class="s-jag w2 round" d="M14,20 L14,28 M20,21 L20,28 M32,21 L32,28 M38,20 L38,28"></path><path class="f-jag" d="M9,14 C9,5 20,3 30,4 C36,4 40,6 43,9 L54,15 L53,19 L42,21 C34,23 18,23 13,21 C10,20 9,17 9,14 Z"></path><path class="s-jag w1 round" d="M12,8 L14,2 L17,7 L20,1 L23,6 L26,0.5 L29,6 L32,1 L34,6"></path><path class="s-jag w1 round" d="M9,13 L4,11"></path><path class="f-jag" d="M40,7 L42,2 L44,8 Z"></path><path class="s-ink w1 round" d="M44,18 L52,17.5"></path></g>
+<ellipse class="t-jag s-jag w1" cx="244" cy="316" rx="72" ry="58"></ellipse>
+<text class="tbig tb tm" x="244" y="300">죽은 이</text>
+<text class="tbig tb tm" x="244" y="329">= 동물</text>
+<text class="ts tm" x="244" y="352">= 인척</text>
+<text class="tl tm" x="244" y="394">카르네이루 다 쿠냐 1978</text>
+<circle class="f-panel s-ink w1" cx="54" cy="316" r="36"></circle>
+<text class="ts tm" x="54" y="321">산 사람</text>
+<path class="s-ink w1" d="M93,316 L169,316" marker-end="url(#f17-a-ink)" marker-start="url(#f17-a-ink)"></path>
+<circle class="f-ink" cx="131.0" cy="287" r="5"></circle>
+<path class="s-ink w2 round" d="M131.0,292 L131.0,304 M131.0,304 L125.0,314 M131.0,304 L137.0,314 M131.0,297 L122.0,289 M131.0,297 L140.0,289"></path>
+<text class="ts tb tm" x="131.0" y="338">수평 샤먼</text>
+<text class="tl tm" x="135.0" y="354">영감·카리스마</text>
+<text class="tl tm" x="135.0" y="370">상대: 동물의 영</text>
+<text class="tbig tb" x="458" y="26">수직 샤머니즘</text>
+<text class="tl" x="458" y="46">안 실천 · 앙도프락시스</text>
+<rect class="s-dim w1 dash" height="456" width="262" x="450" y="60"></rect>
+<circle class="f-jen" cx="468" cy="80" r="3.6"></circle>
+<circle class="f-panel s-jen w1" cx="486" cy="85" r="3.2"></circle>
+<circle class="f-jen" cx="503" cy="78" r="3.6"></circle>
+<circle class="f-panel s-jen w1" cx="522" cy="84" r="3.2"></circle>
+<circle class="f-panel s-jen w1" cx="538" cy="77" r="3.2"></circle>
+<circle class="f-jen" cx="556" cy="83" r="3.6"></circle>
+<circle class="f-panel s-jen w1" cx="575" cy="79" r="3.2"></circle>
+<circle class="f-jen" cx="593" cy="85" r="3.6"></circle>
+<circle class="f-panel s-jen w1" cx="612" cy="80" r="3.2"></circle>
+<circle class="f-jen" cx="630" cy="76" r="3.6"></circle>
+<circle class="f-panel s-jen w1" cx="648" cy="83" r="3.2"></circle>
+<circle class="f-panel s-jen w1" cx="667" cy="79" r="3.2"></circle>
+<circle class="f-jen" cx="686" cy="84" r="3.6"></circle>
+<text class="tl" x="468" y="108">깜박이는 초월의 주머니들</text>
+<rect class="t-jen s-jen w1" height="44" width="124" x="462.0" y="122"></rect>
+<text class="tb tm" x="524" y="141">조상</text>
+<text class="tl tm" x="524" y="158">사람 모습의 타자</text>
+<path class="s-jen w2" d="M524,166 L524,225 M524,262 L524,270"></path>
+<circle class="f-ink" cx="524" cy="231" r="5"></circle>
+<path class="s-ink w2 round" d="M524,236 L524,248 M524,248 L518,258 M524,248 L530,258 M524,241 L515,233 M524,241 L533,233"></path>
+<text class="ts tb c-jen" x="542" y="188">조상성</text>
+<text class="tl" x="542" y="204">산 자–죽은 자의</text>
+<text class="tl" x="542" y="220">통시적 연속</text>
+<text class="ts tb" x="542" y="246">수직 샤먼</text>
+<text class="tl" x="542" y="262">비전의 지식 · 생애 의례</text>
+<circle class="f-panel s-ink w1" cx="524" cy="316" r="46"></circle>
+<path class="s-ink w1" d="M479.6,304 L510,304 L510,294 L564.4,294"></path>
+<path class="s-ink w1" d="M482.6,336 L538,336 L538,326 L568.9,326"></path>
+<text class="ts tm" x="524" y="321">산 사람</text>
+<text class="ts tb" x="580" y="306">위계</text>
+<text class="tl" x="580" y="322">산 자들 사이의</text>
+<text class="tl" x="580" y="338">공시적 불연속</text>
+<g transform="translate(498,414)"><path class="s-mod w2 round" d="M14,20 L14,28 M20,21 L20,28 M32,21 L32,28 M38,20 L38,28"></path><path class="f-mod" d="M9,14 C9,5 20,3 30,4 C36,4 40,6 43,9 L54,15 L53,19 L42,21 C34,23 18,23 13,21 C10,20 9,17 9,14 Z"></path><path class="s-mod w1 round" d="M12,8 L14,2 L17,7 L20,1 L23,6 L26,0.5 L29,6 L32,1 L34,6"></path><path class="s-mod w1 round" d="M9,13 L4,11"></path><path class="f-mod" d="M40,7 L42,2 L44,8 Z"></path></g>
+<text class="ts tb c-mod" x="564" y="426">대상화</text>
+<text class="tl" x="564" y="442">사람 아래로 떠내려감</text>
+<text class="ts tb" x="462" y="470">아마존: 갈라짐은 끝내 완결되지 않음</text>
+<text class="tl" x="462" y="488">아무도 곧장 조상으로 죽지 않는다</text>
+<text class="tl" x="462" y="504">짐승은 모두 조금은 사람</text>
+<path class="s-jag w3" d="M316,316 L336,316"></path>
+<circle class="f-jag" cx="336" cy="316" r="4.5"></circle>
+<path class="s-jen w2" d="M336,316 C336,206 376,144.0 459.0,144.0" marker-end="url(#f17-a-jen)"></path>
+<path class="s-mod w2 dash" d="M336,316 C336,428 376,428 497,428" marker-end="url(#f17-a-mod)"></path>
+<text class="tb" x="346" y="308">갈라짐</text>
+<text class="tl" x="346" y="328">언제인지는</text>
+<text class="tl" x="346" y="344">“나도 모르겠다”</text>
+<text class="tl" x="346" y="360">p.156</text>
+<line class="s-rule" x1="16" x2="704" y1="536" y2="536"></line>
+<text class="ts tb" x="16" y="560">같은 방향</text>
+<text class="tl" x="90" y="560">— 사람이었던 것이 동물이 된다</text>
+<text class="tl" x="16" y="598">계통발생 · 종의 역사</text>
+<rect class="t-jen s-jen w1" height="28" width="50" x="172" y="580"></rect>
+<text class="ts tm" x="197" y="599">사람</text>
+<path class="s-ink w1" d="M224,594 L452,594" marker-end="url(#f17-a-ink)"></path>
+<text class="ts tm" x="338" y="587">처음: 모든 동물이 사람이었다</text>
+<rect class="t-jag s-jag w1" height="28" width="50" x="456" y="580"></rect>
+<text class="ts tm" x="481" y="599">동물</text>
+<text class="tl" x="522" y="598">동물 = 종 차원의 죽은 이</text>
+<text class="tl" x="16" y="642">개체발생 · 한 생애</text>
+<rect class="t-jen s-jen w1" height="28" width="50" x="172" y="624"></rect>
+<text class="ts tm" x="197" y="643">사람</text>
+<path class="s-ink w1" d="M224,638 L452,638" marker-end="url(#f17-a-ink)"></path>
+<text class="ts tm" x="338" y="631">끝: 사람은 죽어 동물이 된다</text>
+<rect class="t-jag s-jag w1" height="28" width="50" x="456" y="624"></rect>
+<text class="ts tm" x="481" y="643">동물</text>
+<text class="tl" x="522" y="642">죽은 이 = 개인 차원의 동물</text>
+</svg></g></g></g></g></svg>

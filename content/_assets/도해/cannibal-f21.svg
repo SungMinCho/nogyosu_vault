@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 680 414" width="680" height="414" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tbig{font-size:19px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .te{text-anchor:end}svg.d .c-jen{fill:var(--jen)}svg.d .c-jag{fill:var(--jag)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-jen{fill:none;stroke:var(--jen);stroke-width:1.8}svg.d .s-jag{fill:none;stroke:var(--jag);stroke-width:1.8}svg.d .s-rule{fill:none;stroke:var(--rule);stroke-width:1}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .w3{stroke-width:4}svg.d .dash{stroke-dasharray:6 5}svg.d .dot{stroke-dasharray:1.5 4.5;stroke-linecap:round}svg.d .f-jen{fill:var(--jen)}svg.d .f-ink{fill:var(--ink)}svg.d .f-panel{fill:var(--panel)}svg.d .t-jag{fill:var(--jag-t)}svg.d .round{stroke-linecap:round;stroke-linejoin:round}svg.pz-root{width:680px!important;height:414px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="투피남바의 인간 식인과 아라웨테의 신적 식인은 내용이 아니라 자리가 같다. 먹는 주체, 먹히는 객체, 식구를 내준 공동 주체의 세 자리는 그대로이고, 그 자리를 채우는 이들만 미끄러졌다. 처남 관계는 먹히기 전에서 먹힌 뒤로 옮겨 간다." class="d pz-inner" height="100%" role="img" viewBox="0 0 680 414" width="100%">
+<defs><marker id="f15-a-ink" markerHeight="8" markerWidth="8" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f15-a-jen" markerHeight="3.6" markerWidth="3.6" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-jen" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<text class="tbig tb" x="16" y="34">투피남바</text>
+<text class="tl" x="16" y="54">16세기 해안 · 인간 식인</text>
+<text class="tbig tb te" x="664" y="34">아라웨테</text>
+<text class="tl te" x="664" y="54">20세기 내륙 · 신의 식인</text>
+<path class="s-jen w3 round" d="M234,58 Q340,14 440,58" marker-end="url(#f15-a-jen)"></path>
+<text class="ts tb tm c-jen" x="340" y="62">화용론적 미끄러짐</text>
+<text class="tl tm" x="340" y="80">주체/객체 · 수단/목적 · 자기/타자의 값이 옮겨 감</text>
+<line class="s-jen w1 dot" x1="184" x2="496" y1="122" y2="122"></line>
+<text class="ts tm c-jen" x="340" y="116">먹는 주체</text>
+<text class="tl tm" x="340" y="137">같은 자리</text>
+<line class="s-jen w1 dot" x1="276" x2="404" y1="200" y2="200"></line>
+<text class="ts tm c-jen" x="340" y="194">먹히는 객체</text>
+<text class="tl tm" x="340" y="215">같은 자리</text>
+<line class="s-jen w1 dot" x1="184" x2="496" y1="278" y2="278"></line>
+<text class="ts tm c-jen" x="340" y="272">식구를 내준 공동 주체</text>
+<text class="tl tm" x="340" y="293">같은 자리</text>
+<rect class="f-panel s-ink w1" height="46" width="168" x="16" y="99"></rect>
+<text class="tm" x="100" y="119">살해자 집단과 그 편</text>
+<text class="tl tm" x="100" y="137">(먹는 이들)</text>
+<rect class="f-panel s-ink w1" height="46" width="148" x="128" y="177"></rect>
+<text class="tm" x="202" y="197">포로</text>
+<text class="ts c-jag tb tm" x="202" y="215">= 처남 · 토자바르</text>
+<rect class="f-panel s-ink w1" height="46" width="168" x="16" y="255"></rect>
+<text class="tm" x="100" y="275">포로를 낸 적 집단</text>
+<text class="tl tm" x="100" y="293">(말·풍습이 같은 이웃)</text>
+<rect class="f-panel s-ink w1" height="46" width="168" x="496" y="99"></rect>
+<text class="tm" x="580" y="119">마이 신들</text>
+<text class="tl tm" x="580" y="137">(하늘)</text>
+<rect class="f-panel s-ink w1" height="46" width="148" x="404" y="177"></rect>
+<text class="tm" x="478" y="197">아라웨테의 죽은 이</text>
+<text class="tl tm" x="478" y="215">하늘에서 적으로 맞음</text>
+<rect class="f-panel s-ink w1" height="46" width="168" x="496" y="255"></rect>
+<text class="tm" x="580" y="275">산 아라웨테</text>
+<text class="tl tm" x="580" y="293">(땅)</text>
+<line class="s-ink" marker-end="url(#f15-a-ink)" x1="160" x2="196" y1="145" y2="176"></line>
+<text class="ts" x="194" y="165">먹는다</text>
+<line class="s-ink" marker-end="url(#f15-a-ink)" x1="160" x2="196" y1="255" y2="224"></line>
+<text class="ts" x="194" y="246">내준다</text>
+<line class="s-ink dash" marker-end="url(#f15-a-ink)" x1="48" x2="48" y1="255" y2="146"></line>
+<text class="ts" x="58" y="198">갚는다</text>
+<text class="tl" x="58" y="214">(복수)</text>
+<line class="s-ink" marker-end="url(#f15-a-ink)" x1="520" x2="484" y1="145" y2="176"></line>
+<text class="ts te" x="486" y="165">먹는다</text>
+<line class="s-ink" marker-end="url(#f15-a-ink)" x1="520" x2="484" y1="255" y2="224"></line>
+<text class="ts te" x="486" y="246">내준다</text>
+<line class="s-jag w2" x1="632" x2="632" y1="145" y2="255"></line>
+<text class="ts te c-jag tb" x="622" y="198">처남·사위</text>
+<text class="tl te" x="622" y="214">(인척)</text>
+<rect class="t-jag s-jag w1" height="28" width="126" x="16" y="322"></rect>
+<text class="ts tm" x="79" y="341">① 처남으로 만듦</text>
+<line class="s-ink" marker-end="url(#f15-a-ink)" x1="142" x2="171" y1="336" y2="336"></line>
+<rect class="f-panel s-ink w1" height="28" width="100" x="172" y="322"></rect>
+<text class="ts tm" x="222" y="341">② 죽여 먹음</text>
+<rect class="t-jag s-jag w1" height="28" width="118" x="546" y="322"></rect>
+<text class="ts tm" x="605" y="341">② 신들과 혼인</text>
+<line class="s-ink" marker-end="url(#f15-a-ink)" x1="516" x2="545" y1="336" y2="336"></line>
+<rect class="f-panel s-ink w1" height="28" width="100" x="416" y="322"></rect>
+<text class="ts tm" x="466" y="341">① 죽여 먹음</text>
+<text class="tl tm" x="340" y="341">순서가 뒤집힘</text>
+<line class="s-rule" x1="16" x2="664" y1="368" y2="368"></line>
+<text class="tl" x="16" y="388">삼극 해석(p.149): 먹는 집단 / 처형자·희생물의 이중 인격 / 적 집단</text>
+<text class="tl" x="16" y="406">— ‘죽음’은 세 극이 번갈아 맡는 대리 기능</text>
+</svg></g></g></g></g></svg>

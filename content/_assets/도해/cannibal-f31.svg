@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 592" width="720" height="592" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tbig{font-size:19px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .c-jag{fill:var(--jag)}svg.d .c-dim{fill:var(--dim)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-jag{fill:none;stroke:var(--jag);stroke-width:1.8}svg.d .s-dim{fill:none;stroke:var(--dim);stroke-width:1.2}svg.d .s-rule{fill:none;stroke:var(--rule);stroke-width:1}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .dash{stroke-dasharray:6 5}svg.d .f-jag{fill:var(--jag)}svg.d .f-ink{fill:var(--ink)}svg.d .f-dim{fill:var(--dim)}svg.d .f-panel{fill:var(--panel)}svg.d .t-jag{fill:var(--jag-t)}svg.d .round{stroke-linecap:round;stroke-linejoin:round}svg.pz-root{width:720px!important;height:592px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="겁먹은 얼굴에 접혀 있는 가능 세계를 확인하려고 펼치면 그 세계는 사실(뱀이 있었다, 대상)이나 착각(아무것도 없었다, 주체)으로 흩어지고 차이가 지워진다. 80도와 20도 물을 그냥 섞으면 엔트로피만 36.2 J/K 늘고 얻는 일은 0인 것과 같다. 인류학은 펼치는 대신 함축을 붙든 채, 둘 사이에 기관을 걸어 11.7 kJ의 일을 얻듯, 그 표현된 것들로 우리 세계를 채워 늘린다." class="d pz-inner" height="100%" role="img" viewBox="0 0 720 592" width="100%">
+<defs><marker id="f24-a-ink" markerHeight="8" markerWidth="8" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f24-a-dim" markerHeight="8" markerWidth="8" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-dim" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f24-a-jag" markerHeight="4" markerWidth="4" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-jag" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<text class="tbig tb" x="16" y="32">타인 = 가능 세계의 표현</text>
+<text class="tl" x="16" y="52">들뢰즈 · 『의미의 논리』 부록</text>
+<ellipse class="t-jag s-jag w2" cx="318" cy="96" rx="30" ry="36"></ellipse>
+<path class="s-ink w1 round" d="M298,79 Q305,71 313,76 M323,76 Q331,71 338,79"></path>
+<circle class="f-panel s-ink w1" cx="307" cy="91" r="6"></circle><circle class="f-panel s-ink w1" cx="329" cy="91" r="6"></circle>
+<circle class="f-ink" cx="307" cy="91" r="1.8"></circle><circle class="f-ink" cx="329" cy="91" r="1.8"></circle>
+<ellipse class="f-ink" cx="318" cy="114" rx="5" ry="7"></ellipse>
+<path class="f-panel s-ink w1" d="M281,70 Q277,77 281,81 Q285,77 281,70 Z"></path>
+<path class="t-jag s-jag w2" d="M400,52 L510,52 L528,70 L528,130 L400,130 Z"></path><path class="f-panel s-jag w1" d="M510,52 L510,70 L528,70 Z"></path>
+<path class="t-jag" d="M402,99 L353,117 L402,115 Z"></path>
+<path class="s-jag w2 round" d="M400,100 L353,117 L400,114"></path>
+<text class="ts tb tm c-jag" x="460" y="77">가능 세계</text>
+<text class="ts tm" x="460" y="98">모퉁이 너머의</text>
+<text class="ts tm" x="460" y="117">무서운 무엇</text>
+<text class="tl tm" x="318" y="155">실존하는 얼굴</text>
+<text class="tl tm" x="378" y="138">실제의 말</text>
+<text class="tl" x="544" y="84">표현된 것은</text>
+<text class="tl" x="544" y="101">표현 바깥에 없다</text>
+<path class="s-ink" d="M436,131 C436,180 188,160 188,196"></path>
+<line class="s-ink" marker-end="url(#f24-a-ink)" x1="188" x2="98" y1="196" y2="212"></line>
+<line class="s-ink" marker-end="url(#f24-a-ink)" x1="188" x2="278" y1="196" y2="212"></line>
+<text class="ts tb" x="16" y="158">펼친다</text>
+<text class="tl" x="16" y="175">explication</text>
+<text class="tl" x="16" y="192">내가 가서 확인한다</text>
+<rect class="f-panel s-ink w1" height="70" width="160" x="16" y="214"></rect>
+<text class="ts tb tm" x="96" y="236">사실 · 믿음</text>
+<text class="ts tm" x="96" y="255">뱀이 있었다</text>
+<text class="ts tb tm" x="96" y="274">→ 대상</text>
+<rect class="f-panel s-ink w1" height="70" width="160" x="200" y="214"></rect>
+<text class="ts tb tm" x="280" y="236">착각 · 불신</text>
+<text class="ts tm" x="280" y="255">아무것도 없었다</text>
+<text class="ts tb tm" x="280" y="274">→ 주체</text>
+<path class="s-dim w1" d="M16,292 L16,298 L360,298 L360,292 M188,298 L188,304"></path>
+<text class="ts tm" x="188" y="322">타인-구조가 흩어진다</text>
+<text class="tl tm" x="188" y="340">엔트로피적으로 · 차이가 지워짐</text>
+<line class="s-dim w1 dash" marker-end="url(#f24-a-dim)" x1="188" x2="188" y1="350" y2="402"></line>
+<text class="tm c-dim" x="188" y="427">타인의 세계를 설명한다</text>
+<line class="s-ink w1" x1="100" x2="276" y1="420.5" y2="420.5"></line>
+<line class="s-jag w2" marker-end="url(#f24-a-jag)" x1="508" x2="508" y1="131" y2="192"></line>
+<text class="ts tb c-jag" x="522" y="156">붙든다</text>
+<text class="tl" x="522" y="173">너무 펼치지 말 것</text>
+<path class="t-jag s-jag w2" d="M490,198 L517,198 L526,207 L526,228 L490,228 Z"></path><path class="f-panel s-jag w1" d="M517,198 L517,207 L526,207 Z"></path>
+<path class="f-panel s-ink w1 round" d="M471,200 Q463,246 503,253 L504,245 Q479,239 483,203 Z"></path>
+<path class="f-panel s-ink w1 round" d="M545,200 Q553,246 513,253 L512,245 Q537,239 533,203 Z"></path>
+<path class="s-ink w2 round" d="M477,201 Q479,189 492,194 M539,201 Q537,189 524,194"></path>
+<text class="ts" x="566" y="208">가능한 것을</text>
+<text class="ts tb" x="566" y="226">잠재적인 것으로</text>
+<text class="tl" x="566" y="244">관계 안에서 실현</text>
+<line class="s-jag w2" marker-end="url(#f24-a-jag)" x1="508" x2="508" y1="259" y2="358"></line>
+<text class="ts tb c-jag" x="520" y="314">채운다</text>
+<text class="tl" x="520" y="331">표현된 것들로</text>
+<circle class="s-dim w1 dash" cx="508" cy="420" r="38"></circle>
+<circle class="s-ink w2" cx="508" cy="420" r="58"></circle>
+<text class="ts tb tm" x="508" y="425">우리 세계</text>
+<path class="t-jag s-jag w1" d="M470.1,377.2 L480.1,377.2 L484.1,381.2 L484.1,389.2 L470.1,389.2 Z"></path><path class="f-panel s-jag w1" d="M480.1,377.2 L480.1,381.2 L484.1,381.2 Z"></path>
+<path class="t-jag s-jag w1" d="M531.9,377.2 L541.9,377.2 L545.9,381.2 L545.9,389.2 L531.9,389.2 Z"></path><path class="f-panel s-jag w1" d="M541.9,377.2 L541.9,381.2 L545.9,381.2 Z"></path>
+<path class="t-jag s-jag w1" d="M548.3,405.7 L558.3,405.7 L562.3,409.7 L562.3,417.7 L548.3,417.7 Z"></path><path class="f-panel s-jag w1" d="M558.3,405.7 L558.3,409.7 L562.3,409.7 Z"></path>
+<path class="t-jag s-jag w1" d="M542.6,438 L552.6,438 L556.6,442 L556.6,450 L542.6,450 Z"></path><path class="f-panel s-jag w1" d="M552.6,438 L552.6,442 L556.6,442 Z"></path>
+<path class="t-jag s-jag w1" d="M517.4,459.1 L527.4,459.1 L531.4,463.1 L531.4,471.1 L517.4,471.1 Z"></path><path class="f-panel s-jag w1" d="M527.4,459.1 L527.4,463.1 L531.4,463.1 Z"></path>
+<path class="t-jag s-jag w1" d="M484.6,459.1 L494.6,459.1 L498.6,463.1 L498.6,471.1 L484.6,471.1 Z"></path><path class="f-panel s-jag w1" d="M494.6,459.1 L494.6,463.1 L498.6,463.1 Z"></path>
+<path class="t-jag s-jag w1" d="M459.4,438 L469.4,438 L473.4,442 L473.4,450 L459.4,450 Z"></path><path class="f-panel s-jag w1" d="M469.4,438 L469.4,442 L473.4,442 Z"></path>
+<path class="t-jag s-jag w1" d="M453.7,405.7 L463.7,405.7 L467.7,409.7 L467.7,417.7 L453.7,417.7 Z"></path><path class="f-panel s-jag w1" d="M463.7,405.7 L463.7,409.7 L467.7,409.7 Z"></path>
+<text class="ts tb" x="580" y="412">우리 세계를 늘린다</text>
+<text class="tl" x="580" y="430">인디언처럼이 아니라</text>
+<text class="tl" x="580" y="447">인디언과 함께</text>
+<line class="s-rule" x1="16" x2="704" y1="490" y2="490"></line>
+<text class="tl" x="16" y="512">물 1 kg씩 — 그냥 섞기 (펼침)</text>
+<path class="s-ink w1 round" d="M25,522 L29,556 L51,556 L55,522"></path><line class="s-dim w1" x1="27.8235" x2="52.1765" y1="529" y2="529"></line>
+<text class="ts tm" x="72" y="544">+</text>
+<path class="s-ink w1 round" d="M89,522 L93,556 L115,556 L119,522"></path><line class="s-dim w1" x1="91.8235" x2="116.176" y1="529" y2="529"></line>
+<line class="s-ink w1" marker-end="url(#f24-a-ink)" x1="128" x2="176" y1="540" y2="540"></line>
+<text class="tl tm" x="152" y="532">섞는다</text>
+<path class="s-ink w1 round" d="M184,522 L188,556 L224,556 L228,522"></path><line class="s-dim w1" x1="186.824" x2="225.176" y1="529" y2="529"></line>
+<text class="tl tm" x="40" y="576">80 °C</text><text class="tl tm" x="104" y="576">20 °C</text><text class="tl tm" x="206" y="576">50 °C</text>
+<text class="ts" x="244" y="538">ΔS ≈ +36.2 J/K</text>
+<text class="ts" x="244" y="557">얻은 일 0</text>
+<text class="tl" x="376" y="512">물 1 kg씩 — 둘 사이에 가역 기관 (붙듦)</text>
+<path class="s-ink w1 round" d="M385,522 L389,556 L411,556 L415,522"></path><line class="s-dim w1" x1="387.824" x2="412.176" y1="529" y2="529"></line>
+<path class="s-ink w1 round" d="M505,522 L509,556 L531,556 L535,522"></path><line class="s-dim w1" x1="507.824" x2="532.176" y1="529" y2="529"></line>
+<line class="s-ink w1" marker-end="url(#f24-a-ink)" x1="416" x2="446" y1="540" y2="540"></line>
+<line class="s-ink w1" marker-end="url(#f24-a-ink)" x1="474" x2="503" y1="540" y2="540"></line>
+<path class="f-panel s-ink w1" d="M469.1,537.1 L473.3,537.9 L473.3,542.1 L469.1,542.9 L468.4,544.4 L470.9,547.9 L467.9,550.9 L464.4,548.4 L462.9,549.1 L462.1,553.3 L457.9,553.3 L457.1,549.1 L455.6,548.4 L452.1,550.9 L449.1,547.9 L451.6,544.4 L450.9,542.9 L446.7,542.1 L446.7,537.9 L450.9,537.1 L451.6,535.6 L449.1,532.1 L452.1,529.1 L455.6,531.6 L457.1,530.9 L457.9,526.7 L462.1,526.7 L462.9,530.9 L464.4,531.6 L467.9,529.1 L470.9,532.1 L468.4,535.6 Z"></path>
+<circle class="f-ink" cx="460" cy="540" r="3"></circle>
+<line class="s-ink w1" marker-end="url(#f24-a-ink)" x1="460" x2="460" y1="555" y2="578"></line>
+<text class="tl" x="468" y="576">일</text>
+<text class="tl tm" x="400" y="576">80 °C</text><text class="tl tm" x="520" y="576">20 °C</text>
+<text class="ts" x="556" y="538">얻는 일 ≈ 11.7 kJ</text>
+<text class="ts" x="556" y="557">ΔS = 0 · 끝 48.6 °C</text>
+</svg></g></g></g></g></svg>

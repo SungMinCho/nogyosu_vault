@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 470" width="720" height="470" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tbig{font-size:19px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .te{text-anchor:end}svg.d .c-uru{fill:var(--uru)}svg.d .c-jen{fill:var(--jen)}svg.d .c-mod{fill:var(--mod)}svg.d .c-dim{fill:var(--dim)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-uru{fill:none;stroke:var(--uru);stroke-width:1.8}svg.d .s-dim{fill:none;stroke:var(--dim);stroke-width:1.2}svg.d .s-rule{fill:none;stroke:var(--rule);stroke-width:1}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .dash{stroke-dasharray:6 5}svg.d .f-uru{fill:var(--uru)}svg.d .f-jen{fill:var(--jen)}svg.d .f-mod{fill:var(--mod)}svg.d .f-ink{fill:var(--ink)}svg.d .f-dim{fill:var(--dim)}svg.d .f-panel{fill:var(--panel)}svg.d .round{stroke-linecap:round;stroke-linejoin:round}svg.pz-root{width:720px!important;height:470px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="토테미즘은 따로 떨어진 두 계열, 자연의 종 다섯과 씨족 다섯의 차이를 차이에 맞추는 일이라 5! = 120가지 대응이 모두 똑같이 좋다. 희생제의는 하나의 연속 계열 위에서 사람이 신에게 단 한 점에서 닿는 일이라, 기울기 3, 2.5, 2.1의 할선들이 다가가는 기울기 2의 접선 하나만 맞다." class="d pz-inner" height="100%" role="img" viewBox="0 0 720 470" width="100%">
+<defs><marker id="f16-a-ink" markerHeight="8" markerWidth="8" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f16-a-dim" markerHeight="8" markerWidth="8" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-dim" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<line class="s-rule" x1="360" x2="360" y1="16" y2="400"></line>
+<text x="16" y="32"><tspan class="tbig tb">토테미즘</tspan><tspan class="ts"> = 형식 · 은유 · 랑그 · 가역</tspan></text>
+<text class="ts tm c-uru" x="104" y="72">자연의 종</text>
+<text class="ts tm c-jen" x="264" y="72">사회 집단</text>
+<line class="s-rule w1" x1="109" x2="259" y1="104" y2="196"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="150" y2="104"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="196" y2="288"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="242" y2="150"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="288" y2="242"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="104" y2="288"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="150" y2="242"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="196" y2="196"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="242" y2="150"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="288" y2="104"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="104" y2="150"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="150" y2="196"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="196" y2="242"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="242" y2="288"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="288" y2="104"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="104" y2="242"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="150" y2="288"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="196" y2="104"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="242" y2="196"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="288" y2="150"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="104" y2="150"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="150" y2="104"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="196" y2="288"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="242" y2="242"></line>
+<line class="s-rule w1" x1="109" x2="259" y1="288" y2="196"></line>
+<line class="s-ink w1" x1="109" x2="259" y1="104" y2="104"></line>
+<line class="s-ink w1" x1="109" x2="259" y1="150" y2="150"></line>
+<line class="s-ink w1" x1="109" x2="259" y1="196" y2="196"></line>
+<line class="s-ink w1" x1="109" x2="259" y1="242" y2="242"></line>
+<line class="s-ink w1" x1="109" x2="259" y1="288" y2="288"></line>
+<line class="s-ink w1 dash" x1="109" x2="259" y1="242" y2="288"></line>
+<line class="s-ink w1 dash" x1="109" x2="259" y1="288" y2="242"></line>
+<circle class="f-uru" cx="104" cy="104" r="4.5"></circle>
+<text class="ts te" x="92" y="109">물고기</text>
+<circle class="f-jen" cx="264" cy="104" r="4.5"></circle>
+<text class="ts" x="276" y="109">씨족 1</text>
+<circle class="f-uru" cx="104" cy="150" r="4.5"></circle>
+<text class="ts te" x="92" y="155">두루미</text>
+<circle class="f-jen" cx="264" cy="150" r="4.5"></circle>
+<text class="ts" x="276" y="155">씨족 2</text>
+<circle class="f-uru" cx="104" cy="196" r="4.5"></circle>
+<text class="ts te" x="92" y="201">아비새</text>
+<circle class="f-jen" cx="264" cy="196" r="4.5"></circle>
+<text class="ts" x="276" y="201">씨족 3</text>
+<circle class="f-uru" cx="104" cy="242" r="4.5"></circle>
+<text class="ts te" x="92" y="247">곰</text>
+<circle class="f-jen" cx="264" cy="242" r="4.5"></circle>
+<text class="ts" x="276" y="247">씨족 4</text>
+<circle class="f-uru" cx="104" cy="288" r="4.5"></circle>
+<text class="ts te" x="92" y="293">담비</text>
+<circle class="f-jen" cx="264" cy="288" r="4.5"></circle>
+<text class="ts" x="276" y="293">씨족 5</text>
+<path class="s-ink w1" d="M326,242 Q350,265 326,288" marker-end="url(#f16-a-ink)" marker-start="url(#f16-a-ink)"></path>
+<text class="ts tm" x="184" y="352"><tspan class="tb">5! = 120</tspan>가지 대응 — 전부 유효</text>
+<text class="tl tm" x="184" y="372">맞바꾸기 ⇄ ₅C₂ = 10 · 두 번 하면 원상</text>
+<text class="ts tm" x="184" y="394">닮는 것은 <tspan class="tb">차이와 차이</tspan></text>
+<text x="376" y="32"><tspan class="tbig tb">희생제의</tspan><tspan class="ts"> = 힘 · 환유 · 파롤 · 비가역</tspan></text>
+<line class="s-dim" x1="384" x2="558.8" y1="292" y2="292"></line>
+<line class="s-dim" x1="384" x2="384" y1="292" y2="67.6"></line>
+<line class="s-dim" x1="460" x2="460" y1="292" y2="297"></line>
+<text class="tl tm" x="460" y="310">1</text>
+<line class="s-dim" x1="536" x2="536" y1="292" y2="297"></line>
+<text class="tl tm" x="536" y="310">2</text>
+<line class="s-dim" x1="379" x2="384" y1="248" y2="248"></line>
+<text class="tl te" x="376" y="252">1</text>
+<line class="s-dim" x1="379" x2="384" y1="116" y2="116"></line>
+<text class="tl te" x="376" y="120">4</text>
+<path class="s-rule dash" d="M384,248 L460,248 L460,292"></path>
+<polyline class="s-ink w2 round" points="384,292 386.7,291.9 389.5,291.8 392.2,291.5 395,291.1 397.7,290.6 400.5,289.9 403.2,289.2 406,288.3 408.7,287.3 411.5,286.2 414.2,285 417,283.7 419.7,282.3 422.5,280.7 425.2,279.1 428,277.3 430.7,275.4 433.5,273.4 436.2,271.2 439,269 441.7,266.6 444.5,264.1 447.2,261.6 450,258.8 452.7,256 455.5,253.1 458.2,250 461,246.9 463.7,243.6 466.5,240.2 469.2,236.7 472,233.1 474.7,229.3 477.5,225.5 480.2,221.5 483,217.4 485.7,213.2 488.4,208.9 491.2,204.5 493.9,199.9 496.7,195.3 499.4,190.5 502.2,185.6 504.9,180.6 507.7,175.5 510.4,170.2 513.2,164.9 515.9,159.4 518.7,153.8 521.4,148.1 524.2,142.3 526.9,136.4 529.7,130.3 532.4,124.2 535.2,117.9 537.9,111.5 540.7,105 543.4,98.4 546.2,91.7 548.9,84.8"></polyline>
+<text class="te" x="530" y="104"><tspan class="tb">신의 곡선</tspan><tspan class="tl"> y = x²</tspan></text>
+<line class="s-dim w1 dash" x1="438.7" x2="551.2" y1="285" y2="89.6"></line>
+<line class="s-dim" x1="438.7" x2="551.2" y1="278.8" y2="116"></line>
+<line class="s-ink w1" x1="438.7" x2="551.2" y1="273.9" y2="137.1"></line>
+<line class="s-uru w2 round" x1="429.6" x2="551.2" y1="283.2" y2="142.4"></line>
+<circle class="f-panel s-dim w1" cx="536" cy="116" r="3"></circle>
+<circle class="f-panel s-dim w1" cx="498" cy="193" r="3"></circle>
+<circle class="f-panel s-dim w1" cx="467.6" cy="238.8" r="3"></circle>
+<text class="tl" x="556" y="76">기울기</text>
+<text class="ts c-dim" x="556" y="92.6">3</text>
+<text class="ts c-dim" x="556" y="123">2.5</text>
+<text class="ts" x="556" y="144.1">2.1</text>
+<text class="ts tb c-uru" x="556" y="162.4">2</text>
+<circle class="f-uru" cx="460" cy="248" r="5"></circle>
+<text class="tl te" x="452" y="240">P(1, 1)</text>
+<text class="ts c-uru tb" x="470" y="272">희생물의 죽음</text>
+<line class="s-ink w1" x1="636" x2="636" y1="292" y2="142"></line>
+<line class="s-ink w1" x1="652" x2="652" y1="292" y2="142"></line>
+<line class="s-ink w1" x1="636" x2="652" y1="282" y2="282"></line>
+<text class="ts" x="660" y="287">오이</text>
+<line class="s-ink w1" x1="636" x2="652" y1="256" y2="256"></line>
+<text class="ts" x="660" y="261">달걀</text>
+<line class="s-ink w1" x1="636" x2="652" y1="230" y2="230"></line>
+<text class="ts" x="660" y="235">물고기</text>
+<line class="s-ink w1" x1="636" x2="652" y1="204" y2="204"></line>
+<text class="ts" x="660" y="209">닭</text>
+<line class="s-ink w1" x1="636" x2="652" y1="178" y2="178"></line>
+<text class="ts" x="660" y="183">염소</text>
+<line class="s-ink w1" x1="636" x2="652" y1="152" y2="152"></line>
+<text class="ts" x="660" y="157">소</text>
+<line class="s-ink w1" marker-end="url(#f16-a-ink)" x1="622" x2="622" y1="290" y2="146"></line>
+<text class="tl te" x="704" y="110">잇따른 유비적 근사</text>
+<text class="tl te" x="704" y="126">한 방향으로만</text>
+<text class="tl te" x="704" y="314">줄 세우기 6! = 720</text>
+<text class="tl te" x="704" y="330">그중 쓰는 것 1</text>
+<text class="tl" x="376" y="352">할선 기울기 2 + h : 3 · 2.5 · 2.1 → 2</text>
+<text class="ts c-uru" x="376" y="372">접선 = 가장 좋은 근사 (어긋남/h → 0)</text>
+<text class="tl" x="376" y="394">한 점에서만 닿고 곧 다시 떨어진다</text>
+<line class="s-rule" x1="16" x2="704" y1="414" y2="414"></line>
+<text class="ts" x="16" y="444">조합론 <tspan class="tl">(대수 · 군)</tspan></text>
+<text class="ts te" x="704" y="444">미분학 <tspan class="tl">(유율 · 흐름)</tspan></text>
+<line class="s-dim" marker-end="url(#f16-a-dim)" marker-start="url(#f16-a-dim)" x1="150" x2="570" y1="439" y2="439"></line>
+<text class="ts tm c-mod" x="360" y="431">레비스트로스: 상보적이되 비대칭</text>
+<path class="f-mod" d="M240,440 L232,454 L248,454 Z"></path>
+<text class="tl c-mod" x="256" y="456">형식 쪽에 섬</text>
+</svg></g></g></g></g></svg>

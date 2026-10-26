@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 680 600" width="680" height="600" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tbig{font-size:19px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .te{text-anchor:end}svg.d .c-uru{fill:var(--uru)}svg.d .c-jag{fill:var(--jag)}svg.d .c-mod{fill:var(--mod)}svg.d .c-dim{fill:var(--dim)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-uru{fill:none;stroke:var(--uru);stroke-width:1.8}svg.d .s-jag{fill:none;stroke:var(--jag);stroke-width:1.8}svg.d .s-dim{fill:none;stroke:var(--dim);stroke-width:1.2}svg.d .s-rule{fill:none;stroke:var(--rule);stroke-width:1}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .dash{stroke-dasharray:6 5}svg.d .f-uru{fill:var(--uru)}svg.d .f-jag{fill:var(--jag)}svg.d .f-ink{fill:var(--ink)}svg.d .f-dim{fill:var(--dim)}svg.d .f-panel{fill:var(--panel)}svg.d .t-jag{fill:var(--jag-t)}svg.pz-root{width:680px!important;height:600px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="카리에라의 네 칸 바나카, 부룽, 카리메라, 팔예리는 아버지에서 자식으로 가는 순열 f와 어머니에서 자식으로 가는 순열 g에 닫혀 있고, 혼인 ω = g⁻¹f까지 셋과 항등 e가 클라인 4원군을 이룬다. 남자 바나카에서 셈하면 외삼촌 딸과 고모 딸은 아내의 칸 부룽에 떨어지고, 친사촌과 이종사촌은 제 칸 바나카로 돌아온다." class="d pz-inner" height="100%" role="img" viewBox="0 0 680 600" width="100%">
+<defs><marker id="f27-a-sjag" markerHeight="5" markerWidth="5" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-jag" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f27-a-suru" markerHeight="5" markerWidth="5" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-uru" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f27-a-curu" markerHeight="4" markerWidth="4" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-uru" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f27-a-cdim" markerHeight="4" markerWidth="4" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-dim" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<text class="tl" x="16" y="24">카리에라의 네 칸 · 세 순열</text>
+<line class="s-jag w2" marker-end="url(#f27-a-sjag)" marker-start="url(#f27-a-sjag)" x1="138" x2="236" y1="80" y2="80"></line>
+<line class="s-jag w2" marker-end="url(#f27-a-sjag)" marker-start="url(#f27-a-sjag)" x1="138" x2="236" y1="250" y2="250"></line>
+<line class="s-uru w2" marker-end="url(#f27-a-suru)" marker-start="url(#f27-a-suru)" x1="92" x2="92" y1="104" y2="226"></line>
+<line class="s-uru w2" marker-end="url(#f27-a-suru)" marker-start="url(#f27-a-suru)" x1="282" x2="282" y1="104" y2="226"></line>
+<line class="s-uru w2 dash" marker-end="url(#f27-a-suru)" marker-start="url(#f27-a-suru)" x1="117.3" x2="256.7" y1="102.7" y2="227.3"></line>
+<line class="s-uru w2 dash" marker-end="url(#f27-a-suru)" marker-start="url(#f27-a-suru)" x1="256.7" x2="117.3" y1="102.7" y2="227.3"></line>
+<rect class="f-panel s-ink w1" height="40" rx="3" width="84" x="50.0" y="60.0"></rect>
+<text class="tm" x="92" y="85"><tspan class="tb">A</tspan> <tspan class="ts">바나카</tspan></text>
+<rect class="t-jag s-jag w1" height="40" rx="3" width="84" x="240.0" y="60.0"></rect>
+<text class="tm" x="282" y="85"><tspan class="tb">B</tspan> <tspan class="ts">부룽</tspan></text>
+<rect class="f-panel s-ink w1" height="40" rx="3" width="84" x="240.0" y="230.0"></rect>
+<text class="tm" x="282" y="255"><tspan class="tb">C</tspan> <tspan class="ts">카리메라</tspan></text>
+<rect class="f-panel s-ink w1" height="40" rx="3" width="84" x="50.0" y="230.0"></rect>
+<text class="tm" x="92" y="255"><tspan class="tb">D</tspan> <tspan class="ts">팔예리</tspan></text>
+<text class="tbig tm c-jag" x="187.0" y="72">ω</text>
+<text class="tbig tm c-jag" x="187.0" y="276">ω</text>
+<text class="tbig te c-uru" x="82" y="171">f</text>
+<text class="tbig c-uru" x="292" y="171">f</text>
+<text class="tbig tm c-uru" x="187.0" y="140">g</text>
+<text class="tbig tm c-uru" x="187.0" y="218">g</text>
+<text class="tl tm c-jag" x="282" y="50">A 남자의 아내 칸</text>
+<text class="tl" x="360" y="24">순열마다 두 번 하면 제자리</text>
+<line class="s-jag w2" x1="360" x2="390" y1="42" y2="42"></line>
+<line class="s-jag w2" x1="360" x2="390" y1="72" y2="72"></line>
+<circle class="f-ink" cx="360" cy="42" r="2.6"></circle>
+<circle class="f-ink" cx="390" cy="42" r="2.6"></circle>
+<circle class="f-ink" cx="390" cy="72" r="2.6"></circle>
+<circle class="f-ink" cx="360" cy="72" r="2.6"></circle>
+<text x="406" y="54"><tspan class="tb c-jag">ω</tspan><tspan class="ts">  혼인 · 남자 → 아내의 칸</tspan></text>
+<text class="tl" x="406" y="71">(A B)(C D)</text>
+<line class="s-uru w2" x1="360" x2="360" y1="92" y2="122"></line>
+<line class="s-uru w2" x1="390" x2="390" y1="92" y2="122"></line>
+<circle class="f-ink" cx="360" cy="92" r="2.6"></circle>
+<circle class="f-ink" cx="390" cy="92" r="2.6"></circle>
+<circle class="f-ink" cx="390" cy="122" r="2.6"></circle>
+<circle class="f-ink" cx="360" cy="122" r="2.6"></circle>
+<text x="406" y="104"><tspan class="tb c-uru">f</tspan><tspan class="ts">  아버지 → 자식</tspan></text>
+<text class="tl" x="406" y="121">(A D)(B C)</text>
+<text class="ts c-dim" x="406" y="138">= 부계 반족 {바나카·팔예리} {부룽·카리메라}</text>
+<line class="s-uru w2 dash" x1="360" x2="390" y1="158" y2="188"></line>
+<line class="s-uru w2 dash" x1="390" x2="360" y1="158" y2="188"></line>
+<circle class="f-ink" cx="360" cy="158" r="2.6"></circle>
+<circle class="f-ink" cx="390" cy="158" r="2.6"></circle>
+<circle class="f-ink" cx="390" cy="188" r="2.6"></circle>
+<circle class="f-ink" cx="360" cy="188" r="2.6"></circle>
+<text x="406" y="170"><tspan class="tb c-uru">g</tspan><tspan class="ts">  어머니 → 자식</tspan></text>
+<text class="tl" x="406" y="187">(A C)(B D)</text>
+<text class="ts c-dim" x="406" y="204">= 모계 반족 {바나카·카리메라} {부룽·팔예리}</text>
+<text class="ts" x="360" y="232">네 칸을 둘씩 짝짓는 법 = 4!/(2!·2!·2!) = <tspan class="tb">3</tspan></text>
+<text class="tl" x="360" y="250">ω, f, g가 그 셋을 남김없이 쓴다</text>
+<line class="s-rule" x1="16" x2="664" y1="304" y2="304"></line>
+<text class="tl" x="16" y="324">남자 A(바나카)의 사촌 누이는 어느 칸에 떨어지나</text>
+<text class="ts tb" x="16" y="351">외삼촌 딸</text>
+<text class="tl" x="16" y="367">f g⁻¹(A)</text>
+<line class="s-uru w2 dash" marker-end="url(#f27-a-curu)" x1="160.0" x2="220.0" y1="352" y2="352"></line>
+<text class="tl tm c-uru" x="190.0" y="345">g⁻¹</text>
+<line class="s-uru w2" marker-end="url(#f27-a-curu)" x1="260.0" x2="320.0" y1="352" y2="352"></line>
+<text class="tl tm c-uru" x="290.0" y="345">f</text>
+<rect class="f-panel s-ink w1" height="26" rx="3" width="34" x="123.0" y="339.0"></rect>
+<text class="tm tb" x="140" y="357">A</text>
+<rect class="f-panel s-ink w1" height="26" rx="3" width="34" x="223.0" y="339.0"></rect>
+<text class="tm tb" x="240" y="357">C</text>
+<rect class="t-jag s-jag w1" height="26" rx="3" width="34" x="323.0" y="339.0"></rect>
+<text class="tm tb" x="340" y="357">B</text>
+<text class="tl tm" x="240" y="378.0">어머니·외삼촌</text>
+<text class="ts c-jag" x="367.0" y="357"><tspan class="tb">= ω(A)</tspan> 아내의 칸 ✓</text>
+<text class="ts tb" x="16" y="403">고모 딸</text>
+<text class="tl" x="16" y="419">g f⁻¹(A)</text>
+<line class="s-uru w2" marker-end="url(#f27-a-curu)" x1="160.0" x2="220.0" y1="404" y2="404"></line>
+<text class="tl tm c-uru" x="190.0" y="397">f⁻¹</text>
+<line class="s-uru w2 dash" marker-end="url(#f27-a-curu)" x1="260.0" x2="320.0" y1="404" y2="404"></line>
+<text class="tl tm c-uru" x="290.0" y="397">g</text>
+<rect class="f-panel s-ink w1" height="26" rx="3" width="34" x="123.0" y="391.0"></rect>
+<text class="tm tb" x="140" y="409">A</text>
+<rect class="f-panel s-ink w1" height="26" rx="3" width="34" x="223.0" y="391.0"></rect>
+<text class="tm tb" x="240" y="409">D</text>
+<rect class="t-jag s-jag w1" height="26" rx="3" width="34" x="323.0" y="391.0"></rect>
+<text class="tm tb" x="340" y="409">B</text>
+<text class="tl tm" x="240" y="430.0">아버지·고모</text>
+<text class="ts c-jag" x="367.0" y="409"><tspan class="tb">= ω(A)</tspan> 아내의 칸 ✓</text>
+<text class="ts tb c-dim" x="16" y="455">친사촌</text>
+<text class="tl" x="16" y="471">f f⁻¹(A)</text>
+<line class="s-dim w2" marker-end="url(#f27-a-cdim)" x1="160.0" x2="220.0" y1="456" y2="456"></line>
+<text class="tl tm" x="190.0" y="449">f⁻¹</text>
+<line class="s-dim w2" marker-end="url(#f27-a-cdim)" x1="260.0" x2="320.0" y1="456" y2="456"></line>
+<text class="tl tm" x="290.0" y="449">f</text>
+<rect class="f-panel s-dim w1" height="26" rx="3" width="34" x="123.0" y="443.0"></rect>
+<text class="tm tb c-dim" x="140" y="461">A</text>
+<rect class="f-panel s-dim w1" height="26" rx="3" width="34" x="223.0" y="443.0"></rect>
+<text class="tm tb c-dim" x="240" y="461">D</text>
+<rect class="f-panel s-dim w1" height="26" rx="3" width="34" x="323.0" y="443.0"></rect>
+<text class="tm tb c-dim" x="340" y="461">A</text>
+<text class="tl tm" x="240" y="482.0">아버지·삼촌</text>
+<text class="ts c-dim" x="367.0" y="461"><tspan class="tb">≠ ω(A)</tspan> 제 칸 ✗</text>
+<text class="ts tb c-dim" x="16" y="507">이종사촌</text>
+<text class="tl" x="16" y="523">g g⁻¹(A)</text>
+<line class="s-dim w2 dash" marker-end="url(#f27-a-cdim)" x1="160.0" x2="220.0" y1="508" y2="508"></line>
+<text class="tl tm" x="190.0" y="501">g⁻¹</text>
+<line class="s-dim w2 dash" marker-end="url(#f27-a-cdim)" x1="260.0" x2="320.0" y1="508" y2="508"></line>
+<text class="tl tm" x="290.0" y="501">g</text>
+<rect class="f-panel s-dim w1" height="26" rx="3" width="34" x="123.0" y="495.0"></rect>
+<text class="tm tb c-dim" x="140" y="513">A</text>
+<rect class="f-panel s-dim w1" height="26" rx="3" width="34" x="223.0" y="495.0"></rect>
+<text class="tm tb c-dim" x="240" y="513">C</text>
+<rect class="f-panel s-dim w1" height="26" rx="3" width="34" x="323.0" y="495.0"></rect>
+<text class="tm tb c-dim" x="340" y="513">A</text>
+<text class="tl tm" x="240" y="534.0">어머니·이모</text>
+<text class="ts c-dim" x="367.0" y="513"><tspan class="tb">≠ ω(A)</tspan> 제 칸 ✗</text>
+<text class="tl tm" x="581.0" y="324">곱셈표</text>
+<line class="s-rule" x1="506" x2="656" y1="334" y2="334"></line>
+<line class="s-rule" x1="506" x2="506" y1="334" y2="484"></line>
+<line class="s-ink w1" x1="506" x2="656" y1="364" y2="364"></line>
+<line class="s-ink w1" x1="536" x2="536" y1="334" y2="484"></line>
+<line class="s-rule" x1="506" x2="656" y1="394" y2="394"></line>
+<line class="s-rule" x1="566" x2="566" y1="334" y2="484"></line>
+<line class="s-rule" x1="506" x2="656" y1="424" y2="424"></line>
+<line class="s-rule" x1="596" x2="596" y1="334" y2="484"></line>
+<line class="s-rule" x1="506" x2="656" y1="454" y2="454"></line>
+<line class="s-rule" x1="626" x2="626" y1="334" y2="484"></line>
+<line class="s-rule" x1="506" x2="656" y1="484" y2="484"></line>
+<line class="s-rule" x1="656" x2="656" y1="334" y2="484"></line>
+<text class="tm c-dim" x="521.0" y="354.0">∘</text>
+<text class="tm tb c-dim" x="551.0" y="354.0">e</text>
+<text class="tm tb c-dim" x="521.0" y="384.0">e</text>
+<text class="tm c-dim" x="551.0" y="384.0">e</text>
+<text class="tm c-uru" x="581.0" y="384.0">f</text>
+<text class="tm c-uru" x="611.0" y="384.0">g</text>
+<text class="tm c-jag" x="641.0" y="384.0">ω</text>
+<text class="tm tb c-uru" x="581.0" y="354.0">f</text>
+<text class="tm tb c-uru" x="521.0" y="414.0">f</text>
+<text class="tm c-uru" x="551.0" y="414.0">f</text>
+<text class="tm c-dim" x="581.0" y="414.0">e</text>
+<text class="tm c-jag" x="611.0" y="414.0">ω</text>
+<text class="tm c-uru" x="641.0" y="414.0">g</text>
+<text class="tm tb c-uru" x="611.0" y="354.0">g</text>
+<text class="tm tb c-uru" x="521.0" y="444.0">g</text>
+<text class="tm c-uru" x="551.0" y="444.0">g</text>
+<text class="tm c-jag" x="581.0" y="444.0">ω</text>
+<text class="tm c-dim" x="611.0" y="444.0">e</text>
+<text class="tm c-uru" x="641.0" y="444.0">f</text>
+<text class="tm tb c-jag" x="641.0" y="354.0">ω</text>
+<text class="tm tb c-jag" x="521.0" y="474.0">ω</text>
+<text class="tm c-jag" x="551.0" y="474.0">ω</text>
+<text class="tm c-uru" x="581.0" y="474.0">g</text>
+<text class="tm c-uru" x="611.0" y="474.0">f</text>
+<text class="tm c-dim" x="641.0" y="474.0">e</text>
+<text class="ts tm" x="581.0" y="504">가환 · 모든 원소가 제 역원</text>
+<text class="ts tm tb" x="581.0" y="524">= 클라인 4원군 V₄</text>
+<text class="tl tm c-mod" x="581.0" y="542">유한하고 닫힌 대수</text>
+<rect class="f-panel s-ink w1" height="34" width="648" x="16" y="560"></rect>
+<text class="ts tm" x="340" y="582">외삼촌 딸 혼인 ⇔ f g⁻¹ = g⁻¹ f ⇔ <tspan class="tb">fg = gf (가환)</tspan> — 표가 대각선에 대해 대칭</text>
+</svg></g></g></g></g></svg>

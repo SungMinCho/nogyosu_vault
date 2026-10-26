@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 680 440" width="680" height="440" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tbig{font-size:19px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .te{text-anchor:end}svg.d .c-uru{fill:var(--uru)}svg.d .c-jen{fill:var(--jen)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-uru{fill:none;stroke:var(--uru);stroke-width:1.8}svg.d .s-jen{fill:none;stroke:var(--jen);stroke-width:1.8}svg.d .s-dim{fill:none;stroke:var(--dim);stroke-width:1.2}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .dash{stroke-dasharray:6 5}svg.d .f-ink{fill:var(--ink)}svg.d .f-dim{fill:var(--dim)}svg.d .f-panel{fill:var(--panel)}svg.d .t-uru{fill:var(--uru-t)}svg.d .t-jen{fill:var(--jen-t)}svg.pz-root{width:680px!important;height:440px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="스페인인과 타이노는 같은 의심을 반대쪽 항에 걸었다. 스페인인은 남의 몸은 의심하지 않고 그 몸 속에 형상적으로 닮은 영혼이 깃들었는지를 의심했고, 타이노는 남의 영혼은 의심하지 않고 그 영혼이 질료적으로 닮은 몸, 썩는 몸을 가졌는지를 의심했다. 물음표가 붙은 칸이 대각선으로 엇갈린다." class="d pz-inner" height="100%" role="img" viewBox="0 0 680 440" width="100%">
+<defs><marker id="f04-a-ink" markerHeight="5" markerWidth="5" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f04-a-dim" markerHeight="8" markerWidth="8" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-dim" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<text class="tbig tb tm" x="225" y="30">스페인인</text>
+<text class="tl tm" x="225" y="50">1517 · 히스파니올라 조사</text>
+<text class="tbig tb tm" x="539" y="30">타이노</text>
+<text class="tl tm" x="539" y="50">1511 · 푸에르토리코 · 오비에도 전언</text>
+<text class="tbig tb tm c-jen" x="50" y="112">영혼</text>
+<text class="tl tm" x="50" y="132">(형상)</text>
+<text class="tbig tb tm c-uru" x="50" y="252">몸</text>
+<text class="tl tm" x="50" y="272">(질료)</text>
+<rect class="f-panel s-jen w2" height="96" width="250" x="100" y="66"></rect>
+<rect class="t-jen" height="96" width="250" x="414" y="66"></rect>
+<rect class="t-uru" height="96" width="250" x="100" y="206"></rect>
+<rect class="f-panel s-uru w2" height="96" width="250" x="414" y="206"></rect>
+<text class="tb c-jen" x="116" y="96">유표 — 의심한다</text>
+<text class="ts" x="116" y="120">남의 몸에 형상적으로</text>
+<text class="ts" x="116" y="140">닮은 영혼이 깃들었나</text>
+<circle class="s-jen w2" cx="322" cy="114" r="17"></circle>
+<text class="tbig tb tm c-jen" x="322" y="121">?</text>
+<text class="tb" x="470" y="96">무표 — 의심 없음</text>
+<text class="ts" x="470" y="120">짐승도, 죽은 이의 유령도</text>
+<text class="ts" x="470" y="140">영혼은 있다</text>
+<circle class="s-dim w1 dash" cx="442" cy="114" r="17"></circle>
+<text class="tb" x="116" y="236">무표 — 의심 없음</text>
+<text class="ts" x="116" y="260">짐승도 몸은 있다</text>
+<circle class="s-dim w1 dash" cx="322" cy="254" r="17"></circle>
+<text class="tb c-uru" x="470" y="236">유표 — 의심한다</text>
+<text class="ts" x="470" y="260">남의 영혼이 질료적으로</text>
+<text class="ts" x="470" y="280">닮은 몸을 가졌나 — 썩는가</text>
+<circle class="s-uru w2" cx="442" cy="254" r="17"></circle>
+<text class="tbig tb tm c-uru" x="442" y="261">?</text>
+<line class="s-ink w2" marker-end="url(#f04-a-ink)" marker-start="url(#f04-a-ink)" x1="334.4" x2="429.6" y1="128.4" y2="239.6"></line>
+<line class="s-dim dash" marker-end="url(#f04-a-dim)" marker-start="url(#f04-a-dim)" x1="429.6" x2="334.4" y1="128.4" y2="239.6"></line>
+<text class="ts tb te" x="364" y="189">교차배열</text>
+<text class="tl" x="400" y="189">chiasmus</text>
+<text class="tl tm" x="50" y="357">방법</text>
+<rect class="f-panel s-ink w1" height="54" width="250" x="100" y="326"></rect>
+<text class="ts" x="116" y="348">증인 14명 심문 → <tspan class="tb c-jen">영혼을 잰다</tspan></text>
+<text class="ts" x="116" y="368">「사회과학」 · 판정: 짐승이다</text>
+<rect class="f-panel s-ink w1" height="54" width="250" x="414" y="326"></rect>
+<text class="ts" x="430" y="348">시신을 사흘 지켜봄 → <tspan class="tb c-uru">몸을 잰다</tspan></text>
+<text class="ts" x="430" y="368">「자연과학」 · 의심: 신일지도</text>
+<text class="tl" x="16" y="408">두 사건은 6년 · 다른 섬 — 레비스트로스가 「그동안」으로 동시에 봉합</text>
+<text class="tl" x="16" y="428">「짐승이다 / 신일지도」는 『슬픈 열대』의 말 · 1517년의 실제 물음은 「스스로 살 수 있나」</text>
+</svg></g></g></g></g></svg>

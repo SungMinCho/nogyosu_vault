@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 680 450" width="680" height="450" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .c-uru{fill:var(--uru)}svg.d .c-jag{fill:var(--jag)}svg.d .c-mod{fill:var(--mod)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-uru{fill:none;stroke:var(--uru);stroke-width:1.8}svg.d .s-jag{fill:none;stroke:var(--jag);stroke-width:1.8}svg.d .s-mod{fill:none;stroke:var(--mod);stroke-width:1.8}svg.d .s-rule{fill:none;stroke:var(--rule);stroke-width:1}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .dash{stroke-dasharray:6 5}svg.d .f-jag{fill:var(--jag)}svg.d .f-mod{fill:var(--mod)}svg.d .f-ink{fill:var(--ink)}svg.d .t-uru{fill:var(--uru-t)}svg.d .t-jag{fill:var(--jag-t)}svg.pz-root{width:680px!important;height:450px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="외연적 극에서 보면 두 극의 관계는 서로를 밀어내는 대립, 곧 배타적 분리이고, 강도적 극에서 보면 외연적 극은 강도적 극 안에 품긴 한 메아리, 곧 포함적 분리다. 둘을 함께 내려다보는 셋째 자리는 없다." class="d pz-inner" height="100%" role="img" viewBox="0 0 680 450" width="100%">
+<defs><marker id="f11b-a-ink" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<path class="s-mod" d="M316,32 Q340,14 364,32 Q340,50 316,32 Z"></path>
+<circle class="f-mod" cx="340" cy="32" r="6"></circle>
+<path class="s-ink w2" d="M325,17 L355,47 M355,17 L325,47"></path>
+<text class="ts tm" x="340" y="72">셋째 자리 (둘을 감싸는 관점) 없음</text>
+<text class="tl tm c-mod" x="340" y="90">그 자리를 세우려는 것 = 변증법</text>
+<line class="s-rule dash" x1="340" x2="340" y1="104" y2="382"></line>
+<text class="tb tm" x="170" y="122">외연적 극에서 본 관계</text>
+<text class="tl tm" x="170" y="141">나무 · 몰적 · 경직 · 홈 패임</text>
+<rect class="t-uru s-uru w1" height="112" width="116" x="34" y="172"></rect>
+<rect class="t-jag s-jag w1" height="112" width="116" x="190" y="172"></rect>
+<rect class="f-ink" height="166" width="8" x="166" y="160"></rect>
+<text class="ts tb tm c-uru" x="92" y="200">외연적</text>
+<text class="ts tb tm c-jag" x="248" y="200">강도적</text>
+<text class="tl tm" x="92" y="226">보는 자리</text>
+<path class="s-ink w1" d="M77,250 Q92,235 107,250 Q92,265 77,250 Z"></path>
+<circle class="f-ink" cx="92" cy="250" r="3.5"></circle>
+<text class="tl tm" x="248" y="244">맞선 한 항</text>
+<line class="s-ink" marker-end="url(#f11b-a-ink)" x1="161" x2="104" y1="310" y2="310"></line>
+<line class="s-ink" marker-end="url(#f11b-a-ink)" x1="179" x2="236" y1="310" y2="310"></line>
+<text class="ts tm c-uru" x="170" y="358">대립 = 배타적 분리 · 제한하는 종합</text>
+<text class="tl tm" x="170" y="378">이것이냐 저것이냐</text>
+<text class="tb tm" x="510" y="122">강도적 극에서 본 관계</text>
+<text class="tl tm" x="510" y="141">리좀 · 분자적 · 유연 · 매끈</text>
+<ellipse class="t-jag s-jag w1" cx="510" cy="242" rx="140" ry="90"></ellipse>
+<rect class="t-uru s-uru w1" height="56" width="124" x="488" y="230"></rect>
+<text class="ts tb tm c-jag" x="510" y="186">강도적</text>
+<text class="tl tm" x="428" y="226">보는 자리</text>
+<path class="s-ink w1" d="M413,250 Q428,235 443,250 Q428,265 413,250 Z"></path>
+<circle class="f-ink" cx="428" cy="250" r="3.5"></circle>
+<text class="ts tb tm c-uru" x="550.0" y="253">외연적</text>
+<text class="tl tm" x="550.0" y="273">= 몰적 메아리</text>
+<circle class="f-jag" cx="446" cy="186" r="2.6"></circle>
+<circle class="f-jag" cx="470" cy="168" r="2.6"></circle>
+<circle class="f-jag" cx="560" cy="170" r="2.6"></circle>
+<circle class="f-jag" cx="600" cy="190" r="2.6"></circle>
+<circle class="f-jag" cx="624" cy="228" r="2.6"></circle>
+<circle class="f-jag" cx="404" cy="276" r="2.6"></circle>
+<circle class="f-jag" cx="446" cy="298" r="2.6"></circle>
+<circle class="f-jag" cx="486" cy="318" r="2.6"></circle>
+<circle class="f-jag" cx="538" cy="312" r="2.6"></circle>
+<circle class="f-jag" cx="590" cy="302" r="2.6"></circle>
+<circle class="f-jag" cx="628" cy="270" r="2.6"></circle>
+<circle class="f-jag" cx="470" cy="214" r="2.6"></circle>
+<circle class="f-jag" cx="548" cy="204" r="2.6"></circle>
+<circle class="f-jag" cx="468" cy="268" r="2.6"></circle>
+<circle class="f-jag" cx="497" cy="239" r="2.6"></circle>
+<circle class="f-jag" cx="603" cy="239" r="2.6"></circle>
+<circle class="f-jag" cx="497" cy="278" r="2.6"></circle>
+<circle class="f-jag" cx="603" cy="278" r="2.6"></circle>
+<text class="ts tm c-jag" x="510" y="358">함축 = 포함적 분리</text>
+<text class="tl tm" x="510" y="378">이것이든 저것이든</text>
+<line class="s-rule" x1="24" x2="656" y1="396" y2="396"></line>
+<text class="tl tm" x="340" y="416">쿨백-라이블러 쪽지 — 같은 두 세계, 어느 끝에서 재느냐</text>
+<text class="ts tm" x="170" y="438">굳은 쪽에서 본 값 <tspan class="tb c-uru">∞</tspan> (배제)</text>
+<text class="ts tm" x="510" y="438">무른 쪽에서 본 값 <tspan class="tb c-jag">1비트</tspan> (품음)</text>
+</svg></g></g></g></g></svg>

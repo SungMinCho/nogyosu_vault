@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 486" width="720" height="486" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tbig{font-size:19px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .te{text-anchor:end}svg.d .c-uru{fill:var(--uru)}svg.d .c-jag{fill:var(--jag)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-uru{fill:none;stroke:var(--uru);stroke-width:1.8}svg.d .s-jag{fill:none;stroke:var(--jag);stroke-width:1.8}svg.d .s-rule{fill:none;stroke:var(--rule);stroke-width:1}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .dot{stroke-dasharray:1.5 4.5;stroke-linecap:round}svg.d .f-uru{fill:var(--uru)}svg.d .f-jag{fill:var(--jag)}svg.d .f-ink{fill:var(--ink)}svg.d .f-panel{fill:var(--panel)}svg.d .t-uru{fill:var(--uru-t)}svg.d .t-jag{fill:var(--jag-t)}svg.pz-root{width:720px!important;height:486px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="불의 기원 신화의 골조는 신대륙과 구대륙이 같다. 하늘과 땅, 그 사이에 갇힌 주인공, 불, 여자라는 선물. 그러나 불을 내주는 적수가 구대륙에서는 아버지 제우스(출계)이고, 아메리카에서는 인간 여자를 아내로 둔 재규어, 곧 동물인 장인·처남(결연)이다." class="d pz-inner" height="100%" role="img" viewBox="0 0 720 486" width="100%">
+<defs><marker id="f22-a" markerHeight="4.6" markerWidth="4.6" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<line class="s-rule" x1="360" x2="360" y1="14" y2="362"></line>
+<text class="tbig tb" x="16" y="32">구대륙</text>
+<text class="tl" x="16" y="51">그리스 · 근동 · 아프리카 · 프로이트</text>
+<rect class="t-uru s-uru w1" height="58" width="328" x="16" y="64"></rect>
+<text class="tb" x="30" y="88">하늘 — 제우스</text>
+<text class="ts" x="30" y="109">신들과 인간의 아버지</text>
+<rect class="f-panel s-ink w1" height="62" width="216" x="72" y="166"></rect>
+<text class="tb tm" x="180" y="188">바위에 묶인 프로메테우스</text>
+<text class="ts tm" x="180" y="206">하늘과 땅 사이에 묶임</text>
+<text class="tl tm" x="180" y="221">독수리가 간을 쪼음</text>
+<rect class="f-panel s-ink w1" height="50" width="328" x="16" y="272"></rect>
+<text class="tb tm" x="180" y="293">땅 — 인간</text>
+<text class="tl tm" x="180" y="311">프로메테우스가 인간 편에 섬</text>
+<line class="s-ink w2" marker-end="url(#f22-a)" x1="42" x2="42" y1="272" y2="123"></line>
+<line class="s-ink w2 dot" marker-end="url(#f22-a)" x1="318" x2="318" y1="122" y2="271"></line>
+<text class="ts" x="54" y="254"><tspan class="tb">훔침</tspan> — 회향 줄기 속 불씨</text>
+<text class="ts te" x="306" y="142"><tspan class="tb">벌</tspan> — 판도라(여자라는 “선물”)</text>
+<text class="tl te" x="306" y="158">죽음과 노고</text>
+<text class="tb tm c-uru" x="180" y="352">적수 = 아버지 → 출계</text>
+<text class="tbig tb" x="376" y="32">아메리카</text>
+<text class="tl" x="376" y="51">『신화학』 · 카야포 판본</text>
+<rect class="t-jag s-jag w1" height="58" width="328" x="376" y="64"></rect>
+<text class="tb" x="390" y="88">재규어 — 불의 주인</text>
+<text class="ts" x="390" y="109">인간 여자를 아내로 둔 자 = 인척</text>
+<rect class="f-panel s-ink w1" height="62" width="216" x="432" y="166"></rect>
+<text class="tb tm" x="540" y="188">벼랑의 마코앵무새 둥지</text>
+<text class="ts tm" x="540" y="206">하늘과 땅 사이에 갇힌 소년</text>
+<text class="tl tm" x="540" y="221"><tspan class="c-jag">매부</tspan>가 사다리를 치움</text>
+<rect class="f-panel s-ink w1" height="50" width="328" x="376" y="272"></rect>
+<text class="tb tm" x="540" y="293">땅 — 인간의 마을</text>
+<text class="tl tm" x="540" y="311">둥지 털이꾼 소년이 돌아온 곳</text>
+<line class="s-ink w2" marker-end="url(#f22-a)" x1="402" x2="402" y1="272" y2="123"></line>
+<line class="s-ink w2" marker-end="url(#f22-a)" x1="678" x2="678" y1="122" y2="271"></line>
+<text class="ts" x="414" y="254"><tspan class="tb">빼앗음</tspan> — 마을 사람들이 불을 가져감</text>
+<text class="ts te" x="666" y="142"><tspan class="tb">선물</tspan> — 소년을 구해 양자로 삼음</text>
+<text class="tl te" x="666" y="158">그 집에서 처음 본 익힌 고기</text>
+<text class="tb tm c-jag" x="540" y="352">적수 = 장인 · 처남(동물) → 결연</text>
+<path class="f-uru" d="M310,70.5 L317.5,83.5 L302.5,83.5 Z"></path>
+<path class="s-uru w1" d="M310,84 V97 M297,102 V97 H323 V102"></path>
+<path class="f-panel s-uru w1" d="M297,103.5 L303.4,114.5 L290.6,114.5 Z"></path>
+<circle class="f-panel s-uru w1" cx="323" cy="109" r="5.5"></circle>
+<path class="f-jag" d="M654,87 L662.1,101 L645.9,101 Z"></path>
+<path class="s-jag w2" d="M664,91.5 H675 M664,96.5 H675"></path>
+<circle class="f-panel s-ink w2" cx="685" cy="94" r="7"></circle>
+<rect class="f-panel s-ink w1" height="32" width="688" x="16" y="372"></rect>
+<text class="ts tm" x="360" y="393"><tspan class="tb">공통 골조</tspan>  하늘과 땅 · 그 사이에 갇힌 주인공 · 문명의 불 · 여자의 “선물” · 죽음의 기원</text>
+<text class="ts tb" x="16" y="436">곁</text>
+<path class="s-uru w1" d="M150,426 V420 H250 V426"></path>
+<path class="f-panel s-uru w1" d="M150,428 L157,440 L143,440 Z"></path>
+<path class="f-panel s-uru w1" d="M250,428 L257,440 L243,440 Z"></path>
+<text class="tl te" x="138" y="439">크로노스</text>
+<text class="tl" x="262" y="439">이아페토스</text>
+<path class="s-uru w1" d="M150,440 V460 M250,440 V460"></path>
+<path class="f-panel s-uru w1" d="M150,460 L157,472 L143,472 Z"></path>
+<path class="f-panel s-uru w1" d="M250,460 L257,472 L243,472 Z"></path>
+<text class="ts te" x="138" y="471">제우스</text>
+<text class="ts" x="262" y="471">프로메테우스</text>
+<text class="ts tm c-uru tb" x="200" y="471">“형제”</text>
+<text class="ts" x="400" y="436">아버지 쪽 평행사촌 — 드라비다식으로 세면 “형제”</text>
+<text class="tl" x="400" y="456">그리스의 불 다툼은 혈족끼리의 다툼</text>
+</svg></g></g></g></g></svg>

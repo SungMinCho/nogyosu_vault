@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 680 448" width="680" height="448" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .c-uru{fill:var(--uru)}svg.d .c-jen{fill:var(--jen)}svg.d .c-jag{fill:var(--jag)}svg.d .c-mod{fill:var(--mod)}svg.d .c-dim{fill:var(--dim)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-jen{fill:none;stroke:var(--jen);stroke-width:1.8}svg.d .s-mod{fill:none;stroke:var(--mod);stroke-width:1.8}svg.d .s-rule{fill:none;stroke:var(--rule);stroke-width:1}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .f-uru{fill:var(--uru)}svg.d .f-jen{fill:var(--jen)}svg.d .f-jag{fill:var(--jag)}svg.d .f-mod{fill:var(--mod)}svg.d .f-panel{fill:var(--panel)}svg.d .f-bg{fill:var(--bg)}svg.d .t-jen{fill:var(--jen-t)}svg.d .round{stroke-linecap:round;stroke-linejoin:round}svg.pz-root{width:680px!important;height:448px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="다리비의 혼인 교환은 두 물건의 맞바꿈이 아니라 한 흐름에 대한 두 시각의 맞물림이다. 여자를 주는 부계 씨족에게 자기 남성적 실체가 흘러 나가는 흐름인 여자가 받는 씨족에게는 여성적 실체이고, 혼인 재물과 아이를 두고 치르는 지불이 반대 길로 흐를 때 관점도 뒤집힌다. 관점주의가 교환을 규정하지, 그 반대가 아니다." class="d pz-inner" height="100%" role="img" viewBox="0 0 680 448" width="100%">
+<defs><linearGradient gradientUnits="userSpaceOnUse" id="f14-g1" x1="196" x2="484" y1="0" y2="0"><stop offset="0" stop-opacity="0"></stop><stop offset="1" stop-opacity="1"></stop></linearGradient><linearGradient gradientUnits="userSpaceOnUse" id="f14-g2" x1="484" x2="196" y1="0" y2="0"><stop offset="0" stop-opacity="0"></stop><stop offset="1" stop-opacity="1"></stop></linearGradient><mask height="448" id="f14-m1" mask-type="alpha" maskunits="userSpaceOnUse" width="680" x="0" y="0"><rect fill="url(#f14-g1)" height="448" width="680" x="0" y="0"></rect></mask><mask height="448" id="f14-m2" mask-type="alpha" maskunits="userSpaceOnUse" width="680" x="0" y="0"><rect fill="url(#f14-g2)" height="448" width="680" x="0" y="0"></rect></mask><marker id="f14-a-mod" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-mod" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<rect class="f-panel s-ink w1" height="148" width="134" x="16" y="104"></rect>
+<rect class="f-panel s-ink w1" height="148" width="134" x="530" y="104"></rect>
+<text class="tb tm" x="83" y="176">주는 씨족</text>
+<text class="ts tm c-dim" x="83" y="196">(부계)</text>
+<text class="tb tm" x="597" y="176">받는 씨족</text>
+<text class="ts tm c-dim" x="597" y="196">(부계)</text>
+<polygon class="f-uru" points="150,121 498,121 498,111 529,134 498,157 498,147 150,147"></polygon>
+<polygon class="f-jag" mask="url(#f14-m1)" points="150,121 498,121 498,111 529,134 498,157 498,147 150,147"></polygon>
+<text class="tb tm f-bg" x="324" y="139.5">여자 — 하나의 흐름</text>
+<text class="ts tb tm c-jen" x="340" y="186">⇄ 관점도 뒤집힘</text>
+<text class="ts tm" x="340" y="210">혼인 재물 · 아이를 두고 치르는 지불 (반대 길)</text>
+<polygon class="f-uru" points="530,222.5 170,222.5 170,215 151,226 170,237 170,229.5 530,229.5"></polygon>
+<polygon class="f-jag" mask="url(#f14-m2)" points="530,222.5 170,222.5 170,215 151,226 170,237 170,229.5 530,229.5"></polygon>
+<path class="f-panel s-jen w1" d="M25,22 L245,22 Q254,22 254,31 L254,47 Q254,56 245,56 L168,56 L171,76 L152,56 L25,56 Q16,56 16,47 L16,31 Q16,22 25,22 Z"></path>
+<text class="ts" x="30" y="44.5">우리 <tspan class="tb c-uru">남성적 실체</tspan>가 흘러 나간다</text>
+<path class="f-panel s-jen" d="M163,88 Q176,72 189,88 Q176,104 163,88 Z"></path>
+<circle class="f-jen" cx="176" cy="88" r="4"></circle>
+<path class="f-panel s-jen w1" d="M461,22 L655,22 Q664,22 664,31 L664,47 Q664,56 655,56 L524,56 L505,76 L508,56 L461,56 Q452,56 452,47 L452,31 Q452,22 461,22 Z"></path>
+<text class="ts" x="466" y="44.5"><tspan class="tb c-jag">여성적 실체</tspan>가 흘러 들어온다</text>
+<path class="f-panel s-jen" d="M491,88 Q504,72 517,88 Q504,104 491,88 Z"></path>
+<circle class="f-jen" cx="504" cy="88" r="4"></circle>
+<path class="f-panel s-jen" d="M163,266 Q176,250 189,266 Q176,282 163,266 Z"></path>
+<circle class="f-jen" cx="176" cy="266" r="4"></circle>
+<path class="f-panel s-jen w1" d="M25,288 L152,288 L171,278 L168,288 L219,288 Q228,288 228,297 L228,313 Q228,322 219,322 L25,322 Q16,322 16,313 L16,297 Q16,288 25,288 Z"></path>
+<text class="ts" x="30" y="310.5"><tspan class="tb c-jag">여성적 실체</tspan>가 흘러 들어온다</text>
+<path class="f-panel s-jen" d="M491,266 Q504,250 517,266 Q504,282 491,266 Z"></path>
+<circle class="f-jen" cx="504" cy="266" r="4"></circle>
+<path class="f-panel s-jen w1" d="M435,288 L508,288 L505,278 L524,288 L655,288 Q664,288 664,297 L664,313 Q664,322 655,322 L435,322 Q426,322 426,313 L426,297 Q426,288 435,288 Z"></path>
+<text class="ts" x="440" y="310.5">우리 <tspan class="tb c-uru">남성적 실체</tspan>가 흘러 나간다</text>
+<line class="s-rule" x1="16" x2="664" y1="342" y2="342"></line>
+<rect class="t-jen s-jen w1" height="62" width="420" x="16" y="360"></rect>
+<text class="tm" x="226" y="386"><tspan class="tb">교환·호혜</tspan> = 하나의 사물에 대한 두 시각의 맞물림</text>
+<text class="ts tm c-dim" x="226" y="408">관점주의가 교환을 규정한다 (그 반대가 아니다)</text>
+<line class="s-mod w2" x1="486" x2="486" y1="356" y2="396"></line>
+<line class="s-mod w2" x1="646" x2="646" y1="356" y2="396"></line>
+<line class="s-mod w1" marker-end="url(#f14-a-mod)" x1="490" x2="641" y1="366" y2="366"></line>
+<line class="s-mod w1" marker-end="url(#f14-a-mod)" x1="642" x2="491" y1="386" y2="386"></line>
+<rect class="f-panel s-mod w1" height="16" width="16" x="528" y="358"></rect>
+<text class="tl tm c-mod" x="536" y="371">A</text>
+<circle class="f-panel s-mod w1" cx="596" cy="386" r="8.5"></circle>
+<text class="tl tm c-mod" x="596" y="390">B</text>
+<path class="s-ink w2 round" d="M548,350 L584,400 M584,350 L548,400"></path>
+<text class="ts tm" x="566" y="422">A를 주고 B를 받는</text>
+<text class="ts tm" x="566" y="439">맞바꿈이 아님</text>
+</svg></g></g></g></g></svg>

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 476" width="720" height="476" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tbig{font-size:19px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .c-uru{fill:var(--uru)}svg.d .c-jen{fill:var(--jen)}svg.d .c-mod{fill:var(--mod)}svg.d .c-dim{fill:var(--dim)}svg.d .c-ink{fill:var(--ink)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-uru{fill:none;stroke:var(--uru);stroke-width:1.8}svg.d .s-jen{fill:none;stroke:var(--jen);stroke-width:1.8}svg.d .s-dim{fill:none;stroke:var(--dim);stroke-width:1.2}svg.d .s-rule{fill:none;stroke:var(--rule);stroke-width:1}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .dash{stroke-dasharray:6 5}svg.d .f-uru{fill:var(--uru)}svg.d .f-jen{fill:var(--jen)}svg.d .f-ink{fill:var(--ink)}svg.d .f-panel{fill:var(--panel)}svg.d .f-bg{fill:var(--bg)}svg.d .t-uru{fill:var(--uru-t)}svg.d .t-jen{fill:var(--jen-t)}svg.pz-root{width:720px!important;height:476px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="데스콜라의 네 존재론 가운데 애니미즘과 자연주의만 한 차원이 같고 다른 차원이 다른 안에서의 대비이고, 토테미즘과 유비론은 내면성과 물리성을 따로 정의해 실체로 굳혀야 채워지는 칸이다. 진짜 대비인 두 칸에서 같은 쪽이 바탕, 다른 쪽이 형상이 되는데, 아마존과 근대는 영혼과 몸이 그 자리를 맞바꾼다. 관점주의는 칸이 아니라 이 영혼과 몸의 구별이 작동하는 방식이다." class="d pz-inner" height="100%" role="img" viewBox="0 0 720 476" width="100%">
+<defs><marker id="f08-a-ink" markerHeight="8" markerWidth="8" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f08-a-jen" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-jen" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f08-a-uru" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-uru" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<text x="16" y="30"><tspan class="tbig tb">데스콜라의 2×2</tspan><tspan class="tl"> 동일시 양식 넷</tspan></text>
+<text class="tm" x="236" y="56"><tspan class="ts tb c-uru">물리성 · 몸</tspan><tspan class="tl"> physicalité</tspan></text>
+<text class="ts tb c-jen" x="16" y="56">내면성 · 영혼</text>
+<text class="tl" x="16" y="74">intériorité</text>
+<text class="ts tm c-uru" x="162" y="80">같음 (연속)</text>
+<text class="ts tm c-uru" x="310" y="80">다름 (불연속)</text>
+<text class="ts c-jen" x="16" y="150">같음</text>
+<text class="ts c-jen" x="16" y="167">(연속)</text>
+<text class="ts c-jen" x="16" y="278">다름</text>
+<text class="ts c-jen" x="16" y="295">(불연속)</text>
+<rect class="s-dim w1 dash" height="120" width="140" x="92" y="92"></rect>
+<text class="tb tm c-dim" x="162" y="119">토테미즘</text>
+<text class="ts tm c-dim" x="162" y="138">오스트레일리아</text>
+<text class="tl tm" x="162" y="178">내면성·물리성을</text>
+<text class="tl tm" x="162" y="192">따로 정의해야</text>
+<text class="tl tm" x="162" y="206">채워짐 = 실체화</text>
+<rect class="s-dim w1 dash" height="120" width="140" x="240" y="220"></rect>
+<text class="tb tm c-dim" x="310" y="247">유비론</text>
+<text class="ts tm c-dim" x="310" y="266">중국·안데스</text>
+<text class="ts tm c-dim" x="310" y="283">서아프리카·르네상스</text>
+<text class="tl tm" x="310" y="306">내면성·물리성을</text>
+<text class="tl tm" x="310" y="320">따로 정의해야</text>
+<text class="tl tm" x="310" y="334">채워짐 = 실체화</text>
+<rect class="f-panel s-ink w2" height="120" width="140" x="240" y="92"></rect>
+<text class="tbig tb tm" x="310" y="130">애니미즘</text>
+<text class="ts tm" x="310" y="154">아마존 ·</text>
+<text class="ts tm" x="310" y="170">북방 수렵민</text>
+<text class="tl tm c-ink" x="310" y="198">안에서의 대비</text>
+<rect class="f-panel s-ink w2" height="120" width="140" x="92" y="220"></rect>
+<text class="tbig tb tm c-mod" x="162" y="258">자연주의</text>
+<text class="ts tm" x="162" y="282">근대 유럽</text>
+<text class="ts tm" x="162" y="298">17세기 이래</text>
+<text class="tl tm c-ink" x="162" y="326">안에서의 대비</text>
+<text class="tbig tb" x="430" y="30">비베이루스 지 카스트루의 축</text>
+<text class="tm" x="478" y="60"><tspan class="ts tb">바탕</tspan><tspan class="tl"> ground</tspan></text>
+<text class="tl tm" x="478" y="78">같은 쪽</text>
+<text class="tm" x="574" y="60"><tspan class="ts tb">형상</tspan><tspan class="tl"> figure</tspan></text>
+<text class="tl tm" x="574" y="78">가르는 쪽</text>
+<text class="ts tb" x="430" y="116">아마존 — 다자연주의</text>
+<rect class="t-jen s-jen w1" height="52" width="96" x="430" y="126"></rect>
+<rect class="f-uru" height="52" width="96" x="526" y="126"></rect>
+<text class="ts tb tm c-jen" x="478" y="157">영혼 = 공통</text>
+<text class="ts tb tm f-bg" x="574" y="157">몸 = 가름</text>
+<rect class="t-uru s-uru w1" height="52" width="96" x="430" y="254"></rect>
+<rect class="f-jen" height="52" width="96" x="526" y="254"></rect>
+<text class="ts tb tm c-uru" x="478" y="285">몸 = 공통</text>
+<text class="ts tb tm f-bg" x="574" y="285">정신 = 가름</text>
+<text class="ts tb c-mod" x="430" y="326">근대 — 다문화주의</text>
+<line class="s-jen w2" marker-end="url(#f08-a-jen)" marker-start="url(#f08-a-jen)" x1="478" x2="574" y1="182" y2="250"></line>
+<line class="s-uru w2" marker-end="url(#f08-a-uru)" marker-start="url(#f08-a-uru)" x1="574" x2="478" y1="182" y2="250"></line>
+<text class="ts" x="632" y="198">바탕과</text>
+<text class="ts" x="632" y="214">형상이</text>
+<text class="ts" x="632" y="230">자리를</text>
+<text class="ts" x="632" y="246">바꾼다</text>
+<line class="s-ink w1" marker-end="url(#f08-a-ink)" x1="382" x2="429" y1="152" y2="152"></line>
+<path class="s-ink w1" d="M162,342 L162,360 L405,360 L405,280 L429,280" marker-end="url(#f08-a-ink)"></path>
+<text class="ts tb tm" x="405" y="200">진짜</text>
+<text class="ts tb tm" x="405" y="217">대비</text>
+<text class="ts tb tm" x="405" y="234">두 칸</text>
+<rect class="f-ink" height="62" width="56" x="432" y="352"></rect>
+<polygon class="f-panel" points="484.0,352.0 483.8,352.8 483.6,354.0 483.3,355.3 482.8,356.7 482.0,358.0 481.0,359.2 479.7,360.4 478.2,361.6 476.6,362.8 475.0,364.0 473.1,365.2 470.9,366.4 468.7,367.7 466.9,368.9 466.0,370.0 466.2,371.1 467.4,372.1 469.0,373.0 470.4,374.0 471.0,375.0 470.7,376.0 469.7,377.0 468.5,378.1 467.5,379.1 467.0,380.0 467.2,380.9 468.0,381.7 468.9,382.4 469.7,383.2 470.0,384.0 469.7,384.8 468.8,385.5 467.9,386.3 467.2,387.1 467.0,388.0 467.6,389.1 468.8,390.3 470.2,391.5 471.4,392.8 472.0,394.0 471.8,395.2 470.9,396.4 469.9,397.6 469.2,398.8 469.0,400.0 469.6,401.2 470.8,402.3 472.2,403.5 473.7,404.7 475.0,406.0 476.1,407.6 477.3,409.4 478.4,411.3 479.3,412.9 480.0,414.0 440.0,414.0 440.7,412.9 441.6,411.3 442.7,409.4 443.9,407.6 445.0,406.0 446.3,404.7 447.8,403.5 449.2,402.3 450.4,401.2 451.0,400.0 450.8,398.8 450.1,397.6 449.1,396.4 448.2,395.2 448.0,394.0 448.6,392.8 449.8,391.5 451.2,390.3 452.4,389.1 453.0,388.0 452.8,387.1 452.1,386.3 451.2,385.5 450.3,384.8 450.0,384.0 450.3,383.2 451.1,382.4 452.0,381.7 452.8,380.9 453.0,380.0 452.5,379.1 451.5,378.1 450.3,377.0 449.3,376.0 449.0,375.0 449.6,374.0 451.0,373.0 452.6,372.1 453.8,371.1 454.0,370.0 453.1,368.9 451.3,367.7 449.1,366.4 446.9,365.2 445.0,364.0 443.4,362.8 441.8,361.6 440.3,360.4 439.0,359.2 438.0,358.0 437.2,356.7 436.7,355.3 436.4,354.0 436.2,352.8 436.0,352.0"></polygon>
+<rect class="s-ink w1" height="62" width="56" x="432" y="352"></rect>
+<text class="ts tb" x="502" y="368">루빈의 꽃병</text>
+<text class="tl" x="502" y="388">꽃병은 얼굴의 바탕,</text>
+<text class="tl" x="502" y="404">얼굴은 꽃병의 바탕</text>
+<line class="s-rule" x1="16" x2="704" y1="434" y2="434"></line>
+<text class="tm" x="360" y="461"><tspan class="tb">관점주의</tspan> = 칸이 아니라 <tspan class="c-jen tb">영혼</tspan>/<tspan class="c-uru tb">몸</tspan> 구별이 작동하는 방식</text>
+</svg></g></g></g></g></svg>

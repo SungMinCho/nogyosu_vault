@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 684" width="720" height="684" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tbig{font-size:19px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .te{text-anchor:end}svg.d .c-jag{fill:var(--jag)}svg.d .c-mod{fill:var(--mod)}svg.d .c-ink{fill:var(--ink)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-uru{fill:none;stroke:var(--uru);stroke-width:1.8}svg.d .s-jen{fill:none;stroke:var(--jen);stroke-width:1.8}svg.d .s-jag{fill:none;stroke:var(--jag);stroke-width:1.8}svg.d .s-mod{fill:none;stroke:var(--mod);stroke-width:1.8}svg.d .s-dim{fill:none;stroke:var(--dim);stroke-width:1.2}svg.d .s-rule{fill:none;stroke:var(--rule);stroke-width:1}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .dash{stroke-dasharray:6 5}svg.d .f-jag{fill:var(--jag)}svg.d .f-mod{fill:var(--mod)}svg.d .f-ink{fill:var(--ink)}svg.d .f-panel{fill:var(--panel)}svg.d .t-uru{fill:var(--uru-t)}svg.d .t-jen{fill:var(--jen-t)}svg.d .t-jag{fill:var(--jag-t)}svg.d .t-mod{fill:var(--mod-t)}svg.pz-root{width:720px!important;height:684px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="위베르와 모스의 희생 도식은 봉헌자·집전자·희생물·수령자의 네 자리인데, 아마존 샤먼에게서는 집전자와 희생물이 한 몸으로 접혀 자리가 셋이 되고, 투피남바 식인에서는 먹는 집단과 수령자까지 겹쳐 자리가 둘이 된 뒤 도식이 두 벌로 갈라져 끝없는 복수의 고리가 된다." class="d pz-inner" height="100%" role="img" viewBox="0 0 720 684" width="100%">
+<defs><marker id="f18-a-ink" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f18-a-mod" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-mod" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f18-a-jag" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-jag" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f18-a-j2" markerHeight="4.5" markerWidth="4.5" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-jag" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<text class="ts tb" x="68" y="24">모스의 포화된 도식</text>
+<text class="tl" x="180" y="24">위베르와 모스</text>
+<path class="s-mod w1" d="M118.0,66 C118.0,34 496.0,34 496.0,66"></path>
+<text class="ts tm c-mod" x="307.0" y="36">두 극</text>
+<rect class="t-mod s-mod w1" height="40" width="100" x="68" y="66"></rect>
+<text class="tm" x="118.0" y="91">희생 봉헌자</text>
+<rect class="t-mod s-mod w1" height="40" width="100" x="194" y="66"></rect>
+<text class="tm" x="244.0" y="91">집전자</text>
+<rect class="t-mod s-mod w1" height="40" width="100" x="320" y="66"></rect>
+<text class="tm" x="370.0" y="91">희생물</text>
+<rect class="t-mod s-mod w1" height="40" width="100" x="446" y="66"></rect>
+<text class="tm" x="496.0" y="91">수령자 (신)</text>
+<path class="s-mod w1" d="M170,86.0 L191,86.0" marker-end="url(#f18-a-mod)"></path>
+<path class="s-mod w1" d="M296,86.0 L317,86.0" marker-end="url(#f18-a-mod)"></path>
+<path class="s-mod w1" d="M422,86.0 L443,86.0" marker-end="url(#f18-a-mod)"></path>
+<path class="s-mod w1" d="M194,112 Q194,119 201,119 L300.0,119 Q307.0,119 307.0,126 Q307.0,119 314.0,119 L413,119 Q420,119 420,112"></path>
+<text class="ts tm c-mod" x="307.0" y="143">이중 중개</text>
+<text class="tbig tb tm" x="34" y="91">4</text>
+<text class="tl tm" x="34" y="108">자리</text>
+<text class="ts tb" x="68" y="172">아마존 샤먼</text>
+<text class="tl" x="144" y="172">p.153</text>
+<path class="s-ink w1" d="M307.0,150 L307.0,181" marker-end="url(#f18-a-ink)"></path>
+<text class="tl" x="315.0" y="166">한 몸으로 접힌다</text>
+<rect class="f-panel s-ink w1" height="44" width="100" x="68" y="199.0"></rect>
+<text class="tm" x="118.0" y="218.0">봉헌자</text>
+<text class="tl tm" x="118.0" y="235.0">사람들</text>
+<rect class="t-jag s-jag w1" height="44" width="100" x="446" y="199.0"></rect>
+<text class="tm" x="496.0" y="218.0">수령자</text>
+<text class="tl tm" x="496.0" y="235.0">마이 신들</text>
+<rect class="f-panel s-ink w2" height="74" width="226" x="194" y="184"></rect>
+<text class="ts tb tm" x="307.0" y="203">샤먼 — 집전자 = 희생물</text>
+<rect class="t-uru s-uru w1" height="36" width="46" x="206" y="212"></rect>
+<text class="ts tm" x="229" y="235">몸</text>
+<rect class="t-jen s-jen w1" height="36" width="46" x="362" y="212"></rect>
+<text class="ts tm" x="385" y="235">영혼</text>
+<rect class="s-dim w1 dash" height="36" width="94" x="260" y="212"></rect>
+<text class="tl tm" x="307.0" y="227">빈자리 =</text>
+<text class="tl tm" x="307.0" y="242">인접의 결손</text>
+<path class="s-ink w1" d="M170,221.0 L191,221.0" marker-end="url(#f18-a-ink)"></path>
+<path class="s-ink w1" d="M422,221.0 L443,221.0" marker-end="url(#f18-a-ink)"></path>
+<text class="tl tm" x="307.0" y="276">대조 · 살해자는 먹히지 않고 곧장 마이가 된다</text>
+<path class="f-panel s-jag w1" d="M576,158 L702,158 Q710,158 710,166 L710,196 Q710,204 702,204 L590,204 L549,209.0 L576,198 Q568,196 568,190 L568,166 Q568,158 576,158 Z"></path>
+<text class="ts" x="578" y="177">“보라, 우리의</text>
+<text class="ts" x="578" y="195">미래 식량이 온다”</text>
+<rect class="s-dim w1 dash" height="46" width="142" x="568" y="216"></rect>
+<text class="ts" x="578" y="235">문턱: 남을 희생시키면</text>
+<text class="ts" x="578" y="253">→ 사제의 그림자</text>
+<text class="tbig tb tm" x="34" y="226.0">3</text>
+<text class="tl tm" x="34" y="243.0">자리</text>
+<text class="ts tb" x="68" y="306">투피남바 식인</text>
+<text class="tl" x="160" y="306">주98 · 도식이 두 벌로 갈라진다</text>
+<rect class="f-panel s-ink w2" height="46" width="226" x="194" y="326"></rect>
+<text class="ts tb tm" x="307.0" y="346">희생물 = 집행자</text>
+<text class="tl tm" x="307.0" y="363">상(喪) · 상징적 죽음 · 먹지 않음</text>
+<rect class="f-panel s-ink w2" height="46" width="226" x="194" y="446"></rect>
+<text class="ts tb tm" x="307.0" y="466">희생물 = 집행자</text>
+<text class="tl tm" x="307.0" y="483">복수의 판 · 우리 쪽에서 나온 몸</text>
+<text class="tl te" x="420" y="320">첫째 벌</text>
+<text class="tl te" x="420" y="508">둘째 벌</text>
+<rect class="f-panel s-ink w2" height="52" width="116" x="60" y="383.0"></rect>
+<text class="tm tb" x="118.0" y="405.0">먹는 집단</text>
+<text class="ts tm" x="118.0" y="423.0">= 수령자</text>
+<rect class="t-jag s-jag w1" height="52" width="116" x="438" y="383.0"></rect>
+<text class="tm tb" x="496.0" y="405.0">적 집단</text>
+<text class="ts tm" x="496.0" y="423.0">희생물이 나온 쪽</text>
+<path class="s-jag w2" d="M496.0,381.0 C496.0,349.0 476.0,349.0 423,349.0" marker-end="url(#f18-a-j2)"></path>
+<path class="s-jag w2" d="M192,349.0 C138.0,349.0 118.0,349.0 118.0,380.0" marker-end="url(#f18-a-j2)"></path>
+<path class="s-jag w2" d="M118.0,437.0 C118.0,469.0 138.0,469.0 191,469.0" marker-end="url(#f18-a-j2)"></path>
+<path class="s-jag w2" d="M422,469.0 C476.0,469.0 496.0,469.0 496.0,438.0" marker-end="url(#f18-a-j2)"></path>
+<text class="ts c-jag" x="506.0" y="347.0">내놓는다</text>
+<text class="ts c-jag te" x="108.0" y="347.0">먹는다</text>
+<text class="ts c-jag te" x="108.0" y="483.0">내놓는다</text>
+<text class="ts c-jag" x="506.0" y="483.0">먹는다 · 복수</text>
+<text class="ts tb" x="604" y="347.0">공동 봉헌자</text>
+<text class="tl" x="604" y="363.0">‘내놓는’ 쪽</text>
+<text class="ts tb" x="604" y="483.0">미래의 수령자</text>
+<text class="tl" x="604" y="499.0">복수의 권리</text>
+<text class="ts tb tm c-jag" x="307.0" y="407.0">끝없는 복수</text>
+<text class="tl tm" x="307.0" y="424.0">= 영원한 불균형 → 집단의 시간</text>
+<text class="tbig tb tm" x="34" y="411.0">2</text>
+<text class="tl tm" x="34" y="428.0">자리</text>
+<text class="tl tm c-jag" x="34" y="444.0">두 벌</text>
+<line class="s-rule" x1="16" x2="704" y1="526" y2="526"></line>
+<text class="ts tb" x="16" y="550">퇴화 = 구별의 소멸</text>
+<text class="tl" x="140" y="550">따로 있던 것이 겹쳐 구별 하나가 사라진 경우 · 고리 교환</text>
+<path class="s-ink w1" d="M102.4,582.2 L119.1,609.0" marker-end="url(#f18-a-ink)"></path>
+<path class="s-ink w1" d="M114.0,620.0 L79.0,620.0" marker-end="url(#f18-a-ink)"></path>
+<path class="s-ink w1" d="M72.4,609.8 L89.1,583.0" marker-end="url(#f18-a-ink)"></path>
+<circle class="f-panel s-ink w1" cx="96" cy="572" r="10"></circle>
+<text class="tl tm c-ink" x="96" y="576">A</text>
+<circle class="f-panel s-ink w1" cx="126" cy="620" r="10"></circle>
+<text class="tl tm c-ink" x="126" y="624">B</text>
+<circle class="f-panel s-ink w1" cx="66" cy="620" r="10"></circle>
+<text class="tl tm c-ink" x="66" y="624">C</text>
+<text class="tl tm c-ink" x="96" y="652">σ: A→B→C→A</text>
+<path class="s-ink w1" d="M229.6,582.2 L212.9,609.0" marker-end="url(#f18-a-ink)"></path>
+<path class="s-ink w1" d="M218.0,620.0 L253.0,620.0" marker-end="url(#f18-a-ink)"></path>
+<path class="s-ink w1" d="M259.6,609.8 L242.9,583.0" marker-end="url(#f18-a-ink)"></path>
+<circle class="f-panel s-ink w1" cx="236" cy="572" r="10"></circle>
+<text class="tl tm c-ink" x="236" y="576">A</text>
+<circle class="f-panel s-ink w1" cx="266" cy="620" r="10"></circle>
+<text class="tl tm c-ink" x="266" y="624">B</text>
+<circle class="f-panel s-ink w1" cx="206" cy="620" r="10"></circle>
+<text class="tl tm c-ink" x="206" y="624">C</text>
+<text class="tl tm c-ink" x="236" y="652">σ⁻¹: A→C→B→A</text>
+<text class="tbig tm" x="166" y="606">≠</text>
+<text class="tl tm" x="166" y="672">n = 3 · 주는 쪽 ≠ 받는 쪽</text>
+<path class="s-ink w1" d="M382.0,596.0 Q406.5,580.0 431.0,596.0" marker-end="url(#f18-a-ink)"></path>
+<path class="s-ink w1" d="M432.0,596.0 Q407.5,612.0 383.0,596.0" marker-end="url(#f18-a-ink)"></path>
+<circle class="f-panel s-ink w1" cx="370" cy="596" r="10"></circle>
+<text class="tl tm c-ink" x="370" y="600">A</text>
+<circle class="f-panel s-ink w1" cx="444" cy="596" r="10"></circle>
+<text class="tl tm c-ink" x="444" y="600">B</text>
+<text class="tl tm c-ink" x="407" y="652">σ = σ⁻¹: A→B→A</text>
+<text class="tl tm" x="407" y="672">n = 2 · 주는 쪽 = 받는 쪽</text>
+<line class="s-rule" x1="316" x2="316" y1="564" y2="676"></line>
+<text class="ts" x="500" y="594">제한 교환 =</text>
+<text class="ts" x="500" y="614">일반 교환의 n = 2 퇴화</text>
+<text class="tl" x="500" y="638">고리는 그대로,</text>
+<text class="tl" x="500" y="654">방향의 구별만 사라진다</text>
+</svg></g></g></g></g></svg>

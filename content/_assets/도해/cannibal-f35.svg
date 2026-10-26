@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 680 336" width="680" height="336" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .te{text-anchor:end}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-dim{fill:none;stroke:var(--dim);stroke-width:1.2}svg.d .s-rule{fill:none;stroke:var(--rule);stroke-width:1}svg.d .w1{stroke-width:1}svg.d .dash{stroke-dasharray:6 5}svg.d .f-ink{fill:var(--ink)}svg.d .f-panel{fill:var(--panel)}svg.d .t-mod{fill:var(--mod-t)}svg.pz-root{width:680px!important;height:336px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="장별로 레비스트로스와 들뢰즈라는 이름이 나오는 횟수. 부 단위로 들뢰즈가 앞서는 곳은 2부(5~7장)뿐이고, 13장에서 레비스트로스가 67번으로 치솟는다." class="d pz-inner" height="100%" role="img" viewBox="0 0 680 336" width="100%">
+<line class="s-rule dash" x1="72.0" x2="72.0" y1="44" y2="272"></line>
+<text class="tl tm" x="163.1" y="38">1부</text>
+<rect class="f-panel s-rule" height="228" width="136.6" x="254.2" y="44"></rect>
+<line class="s-rule dash" x1="254.2" x2="254.2" y1="44" y2="272"></line>
+<text class="tl tm" x="322.5" y="38">2부</text>
+<line class="s-rule dash" x1="390.8" x2="390.8" y1="44" y2="272"></line>
+<text class="tl tm" x="481.8" y="38">3부</text>
+<line class="s-rule dash" x1="572.9" x2="572.9" y1="44" y2="272"></line>
+<text class="tl tm" x="618.5" y="38">4부</text>
+<line class="s-rule" x1="68" x2="664" y1="272.0" y2="272.0"></line>
+<text class="tl te" x="64" y="276.0">0</text>
+<line class="s-rule" x1="68" x2="664" y1="240.6" y2="240.6"></line>
+<text class="tl te" x="64" y="244.6">10</text>
+<line class="s-rule" x1="68" x2="664" y1="209.1" y2="209.1"></line>
+<text class="tl te" x="64" y="213.1">20</text>
+<line class="s-rule" x1="68" x2="664" y1="177.7" y2="177.7"></line>
+<text class="tl te" x="64" y="181.7">30</text>
+<line class="s-rule" x1="68" x2="664" y1="146.3" y2="146.3"></line>
+<text class="tl te" x="64" y="150.3">40</text>
+<line class="s-rule" x1="68" x2="664" y1="114.9" y2="114.9"></line>
+<text class="tl te" x="64" y="118.9">50</text>
+<line class="s-rule" x1="68" x2="664" y1="83.4" y2="83.4"></line>
+<text class="tl te" x="64" y="87.4">60</text>
+<line class="s-rule" x1="68" x2="664" y1="52.0" y2="52.0"></line>
+<text class="tl te" x="64" y="56.0">70</text>
+<rect class="f-ink" height="25.1" width="16" x="77.8" y="246.9"></rect>
+<rect class="t-mod s-dim w1" height="6.3" width="16" x="95.8" y="265.7"></rect>
+<text class="tl tm" x="94.8" y="289">1</text>
+<rect class="f-ink" height="28.3" width="16" x="123.3" y="243.7"></rect>
+<rect class="t-mod s-dim w1" height="15.7" width="16" x="141.3" y="256.3"></rect>
+<text class="tl tm" x="140.3" y="289">2</text>
+<rect class="f-ink" height="12.6" width="16" x="168.8" y="259.4"></rect>
+<rect class="t-mod s-dim w1" height="3.1" width="16" x="186.8" y="268.9"></rect>
+<text class="tl tm" x="185.8" y="289">3</text>
+<rect class="f-ink" height="44.0" width="16" x="214.4" y="228.0"></rect>
+<rect class="t-mod s-dim w1" height="18.9" width="16" x="232.4" y="253.1"></rect>
+<text class="tl tm" x="231.4" y="289">4</text>
+<rect class="f-ink" height="37.7" width="16" x="259.9" y="234.3"></rect>
+<rect class="t-mod s-dim w1" height="69.1" width="16" x="277.9" y="202.9"></rect>
+<text class="tl tm" x="276.9" y="289">5</text>
+<rect class="f-ink" height="15.7" width="16" x="305.5" y="256.3"></rect>
+<rect class="t-mod s-dim w1" height="66.0" width="16" x="323.5" y="206.0"></rect>
+<text class="tl tm" x="322.5" y="289">6</text>
+<rect class="f-ink" height="40.9" width="16" x="351.0" y="231.1"></rect>
+<rect class="t-mod s-dim w1" height="47.1" width="16" x="369.0" y="224.9"></rect>
+<text class="tl tm" x="368.0" y="289">7</text>
+<rect class="f-ink" height="56.6" width="16" x="396.5" y="215.4"></rect>
+<rect class="t-mod s-dim w1" height="3.1" width="16" x="414.5" y="268.9"></rect>
+<text class="tl tm" x="413.5" y="289">8</text>
+<rect class="f-ink" height="15.7" width="16" x="442.1" y="256.3"></rect>
+<rect class="t-mod s-dim w1" height="3.1" width="16" x="460.1" y="268.9"></rect>
+<text class="tl tm" x="459.1" y="289">9</text>
+<rect class="f-ink" height="44.0" width="16" x="487.6" y="228.0"></rect>
+<rect class="t-mod s-dim w1" height="25.1" width="16" x="505.6" y="246.9"></rect>
+<text class="tl tm" x="504.6" y="289">10</text>
+<rect class="f-ink" height="31.4" width="16" x="533.2" y="240.6"></rect>
+<rect class="t-mod s-dim w1" height="6.3" width="16" x="551.2" y="265.7"></rect>
+<text class="tl tm" x="550.2" y="289">11</text>
+<rect class="f-ink" height="3.1" width="16" x="578.7" y="268.9"></rect>
+<rect class="t-mod s-dim w1" height="9.4" width="16" x="596.7" y="262.6"></rect>
+<text class="tl tm" x="595.7" y="289">12</text>
+<rect class="f-ink" height="210.6" width="16" x="624.2" y="61.4"></rect>
+<rect class="t-mod s-dim w1" height="25.1" width="16" x="642.2" y="246.9"></rect>
+<text class="tl tm" x="641.2" y="289">13</text>
+<line class="s-ink" x1="72" x2="664" y1="272" y2="272"></line>
+<text class="tl tm" x="368.0" y="310">장</text>
+<text class="ts tb te" x="632.2" y="55.4">67</text>
+<rect class="f-ink" height="14" width="14" x="80" y="58"></rect><text class="ts" x="100" y="70">레비스트로스 180번</text>
+<rect class="t-mod s-dim w1" height="14" width="14" x="80" y="82"></rect><text class="ts" x="100" y="94">들뢰즈 95번</text>
+<text class="ts tm" x="322.5" y="172.9">부 단위로 들뢰즈가</text>
+<text class="tl tm" x="322.5" y="188.9">앞서는 곳은 2부뿐</text>
+<text class="tl" x="72" y="330">본문 1~13장 · 각주와 인용 표기 포함, 약어 인용(L.-S., D. G.) 제외 · 스캔 원문을 기계로 셈</text>
+</svg></g></g></g></g></svg>

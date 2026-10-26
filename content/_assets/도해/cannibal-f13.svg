@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 462" width="720" height="462" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tbig{font-size:19px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .te{text-anchor:end}svg.d .c-uru{fill:var(--uru)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-uru{fill:none;stroke:var(--uru);stroke-width:1.8}svg.d .s-dim{fill:none;stroke:var(--dim);stroke-width:1.2}svg.d .s-rule{fill:none;stroke:var(--rule);stroke-width:1}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .w3{stroke-width:4}svg.d .dash{stroke-dasharray:6 5}svg.d .dot{stroke-dasharray:1.5 4.5;stroke-linecap:round}svg.d .f-uru{fill:var(--uru)}svg.d .f-ink{fill:var(--ink)}svg.d .f-panel{fill:var(--panel)}svg.d .round{stroke-linecap:round;stroke-linejoin:round}svg.pz-root{width:720px!important;height:462px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="걷기는 거꾸로 선 진자가 넘어지기를 되풀이하는 일이다. 다리 0.9 m, 보폭 0.7 m면 다리는 수직에서 약 22.9도 기울고 무게중심은 걸음마다 약 7 cm 내려앉았다가 다음 발에 붙잡힌다. 1 km에 약 1,429번, 높이로 합쳐 약 101 m를 넘어지고도 다치지 않는다. 넘어짐이 없으면 나아감도 없고, 붙잡지 못한 넘어짐은 그냥 넘어짐이다." class="d pz-inner" height="100%" role="img" viewBox="0 0 720 462" width="100%">
+<defs><marker id="f09b-a-uru" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-uru" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<text x="16" y="32"><tspan class="tbig tb">한 걸음</tspan><tspan class="ts"> = 거꾸로 선 진자의 넘어짐</tspan></text>
+<line class="s-dim" x1="24" x2="344" y1="330" y2="330"></line>
+<line class="s-dim dash" x1="118" x2="118" y1="330" y2="135"></line>
+<path class="s-dim w1 dash" d="M40.2,145.7 A200,200 0 0 1 118,130"></path>
+<path class="s-uru w2" d="M118,130 A200,200 0 0 1 186.9,142.3" marker-end="url(#f09b-a-uru)"></path>
+<line class="s-dim w1 dot" x1="124" x2="320" y1="130" y2="130"></line>
+<line class="s-dim w1 dot" x1="205.8" x2="320" y1="145.7" y2="145.7"></line>
+<path class="s-uru w2" d="M314,130 L314,145.7 M310,130 L318,130 M310,145.7 L318,145.7"></path>
+<text class="ts te" x="344" y="120">h = L(1 − cos θ) ≈ <tspan class="tb c-uru">7 cm</tspan></text>
+<line class="s-ink w2 dash" x1="195.8" x2="273.6" y1="145.7" y2="330"></line>
+<line class="s-ink w3 round" x1="118" x2="195.8" y1="330" y2="145.7"></line>
+<path class="s-ink w1" d="M118,284 A46,46 0 0 1 135.9,287.6"></path>
+<text class="ts te" x="110" y="292">θ ≈ 22.9°</text>
+<circle class="f-panel s-uru w1" cx="118" cy="130" r="4"></circle>
+<circle class="f-uru" cx="195.8" cy="145.7" r="8"></circle>
+<text class="tl te" x="110" y="124">꼭대기</text>
+<text class="ts tb tm c-uru" x="166" y="122">넘어짐</text>
+<text class="tl" x="214" y="167.7">추 = 무게중심</text>
+<text class="ts" x="164" y="252">L = 0.9 m</text>
+<text class="tl" x="236" y="214">붙잡는 다리</text>
+<ellipse class="f-ink" cx="118" cy="331" rx="10" ry="3.5"></ellipse>
+<ellipse class="f-ink" cx="273.6" cy="331" rx="10" ry="3.5"></ellipse>
+<path class="s-ink w1" d="M118,350 L273.6,350 M118,345 L118,355 M273.6,345 L273.6,355"></path>
+<text class="ts tm" x="195.8" y="370">보폭 s = 0.7 m</text>
+<text class="tl" x="24" y="394">sin θ = (s/2)/L = 0.35/0.9</text>
+<line class="s-rule" x1="364" x2="364" y1="16" y2="400"></line>
+<text x="384" y="32"><tspan class="tbig tb">걸음마다</tspan><tspan class="ts"> 넘어지고 붙잡는다</tspan></text>
+<line class="s-dim" x1="384" x2="704" y1="330" y2="330"></line>
+<polyline class="s-uru w2 round" points="398,216.3 400,215.5 402,214.7 404,213.9 406,213.2 408,212.6 410,211.9 412,211.3 414,210.8 416,210.3 418,209.8 420,209.3 422,208.9 424,208.5 426,208.2 428,207.9 430,207.6 432,207.4 434,207.2 436,207.0 438,206.8 440,206.7 442,206.6 444,206.6 446,206.6 448,206.6 450,206.6 452,206.7 454,206.8 456,207.0 458,207.2 460,207.4 462,207.6 464,207.9 466,208.2 468,208.5 470,208.9 472,209.3 474,209.8 476,210.3 478,210.8 480,211.3 482,211.9 484,212.6 486,213.2 488,213.9 490,214.7 492,215.5 494,216.3 496,215.5 498,214.7 500,213.9 502,213.2 504,212.6 506,211.9 508,211.3 510,210.8 512,210.3 514,209.8 516,209.3 518,208.9 520,208.5 522,208.2 524,207.9 526,207.6 528,207.4 530,207.2 532,207.0 534,206.8 536,206.7 538,206.6 540,206.6 542,206.6 544,206.6 546,206.6 548,206.7 550,206.8 552,207.0 554,207.2 556,207.4 558,207.6 560,207.9 562,208.2 564,208.5 566,208.9 568,209.3 570,209.8 572,210.3 574,210.8 576,211.3 578,211.9 580,212.6 582,213.2 584,213.9 586,214.7 588,215.5 590,216.3 592,215.5 594,214.7 596,213.9 598,213.2 600,212.6 602,211.9 604,211.3 606,210.8 608,210.3 610,209.8 612,209.3 614,208.9 616,208.5 618,208.2 620,207.9 622,207.6 624,207.4 626,207.2 628,207.0 630,206.8 632,206.7 634,206.6 636,206.6 638,206.6 640,206.6 642,206.6 644,206.7 646,206.8 648,207.0 650,207.2 652,207.4 654,207.6 656,207.9 658,208.2 660,208.5 662,208.9 664,209.3 666,209.8 668,210.3 670,210.8 672,211.3 674,211.9 676,212.6 678,213.2 680,213.9 682,214.7 684,215.5 686,216.3"></polyline>
+<ellipse class="f-ink" cx="446" cy="331" rx="10" ry="3.5"></ellipse>
+<line class="s-rule w1 dash" x1="446" x2="446" y1="324" y2="214.6"></line>
+<ellipse class="f-ink" cx="542" cy="331" rx="10" ry="3.5"></ellipse>
+<line class="s-rule w1 dash" x1="542" x2="542" y1="324" y2="214.6"></line>
+<ellipse class="f-ink" cx="638" cy="331" rx="10" ry="3.5"></ellipse>
+<line class="s-rule w1 dash" x1="638" x2="638" y1="324" y2="214.6"></line>
+<path class="s-ink w1 round" d="M485,223.3 Q485,232.3 494,232.3 Q503,232.3 503,223.3 M485,223.3 L483,219.3 M503,223.3 L505,219.3"></path>
+<path class="s-ink w1 round" d="M581,223.3 Q581,232.3 590,232.3 Q599,232.3 599,223.3 M581,223.3 L579,219.3 M599,223.3 L601,219.3"></path>
+<path class="s-ink w1 round" d="M677,223.3 Q677,232.3 686,232.3 Q695,232.3 695,223.3 M677,223.3 L675,219.3 M695,223.3 L697,219.3"></path>
+<text class="tl tm" x="494" y="252.3">붙잡음</text>
+<text class="tl tm" x="590" y="252.3">붙잡음</text>
+<text class="tl tm" x="686" y="252.3">붙잡음</text>
+<text class="tl" x="398" y="196.3"><tspan class="c-uru">무게중심의 길</tspan> · 가로세로 같은 축척</text>
+<text class="ts" x="384" y="356">1 km ≈ <tspan class="tb">1,429 걸음</tspan> = 붙잡힌 넘어짐 1,429번</text>
+<text class="ts" x="384" y="378">넘어진 높이 합 ≈ 1,429 × 0.071 m ≈ <tspan class="tb c-uru">101 m</tspan></text>
+<text class="tl" x="384" y="398">한 층 3 m면 약 34층 · 실측 4~5 cm면 약 57~71 m</text>
+<line class="s-dim" x1="418" x2="486" y1="122" y2="122"></line>
+<line class="s-ink w3 round" x1="452" x2="452" y1="122" y2="72"></line>
+<circle class="f-uru" cx="452" cy="72" r="6"></circle>
+<ellipse class="f-ink" cx="452" cy="123" rx="8" ry="3"></ellipse>
+<text class="tl tm" x="452" y="144">서 있기</text>
+<text class="ts tm" x="452" y="160">넘어짐 0 = 나아감 0</text>
+<line class="s-dim" x1="566" x2="676" y1="122" y2="122"></line>
+<path class="s-dim w1 dash" d="M600,72 A50,50 0 0 1 650,122"></path>
+<line class="s-ink w3 round" x1="600" x2="650" y1="120.5" y2="120.5"></line>
+<circle class="f-uru" cx="652" cy="116" r="6"></circle>
+<path class="s-ink w1 round" d="M664,108 L670,102 M666,116 L674,114 M658,104 L660,96"></path>
+<ellipse class="f-ink" cx="600" cy="123" rx="8" ry="3"></ellipse>
+<text class="tl tm" x="620" y="144">붙잡지 못한 넘어짐</text>
+<text class="ts tm" x="620" y="160">= 그냥 넘어짐</text>
+<line class="s-rule" x1="16" x2="704" y1="418" y2="418"></line>
+<text class="tm" x="130" y="447">넘어짐 ↔ <tspan class="tb">다의</tspan></text>
+<text class="tm" x="360" y="447">붙잡음 ↔ <tspan class="tb">통제</tspan></text>
+<text class="tm" x="590" y="447">걷기 ↔ <tspan class="tb">번역</tspan></text>
+</svg></g></g></g></g></svg>

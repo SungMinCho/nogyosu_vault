@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 386" width="720" height="386" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .te{text-anchor:end}svg.d .c-mod{fill:var(--mod)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-mod{fill:none;stroke:var(--mod);stroke-width:1.8}svg.d .s-dim{fill:none;stroke:var(--dim);stroke-width:1.2}svg.d .s-rule{fill:none;stroke:var(--rule);stroke-width:1}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .w3{stroke-width:4}svg.d .dot{stroke-dasharray:1.5 4.5;stroke-linecap:round}svg.d .f-mod{fill:var(--mod)}svg.d .f-ink{fill:var(--ink)}svg.d .f-panel{fill:var(--panel)}svg.d .t-mod{fill:var(--mod-t)}svg.d .round{stroke-linecap:round;stroke-linejoin:round}svg.pz-root{width:720px!important;height:386px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="대분할은 곧은 선 하나로 세계를 우리와, 결여로만 묶인 나머지 한 무더기로 가른다. 융합은 선을 지워 모든 것을 한 얼룩으로 녹인다. 소수 인류학은 같은 자리의 같은 것들 사이로 선을 접고 굽혀 작은 주머니들을 늘린다." class="d pz-inner" height="100%" role="img" viewBox="0 0 720 386" width="100%">
+<defs><pattern height="6" id="f03b-h" patternTransform="rotate(45)" patternUnits="userSpaceOnUse" width="6"><line class="s-dim w1" x1="0" x2="0" y1="0" y2="6"></line></pattern></defs>
+<rect class="s-rule" height="248" width="220" x="15" y="34"></rect>
+<text class="tb tm" x="125" y="24">(가) 대분할</text>
+<rect class="s-rule" height="248" width="220" x="250" y="34"></rect>
+<text class="tb tm" x="360" y="24">(나) 융합의 환상</text>
+<rect class="s-rule" height="248" width="220" x="485" y="34"></rect>
+<text class="tb tm" x="595" y="24">(다) 소수 인류학</text>
+<path class="t-mod" d="M137,72 C145,70.7 169.7,63.7 185,64 C200.3,64.3 221.3,63 229,74 C236.7,85 230.7,111.3 231,130 C231.3,148.7 234.3,170.7 231,186 C227.7,201.3 222,215.3 211,222 C200,228.7 177,228.7 165,226 C153,223.3 144,220.3 139,206 C134,191.7 135.3,162.3 135,140 C134.7,117.7 128.7,84.7 137,72 C145.3,59.3 177,65.3 185,64"></path>
+<text class="tl tm c-mod" x="125" y="52">인간:동물 = 서양:나머지</text>
+<line class="s-mod w3" x1="125" x2="125" y1="60" y2="216"></line>
+<path class="f-panel s-mod w2" d="M56.2,151 Q70,128.5 83.8,151 Z"></path><circle class="f-panel s-mod w2" cx="70" cy="126" r="6.9"></circle>
+<circle class="f-mod" cx="147" cy="76" r="4"></circle><circle class="f-mod" cx="163" cy="76" r="4"></circle><ellipse class="f-mod" cx="155" cy="84" rx="12" ry="10"></ellipse>
+<path class="s-mod w1" d="M212,88 L207,96 M214,88 L214,97 M216,88 L221,96 M212,88 L207,81 M216,88 L221,81 M204,85 L200,79"></path><circle class="f-mod" cx="205" cy="88" r="3.6"></circle><ellipse class="f-mod" cx="214" cy="88" rx="4.4" ry="3"></ellipse><ellipse class="f-mod" cx="225" cy="88" rx="6.5" ry="4.8"></ellipse>
+<path class="f-mod" d="M150,160 Q161,142 172,160 Z"></path><circle class="f-mod" cx="161" cy="140" r="5.5"></circle>
+<text class="tl tm c-mod" x="161" y="172">아라웨테</text>
+<path class="f-mod" d="M200,162 Q211,144 222,162 Z"></path><circle class="f-mod" cx="211" cy="142" r="5.5"></circle>
+<text class="tl tm c-mod" x="211" y="174">중국인</text>
+<path class="f-mod" d="M168,219 L171,208 L179,203 L190,205 L194,215 L189,220 Z"></path>
+<text class="ts tb tm c-mod" x="70" y="242">우리</text>
+<text class="tl tm" x="70" y="258">= 서양 = 인간</text>
+<text class="tl tm" x="70" y="272">P를 가진 자</text>
+<text class="ts tb tm c-mod" x="183" y="242">비(非)-P</text>
+<text class="tl tm" x="183" y="258">결여로만</text>
+<text class="tl tm" x="183" y="272">묶인 하나</text>
+<line class="s-dim w1 dot" x1="360" x2="360" y1="60" y2="216"></line>
+<text class="tl tm" x="360" y="52">지운 선</text>
+<path d="M310,96 C317.3,92.3 337.3,76.3 354,74 C370.7,71.7 396.3,75 410,82 C423.7,89 433.3,102 436,116 C438.7,130 435.3,153.7 426,166 C416.7,178.3 397,187.7 380,190 C363,192.3 338.3,188.3 324,180 C309.7,171.7 296.3,154 294,140 C291.7,126 300,107 310,96 C320,85 346.7,77.7 354,74" fill="url(#f03b-h)"></path>
+<path class="s-dim w2" d="M310,96 C317.3,92.3 337.3,76.3 354,74 C370.7,71.7 396.3,75 410,82 C423.7,89 433.3,102 436,116 C438.7,130 435.3,153.7 426,166 C416.7,178.3 397,187.7 380,190 C363,192.3 338.3,188.3 324,180 C309.7,171.7 296.3,154 294,140 C291.7,126 300,107 310,96 C320,85 346.7,77.7 354,74"></path>
+<path class="f-panel s-dim w1" d="M328.2,139 Q342,116.5 355.8,139 Z"></path><circle class="f-panel s-dim w1" cx="342" cy="114" r="6.9"></circle>
+<circle class="f-panel s-dim w1" cx="358" cy="108" r="4"></circle><circle class="f-panel s-dim w1" cx="374" cy="108" r="4"></circle><ellipse class="f-panel s-dim w1" cx="366" cy="116" rx="12" ry="10"></ellipse>
+<circle class="f-panel s-dim w1" cx="374" cy="140" r="3.6"></circle><ellipse class="f-panel s-dim w1" cx="383" cy="140" rx="4.4" ry="3"></ellipse><ellipse class="f-panel s-dim w1" cx="394" cy="140" rx="6.5" ry="4.8"></ellipse>
+<path class="f-panel s-dim w1" d="M343,160 Q354,142 365,160 Z"></path><circle class="f-panel s-dim w1" cx="354" cy="140" r="5.5"></circle>
+<path class="f-panel s-dim w1" d="M365,163 L368,152 L376,147 L387,149 L391,159 L386,164 Z"></path>
+<path class="s-ink w3 round" d="M290,70 L430,206 M430,70 L290,206"></path>
+<text class="ts tb tm" x="360" y="242">한 얼룩</text>
+<text class="tl tm" x="360" y="258">손쉬운 환원주의</text>
+<text class="tl tm" x="360" y="272">움직이는 일원론</text>
+<polyline class="s-ink w1 round" points="591.5,62.4 591.6,63.5 591.9,64.9 592.2,66.4 592.4,68.1 592.7,69.9 592.9,71.6 593.1,73.3 593.1,74.8 592.9,76 592.6,77 592.2,78.4 591.9,79.9 591.7,81 591.5,81.7 591.3,82.1 591.1,82.5 590.5,82.9 589.3,83.4 587.4,84 584.6,84.5 580.6,84.9 575.3,85 569.1,85 562.2,84.9 555,84.7 547.8,84.5 540.9,84.3 534.6,84.2 529.1,84.3 524.7,84.5 521.3,85 518.5,85.6 516.3,86.4 514.4,87.4 512.9,88.8 511.9,90.5 511.5,92.2 511.4,93.5 511.5,94.5 511.5,95 511.5,95.5 511.4,96.5 511.5,97.8 511.9,99.5 512.9,101.2 514.4,102.6 516.3,103.6 518.5,104.4 521.3,105 524.7,105.5 529.1,105.8 534.5,105.9 540.8,105.8 547.7,105.7 554.8,105.6 562,105.4 568.9,105.3 575.1,105.2 580.5,105.3 584.7,105.5 587.7,105.8 589.9,106.2 591.2,106.7 592,107.1 592.5,107.4 592.9,107.9 593.6,108.6 594.6,109.6 596.1,110.5 597.8,111.3 599.3,111.8 600.8,112.3 602.2,112.8 603.7,113.3 605.3,113.7 606.9,114.2 608.7,114.6 610.5,114.9 612.5,115.2 614.7,115.5 617,115.7 619.7,115.9 622.5,116 625.5,116.2 628.6,116.2 631.6,116.3 634.5,116.2 637.2,116.1 639.7,115.8 641.8,115.4 643.4,115 644.8,114.5 646.1,114 647.4,113.1 648.5,111.9 649.2,110.5 649.7,109.1 649.9,107.8 650.2,106.3 650.5,104.4 650.7,102 650.8,99.1 650.7,95.8 650.6,92.4 650.4,88.8 650.3,85.3 650.2,82 650.1,79 650.2,76.5 650.5,74.6 650.8,73.2 651.2,72.1 651.6,71.3 652,70.6 652.4,70.2 652.8,69.9 653.2,69.7 653.5,69.6 653.8,69.5 654,69.5 654.2,69.5 654.5,69.6 654.8,69.7 655.2,69.9 655.6,70.2 656,70.6 656.4,71.3 656.8,72.1 657.2,73.2 657.5,74.6 657.8,76.5 657.9,79 657.8,82 657.7,85.3 657.6,88.8 657.4,92.4 657.3,95.8 657.2,99.1 657.3,102 657.5,104.4 657.8,106.3 658.1,107.9 658.5,109.3 659,110.7 659.8,112 660.9,113.1 662.2,114 663.4,114.5 664.7,115 666.2,115.4 668.2,115.8 670.5,115.9 673,115.9 675.5,115.7 678.1,115.6 680.7,115.4 683.1,115.2 685.2,115.2 687,115.2 688.3,115.4 689.3,115.7 690.3,116.1 691.1,116.6 691.9,117.1 692.5,117.6 692.9,118.1 693.3,118.5 693.4,118.9 693.5,119.1 693.5,119.6 693.8,120.8 694.3,121.9 694.6,122.6 694.7,122.7 694.7,122.1 695.2,121.3 695.2,121.3 694.1,121.7 692,122.1 688.7,122.5 683.9,122.7 677.5,122.8 669.8,122.8 661.3,122.6 652.4,122.4 643.5,122.3 634.9,122.1 627,122.1 620.2,122.2 614.7,122.5 610.7,122.9 607.6,123.3 605.1,123.9 603.1,124.6 601.3,125.7 599.9,127.2 599.2,128.7 598.7,130 598.4,131.2 597.7,132.8 597,135.2 596.5,138 596.4,140.9 596.4,143.9 596.5,147 596.6,149.9 596.6,152.7 596.5,155.2 596.2,157.2 595.7,158.8 595.1,160.4 594.5,161.8 594,162.9 593.6,163.6 593.2,164.1 592.7,164.5 591.7,165 590,165.5 587.7,166 584.6,166.5 580.5,166.9 575.1,167 568.8,167 562,166.9 554.8,166.7 547.7,166.5 540.8,166.3 534.5,166.2 529.1,166.3 524.7,166.5 521.3,167 518.5,167.6 516.3,168.4 514.4,169.4 512.9,170.8 511.9,172.5 511.5,174.2 511.4,175.5 511.5,176.5 511.5,177 511.5,177.5 511.4,178.5 511.5,179.8 511.9,181.5 512.9,183.2 514.4,184.6 516.3,185.6 518.5,186.4 521.3,187 524.6,187.5 528.6,187.8 533.1,187.9 538,188 543.5,188 549.4,187.9 555.8,187.8 562.5,187.7 569.7,187.6 577.2,187.5 585,187.5 593.8,187.5 603.9,187.4 614.9,187.3 626.5,187.2 638.2,187.1 649.6,187 660.3,187 670.1,187.1 678.4,187.2 684.8,187.5 689.3,187.9 692.4,188.4 693.9,188.8 694.1,188.9 693.4,187.8 693.5,186.7 693.4,186.8 692.8,187.5 692.1,188.8 691.5,190.7 691.6,192.3 691.8,193.1 691.9,193.5 691.9,193.4 692.1,193 692.2,192.9 691.7,193.2 690.3,193.7 688,194.1 684.7,194.5 680.1,194.7 674,194.8 666.8,194.7 658.8,194.5 650.5,194.3 642.1,194.1 634,194 626.5,194 619.9,194.1 614.6,194.5 610.5,195.2 607.1,196 604.3,197.1 602.1,198.4 600.4,199.9 599.1,201.5 598.2,202.9 597.6,204.1 597,204.9 596.3,205.7 595.3,206.9 594.3,208.4 593.6,209.9 593,211.3 592.6,212.7 592.3,214 592.1,215 591.9,215.9 591.8,216.5 591.7,217"></polyline>
+<polyline class="s-dim w1 dot" points="598.5,61.6 598.6,62.5 598.8,63.7 599.1,65.2 599.4,67 599.7,68.9 599.9,70.9 600,73 600,75.1 599.8,77.2 599.4,79 599,80.2 598.8,81.2 598.5,82.5 598.1,84.1 597.3,85.9 595.9,87.6 594,89 591.7,90 588.9,90.8 585.4,91.5 581,91.9 575.4,92 569,92 562,91.9 554.8,91.7 547.7,91.5 540.8,91.3 534.6,91.2 529.3,91.3 525.3,91.5 522.5,91.9 520.4,92.3 519.1,92.8 518.5,93.1 518.3,93.3 518.4,93.2 518.4,93.2 518.4,93.5 518.5,94.1 518.5,95 518.5,95.9 518.4,96.5 518.4,96.8 518.4,96.8 518.3,96.7 518.5,96.9 519.1,97.2 520.4,97.7 522.5,98.1 525.3,98.5 529.3,98.8 534.6,98.9 540.7,98.8 547.5,98.7 554.7,98.6 561.8,98.4 568.8,98.3 575.1,98.2 580.7,98.3 585.3,98.5 588.8,98.9 591.6,99.5 593.8,100.2 595.6,101.1 597,102.1 598,103 598.6,103.7 599,104.1 599.4,104.4 600.2,104.7 601.6,105.2 603,105.7 604.4,106.1 605.8,106.6 607.2,107 608.6,107.4 610.1,107.7 611.7,108 613.4,108.3 615.3,108.5 617.6,108.7 620.1,108.9 622.9,109.1 625.8,109.2 628.7,109.3 631.5,109.3 634.2,109.2 636.7,109.1 638.7,108.9 640.2,108.6 641.5,108.3 642.4,108 642.8,107.8 642.8,107.8 642.7,107.9 642.7,107.9 642.9,107.4 643.1,106.5 643.3,105.2 643.5,103.6 643.7,101.6 643.8,99.1 643.7,96 643.6,92.7 643.4,89.2 643.3,85.6 643.2,82.1 643.1,78.9 643.3,76 643.5,73.4 644.1,71.3 644.7,69.4 645.6,67.7 646.6,66.3 647.7,65.1 648.9,64.1 650.2,63.4 651.5,62.9 652.8,62.6 654,62.5 655.2,62.6 656.5,62.9 657.8,63.4 659.1,64.1 660.3,65.1 661.4,66.3 662.4,67.7 663.3,69.4 663.9,71.3 664.5,73.4 664.7,76 664.9,78.9 664.8,82.1 664.7,85.6 664.6,89.2 664.4,92.7 664.3,96 664.2,99.1 664.3,101.6 664.5,103.6 664.7,105.1 665,106.4 665.2,107.2 665.4,107.7 665.4,107.8 665.4,107.7 665.5,107.8 666,108 666.8,108.3 667.8,108.6 669,108.8 670.7,108.9 672.7,108.9 675.1,108.7 677.6,108.6 680.2,108.4 682.8,108.2 685.3,108.2 687.6,108.3 689.7,108.6 691.6,109.1 693.2,109.8 694.7,110.6 696.1,111.5 697.3,112.5 698.3,113.6 699.2,114.8 699.9,116.1 700.3,117.5 700.5,118.4 700.5,118.7 700.7,119.1 701.1,120 701.6,121.6 701.5,123.8 700.3,126.1 698.3,127.5 696,128.4 693.1,129 689.3,129.5 684.1,129.7 677.5,129.8 669.7,129.8 661.2,129.6 652.3,129.4 643.4,129.3 634.8,129.1 627,129.1 620.4,129.2 615.3,129.5 611.5,129.9 608.7,130.3 606.9,130.6 605.9,131 605.7,131.1 605.8,131 605.7,131.3 605.4,132.2 604.9,133.7 604.3,135.2 603.8,136.7 603.5,138.6 603.4,141.1 603.4,143.8 603.5,146.8 603.6,149.8 603.6,152.9 603.5,155.9 603.1,158.7 602.3,161.2 601.5,163 600.9,164.5 600.3,166.1 599.3,167.7 598,169.2 596.3,170.5 594.2,171.5 591.8,172.3 589,172.9 585.4,173.5 580.8,173.9 575.2,174 568.8,174 561.8,173.9 554.7,173.7 547.5,173.5 540.7,173.3 534.5,173.2 529.3,173.3 525.3,173.5 522.5,173.9 520.4,174.3 519.1,174.8 518.5,175.1 518.3,175.3 518.4,175.2 518.4,175.2 518.4,175.5 518.5,176.1 518.5,177 518.5,177.9 518.4,178.5 518.4,178.8 518.4,178.8 518.3,178.7 518.5,178.9 519.1,179.2 520.4,179.7 522.5,180.1 525.4,180.5 529,180.8 533.2,180.9 538.1,181 543.5,181 549.3,180.9 555.7,180.8 562.4,180.7 569.6,180.6 577.1,180.5 585,180.5 593.8,180.5 603.8,180.4 614.9,180.3 626.4,180.2 638.1,180.1 649.5,180 660.4,180 670.2,180.1 678.6,180.2 685.2,180.5 690.1,180.9 693.8,181.5 696.5,182.3 698.8,183.7 700.3,186.4 700.1,189 699.3,190.6 698.6,191.5 698.4,191.8 698.5,191.3 698.5,191.2 698.7,191.9 698.9,193.1 698.7,194.9 697.9,196.9 696.4,198.5 694.4,199.6 692,200.4 689.1,201 685.3,201.5 680.3,201.7 674,201.8 666.6,201.7 658.6,201.5 650.3,201.3 641.9,201.1 633.9,201 626.5,201 620.2,201.1 615.4,201.5 611.8,202 609.2,202.7 607.4,203.4 606.2,204.1 605.4,204.8 604.8,205.6 604.2,206.5 603.6,207.6 602.7,209 601.7,210.3 600.9,211.2 600.4,211.9 600,212.7 599.7,213.6 599.4,214.5 599.2,215.5 599,216.4 598.8,217.3 598.6,218.3 598.3,219"></polyline>
+<path class="s-ink w3 round" d="M595,62 C595.2,64.7 597.7,73.7 596,78 C594.3,82.3 596.8,86.3 585,88 C573.2,89.7 536.7,86.8 525,88 C513.3,89.2 515,92.7 515,95 C515,97.3 513.3,100.8 525,102 C536.7,103.2 572.7,101 585,102 C597.3,103 594,106.3 599,108 C604,109.7 608,111.3 615,112 C622,112.7 635.7,113.3 641,112 C646.3,110.7 646,110.3 647,104 C648,97.7 645.8,80.3 647,74 C648.2,67.7 651.7,66 654,66 C656.3,66 659.8,67.7 661,74 C662.2,80.3 660,97.7 661,104 C662,110.3 662.3,110.7 667,112 C671.7,113.3 684,110.8 689,112 C694,113.2 697,116.7 697,119 C697,121.3 702.7,124.8 689,126 C675.3,127.2 629.7,124.7 615,126 C600.3,127.3 603.7,128.3 601,134 C598.3,139.7 601.7,154 599,160 C596.3,166 597.3,168.3 585,170 C572.7,171.7 536.7,168.8 525,170 C513.3,171.2 515,174.7 515,177 C515,179.3 513.3,182.8 525,184 C536.7,185.2 558.3,184 585,184 C611.7,184 666.7,182.8 685,184 C703.3,185.2 695,188.7 695,191 C695,193.3 698.3,196.8 685,198 C671.7,199.2 629.3,196.3 615,198 C600.7,199.7 602.3,204.7 599,208 C595.7,211.3 595.7,216.3 595,218"></path>
+<path class="f-panel s-ink w2" d="M526.2,151 Q540,128.5 553.8,151 Z"></path><circle class="f-panel s-ink w2" cx="540" cy="126" r="6.9"></circle>
+<circle class="f-panel s-ink" cx="617" cy="76" r="4"></circle><circle class="f-panel s-ink" cx="633" cy="76" r="4"></circle><ellipse class="f-panel s-ink" cx="625" cy="84" rx="12" ry="10"></ellipse><circle class="f-ink" cx="619" cy="80" r="1.6"></circle><circle class="f-ink" cx="625" cy="78" r="1.6"></circle><circle class="f-ink" cx="631" cy="80" r="1.6"></circle><circle class="f-ink" cx="617" cy="87" r="1.6"></circle><circle class="f-ink" cx="633" cy="87" r="1.6"></circle><path class="f-ink" d="M622,87 L628,87 L625,90 Z"></path>
+<path class="s-ink w1" d="M682,88 L677,96 M684,88 L684,97 M686,88 L691,96 M682,88 L677,81 M686,88 L691,81 M674,85 L670,79"></path><circle class="f-panel s-ink w1" cx="675" cy="88" r="3.6"></circle><ellipse class="f-panel s-ink w1" cx="684" cy="88" rx="4.4" ry="3"></ellipse><ellipse class="f-panel s-ink w1" cx="695" cy="88" rx="6.5" ry="4.8"></ellipse>
+<path class="f-panel s-ink" d="M620,160 Q631,142 642,160 Z"></path><circle class="f-panel s-ink" cx="631" cy="140" r="5.5"></circle>
+<text class="tl tm" x="631" y="172">아라웨테</text>
+<path class="f-panel s-ink" d="M670,162 Q681,144 692,162 Z"></path><circle class="f-panel s-ink" cx="681" cy="142" r="5.5"></circle>
+<text class="tl tm" x="681" y="174">중국인</text>
+<path class="f-panel s-ink" d="M638,219 L641,208 L649,203 L660,205 L664,215 L659,220 Z"></path>
+<text class="tl tm" x="595" y="52">같은 것들, 같은 자리</text>
+<text class="ts tb tm" x="595" y="242">접고 · 두껍게 · 회절 · 무지갯빛</text>
+<text class="tl tm" x="595" y="258">데리다의 리미트로피</text>
+<text class="tl tm" x="595" y="272">경계의 형상을 늘린다</text>
+<text class="tl" x="15" y="306">온음계 · 큰 간격</text>
+<text class="ts tb tm" x="360" y="306">일반화된 크로마티즘</text>
+<text class="tl te" x="705" y="306">반음계 · 작은 간격</text>
+<rect class="f-panel s-ink w1" height="40" width="690" x="15" y="314"></rect>
+<path class="s-ink w1" d="M75,314 L75,354 M130.1,314 L130.1,354 M180.8,314 L180.8,354 M227.3,314 L227.3,354 M270.1,314 L270.1,354 M309.4,314 L309.4,354 M345.5,314 L345.5,354 M378.7,314 L378.7,354 M409.2,314 L409.2,354 M437.2,314 L437.2,354 M462.9,314 L462.9,354 M486.5,314 L486.5,354 M508.3,314 L508.3,354 M528.2,314 L528.2,354 M546.6,314 L546.6,354 M563.4,314 L563.4,354 M578.9,314 L578.9,354 M593.2,314 L593.2,354 M606.2,314 L606.2,354 M618.2,314 L618.2,354 M629.3,314 L629.3,354 M639.4,314 L639.4,354 M648.7,314 L648.7,354 M657.3,314 L657.3,354 M665.2,314 L665.2,354 M672.4,314 L672.4,354 M679,314 L679,354 M685.2,314 L685.2,354 M690.8,314 L690.8,354 M695.9,314 L695.9,354 M700.6,314 L700.6,354"></path>
+<rect class="f-ink" height="24.0" width="22.6" x="258.8" y="314"></rect>
+<rect class="f-ink" height="24.0" width="19.1" x="336" y="314"></rect>
+<rect class="f-ink" height="24.0" width="16.1" x="401.1" y="314"></rect>
+<rect class="f-ink" height="24.0" width="13.6" x="456.1" y="314"></rect>
+<rect class="f-ink" height="24.0" width="11.5" x="502.5" y="314"></rect>
+<rect class="f-ink" height="24.0" width="9.7" x="541.7" y="314"></rect>
+<rect class="f-ink" height="24.0" width="8.9" x="559" y="314"></rect>
+<rect class="f-ink" height="24.0" width="8.2" x="574.8" y="314"></rect>
+<rect class="f-ink" height="24.0" width="7.5" x="589.4" y="314"></rect>
+<rect class="f-ink" height="24.0" width="6.9" x="602.8" y="314"></rect>
+<rect class="f-ink" height="24.0" width="6.3" x="615.1" y="314"></rect>
+<rect class="f-ink" height="24.0" width="5.8" x="626.4" y="314"></rect>
+<rect class="f-ink" height="24.0" width="5.4" x="636.8" y="314"></rect>
+<rect class="f-ink" height="24.0" width="4.9" x="646.3" y="314"></rect>
+<rect class="f-ink" height="24.0" width="4.5" x="655" y="314"></rect>
+<rect class="f-ink" height="24.0" width="4.2" x="663.1" y="314"></rect>
+<rect class="f-ink" height="24.0" width="3.8" x="670.5" y="314"></rect>
+<rect class="f-ink" height="24.0" width="3.5" x="677.3" y="314"></rect>
+<rect class="f-ink" height="24.0" width="3.2" x="683.5" y="314"></rect>
+<rect class="f-ink" height="24.0" width="3" x="689.3" y="314"></rect>
+<rect class="f-ink" height="24.0" width="2.7" x="694.6" y="314"></rect>
+<rect class="f-ink" height="24.0" width="2.5" x="699.4" y="314"></rect>
+<text class="tl tm" x="360" y="374">간격이 잘게 쪼개질수록 경계는 사라지지 않고 촘촘해진다</text>
+</svg></g></g></g></g></svg>

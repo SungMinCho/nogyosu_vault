@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 700 470" width="700" height="470" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .te{text-anchor:end}svg.d .c-uru{fill:var(--uru)}svg.d .c-jen{fill:var(--jen)}svg.d .c-jag{fill:var(--jag)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-uru{fill:none;stroke:var(--uru);stroke-width:1.8}svg.d .s-jen{fill:none;stroke:var(--jen);stroke-width:1.8}svg.d .s-jag{fill:none;stroke:var(--jag);stroke-width:1.8}svg.d .s-rule{fill:none;stroke:var(--rule);stroke-width:1}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .w3{stroke-width:4}svg.d .dash{stroke-dasharray:6 5}svg.d .dot{stroke-dasharray:1.5 4.5;stroke-linecap:round}svg.d .f-uru{fill:var(--uru)}svg.d .f-jen{fill:var(--jen)}svg.d .f-jag{fill:var(--jag)}svg.d .f-panel{fill:var(--panel)}svg.d .t-jag{fill:var(--jag-t)}svg.d .round{stroke-linecap:round;stroke-linejoin:round}svg.pz-root{width:700px!important;height:470px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="한 여자는 두 사람이 아니라 막대 하나다. 오빠 갑 쪽 끝에서는 누이, 남편 병 쪽 끝에서는 아내다. 갑은 병에게서 을의 아내 쪽 얼굴을, 병은 갑에게서 을의 누이 쪽 얼굴을 본다. 누이 교환은 잇는 자로 잡힌 성마다 하나씩, 서로가 서로의 판본인 인척 삼각형 둘을 만든다: 을이 갑과 병을 처남-매부로 잇는 삼각형, 갑이 을과 정을 올케-시누이로 잇는 삼각형." class="d pz-inner" height="100%" role="img" viewBox="0 0 700 470" width="100%">
+<defs><marker id="f13-a-jen" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-jen" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<line class="s-jag w2 dot" x1="81" x2="447" y1="230" y2="230"></line>
+<line class="s-jag w2 dot" x1="264" x2="264" y1="109" y2="379"></line>
+<path class="s-jen dash" d="M104,220 Q264,164 424,220" marker-end="url(#f13-a-jen)"></path>
+<path class="s-jen dash" d="M424,240 Q264,296 104,240" marker-end="url(#f13-a-jen)"></path>
+<line class="s-uru w2" x1="75.3" x2="214.2" y1="220.2" y2="99.3"></line>
+<line class="s-jag w1" x1="312.3" x2="451.2" y1="100.9" y2="221.8"></line><line class="s-jag w1" x1="315.2" x2="454.1" y1="97.6" y2="218.5"></line>
+<line class="s-uru w2" x1="452.3" x2="274.1" y1="239.4" y2="383.8"></line>
+<line class="s-jag w1" x1="255.3" x2="77" y1="382.1" y2="237.7"></line><line class="s-jag w1" x1="252.5" x2="74.3" y1="385.5" y2="241.2"></line>
+<path class="f-panel s-ink w2" d="M64,215 L77,237.5 L51,237.5 Z"></path>
+<path class="f-panel s-ink w2" d="M464,215 L477,237.5 L451,237.5 Z"></path>
+<circle class="f-panel s-ink w2" cx="264" cy="392" r="12"></circle>
+<line class="s-ink w3 round" x1="218" x2="310" y1="96" y2="96"></line>
+<circle class="f-panel s-ink w2" cx="264" cy="96" r="12"></circle>
+<circle class="f-uru" cx="218" cy="96" r="4.5"></circle>
+<circle class="f-jag" cx="310" cy="96" r="4.5"></circle>
+<text class="te" x="44" y="235">갑</text>
+<text x="484" y="235">병</text>
+<text class="tm" x="264" y="74">을</text>
+<text class="tm" x="264" y="424">정</text>
+<text class="ts tb tm" x="264" y="24">막대 하나, 끝 둘</text>
+<text class="tl tm" x="264" y="43">나에게 동시에 둘이 아님</text>
+<text class="ts tb te c-uru" x="206" y="101">누이</text>
+<text class="ts tb c-jag" x="322" y="101">아내</text>
+<text class="ts c-uru tm" x="131.2" y="156.2">남매</text>
+<text class="ts c-jag tm" x="396.8" y="156.2">부부</text>
+<text class="ts c-uru tm" x="373.4" y="327.2">남매</text>
+<text class="ts c-jag tm" x="154.6" y="327.2">부부</text>
+<rect class="f-panel" height="21" width="60.7" x="145.6" y="218.6"></rect>
+<text class="ts tm c-jag" x="176" y="235">처남-매부</text>
+<rect class="f-panel" height="21" width="72.4" x="227.8" y="328.6"></rect>
+<text class="ts tm c-jag" x="264" y="345">올케-시누이</text>
+<rect class="f-panel" height="21" width="224" x="152.3" y="164.6"></rect>
+<text class="ts tm c-jen" x="264" y="181">갑은 병에게서 을의 <tspan class="tb c-jag">아내</tspan> 쪽 얼굴을 본다</text>
+<rect class="f-panel" height="21" width="223.9" x="152.4" y="275.6"></rect>
+<text class="ts tm c-jen" x="264" y="292">병은 갑에게서 을의 <tspan class="tb c-uru">누이</tspan> 쪽 얼굴을 본다</text>
+<line class="s-rule" x1="514" x2="514" y1="16" y2="420"></line>
+<path class="t-jag" d="M580,62 L628,62 L668,116 L540,116 Z"></path>
+<line class="s-jag w2 dot" x1="551" x2="657" y1="116" y2="116"></line>
+<line class="s-uru w2" x1="577.6" x2="546.5" y1="65.2" y2="107.2"></line>
+<line class="s-jag w1" x1="628.8" x2="659.8" y1="66.4" y2="108.4"></line><line class="s-jag w1" x1="632" x2="663.1" y1="64" y2="106"></line>
+<line class="s-ink w2 round" x1="580" x2="628" y1="62" y2="62"></line>
+<circle class="f-panel s-ink" cx="604" cy="62" r="9"></circle>
+<circle class="f-uru" cx="580" cy="62" r="3.5"></circle>
+<circle class="f-jag" cx="628" cy="62" r="3.5"></circle>
+<path class="f-panel s-ink" d="M540,104.5 L550,121.8 L530,121.8 Z"></path>
+<path class="f-panel s-ink" d="M668,104.5 L678,121.8 L658,121.8 Z"></path>
+<text class="ts tm" x="604" y="46">을</text>
+<text class="ts te c-uru" x="572" y="66.5">누이</text>
+<text class="ts c-jag" x="636" y="66.5">아내</text>
+<text class="ts tm" x="540" y="145">갑</text>
+<text class="ts tm" x="668" y="145">병</text>
+<text class="ts tm c-jag" x="604" y="138">처남-매부</text>
+<text class="ts tb tm" x="604" y="168">① 여자가 잇는 삼각형</text>
+<text class="ts tm" x="604" y="186">을이 갑과 병을 잇는다</text>
+<path class="t-jag" d="M580,244 L628,244 L668,298 L540,298 Z"></path>
+<line class="s-jag w2 dot" x1="550" x2="658" y1="298" y2="298"></line>
+<line class="s-uru w2" x1="577.6" x2="546" y1="247.2" y2="290"></line>
+<line class="s-jag w1" x1="628.8" x2="660.4" y1="248.4" y2="291.2"></line><line class="s-jag w1" x1="632" x2="663.7" y1="246" y2="288.8"></line>
+<line class="s-ink w2 round" x1="580" x2="628" y1="244" y2="244"></line>
+<path class="f-panel s-ink" d="M604,233.5 L614,250.8 L594,250.8 Z"></path>
+<circle class="f-uru" cx="580" cy="244" r="3.5"></circle>
+<circle class="f-jag" cx="628" cy="244" r="3.5"></circle>
+<circle class="f-panel s-ink" cx="540" cy="298" r="9"></circle>
+<circle class="f-panel s-ink" cx="668" cy="298" r="9"></circle>
+<text class="ts tm" x="604" y="228">갑</text>
+<text class="ts te c-uru" x="572" y="248.5">형제</text>
+<text class="ts c-jag" x="636" y="248.5">남편</text>
+<text class="ts tm" x="540" y="327">을</text>
+<text class="ts tm" x="668" y="327">정</text>
+<text class="ts tm c-jag" x="604" y="320">올케-시누이</text>
+<text class="ts tb tm" x="604" y="350">② 남자가 잇는 삼각형</text>
+<text class="ts tm" x="604" y="368">갑이 을과 정을 잇는다</text>
+<text class="ts tm" x="604" y="396">잇는 성 하나마다 하나씩</text>
+<text class="tl tm" x="604" y="414">서로가 서로의 판본</text>
+<line class="s-rule" x1="16" x2="684" y1="438" y2="438"></line>
+<text class="tm" x="350" y="462"><tspan class="tl">배타적:</tspan> <tspan class="c-uru">누이</tspan> 또는 <tspan class="c-jag">아내</tspan><tspan dx="14">→</tspan><tspan class="tl" dx="14">포함적:</tspan> <tspan class="tb c-uru">누이</tspan> <tspan class="tb">그리고/또는</tspan> <tspan class="tb c-jag">아내</tspan></text>
+</svg></g></g></g></g></svg>

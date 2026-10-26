@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 680 520" width="680" height="520" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tbig{font-size:19px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .te{text-anchor:end}svg.d .c-jag{fill:var(--jag)}svg.d .c-dim{fill:var(--dim)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-jag{fill:none;stroke:var(--jag);stroke-width:1.8}svg.d .s-dim{fill:none;stroke:var(--dim);stroke-width:1.2}svg.d .s-rule{fill:none;stroke:var(--rule);stroke-width:1}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .f-jag{fill:var(--jag)}svg.d .f-ink{fill:var(--ink)}svg.d .f-dim{fill:var(--dim)}svg.d .f-panel{fill:var(--panel)}svg.d .f-bg{fill:var(--bg)}svg.d .t-jag{fill:var(--jag-t)}svg.d .round{stroke-linecap:round;stroke-linejoin:round}svg.pz-root{width:680px!important;height:520px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="세계와 사회가 갈릴 때마다 두 쪽이 0.6 대 0.4로 같지 않으면, 한 번에 1.5배인 작은 기울기가 층마다 쌓여 양 끝 조각의 비가 1.5, 2.25, 3.38, 5.06배로 커지고 열 번째 층에서는 0.00605 대 0.000105, 57.7배로 벌어진다. 정보량은 대등하게 가를 때보다 0.29비트 모자랄 뿐이다. 0.5 대 0.5로 똑같이 가른 쌍둥이 나무는 1024조각이 모두 1/1024이고 저울은 모두 수평이다. 정지, 곧 무기력이다." class="d pz-inner" height="100%" role="img" viewBox="0 0 680 520" width="100%">
+<defs><marker id="f26-a-jag" markerHeight="4" markerWidth="4" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-jag" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<text class="tbig tb" x="16" y="30">결코 같지 않은 반쪽</text>
+<text class="ts c-dim" x="16" y="52">“층층이 쏟아지는 차이의 간격이 우주라는 기계를 움직인다” — 『스라소니 이야기』</text>
+<rect class="f-jag" height="12" width="12" x="164" y="70"></rect>
+<text class="tl" x="182" y="81">큰 쪽 0.6</text>
+<rect class="t-jag s-jag w1" height="12" width="12" x="274" y="70"></rect>
+<text class="tl" x="292" y="81">작은 쪽 0.4</text>
+<text class="tl" x="448" y="81">양 끝의 비</text>
+<line class="s-rule" x1="518" x2="518" y1="92" y2="388"></line>
+<text class="ts tb c-dim" x="530" y="30">대등한 쌍둥이</text>
+<text class="tl" x="530" y="50">디오스쿠로이</text>
+<text class="tl" x="560" y="81">0.5 : 0.5</text>
+<text class="ts te" x="112" y="112">세계와 사회</text>
+<rect class="f-panel s-ink w1" height="22" width="271" x="164.5" y="96"></rect>
+<text class="ts tm" x="300" y="112">1</text>
+<rect class="f-panel s-dim w1" height="22" width="103" x="560.5" y="96"></rect>
+<text class="ts tm c-dim" x="612" y="112">1</text>
+<text class="ts te" x="112" y="150">하늘 / 땅</text>
+<path class="f-ink" d="M138,142 L134,153 L142,153 Z"></path>
+<line class="s-ink w1 round" x1="125.5" x2="150.5" y1="145.6" y2="138.4"></line>
+<path class="s-ink w1" d="M125.5,145.6 L125.5,149.6 M120.5,149.6 Q125.5,154.6 130.5,149.6 Z"></path>
+<path class="s-ink w1" d="M150.5,138.4 L150.5,142.4 M145.5,142.4 Q150.5,147.4 155.5,142.4 Z"></path>
+<path class="f-dim" d="M540,142 L536,153 L544,153 Z"></path>
+<line class="s-dim w1 round" x1="527" x2="553" y1="142" y2="142"></line>
+<path class="s-dim w1" d="M527,142 L527,146 M522,146 Q527,151 532,146 Z"></path>
+<path class="s-dim w1" d="M553,142 L553,146 M548,146 Q553,151 558,146 Z"></path>
+<rect class="f-jag" height="22" width="162.2" x="164.5" y="134"></rect>
+<text class="ts tm f-bg" x="245.6" y="150">0.6</text>
+<rect class="t-jag s-jag w1" height="22" width="107.8" x="327.7" y="134"></rect>
+<text class="ts tm" x="381.6" y="150">0.4</text>
+<text class="ts" x="448" y="150">×1.5</text>
+<rect class="f-panel s-dim w1" height="22" width="51" x="560.5" y="134"></rect>
+<rect class="f-panel s-dim w1" height="22" width="51" x="612.5" y="134"></rect>
+<text class="ts tm c-dim" x="586" y="150">0.5</text>
+<text class="ts tm c-dim" x="638" y="150">0.5</text>
+<text class="ts te" x="112" y="188">불 / 물</text>
+<path class="f-ink" d="M138,180 L134,191 L142,191 Z"></path>
+<line class="s-ink w1 round" x1="125.5" x2="150.5" y1="183.6" y2="176.4"></line>
+<path class="s-ink w1" d="M125.5,183.6 L125.5,187.6 M120.5,187.6 Q125.5,192.6 130.5,187.6 Z"></path>
+<path class="s-ink w1" d="M150.5,176.4 L150.5,180.4 M145.5,180.4 Q150.5,185.4 155.5,180.4 Z"></path>
+<path class="f-dim" d="M540,180 L536,191 L544,191 Z"></path>
+<line class="s-dim w1 round" x1="527" x2="553" y1="180" y2="180"></line>
+<path class="s-dim w1" d="M527,180 L527,184 M522,184 Q527,189 532,184 Z"></path>
+<path class="s-dim w1" d="M553,180 L553,184 M548,184 Q553,189 558,184 Z"></path>
+<rect class="f-jag" height="22" width="96.9" x="164.5" y="172"></rect>
+<text class="ts tm f-bg" x="213" y="188">0.36</text>
+<rect class="t-jag s-jag w1" height="22" width="64.3" x="262.4" y="172"></rect>
+<text class="ts tm" x="294.6" y="188">0.24</text>
+<rect class="f-jag" height="22" width="64.3" x="327.7" y="172"></rect>
+<text class="ts tm f-bg" x="359.8" y="188">0.24</text>
+<rect class="t-jag s-jag w1" height="22" width="42.5" x="393" y="172"></rect>
+<text class="ts tm" x="414.2" y="188">0.16</text>
+<text class="ts" x="448" y="188">×2.25</text>
+<rect class="f-panel s-dim w1" height="22" width="25" x="560.5" y="172"></rect>
+<rect class="f-panel s-dim w1" height="22" width="25" x="586.5" y="172"></rect>
+<rect class="f-panel s-dim w1" height="22" width="25" x="612.5" y="172"></rect>
+<rect class="f-panel s-dim w1" height="22" width="25" x="638.5" y="172"></rect>
+<text class="ts te" x="112" y="226">위 / 아래</text>
+<path class="f-ink" d="M138,218 L134,229 L142,229 Z"></path>
+<line class="s-ink w1 round" x1="125.5" x2="150.5" y1="221.6" y2="214.4"></line>
+<path class="s-ink w1" d="M125.5,221.6 L125.5,225.6 M120.5,225.6 Q125.5,230.6 130.5,225.6 Z"></path>
+<path class="s-ink w1" d="M150.5,214.4 L150.5,218.4 M145.5,218.4 Q150.5,223.4 155.5,218.4 Z"></path>
+<path class="f-dim" d="M540,218 L536,229 L544,229 Z"></path>
+<line class="s-dim w1 round" x1="527" x2="553" y1="218" y2="218"></line>
+<path class="s-dim w1" d="M527,218 L527,222 M522,222 Q527,227 532,222 Z"></path>
+<path class="s-dim w1" d="M553,218 L553,222 M548,222 Q553,227 558,222 Z"></path>
+<rect class="f-jag" height="22" width="57.8" x="164.5" y="210"></rect>
+<rect class="t-jag s-jag w1" height="22" width="38.2" x="223.3" y="210"></rect>
+<rect class="f-jag" height="22" width="38.2" x="262.4" y="210"></rect>
+<rect class="t-jag s-jag w1" height="22" width="25.1" x="301.6" y="210"></rect>
+<rect class="f-jag" height="22" width="38.2" x="327.7" y="210"></rect>
+<rect class="t-jag s-jag w1" height="22" width="25.1" x="366.9" y="210"></rect>
+<rect class="f-jag" height="22" width="25.1" x="393" y="210"></rect>
+<rect class="t-jag s-jag w1" height="22" width="16.4" x="419.1" y="210"></rect>
+<text class="ts" x="448" y="226">×3.38</text>
+<rect class="f-panel s-dim w1" height="22" width="12" x="560.5" y="210"></rect>
+<rect class="f-panel s-dim w1" height="22" width="12" x="573.5" y="210"></rect>
+<rect class="f-panel s-dim w1" height="22" width="12" x="586.5" y="210"></rect>
+<rect class="f-panel s-dim w1" height="22" width="12" x="599.5" y="210"></rect>
+<rect class="f-panel s-dim w1" height="22" width="12" x="612.5" y="210"></rect>
+<rect class="f-panel s-dim w1" height="22" width="12" x="625.5" y="210"></rect>
+<rect class="f-panel s-dim w1" height="22" width="12" x="638.5" y="210"></rect>
+<rect class="f-panel s-dim w1" height="22" width="12" x="651.5" y="210"></rect>
+<text class="ts te" x="112" y="264">인디오 / 비인디오</text>
+<path class="f-ink" d="M138,256 L134,267 L142,267 Z"></path>
+<line class="s-ink w1 round" x1="125.5" x2="150.5" y1="259.6" y2="252.4"></line>
+<path class="s-ink w1" d="M125.5,259.6 L125.5,263.6 M120.5,263.6 Q125.5,268.6 130.5,263.6 Z"></path>
+<path class="s-ink w1" d="M150.5,252.4 L150.5,256.4 M145.5,256.4 Q150.5,261.4 155.5,256.4 Z"></path>
+<path class="f-dim" d="M540,256 L536,267 L544,267 Z"></path>
+<line class="s-dim w1 round" x1="527" x2="553" y1="256" y2="256"></line>
+<path class="s-dim w1" d="M527,256 L527,260 M522,260 Q527,265 532,260 Z"></path>
+<path class="s-dim w1" d="M553,256 L553,260 M548,260 Q553,265 558,260 Z"></path>
+<rect class="f-jag" height="22" width="34.3" x="164.5" y="248"></rect>
+<rect class="t-jag s-jag w1" height="22" width="22.5" x="199.8" y="248"></rect>
+<rect class="f-jag" height="22" width="22.5" x="223.3" y="248"></rect>
+<rect class="t-jag s-jag w1" height="22" width="14.7" x="246.8" y="248"></rect>
+<rect class="f-jag" height="22" width="22.5" x="262.4" y="248"></rect>
+<rect class="t-jag s-jag w1" height="22" width="14.7" x="285.9" y="248"></rect>
+<rect class="f-jag" height="22" width="14.7" x="301.6" y="248"></rect>
+<rect class="t-jag s-jag w1" height="22" width="9.4" x="317.3" y="248"></rect>
+<rect class="f-jag" height="22" width="22.5" x="327.7" y="248"></rect>
+<rect class="t-jag s-jag w1" height="22" width="14.7" x="351.2" y="248"></rect>
+<rect class="f-jag" height="22" width="14.7" x="366.9" y="248"></rect>
+<rect class="t-jag s-jag w1" height="22" width="9.4" x="382.5" y="248"></rect>
+<rect class="f-jag" height="22" width="14.7" x="393" y="248"></rect>
+<rect class="t-jag s-jag w1" height="22" width="9.4" x="408.6" y="248"></rect>
+<rect class="f-jag" height="22" width="9.4" x="419.1" y="248"></rect>
+<rect class="t-jag s-jag w1" height="22" width="6" x="429.5" y="248"></rect>
+<text class="ts" x="448" y="264">×5.06</text>
+<rect class="f-panel s-dim w1" height="22" width="5.5" x="560.5" y="248"></rect>
+<rect class="f-panel s-dim w1" height="22" width="5.5" x="567" y="248"></rect>
+<rect class="f-panel s-dim w1" height="22" width="5.5" x="573.5" y="248"></rect>
+<rect class="f-panel s-dim w1" height="22" width="5.5" x="580" y="248"></rect>
+<rect class="f-panel s-dim w1" height="22" width="5.5" x="586.5" y="248"></rect>
+<rect class="f-panel s-dim w1" height="22" width="5.5" x="593" y="248"></rect>
+<rect class="f-panel s-dim w1" height="22" width="5.5" x="599.5" y="248"></rect>
+<rect class="f-panel s-dim w1" height="22" width="5.5" x="606" y="248"></rect>
+<rect class="f-panel s-dim w1" height="22" width="5.5" x="612.5" y="248"></rect>
+<rect class="f-panel s-dim w1" height="22" width="5.5" x="619" y="248"></rect>
+<rect class="f-panel s-dim w1" height="22" width="5.5" x="625.5" y="248"></rect>
+<rect class="f-panel s-dim w1" height="22" width="5.5" x="632" y="248"></rect>
+<rect class="f-panel s-dim w1" height="22" width="5.5" x="638.5" y="248"></rect>
+<rect class="f-panel s-dim w1" height="22" width="5.5" x="645" y="248"></rect>
+<rect class="f-panel s-dim w1" height="22" width="5.5" x="651.5" y="248"></rect>
+<rect class="f-panel s-dim w1" height="22" width="5.5" x="658" y="248"></rect>
+<text class="tl tm" x="300.0" y="288">⋮ 같은 기울기로 여섯 번 더 ⋮</text>
+<text class="ts te" x="112" y="288">동포 / 이방인 …</text>
+<text class="ts te" x="112" y="311">열째 층</text>
+<rect class="t-jag s-jag w1" height="12" width="272" x="164" y="300"></rect>
+<rect class="f-jag" height="12" width="1.6" x="164" y="300"></rect>
+<text class="ts tb c-jag" x="448" y="311">×57.7</text>
+<rect class="f-panel s-dim w1" height="12" width="104" x="560" y="300"></rect>
+<text class="ts" x="530" y="334">1024조각 모두 1/1024</text>
+<text class="tl" x="530" y="352">양 끝의 비 ×1</text>
+<text class="tb c-dim" x="530" y="378">정지 = 무기력</text>
+<line class="s-jag w1" x1="164.5" x2="164.5" y1="312" y2="326"></line>
+<line class="s-jag w1" x1="435.5" x2="435.5" y1="312" y2="326"></line>
+<rect class="t-jag s-jag w1" height="44" width="134" x="164" y="326"></rect>
+<text class="tl" x="172" y="343">가장 큰 조각</text>
+<text class="ts tb" x="172" y="362">0.6¹⁰ ≈ 0.00605</text>
+<rect class="t-jag s-jag w1" height="44" width="134" x="302" y="326"></rect>
+<text class="tl" x="310" y="343">가장 작은 조각</text>
+<text class="ts tb" x="310" y="362">0.4¹⁰ ≈ 0.000105</text>
+<line class="s-jag w1" x1="231.0" x2="231.0" y1="370" y2="386"></line>
+<line class="s-jag w1" x1="369.0" x2="369.0" y1="370" y2="386"></line>
+<line class="s-jag w2" marker-end="url(#f26-a-jag)" marker-start="url(#f26-a-jag)" x1="232.0" x2="368.0" y1="386" y2="386"></line>
+<text class="tm tb c-jag" x="300.0" y="408">× 1.5¹⁰ ≈ 57.7</text>
+<line class="s-rule" x1="16" x2="664" y1="422" y2="422"></line>
+<text class="ts te" x="112" y="448">정보량</text>
+<rect class="f-jag" height="12" width="264.1" x="164" y="438"></rect>
+<text class="ts" x="448" y="449">9.71비트 <tspan class="tl">0.6 : 0.4 열 번</tspan></text>
+<rect class="f-panel s-dim w1" height="12" width="272" x="164" y="456"></rect>
+<text class="ts c-dim" x="448" y="467">10비트 <tspan class="tl">0.5 : 0.5 열 번</tspan></text>
+<text class="ts" x="164" y="490">정보로는 <tspan class="tb">0.29비트</tspan> 모자랄 뿐인데, 양 끝은 <tspan class="tb c-jag">57.7배</tspan> 벌어진다</text>
+<text class="ts c-dim" x="164" y="510">고른 몫(1/1024)보다 큰 조각 386개가 전체의 63.3%를 차지한다</text>
+</svg></g></g></g></g></svg>

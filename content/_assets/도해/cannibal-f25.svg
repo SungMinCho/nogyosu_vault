@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 408" width="720" height="408" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tbig{font-size:19px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .te{text-anchor:end}svg.d .c-uru{fill:var(--uru)}svg.d .c-jag{fill:var(--jag)}svg.d .c-dim{fill:var(--dim)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-uru{fill:none;stroke:var(--uru);stroke-width:1.8}svg.d .s-jag{fill:none;stroke:var(--jag);stroke-width:1.8}svg.d .s-dim{fill:none;stroke:var(--dim);stroke-width:1.2}svg.d .s-rule{fill:none;stroke:var(--rule);stroke-width:1}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .dash{stroke-dasharray:6 5}svg.d .dot{stroke-dasharray:1.5 4.5;stroke-linecap:round}svg.d .f-uru{fill:var(--uru)}svg.d .f-jag{fill:var(--jag)}svg.d .f-ink{fill:var(--ink)}svg.d .f-dim{fill:var(--dim)}svg.d .f-panel{fill:var(--panel)}svg.d .t-uru{fill:var(--uru-t)}svg.d .t-jag{fill:var(--jag-t)}svg.d .f-none{fill:none}svg.d .round{stroke-linecap:round;stroke-linejoin:round}svg.pz-root{width:720px!important;height:408px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="말벌 계통과 난초 계통은 각자 세대를 낳아 내려가고, 두 계통 사이의 반자연적 결연은 이중 포획으로 맞물리지만 말벌-난초를 낳지 않는다. 그래도 각 계통의 다음 세대가 그 결연에 기댄다. 세포 속에서는 주인 세포 계통에 한 번 합쳐진 세균이 미토콘드리아로 남아, 미토콘드리아 단백질 약 1,136종 가운데 98.9%를 핵이 만들고, 어머니 쪽으로만 물려진다." class="d pz-inner" height="100%" role="img" viewBox="0 0 720 408" width="100%">
+<defs><marker id="f20-a-uru" markerHeight="4.5" markerWidth="4.5" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-uru" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f20-a-jag" markerHeight="4.2" markerWidth="4.2" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-jag" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f20-a-jag2" markerHeight="4.5" markerWidth="4.5" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-jag" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f20-a-ink" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<text class="ts tb tm" x="86" y="30">말벌 계통</text>
+<text class="ts tb tm" x="350" y="30">난초 계통</text>
+<text class="tl" x="16" y="100">1세대</text>
+<path class="f-panel s-ink w1" d="M82,92 Q74,77 88,79 Q92,86 85,92 Z"></path><path class="f-panel s-ink w1" d="M85,92 Q90,79 100,84 Q98,90 88,93 Z"></path><path class="s-ink w1 round" d="M74,101 L71,108 M80,101 L79,109 M86,101 L89,108"></path><ellipse class="f-panel s-ink w1" cx="97" cy="97" rx="10" ry="5.5"></ellipse><path class="s-ink w1" d="M94,92 L94,102 M99,92 L99,102 M104,93 L104,101"></path><ellipse class="f-ink" cx="80" cy="96" rx="5.5" ry="4.2"></ellipse><circle class="f-ink" cx="71" cy="95" r="4"></circle><path class="s-ink w1 round" d="M69,92 Q65,84 60,84 M71,91 Q69,82 65,80"></path>
+<ellipse class="f-panel s-ink w1" cx="350.0" cy="82.0" rx="6.5" ry="11" transform="rotate(0 350.0 82.0)"></ellipse><ellipse class="f-panel s-ink w1" cx="360.4" cy="100.0" rx="6.5" ry="11" transform="rotate(120 360.4 100.0)"></ellipse><ellipse class="f-panel s-ink w1" cx="339.6" cy="100.0" rx="6.5" ry="11" transform="rotate(240 339.6 100.0)"></ellipse><ellipse class="f-panel s-ink w1" cx="342.1" cy="89.8" rx="2.6" ry="6" transform="rotate(-62 342.1 89.8)"></ellipse><ellipse class="f-panel s-ink w1" cx="357.9" cy="89.8" rx="2.6" ry="6" transform="rotate(62 357.9 89.8)"></ellipse><ellipse class="f-dim" cx="350" cy="99" rx="5" ry="6.5"></ellipse><path class="s-rule w1" d="M347,97 Q350,100 353,97"></path>
+<text class="tl" x="16" y="236">2세대</text>
+<path class="f-panel s-ink w1" d="M82,228 Q74,213 88,215 Q92,222 85,228 Z"></path><path class="f-panel s-ink w1" d="M85,228 Q90,215 100,220 Q98,226 88,229 Z"></path><path class="s-ink w1 round" d="M74,237 L71,244 M80,237 L79,245 M86,237 L89,244"></path><ellipse class="f-panel s-ink w1" cx="97" cy="233" rx="10" ry="5.5"></ellipse><path class="s-ink w1" d="M94,228 L94,238 M99,228 L99,238 M104,229 L104,237"></path><ellipse class="f-ink" cx="80" cy="232" rx="5.5" ry="4.2"></ellipse><circle class="f-ink" cx="71" cy="231" r="4"></circle><path class="s-ink w1 round" d="M69,228 Q65,220 60,220 M71,227 Q69,218 65,216"></path>
+<ellipse class="f-panel s-ink w1" cx="350.0" cy="218.0" rx="6.5" ry="11" transform="rotate(0 350.0 218.0)"></ellipse><ellipse class="f-panel s-ink w1" cx="360.4" cy="236.0" rx="6.5" ry="11" transform="rotate(120 360.4 236.0)"></ellipse><ellipse class="f-panel s-ink w1" cx="339.6" cy="236.0" rx="6.5" ry="11" transform="rotate(240 339.6 236.0)"></ellipse><ellipse class="f-panel s-ink w1" cx="342.1" cy="225.8" rx="2.6" ry="6" transform="rotate(-62 342.1 225.8)"></ellipse><ellipse class="f-panel s-ink w1" cx="357.9" cy="225.8" rx="2.6" ry="6" transform="rotate(62 357.9 225.8)"></ellipse><ellipse class="f-dim" cx="350" cy="235" rx="5" ry="6.5"></ellipse><path class="s-rule w1" d="M347,233 Q350,236 353,233"></path>
+<text class="tl" x="16" y="334">3세대</text>
+<path class="f-panel s-ink w1" d="M82,326 Q74,311 88,313 Q92,320 85,326 Z"></path><path class="f-panel s-ink w1" d="M85,326 Q90,313 100,318 Q98,324 88,327 Z"></path><path class="s-ink w1 round" d="M74,335 L71,342 M80,335 L79,343 M86,335 L89,342"></path><ellipse class="f-panel s-ink w1" cx="97" cy="331" rx="10" ry="5.5"></ellipse><path class="s-ink w1" d="M94,326 L94,336 M99,326 L99,336 M104,327 L104,335"></path><ellipse class="f-ink" cx="80" cy="330" rx="5.5" ry="4.2"></ellipse><circle class="f-ink" cx="71" cy="329" r="4"></circle><path class="s-ink w1 round" d="M69,326 Q65,318 60,318 M71,325 Q69,316 65,314"></path>
+<ellipse class="f-panel s-ink w1" cx="350.0" cy="316.0" rx="6.5" ry="11" transform="rotate(0 350.0 316.0)"></ellipse><ellipse class="f-panel s-ink w1" cx="360.4" cy="334.0" rx="6.5" ry="11" transform="rotate(120 360.4 334.0)"></ellipse><ellipse class="f-panel s-ink w1" cx="339.6" cy="334.0" rx="6.5" ry="11" transform="rotate(240 339.6 334.0)"></ellipse><ellipse class="f-panel s-ink w1" cx="342.1" cy="323.8" rx="2.6" ry="6" transform="rotate(-62 342.1 323.8)"></ellipse><ellipse class="f-panel s-ink w1" cx="357.9" cy="323.8" rx="2.6" ry="6" transform="rotate(62 357.9 323.8)"></ellipse><ellipse class="f-dim" cx="350" cy="333" rx="5" ry="6.5"></ellipse><path class="s-rule w1" d="M347,331 Q350,334 353,331"></path>
+<line class="s-uru w2" marker-end="url(#f20-a-uru)" x1="86" x2="86" y1="114" y2="210"></line>
+<line class="s-uru w2" marker-end="url(#f20-a-uru)" x1="350" x2="350" y1="115" y2="205"></line>
+<text class="ts te c-uru" x="78" y="168.0">낳는다</text>
+<text class="ts c-uru" x="358" y="168.0">낳는다</text>
+<line class="s-uru w2" marker-end="url(#f20-a-uru)" x1="86" x2="86" y1="250" y2="308"></line>
+<line class="s-uru w2" marker-end="url(#f20-a-uru)" x1="350" x2="350" y1="251" y2="303"></line>
+<text class="ts te c-uru" x="78" y="285.0">낳는다</text>
+<text class="ts c-uru" x="358" y="285.0">낳는다</text>
+<polyline class="s-jag w2 round" marker-end="url(#f20-a-jag)" marker-start="url(#f20-a-jag)" points="110,96 134.0,96 140.0,90 152.0,102 164.0,90 176.0,102 188.0,90 200.0,102 212.0,90 224.0,102 236.0,90 248.0,102 260.0,90 272.0,102 284.0,90 296.0,102 302.0,96 328,96"></polyline>
+<text class="ts tb tm c-jag" x="218.0" y="58">반자연적 결연 · 이중 포획</text>
+<text class="tl tm" x="218.0" y="76">짝짓기 속임 ↔ 꽃가루 덩이</text>
+<line class="s-ink w1 dot" x1="218.0" x2="218.0" y1="106" y2="126"></line>
+<line class="s-ink w1 dot" marker-end="url(#f20-a-ink)" x1="218.0" x2="218.0" y1="146" y2="167"></line>
+<path class="s-ink w2" d="M211.0,129 L225.0,143 M225.0,129 L211.0,143"></path>
+<rect class="f-none s-dim w1 dash" height="30" width="84" x="176.0" y="168"></rect>
+<text class="ts tm c-dim" x="218.0" y="188">말벌-난초</text>
+<text class="ts tb tm" x="218.0" y="222">태어나지 않는다</text>
+<path class="s-jag w1" d="M178.0,104 C178.0,190 148.0,232 116,232" marker-end="url(#f20-a-jag2)"></path>
+<path class="s-jag w1" d="M258.0,104 C258.0,190 288.0,232 328,232" marker-end="url(#f20-a-jag2)"></path>
+<text class="tl c-jag" x="268.0" y="150">수분 → 씨</text>
+<text class="ts tm c-jag" x="218.0" y="264">각 종의 출계가 이 결연에 기댄다</text>
+<text class="tl tm" x="218.0" y="281">(들뢰즈 · 가타리)</text>
+<line class="s-rule" x1="430" x2="430" y1="16" y2="392"></line>
+<text class="ts tb" x="446" y="30">세포 속의 옛 결연</text>
+<path class="t-uru s-uru w1" d="M448,52 L470,52 L470,352 L480,352 L459.0,382 L438,352 L448,352 Z"></path>
+<text class="tl" x="478" y="56">주인 세포 계통</text>
+<ellipse class="t-jag s-jag w1" cx="660" cy="86" rx="11" ry="6.5"></ellipse>
+<path class="s-jag w2 round" d="M649,86 L520,86 Q474,86 470,108"></path>
+<text class="tl" x="520" y="76">알파프로테오박테리아 (손님)</text>
+<circle class="f-jag" cx="470" cy="108" r="3.5"></circle>
+<text class="tl" x="480" y="116">한 번 합쳐짐</text>
+<ellipse class="t-jag s-jag w1" cx="459.0" cy="138" rx="6.5" ry="4.5"></ellipse>
+<ellipse class="t-jag s-jag w1" cx="459.0" cy="186" rx="6.5" ry="4.5"></ellipse>
+<ellipse class="t-jag s-jag w1" cx="459.0" cy="234" rx="6.5" ry="4.5"></ellipse>
+<ellipse class="t-jag s-jag w1" cx="459.0" cy="282" rx="6.5" ry="4.5"></ellipse>
+<ellipse class="t-jag s-jag w1" cx="459.0" cy="330" rx="6.5" ry="4.5"></ellipse>
+<line class="s-jag w1" x1="467.0" x2="486" y1="138" y2="138"></line>
+<text class="ts tb c-jag" x="490" y="143">미토콘드리아</text>
+<rect class="t-jag s-jag w1" height="50" width="214" x="490" y="150"></rect>
+<text x="500" y="174"><tspan class="tbig tb">16,569</tspan><tspan class="ts"> 염기쌍</tspan></text>
+<text class="tl" x="500" y="191">mtDNA · 유전자 37 (단백질 13)</text>
+<rect class="t-uru s-uru w1" height="64" width="214" x="490" y="208"></rect>
+<text x="500" y="232"><tspan class="tbig tb">≈ 98.9%</tspan><tspan class="ts"> 핵이 만들어 보냄</tspan></text>
+<text class="tl" x="500" y="249">미토콘드리아 단백질</text>
+<text class="tl" x="500" y="265">약 1,136종 가운데 1,123</text>
+<rect class="t-uru s-uru w1" height="64" width="214" x="490" y="280"></rect>
+<text x="500" y="304"><tspan class="tbig tb">≈ 5.6%</tspan><tspan class="ts"> 미토콘드리아 일</tspan></text>
+<text class="tl" x="500" y="321">핵 단백질 유전자</text>
+<text class="tl" x="500" y="337">약 20,000 가운데 1,123</text>
+<text class="ts tb c-uru" x="490" y="368">어머니 쪽으로만</text>
+<text class="tl" x="490" y="386">→ 모계 출계에 붙잡힌 결연</text>
+</svg></g></g></g></g></svg>

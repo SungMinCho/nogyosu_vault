@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 500" width="720" height="500" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .te{text-anchor:end}svg.d .c-uru{fill:var(--uru)}svg.d .c-mod{fill:var(--mod)}svg.d .c-dim{fill:var(--dim)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-uru{fill:none;stroke:var(--uru);stroke-width:1.8}svg.d .s-mod{fill:none;stroke:var(--mod);stroke-width:1.8}svg.d .s-dim{fill:none;stroke:var(--dim);stroke-width:1.2}svg.d .s-rule{fill:none;stroke:var(--rule);stroke-width:1}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .dot{stroke-dasharray:1.5 4.5;stroke-linecap:round}svg.d .f-mod{fill:var(--mod)}svg.d .f-ink{fill:var(--ink)}svg.d .f-dim{fill:var(--dim)}svg.d .f-panel{fill:var(--panel)}svg.d .t-uru{fill:var(--uru-t)}svg.d .t-mod{fill:var(--mod-t)}svg.d .round{stroke-linecap:round;stroke-linejoin:round}svg.pz-root{width:720px!important;height:500px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="1960~70년대 프랑스 철학은 대서양을 건너 영미 인류학의 경험-실용적 몸에 접붙었고, 정작 프랑스 인류학은 뒤르켐의 기층으로 되돌아가며 영미식 논리와 인지주의를 들여왔다. 두 흐름이 χ 자로 엇갈리고, 제 나라 안의 길은 거의 끊겨 있다." class="d pz-inner" height="100%" role="img" viewBox="0 0 720 500" width="100%">
+<defs><marker id="f10-a-ink" markerHeight="14" markerUnits="userSpaceOnUse" markerWidth="14" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f10-a-mod" markerHeight="14" markerUnits="userSpaceOnUse" markerWidth="14" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-mod" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f10-a-dim" markerHeight="10" markerUnits="userSpaceOnUse" markerWidth="10" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-dim" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<text class="tl tm" x="248" y="26">프랑스 · 육각형 안</text>
+<text class="tl tm" x="552" y="26">영어권</text>
+<text class="ts tm c-dim" x="400" y="26">대서양</text>
+<path class="s-rule w1" d="M382,38 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14"></path>
+<path class="s-rule w1" d="M400,38 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14"></path>
+<path class="s-rule w1" d="M418,38 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14 q5,7.0 0,14 q-5,7.0 0,14"></path>
+<rect class="f-panel s-ink w1" height="80" width="200" x="148" y="44"></rect>
+<text class="tm" x="248" y="70"><tspan class="tb">프랑스 철학</tspan><tspan class="tl"> 1960~70년대</tspan></text>
+<text class="ts tm" x="248" y="94">데리다 · 푸코 · 라캉</text>
+<text class="ts tm" x="248" y="112">들뢰즈와 가타리</text>
+<rect class="t-mod s-mod w1" height="80" width="200" x="452" y="44"></rect>
+<text class="tb tm" x="552" y="78">영미 분석철학 · 인지과학</text>
+<text class="ts tm" x="552" y="102">“영국식 스콜라 논리”</text>
+<rect class="f-panel s-ink w1" height="76" width="200" x="148" y="284"></rect>
+<text class="tb tm" x="248" y="316">프랑스 인류학</text>
+<text class="tl tm" x="248" y="338">1990~2000년대</text>
+<rect class="t-uru s-uru w1" height="76" width="200" x="452" y="284"></rect>
+<text class="tm" x="552" y="310"><tspan class="tb">영미 인류학</tspan><tspan class="tl"> 1980~90년대</tspan></text>
+<text class="ts tm c-uru" x="552" y="332">토박이의 경험-실용적 아비투스</text>
+<text class="tl tm" x="552" y="349">몸에 밴 성향</text>
+<line class="s-mod w2" marker-end="url(#f10-a-mod)" x1="470" x2="331" y1="124" y2="283"></line>
+<line class="s-ink w2" marker-end="url(#f10-a-ink)" x1="330" x2="469" y1="124" y2="283"></line>
+<line class="s-dim" x1="168" x2="168" y1="124" y2="192"></line>
+<line class="s-dim" marker-end="url(#f10-a-dim)" x1="168" x2="168" y1="216" y2="283"></line>
+<path class="s-ink w2" d="M162,198 L174,210 M174,198 L162,210"></path>
+<text class="tl" x="180" y="208">거의 닿지 않음</text>
+<text class="tl te" x="329" y="146">1966 존스홉킨스</text>
+<text class="tl te" x="329" y="162">구조주의와 해체가 한 배에</text>
+<text class="ts tb" x="466.5" y="246">“프랑스 이론” · 접붙이기</text>
+<text class="tl" x="466.5" y="264">받아들여진 곳에서 붙은 이름표</text>
+<text class="tl c-mod" x="473" y="146">맥도날드 프랑스 1 → 1,161곳</text>
+<text class="tl c-mod" x="473" y="162">3.6년마다 두 배 (1972→2009)</text>
+<text class="ts tb te c-mod" x="333.5" y="246">분석철학의 가맹점 · 인지주의</text>
+<text class="tl te c-mod" x="333.5" y="264">“맥도날드만큼 빠르게”</text>
+<path class="s-dim w2 round" d="M390,295 Q397,294 400,306 Q403,318 410,317 M409,295 L391,317"></path>
+<text class="tl tm" x="400" y="338">교차</text>
+<circle class="s-ink w1 dot" cx="48" cy="322" r="25"></circle>
+<text class="ts tm" x="48" y="326.5">라투르</text>
+<circle class="s-ink w1 dot" cx="106" cy="322" r="25"></circle>
+<text class="ts tm" x="106" y="326.5">쥘리앵</text>
+<text class="tl" x="16" y="264">늘 있는 예외</text>
+<text class="tl" x="16" y="280">분류상·정치상 변두리</text>
+<rect class="t-mod s-mod w1" height="46" width="332" x="16" y="390"></rect>
+<text class="ts tb" x="28" y="409">뒤르켐적 기층</text>
+<text class="tl" x="28" y="427">1895 『사회학적 방법의 규칙들』 → 모스</text>
+<line class="s-mod w2" marker-end="url(#f10-a-mod)" x1="248" x2="248" y1="360" y2="388.5"></line>
+<text class="ts c-mod" x="260" y="380">다시 빨려 듦</text>
+<line class="s-rule" x1="16" x2="704" y1="448" y2="448"></line>
+<text class="ts" x="16" y="468">레비스트로스의 농담 <tspan class="tb">“엔트로폴로지”</tspan>가 자기 지시적이 됨</text>
+<text class="tl" x="16" y="488">— 분과가 바깥의 차이와 맞물리지 못하고 제 안에서 고르게 식는다</text>
+</svg></g></g></g></g></svg>

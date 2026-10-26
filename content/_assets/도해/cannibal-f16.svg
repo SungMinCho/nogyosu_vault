@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 680 304" width="680" height="304" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tbig{font-size:19px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .te{text-anchor:end}svg.d .c-uru{fill:var(--uru)}svg.d .c-jag{fill:var(--jag)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-uru{fill:none;stroke:var(--uru);stroke-width:1.8}svg.d .s-jag{fill:none;stroke:var(--jag);stroke-width:1.8}svg.d .s-dim{fill:none;stroke:var(--dim);stroke-width:1.2}svg.d .w2{stroke-width:2.6}svg.d .dash{stroke-dasharray:6 5}svg.d .f-uru{fill:var(--uru)}svg.d .f-ink{fill:var(--ink)}svg.d .f-panel{fill:var(--panel)}svg.d .round{stroke-linecap:round;stroke-linejoin:round}svg.pz-root{width:680px!important;height:304px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="나무는 n개의 항 위에 하나를 더해(n+1) 그 하나로 모든 항을 좌표 짓고, 리좀은 그 하나를 빼서(n−1) 항들이 저희끼리의 관계만으로 체계를 이루게 한다. 다양체는 하나를 더해서가 아니라 빼서 얻는다." class="d pz-inner" height="100%" role="img" viewBox="0 0 680 304" width="100%">
+<defs><marker id="f11-a-uru" markerHeight="5" markerWidth="5" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-uru" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f11-a-ink" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<text class="tbig tb tm" x="158" y="30">n+1 — 나무</text>
+<text class="ts tm" x="158" y="62">+1 : 원리 · 맥락 · 중심</text>
+<line class="s-uru" marker-end="url(#f11-a-uru)" x1="149.4" x2="44.1" y1="96.4" y2="200"></line>
+<line class="s-uru" marker-end="url(#f11-a-uru)" x1="151.7" x2="90.4" y1="98.2" y2="198.7"></line>
+<line class="s-uru" marker-end="url(#f11-a-uru)" x1="155.6" x2="135.7" y1="99.8" y2="197.7"></line>
+<line class="s-uru" marker-end="url(#f11-a-uru)" x1="160.4" x2="180.3" y1="99.8" y2="197.7"></line>
+<line class="s-uru" marker-end="url(#f11-a-uru)" x1="164.3" x2="225.6" y1="98.2" y2="198.7"></line>
+<line class="s-uru" marker-end="url(#f11-a-uru)" x1="166.6" x2="271.9" y1="96.4" y2="200"></line>
+<rect class="f-panel" height="15" width="12" x="95.6" y="134.5"></rect>
+<text class="tl tm c-uru" x="101.6" y="146.5">1</text>
+<rect class="f-panel" height="15" width="12" x="118.2" y="134.5"></rect>
+<text class="tl tm c-uru" x="124.2" y="146.5">2</text>
+<rect class="f-panel" height="15" width="12" x="140.7" y="134.5"></rect>
+<text class="tl tm c-uru" x="146.7" y="146.5">3</text>
+<rect class="f-panel" height="15" width="12" x="163.3" y="134.5"></rect>
+<text class="tl tm c-uru" x="169.3" y="146.5">4</text>
+<rect class="f-panel" height="15" width="12" x="185.8" y="134.5"></rect>
+<text class="tl tm c-uru" x="191.8" y="146.5">5</text>
+<rect class="f-panel" height="15" width="12" x="208.4" y="134.5"></rect>
+<text class="tl tm c-uru" x="214.4" y="146.5">6</text>
+<circle class="f-ink" cx="158" cy="88" r="10"></circle>
+<circle class="f-ink" cx="38" cy="206" r="6"></circle>
+<text class="ts tm" x="38" y="230">a</text>
+<circle class="f-ink" cx="86" cy="206" r="6"></circle>
+<text class="ts tm" x="86" y="230">b</text>
+<circle class="f-ink" cx="134" cy="206" r="6"></circle>
+<text class="ts tm" x="134" y="230">c</text>
+<circle class="f-ink" cx="182" cy="206" r="6"></circle>
+<text class="ts tm" x="182" y="230">d</text>
+<circle class="f-ink" cx="230" cy="206" r="6"></circle>
+<text class="ts tm" x="230" y="230">e</text>
+<circle class="f-ink" cx="278" cy="206" r="6"></circle>
+<text class="ts tm" x="278" y="230">f</text>
+<text class="ts tm" x="158" y="268">각 항의 자리 = 중심에서 몇 번째인가</text>
+<text class="tl tm c-uru" x="158" y="290">출계 — 하나에서 갈라져 내려온다</text>
+<text class="ts tb tm" x="340" y="160">하나를 빼라</text>
+<line class="s-ink" marker-end="url(#f11-a-ink)" x1="312" x2="367" y1="172" y2="172"></line>
+<text class="tbig tb tm" x="522" y="30">n−1 — 리좀</text>
+<text class="ts tm" x="522" y="62">−1 : 빼낸 하나 (보충 차원 없음)</text>
+<circle class="s-dim dash" cx="522" cy="88" r="12"></circle>
+<path class="s-ink w2" d="M516,82 L528,94 M528,82 L516,94"></path>
+<line class="s-jag round" x1="420" x2="496" y1="162" y2="132"></line>
+<line class="s-jag round" x1="496" x2="620" y1="132" y2="150"></line>
+<line class="s-jag round" x1="420" x2="452" y1="162" y2="232"></line>
+<line class="s-jag round" x1="452" x2="592" y1="232" y2="228"></line>
+<line class="s-jag round" x1="620" x2="592" y1="150" y2="228"></line>
+<line class="s-jag round" x1="592" x2="548" y1="228" y2="182"></line>
+<line class="s-jag round" x1="496" x2="548" y1="132" y2="182"></line>
+<line class="s-jag round" x1="620" x2="548" y1="150" y2="182"></line>
+<circle class="f-ink" cx="420" cy="162" r="6"></circle>
+<text class="ts te" x="406" y="167">a</text>
+<circle class="f-ink" cx="496" cy="132" r="6"></circle>
+<text class="ts tm" x="496" y="118">b</text>
+<circle class="f-ink" cx="620" cy="150" r="6"></circle>
+<text class="ts" x="634" y="155">c</text>
+<circle class="f-ink" cx="452" cy="232" r="6"></circle>
+<text class="ts te" x="438" y="249">d</text>
+<circle class="f-ink" cx="592" cy="228" r="6"></circle>
+<text class="ts" x="606" y="245">e</text>
+<circle class="f-ink" cx="548" cy="182" r="6"></circle>
+<text class="ts te" x="536" y="202">f</text>
+<text class="ts tm" x="522" y="268">각 항의 자리 = 이웃과의 관계</text>
+<text class="tl tm c-jag" x="522" y="290">결연 — 옆으로 잇는다</text>
+</svg></g></g></g></g></svg>

@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 416" width="720" height="416" class="pz-root"><style>:root{
+  --pad:1.15rem; --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + var(--pad)*2);
+  
+  --bg:#ECE4D3; --panel:#F6F0E2; --ink:#1F1A15; --dim:#6E6252; --rule:#CDBFA5;
+  
+  --uru:#B0391C;   
+  --jen:#1F3A5F;   
+  --jag:#9A6A0B;   
+  --mod:#56655F;   
+  --uru-t:#EDCDBE; --jen-t:#C9D3E0; --jag-t:#EDDBB0; --mod-t:#CFD6D1;
+  --disp:"Gasoek One","Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  --mono:"Sometype Mono","IBM Plex Mono",ui-monospace,"DejaVu Sans Mono",monospace;
+}@media (min-width:34em){:root{ --pad:1.6rem }}@media (min-width:52em){:root{ --pad:2rem }}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#14110D; --panel:#1D1914; --ink:#ECE4D4; --dim:#A0937F; --rule:#3C352B;
+  --uru:#E2754F; --jen:#7FA5D6; --jag:#D9A53C; --mod:#97A8A0;
+  --uru-t:#46231A; --jen-t:#1C2A3E; --jag-t:#3F3115; --mod-t:#283230;
+  color-scheme:dark }.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.25rem;
+  padding-left:max(16px, var(--pad), env(safe-area-inset-left,0px));
+  padding-right:max(16px, var(--pad), env(safe-area-inset-right,0px));
+  padding-block:0 4rem}.lecture{display:contents}svg.d.hero{min-width:0}figure.dia{margin:.6rem 0;display:grid;gap:.55rem}.frame{overflow-x:auto;border:1px solid var(--rule);background-color:var(--panel);padding:.9rem .6rem;
+  background-image:linear-gradient(90deg,var(--panel),transparent 14px),linear-gradient(-90deg,var(--panel),transparent 14px),
+    linear-gradient(90deg,rgba(0,0,0,.16),transparent 12px),linear-gradient(-90deg,rgba(0,0,0,.16),transparent 12px);
+  background-repeat:no-repeat;background-size:28px 100%,28px 100%,12px 100%,12px 100%;
+  background-position:0 0,100% 0,0 0,100% 0;background-attachment:local,local,scroll,scroll}svg.d{display:block;width:100%;height:auto;min-width:520px;font-family:var(--body);overflow:visible}.frame.narrow svg.d{min-width:0;max-width:30rem;margin-inline:auto}svg.d text{fill:var(--ink);font-size:15px}svg.d .tl{font-family:var(--mono);font-size:12px;fill:var(--dim);letter-spacing:.04em}svg.d .ts{font-size:13px}svg.d .tbig{font-size:19px}svg.d .tb{font-weight:700}svg.d .tm{text-anchor:middle}svg.d .te{text-anchor:end}svg.d .c-uru{fill:var(--uru)}svg.d .c-mod{fill:var(--mod)}svg.d .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}svg.d .s-uru{fill:none;stroke:var(--uru);stroke-width:1.8}svg.d .s-mod{fill:none;stroke:var(--mod);stroke-width:1.8}svg.d .s-dim{fill:none;stroke:var(--dim);stroke-width:1.2}svg.d .w1{stroke-width:1}svg.d .w2{stroke-width:2.6}svg.d .dash{stroke-dasharray:6 5}svg.d .f-uru{fill:var(--uru)}svg.d .f-ink{fill:var(--ink)}svg.d .f-dim{fill:var(--dim)}svg.d .f-bg{fill:var(--bg)}svg.pz-root{width:720px!important;height:416px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w dia"><g class="pz-w frame"><svg xmlns="http://www.w3.org/2000/svg" aria-label="구리 막대 1 m의 두 상태. 양 끝을 100°C와 0°C에 붙잡아 둔 막대는 끊긴 데 없이 이어지면서도 1 cm마다 1°C씩 달라, 그 차이를 따라 4 W의 열이 흐르고 엔트로피가 쉬지 않고 생긴다. 떼어 놓고 기다린 막대는 어디나 50°C라 아무것도 흐르지 않는다. 둘 다 연속이지만 앞의 것은 미분적 연속, 뒤의 것만 미분화된 연속이고, 뒤의 것으로 세계를 보면 차이는 언어가 칼금을 그어야만 생긴다." class="d pz-inner" height="100%" role="img" viewBox="0 0 720 416" width="100%">
+<defs><marker id="f10b-a-ink" markerHeight="12" markerUnits="userSpaceOnUse" markerWidth="12" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f10b-a-uru" markerHeight="10" markerUnits="userSpaceOnUse" markerWidth="10" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-uru" d="M0,0 L10,5 L0,10 z"></path></marker><marker id="f10b-a-dim" markerHeight="10" markerUnits="userSpaceOnUse" markerWidth="10" orient="auto-start-reverse" refX="9" refY="5" viewBox="0 0 10 10"><path class="f-dim" d="M0,0 L10,5 L0,10 z"></path></marker></defs>
+<text class="tl" x="112" y="22">구리 막대 1 m · 단면 1 cm² · k ≈ 400 W/(m·K) · 눈금 10 cm</text>
+<text class="tbig tb" x="16" y="52">①</text>
+<text class="ts tm" x="262" y="50"><tspan class="tb">열흐름 4 W</tspan><tspan class="tl"> · 1 cm마다 1°C 차이</tspan></text>
+<line class="s-ink w2" marker-end="url(#f10b-a-ink)" x1="162" x2="362" y1="64" y2="64"></line>
+<text class="ts c-uru tb" x="112" y="80">100°C</text>
+<text class="ts te" x="412" y="80">0°C</text>
+<rect class="f-uru" fill-opacity="0.0645" height="32" width="300" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0095" height="32" width="297" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0096" height="32" width="294" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0097" height="32" width="291" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0098" height="32" width="288" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0099" height="32" width="285" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0100" height="32" width="282" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0101" height="32" width="279" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0102" height="32" width="276" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0103" height="32" width="273" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0104" height="32" width="270" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0105" height="32" width="267" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0106" height="32" width="264" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0107" height="32" width="261" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0109" height="32" width="258" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0110" height="32" width="255" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0111" height="32" width="252" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0112" height="32" width="249" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0113" height="32" width="246" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0115" height="32" width="243" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0116" height="32" width="240" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0117" height="32" width="237" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0119" height="32" width="234" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0120" height="32" width="231" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0122" height="32" width="228" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0123" height="32" width="225" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0125" height="32" width="222" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0126" height="32" width="219" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0128" height="32" width="216" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0130" height="32" width="213" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0131" height="32" width="210" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0133" height="32" width="207" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0135" height="32" width="204" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0137" height="32" width="201" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0139" height="32" width="198" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0141" height="32" width="195" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0143" height="32" width="192" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0145" height="32" width="189" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0147" height="32" width="186" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0149" height="32" width="183" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0151" height="32" width="180" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0154" height="32" width="177" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0156" height="32" width="174" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0158" height="32" width="171" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0161" height="32" width="168" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0164" height="32" width="165" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0166" height="32" width="162" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0169" height="32" width="159" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0172" height="32" width="156" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0175" height="32" width="153" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0178" height="32" width="150" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0181" height="32" width="147" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0185" height="32" width="144" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0188" height="32" width="141" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0192" height="32" width="138" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0196" height="32" width="135" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0200" height="32" width="132" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0204" height="32" width="129" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0208" height="32" width="126" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0212" height="32" width="123" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0217" height="32" width="120" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0222" height="32" width="117" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0227" height="32" width="114" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0232" height="32" width="111" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0237" height="32" width="108" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0243" height="32" width="105" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0249" height="32" width="102" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0256" height="32" width="99" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0262" height="32" width="96" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0269" height="32" width="93" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0277" height="32" width="90" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0285" height="32" width="87" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0293" height="32" width="84" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0302" height="32" width="81" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0311" height="32" width="78" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0321" height="32" width="75" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0332" height="32" width="72" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0343" height="32" width="69" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0356" height="32" width="66" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0369" height="32" width="63" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0383" height="32" width="60" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0398" height="32" width="57" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0415" height="32" width="54" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0433" height="32" width="51" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0452" height="32" width="48" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0474" height="32" width="45" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0497" height="32" width="42" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0523" height="32" width="39" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0552" height="32" width="36" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0584" height="32" width="33" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0620" height="32" width="30" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0661" height="32" width="27" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0708" height="32" width="24" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0762" height="32" width="21" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0825" height="32" width="18" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0899" height="32" width="15" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.0988" height="32" width="12" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.1097" height="32" width="9" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.1232" height="32" width="6" x="112" y="88"></rect>
+<rect class="f-uru" fill-opacity="0.1405" height="32" width="3" x="112" y="88"></rect>
+<rect class="s-ink w1" height="32" width="300" x="112" y="88"></rect>
+<line class="s-dim w1" x1="112" x2="112" y1="120" y2="126"></line>
+<text class="tl tm" x="112" y="140">100</text>
+<line class="s-dim w1" x1="142" x2="142" y1="120" y2="126"></line>
+<text class="tl tm" x="142" y="140">90</text>
+<line class="s-dim w1" x1="172" x2="172" y1="120" y2="126"></line>
+<text class="tl tm" x="172" y="140">80</text>
+<line class="s-dim w1" x1="202" x2="202" y1="120" y2="126"></line>
+<text class="tl tm" x="202" y="140">70</text>
+<line class="s-dim w1" x1="232" x2="232" y1="120" y2="126"></line>
+<text class="tl tm" x="232" y="140">60</text>
+<line class="s-dim w1" x1="262" x2="262" y1="120" y2="126"></line>
+<text class="tl tm" x="262" y="140">50</text>
+<line class="s-dim w1" x1="292" x2="292" y1="120" y2="126"></line>
+<text class="tl tm" x="292" y="140">40</text>
+<line class="s-dim w1" x1="322" x2="322" y1="120" y2="126"></line>
+<text class="tl tm" x="322" y="140">30</text>
+<line class="s-dim w1" x1="352" x2="352" y1="120" y2="126"></line>
+<text class="tl tm" x="352" y="140">20</text>
+<line class="s-dim w1" x1="382" x2="382" y1="120" y2="126"></line>
+<text class="tl tm" x="382" y="140">10</text>
+<line class="s-dim w1" x1="412" x2="412" y1="120" y2="126"></line>
+<text class="tl tm" x="412" y="140">0</text>
+<rect class="f-uru" fill-opacity="0.950" height="48" width="56" x="16" y="80"></rect>
+<rect class="s-ink w1" height="48" width="56" x="16" y="80"></rect>
+<text class="ts tm f-bg" x="44" y="101">뜨거운</text>
+<text class="ts tm f-bg" x="44" y="118">저장고</text>
+<rect class="f-uru" fill-opacity="0.060" height="48" width="56" x="452" y="80"></rect>
+<rect class="s-ink w1" height="48" width="56" x="452" y="80"></rect>
+<text class="ts tm" x="480" y="101">찬</text>
+<text class="ts tm" x="480" y="118">저장고</text>
+<line class="s-uru w2" marker-end="url(#f10b-a-uru)" x1="72" x2="111" y1="104" y2="104"></line>
+<line class="s-uru w2" marker-end="url(#f10b-a-uru)" x1="412" x2="451" y1="104" y2="104"></line>
+<text class="ts tm tb" x="262" y="176">열린 계 · 평형에서 먼 메타체계</text>
+<text class="tl tm" x="262" y="194">엔트로피 생산 ≈ 0.0039 W/K, 쉬지 않고</text>
+<text class="ts tb" x="528" y="94">연속 · 자리마다 차이</text>
+<text class="tl" x="528" y="112">미분적 연속</text>
+<text class="ts c-uru" x="528" y="132">차이는 세계 자신의 것</text>
+<line class="s-ink w2 dash" marker-end="url(#f10b-a-ink)" x1="262" x2="262" y1="208" y2="266"></line>
+<text class="ts tb" x="276" y="232">떼어 놓고 기다림</text>
+<text class="tl" x="276" y="250">= 엔트로폴로지가 지켜보던 길</text>
+<text class="tbig tb" x="16" y="286">②</text>
+<text class="ts tm" x="262" y="284"><tspan class="tb">흐름 0 W</tspan><tspan class="tl"> · 엔트로피 생산 0</tspan></text>
+<line class="s-dim" x1="162" x2="250" y1="298" y2="298"></line>
+<line class="s-dim" marker-end="url(#f10b-a-dim)" x1="274" x2="362" y1="298" y2="298"></line>
+<path class="s-ink w2" d="M256,292 L268,304 M268,292 L256,304"></path>
+<text class="ts" x="112" y="314">50°C</text>
+<text class="ts te" x="412" y="314">50°C</text>
+<rect class="f-uru" fill-opacity="0.505" height="32" width="300" x="112" y="322"></rect>
+<rect class="s-ink w1" height="32" width="300" x="112" y="322"></rect>
+<line class="s-dim w1" x1="112" x2="112" y1="354" y2="360"></line>
+<text class="tl tm" x="112" y="374">50</text>
+<line class="s-dim w1" x1="142" x2="142" y1="354" y2="360"></line>
+<text class="tl tm" x="142" y="374">50</text>
+<line class="s-dim w1" x1="172" x2="172" y1="354" y2="360"></line>
+<text class="tl tm" x="172" y="374">50</text>
+<line class="s-dim w1" x1="202" x2="202" y1="354" y2="360"></line>
+<text class="tl tm" x="202" y="374">50</text>
+<line class="s-dim w1" x1="232" x2="232" y1="354" y2="360"></line>
+<text class="tl tm" x="232" y="374">50</text>
+<line class="s-dim w1" x1="262" x2="262" y1="354" y2="360"></line>
+<text class="tl tm" x="262" y="374">50</text>
+<line class="s-dim w1" x1="292" x2="292" y1="354" y2="360"></line>
+<text class="tl tm" x="292" y="374">50</text>
+<line class="s-dim w1" x1="322" x2="322" y1="354" y2="360"></line>
+<text class="tl tm" x="322" y="374">50</text>
+<line class="s-dim w1" x1="352" x2="352" y1="354" y2="360"></line>
+<text class="tl tm" x="352" y="374">50</text>
+<line class="s-dim w1" x1="382" x2="382" y1="354" y2="360"></line>
+<text class="tl tm" x="382" y="374">50</text>
+<line class="s-dim w1" x1="412" x2="412" y1="354" y2="360"></line>
+<text class="tl tm" x="412" y="374">50</text>
+<line class="s-mod w2" x1="154" x2="154" y1="318" y2="358"></line>
+<line class="s-mod w2" x1="193" x2="193" y1="318" y2="358"></line>
+<line class="s-mod w2" x1="220" x2="220" y1="318" y2="358"></line>
+<line class="s-mod w2" x1="271" x2="271" y1="318" y2="358"></line>
+<line class="s-mod w2" x1="313" x2="313" y1="318" y2="358"></line>
+<line class="s-mod w2" x1="364" x2="364" y1="318" y2="358"></line>
+<text class="ts tm c-mod" x="262" y="400">기표/기의의 칼금 — 몰적 불연속</text>
+<text class="ts tb" x="528" y="328">연속 · 차이 없음</text>
+<text class="tl" x="528" y="346">미분화된 연속</text>
+<text class="ts c-mod" x="528" y="366">차이는 언어가 칼금을</text>
+<text class="ts c-mod" x="528" y="384">그어야 생긴다</text>
+</svg></g></g></g></g></svg>

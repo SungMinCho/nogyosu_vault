@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 316" width="640" height="316" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-star{stroke:var(--star)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-star{fill:var(--star)}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-star{fill:var(--star)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}.fig svg .halo{paint-order:stroke;stroke:var(--bg);stroke-width:4px;stroke-linejoin:round}svg.pz-root{width:640px!important;height:316px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="현상 쪽에서도 누메논 쪽에서도 우리는 기계다 — 자유는 둘 사이의 틈에만 있다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 316" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="ah-202" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-202s" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-star" d="M0 0L10 5L0 10Z"></path></marker>
+</defs>
+<text class="t-lab c-mute a-end" x="300" y="30">칸트가 자유를 둔 곳</text>
+<path class="s-mute" d="M308 25H470Q494 25 494 54" marker-end="url(#ah-202)"></path>
+<rect class="s-mute w-thin" height="200" width="252" x="20" y="64"></rect>
+<text class="t-lab a-mid" x="146" y="88">현상 — 인과의 톱니</text>
+<path class="s-ink" d="M83.6 175.1L85.1 173.1L92.5 175.9L94.4 171.9L87.5 167.9L88.1 165.5L88.4 163.1L96.2 161.8L95.8 157.3L87.9 157.4L87.2 155.0L86.2 152.8L92.3 147.7L89.8 144.1L82.9 148.1L81.1 146.4L79.1 144.9L81.9 137.5L77.9 135.6L73.9 142.5L71.5 141.9L69.1 141.6L67.8 133.8L63.3 134.2L63.4 142.1L61.0 142.8L58.8 143.8L53.7 137.7L50.1 140.2L54.1 147.1L52.4 148.9L50.9 150.9L43.5 148.1L41.6 152.1L48.5 156.1L47.9 158.5L47.6 160.9L39.8 162.2L40.2 166.7L48.1 166.6L48.8 169.0L49.8 171.2L43.7 176.3L46.2 179.9L53.1 175.9L54.9 177.6L56.9 179.1L54.1 186.5L58.1 188.4L62.1 181.5L64.5 182.1L66.9 182.4L68.2 190.2L72.7 189.8L72.6 181.9L75.0 181.2L77.2 180.2L82.3 186.3L85.9 183.8L81.9 176.9Z"></path>
+<path class="s-ink" d="M100.0 166.7L98.0 167.8L92.1 162.5L88.8 165.8L94.2 171.7L93.0 173.7L92.2 175.8L84.3 175.5L83.9 180.1L91.7 181.2L92.2 183.5L92.9 185.7L86.6 190.5L89.3 194.3L96.0 190.1L97.8 191.5L99.8 192.7L98.1 200.5L102.6 201.7L105.0 194.1L107.3 194.1L109.6 193.7L113.3 200.7L117.5 198.8L114.5 191.4L116.2 189.9L117.7 188.2L125.1 191.2L127.1 187.0L120.0 183.3L120.4 181.0L120.4 178.7L128.0 176.3L126.8 171.8L119.0 173.5L117.9 171.5L116.4 169.7L120.6 163.0L116.8 160.3L112.0 166.6L109.8 165.8L107.5 165.4L106.5 157.6L101.8 158.0L102.1 165.9Z"></path>
+<path class="s-ink" d="M123.7 162.9L124.0 165.3L116.7 168.3L118.0 172.6L125.7 170.8L126.9 173.0L128.4 174.9L123.5 181.2L126.8 184.2L132.6 178.8L134.7 180.1L137.0 181.1L135.9 189.0L140.2 189.9L142.6 182.3L145.0 182.4L147.5 182.1L150.5 189.5L154.7 188.1L152.9 180.4L155.1 179.2L157.1 177.8L163.4 182.6L166.4 179.4L161.0 173.5L162.2 171.4L163.2 169.2L171.1 170.2L172.1 165.9L164.5 163.6L164.5 161.1L164.3 158.7L171.6 155.7L170.3 151.4L162.5 153.2L161.3 151.0L159.9 149.1L164.8 142.8L161.5 139.8L155.7 145.2L153.5 143.9L151.3 142.9L152.4 135.0L148.1 134.1L145.7 141.7L143.2 141.6L140.8 141.9L137.8 134.5L133.6 135.9L135.3 143.6L133.2 144.8L131.2 146.2L124.9 141.4L121.9 144.6L127.3 150.5L126.0 152.6L125.0 154.8L117.2 153.8L116.2 158.1L123.8 160.4Z"></path>
+<path class="s-ink" d="M180.1 165.5L177.9 166.0L173.8 159.2L169.7 161.4L173.1 168.6L171.4 170.2L170.0 172.0L162.5 169.4L160.8 173.8L168.1 177.0L167.8 179.3L167.9 181.6L160.5 184.5L162.0 188.9L169.6 186.8L170.9 188.7L172.5 190.4L168.6 197.3L172.6 199.8L177.1 193.2L179.3 193.9L181.6 194.1L183.1 201.9L187.7 201.3L186.9 193.4L189.0 192.4L191.0 191.2L197.1 196.2L200.2 192.7L194.6 187.1L195.6 185.1L196.3 182.9L204.2 182.7L204.3 178.1L196.4 177.5L195.9 175.2L195.0 173.1L201.0 167.9L198.1 164.2L191.6 168.9L189.8 167.5L187.7 166.4L188.9 158.6L184.4 157.7L182.4 165.4Z"></path>
+<path class="s-ink" d="M200.6 156.7L200.1 159.1L192.1 159.8L192.1 164.2L200.1 164.9L200.6 167.3L201.3 169.6L194.8 174.1L197.0 178.0L204.2 174.6L205.8 176.4L207.7 178.1L204.3 185.2L208.1 187.5L212.7 180.9L215.0 181.7L217.4 182.2L218.0 190.1L222.5 190.1L223.1 182.2L225.5 181.7L227.9 180.9L232.4 187.5L236.2 185.2L232.8 178.1L234.7 176.4L236.3 174.6L243.5 178.0L245.7 174.1L239.2 169.6L240.0 167.3L240.5 164.9L248.4 164.2L248.4 159.8L240.5 159.1L240.0 156.7L239.2 154.4L245.7 149.9L243.5 146.0L236.3 149.4L234.7 147.6L232.8 145.9L236.2 138.8L232.4 136.5L227.9 143.1L225.5 142.3L223.1 141.8L222.5 133.9L218.0 133.9L217.4 141.8L215.0 142.3L212.7 143.1L208.1 136.5L204.3 138.8L207.7 145.9L205.8 147.6L204.2 149.4L197.0 146.0L194.8 149.9L201.3 154.4Z"></path>
+<g class="f-ink">
+<circle cx="68" cy="162" r="3"></circle><circle cx="106.1" cy="179.7" r="3"></circle><circle cx="144.1" cy="162" r="3"></circle><circle cx="182.2" cy="179.7" r="3"></circle><circle cx="220.3" cy="162" r="3"></circle>
+</g>
+<line class="s-mute w-thin" marker-end="url(#ah-202)" x1="96" x2="198" y1="120" y2="120"></line>
+<text class="t-lab a-end" x="88" y="124">원인</text>
+<text class="t-lab" x="206" y="124">결과</text>
+<text class="t-small a-mid" x="146" y="226">빈틈없이 맞물린 사슬</text>
+<text class="t-lab a-mid" x="146" y="250">우리는 기계다</text>
+<path class="s-gap w-thin" d="M281 71L287 65M281 83L299 65M281 95L311 65M281 107L323 65M281 119L335 65M281 131L347 65M281 143L359 65M281 155L359 77M281 167L359 89M281 179L359 101M281 191L359 113M281 203L359 125M281 215L359 137M281 227L359 149M281 239L359 161M281 251L359 173M281 263L359 185M293 263L359 197M305 263L359 209M317 263L359 221M329 263L359 233M341 263L359 245M353 263L359 257"></path>
+<text class="t-lab c-gap a-mid halo" x="320" y="160">자발성</text>
+<text class="t-lab c-gap a-mid halo" x="320" y="180">자유</text>
+<rect class="s-mute w-thin" height="200" width="252" x="368" y="64"></rect>
+<text class="t-lab a-mid" x="494" y="88">누메논을 다 안다면</text>
+<text class="t-small a-mid" x="494" y="106">신과 영원이 늘 눈앞에</text>
+<line class="s-ink w-bold" x1="446" x2="546" y1="128" y2="128"></line>
+<line class="s-ink w-bold" x1="496" x2="496" y1="120" y2="136"></line>
+<text class="t-lab a-end" x="438" y="133">공포·희망</text>
+<g class="s-mute w-thin">
+<line x1="450" x2="450" y1="128" y2="188"></line><line x1="474" x2="474" y1="128" y2="168"></line>
+<line x1="498" x2="498" y1="128" y2="194"></line><line x1="522" x2="522" y1="128" y2="170"></line>
+<line x1="546" x2="546" y1="128" y2="192"></line>
+</g>
+<path class="s-ink" d="M450 188L474 168L498 194L522 170L546 192"></path>
+<g class="f-ink">
+<circle cx="450" cy="188" r="3.2"></circle><circle cx="474" cy="168" r="3.2"></circle><circle cx="498" cy="194" r="3.2"></circle><circle cx="522" cy="170" r="3.2"></circle><circle cx="546" cy="192" r="3.2"></circle>
+</g>
+<text class="t-small a-mid" x="494" y="226">몸짓만 있고 생명은 없는 인형극</text>
+<text class="t-lab" x="380" y="252">다시 기계다</text>
+<path class="s-mute w-thin" d="M502 236H612V260H502L494 248Z"></path>
+<circle class="f-mute" cx="502" cy="248" r="2"></circle>
+<text class="t-lab a-mid c-mute" x="558" y="253">공리주의적 주체</text>
+<path class="s-star" d="M420 296H350Q320 296 320 272" marker-end="url(#ah-202s)"></path>
+<text class="t-lab c-star" x="428" y="301">지젝·헤겔이 두는 곳</text>
+</svg></g></g></g></g></svg>

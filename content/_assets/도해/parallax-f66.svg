@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 300" width="640" height="300" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-moon{stroke:var(--moon)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-moon{fill:var(--moon)}.f-moon-soft{fill:var(--moon);fill-opacity:.14}.f-gap-soft{fill:var(--gap);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-big{font-size:17px;font-weight:600}.fig svg .t-it{font-family:"Literata",Georgia,serif;font-style:italic}.fig svg .c-moon{fill:var(--moon)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .halo{paint-order:stroke;stroke:var(--bg);stroke-width:4px;stroke-linejoin:round}svg.pz-root{width:640px!important;height:300px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="오늘 상징과 실재는 이미 떨어져 있지만 그것은 거짓 분리이고, 참으로 떼어 내야 할 것은 주인기표 자리에 들어앉은 대상 a다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 300" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-1302" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1302n" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-moon" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<line class="s-mute w-thin dot" x1="212" x2="212" y1="18" y2="284"></line>
+<line class="s-mute w-thin dot" x1="428" x2="428" y1="18" y2="284"></line>
+<text class="t-lab a-mid" x="106" y="28">① 아감벤의 처방</text>
+<text class="t-lab a-mid" x="320" y="28">② 이미 와 있는 분리</text>
+<text class="t-lab a-mid" x="534" y="28">③ 참으로 떼어 낼 것</text>
+<path class="s-moon w-bold" d="M101.9 161.5L99.7 162.6L97.4 163.6L95 164.4L92.6 165L90.2 165.5L87.7 165.8L85.2 166L82.8 166L80.3 165.8L77.8 165.5L75.4 165L73 164.4L70.6 163.6L68.3 162.6L66.1 161.5L63.9 160.3L61.8 158.9L59.9 157.3L58 155.7L56.2 153.9L54.6 152.1L53.1 150.1L51.7 148L50.5 145.9L49.4 143.6L48.4 141.3L47.6 139L47 136.6L46.5 134.1L46.2 131.6L46 129.2L46 126.7L46.2 124.2L46.5 121.7L47 119.3L47.7 116.9L48.5 114.5L49.4 112.2L50.5 110L51.8 107.8L53.2 105.8L54.7 103.8L56.4 101.9L58.1 100.2L60 98.5L62 97L64.1 95.7L66.2 94.4L68.5 93.3L70.8 92.4L73.1 91.6L75.5 91L78 90.5L80.4 90.2L82.9 90L85.4 90L87.9 90.2L90.4 90.5L92.8 91L95.2 91.7L97.6 92.5L99.9 93.5L102.1 94.6L104.2 95.8L106.3 97.2L108.3 98.8L110.1 100.4L111.9 102.2L113.5 104.1L115 106.1L116.4 108.1L117.6 110.3L118.7 112.5L119.6 114.8L120.4 117.2L121.1 119.6L121.5 122.1L121.8 124.5L122 127L122 129.5L121.8 132L121.4 134.5L120.9 136.9L120.3 139.3L119.5 141.7L118.5 143.9L117.4 146.2L116.1 148.3L114.7 150.4L113.2 152.3"></path>
+<path class="s-ink w-bold" d="M114.1 94.5L116.3 93.4L118.6 92.4L121 91.6L123.4 91L125.8 90.5L128.3 90.2L130.8 90L133.2 90L135.7 90.2L138.2 90.5L140.6 91L143 91.6L145.4 92.4L147.7 93.4L149.9 94.5L152.1 95.7L154.2 97.1L156.1 98.7L158 100.3L159.8 102.1L161.4 103.9L162.9 105.9L164.3 108L165.5 110.1L166.6 112.4L167.6 114.7L168.4 117L169 119.4L169.5 121.9L169.8 124.4L170 126.8L170 129.3L169.8 131.8L169.5 134.3L169 136.7L168.3 139.1L167.5 141.5L166.6 143.8L165.5 146L164.2 148.2L162.8 150.2L161.3 152.2L159.6 154.1L157.9 155.8L156 157.5L154 159L151.9 160.3L149.8 161.6L147.5 162.7L145.2 163.6L142.9 164.4L140.5 165L138 165.5L135.6 165.8L133.1 166L130.6 166L128.1 165.8L125.6 165.5L123.2 165L120.8 164.3L118.4 163.5L116.1 162.5L113.9 161.4L111.8 160.2L109.7 158.8L107.7 157.2L105.9 155.6L104.1 153.8L102.5 151.9L101 149.9L99.6 147.9L98.4 145.7L97.3 143.5L96.4 141.2L95.6 138.8L94.9 136.4L94.5 133.9L94.2 131.5L94 129L94 126.5L94.2 124L94.6 121.5L95.1 119.1L95.7 116.7L96.5 114.3L97.5 112.1L98.6 109.8L99.9 107.7L101.3 105.6L102.8 103.7"></path>
+<text class="t-lab a-mid c-moon" x="70" y="133">법</text>
+<text class="t-lab a-mid" x="148" y="133">폭력</text>
+<text class="t-lab a-mid c-mute" x="106" y="76">서로 떠받치는 매듭</text>
+<line class="s-ink" x1="134" x2="121" y1="190" y2="163"></line>
+<line class="s-ink" x1="134" x2="145.3" y1="190" y2="196.4"></line>
+<circle class="s-ink" cx="150.6" cy="199.3" r="6"></circle>
+<line class="s-ink" x1="134" x2="110.5" y1="190" y2="171.4"></line>
+<line class="s-ink" x1="134" x2="137.7" y1="190" y2="202.5"></line>
+<circle class="s-ink" cx="139.4" cy="208.2" r="6"></circle>
+<circle class="f-ink" cx="134" cy="190" r="1.8"></circle>
+<text class="t-lab a-mid" x="106" y="250">법과 폭력을 떼자</text>
+<text class="t-lab a-mid c-mute" x="106" y="268">매듭을 끊는 분리</text>
+<circle class="s-moon" cx="276" cy="132" r="46"></circle>
+<circle class="s-moon w-thin dash" cx="276" cy="132" r="40"></circle>
+<text class="t-lab a-mid c-moon" x="276" y="128">해석</text>
+<text class="t-lab a-mid c-mute" x="276" y="146">(무력)</text>
+<circle class="f-ink" cx="392" cy="132" r="7"></circle>
+<line class="s-ink dot" x1="350" x2="350" y1="64" y2="206"></line>
+<text class="t-lab a-mid" x="350" y="56">거짓 분리</text>
+<line class="s-ink w-bold" marker-end="url(#ah-1302)" x1="324" x2="381" y1="132" y2="132"></line>
+<text class="t-lab a-mid halo" x="350" y="118">생성한다</text>
+<text class="t-lab a-mid" x="276" y="198">전 지구화된 해석</text>
+<text class="t-lab a-mid" x="392" y="164">날것의</text>
+<text class="t-lab a-mid" x="392" y="182">폭력</text>
+<text class="t-lab a-mid" x="320" y="250">상징 ┆ 실재는 이미 떨어짐</text>
+<text class="t-lab a-mid c-mute" x="320" y="268">해방이 아니라 증상으로</text>
+<rect class="s-mute w-thin" height="92" width="128" x="470" y="86"></rect>
+<text class="t-lab a-mid c-mute" x="534" y="198">주인기표 자리</text>
+<circle class="s-moon" cx="518" cy="134" r="30"></circle>
+<circle class="f-moon-soft" cx="552" cy="134" r="30"></circle>
+<path class="f-gap-soft s-gap" d="M535 109.3L536.9 110.7L538.8 112.3L540.4 114.1L542 116L543.3 117.9L544.6 120L545.6 122.2L546.5 124.5L547.1 126.8L547.6 129.2L547.9 131.6L548 134L547.9 136.4L547.6 138.8L547.1 141.2L546.5 143.5L545.6 145.8L544.6 148L543.3 150.1L542 152L540.4 153.9L538.8 155.7L536.9 157.3L535 158.7L535 158.7L533.1 157.3L531.2 155.7L529.6 153.9L528 152L526.7 150.1L525.4 148L524.4 145.8L523.5 143.5L522.9 141.2L522.4 138.8L522.1 136.4L522 134L522.1 131.6L522.4 129.2L522.9 126.8L523.5 124.5L524.4 122.2L525.4 120L526.7 117.9L528 116L529.6 114.1L531.2 112.3L533.1 110.7L535 109.3Z"></path>
+<text class="t-big t-it a-mid" x="500" y="140">S1</text>
+<text class="t-big t-it a-mid c-moon" x="572" y="140">a</text>
+<path class="f-ink" d="M526 60L544 60L535 118Z"></path>
+<text class="t-lab a-mid" x="535" y="50">분석적 분리</text>
+<text class="t-lab a-mid" x="534" y="228">a가 S1에 앉으면 '즐겨라'</text>
+<text class="t-lab a-mid" x="534" y="250">최면: I와 a의 겹침</text>
+<text class="t-lab a-mid c-mute" x="534" y="268">그 틈을 벌린다</text>
+</svg></g></g></g></g></svg>

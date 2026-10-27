@@ -2,7 +2,6 @@
 title: "H. L. A. 하트"
 type: "인물"
 aliases:
-  - "하트"
   - "H. L. A. Hart"
   - "Hart"
 원어: "H. L. A. Hart"

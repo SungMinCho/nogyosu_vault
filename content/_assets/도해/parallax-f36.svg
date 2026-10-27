@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 416" width="640" height="416" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-star{stroke:var(--star)}.s-sun{stroke:var(--sun)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-star{fill:var(--star)}.f-sun{fill:var(--sun)}.f-star-soft{fill:var(--star);fill-opacity:.14}.f-sun-soft{fill:var(--sun);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-star{fill:var(--star)}.fig svg .c-sun{fill:var(--sun)}.fig svg .c-gap{fill:var(--gap)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}.fig svg .halo{paint-order:stroke;stroke:var(--bg);stroke-width:4px;stroke-linejoin:round}svg.pz-root{width:640px!important;height:416px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="자아–이드 축에서 주체–진리 축으로 건너가는 것이 윤리의 출현이다 — 건너간 자리에 남는 것은 인격의 부가 아니라 진리가 지나가는 빈칸이고, 같은 이행이 인민·계급·충동에서 되풀이된다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 416" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="ah-702" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-702s" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-sun" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-702b" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-star" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-702m" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker>
+</defs>
+<text class="t-lab a-mid" x="160" y="26">자아–이드 축</text>
+<text class="t-lab a-mid c-star" x="480" y="26">주체–진리 축</text>
+<line class="s-mute dot" x1="320" x2="320" y1="40" y2="290"></line>
+<rect class="f-sun-soft" height="30" width="252" x="34" y="236"></rect>
+<path class="s-sun w-thin" d="M34.0 238.0L37.0 238.9L40.0 239.7L43.0 240.1L46.0 240.2L49.0 239.8L52.0 239.2L55.0 238.3L58.0 237.4L61.0 236.6L64.0 236.0L67.0 235.8L70.0 236.0L73.0 236.6L76.0 237.4L79.0 238.3L82.0 239.2L85.0 239.9L88.0 240.2L91.0 240.1L94.0 239.7L97.0 238.9L100.0 238.0L103.0 237.1L106.0 236.3L109.0 235.9L112.0 235.8L115.0 236.2L118.0 236.8L121.0 237.7L124.0 238.6L127.0 239.4L130.0 240.0L133.0 240.2L136.0 240.0L139.0 239.4L142.0 238.6L145.0 237.7L148.0 236.8L151.0 236.1L154.0 235.8L157.0 235.9L160.0 236.3L163.0 237.1L166.0 238.0L169.0 238.9L172.0 239.7L175.0 240.1L178.0 240.2L181.0 239.8L184.0 239.2L187.0 238.3L190.0 237.4L193.0 236.5L196.0 236.0L199.0 235.8L202.0 236.0L205.0 236.6L208.0 237.4L211.0 238.3L214.0 239.2L217.0 239.9L220.0 240.2L223.0 240.1L226.0 239.6L229.0 238.9L232.0 238.0L235.0 237.1L238.0 236.3L241.0 235.9L244.0 235.8L247.0 236.2L250.0 236.8L253.0 237.7L256.0 238.6L259.0 239.5L262.0 240.0L265.0 240.2L268.0 240.0L271.0 239.4L274.0 238.6L277.0 237.7L280.0 236.8L283.0 236.1L286.0 235.8"></path>
+<path class="s-sun w-thin" d="M34.0 250.2L37.0 249.9L40.0 249.2L43.0 248.3L46.0 247.4L49.0 246.6L52.0 246.0L55.0 245.8L58.0 246.0L61.0 246.5L64.0 247.4L67.0 248.3L70.0 249.2L73.0 249.8L76.0 250.2L79.0 250.1L82.0 249.7L85.0 248.9L88.0 248.0L91.0 247.1L94.0 246.4L97.0 245.9L100.0 245.8L103.0 246.1L106.0 246.8L109.0 247.7L112.0 248.6L115.0 249.4L118.0 250.0L121.0 250.2L124.0 250.0L127.0 249.5L130.0 248.6L133.0 247.7L136.0 246.8L139.0 246.2L142.0 245.8L145.0 245.9L148.0 246.3L151.0 247.1L154.0 248.0L157.0 248.9L160.0 249.7L163.0 250.1L166.0 250.2L169.0 249.9L172.0 249.2L175.0 248.3L178.0 247.4L181.0 246.6L184.0 246.0L187.0 245.8L190.0 246.0L193.0 246.6L196.0 247.4L199.0 248.3L202.0 249.2L205.0 249.8L208.0 250.2L211.0 250.1L214.0 249.7L217.0 248.9L220.0 248.0L223.0 247.1L226.0 246.3L229.0 245.9L232.0 245.8L235.0 246.1L238.0 246.8L241.0 247.7L244.0 248.6L247.0 249.4L250.0 250.0L253.0 250.2L256.0 250.0L259.0 249.4L262.0 248.6L265.0 247.7L268.0 246.8L271.0 246.1L274.0 245.8L277.0 245.9L280.0 246.3L283.0 247.1L286.0 248.0"></path>
+<path class="s-sun w-thin" d="M34.0 257.4L37.0 256.6L40.0 256.0L43.0 255.8L46.0 256.0L49.0 256.5L52.0 257.3L55.0 258.3L58.0 259.1L61.0 259.8L64.0 260.2L67.0 260.1L70.0 259.7L73.0 259.0L76.0 258.1L79.0 257.1L82.0 256.4L85.0 255.9L88.0 255.8L91.0 256.1L94.0 256.8L97.0 257.6L100.0 258.6L103.0 259.4L106.0 260.0L109.0 260.2L112.0 260.0L115.0 259.5L118.0 258.7L121.0 257.7L124.0 256.9L127.0 256.2L130.0 255.8L133.0 255.9L136.0 256.3L139.0 257.0L142.0 258.0L145.0 258.9L148.0 259.6L151.0 260.1L154.0 260.2L157.0 259.9L160.0 259.2L163.0 258.4L166.0 257.4L169.0 256.6L172.0 256.0L175.0 255.8L178.0 256.0L181.0 256.5L184.0 257.3L187.0 258.3L190.0 259.2L193.0 259.8L196.0 260.2L199.0 260.1L202.0 259.7L205.0 258.9L208.0 258.0L211.0 257.1L214.0 256.4L217.0 255.9L220.0 255.8L223.0 256.1L226.0 256.8L229.0 257.7L232.0 258.6L235.0 259.4L238.0 260.0L241.0 260.2L244.0 260.0L247.0 259.5L250.0 258.7L253.0 257.7L256.0 256.8L259.0 256.2L262.0 255.8L265.0 255.9L268.0 256.3L271.0 257.1L274.0 258.0L277.0 258.9L280.0 259.6L283.0 260.1L286.0 260.2"></path>
+<path class="f-sun-soft" d="M106 238C124 220 128 150 148 124C155 115 165 115 172 124C192 150 196 220 214 238Z"></path>
+<path class="s-ink" d="M106 238C124 220 128 150 148 124C155 115 165 115 172 124C192 150 196 220 214 238Z"></path>
+<text class="t-lab a-mid" x="160" y="160">자아</text>
+<text class="t-small a-mid" x="160" y="178">인격 · 재산</text>
+<line class="s-sun" marker-end="url(#ah-702s)" x1="142" x2="142" y1="258" y2="196"></line>
+<line class="s-sun" marker-end="url(#ah-702s)" x1="160" x2="160" y1="258" y2="196"></line>
+<line class="s-sun" marker-end="url(#ah-702s)" x1="178" x2="178" y1="258" y2="196"></line>
+<text class="t-lab c-sun" x="30" y="150">천재</text>
+<text class="t-small" x="30" y="168">권위가 안에서</text>
+<line class="s-sun w-thin dot" x1="64" x2="132" y1="174" y2="214"></line>
+<text class="t-lab a-mid" x="160" y="286">비인칭 심적 바다</text>
+<text class="t-small a-mid" x="160" y="303">융적 이드</text>
+<rect class="f-star-soft s-star" height="32" width="152" x="404" y="44"></rect>
+<text class="t-lab a-mid c-star" x="480" y="65">비인칭 진리</text>
+<line class="s-star" x1="480" x2="480" y1="78" y2="185"></line>
+<line class="s-star dash" x1="480" x2="480" y1="187" y2="231"></line>
+<line class="s-star" marker-end="url(#ah-702b)" x1="480" x2="480" y1="233" y2="262"></line>
+<circle class="f-star" cx="480" cy="120" r="3"></circle>
+<text class="t-lab" x="494" y="117">사도</text>
+<text class="t-small" x="494" y="134">보냄으로 권위</text>
+<circle class="f-star" cx="480" cy="160" r="3"></circle>
+<path class="s-mute w-thin" d="M472 160L458 152M472 160L456 160M472 160L458 168"></path>
+<text class="t-lab" x="494" y="164">대사의 기침</text>
+<text class="t-small a-end" x="450" y="164">본국의 뜻</text>
+<rect class="s-gap w-bold" height="46" width="68" x="446" y="186"></rect>
+<text class="t-lab c-gap" x="524" y="205">빈칸 $</text>
+<text class="t-small" x="524" y="223">진리가 지나간다</text>
+<text class="t-lab a-mid" x="480" y="286">증언 · 증상</text>
+<text class="t-small a-mid" x="480" y="303">나, 진리가 말한다</text>
+<line class="s-ink w-bold" marker-end="url(#ah-702)" x1="206" x2="440" y1="206" y2="206"></line>
+<text class="t-lab a-mid" x="330" y="196">자아 희생</text>
+<text class="t-small a-mid halo" x="330" y="226">윤리의 출현 (프로스페로)</text>
+<circle class="f-sun" cx="236" cy="216" r="2.6"></circle>
+<circle class="f-sun" cx="244" cy="226" r="2.2"></circle>
+<circle class="f-sun" cx="240" cy="236" r="1.8"></circle>
+<path class="s-sun w-thin dot" d="M232 210Q238 222 240 246"></path>
+<line class="s-mute w-thin" x1="24" x2="616" y1="318" y2="318"></line>
+<text class="t-small a-mid" x="320" y="338">같은 건너감</text>
+<text class="t-lab a-mid" x="160" y="362.5">경험적 인민</text>
+<text class="t-lab a-mid c-star" x="480" y="362.5">진리의 몸</text>
+<line class="s-mute" marker-end="url(#ah-702m)" x1="232" x2="414" y1="358" y2="358"></line>
+<text class="t-lab a-mid" x="160" y="384.5">노동계급</text>
+<text class="t-lab a-mid c-star" x="480" y="384.5">프롤레타리아트</text>
+<line class="s-mute" marker-end="url(#ah-702m)" x1="232" x2="414" y1="380" y2="380"></line>
+<text class="t-lab a-mid" x="160" y="406.5">본능</text>
+<text class="t-lab a-mid c-star" x="480" y="406.5">충동</text>
+<line class="s-mute" marker-end="url(#ah-702m)" x1="232" x2="414" y1="402" y2="402"></line>
+</svg></g></g></g></g></svg>

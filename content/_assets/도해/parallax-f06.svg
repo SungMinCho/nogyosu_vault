@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 300" width="640" height="300" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-gap{stroke:var(--gap)}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-gap{fill:var(--gap)}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-gap{fill:var(--gap)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}.fig svg .halo{paint-order:stroke;stroke:var(--bg);stroke-width:4px;stroke-linejoin:round}svg.pz-root{width:640px!important;height:300px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="욕망에서 충동으로: 같은 대상과 같은 빗나감을 두고, 욕망은 빗나갈 때마다 다음 대상으로 미끄러지고 충동은 빗나가는 궤도를 되풀이하며 그 둘레를 돈다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 300" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="ah-106" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-106g" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-gap" d="M0 0L10 5L0 10Z"></path></marker>
+</defs>
+<text class="t-lab a-mid" x="160" y="28">욕망 — 결여의 환유</text>
+<circle class="f-ink" cx="40" cy="200" r="6"></circle><text class="t-small a-mid" x="40" y="226">주체</text>
+<circle class="s-ink" cx="130" cy="110" r="10"></circle>
+<circle class="s-ink" cx="210" cy="150" r="10"></circle>
+<circle class="s-ink" cx="275" cy="95" r="10"></circle>
+<path class="s-ink" d="M46 194Q100 120 140 98" marker-end="url(#ah-106)"></path>
+<path class="s-ink dash" d="M138 100Q190 120 200 140" marker-end="url(#ah-106)"></path>
+<path class="s-ink dash" d="M218 142Q250 110 266 100" marker-end="url(#ah-106)"></path>
+<text class="t-small a-mid" x="130" y="88">이것이 아니다</text>
+<text class="t-small a-mid" x="210" y="178">이것도 아니다</text>
+<text class="t-small a-mid" x="275" y="73">…</text>
+<text class="t-small a-mid" x="160" y="262">목표(goal)에 닿지 못하면</text>
+<text class="t-small a-mid" x="160" y="280">다음 대상으로 미끄러진다</text>
+<line class="s-mute dot" x1="320" x2="320" y1="40" y2="280"></line>
+<text class="t-lab a-mid" x="480" y="28">충동 — 실패의 둘레를 돈다</text>
+<circle class="f-ink" cx="380" cy="200" r="6"></circle><text class="t-small a-mid" x="380" y="226">주체</text>
+<circle class="s-gap w-bold" cx="520" cy="130" r="10"></circle>
+<text class="t-small a-mid c-gap" x="520" y="135">a</text>
+<path class="s-gap" d="M386 196C440 150 470 82 528 82C590 82 596 170 540 176C492 182 452 200 390 204" marker-end="url(#ah-106g)"></path>
+<text class="t-small c-gap a-end halo" x="602" y="132">빗나가며 돈다</text>
+<text class="t-small a-mid" x="480" y="262">빗나가는 궤도(aim) 자체가</text>
+<text class="t-small a-mid" x="480" y="280">만족의 원천이 된다</text>
+</svg></g></g></g></g></svg>

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 352" width="640" height="352" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-star{stroke:var(--star)}.s-moon{stroke:var(--moon)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.f-ink{fill:var(--fg)}.f-star{fill:var(--star)}.f-moon{fill:var(--moon)}.f-bg2{fill:var(--bg2)}.f-star-soft{fill:var(--star);fill-opacity:.14}.f-moon-soft{fill:var(--moon);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .t-big{font-size:17px;font-weight:600}.fig svg .c-star{fill:var(--star)}.fig svg .c-moon{fill:var(--moon)}.fig svg .c-fix{fill:var(--fix)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:352px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="책의 마지막 시차: 세 줄 모두에서 무언가와 무언가 사이의 간극이 무언가와 그 자신의 공백 사이의 최소 차이로 줄어든다 — 서론이 약속한 세 양태 가운데 과학의 칸만 비어 있다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 352" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-1505" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1505n" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-moon" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1505t" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-star" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<text class="t-lab a-mid" x="170" y="24">무언가 | 무언가</text>
+<text class="t-small a-mid" x="170" y="42">초자아-시차 — 두 내용 사이</text>
+<text class="t-lab a-mid" x="385" y="24">무언가 | 무</text>
+<text class="t-small a-mid" x="385" y="42">바틀비-시차 — 내용과 그 자리</text>
+<text class="t-lab a-mid" x="575" y="24">1강의 세 양태</text>
+<text class="t-small a-mid" x="575" y="42">서론의 지도</text>
+<text class="t-lab c-moon" x="16" y="97">정치</text>
+<rect class="s-moon f-moon-soft" height="48" width="80" x="80" y="68"></rect>
+<text class="t-lab a-mid" x="120" y="97">공적 법</text>
+<rect class="s-moon f-moon-soft" height="48" width="80" x="180" y="68"></rect>
+<text class="t-lab a-mid" x="220" y="97">외설적 보충</text>
+<line class="s-mute w-thin" x1="164" x2="176" y1="79" y2="72"></line>
+<line class="s-mute w-thin" x1="164" x2="176" y1="87" y2="80"></line>
+<line class="s-mute w-thin" x1="164" x2="176" y1="95" y2="88"></line>
+<line class="s-mute w-thin" x1="164" x2="176" y1="103" y2="96"></line>
+<line class="s-mute w-thin" x1="164" x2="176" y1="111" y2="104"></line>
+<line class="s-mute w-thin" x1="164" x2="176" y1="119" y2="112"></line>
+<line class="s-ink" marker-end="url(#ah-1505)" x1="268" x2="294" y1="92" y2="92"></line>
+<rect class="s-ink w-bold f-bg2" height="48" width="80" x="302" y="68"></rect>
+<text class="t-lab a-mid" x="342" y="97">사회적 규제</text>
+<rect class="s-gap w-bold dash" height="48" width="80" x="388" y="68"></rect>
+<text class="t-lab a-mid" x="428" y="90">무</text>
+<text class="t-small a-mid" x="428" y="106">보충물의 빈자리</text>
+<text class="t-lab c-star" x="16" y="187">철학</text>
+<rect class="s-star f-star-soft" height="48" width="80" x="80" y="158"></rect>
+<text class="t-lab a-mid" x="120" y="187">물리적 실재</text>
+<rect class="s-star f-star-soft" height="48" width="80" x="180" y="158"></rect>
+<text class="t-lab a-mid" x="220" y="187">더 높은 실재</text>
+<line class="s-mute w-thin" x1="164" x2="176" y1="169" y2="162"></line>
+<line class="s-mute w-thin" x1="164" x2="176" y1="177" y2="170"></line>
+<line class="s-mute w-thin" x1="164" x2="176" y1="185" y2="178"></line>
+<line class="s-mute w-thin" x1="164" x2="176" y1="193" y2="186"></line>
+<line class="s-mute w-thin" x1="164" x2="176" y1="201" y2="194"></line>
+<line class="s-mute w-thin" x1="164" x2="176" y1="209" y2="202"></line>
+<line class="s-ink" marker-end="url(#ah-1505)" x1="268" x2="294" y1="182" y2="182"></line>
+<rect class="s-ink w-bold f-bg2" height="48" width="80" x="302" y="158"></rect>
+<text class="t-lab a-mid" x="342" y="187">실재</text>
+<rect class="s-ink dash" height="48" width="80" x="388" y="158"></rect>
+<text class="t-lab a-mid" x="428" y="180">무</text>
+<text class="t-small a-mid" x="428" y="196">그 자신의 공백</text>
+<text class="t-lab c-moon" x="16" y="277">정치경제</text>
+<rect class="s-moon f-moon-soft" height="48" width="80" x="80" y="248"></rect>
+<text class="t-lab a-mid" x="120" y="277">일상의 삶</text>
+<rect class="s-moon f-moon-soft" height="48" width="80" x="180" y="248"></rect>
+<text class="t-lab a-mid" x="220" y="277">자본의 춤</text>
+<line class="s-mute w-thin" x1="164" x2="176" y1="259" y2="252"></line>
+<line class="s-mute w-thin" x1="164" x2="176" y1="267" y2="260"></line>
+<line class="s-mute w-thin" x1="164" x2="176" y1="275" y2="268"></line>
+<line class="s-mute w-thin" x1="164" x2="176" y1="283" y2="276"></line>
+<line class="s-mute w-thin" x1="164" x2="176" y1="291" y2="284"></line>
+<line class="s-mute w-thin" x1="164" x2="176" y1="299" y2="292"></line>
+<line class="s-ink" marker-end="url(#ah-1505)" x1="268" x2="294" y1="272" y2="272"></line>
+<rect class="s-ink w-bold f-bg2" height="48" width="80" x="302" y="248"></rect>
+<text class="t-lab a-mid" x="342" y="277">일상의 삶</text>
+<rect class="s-ink dash" height="48" width="80" x="388" y="248"></rect>
+<text class="t-lab a-mid" x="428" y="270">무</text>
+<text class="t-small a-mid" x="428" y="286">자본의 실재</text>
+<text class="t-small a-mid" x="281" y="82">줄어듦</text>
+<rect class="s-star" height="52" width="98" x="526" y="66"></rect>
+<text class="t-lab c-star" x="536" y="89">존재론</text>
+<text class="t-small" x="536" y="107">철학 · 1부</text>
+<rect class="s-mute dash" height="52" width="98" x="526" y="156"></rect>
+<text class="t-lab c-mute" x="536" y="179">과학</text>
+<text class="t-small" x="536" y="197">1·3인칭 · 2부</text>
+<rect class="s-moon" height="52" width="98" x="526" y="246"></rect>
+<text class="t-lab c-moon" x="536" y="269">정치</text>
+<text class="t-small" x="536" y="287">적대 · 3부</text>
+<text class="t-big c-fix a-end" x="612" y="183">?</text>
+<path class="s-moon" d="M470 92H484V272"></path>
+<line class="s-moon" marker-end="url(#ah-1505n)" x1="470" x2="523" y1="272" y2="272"></line>
+<circle class="f-moon" cx="484" cy="272" r="2.8"></circle>
+<path class="s-star" d="M470 182H478A6 6 0 0 1 490 182H504V104H523" marker-end="url(#ah-1505t)"></path>
+<text class="t-small a-mid" x="575" y="226">들어오는 줄 없음</text>
+<line class="s-mute w-thin" x1="16" x2="624" y1="314" y2="314"></line>
+<text class="t-small" x="16" y="336">세 줄이 서론의 지도에 닿는 곳은 존재론과 정치뿐 — 2부 과학의 1인칭·3인칭 간극은 돌아오지 않는다(16강)</text>
+</svg></g></g></g></g></svg>

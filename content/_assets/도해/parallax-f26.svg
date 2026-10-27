@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 412" width="640" height="412" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-star{stroke:var(--star)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-gap{fill:var(--gap)}.f-bg2{fill:var(--bg2)}.f-star-soft{fill:var(--star);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-star{fill:var(--star)}.fig svg .c-gap{fill:var(--gap)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:412px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="과학자·스승·분석가·그리스도는 두 질문의 네 칸에 앉는다 — 분석가와 그리스도는 '곧바로 그것인' 대상의 자리에 함께 서되, 그리스도만 죽어야 계시된다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 412" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="ah-502" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-502g" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-gap" d="M0 0L10 5L0 10Z"></path></marker>
+</defs>
+<text class="t-lab a-mid" x="212" y="30">말함</text>
+<text class="t-small a-mid" x="212" y="50">말로 가르친다 — 가르침과 사람이 떨어진다</text>
+<text class="t-lab a-mid" x="436" y="30">실연</text>
+<text class="t-small a-mid" x="436" y="50">삶으로 해 보인다 — 가르침 안에 사람이 있다</text>
+<text class="t-lab" x="24" y="124">가짐</text>
+<text class="t-small" x="24" y="144">활동으로</text>
+<text class="t-small" x="24" y="159">자격을 얻는다</text>
+<text class="t-lab" x="24" y="262">임</text>
+<text class="t-small" x="24" y="282">곧바로</text>
+<text class="t-small" x="24" y="297">그것이다</text>
+<rect class="s-mute f-bg2" height="130" width="216" x="104" y="66"></rect>
+<rect class="s-mute f-bg2" height="130" width="216" x="328" y="66"></rect>
+<rect class="s-mute f-star-soft" height="130" width="216" x="104" y="204"></rect>
+<rect class="s-mute f-star-soft" height="130" width="216" x="328" y="204"></rect>
+<path class="s-star" d="M550 206H558V332H550"></path>
+<text class="t-lab c-star" x="566" y="264">대상의</text>
+<text class="t-lab c-star" x="566" y="282">자리</text>
+<path class="s-ink" d="M144 132H160V124H176V116H192V109H218"></path>
+<circle class="f-ink" cx="208" cy="104" r="4.5"></circle>
+<line class="s-ink dot" x1="232" x2="232" y1="78" y2="134"></line>
+<rect class="s-ink" height="56" width="52" x="244" y="78"></rect><path class="s-ink w-thin" d="M252 90h36M252 100h36M252 110h36M252 120h22"></path>
+<text class="t-lab a-mid" x="212" y="160">과학자</text>
+<text class="t-small a-mid" x="212" y="180">사람의 됨됨이와 상관없다</text>
+<path class="s-ink" d="M352 132H368V124H384V116H400V109H442"></path>
+<rect class="s-ink" height="56" width="92" x="412" y="78"></rect><path class="s-ink w-thin" d="M452 90h42M452 100h42M452 110h42M452 120h25"></path>
+<circle class="f-ink" cx="432" cy="104" r="4.5"></circle>
+<text class="t-lab a-mid" x="436" y="160">스승 (붓다)</text>
+<text class="t-small a-mid" x="436" y="180">가르침을 누구보다 잘 산 사람</text>
+<path class="s-mute dash" d="M140 220Q166 224 190 237" marker-end="url(#ah-502)"></path>
+<path class="s-mute dash" d="M140 266Q166 262 190 249" marker-end="url(#ah-502)"></path>
+<text class="t-small" x="120" y="247">전이</text>
+<path class="s-ink dash" d="M196 232V250H220V232"></path>
+<circle class="f-ink" cx="208" cy="242" r="4.5"></circle>
+<line class="s-ink dot" x1="232" x2="232" y1="216" y2="272"></line>
+<rect class="s-ink" height="56" width="52" x="244" y="216"></rect><path class="s-ink w-thin" d="M252 228h36M252 238h36M252 248h36M252 258h22"></path>
+<text class="t-lab a-mid" x="212" y="298">분석가</text>
+<rect class="s-star" height="18" width="104" x="160" y="306"></rect>
+<text class="t-small a-mid c-star" x="212" y="319">전이가 만든 자리</text>
+<rect class="s-ink" height="56" width="92" x="412" y="216"></rect><path class="s-ink w-thin" d="M452 228h42M452 238h42M452 248h42M452 258h25"></path>
+<path class="s-ink w-bold" d="M420 232V250H444V232"></path>
+<circle class="f-ink" cx="432" cy="242" r="4.5"></circle>
+<text class="t-lab a-mid" x="436" y="298">그리스도</text>
+<text class="t-small a-mid" x="436" y="318">태어난 자리 · 가르침이 곧 그 자신</text>
+<path class="s-gap w-bold" d="M508 244C534 256 534 314 526 370" marker-end="url(#ah-502g)"></path>
+<text class="t-lab a-end c-gap" x="514" y="390">죽음 → 계시</text>
+<text class="t-small a-end" x="514" y="408">유다가 일으키는 드러남 — 이 칸에만</text>
+<path class="s-ink w-thin" d="M24 380H32V374H40V368H48"></path>
+<text class="t-small" x="56" y="382">계단 = 쌓아서 얻은 자격</text>
+<path class="s-ink w-thin" d="M26 392V402H46V392"></path>
+<text class="t-small" x="56" y="402">받침 = 놓인 자리 · 세로 점선 = 사람과 가르침 사이 거리</text>
+</svg></g></g></g></g></svg>

@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 414" width="640" height="414" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-moon{stroke:var(--moon)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-moon{fill:var(--moon)}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .t-mono{font-family:var(--f-mono);font-size:12px}.fig svg .c-moon{fill:var(--moon)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:414px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="대학 담론의 한 모순이 생명정치적 지배와 잉여가치의 순환이라는 두 얼굴로 갈라지고, 둘 사이에는 서로를 번역해 줄 메타언어가 없어 정치적 잉여의 자리가 물음으로 남는다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 414" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-1205" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1205n" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-moon" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<rect class="s-moon" height="96" width="168" x="236" y="16"></rect>
+<text class="t-lab a-mid c-moon" x="320" y="38">대학 담론</text>
+<text class="t-mono a-mid" x="284" y="68">S2</text>
+<line class="s-ink" x1="268" x2="300" y1="76" y2="76"></line>
+<text class="t-mono a-mid" x="284" y="96">S1</text>
+<line class="s-ink" marker-end="url(#ah-1205)" x1="306" x2="336" y1="63" y2="63"></line>
+<text class="t-mono a-mid" x="356" y="68">a</text>
+<line class="s-ink" x1="340" x2="372" y1="76" y2="76"></line>
+<text class="t-mono a-mid" x="356" y="96">$</text>
+<text class="t-lab c-mute" x="416" y="62">행위자 자리: 지식</text>
+<text class="t-lab c-mute" x="416" y="82">감춰진 진리: 주인</text>
+<text class="t-small a-end" x="224" y="62">'규정을 말씀드릴</text>
+<text class="t-small a-end" x="224" y="78">뿐입니다'</text>
+<path class="s-moon" d="M320 112L320 136"></path>
+<path class="s-moon" d="M320 136L150 194"></path>
+<path class="s-moon" d="M320 136L490 194"></path>
+<text class="t-lab a-end" x="310" y="130">한 모순</text>
+<rect class="s-moon w-thin" height="11" width="16" x="94.5" y="206"></rect>
+<circle class="f-ink" cx="102.5" cy="211.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="94.5" y="220"></rect>
+<circle class="f-ink" cx="102.5" cy="225.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="94.5" y="234"></rect>
+<circle class="f-ink" cx="102.5" cy="239.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="94.5" y="248"></rect>
+<circle class="f-ink" cx="102.5" cy="253.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="113.5" y="206"></rect>
+<circle class="f-ink" cx="121.5" cy="211.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="113.5" y="220"></rect>
+<circle class="f-ink" cx="121.5" cy="225.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="113.5" y="234"></rect>
+<circle class="f-ink" cx="121.5" cy="239.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="113.5" y="248"></rect>
+<circle class="f-ink" cx="121.5" cy="253.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="132.5" y="206"></rect>
+<circle class="f-ink" cx="140.5" cy="211.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="132.5" y="220"></rect>
+<circle class="f-ink" cx="140.5" cy="225.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="132.5" y="234"></rect>
+<circle class="f-ink" cx="140.5" cy="239.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="132.5" y="248"></rect>
+<circle class="f-ink" cx="140.5" cy="253.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="151.5" y="206"></rect>
+<circle class="f-ink" cx="159.5" cy="211.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="151.5" y="220"></rect>
+<circle class="f-ink" cx="159.5" cy="225.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="151.5" y="234"></rect>
+<circle class="f-ink" cx="159.5" cy="239.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="151.5" y="248"></rect>
+<circle class="f-ink" cx="159.5" cy="253.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="170.5" y="206"></rect>
+<circle class="f-ink" cx="178.5" cy="211.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="170.5" y="220"></rect>
+<circle class="f-ink" cx="178.5" cy="225.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="170.5" y="234"></rect>
+<circle class="f-ink" cx="178.5" cy="239.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="170.5" y="248"></rect>
+<circle class="f-ink" cx="178.5" cy="253.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="189.5" y="206"></rect>
+<circle class="f-ink" cx="197.5" cy="211.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="189.5" y="220"></rect>
+<circle class="f-ink" cx="197.5" cy="225.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="189.5" y="234"></rect>
+<circle class="f-ink" cx="197.5" cy="239.5" r="1.6"></circle>
+<rect class="s-moon w-thin" height="11" width="16" x="189.5" y="248"></rect>
+<circle class="f-ink" cx="197.5" cy="253.5" r="1.6"></circle>
+<text class="t-lab a-mid" x="150" y="292">생명정치적 지배</text>
+<text class="t-lab a-mid c-mute" x="150" y="310">관리되는 삶</text>
+<path class="s-moon w-bold" d="M490 233L490.1 232.9L490.3 232.8L490.5 232.8L490.6 232.7L490.8 232.6L491 232.6L491.2 232.6L491.4 232.5L491.6 232.5L491.8 232.5L492 232.5L492.2 232.6L492.4 232.6L492.7 232.6L492.9 232.7L493.1 232.8L493.3 232.9L493.5 233L493.7 233.1L494 233.2L494.2 233.4L494.4 233.5L494.6 233.7L494.8 233.9L494.9 234.1L495.1 234.3L495.3 234.5L495.4 234.7L495.6 235L495.7 235.2L495.8 235.5L495.9 235.8L496 236.1L496.1 236.4L496.2 236.7L496.2 237L496.3 237.3L496.3 237.6L496.3 237.9L496.3 238.3L496.2 238.6L496.2 238.9L496.1 239.3L496 239.6L495.9 240L495.8 240.3L495.7 240.6L495.5 241L495.3 241.3L495.1 241.6L494.9 241.9L494.7 242.2L494.4 242.5L494.2 242.8L493.9 243.1L493.6 243.3L493.2 243.6L492.9 243.8L492.6 244L492.2 244.2L491.8 244.4L491.4 244.6L491 244.7L490.6 244.8L490.2 245L489.8 245L489.3 245.1L488.9 245.2L488.4 245.2L488 245.2L487.5 245.2L487 245.1L486.6 245.1L486.1 245L485.6 244.9L485.2 244.7L484.7 244.6L484.3 244.4L483.8 244.2L483.4 243.9L482.9 243.7L482.5 243.4L482.1 243.1L481.7 242.7L481.3 242.4L480.9 242L480.6 241.6L480.2 241.2L479.9 240.8L479.6 240.3L479.3 239.8L479.1 239.3L478.8 238.8L478.6 238.3L478.4 237.8L478.3 237.2L478.1 236.7L478 236.1L477.9 235.5L477.9 234.9L477.9 234.3L477.9 233.7L477.9 233.1L478 232.5L478 231.9L478.2 231.3L478.3 230.7L478.5 230.1L478.7 229.6L479 229L479.2 228.4L479.5 227.8L479.9 227.3L480.2 226.7L480.6 226.2L481.1 225.7L481.5 225.2L482 224.8L482.5 224.3L483 223.9L483.5 223.5L484.1 223.1L484.7 222.7L485.3 222.4L486 222.1L486.6 221.9L487.3 221.6L487.9 221.4L488.6 221.2L489.3 221.1L490.1 221L490.8 220.9L491.5 220.9L492.3 220.9L493 220.9L493.7 221L494.5 221.1L495.2 221.2L496 221.4L496.7 221.7L497.4 221.9L498.1 222.2L498.8 222.5L499.5 222.9L500.2 223.3L500.9 223.7L501.5 224.2L502.1 224.7L502.7 225.2L503.3 225.8L503.8 226.4L504.4 227L504.9 227.7L505.3 228.4L505.8 229.1L506.2 229.8L506.5 230.6L506.8 231.3L507.1 232.1L507.4 232.9L507.6 233.8L507.8 234.6L507.9 235.5L508 236.3L508.1 237.2L508.1 238.1L508.1 238.9L508 239.8L507.9 240.7L507.7 241.6L507.5 242.5L507.3 243.3L507 244.2L506.7 245L506.3 245.9L505.9 246.7L505.4 247.5L504.9 248.3L504.4 249L503.8 249.8L503.2 250.5L502.5 251.2L501.8 251.8L501.1 252.5L500.4 253.1L499.6 253.6L498.8 254.1L497.9 254.6L497 255.1L496.1 255.5L495.2 255.8L494.3 256.1L493.3 256.4L492.4 256.6L491.4 256.8L490.4 257L489.4 257L488.3 257.1L487.3 257.1L486.3 257L485.3 256.9L484.2 256.7L483.2 256.5L482.2 256.3L481.2 255.9L480.2 255.6L479.3 255.2L478.3 254.7L477.4 254.2L476.5 253.7L475.6 253.1L474.7 252.4L473.9 251.7L473.1 251L472.3 250.2L471.6 249.4L470.9 248.6L470.2 247.7L469.6 246.7L469 245.8L468.5 244.8L468 243.8L467.6 242.8L467.2 241.7L466.8 240.6L466.5 239.5L466.3 238.4L466.1 237.3L466 236.1L465.9 234.9L465.9 233.8L466 232.6L466.1 231.5L466.2 230.3L466.4 229.1L466.7 228L467 226.8L467.4 225.7L467.9 224.6L468.3 223.5L468.9 222.4L469.5 221.4L470.2 220.4L470.9 219.4L471.6 218.4L472.4 217.5L473.3 216.6L474.2 215.7L475.1 214.9L476.1 214.1L477.1 213.4L478.2 212.7L479.2 212.1L480.4 211.5L481.5 211L482.7 210.6L483.9 210.1L485.1 209.8L486.4 209.5L487.7 209.3L488.9 209.1L490.2 209L491.5 208.9L492.8 208.9L494.2 209L495.5 209.2L496.8 209.4L498.1 209.6L499.3 210L500.6 210.4L501.9 210.8L503.1 211.3L504.3 211.9L505.5 212.6L506.7 213.3L507.8 214L508.9 214.8L510 215.7L511 216.6L512 217.6L512.9 218.6L513.8 219.7L514.6 220.8L515.4 221.9L516.1 223.1L516.8 224.3L517.4 225.6L518 226.9L518.5 228.2L518.9 229.6L519.2 231L519.5 232.4L519.8 233.8L519.9 235.2L520 236.7L520.1 238.1L520 239.6L519.9 241L519.7 242.5L519.5 243.9L519.1 245.3L518.7 246.7L518.3 248.1L517.7 249.5L517.1 250.9L516.5 252.2L515.7 253.5L514.9 254.8L514.1 256L513.2 257.2L512.2 258.4L511.1 259.5L510.1 260.5L508.9 261.5L507.7 262.5L506.5 263.4L505.2 264.2L503.8 265L502.5 265.7L501.1 266.4L499.6 267L498.1 267.5L496.6 267.9L495.1 268.3L493.6 268.6L492 268.8L490.4 269L488.8 269L487.3 269L485.7 269L484.1 268.8L482.5 268.6L480.9 268.3L479.3 267.9L477.8 267.4L476.3 266.9L474.7 266.3L473.3 265.6L471.8 264.8L470.4 264L469 263.1L467.7 262.1L466.4 261.1L465.2 260L464 258.8L462.8 257.6L461.8 256.3L460.7 255L459.8 253.6L458.9 252.2L458.1 250.7L457.3 249.2L456.6 247.7L456 246.1L455.5 244.4L455 242.8"></path>
+<line class="s-moon" marker-end="url(#ah-1205n)" x1="459.8" x2="454" y1="253.6" y2="236"></line>
+<text class="t-lab a-mid" x="490" y="292">잉여가치 순환</text>
+<text class="t-lab a-mid c-mute" x="490" y="310">M–C–M′</text>
+<path class="s-ink w-bold" d="M214 254L214.1 252L214.2 249.9L214.6 247.9L215 245.9L215.5 243.8L216.2 241.8L217 239.8L217.9 237.9L218.9 235.9L220.1 234L221.3 232.1L222.7 230.2L224.2 228.3L225.8 226.5L227.5 224.7L229.3 222.9L231.3 221.2L233.3 219.5L235.4 217.8L237.6 216.2L239.9 214.7L242.4 213.2L244.9 211.7L247.4 210.3L250.1 208.9L252.9 207.6L255.7 206.3L258.6 205.1L261.6 203.9L264.6 202.8L267.7 201.8L270.9 200.8L274.1 199.9L277.4 199.1L280.7 198.3L284.1 197.5L287.5 196.9L291 196.3L294.4 195.8L298 195.3"></path>
+<path class="s-ink w-bold" d="M426 254L425.9 252L425.8 249.9L425.4 247.9L425 245.9L424.5 243.8L423.8 241.8L423 239.8L422.1 237.9L421.1 235.9L419.9 234L418.7 232.1L417.3 230.2L415.8 228.3L414.2 226.5L412.5 224.7L410.7 222.9L408.7 221.2L406.7 219.5L404.6 217.8L402.4 216.2L400.1 214.7L397.6 213.2L395.1 211.7L392.6 210.3L389.9 208.9L387.1 207.6L384.3 206.3L381.4 205.1L378.4 203.9L375.4 202.8L372.3 201.8L369.1 200.8L365.9 199.9L362.6 199.1L359.3 198.3L355.9 197.5L352.5 196.9L349 196.3L345.6 195.8L342 195.3"></path>
+<line class="s-gap w-bold" x1="297.1" x2="298.9" y1="188.4" y2="202.3"></line>
+<line class="s-gap w-bold" x1="341.1" x2="342.9" y1="202.3" y2="188.4"></line>
+<text class="t-lab a-mid c-gap" x="320" y="178">메타언어 없음</text>
+<text class="t-small a-mid" x="262" y="238">지배 → 자본</text>
+<text class="t-small a-mid" x="378" y="238">자본 → 지배</text>
+<line class="s-mute dot" x1="320" x2="320" y1="204" y2="344"></line>
+<rect class="s-ink" height="34" width="144" x="248" y="348"></rect>
+<text class="t-lab a-mid" x="320" y="370">정치적 잉여 = ?</text>
+<text class="t-small a-mid" x="320" y="402">재현의 과잉 · 잉여권력</text>
+<line class="s-ink" marker-end="url(#ah-1205)" x1="394" x2="466" y1="365" y2="365"></line>
+<text class="t-lab" x="474" y="370">13강</text>
+</svg></g></g></g></g></svg>

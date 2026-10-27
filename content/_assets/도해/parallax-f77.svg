@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 412" width="640" height="412" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-moon{stroke:var(--moon)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-moon{fill:var(--moon)}.f-moon-soft{fill:var(--moon);fill-opacity:.14}.f-gap-soft{fill:var(--gap);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-moon{fill:var(--moon)}.fig svg .c-gap{fill:var(--gap)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:412px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="고전 권력의 위협은 실행되지 않음으로써 작동했다 — 테러와의 전쟁에서는 위협이 보이지 않는 적에게로 옮겨 가고, 실행되는 것은 우리 쪽의 대응 조치뿐이다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 412" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-1503" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1503n" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-moon" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1503m" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<line class="s-mute w-thin" marker-end="url(#ah-1503m)" marker-start="url(#ah-1503m)" x1="136" x2="620" y1="44" y2="44"></line>
+<text class="t-lab" x="136" y="32">잠재</text>
+<text class="t-lab a-end" x="620" y="32">현실</text>
+<text class="t-small a-mid" x="336" y="32">실행의 문턱</text>
+<line class="s-mute dash" x1="336" x2="336" y1="52" y2="290"></line>
+<rect class="f-moon-soft" height="238" width="284" x="336" y="52"></rect>
+<text class="t-lab" x="16" y="108">고전 권력</text>
+<text class="t-small" x="16" y="124">냉전 · 상호확증파괴</text>
+<text class="t-lab" x="16" y="234">테러와의 전쟁</text>
+<text class="t-small" x="16" y="250">항구적 비상사태</text>
+<circle class="s-moon w-bold" cx="168" cy="112" r="9"></circle>
+<text class="t-small a-mid" x="168" y="138">권력</text>
+<line class="s-moon" x1="177" x2="201" y1="112" y2="112"></line>
+<circle class="f-moon" cx="206" cy="112" r="5"></circle>
+<line class="s-moon dot" x1="214" x2="320" y1="112" y2="112"></line>
+<line class="s-ink w-bold" x1="326" x2="326" y1="102" y2="122"></line>
+<text class="t-lab a-mid" x="267" y="98">"어디 두고 봐!"</text>
+<text class="t-small a-mid" x="267" y="136">실행되지 않아야 작동</text>
+<text class="t-small a-mid" x="478" y="116">아무것도 실행되지 않는다</text>
+<line class="s-mute dash" marker-end="url(#ah-1503m)" x1="204" x2="180" y1="120" y2="224"></line>
+<text class="t-small" x="212" y="178">위협의 자리가</text>
+<text class="t-small" x="212" y="193">바깥으로 옮겨 감</text>
+<circle class="s-gap dash f-gap-soft" cx="176" cy="238" r="11"></circle>
+<text class="t-small c-gap a-mid" x="176" y="268">보이지 않는 적</text>
+<line class="s-mute dot" marker-end="url(#ah-1503m)" x1="190" x2="273" y1="238" y2="238"></line>
+<text class="t-small a-mid" x="231" y="226">"저들이 노린다"</text>
+<circle class="s-moon w-bold" cx="286" cy="238" r="9"></circle>
+<text class="t-small a-mid" x="286" y="268">권력</text>
+<line class="s-moon w-bold" marker-end="url(#ah-1503n)" x1="298" x2="360" y1="238" y2="238"></line>
+<circle class="f-moon" cx="368" cy="238" r="4.5"></circle>
+<line class="s-moon w-bold" marker-end="url(#ah-1503n)" x1="380" x2="442" y1="238" y2="238"></line>
+<circle class="f-moon" cx="450" cy="238" r="4.5"></circle>
+<line class="s-moon w-bold" marker-end="url(#ah-1503n)" x1="462" x2="524" y1="238" y2="238"></line>
+<circle class="f-moon" cx="532" cy="238" r="4.5"></circle>
+<text class="t-lab" x="546" y="243">…</text>
+<text class="t-lab a-mid c-moon" x="486" y="220">우리의 대응 조치 — 끝없이 실행</text>
+<text class="t-small a-mid" x="486" y="268">선제공격 · 구금 · 감시</text>
+<text class="t-small a-mid" x="486" y="284">민주주의에 대한 진짜 위협은 이 조치들</text>
+<line class="s-mute w-thin" x1="16" x2="624" y1="306" y2="306"></line>
+<text class="t-lab" x="16" y="332">니체 『방랑자와 그의 그림자』 284절</text>
+<text class="t-small" x="16" y="352">어느 나라도 정복용이라 하지 않는다 — 모두 "방어용"</text>
+<text class="t-small" x="16" y="368">방어는 나의 선함과 이웃의 악함을 깔고서야 선다</text>
+<text class="t-small" x="16" y="384">서로의 악의를 전제하는 이 대칭이 전쟁의 원인</text>
+<path class="s-ink" d="M478 334.7L480 336L481.9 337.6L483.5 339.4L485 341.4L486.1 343.5L487 345.8L487.6 348.2L488 350.6L488 353L487.7 355.5L487.1 357.8L486.3 360.1L485.1 362.3L483.8 364.3L482.1 366.1L480.3 367.8L478.3 369.1L476.1 370.3L473.8 371.1L471.5 371.7L469 372L466.6 372L464.2 371.6L461.8 371L459.5 370.1L457.4 369L455.4 367.5L453.6 365.9L452 364L450.7 362L449.6 359.8L448.8 357.5L448.2 355.1L448 352.7L448.1 350.3L448.4 347.8L449.1 345.5L450 343.2L451.2 341.1L452.7 339.1" marker-end="url(#ah-1503)"></path>
+<circle class="f-ink" cx="468" cy="352" r="3.5"></circle>
+<text class="t-small a-mid" x="468" y="392">갑 · "방어용"</text>
+<path class="s-ink" d="M562 334.7L560 336L558.1 337.6L556.5 339.4L555 341.4L553.9 343.5L553 345.8L552.4 348.2L552 350.6L552 353L552.3 355.5L552.9 357.8L553.7 360.1L554.9 362.3L556.2 364.3L557.9 366.1L559.7 367.8L561.7 369.1L563.9 370.3L566.2 371.1L568.5 371.7L571 372L573.4 372L575.8 371.6L578.2 371L580.5 370.1L582.6 369L584.6 367.5L586.4 365.9L588 364L589.3 362L590.4 359.8L591.2 357.5L591.8 355.1L592 352.7L591.9 350.3L591.6 347.8L590.9 345.5L590 343.2L588.8 341.1L587.3 339.1" marker-end="url(#ah-1503)"></path>
+<circle class="f-ink" cx="572" cy="352" r="3.5"></circle>
+<text class="t-small a-mid" x="572" y="392">을 · "방어용"</text>
+<line class="s-mute w-thin dash" x1="520" x2="520" y1="324" y2="380"></line>
+<text class="t-small a-mid" x="520" y="318">거울</text>
+</svg></g></g></g></g></svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 344" width="640" height="344" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.f-ink{fill:var(--fg)}.f-star{fill:var(--star)}.f-gap{fill:var(--gap)}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .t-big{font-size:17px;font-weight:600}.fig svg .c-star{fill:var(--star)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}svg.pz-root{width:640px!important;height:344px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="분석의 두 이행은 같은 성분 하나를 정반대로 뒤집는다 — 통념은 두 화살표에 헤겔과 키르케고르를 앉히지만 지젝은 헤겔 쪽 화살표를 거꾸로 돌린다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 344" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="ah-403" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-403g" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-gap" d="M0 0L10 5L0 10Z"></path></marker>
+</defs>
+<!-- 열: 왼쪽은 그치지 않음, 오른쪽은 그침 / 줄: 위는 쓰임, 아래는 안 쓰임 -->
+<text class="t-lab a-mid c-mute" x="150" y="22">그치지 않는다</text>
+<text class="t-lab a-mid c-mute" x="490" y="22">그친다</text>
+<!-- 필연 (좌상): 매일 쓰인다, 끊긴 자리 없음 -->
+<text class="t-big a-mid c-star" x="150" y="56">필연</text>
+<text class="t-small a-mid" x="150" y="76">쓰이기를 그치지 않는다</text>
+<g class="f-star"><rect height="11" width="11" x="92" y="92"></rect><rect height="11" width="11" x="107" y="92"></rect><rect height="11" width="11" x="122" y="92"></rect><rect height="11" width="11" x="137" y="92"></rect><rect height="11" width="11" x="152" y="92"></rect><rect height="11" width="11" x="167" y="92"></rect><rect height="11" width="11" x="182" y="92"></rect><rect height="11" width="11" x="197" y="92"></rect></g>
+<!-- 가능 (우상): 쓰이다가 어느 날 그친다 -->
+<text class="t-big a-mid c-star" x="490" y="56">가능</text>
+<text class="t-small a-mid" x="490" y="76">쓰이기를 그친다</text>
+<g class="f-star"><rect height="11" width="11" x="429" y="92"></rect><rect height="11" width="11" x="444" y="92"></rect><rect height="11" width="11" x="459" y="92"></rect><rect height="11" width="11" x="474" y="92"></rect></g>
+<line class="s-ink w-bold" x1="490.5" x2="490.5" y1="86" y2="109"></line>
+<g class="s-mute w-thin"><rect height="11" width="11" x="496" y="92"></rect><rect height="11" width="11" x="511" y="92"></rect><rect height="11" width="11" x="526" y="92"></rect><rect height="11" width="11" x="541" y="92"></rect></g>
+<!-- 위 화살표: 가능 → 필연 — 끊긴 자리를 지워 닫는다 -->
+<text class="t-lab a-mid c-mute" x="320" y="62">통념의 헤겔</text>
+<text class="t-lab a-mid" x="320" y="82">안다고 가정된 주체</text>
+<line class="s-ink" marker-end="url(#ah-403)" x1="421" x2="216" y1="97.5" y2="97.5"></line>
+<!-- 지젝의 헤겔: 같은 화살표를 거꾸로 -->
+<line class="s-gap dash" marker-end="url(#ah-403g)" x1="216" x2="421" y1="114" y2="114"></line>
+<text class="t-lab a-mid c-gap" x="320" y="136">필연 속에 우연을 되돌려 넣음</text>
+<text class="t-lab a-mid c-gap" x="320" y="154">지젝의 헤겔</text>
+<!-- 불가능 (좌하): 한 번도 안 쓰인다 -->
+<text class="t-big a-mid c-star" x="150" y="190">불가능</text>
+<text class="t-small a-mid" x="150" y="210">쓰이지 않기를 그치지 않는다</text>
+<g class="s-mute w-thin"><rect height="11" width="11" x="92" y="226"></rect><rect height="11" width="11" x="107" y="226"></rect><rect height="11" width="11" x="122" y="226"></rect><rect height="11" width="11" x="137" y="226"></rect><rect height="11" width="11" x="152" y="226"></rect><rect height="11" width="11" x="167" y="226"></rect><rect height="11" width="11" x="182" y="226"></rect><rect height="11" width="11" x="197" y="226"></rect></g>
+<!-- 우연 (우하): 안 쓰이다가 어느 날 쓰인다 -->
+<text class="t-big a-mid c-star" x="490" y="190">우연</text>
+<text class="t-small a-mid" x="490" y="210">쓰이지 않기를 그친다</text>
+<g class="s-mute w-thin"><rect height="11" width="11" x="429" y="226"></rect><rect height="11" width="11" x="444" y="226"></rect><rect height="11" width="11" x="459" y="226"></rect><rect height="11" width="11" x="474" y="226"></rect></g>
+<line class="s-ink w-bold" x1="490.5" x2="490.5" y1="220" y2="243"></line>
+<g class="f-star"><rect height="11" width="11" x="496" y="226"></rect><rect height="11" width="11" x="511" y="226"></rect><rect height="11" width="11" x="526" y="226"></rect><rect height="11" width="11" x="541" y="226"></rect></g>
+<!-- 아래 화살표: 불가능 → 우연 — 끊긴 자리를 그어 연다 -->
+<text class="t-lab a-mid" x="320" y="216">실재의 침입</text>
+<line class="s-ink" marker-end="url(#ah-403)" x1="216" x2="421" y1="231.5" y2="231.5"></line>
+<text class="t-lab a-mid c-mute" x="320" y="254">통념의 키르케고르</text>
+<!-- 요지 -->
+<line class="s-mute w-thin" x1="24" x2="616" y1="274" y2="274"></line>
+<text class="t-lab a-mid" x="320" y="296">두 화살표 모두 '쓰임'은 그대로, '그침' 하나만 뒤집는다</text>
+<text class="t-small a-mid" x="320" y="314">위는 끊긴 자리를 지워 닫고(소급적 필연), 아래는 끊긴 자리를 그어 연다</text>
+<rect class="f-star" height="9" width="9" x="190" y="326"></rect>
+<text class="t-small" x="204" y="335">쓰인 날</text>
+<rect class="s-mute w-thin" height="9" width="9" x="262" y="326"></rect>
+<text class="t-small" x="276" y="335">안 쓰인 날</text>
+<line class="s-ink w-bold" x1="350" x2="350" y1="324" y2="337"></line>
+<text class="t-small" x="358" y="335">그치는 자리</text>
+</svg></g></g></g></g></svg>

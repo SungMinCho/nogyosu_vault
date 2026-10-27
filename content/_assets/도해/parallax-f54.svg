@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 478" width="640" height="478" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-sun{stroke:var(--sun)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-sun{fill:var(--sun)}.f-sun-soft{fill:var(--sun);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}svg.pz-root{width:640px!important;height:478px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="빈 형식이 먼저 놓이고 내용은 나중에 채워진다 — 언어·경제·기술·의례·진화·성의 여섯 평행이 같은 방향의 화살표를 그린다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 478" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-1005" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1005s" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-sun" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1005m" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<text class="t-lab" x="20" y="26">현상학 — 세 칸: 통일 · 소외 · 종합</text>
+<rect class="f-sun-soft" height="34" width="130" x="20" y="36"></rect>
+<rect class="s-ink" height="34" width="130" x="20" y="36"></rect>
+<text class="t-lab a-mid" x="85" y="58">살아 있던 첫 뜻</text>
+<rect class="s-mute" height="34" width="212" x="172" y="52"></rect>
+<text class="t-lab a-mid c-mute" x="278" y="74">침전 — 가라앉은 상투어</text>
+<rect class="f-sun-soft" height="34" width="212" x="416" y="36"></rect>
+<rect class="s-ink" height="34" width="212" x="416" y="36"></rect>
+<text class="t-lab a-mid" x="522" y="58">되찾은 종합</text>
+<line class="s-mute" marker-end="url(#ah-1005m)" x1="154" x2="168" y1="53" y2="69"></line>
+<line class="s-mute" marker-end="url(#ah-1005m)" x1="388" x2="412" y1="69" y2="53"></line>
+<text class="t-lab" x="20" y="116">변증법 — 두 칸: 소외로 시작한다</text>
+<rect class="s-mute dot" height="34" width="130" x="20" y="124"></rect>
+<text class="t-small a-mid" x="85" y="146">첫 칸 없음</text>
+<rect class="s-gap w-bold dash" height="34" width="212" x="172" y="124"></rect>
+<text class="t-lab a-mid c-gap" x="278" y="146">빈 형식 — 먼저</text>
+<rect class="f-sun-soft" height="34" width="212" x="416" y="124"></rect>
+<rect class="s-sun w-bold" height="34" width="212" x="416" y="124"></rect>
+<text class="t-lab a-mid" x="522" y="146">채움 — 나중</text>
+<line class="s-sun w-bold" marker-end="url(#ah-1005s)" x1="388" x2="412" y1="141" y2="141"></line>
+<line class="s-mute dot" x1="278" x2="278" y1="162" y2="172"></line>
+<line class="s-mute dot" x1="522" x2="522" y1="162" y2="172"></line>
+<line class="s-mute w-thin" x1="20" x2="620" y1="176" y2="176"></line>
+<text class="t-lab" x="20" y="201">언어</text>
+<text class="t-small" x="20" y="217">표현이 의도를 바꿈</text>
+<rect class="s-ink dash" height="34" width="212" x="172" y="186"></rect>
+<text class="t-lab a-mid" x="278" y="208">상투어 · 빈 문장</text>
+<rect class="f-sun-soft" height="34" width="212" x="416" y="186"></rect>
+<rect class="s-ink" height="34" width="212" x="416" y="186"></rect>
+<text class="t-lab a-mid" x="522" y="208">의미 · 진심</text>
+<line class="s-sun" marker-end="url(#ah-1005s)" x1="388" x2="412" y1="203" y2="203"></line>
+<text class="t-lab" x="20" y="247">경제</text>
+<text class="t-small" x="20" y="263">관계가 기술을 바꿈</text>
+<rect class="s-ink dash" height="34" width="212" x="172" y="232"></rect>
+<text class="t-lab a-mid" x="278" y="254">형식적 포섭</text>
+<rect class="f-sun-soft" height="34" width="212" x="416" y="232"></rect>
+<rect class="s-ink" height="34" width="212" x="416" y="232"></rect>
+<text class="t-lab a-mid" x="522" y="254">실질적 포섭</text>
+<line class="s-sun" marker-end="url(#ah-1005s)" x1="388" x2="412" y1="249" y2="249"></line>
+<text class="t-lab" x="20" y="293">기술</text>
+<text class="t-small" x="20" y="309">17세기 → 18세기</text>
+<rect class="s-ink dash" height="34" width="212" x="172" y="278"></rect>
+<text class="t-lab a-mid" x="278" y="300">장난감 자동인형</text>
+<rect class="f-sun-soft" height="34" width="212" x="416" y="278"></rect>
+<rect class="s-ink" height="34" width="212" x="416" y="278"></rect>
+<text class="t-lab a-mid" x="522" y="300">생산 기계</text>
+<line class="s-sun" marker-end="url(#ah-1005s)" x1="388" x2="412" y1="295" y2="295"></line>
+<text class="t-lab" x="20" y="339">의례</text>
+<text class="t-small" x="20" y="355">자연에 덧씌움</text>
+<rect class="s-ink dash" height="34" width="212" x="172" y="324"></rect>
+<text class="t-lab a-mid" x="278" y="346">매장 · 빈 이름</text>
+<rect class="f-sun-soft" height="34" width="212" x="416" y="324"></rect>
+<rect class="s-ink" height="34" width="212" x="416" y="324"></rect>
+<text class="t-lab a-mid" x="522" y="346">개념</text>
+<line class="s-sun" marker-end="url(#ah-1005s)" x1="388" x2="412" y1="341" y2="341"></line>
+<text class="t-lab" x="20" y="385">진화</text>
+<text class="t-small" x="20" y="401">과시가 효용을 앞섬</text>
+<rect class="s-ink dash" height="34" width="212" x="172" y="370"></rect>
+<text class="t-lab a-mid" x="278" y="392">주먹도끼 · 언어 과시</text>
+<rect class="f-sun-soft" height="34" width="212" x="416" y="370"></rect>
+<rect class="s-ink" height="34" width="212" x="416" y="370"></rect>
+<text class="t-lab a-mid" x="522" y="392">효용 (2차 이득)</text>
+<line class="s-sun" marker-end="url(#ah-1005s)" x1="388" x2="412" y1="387" y2="387"></line>
+<text class="t-lab" x="20" y="431">성</text>
+<text class="t-small" x="20" y="447">신호가 목적이 됨</text>
+<rect class="s-ink dash" height="34" width="212" x="172" y="416"></rect>
+<text class="t-lab a-mid" x="278" y="438">생식 신호의 쾌락</text>
+<rect class="f-sun-soft" height="34" width="212" x="416" y="416"></rect>
+<rect class="s-ink" height="34" width="212" x="416" y="416"></rect>
+<text class="t-lab a-mid" x="522" y="438">목적 그 자체</text>
+<line class="s-sun" marker-end="url(#ah-1005s)" x1="388" x2="412" y1="433" y2="433"></line>
+<text class="t-small a-mid" x="278" y="470">빈 틀이 먼저 놓이고</text>
+<text class="t-small a-mid" x="522" y="470">내용이 차츰 채운다</text>
+</svg></g></g></g></g></svg>

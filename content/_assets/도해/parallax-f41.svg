@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 362" width="640" height="362" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-sun{stroke:var(--sun)}.s-gap{stroke:var(--gap)}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.f-ink{fill:var(--fg)}.f-sun{fill:var(--sun)}.f-bg2{fill:var(--bg2)}.f-sun-soft{fill:var(--sun);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-sun{fill:var(--sun)}.fig svg .c-gap{fill:var(--gap)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:362px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="신정론의 답들은 주권적 신에서 유한한 신으로, 다시 고통받는 신으로 오르는 계단을 이루고, 각 단의 셋째 칸이 자기 전제를 무너뜨리며 다음 단을 연다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 362" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="ah-802s" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-sun" d="M0 0L10 5L0 10Z"></path></marker>
+</defs>
+<text class="t-small" x="16" y="28">신정론: 전능 · 전선 · 악의 실재 — 답마다 셋 중 하나를 깎는다</text>
+<rect class="s-ink f-bg2" height="44" width="92" x="112" y="280"></rect>
+<rect class="s-ink f-bg2" height="44" width="92" x="204" y="280"></rect>
+<rect class="f-sun-soft" height="44" width="92" x="296" y="280"></rect>
+<path class="s-ink" d="M296 280V324H388V280"></path>
+<path class="s-ink dash" d="M296 280H388"></path>
+<text class="t-lab a-mid" x="158" y="300">죄–벌</text>
+<text class="t-small a-mid" x="158" y="316">지난 죄의 벌</text>
+<text class="t-lab a-mid" x="250" y="300">욥의 시험</text>
+<text class="t-small a-mid" x="250" y="316">믿음의 단련</text>
+<text class="t-lab a-mid" x="342" y="300">신비</text>
+<text class="t-small a-mid" x="342" y="316">공통 척도 없음</text>
+<text class="t-lab a-end c-sun" x="104" y="307">1단 · 주권적 신</text>
+<line class="s-sun" marker-end="url(#ah-802s)" x1="342" x2="342" y1="278" y2="224"></line>
+<text class="t-small a-end" x="330" y="244">신비가 신에게도 신비라면</text>
+<text class="t-small a-end" x="330" y="260">전능이 무너진다</text>
+<rect class="s-ink f-bg2" height="44" width="92" x="296" y="176"></rect>
+<rect class="s-ink f-bg2" height="44" width="92" x="388" y="176"></rect>
+<rect class="f-sun-soft" height="44" width="92" x="480" y="176"></rect>
+<path class="s-ink" d="M480 176V220H572V176"></path>
+<path class="s-ink dash" d="M480 176H572"></path>
+<text class="t-lab a-mid" x="342" y="196">외적 제한</text>
+<text class="t-small a-mid" x="342" y="212">세계의 관성</text>
+<text class="t-lab a-mid" x="434" y="196">자기제한</text>
+<text class="t-small a-mid" x="434" y="212">자유의 값</text>
+<text class="t-lab a-mid" x="526" y="196">이원론</text>
+<text class="t-small a-mid" x="526" y="212">악마와 싸운다</text>
+<text class="t-lab a-end c-sun" x="288" y="203">2단 · 유한한 신</text>
+<path class="s-ink f-bg2" d="M584 190Q602 180 620 190Q620 207 602 214Q584 207 584 190Z"></path>
+<ellipse class="f-ink" cx="595" cy="195" rx="4.5" ry="2.2"></ellipse>
+<ellipse class="f-ink" cx="609" cy="195" rx="4.5" ry="2.2"></ellipse>
+<text class="t-small a-mid" x="602" y="234">악의의 가면</text>
+<text class="t-small a-mid" x="602" y="248">무능을 감춤</text>
+<line class="s-sun" marker-end="url(#ah-802s)" x1="500" x2="500" y1="174" y2="140"></line>
+<text class="t-lab a-end" x="490" y="148">가면을 벗는다</text>
+<text class="t-small a-end" x="490" y="164">감춘 무능 → 드러낸 무능</text>
+<rect class="f-sun-soft" height="80" width="144" x="480" y="56"></rect>
+<path class="s-ink" d="M548 136H480V56H624V136H556"></path>
+<text class="t-lab a-mid" x="552" y="80">무능을 드러낸다</text>
+<text class="t-small a-mid" x="552" y="98">함께 앓는 신 · 본회퍼</text>
+<path class="s-gap w-bold" d="M552 104L547 112L556 120L548 128L552 137"></path>
+<text class="t-small a-mid" x="522" y="128">진리</text>
+<text class="t-small a-mid" x="588" y="128">의미</text>
+<text class="t-small a-end c-gap" x="624" y="46">신 안에서 갈라진 하나</text>
+<text class="t-lab a-end c-sun" x="472" y="101">3단 · 고통받는 신</text>
+<text class="t-small" x="16" y="350">각 단의 셋째 칸이 제 전제를 허물며 다음 단의 바닥이 된다 — 3 + 3 + 1</text>
+</svg></g></g></g></g></svg>

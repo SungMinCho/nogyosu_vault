@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 452" width="640" height="452" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-moon{stroke:var(--moon)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-moon{fill:var(--moon)}.f-moon-soft{fill:var(--moon);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-moon{fill:var(--moon)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:452px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="금지가 환상을 키우고 풀려남이 불안을 낳아 '자유로운' 선택은 귀환으로 기운다 — 그리고 같은 행동도 소속의 양식에서 선택의 양식으로 넘어가면 뜻이 바뀌어 되돌아갈 수 없다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 452" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-1401" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1401n" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-moon" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1401m" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<rect class="f-moon-soft" height="200" width="276" x="24" y="40"></rect>
+<text class="t-lab c-moon" x="36" y="60">공동체</text>
+<line class="s-moon w-bold" x1="300" x2="300" y1="40" y2="100"></line>
+<line class="s-moon w-bold" x1="300" x2="300" y1="190" y2="240"></line>
+<line class="s-moon" x1="300" x2="324" y1="100" y2="76"></line>
+<text class="t-lab" x="308" y="56">③ 풀려남</text>
+<text class="t-lab a-end c-mute" x="624" y="56">잉글리시의 세계</text>
+<path class="s-mute w-thin" d="M300 126L90 126L90 126L88 126.1L86 126.4L84.1 126.9L82.3 127.6L80.5 128.5L78.8 129.6L77.3 130.9L75.9 132.3L74.6 133.8L73.5 135.5L72.6 137.3L71.9 139.1L71.4 141L71.1 143L71 145L71.1 147L71.4 149L71.9 150.9L72.6 152.7L73.5 154.5L74.6 156.2L75.9 157.7L77.3 159.1L78.8 160.4L80.5 161.5L82.3 162.4L84.1 163.1L86 163.6L88 163.9L90 164L90 164L300 164"></path>
+<path class="s-mute w-thin" d="M300 110L90 110L90 110L86.3 110.2L82.7 110.8L79.2 111.7L75.8 113L72.5 114.7L69.4 116.7L66.6 119L64 121.6L61.7 124.4L59.7 127.5L58 130.8L56.7 134.2L55.8 137.7L55.2 141.3L55 145L55.2 148.7L55.8 152.3L56.7 155.8L58 159.2L59.7 162.5L61.7 165.6L64 168.4L66.6 171L69.4 173.3L72.5 175.3L75.8 177L79.2 178.3L82.7 179.2L86.3 179.8L90 180L90 180L300 180"></path>
+<text class="t-lab" x="150" y="150">① 규율</text>
+<text class="t-small" x="36" y="226">한계는 공동체가 바깥에서 걸어 준다</text>
+<circle class="s-moon w-thin dot" cx="150" cy="100" r="4"></circle>
+<circle class="s-moon w-thin dot" cx="186" cy="97" r="7"></circle>
+<circle class="s-moon w-thin dot" cx="226" cy="93" r="11"></circle>
+<circle class="s-moon w-thin dot" cx="272" cy="88" r="16"></circle>
+<text class="t-lab" x="36" y="96">② 환상 축적</text>
+<path class="s-moon w-bold" d="M90 118L260 118" marker-end="url(#ah-1401n)"></path>
+<line class="s-moon w-bold" x1="258" x2="304" y1="118" y2="118"></line>
+<path class="s-moon w-bold" d="M304 118L304.7 116.3L305.5 115.6L306.4 115L307.3 114.6L308.3 114.2L309.3 113.9L310.3 113.6L311.4 113.4L312.5 113.2L313.6 113.1L314.7 113.1L315.8 113.1L317 113.1L318.1 113.2L319.3 113.4L320.5 113.6L321.6 113.8L322.7 114.1L323.9 114.5L325 114.9L326 115.3L327.1 115.8L328.1 116.3L329.1 116.9L330 117.5L330.9 118.2L331.8 118.9L332.6 119.6L333.4 120.3L334.1 121.1L334.7 121.9L335.3 122.7L335.9 123.5L336.3 124.3L336.7 125.1L337.1 125.9L337.4 126.7L337.6 127.5L337.8 128.3L337.9 129L338 129.7L338 130.4L337.9 131.1L337.8 131.7L337.6 132.2L337.4 132.7L337.2 133.2L336.9 133.6L336.6 133.9L336.2 134.2L335.9 134.4L335.5 134.5L335.1 134.6L334.7 134.6L334.2 134.6L333.8 134.4L333.4 134.2L333 133.9L332.6 133.6L332.2 133.2L331.9 132.7L331.6 132.1L331.3 131.5L331.1 130.8L330.9 130.1L330.8 129.3L330.7 128.4L330.6 127.6L330.7 126.6L330.8 125.6L330.9 124.6L331.1 123.6L331.4 122.5L331.8 121.5L332.3 120.4L332.8 119.3L333.4 118.2L334 117.1L334.8 116L335.6 114.9L336.5 113.8L337.4 112.8L338.4 111.7L339.5 110.7L340.7 109.8L341.9 108.9L343.1 108L344.4 107.2L345.8 106.4L347.2 105.7L348.7 105.1L350.1 104.5L351.7 103.9L353.2 103.4L354.8 103L356.4 102.7L358 102.4L359.6 102.2L361.2 102L362.8 102L364.5 102L366.1 102L367.7 102.1L369.2 102.3L370.8 102.5L372.3 102.8L373.8 103.2L375.3 103.5L376.7 104L378.1 104.5L379.5 105L380.8 105.6L382.1 106.2L383.3 106.9L384.5 107.5L385.6 108.2L386.7 109L387.8 109.7L388.7 110.5L389.7 111.3L390.6 112L391.4 112.8L392.2 113.6L392.9 114.4L393.6 115.2L394.2 116L394.8 116.8L395.4 117.6L395.9 118.3L396.3 119.1L396.8 119.8L397.1 120.5L397.5 121.2L397.8 121.8L398.1 122.5L398.3 123.1L398.5 123.7L398.7 124.2L398.9 124.8L399 125.3L399.1 125.7L399.2 126.2L399.2 126.6L399.3 126.9L399.3 127.3L399.4 127.6L399.4 127.9L399.4 128.1L399.3 128.3L399.3 128.5L399.3 128.6L399.2 128.7L399.2 128.8L399.2 128.9L399.1 128.9L399.1 128.8L399 128.8L399 128.7L398.9 128.5L398.9 128.4L398.9 128.2L398.8 127.9L398.8 127.6L398.8 127.3L398.9 127L398.9 126.6L398.9 126.2L399 125.7L399.1 125.3L399.2 124.8L399.3 124.2L399.5 123.6L399.7 123L399.9 122.4L400.1 121.7L400.4 121L400.7 120.3L401.1 119.6L401.5 118.8L401.9 118L402.4 117.2L403 116.4L403.5 115.5L404.2 114.7L404.9 113.8L405.6 113L406.4 112.1L407.2 111.2L408.1 110.4L409.1 109.5L410.1 108.7L411.2 107.9L412.3 107.1L413.5 106.3L414.7 105.5L416 104.8L417.3 104.1L418.7 103.5L420.1 102.9L421.6 102.3L423.2 101.8L424.7 101.4L426.3 101L428 100.6L429.6 100.4L431.3 100.2L433.1 100L434.8 99.9L436.6 100L438.3 100L440.1 100.2L441.8 100.4L443.6 100.7L445.3 101.1L447.1 101.5L448.8 102.1L450.4 102.7L452.1 103.4L453.7 104.1L455.2 104.9L456.8 105.8L458.2 106.8L459.6 107.8L460.9 108.8L462.2 109.9L463.4 111.1L464.5 112.3L465.6 113.5L466.5 114.8L467.4 116.1L468.2 117.4L468.9 118.8L469.5 120.1L470.1 121.4L470.5 122.8L470.9 124.1L471.1 125.4L471.3 126.7L471.4 128L471.4 129.2L471.3 130.4L471.2 131.5L471 132.6L470.7 133.6L470.3 134.6L469.9 135.5L469.4 136.3L468.9 137.1L468.3 137.8L467.7 138.4L467 138.9L466.3 139.3L465.6 139.7L464.9 139.9L464.2 140.1L463.4 140.1L462.7 140.1L461.9 140L461.2 139.8L460.5 139.5L459.9 139.2L459.2 138.7L458.6 138.2L458.1 137.6L457.6 136.9L457.1 136.1L456.7 135.3L456.4 134.4L456.2 133.5L456 132.5L455.8 131.5L455.8 130.5L455.8 129.4L455.9 128.2L456.1 127.1L456.4 125.9L456.7 124.8L457.1 123.6L457.6 122.4L458.2 121.3L458.9 120.1L459.6 119L460.4 117.8L461.3 116.8L462.3 115.7L463.3 114.7L464.4 113.7L465.5 112.8L466.7 111.9L467.9 111L469.2 110.3L470.5 109.5L471.9 108.9L473.3 108.3L474.7 107.7L476.1 107.2L477.6 106.8L479 106.4L480.5 106.1L482 105.9L483.5 105.7L485 105.6L486.4 105.5L487.9 105.5L489.3 105.6L490.7 105.7L492.1 105.8L493.5 106L494.9 106.3L496.2 106.6L497.4 106.9L498.7 107.2L499.9 107.6L501.1 108.1L502.2 108.5L503.3 109L504.3 109.5L505.3 110L506.3 110.5L507.2 111L508.1 111.6L508.9 112.1L509.7 112.6L510.5 113.2L511.2 113.7L511.9 114.2L512.5 114.7L513.1 115.2L513.7 115.7L514.2 116.2L514.8 116.6L515.3 117.1L515.7 117.5L516.2 117.9L516.6 118.3L517 118.6L517.4 118.9L517.8 119.2L518.1 119.5L518.5 119.7L518.8 120L519.1 120.2L519.5 120.3L519.8 120.5L520.1 120.6L520.4 120.7L520.8 120.7L521.1 120.8L521.4 120.8L521.7 120.7L522.1 120.7L522.5 120.6L522.8 120.5L523.2 120.4L523.6 120.2L524 120L524.5 119.8L524.9 119.4L525.4 119L526 118"></path>
+<text class="t-lab a-mid" x="440" y="62">④ 한계 없는 향락</text>
+<text class="t-small a-mid" x="440" y="78">'다 해 보기'</text>
+<path class="s-moon w-bold" d="M526 118L526.5 117.9L527.1 117.8L527.6 117.6L528.2 117.5L528.7 117.5L529.2 117.8L529.7 118.1L530.2 118.6L530.6 119.2L531 119.6L531.5 119.9L532 120L532.6 119.8L533.2 119.4L533.9 118.9L534.7 118.3L535.4 118L536 117.9L536.5 118.1L536.9 118.7L537.1 119.6L537.2 120.6L537.3 121.7L537.4 122.7L537.6 123.3L538 123.6L538.6 123.5L539.5 123L540.5 122.4L541.6 121.7L542.6 121.1L543.5 120.9L544.1 121.1L544.3 121.7L544.2 122.8L543.9 124.1L543.3 125.5L542.9 126.7L542.6 127.7L542.7 128.3L543.2 128.5L544.2 128.2L545.5 127.7L547 127.1L548.4 126.6L549.7 126.3L550.5 126.5L550.8 127L550.5 127.9L549.7 129.2L548.6 130.5L547.5 131.8L546.6 132.9L546.1 133.7L546.3 134.2L547.1 134.2L548.5 134.1L550.2 133.8L552.1 133.6L553.7 133.5L554.9 133.7L555.3 134.2L555.1 134.9L554.1 135.9L552.6 136.9L551 137.9L549.5 138.9L548.4 139.6L548.1 140.2L548.5 140.5L549.6 140.8L551.3 141L553.3 141.2L555.1 141.6L556.6 142L557.3 142.5L557.3 143.2L556.4 143.8L554.9 144.4L553 145L551.1 145.5L549.6 145.9L548.6 146.3L548.5 146.8L549.2 147.3L550.5 147.9L552.2 148.6L554 149.4L555.5 150.3L556.5 151.1L556.7 151.7L556.1 152.2L554.8 152.5L553 152.6L551 152.6L549.3 152.6L548 152.6L547.3 152.9L547.4 153.4L548.2 154.2L549.4 155.2L550.8 156.4L552.1 157.7L553 158.8L553.3 159.6L553 160.1L552 160.2L550.6 160L548.9 159.6L547.2 159.2L545.8 158.8L544.9 158.7L544.6 159L544.7 159.8L545.3 160.8L546.1 162.2L546.9 163.6L547.5 164.9L547.7 165.9L547.5 166.5L546.8 166.7L545.8 166.4L544.5 165.8L543.2 165.2L542 164.5L541.1 164.2L540.5 164.1L540.2 164.6L540.2 165.4L540.4 166.6L540.6 167.8L540.7 169.1L540.7 170.1L540.4 170.7L539.9 170.9L539.1 170.8L538.3 170.3L537.4 169.7L536.5 169.1L535.8 168.6L535.2 168.4L534.7 168.5L534.3 169L534 169.7L533.7 170.5L533.4 171.3L533.1 172L532.6 172.5L532.1 172.7L531.5 172.6L530.9 172.3L530.3 172L529.7 171.6L529.1 171.4L528.6 171.3L528.1 171.3L527.6 171.5L527 171.7L526.5 171.9L526 172"></path>
+<text class="t-lab" x="562" y="116">⑤ 불안</text>
+<line class="s-ink w-thin" marker-end="url(#ah-1401)" x1="551.9" x2="624" y1="161.3" y2="208"></line>
+<text class="t-lab a-end" x="624" y="228">약 10~15%</text>
+<text class="t-small a-end" x="624" y="244">떠나 잉글리시로</text>
+<line class="s-moon w-bold" marker-end="url(#ah-1401n)" x1="526" x2="420" y1="172" y2="172"></line>
+<line class="s-moon w-bold" marker-end="url(#ah-1401n)" x1="422" x2="150" y1="172" y2="172"></line>
+<line class="s-moon w-bold" x1="152" x2="90" y1="172" y2="172"></line>
+<path class="s-moon w-bold" d="M90 172L87.2 171.9L84.4 171.4L81.7 170.7L79 169.7L76.5 168.4L74.1 166.8L71.9 165.1L69.9 163.1L68.2 160.9L66.6 158.5L65.3 156L64.3 153.3L63.6 150.6L63.1 147.8L63 145L63.1 142.2L63.6 139.4L64.3 136.7L65.3 134L66.6 131.5L68.2 129.1L69.9 126.9L71.9 124.9L74.1 123.2L76.5 121.6L79 120.3L81.7 119.3L84.4 118.6L87.2 118.1L90 118" marker-end="url(#ah-1401n)"></path>
+<text class="t-lab a-mid c-moon" x="400" y="196">귀환 85~90%</text>
+<text class="t-small a-mid" x="400" y="212">'선택한' 신앙이라는 도장</text>
+<line class="s-mute w-thin" x1="16" x2="624" y1="262" y2="262"></line>
+<text class="t-lab c-mute" x="16" y="290">선택 이전에 놓인 양식 — 메타선택</text>
+<rect class="s-mute w-thin" height="118" width="256" x="24" y="302"></rect>
+<rect class="s-mute w-thin" height="118" width="256" x="360" y="302"></rect>
+<text class="t-lab c-moon" x="36" y="324">소속의 양식</text>
+<text class="t-small" x="36" y="340">삶의 형식 그 자체</text>
+<line class="s-mute w-thin" x1="30" x2="274" y1="398" y2="398"></line>
+<path class="s-moon" d="M46 378L84 370L124 382L176 368L224 380L258 372"></path>
+<path class="s-moon w-thin" d="M46 378L124 382L224 380"></path>
+<path class="s-moon w-thin" d="M84 370L176 368L258 372"></path>
+<line class="s-mute w-thin" x1="46" x2="46" y1="378" y2="398"></line>
+<line class="s-mute w-thin" x1="46" x2="40" y1="398" y2="410"></line>
+<line class="s-mute w-thin" x1="46" x2="53" y1="398" y2="412"></line>
+<circle class="f-mute" cx="46" cy="378" r="3"></circle>
+<line class="s-mute w-thin" x1="84" x2="84" y1="370" y2="398"></line>
+<line class="s-mute w-thin" x1="84" x2="78" y1="398" y2="410"></line>
+<line class="s-mute w-thin" x1="84" x2="91" y1="398" y2="412"></line>
+<circle class="f-moon" cx="84" cy="370" r="5"></circle>
+<line class="s-mute w-thin" x1="124" x2="124" y1="382" y2="398"></line>
+<line class="s-mute w-thin" x1="124" x2="118" y1="398" y2="410"></line>
+<line class="s-mute w-thin" x1="124" x2="131" y1="398" y2="412"></line>
+<circle class="f-mute" cx="124" cy="382" r="3"></circle>
+<line class="s-mute w-thin" x1="176" x2="176" y1="368" y2="398"></line>
+<line class="s-mute w-thin" x1="176" x2="170" y1="398" y2="410"></line>
+<line class="s-mute w-thin" x1="176" x2="183" y1="398" y2="412"></line>
+<circle class="f-moon" cx="176" cy="368" r="5"></circle>
+<line class="s-mute w-thin" x1="224" x2="224" y1="380" y2="398"></line>
+<line class="s-mute w-thin" x1="224" x2="218" y1="398" y2="410"></line>
+<line class="s-mute w-thin" x1="224" x2="231" y1="398" y2="412"></line>
+<circle class="f-mute" cx="224" cy="380" r="3"></circle>
+<line class="s-mute w-thin" x1="258" x2="258" y1="372" y2="398"></line>
+<line class="s-mute w-thin" x1="258" x2="252" y1="398" y2="410"></line>
+<line class="s-mute w-thin" x1="258" x2="265" y1="398" y2="412"></line>
+<circle class="f-mute" cx="258" cy="372" r="3"></circle>
+<text class="t-lab a-mid" x="84" y="360">베일</text>
+<text class="t-lab a-mid" x="176" y="358">중국 음식</text>
+<path class="s-mute w-thin" d="M258 398L266 406L314 406"></path>
+<text class="t-lab c-moon" x="372" y="324">선택의 양식</text>
+<rect class="s-ink w-thin" height="10" width="10" x="374" y="336"></rect>
+<path class="s-moon" d="M375 340L379 345L387 333"></path>
+<text class="t-lab" x="394" y="346">중국 음식</text>
+<rect class="s-ink w-thin" height="10" width="10" x="374" y="355"></rect>
+<text class="t-lab c-mute" x="394" y="365">파스타</text>
+<rect class="s-ink w-thin" height="10" width="10" x="374" y="374"></rect>
+<path class="s-moon" d="M375 378L379 383L387 371"></path>
+<text class="t-lab" x="394" y="384">베일</text>
+<rect class="s-ink w-thin" height="10" width="10" x="374" y="393"></rect>
+<text class="t-lab c-mute" x="394" y="403">베일 없이</text>
+<text class="t-lab a-end" x="604" y="346">같은 접시,</text>
+<text class="t-lab a-end" x="604" y="364">다른 뜻</text>
+<text class="t-small a-end" x="604" y="384">개성의 장신구</text>
+<text class="t-small a-end" x="604" y="400">차림표의 한 항목</text>
+<line class="s-gap w-bold" x1="320" x2="320" y1="296" y2="426"></line>
+<line class="s-gap w-thin" x1="314" x2="326" y1="396" y2="404"></line>
+<line class="s-gap w-thin" x1="314" x2="326" y1="408" y2="416"></line>
+<text class="t-lab a-mid c-gap" x="320" y="290">뿌리 뽑힘</text>
+<line class="s-ink" marker-end="url(#ah-1401)" x1="282" x2="368" y1="318" y2="318"></line>
+<line class="s-ink dash" x1="372" x2="334" y1="412" y2="412"></line>
+<line class="s-ink" x1="332" x2="332" y1="405" y2="419"></line>
+<text class="t-lab a-mid" x="330" y="444">근본주의 낙인</text>
+<line class="s-mute w-thin dot" x1="352" x2="352" y1="418" y2="430"></line>
+</svg></g></g></g></g></svg>

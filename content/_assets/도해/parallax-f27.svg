@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 404" width="640" height="404" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-star{stroke:var(--star)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-star{fill:var(--star)}.f-bg2{fill:var(--bg2)}.f-star-soft{fill:var(--star);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-star{fill:var(--star)}.fig svg .c-gap{fill:var(--gap)}.fig svg .a-mid{text-anchor:middle}svg.pz-root{width:640px!important;height:404px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="헤겔적 화해는 두 항을 잇는 다리가 아니라 둘을 가르던 간극을 한 항 안으로 옮기는 것이다 — 신과 인간 사이의 벽이 십자가에서 성부와 성자 사이의 칸막이가 되고, 비극의 배우-인물 간극이 희극에서 인물 안의 '자기를 보는 눈'이 된다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 404" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-503" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-503m" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-503s" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-star" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<text class="t-lab a-mid" x="134" y="26">두 항 사이의 벽</text>
+<rect class="s-ink f-bg2" height="80" width="88" x="24" y="60"></rect>
+<text class="t-lab a-mid" x="68" y="105.0">신</text>
+<rect class="s-ink f-bg2" height="80" width="88" x="156" y="60"></rect>
+<text class="t-lab a-mid" x="200" y="105.0">인간</text>
+<path class="s-mute w-thin" d="M124.0 67.6L131.6 60.0M124.0 76.1L140.1 60.0M124.0 84.5L144.0 64.5M124.0 93.0L144.0 73.0M124.0 101.5L144.0 81.5M124.0 110.0L144.0 90.0M124.0 118.5L144.0 98.5M124.0 127.0L144.0 107.0M124.0 135.5L144.0 115.5M127.9 140.0L144.0 123.9M136.4 140.0L144.0 132.4"></path>
+<path class="s-mute" d="M124 60V140M144 60V140"></path>
+<text class="t-small a-mid" x="134" y="160">간극</text>
+<line class="s-ink" marker-end="url(#ah-503)" x1="258" x2="384" y1="100.0" y2="100.0"></line>
+<text class="t-lab a-mid" x="320" y="90.0">십자가</text>
+<text class="t-small a-mid" x="320" y="122.0">어찌하여 나를</text>
+<text class="t-small a-mid" x="320" y="138.0">버리셨나이까</text>
+<text class="t-lab a-mid" x="500" y="26">한 항(신) 안의 칸막이</text>
+<rect class="s-ink f-star-soft" height="80" width="200" x="400" y="60"></rect>
+<path class="s-mute dot" d="M134 56Q317 14 500 56" marker-end="url(#ah-503m)"></path>
+<text class="t-small a-mid" x="317" y="52">간극이 이사 간다</text>
+<text class="t-lab a-mid" x="450" y="105.0">성부</text>
+<text class="t-lab a-mid" x="550" y="105.0">성자</text>
+<path class="s-gap w-bold" d="M496 60V140M504 60V140"></path>
+<text class="t-lab a-mid c-gap" x="500" y="160">간극은 그대로 — 자리만 옮겼다</text>
+<text class="t-small a-mid" x="500" y="178">버림받은 인간 = 버림받은 성자</text>
+<line class="s-mute w-thin dot" x1="24" x2="616" y1="210" y2="210"></line>
+<text class="t-lab a-mid" x="134" y="238">비극 — 배우가 인물을 표상</text>
+<rect class="s-ink f-bg2" height="80" width="88" x="24" y="272"></rect>
+<text class="t-lab a-mid" x="68" y="317.0">배우</text>
+<rect class="s-ink f-bg2" height="80" width="88" x="156" y="272"></rect>
+<text class="t-lab a-mid" x="200" y="317.0">인물</text>
+<path class="s-mute w-thin" d="M124.0 279.6L131.6 272.0M124.0 288.1L140.1 272.0M124.0 296.5L144.0 276.5M124.0 305.0L144.0 285.0M124.0 313.5L144.0 293.5M124.0 322.0L144.0 302.0M124.0 330.5L144.0 310.5M124.0 339.0L144.0 319.0M124.0 347.5L144.0 327.5M127.9 352.0L144.0 335.9M136.4 352.0L144.0 344.4"></path>
+<path class="s-mute" d="M124 272V352M144 272V352"></path>
+<text class="t-small a-mid" x="134" y="372">가면</text>
+<line class="s-ink" marker-end="url(#ah-503)" x1="258" x2="384" y1="312.0" y2="312.0"></line>
+<text class="t-lab a-mid" x="320" y="302.0">희극</text>
+<text class="t-small a-mid" x="320" y="334.0">가면을</text>
+<text class="t-small a-mid" x="320" y="350.0">내려놓다</text>
+<text class="t-lab a-mid" x="500" y="238">희극 — 배우가 곧 인물</text>
+<rect class="s-ink f-star-soft" height="80" width="200" x="400" y="272"></rect>
+<path class="s-mute dot" d="M134 268Q335 226 536 268" marker-end="url(#ah-503m)"></path>
+<text class="t-small a-mid" x="335" y="264">간극이 이사 간다</text>
+<text class="t-lab a-mid" x="466" y="317.0">인물</text>
+<line class="s-star dash" x1="536" x2="536" y1="280" y2="344"></line>
+<path class="s-star" d="M558 312.0Q572 301.0 586 312.0Q572 323.0 558 312.0Z"></path>
+<circle class="f-star" cx="567" cy="312.0" r="3.6"></circle>
+<path class="s-star w-thin" d="M556 326.0Q522 346.0 488 328.0" marker-end="url(#ah-503s)"></path>
+<text class="t-lab a-mid c-star" x="500" y="372">자기를 바깥에서 보는 눈</text>
+<text class="t-small a-mid" x="500" y="390">카메라 응시 — 인물 자신의 자기 소외</text>
+</svg></g></g></g></g></svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 272" width="640" height="272" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-gap-soft{fill:var(--gap);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .t-big{font-size:17px;font-weight:600}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:272px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="같은 '거절되라고 짠 선물'이 오언 미니에게선 돌려줌의 칸에 연대를 낳고, 밀리에게선 어느 칸에서나 유죄를 낳는다 — 거절이 곧 소급적 자백이 되는 자리" class="pz-inner" height="100%" role="img" viewBox="0 0 640 272" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-602" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<text class="t-lab a-mid" x="160" y="26">오언 미니의 사진첩</text>
+<text class="t-small a-mid" x="210" y="50">대타자에게 적히는 뜻</text>
+<circle class="f-ink" cx="30" cy="118" r="5"></circle>
+<circle class="f-ink" cx="86" cy="118" r="5"></circle>
+<line class="s-ink" marker-end="url(#ah-602)" x1="37" x2="78" y1="118" y2="118"></line>
+<text class="t-lab a-mid" x="57" y="106">사진첩</text>
+<text class="t-lab a-mid" x="30" y="144">오언</text>
+<text class="t-lab a-mid" x="86" y="144">존</text>
+<path class="s-ink w-thin" d="M92 114L126 84" marker-end="url(#ah-602)"></path>
+<path class="s-ink w-thin" d="M92 122L126 152" marker-end="url(#ah-602)"></path>
+<rect class="s-ink" height="48" width="160" x="130" y="58"></rect>
+<text class="t-lab c-mute" x="140" y="78">받음</text>
+<text class="t-big a-end" x="280" y="80">−</text>
+<text class="t-lab" x="140" y="98">관계가 거래로</text>
+<path class="s-ink" d="M290 130H130V178H290"></path>
+<text class="t-lab c-mute" x="140" y="150">돌려줌</text>
+<text class="t-big a-end" x="280" y="152">+</text>
+<text class="t-lab" x="140" y="170">연대의 협약</text>
+<line class="s-ink w-bold" marker-end="url(#ah-602)" x1="236" x2="306" y1="166" y2="166"></line>
+<text class="t-small a-end" x="298" y="194">출구</text>
+<text class="t-small a-mid" x="200" y="210">물건은 제자리, 마음은 오갔다</text>
+<text class="t-lab a-mid" x="210" y="234">칸 둘 · 출구 하나</text>
+<line class="s-mute dot" x1="320" x2="320" y1="40" y2="242"></line>
+<text class="t-lab a-mid" x="480" y="26">밀리의 유증</text>
+<text class="t-small a-mid" x="530" y="50">대타자에게 적히는 뜻</text>
+<circle class="s-ink" cx="350" cy="118" r="5"></circle>
+<circle class="f-ink" cx="406" cy="118" r="5"></circle>
+<line class="s-ink" marker-end="url(#ah-602)" x1="357" x2="398" y1="118" y2="118"></line>
+<text class="t-lab a-mid" x="377" y="106">유증</text>
+<text class="t-lab a-mid" x="350" y="144">밀리</text>
+<text class="t-lab a-mid" x="406" y="144">덴셔</text>
+<path class="s-ink w-thin" d="M412 114L446 84" marker-end="url(#ah-602)"></path>
+<path class="s-ink w-thin" d="M412 122L446 152" marker-end="url(#ah-602)"></path>
+<rect class="s-ink" height="48" width="160" x="450" y="58"></rect>
+<text class="t-lab c-mute" x="460" y="78">받음</text>
+<text class="t-big a-end" x="600" y="80">−</text>
+<text class="t-lab" x="460" y="98">속인 자의 이득</text>
+<rect class="s-gap w-bold f-gap-soft" height="48" width="160" x="450" y="130"></rect>
+<text class="t-lab c-mute" x="460" y="150">돌려줌</text>
+<text class="t-big a-end c-gap" x="600" y="152">−</text>
+<text class="t-lab c-gap" x="460" y="170">자격 없음을 자인</text>
+<text class="t-lab a-mid c-gap" x="530" y="206">거절이 곧 소급적 자백</text>
+<text class="t-lab a-mid" x="530" y="234">칸 둘 · 출구 없음 — 판결</text>
+<text class="t-small a-mid" x="320" y="264">겉모양은 같다: 둘 다 거절되라고 짠 선물</text>
+</svg></g></g></g></g></svg>

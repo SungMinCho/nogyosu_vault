@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 482" width="640" height="482" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-moon{stroke:var(--moon)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-moon{fill:var(--moon)}.f-moon-soft{fill:var(--moon);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .t-it{font-family:"Literata",Georgia,serif;font-style:italic}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:482px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="겉으로 폭력적인 분출이 실은 아무것도 바꾸지 못하는 무력함이고, 겉으로 수동적인 물러남이 좌표를 바꿀 자리를 여는 가장 급진적인 몸짓이다 — '두 죽음 사이'와 같은 교차의 논리" class="pz-inner" height="100%" role="img" viewBox="0 0 640 482" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-1404" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1404n" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-moon" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1404m" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<rect class="f-moon-soft" height="140" width="250" x="120" y="60"></rect>
+<rect class="f-moon-soft" height="140" width="250" x="370" y="200"></rect>
+<rect class="s-ink w-thin" height="280" width="500" x="120" y="60"></rect>
+<line class="s-mute w-thin" x1="370" x2="370" y1="60" y2="340"></line>
+<line class="s-mute w-thin" x1="120" x2="620" y1="200" y2="200"></line>
+<text class="t-small" x="16" y="52">겉모습 \ 효과</text>
+<text class="t-lab a-mid" x="245" y="34">아무것도 안 바뀜</text>
+<text class="t-small a-mid" x="245" y="50">좌표 그대로</text>
+<text class="t-lab a-mid" x="495" y="34">자리를 엶</text>
+<text class="t-small a-mid" x="495" y="50">좌표를 바꿀 빈자리</text>
+<text class="t-lab" x="16" y="128">능동 · 폭력</text>
+<text class="t-small" x="16" y="144">바쁨 · 분출</text>
+<text class="t-lab" x="16" y="268">수동</text>
+<text class="t-small" x="16" y="284">물러남</text>
+<line class="s-mute w-thin" x1="272" x2="272" y1="100" y2="184"></line>
+<line class="s-mute w-thin" x1="272" x2="356" y1="100" y2="100"></line>
+<line class="s-mute w-thin" x1="293" x2="293" y1="100" y2="184"></line>
+<line class="s-mute w-thin" x1="272" x2="356" y1="121" y2="121"></line>
+<line class="s-mute w-thin" x1="314" x2="314" y1="100" y2="184"></line>
+<line class="s-mute w-thin" x1="272" x2="356" y1="142" y2="142"></line>
+<line class="s-mute w-thin" x1="335" x2="335" y1="100" y2="184"></line>
+<line class="s-mute w-thin" x1="272" x2="356" y1="163" y2="163"></line>
+<line class="s-mute w-thin" x1="356" x2="356" y1="100" y2="184"></line>
+<line class="s-mute w-thin" x1="272" x2="356" y1="184" y2="184"></line>
+<path class="s-ink" d="M296.9 117.9L332.2 150.3L298.9 161.8L330.2 111.2L295.8 168.4L328.4 127.7L288.9 141.9L327.5 134.8L292.3 171L337.9 160.9L298.3 120.5L336.4 157L286.3 163.6L329.3 109.7L296.6 166.4L345.9 128.1L290.7 113.3"></path>
+<text class="t-lab" x="132" y="86">① 가짜 능동성</text>
+<text class="t-small" x="132" y="106">학계의 럼스프링가</text>
+<text class="t-small" x="132" y="122">《택시 드라이버》</text>
+<text class="t-small" x="132" y="138">「단추」</text>
+<text class="t-small" x="132" y="154">행위로의 이행</text>
+<line class="s-mute w-thin" x1="272" x2="272" y1="240" y2="324"></line>
+<line class="s-mute w-thin" x1="272" x2="356" y1="240" y2="240"></line>
+<line class="s-mute w-thin" x1="293" x2="293" y1="240" y2="324"></line>
+<line class="s-mute w-thin" x1="272" x2="356" y1="261" y2="261"></line>
+<line class="s-mute w-thin" x1="314" x2="314" y1="240" y2="324"></line>
+<line class="s-mute w-thin" x1="272" x2="356" y1="282" y2="282"></line>
+<line class="s-mute w-thin" x1="335" x2="335" y1="240" y2="324"></line>
+<line class="s-mute w-thin" x1="272" x2="356" y1="303" y2="303"></line>
+<line class="s-mute w-thin" x1="356" x2="356" y1="240" y2="324"></line>
+<line class="s-mute w-thin" x1="272" x2="356" y1="324" y2="324"></line>
+<circle class="f-ink" cx="293" cy="282" r="3.2"></circle>
+<circle class="f-ink" cx="293" cy="303" r="3.2"></circle>
+<circle class="f-ink" cx="314" cy="282" r="3.2"></circle>
+<circle class="f-ink" cx="314" cy="303" r="3.2"></circle>
+<circle class="f-ink" cx="335" cy="282" r="3.2"></circle>
+<circle class="f-ink" cx="335" cy="303" r="3.2"></circle>
+<text class="t-lab" x="132" y="226">③ 비폭력</text>
+<text class="t-small" x="132" y="246">양심 없는 상대 앞</text>
+<text class="t-small" x="132" y="262">사티아그라하의 한계</text>
+<line class="s-mute w-thin" x1="522" x2="522" y1="240" y2="324"></line>
+<line class="s-mute w-thin" x1="522" x2="606" y1="240" y2="240"></line>
+<line class="s-mute w-thin" x1="543" x2="543" y1="240" y2="324"></line>
+<line class="s-mute w-thin" x1="522" x2="558.4" y1="261" y2="261"></line>
+<line class="s-mute w-thin" x1="581.6" x2="606" y1="261" y2="261"></line>
+<line class="s-mute w-thin" x1="564" x2="564" y1="240" y2="258.8"></line>
+<line class="s-mute w-thin" x1="564" x2="564" y1="305.2" y2="324"></line>
+<line class="s-mute w-thin" x1="522" x2="546" y1="282" y2="282"></line>
+<line class="s-mute w-thin" x1="594" x2="606" y1="282" y2="282"></line>
+<line class="s-mute w-thin" x1="585" x2="585" y1="240" y2="263.3"></line>
+<line class="s-mute w-thin" x1="585" x2="585" y1="300.7" y2="324"></line>
+<line class="s-mute w-thin" x1="522" x2="558.4" y1="303" y2="303"></line>
+<line class="s-mute w-thin" x1="581.6" x2="606" y1="303" y2="303"></line>
+<line class="s-mute w-thin" x1="606" x2="606" y1="240" y2="324"></line>
+<line class="s-mute w-thin" x1="522" x2="606" y1="324" y2="324"></line>
+<circle class="s-moon dash" cx="570" cy="282" r="24"></circle>
+<circle class="s-mute w-thin" cx="570" cy="282" r="3.2"></circle>
+<line class="s-mute w-thin" marker-end="url(#ah-1404m)" x1="564" x2="540" y1="282" y2="282"></line>
+<circle class="f-moon" cx="534" cy="282" r="4"></circle>
+<text class="t-lab" x="382" y="226">② 바틀비</text>
+<text class="t-small t-it" x="382" y="246">I would prefer not to</text>
+<text class="t-small" x="382" y="262">참여에서 물러남</text>
+<rect class="s-gap dash" height="124" width="234" x="378" y="68"></rect>
+<text class="t-lab c-gap" x="382" y="86">④ 진짜 행위</text>
+<text class="t-small" x="382" y="106">비워 둠</text>
+<text class="t-small" x="382" y="122">좌표 자체를 바꾸는 자리</text>
+<line class="s-ink dot" marker-end="url(#ah-1404)" x1="570" x2="570" y1="234" y2="162"></line>
+<text class="t-small a-end" x="562" y="224">바틀비 이후</text>
+<text class="t-lab c-mute" x="16" y="372">같은 교차 — '두 죽음 사이'</text>
+<text class="t-small a-mid" x="245" y="388">몸은 죽음</text>
+<text class="t-small a-mid" x="495" y="388">몸은 삶</text>
+<rect class="f-moon-soft" height="36" width="250" x="120" y="396"></rect>
+<rect class="f-moon-soft" height="36" width="250" x="370" y="432"></rect>
+<rect class="s-ink w-thin" height="72" width="500" x="120" y="396"></rect>
+<line class="s-mute w-thin" x1="370" x2="370" y1="396" y2="468"></line>
+<line class="s-mute w-thin" x1="120" x2="620" y1="432" y2="432"></line>
+<text class="t-lab" x="16" y="419">상징적 삶</text>
+<text class="t-lab" x="16" y="455">상징적 죽음</text>
+<text class="t-lab" x="132" y="419">유령</text>
+<text class="t-small" x="170" y="419">햄릿의 아버지</text>
+<text class="t-lab c-mute" x="382" y="419">산 자</text>
+<text class="t-lab c-mute" x="132" y="455">온전한 죽음</text>
+<text class="t-lab" x="382" y="455">산 채로 묻힘</text>
+<text class="t-small" x="470" y="455">안티고네 · 호모 사케르</text>
+</svg></g></g></g></g></svg>

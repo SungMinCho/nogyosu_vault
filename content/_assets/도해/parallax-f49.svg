@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 436" width="640" height="436" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-bg{fill:var(--bg)}.f-bg2{fill:var(--bg2)}.f-sun-soft{fill:var(--sun);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .t-big{font-size:17px;font-weight:600}.fig svg .t-it{font-family:"Literata",Georgia,serif;font-style:italic}.fig svg .c-sun{fill:var(--sun)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:436px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="투명성 둘과 불투명성 둘이 생성 매체와 의미의 두 층에 엇갈려 놓이고, &quot;나는 [내가 존재함을] 확신한다&quot;의 바깥 '나'가 의미에 내재한 불투명성, 곧 착각의 착각 칸으로 이어진다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 436" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="ah-905" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-905m" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker>
+</defs>
+<text class="t-lab a-mid" x="248" y="32">투명 — 꿰뚫어 봄</text>
+<text class="t-lab a-mid" x="502" y="32">불투명 — 뒤가 막힘</text>
+<text class="t-lab c-sun" x="16" y="102">생성 매체</text>
+<text class="t-small" x="16" y="120">뇌 · 체계</text>
+<text class="t-lab" x="16" y="234">의미 · 현상</text>
+<text class="t-small" x="16" y="252">말 · 얼굴 · 화면</text>
+<rect class="s-mute" height="124" width="244" x="126" y="44"></rect>
+<rect class="s-mute" height="124" width="244" x="380" y="44"></rect>
+<rect class="s-mute" height="124" width="244" x="126" y="176"></rect>
+<rect class="s-mute f-sun-soft" height="124" width="244" x="380" y="176"></rect>
+<text class="t-lab" x="138" y="66">물신적 투명 · PSM</text>
+<rect class="f-bg2" height="52" width="82" x="140" y="82"></rect>
+<path class="s-mute w-thin dot" d="M154 98L178 122L196 96L210 118M178 122L222 110"></path>
+<g class="f-mute"><circle cx="154" cy="98" r="2.6"></circle><circle cx="178" cy="122" r="2.6"></circle><circle cx="196" cy="96" r="2.6"></circle><circle cx="210" cy="118" r="2.6"></circle></g>
+<line class="s-mute w-thin dot" x1="224" x2="246" y1="110" y2="110"></line>
+<circle class="s-ink w-bold" cx="262" cy="110" r="15"></circle>
+<text class="t-lab a-mid" x="262" y="115">나</text>
+<path class="s-ink" d="M329 110Q338 103 347 110Q338 117 329 110Z"></path><circle class="f-ink" cx="338" cy="110" r="2.2"></circle>
+<line class="s-ink" marker-end="url(#ah-905)" x1="326" x2="281" y1="110" y2="110"></line>
+<text class="t-small a-mid" x="181" y="152">만든 과정</text>
+<text class="t-small a-mid" x="300" y="152">보이는 건 '나'뿐</text>
+<text class="t-lab c-sun" x="392" y="66">뇌 과정</text>
+<text class="t-small a-end" x="612" y="66">메칭거는 바깥 '나'를 여기 둠</text>
+<rect class="s-ink f-bg2" height="60" width="100" x="400" y="80"></rect>
+<path class="s-mute w-thin" d="M418 96L440 120L462 92L484 124M440 120L452 106L462 92M426 130L440 120M452 106L484 124"></path>
+<g class="f-mute"><circle cx="418" cy="96" r="2.4"></circle><circle cx="440" cy="120" r="2.4"></circle><circle cx="462" cy="92" r="2.4"></circle><circle cx="484" cy="124" r="2.4"></circle><circle cx="452" cy="106" r="2.4"></circle><circle cx="426" cy="130" r="2.4"></circle></g>
+<path class="s-ink" d="M575 110Q584 103 593 110Q584 117 575 110Z"></path><circle class="f-ink" cx="584" cy="110" r="2.2"></circle>
+<line class="s-ink" x1="572" x2="506" y1="110" y2="110"></line>
+<path class="s-ink w-bold" d="M504 102V118"></path>
+<text class="t-small a-mid" x="540" y="98">바깥에서 봄</text>
+<text class="t-small a-mid" x="450" y="156">열어 보면 뉴런뿐</text>
+<text class="t-lab" x="138" y="198">낱말을 꿰뚫어 봄</text>
+<path class="s-ink" d="M141 236Q150 229 159 236Q150 243 141 236Z"></path><circle class="f-ink" cx="150" cy="236" r="2.2"></circle>
+<rect class="s-mute dot" height="28" width="38" x="194" y="222"></rect>
+<line class="s-ink" marker-end="url(#ah-905)" x1="162" x2="298" y1="236" y2="236"></line>
+<text class="t-lab a-mid c-mute" x="213" y="241">낱말</text>
+<text class="t-lab" x="304" y="241">뜻</text>
+<line class="s-mute dash" marker-end="url(#ah-905m)" x1="326" x2="376" y1="236" y2="236"></line>
+<text class="t-small" x="138" y="272">되뇌면 깨진다 — 의미 포화</text>
+<text class="t-small" x="138" y="290">닿은 뜻은 새 불투명을 낳는다</text>
+<path class="s-mute dash" d="M398 214V186M454 214V186M398 262V292M454 262V292"></path>
+<path class="s-mute w-thin dash" d="M404 194H446M404 203H436M404 273H442M404 282H430"></path>
+<rect class="s-ink f-bg" height="48" width="56" x="398" y="214"></rect>
+<path class="s-ink w-thin" d="M404 224H448M404 232H440M404 240H446M404 248H432M404 256H444"></path>
+<text class="t-lab c-sun" x="472" y="200">착각의 착각</text>
+<text class="t-lab" x="472" y="224">가면 · 눈빛 · 스크롤</text>
+<text class="t-small" x="472" y="250">뒤에 무엇이 있다는</text>
+<text class="t-small" x="472" y="266">느낌 자체가 화면의 효과</text>
+<text class="t-small t-it" x="472" y="288">an illusion of illusion</text>
+<path class="s-gap w-bold" d="M154 344V326Q154 320 160 320H422Q428 320 428 314V302"></path>
+<text class="t-lab c-gap" x="440" y="330">같은 불투명 — 케 부오이?</text>
+<text class="t-big" x="146" y="362">나는</text>
+<path class="s-ink" d="M195 344H190V368H195M297 344H302V368H297"></path>
+<text class="t-big" x="198" y="362">내가 존재함을</text>
+<text class="t-big" x="310" y="362">확신한다</text>
+<line class="s-ink w-thin" x1="154" x2="154" y1="372" y2="388"></line>
+<line class="s-ink w-thin" x1="208" x2="208" y1="372" y2="388"></line>
+<text class="t-lab a-end" x="170" y="406">언표행위의 주체</text>
+<text class="t-lab" x="190" y="406">언표의 주체</text>
+<text class="t-small a-end" x="170" y="424">말하는 나 · 불투명</text>
+<text class="t-small" x="190" y="424">말해진 나 · 투명한 자기모델</text>
+</svg></g></g></g></g></svg>

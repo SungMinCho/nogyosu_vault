@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 476" width="640" height="476" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-moon{stroke:var(--moon)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-moon{fill:var(--moon)}.f-bg{fill:var(--bg)}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .t-big{font-size:17px;font-weight:600}.fig svg .c-moon{fill:var(--moon)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:476px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="정상 이데올로기는 믿음을 의례를 거쳐 대타자에게 맡겨 가볍게 하고, 근본주의에서는 그 통로가 끊겨 믿음이 앎이 되어 주체에게 직접 떨어진다 — 진짜 변화는 대타자 칸의 '모른다'가 바뀔 때 온다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 476" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-1405" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1405n" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-moon" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1405m" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<line class="s-mute w-thin" x1="108" x2="624" y1="56" y2="56"></line>
+<line class="s-mute w-thin dash" x1="108" x2="624" y1="150" y2="150"></line>
+<line class="s-mute w-thin dash" x1="108" x2="624" y1="244" y2="244"></line>
+<line class="s-mute w-thin" x1="108" x2="624" y1="338" y2="338"></line>
+<line class="s-mute w-thin" x1="108" x2="108" y1="56" y2="338"></line>
+<line class="s-mute w-thin" x1="280" x2="280" y1="56" y2="338"></line>
+<line class="s-mute w-thin" x1="452" x2="452" y1="56" y2="338"></line>
+<line class="s-mute w-thin" x1="624" x2="624" y1="56" y2="338"></line>
+<text class="t-lab a-mid" x="194" y="42">정상 이데올로기</text>
+<text class="t-lab a-mid" x="366" y="42">근본주의</text>
+<text class="t-lab a-mid" x="538" y="42">닭 · 상품 · 신</text>
+<text class="t-lab" x="16" y="100">대타자</text>
+<text class="t-small" x="16" y="116">대신 믿고 기록</text>
+<text class="t-lab" x="16" y="194">의례</text>
+<text class="t-small" x="16" y="210">무릎 꿇기 · 반복</text>
+<text class="t-lab" x="16" y="288">주체</text>
+<text class="t-small" x="16" y="304">나</text>
+<line class="s-ink w-thin" x1="160" x2="160" y1="150" y2="244"></line>
+<line class="s-ink w-thin" x1="180" x2="180" y1="150" y2="244"></line>
+<line class="s-ink w-thin" x1="160" x2="180" y1="234" y2="234"></line>
+<line class="s-ink w-thin" x1="160" x2="180" y1="222" y2="222"></line>
+<line class="s-ink w-thin" x1="160" x2="180" y1="210" y2="210"></line>
+<line class="s-ink w-thin" x1="160" x2="180" y1="198" y2="198"></line>
+<line class="s-ink w-thin" x1="160" x2="180" y1="186" y2="186"></line>
+<line class="s-ink w-thin" x1="160" x2="180" y1="174" y2="174"></line>
+<line class="s-ink w-thin" x1="160" x2="180" y1="162" y2="162"></line>
+<circle class="s-moon f-bg" cx="170" cy="306" r="9"></circle>
+<line class="s-moon w-bold" marker-end="url(#ah-1405n)" x1="170" x2="170" y1="294" y2="112"></line>
+<circle class="f-moon" cx="170" cy="96" r="12"></circle>
+<text class="t-lab c-moon" x="190" y="92">믿음</text>
+<text class="t-small" x="190" y="108">대신 믿어 줌</text>
+<line class="s-mute w-thin" marker-end="url(#ah-1405m)" marker-start="url(#ah-1405m)" x1="266" x2="266" y1="100" y2="302"></line>
+<text class="t-lab a-end" x="256" y="196">냉소적</text>
+<text class="t-lab a-end" x="256" y="212">거리</text>
+<text class="t-small a-mid" x="170" y="330">잘 안다, 그래도</text>
+<line class="s-ink w-thin" x1="334" x2="334" y1="180" y2="244"></line>
+<line class="s-ink w-thin" x1="354" x2="354" y1="180" y2="244"></line>
+<line class="s-ink w-thin" x1="334" x2="354" y1="234" y2="234"></line>
+<line class="s-ink w-thin" x1="334" x2="354" y1="222" y2="222"></line>
+<line class="s-ink w-thin" x1="334" x2="354" y1="210" y2="210"></line>
+<line class="s-ink w-thin" x1="334" x2="354" y1="198" y2="198"></line>
+<line class="s-ink w-thin" x1="334" x2="354" y1="186" y2="186"></line>
+<path class="s-ink w-thin" d="M330 174L339 170L349 176L358 172"></path>
+<path class="s-ink w-thin" d="M330 180L339 176L349 182L358 178"></path>
+<circle class="s-mute dot" cx="344" cy="96" r="12"></circle>
+<text class="t-small" x="364" y="100">맡길 곳 없음</text>
+<circle class="s-moon f-bg" cx="344" cy="306" r="9"></circle>
+<circle class="f-ink" cx="344" cy="285" r="12"></circle>
+<line class="s-moon w-bold" marker-end="url(#ah-1405n)" x1="344" x2="344" y1="271" y2="190"></line>
+<path class="s-ink w-bold" d="M358 168L362.1 169.9L366 172L369.6 174.1L372.9 176.4L375.9 178.8L378.6 181.4L381.1 184L383.3 186.8L385.2 189.7L386.9 192.7L388.3 195.8L389.4 199L390.2 202.4L390.7 205.9L391 209.5L391 213.2L390.7 217.1L390.2 221L389.3 225.1L388.2 229.3L386.8 233.7L385.2 238.1L383.2 242.7L381 247.4L378.6 252.2L375.8 257.1L372.8 262.1L369.4 267.3L365.9 272.6L362 278" marker-end="url(#ah-1405)"></path>
+<text class="t-lab" x="404" y="216">앎</text>
+<text class="t-small" x="404" y="232">직접 앎</text>
+<text class="t-lab a-mid" x="344" y="332">환상과의 거리 0</text>
+<circle class="s-moon f-bg" cx="500" cy="306" r="9"></circle>
+<text class="t-lab" x="516" y="311">안다</text>
+<text class="t-small a-mid" x="538" y="332">나는 낟알이 아니다</text>
+<line class="s-ink dot" x1="500" x2="500" y1="294" y2="170"></line>
+<text class="t-lab c-mute" x="514" y="200">내 앎은</text>
+<text class="t-lab c-mute" x="514" y="216">닭에 닿지 않는다</text>
+<text class="t-lab" x="490" y="98">모른다</text>
+<text class="t-big c-gap" x="534" y="100">?</text>
+<text class="t-small" x="490" y="118">닭도 압니까?</text>
+<text class="t-small" x="490" y="134">바뀌어야 할 칸</text>
+<line class="s-mute w-thin" x1="16" x2="624" y1="358" y2="358"></line>
+<line class="s-mute dot" x1="108" x2="624" y1="420" y2="420"></line>
+<text class="t-small" x="16" y="424">자각의 선</text>
+<line class="s-moon" marker-end="url(#ah-1405n)" x1="176" x2="323" y1="397" y2="403"></line>
+<line class="s-moon w-bold" marker-end="url(#ah-1405n)" x1="336" x2="493" y1="407" y2="443"></line>
+<path class="s-mute dash" d="M336 404L344.2 402L352.4 399.9L360.6 397.9L368.8 396L377 394.1L385.2 392.2L393.4 390.4L401.6 388.7L409.8 387.1L418 385.6L426.2 384.2L434.4 383L442.6 381.8L450.8 380.8L459 380L467.2 379.3L475.4 378.7L483.6 378.3L491.8 378.1L500 378"></path>
+<circle class="s-mute f-bg" cx="500" cy="378" r="4"></circle>
+<circle class="f-moon" cx="170" cy="396" r="4.5"></circle>
+<circle class="f-moon" cx="330" cy="404" r="4.5"></circle>
+<circle class="f-ink" cx="500" cy="446" r="5"></circle>
+<text class="t-lab a-mid" x="170" y="384">믿는다</text>
+<text class="t-lab a-mid" x="330" y="390">믿는 척</text>
+<text class="t-small" x="512" y="370">산수라면 다시 +</text>
+<text class="t-lab" x="514" y="444">믿는 척하는 척</text>
+<text class="t-lab c-moon" x="514" y="462">= 자각 없이 믿음</text>
+</svg></g></g></g></g></svg>

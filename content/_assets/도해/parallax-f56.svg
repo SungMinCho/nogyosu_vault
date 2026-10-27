@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 400" width="640" height="400" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-moon{stroke:var(--moon)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-moon{fill:var(--moon)}.f-gap{fill:var(--gap)}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-moon{fill:var(--moon)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:400px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="밀네르는 법 하나로 안과 밖을 가르지만, 지젝은 법 이전의 불가능이 금지로 번역되어 '금지만 없으면'이라는 환상을 낳는다고 본다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 400" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-1102" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1102m" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1102n" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-moon" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<text class="t-lab a-mid" x="150" y="26">밀네르 — 2항</text>
+<line class="s-moon w-bold" x1="140" x2="140" y1="66" y2="330"></line>
+<text class="t-lab a-mid c-moon" x="140" y="56">법</text>
+<text class="t-lab a-mid" x="76" y="118">법 안</text>
+<text class="t-lab a-mid" x="76" y="138">유한성</text>
+<line class="s-ink w-thin" marker-end="url(#ah-1102)" x1="36" x2="132" y1="196" y2="196"></line>
+<line class="s-ink w-thin" marker-end="url(#ah-1102)" x1="36" x2="132" y1="228" y2="228"></line>
+<line class="s-ink w-thin" marker-end="url(#ah-1102)" x1="36" x2="132" y1="260" y2="260"></line>
+<circle class="s-ink dash" cx="214" cy="222" r="44"></circle>
+<text class="t-lab a-mid" x="214" y="150">법 너머</text>
+<text class="t-lab a-mid" x="214" y="218">충만</text>
+<text class="t-lab a-mid c-mute" x="214" y="236">(꿈)</text>
+<text class="t-lab a-mid c-mute" x="140" y="362">법이 무너지면 꿈이 날뛴다</text>
+<text class="t-lab a-mid c-mute" x="140" y="382">→ 라캉 = 법의 수호자?</text>
+<line class="s-mute dot" x1="292" x2="292" y1="40" y2="384"></line>
+<text class="t-lab a-mid" x="466" y="26">지젝 — 3항</text>
+<line class="s-ink w-bold" x1="394" x2="486" y1="340" y2="340"></line>
+<path class="s-moon w-bold" d="M458 338L457.1 335L455.9 332L454.3 328.9L452.6 325.9L450.5 323L448.3 320.1L445.9 317.2L443.4 314.5L440.8 311.8L438 309.3L435.2 306.9L432.4 304.6L429.5 302.5L426.7 300.6L423.9 298.8L421.2 297.3L418.9 296L416.7 294.5L414.6 292.9L412.6 291.2L410.7 289.3L409 287.3L407.4 285.2L405.9 283L404.6 280.7L403.5 278.3L402.5 275.8L401.6 273.3L401 270.7L400.5 268.1L400.2 265.5L400 262.8L400 260.2L400.2 257.5L400.6 254.9L401.2 252.3L401.9 249.8L402.8 247.3L403.9 244.8L405.1 242.5L406.5 240.2L408 238L409.6 236L411.4 234L413.3 232.2L415.4 230.5L417.5 228.9L419.8 227.5L422.1 226.2L424.5 225.1L427 224.2L429.5 223.4L432.1 222.8L434.7 222.4L437.3 222.1L440 222L442.7 222.1L445.3 222.4L447.9 222.8L450.5 223.4L453 224.2L455.5 225.1L457.9 226.2L460.2 227.5L462.5 228.9L464.6 230.5L466.7 232.2L468.6 234L470.4 236L472 238L473.5 240.2L474.9 242.5L476.1 244.8L477.2 247.3L478.1 249.8L478.8 252.3L479.4 254.9L479.8 257.5L480 260.2L480 262.8L479.8 265.5L479.5 268.1L479 270.7L478.4 273.3L477.5 275.8L476.5 278.3L475.4 280.7L474.1 283L472.6 285.2L471 287.3L469.3 289.3L467.4 291.2L465.4 292.9L463.3 294.5L461.1 296L458.8 297.3L456.1 298.8L453.3 300.5L450.5 302.3L447.6 304.3L444.8 306.4L442 308.6L439.2 311L436.6 313.5L434.1 316L431.7 318.7L429.5 321.4L427.4 324.3L425.7 327.1L424.1 330.1L422.9 333L422 336"></path>
+<line class="s-moon" marker-end="url(#ah-1102n)" x1="425.7" x2="422" y1="327.1" y2="336"></line>
+<circle class="f-gap" cx="440" cy="262" r="5"></circle>
+<line class="s-mute w-thin dot" x1="448" x2="504" y1="266" y2="292"></line>
+<text class="t-lab c-gap" x="510" y="296">닿지 않는 중심</text>
+<text class="t-lab" x="510" y="256">충동의 굽은 고리</text>
+<text class="t-small" x="510" y="274">법 이전의 불가능</text>
+<line class="s-moon w-bold" x1="382" x2="498" y1="176" y2="176"></line>
+<line class="s-moon" x1="382" x2="382" y1="170" y2="182"></line>
+<line class="s-moon" x1="498" x2="498" y1="170" y2="182"></line>
+<text class="t-lab c-moon" x="510" y="180">금지</text>
+<text class="t-small" x="510" y="198">'만지지 마시오'</text>
+<path class="s-ink dash" d="M504 104L503.8 106.1L503 108.2L501.8 110.2L500.1 112.2L498 114.1L495.4 116L492.4 117.8L489 119.4L485.3 121L481.1 122.4L476.7 123.7L472 124.8L467 125.8L461.9 126.6L456.6 127.2L451.1 127.6L445.6 127.9L440 128L434.4 127.9L428.9 127.6L423.4 127.2L418.1 126.6L413 125.8L408 124.8L403.3 123.7L398.9 122.4L394.7 121L391 119.4L387.6 117.8L384.6 116L382 114.1L379.9 112.2L378.2 110.2L377 108.2L376.2 106.1L376 104L376.2 101.9L377 99.8L378.2 97.8L379.9 95.8L382 93.9L384.6 92L387.6 90.2L391 88.6L394.7 87L398.9 85.6L403.3 84.3L408 83.2L413 82.2L418.1 81.4L423.4 80.8L428.9 80.4L434.4 80.1L440 80L445.6 80.1L451.1 80.4L456.6 80.8L461.9 81.4L467 82.2L472 83.2L476.7 84.3L481.1 85.6L485.3 87L489 88.6L492.4 90.2L495.4 92L498 93.9L500.1 95.8L501.8 97.8L503 99.8L503.8 101.9Z"></path>
+<text class="t-lab a-mid" x="440" y="109">금지만 없으면</text>
+<text class="t-lab" x="510" y="104">금지 너머의 충만</text>
+<text class="t-small" x="510" y="122">금지가 비로소 낳는 꿈</text>
+<line class="s-ink" marker-end="url(#ah-1102)" x1="358" x2="358" y1="334" y2="86"></line>
+<line class="s-ink" x1="354" x2="362" y1="262" y2="262"></line>
+<text class="t-lab a-end" x="348" y="266">불가능</text>
+<line class="s-ink" x1="354" x2="362" y1="176" y2="176"></line>
+<text class="t-lab a-end" x="348" y="180">번역</text>
+<line class="s-ink" x1="354" x2="362" y1="105" y2="105"></line>
+<text class="t-lab a-end" x="348" y="109">환상</text>
+<text class="t-lab a-mid c-mute" x="466" y="382">법 너머에도 막힘이 있다</text>
+</svg></g></g></g></g></svg>

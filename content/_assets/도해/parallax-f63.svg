@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 424" width="640" height="424" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-moon{stroke:var(--moon)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-gap{fill:var(--gap)}.f-bg{fill:var(--bg)}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}svg.pz-root{width:640px!important;height:424px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="지젝의 대비 — 나치즘의 비합리는 한 점에 응축되고 일상을 비워 둔 데 반해, 스탈린주의의 비합리는 억압된 10월이 체제 안으로 되돌아오며 사회 전체에 무작위로 퍼진다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 424" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-1204g" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-gap" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<text class="t-lab a-mid c-mute" x="320" y="26">지젝의 대비 (시차)</text>
+<line class="s-mute dot" x1="320" x2="320" y1="40" y2="340"></line>
+<text class="t-lab a-mid" x="150" y="56">나치즘</text>
+<text class="t-lab a-mid" x="150" y="78">비합리 — 한 점에 응축</text>
+<text class="t-lab a-mid c-mute" x="150" y="96">나머지 판은 '정상적' 일상</text>
+<line class="s-mute w-thin" x1="60" x2="60" y1="108" y2="328"></line>
+<line class="s-mute w-thin" x1="40" x2="260" y1="128" y2="128"></line>
+<line class="s-mute w-thin" x1="80" x2="80" y1="108" y2="328"></line>
+<line class="s-mute w-thin" x1="40" x2="260" y1="148" y2="148"></line>
+<line class="s-mute w-thin" x1="100" x2="100" y1="108" y2="328"></line>
+<line class="s-mute w-thin" x1="40" x2="260" y1="168" y2="168"></line>
+<line class="s-mute w-thin" x1="120" x2="120" y1="108" y2="328"></line>
+<line class="s-mute w-thin" x1="40" x2="260" y1="188" y2="188"></line>
+<line class="s-mute w-thin" x1="140" x2="140" y1="108" y2="328"></line>
+<line class="s-mute w-thin" x1="40" x2="260" y1="208" y2="208"></line>
+<line class="s-mute w-thin" x1="160" x2="160" y1="108" y2="328"></line>
+<line class="s-mute w-thin" x1="40" x2="260" y1="228" y2="228"></line>
+<line class="s-mute w-thin" x1="180" x2="180" y1="108" y2="328"></line>
+<line class="s-mute w-thin" x1="40" x2="260" y1="248" y2="248"></line>
+<line class="s-mute w-thin" x1="200" x2="200" y1="108" y2="328"></line>
+<line class="s-mute w-thin" x1="40" x2="260" y1="268" y2="268"></line>
+<line class="s-mute w-thin" x1="220" x2="220" y1="108" y2="328"></line>
+<line class="s-mute w-thin" x1="40" x2="260" y1="288" y2="288"></line>
+<line class="s-mute w-thin" x1="240" x2="240" y1="108" y2="328"></line>
+<line class="s-mute w-thin" x1="40" x2="260" y1="308" y2="308"></line>
+<rect class="s-moon" height="220" width="220" x="40" y="108"></rect>
+<text class="t-lab a-mid" x="490" y="56">스탈린주의</text>
+<text class="t-lab a-mid" x="490" y="78">비합리 — 판 전체에 무작위로</text>
+<text class="t-lab a-mid c-mute" x="490" y="96">안전한 자리가 없다</text>
+<line class="s-mute w-thin" x1="400" x2="400" y1="108" y2="328"></line>
+<line class="s-mute w-thin" x1="380" x2="600" y1="128" y2="128"></line>
+<line class="s-mute w-thin" x1="420" x2="420" y1="108" y2="328"></line>
+<line class="s-mute w-thin" x1="380" x2="600" y1="148" y2="148"></line>
+<line class="s-mute w-thin" x1="440" x2="440" y1="108" y2="328"></line>
+<line class="s-mute w-thin" x1="380" x2="600" y1="168" y2="168"></line>
+<line class="s-mute w-thin" x1="460" x2="460" y1="108" y2="328"></line>
+<line class="s-mute w-thin" x1="380" x2="600" y1="188" y2="188"></line>
+<line class="s-mute w-thin" x1="480" x2="480" y1="108" y2="328"></line>
+<line class="s-mute w-thin" x1="380" x2="600" y1="208" y2="208"></line>
+<line class="s-mute w-thin" x1="500" x2="500" y1="108" y2="328"></line>
+<line class="s-mute w-thin" x1="380" x2="600" y1="228" y2="228"></line>
+<line class="s-mute w-thin" x1="520" x2="520" y1="108" y2="328"></line>
+<line class="s-mute w-thin" x1="380" x2="600" y1="248" y2="248"></line>
+<line class="s-mute w-thin" x1="540" x2="540" y1="108" y2="328"></line>
+<line class="s-mute w-thin" x1="380" x2="600" y1="268" y2="268"></line>
+<line class="s-mute w-thin" x1="560" x2="560" y1="108" y2="328"></line>
+<line class="s-mute w-thin" x1="380" x2="600" y1="288" y2="288"></line>
+<line class="s-mute w-thin" x1="580" x2="580" y1="108" y2="328"></line>
+<line class="s-mute w-thin" x1="380" x2="600" y1="308" y2="308"></line>
+<rect class="s-moon" height="220" width="220" x="380" y="108"></rect>
+<circle class="f-bg" cx="40" cy="276" r="16.5"></circle>
+<circle class="s-ink w-thin" cx="40" cy="276" r="15"></circle>
+<circle class="f-ink" cx="40" cy="276" r="8"></circle>
+<circle class="s-ink w-thin dot" cx="40" cy="276" r="21"></circle>
+<circle class="f-bg" cx="467" cy="196.9" r="7.5"></circle>
+<circle class="s-ink w-thin" cx="467" cy="196.9" r="6"></circle>
+<circle class="f-ink" cx="467" cy="196.9" r="2.6"></circle>
+<circle class="f-bg" cx="451.2" cy="167.5" r="7.5"></circle>
+<circle class="s-ink w-thin" cx="451.2" cy="167.5" r="6"></circle>
+<circle class="f-ink" cx="451.2" cy="167.5" r="2.6"></circle>
+<circle class="f-bg" cx="415.4" cy="197" r="7.5"></circle>
+<circle class="s-ink w-thin" cx="415.4" cy="197" r="6"></circle>
+<circle class="f-ink" cx="415.4" cy="197" r="2.6"></circle>
+<circle class="f-bg" cx="447" cy="259.1" r="7.5"></circle>
+<circle class="s-ink w-thin" cx="447" cy="259.1" r="6"></circle>
+<circle class="f-ink" cx="447" cy="259.1" r="2.6"></circle>
+<circle class="f-bg" cx="453.8" cy="296.5" r="7.5"></circle>
+<circle class="s-ink w-thin" cx="453.8" cy="296.5" r="6"></circle>
+<circle class="f-ink" cx="453.8" cy="296.5" r="2.6"></circle>
+<circle class="f-bg" cx="579.1" cy="135" r="7.5"></circle>
+<circle class="s-ink w-thin" cx="579.1" cy="135" r="6"></circle>
+<circle class="f-ink" cx="579.1" cy="135" r="2.6"></circle>
+<circle class="f-bg" cx="546.9" cy="226.7" r="7.5"></circle>
+<circle class="s-ink w-thin" cx="546.9" cy="226.7" r="6"></circle>
+<circle class="f-ink" cx="546.9" cy="226.7" r="2.6"></circle>
+<circle class="f-bg" cx="415.6" cy="134.1" r="7.5"></circle>
+<circle class="s-ink w-thin" cx="415.6" cy="134.1" r="6"></circle>
+<circle class="f-ink" cx="415.6" cy="134.1" r="2.6"></circle>
+<circle class="f-bg" cx="545.9" cy="308.1" r="7.5"></circle>
+<circle class="s-ink w-thin" cx="545.9" cy="308.1" r="6"></circle>
+<circle class="f-ink" cx="545.9" cy="308.1" r="2.6"></circle>
+<circle class="f-bg" cx="553.3" cy="262.7" r="7.5"></circle>
+<circle class="s-ink w-thin" cx="553.3" cy="262.7" r="6"></circle>
+<circle class="f-ink" cx="553.3" cy="262.7" r="2.6"></circle>
+<circle class="f-bg" cx="469.5" cy="228.2" r="7.5"></circle>
+<circle class="s-ink w-thin" cx="469.5" cy="228.2" r="6"></circle>
+<circle class="f-ink" cx="469.5" cy="228.2" r="2.6"></circle>
+<circle class="f-bg" cx="504.3" cy="156" r="7.5"></circle>
+<circle class="s-ink w-thin" cx="504.3" cy="156" r="6"></circle>
+<circle class="f-ink" cx="504.3" cy="156" r="2.6"></circle>
+<circle class="f-bg" cx="397.8" cy="295.5" r="7.5"></circle>
+<circle class="s-ink w-thin" cx="397.8" cy="295.5" r="6"></circle>
+<circle class="f-ink" cx="397.8" cy="295.5" r="2.6"></circle>
+<circle class="f-bg" cx="507.6" cy="241.2" r="7.5"></circle>
+<circle class="s-ink w-thin" cx="507.6" cy="241.2" r="6"></circle>
+<circle class="f-ink" cx="507.6" cy="241.2" r="2.6"></circle>
+<circle class="f-bg" cx="421.8" cy="228.1" r="7.5"></circle>
+<circle class="s-ink w-thin" cx="421.8" cy="228.1" r="6"></circle>
+<circle class="f-ink" cx="421.8" cy="228.1" r="2.6"></circle>
+<circle class="f-bg" cx="581.2" cy="285.6" r="7.5"></circle>
+<circle class="s-ink w-thin" cx="581.2" cy="285.6" r="6"></circle>
+<circle class="f-ink" cx="581.2" cy="285.6" r="2.6"></circle>
+<circle class="f-bg" cx="518.8" cy="290.6" r="7.5"></circle>
+<circle class="s-ink w-thin" cx="518.8" cy="290.6" r="6"></circle>
+<circle class="f-ink" cx="518.8" cy="290.6" r="2.6"></circle>
+<circle class="f-bg" cx="543.8" cy="141.7" r="7.5"></circle>
+<circle class="s-ink w-thin" cx="543.8" cy="141.7" r="6"></circle>
+<circle class="f-ink" cx="543.8" cy="141.7" r="2.6"></circle>
+<line class="s-gap dash" x1="490" x2="490" y1="384" y2="204"></line>
+<line class="s-gap" marker-end="url(#ah-1204g)" x1="490" x2="490" y1="220" y2="202"></line>
+<text class="t-lab a-mid c-gap" x="490" y="404">억압된 10월의 회귀</text>
+<text class="t-small" x="40" y="362">지젝의 서술을 옮긴 것 —</text>
+<text class="t-small" x="40" y="378">단순화라는 단서는 본문에</text>
+</svg></g></g></g></g></svg>

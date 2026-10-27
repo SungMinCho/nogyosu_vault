@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 356" width="640" height="356" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-moon{stroke:var(--moon)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-moon{fill:var(--moon)}.f-bg2{fill:var(--bg2)}.f-moon-soft{fill:var(--moon);fill-opacity:.14}.f-gap-soft{fill:var(--gap);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-moon{fill:var(--moon)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}svg.pz-root{width:640px!important;height:356px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="텍스트–교회–신자의 같은 삼각형에서 교회 꼭짓점이 정교회에선 녹아 있고 가톨릭에선 부풀어 둘을 가르며 개신교에선 사라지는데, 그 대신 텍스트 너머에 공통 척도 없는 신의 어둠이 열린다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 356" width="100%" xmlns="http://www.w3.org/2000/svg">
+<text class="t-lab a-mid" x="174" y="22">정교회</text>
+<text class="t-lab a-mid" x="354" y="22">가톨릭</text>
+<text class="t-lab a-mid" x="534" y="22">개신교</text>
+<text class="t-small a-mid" x="174" y="40">보편 · 공동체가 곧 해석자</text>
+<text class="t-small a-mid" x="354" y="40">특수 · 교회가 해석권을 쥔다</text>
+<text class="t-small a-mid" x="534" y="40">개별 · 텍스트 앞에 홀로</text>
+<circle class="s-mute" cx="174" cy="72" r="6"></circle>
+<path class="s-mute w-thin" d="M184.0 72.0L190.0 72.0M181.1 79.1L185.3 83.3M174.0 82.0L174.0 88.0M166.9 79.1L162.7 83.3M164.0 72.0L158.0 72.0M166.9 64.9L162.7 60.7M174.0 62.0L174.0 56.0M181.1 64.9L185.3 60.7"></path>
+<text class="t-small" x="196" y="76">영광이 환히</text>
+<path class="s-mute w-thin" d="M342 74Q346 66 350 74T358 74T366 72"></path>
+<text class="t-small" x="374" y="76">숨은 서명</text>
+<path class="s-mute w-thin dot" d="M174 114L118 190H230Z"></path>
+<ellipse class="s-ink w-thin f-moon-soft" cx="174" cy="190" rx="76" ry="22"></ellipse>
+<circle class="s-moon dash" cx="118" cy="190" r="9"></circle>
+<path class="s-ink w-thin" d="M174 114L132 192M174 114L154 184M174 114L176 196M174 114L198 185M174 114L220 193"></path>
+<g class="f-ink">
+<circle cx="132" cy="192" r="3"></circle><circle cx="154" cy="184" r="3"></circle><circle cx="176" cy="196" r="3"></circle>
+<circle cx="198" cy="185" r="3"></circle><circle cx="220" cy="193" r="3"></circle>
+</g>
+<text class="t-lab a-mid c-moon" x="174" y="232">교회 · 신자 = 공동체</text>
+<path class="s-mute w-thin dot" d="M354 114L298 190H410Z"></path>
+<path class="s-ink" d="M354 114L298 190L410 190"></path>
+<line class="s-ink" x1="354" x2="378.1" y1="114" y2="143.2"></line>
+<line class="s-mute dot" x1="385.9" x2="410" y1="154.8" y2="190"></line>
+<circle class="s-moon f-moon-soft" cx="298" cy="190" r="20"></circle>
+<line class="s-moon w-bold" x1="316.4" x2="362.2" y1="182.1" y2="162.5"></line>
+<path class="f-moon" d="M359.9 159.2L399.6 132.2L404.1 138.8L364.4 165.8Z"></path>
+<circle class="f-ink" cx="410" cy="190" r="4"></circle>
+<text class="t-lab c-moon" x="410" y="132">라틴어 벽</text>
+<text class="t-lab a-mid c-moon" x="298" y="232">교회</text>
+<text class="t-lab a-mid" x="410" y="232">신자</text>
+<ellipse class="s-gap w-thin dash f-gap-soft" cx="516" cy="70" rx="56" ry="16"></ellipse>
+<text class="t-lab a-mid c-gap" x="510" y="75">신의 어둠</text>
+<line class="s-ink dot" x1="529.5" x2="517.1" y1="101.4" y2="83.2"></line>
+<path class="s-mute w-thin dot" d="M534 114L478 190H590"></path>
+<circle class="s-mute dash" cx="478" cy="190" r="8"></circle>
+<line class="s-ink w-bold" x1="534" x2="590" y1="114" y2="190"></line>
+<circle class="f-ink" cx="590" cy="190" r="4.5"></circle>
+<text class="t-lab a-mid c-mute" x="478" y="232">교회 없음</text>
+<text class="t-lab a-mid" x="590" y="232">신자</text>
+<rect class="s-ink f-bg2" height="12" width="16" x="166" y="102"></rect>
+<rect class="s-ink f-bg2" height="12" width="16" x="346" y="102"></rect>
+<rect class="s-ink f-bg2" height="12" width="16" x="526" y="102"></rect>
+<text class="t-small" x="188" y="112">텍스트</text>
+<text class="t-small" x="368" y="112">텍스트</text>
+<text class="t-small" x="548" y="112">텍스트</text>
+<line class="s-mute w-thin" x1="16" x2="624" y1="248" y2="248"></line>
+<text class="t-lab" x="16" y="272">그리스도</text>
+<text class="t-lab a-mid" x="174" y="272">본받을 그림</text>
+<text class="t-small a-mid" x="174" y="290">상상계</text>
+<text class="t-lab a-mid" x="354" y="272">값을 치른 거래</text>
+<text class="t-small a-mid" x="354" y="290">상징계</text>
+<text class="t-lab a-mid" x="534" y="272">똥과 하나 됨</text>
+<text class="t-small a-mid" x="534" y="290">실재</text>
+<line class="s-mute w-thin dot" x1="16" x2="624" y1="302" y2="302"></line>
+<text class="t-lab" x="16" y="326">신의 현존</text>
+<text class="t-lab a-mid" x="174" y="326">영광의 반사</text>
+<text class="t-small a-mid" x="174" y="344">세계 전체에 환히</text>
+<text class="t-lab a-mid" x="354" y="326">양탄자 속 무늬</text>
+<text class="t-small a-mid" x="354" y="344">숨은 서명 · 카메오</text>
+<text class="t-lab a-mid" x="534" y="326">잿빛 기계 속 은총</text>
+<text class="t-small a-mid" x="534" y="344">흐름을 끊는 개입</text>
+</svg></g></g></g></g></svg>

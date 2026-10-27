@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 348" width="640" height="348" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-star{stroke:var(--star)}.s-sun{stroke:var(--sun)}.s-gap{stroke:var(--gap)}.s-fix{stroke:var(--fix)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-star{fill:var(--star)}.f-bg2{fill:var(--bg2)}.f-fix-soft{fill:var(--fix);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .t-mono{font-family:var(--f-mono);font-size:12px}.fig svg .t-it{font-family:"Literata",Georgia,serif;font-style:italic}.fig svg .c-star{fill:var(--star)}.fig svg .c-sun{fill:var(--sun)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-fix{fill:var(--fix)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}.fig svg .halo{paint-order:stroke;stroke:var(--bg);stroke-width:4px;stroke-linejoin:round}svg.pz-root{width:640px!important;height:348px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="칸트에선 현상이 일관되고 누메논에 범주를 들이밀면 모순이 터지며, 양자에선 수학의 누메논이 일관되고 현상으로 번역하는 순간 모순이 터진다 — 모순의 층이 위아래로 맞바뀐다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 348" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="ah-705" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-705s" markerHeight="5" markerWidth="5" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-star" d="M0 0L10 5L0 10Z"></path></marker>
+</defs>
+<text class="t-lab a-mid c-star" x="150" y="28">칸트</text>
+<text class="t-lab a-mid c-sun" x="490" y="28">양자물리학 (지젝의 읽기)</text>
+<rect class="f-bg2" height="114" width="220" x="40" y="48"></rect>
+<rect class="s-ink" height="228" width="220" x="40" y="48"></rect>
+<line class="s-ink w-bold" x1="32" x2="268" y1="162" y2="162"></line>
+<text class="t-lab c-mute" x="52" y="70">누메논</text>
+<text class="t-lab c-mute" x="52" y="186">현상</text>
+<rect class="f-bg2" height="114" width="220" x="380" y="48"></rect>
+<rect class="s-ink" height="228" width="220" x="380" y="48"></rect>
+<line class="s-ink w-bold" x1="372" x2="608" y1="162" y2="162"></line>
+<text class="t-lab c-mute" x="392" y="70">누메논</text>
+<text class="t-lab c-mute" x="392" y="186">현상</text>
+<text class="t-small" x="52" y="88">물자체</text>
+<text class="t-small" x="392" y="88">수학의 실재</text>
+<path class="s-mute w-thin" d="M72 222V248M100 222V248M128 222V248M172 222V248M200 222V248M228 222V248M72 222H128M172 222H228M72 248H128M172 248H228"></path>
+<circle class="f-star" cx="72" cy="222" r="3.4"></circle>
+<circle class="f-star" cx="72" cy="248" r="3.4"></circle>
+<circle class="f-star" cx="100" cy="222" r="3.4"></circle>
+<circle class="f-star" cx="100" cy="248" r="3.4"></circle>
+<circle class="f-star" cx="128" cy="222" r="3.4"></circle>
+<circle class="f-star" cx="128" cy="248" r="3.4"></circle>
+<circle class="f-star" cx="172" cy="222" r="3.4"></circle>
+<circle class="f-star" cx="172" cy="248" r="3.4"></circle>
+<circle class="f-star" cx="200" cy="222" r="3.4"></circle>
+<circle class="f-star" cx="200" cy="248" r="3.4"></circle>
+<circle class="f-star" cx="228" cy="222" r="3.4"></circle>
+<circle class="f-star" cx="228" cy="248" r="3.4"></circle>
+<text class="t-lab a-end" x="248" y="268">일관</text>
+<line class="s-star w-bold" marker-end="url(#ah-705s)" x1="150" x2="150" y1="258" y2="118"></line>
+<text class="t-small" x="158" y="190">범주를 들이밂</text>
+<line class="s-star" marker-end="url(#ah-705s)" x1="150" x2="100" y1="112" y2="112"></line>
+<line class="s-star" marker-end="url(#ah-705s)" x1="150" x2="200" y1="112" y2="112"></line>
+<text class="t-small a-mid" x="96" y="134">정립</text>
+<text class="t-small a-mid" x="204" y="134">반정립</text>
+<text class="t-lab a-mid c-star" x="150" y="94">이율배반</text>
+<path class="s-sun" d="M400.0 103.3L402.0 103.4L404.0 103.5L406.0 103.8L408.0 104.1L410.0 104.5L412.0 104.9L414.0 105.4L416.0 105.9L418.0 106.3L420.0 106.6L422.0 106.7L424.0 106.6L426.0 106.2L428.0 105.5L430.0 104.6L432.0 103.4L434.0 102.1L436.0 100.7L438.0 99.3L440.0 98.1L442.0 97.2L444.0 96.8L446.0 96.8L448.0 97.5L450.0 98.8L452.0 100.7L454.0 103.1L456.0 105.9L458.0 108.7L460.0 111.5L462.0 113.9L464.0 115.8L466.0 116.9L468.0 117.1L470.0 116.3L472.0 114.5L474.0 111.8L476.0 108.3L478.0 104.4L480.0 100.4L482.0 96.5L484.0 93.0L486.0 90.3L488.0 88.6L490.0 88.0L492.0 88.6L494.0 90.3L496.0 93.0L498.0 96.5L500.0 100.4L502.0 104.4L504.0 108.3L506.0 111.8L508.0 114.5L510.0 116.3L512.0 117.1L514.0 116.9L516.0 115.8L518.0 113.9L520.0 111.5L522.0 108.7L524.0 105.9L526.0 103.1L528.0 100.7L530.0 98.8L532.0 97.5L534.0 96.8L536.0 96.8L538.0 97.2L540.0 98.1L542.0 99.3L544.0 100.7L546.0 102.1L548.0 103.4L550.0 104.6L552.0 105.5L554.0 106.2L556.0 106.6L558.0 106.7L560.0 106.6L562.0 106.3L564.0 105.9L566.0 105.4L568.0 104.9L570.0 104.5L572.0 104.1L574.0 103.8L576.0 103.5L578.0 103.4L580.0 103.3"></path>
+<text class="t-it t-lab c-sun" x="404" y="128">ψ</text>
+<text class="t-lab a-end" x="588" y="150">일관</text>
+<line class="s-sun w-bold" x1="490" x2="490" y1="124" y2="170"></line>
+<text class="t-small" x="500" y="148">번역</text>
+<path class="s-gap w-bold" d="M472 176l6 -5l6 7l6 -7l6 7l6 -7l6 5"></path>
+<path class="s-gap w-bold" d="M472 184l6 -5l6 7l6 -7l6 7l6 -7l6 5"></path>
+<text class="t-small c-gap" x="516" y="186">끊긴다</text>
+<line class="s-sun w-thin dash" x1="490" x2="423.8" y1="190" y2="204"></line>
+<line class="s-sun w-thin dash" x1="490" x2="490.0" y1="190" y2="204"></line>
+<line class="s-sun w-thin dash" x1="490" x2="556.2" y1="190" y2="204"></line>
+<line class="s-ink" marker-end="url(#ah-705)" x1="436" x2="402" y1="224" y2="224"></line>
+<text class="t-mono" x="440" y="228">t</text>
+<circle class="f-ink" cx="478" cy="226" r="4"></circle><circle class="f-ink" cx="502" cy="226" r="4"></circle>
+<path class="s-ink w-thin dash" d="M478 218Q490 208 502 218"></path>
+<path class="s-ink" d="M546.0 226.0L548.0 223.7L550.0 221.8L552.0 220.5L554.0 220.0L556.0 220.5L558.0 221.8L560.0 223.7L562.0 226.0L564.0 228.3L566.0 230.2L568.0 231.5L570.0 232.0L572.0 231.5L574.0 230.2L576.0 228.3L578.0 226.0"></path>
+<circle class="f-ink" cx="562" cy="226" r="3.4"></circle>
+<text class="t-lab a-mid" x="418" y="258">시간 역행</text>
+<text class="t-lab a-mid" x="490" y="258">두 곳 동시</text>
+<text class="t-lab a-mid" x="562" y="258">입자/파동</text>
+<path class="s-mute w-thin dot" d="M266 112L374 226M266 226L374 112"></path>
+<text class="t-small a-mid halo" x="320" y="174">맞바뀜</text>
+<line class="s-fix" x1="556" x2="556" y1="277" y2="294"></line>
+<rect class="s-fix f-fix-soft" height="46" rx="3" width="196" x="400" y="294"></rect>
+<text class="t-lab a-mid c-fix" x="498" y="314">일상 현실은 여전히 일관</text>
+<text class="t-small a-mid" x="498" y="331">지젝의 유보 · p. 173</text>
+</svg></g></g></g></g></svg>

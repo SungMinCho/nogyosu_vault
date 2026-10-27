@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 470" width="640" height="470" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-star{stroke:var(--star)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-star{fill:var(--star)}.f-bg2{fill:var(--bg2)}.f-star-soft{fill:var(--star);fill-opacity:.14}.f-gap-soft{fill:var(--gap);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-star{fill:var(--star)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:470px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="칸트는 실재의 '하지 않을 수 없음'을 상징의 '끝내 못 이룸'으로 끌어내렸고, 칸트도 사드도 무관심한 자연 위에 '윤리적' 둘째 자연을 덧붙여 존재의 질서 안에 아무 보증 없는 자유의 심연을 가린다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 470" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="ah-501" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-501s" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-star" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-501m" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker>
+</defs>
+<!-- 위 띠: must와 ought -->
+<text class="t-lab" x="24" y="56">실재 — 하지 않을 수 없음</text>
+<text class="t-small" x="24" y="74">must · 일어나는 불가능</text>
+<text class="t-lab" x="24" y="124">상징 — 끝내 못 이룸</text>
+<text class="t-small" x="24" y="142">ought · Sollen · 일어날 수 없는 것</text>
+<line class="s-ink" x1="560" x2="560" y1="36" y2="146"></line>
+<text class="t-small a-mid" x="560" y="28">불가능</text>
+<circle class="f-star" cx="330" cy="60" r="3"></circle>
+<line class="s-star w-bold" marker-end="url(#ah-501s)" x1="330" x2="610" y1="60" y2="60"></line>
+<circle class="f-star" cx="560" cy="60" r="4.5"></circle>
+<text class="t-lab a-mid c-star" x="440" y="49">단번에 뚫고 일어난다</text>
+<path class="s-star" d="M330 128Q387.5 63.6 445 128M445 128Q473.8 95.8 502.5 128M502.5 128Q516.9 112 531.3 128M531.3 128Q538.4 120 545.6 128M545.6 128Q549.2 124 552.8 128M552.8 128Q554.6 126 556.4 128"></path>
+<g class="f-star">
+<circle cx="330" cy="128" r="3"></circle><circle cx="445" cy="128" r="2.6"></circle><circle cx="502.5" cy="128" r="2.2"></circle>
+<circle cx="531.3" cy="128" r="1.8"></circle><circle cx="545.6" cy="128" r="1.5"></circle><circle cx="552.8" cy="128" r="1.2"></circle><circle cx="556.4" cy="128" r="1"></circle>
+</g>
+<text class="t-lab a-mid c-star" x="445" y="150">절반씩 다가갈 뿐 닿지 않는다</text>
+<path class="s-mute dot" d="M314 66C290 80 290 108 314 120" marker-end="url(#ah-501m)"></path>
+<text class="t-lab a-end c-mute" x="290" y="98">칸트의 오독</text>
+<line class="s-mute w-thin" x1="24" x2="616" y1="172" y2="172"></line>
+<!-- 아래 격자 -->
+<text class="t-lab a-mid" x="162" y="198">첫째 자연</text>
+<text class="t-small a-mid" x="162" y="214">법칙대로 굴러가는 자연</text>
+<text class="t-lab a-mid" x="478" y="198">둘째 자연</text>
+<text class="t-small a-mid" x="478" y="214">덧붙인 '윤리적' 자연</text>
+<text class="t-lab" x="24" y="275">칸트</text>
+<text class="t-lab" x="24" y="391">사드</text>
+<!-- 심연: 두 행을 다 가로지르는 바닥 없는 틈 -->
+<rect class="f-gap-soft" height="214" width="132" x="252" y="222"></rect>
+<line class="s-gap" x1="252" x2="252" y1="222" y2="436"></line>
+<line class="s-gap" x1="384" x2="384" y1="222" y2="436"></line>
+<line class="s-gap dot" x1="252" x2="252" y1="440" y2="458"></line>
+<line class="s-gap dot" x1="384" x2="384" y1="440" y2="458"></line>
+<text class="t-lab a-mid c-gap" x="318" y="322">보증 없는</text>
+<text class="t-lab a-mid c-gap" x="318" y="340">자유의 심연</text>
+<!-- 칸트 행 -->
+<rect class="s-ink f-bg2" height="92" width="156" x="84" y="224"></rect>
+<g class="f-ink"><circle cx="112" cy="252" r="3.5"></circle><circle cx="145" cy="252" r="3.5"></circle><circle cx="178" cy="252" r="3.5"></circle><circle cx="211" cy="252" r="3.5"></circle></g>
+<path class="s-ink w-thin" d="M117 252H138M150 252H171M183 252H204" marker-end="url(#ah-501)"></path>
+<text class="t-lab a-mid" x="162" y="286">보편 법칙의 현상</text>
+<text class="t-small a-mid" x="162" y="304">인과의 사슬</text>
+<rect class="s-star f-star-soft" height="92" width="164" x="396" y="224"></rect>
+<path class="s-star w-thin" d="M462 236L494 236L494 268L462 268ZM462 236L494 268M494 236L462 268"></path>
+<g class="f-star"><circle cx="462" cy="236" r="3.5"></circle><circle cx="494" cy="236" r="3.5"></circle><circle cx="494" cy="268" r="3.5"></circle><circle cx="462" cy="268" r="3.5"></circle></g>
+<text class="t-lab a-mid" x="478" y="290">목적의 왕국</text>
+<text class="t-small a-mid" x="478" y="307">예지적 자연 · 선</text>
+<path class="s-ink" d="M222 252C250 252 262 262 296 268" marker-end="url(#ah-501)"></path>
+<text class="t-small a-mid" x="282" y="246">끝까지</text>
+<path class="s-star dash" d="M336 274C356 276 372 268 392 260" marker-end="url(#ah-501s)"></path>
+<text class="t-small a-mid c-star" x="360" y="300">뒷걸음질</text>
+<!-- 사드 행 -->
+<rect class="s-ink f-bg2" height="92" width="156" x="84" y="340"></rect>
+<g class="f-mute"><circle cx="106" cy="372" r="3"></circle><circle cx="131" cy="358" r="3"></circle><circle cx="150" cy="380" r="3"></circle><circle cx="176" cy="362" r="3"></circle><circle cx="198" cy="378" r="3"></circle><circle cx="220" cy="356" r="3"></circle></g>
+<text class="t-lab a-mid" x="162" y="404">무관심한 물질</text>
+<text class="t-small a-mid" x="162" y="422">주인 없는 물질</text>
+<rect class="s-star f-star-soft" height="92" width="164" x="396" y="340"></rect>
+<path class="s-star w-thin" d="M478 350L428 378M478 350L452 368M478 350L470 384M478 350L497 368M478 350L520 384M478 350L540 366"></path>
+<circle class="f-star" cx="478" cy="350" r="4.5"></circle>
+<g class="f-mute"><circle cx="428" cy="378" r="3"></circle><circle cx="452" cy="368" r="3"></circle><circle cx="470" cy="384" r="3"></circle><circle cx="497" cy="368" r="3"></circle><circle cx="520" cy="384" r="3"></circle><circle cx="540" cy="366" r="3"></circle></g>
+<text class="t-lab a-mid" x="478" y="406">악의 최고존재</text>
+<text class="t-small a-mid" x="478" y="423">명령하는 자연 · 악</text>
+<path class="s-ink" d="M222 372C252 372 264 382 296 386" marker-end="url(#ah-501)"></path>
+<path class="s-star dash" d="M336 390C356 392 372 386 392 378" marker-end="url(#ah-501s)"></path>
+<line class="s-star dot" x1="404" x2="552" y1="328" y2="328"></line>
+<text class="t-small" x="568" y="332">거울상</text>
+<text class="t-small a-end" x="616" y="462">방향은 반대, 몸짓은 같다</text>
+</svg></g></g></g></g></svg>

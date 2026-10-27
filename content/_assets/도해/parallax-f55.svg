@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 420" width="640" height="420" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-moon{stroke:var(--moon)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-moon{fill:var(--moon)}.f-gap{fill:var(--gap)}.f-bg2{fill:var(--bg2)}.f-gap-soft{fill:var(--gap);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:420px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="욕망은 장애물 둘레를 돌며 유지되고, 장애물을 치우면 충만이 오는 대신 장애물이 유령으로 더 커져 돌아온다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 420" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-1101" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1101n" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-moon" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1101m" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<circle class="s-ink dash" cx="210" cy="54" r="24"></circle>
+<text class="t-lab" x="246" y="50">충만한 향락</text>
+<text class="t-lab c-mute" x="246" y="70">파루시아</text>
+<line class="s-mute dot" marker-end="url(#ah-1101m)" x1="210" x2="210" y1="126" y2="94"></line>
+<line class="s-mute w-thin" x1="203" x2="217" y1="86" y2="86"></line>
+<line class="s-mute w-thin" x1="203" x2="217" y1="82" y2="82"></line>
+<text class="t-lab c-mute a-end" x="198" y="118">장애물만 없으면…</text>
+<text class="t-small" x="224" y="88">닿지 않음</text>
+<path class="s-moon w-bold" d="M256.9 143.7L261.2 146.1L265.3 148.7L269.3 151.5L273.2 154.5L276.9 157.7L280.5 161L283.8 164.6L287.1 168.3L290.1 172.1L292.9 176.1L295.5 180.2L298 184.4L300.2 188.8L302.2 193.2L304 197.8L305.5 202.4L306.9 207.1L308 211.9L308.8 216.7L309.5 221.5L309.8 226.4L310 231.3L309.9 236.2L309.6 241.1L309 245.9L308.2 250.7L307.2 255.5L305.9 260.2L304.4 264.9L302.7 269.5L300.8 273.9L298.6 278.3L296.3 282.6L293.7 286.8L290.9 290.8L287.9 294.7L284.8 298.4L281.4 302L277.9 305.4L274.3 308.6" marker-end="url(#ah-1101n)"></path>
+<path class="s-moon w-bold" d="M263 316.8L258.8 319.3L254.5 321.6L250 323.6L245.5 325.5L240.9 327.1L236.2 328.5L231.5 329.7L226.7 330.6L221.8 331.3L217 331.8L212.1 332L207.2 332L202.3 331.7L197.5 331.2L192.6 330.5L187.8 329.5L183.1 328.3L178.4 326.9L173.8 325.2L169.3 323.4L164.9 321.3L160.6 318.9L156.4 316.4L152.4 313.7L148.4 310.8L144.7 307.7L141 304.4L137.6 301L134.3 297.3L131.2 293.6L128.3 289.6L125.6 285.6L123.1 281.4L120.7 277.1L118.6 272.7L116.8 268.2L115.1 263.6L113.7 258.9L112.5 254.2L111.5 249.4" marker-end="url(#ah-1101n)"></path>
+<path class="s-moon w-bold" d="M110.1 235.5L110 230.6L110.2 225.7L110.6 220.9L111.3 216L112.2 211.2L113.3 206.5L114.7 201.8L116.3 197.1L118.1 192.6L120.1 188.2L122.4 183.8L124.8 179.6L127.5 175.5L130.3 171.5L133.4 167.7L136.6 164.1L140 160.6L143.6 157.2L147.3 154.1L151.2 151.1L155.2 148.3L159.4 145.7L163.7 143.4L168.1 141.2L172.5 139.3L177.1 137.6L181.8 136.1L186.5 134.8L191.3 133.8L196.1 133L200.9 132.4L205.8 132.1L210.7 132L215.6 132.2L220.5 132.5L225.3 133.2L230.1 134L234.9 135.1L239.6 136.5L244.2 138" marker-end="url(#ah-1101n)"></path>
+<text class="t-lab a-end" x="100" y="228">① 욕망의 회로</text>
+<text class="t-lab a-end" x="100" y="246">돌면서 유지</text>
+<rect class="s-gap dash f-gap-soft" height="120" width="30" x="195" y="172"></rect>
+<rect class="f-gap" height="44" width="10" x="205" y="210"></rect>
+<line class="s-mute w-thin" marker-end="url(#ah-1101m)" x1="210" x2="210" y1="206" y2="178"></line>
+<line class="s-mute w-thin" marker-end="url(#ah-1101m)" x1="210" x2="210" y1="258" y2="286"></line>
+<line class="s-ink w-bold" x1="201" x2="219" y1="224" y2="240"></line>
+<line class="s-ink w-bold" x1="219" x2="201" y1="224" y2="240"></line>
+<line class="s-mute w-thin dot" x1="229" x2="328" y1="232" y2="232"></line>
+<text class="t-lab c-gap" x="334" y="236">장애물 = 대상 a</text>
+<text class="t-lab" x="334" y="258">③ 유령으로</text>
+<text class="t-lab" x="334" y="276">더 크게 돌아온다</text>
+<line class="s-ink" marker-end="url(#ah-1101)" x1="70" x2="196" y1="368" y2="254"></line>
+<text class="t-lab" x="24" y="392">② 제거 기획</text>
+<text class="t-small" x="24" y="410">'없애 버리기'</text>
+<rect class="s-mute w-thin f-bg2" height="156" width="180" x="440" y="128"></rect>
+<text class="t-lab" x="452" y="152">'우리의 대상 a'</text>
+<text class="t-small" x="452" y="168">레뇨, 2003</text>
+<line class="s-ink" x1="454" x2="466" y1="190" y2="202"></line>
+<line class="s-ink" x1="466" x2="454" y1="190" y2="202"></line>
+<text class="t-lab c-mute" x="476" y="200">욕망의 대상</text>
+<text class="t-lab c-mute" x="476" y="218">우리가 바라는 것</text>
+<circle class="s-moon w-bold" cx="460" cy="244" r="6.5"></circle>
+<text class="t-lab" x="476" y="248">욕망의 대상-원인</text>
+<text class="t-lab c-mute" x="476" y="266">원함을 떠받치는 것</text>
+<text class="t-lab c-mute" x="440" y="312">빗금 없는 향락은 구조상 불가능</text>
+<text class="t-lab c-mute" x="440" y="332">→ 약속은 끝내 채워지지 않는다</text>
+</svg></g></g></g></g></svg>

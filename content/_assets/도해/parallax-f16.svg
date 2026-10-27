@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 480" width="640" height="480" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-moon{stroke:var(--moon)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-moon{fill:var(--moon)}.f-gap{fill:var(--gap)}.f-bg{fill:var(--bg)}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .t-mono{font-family:var(--f-mono);font-size:12px}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}.fig svg .halo{paint-order:stroke;stroke:var(--bg);stroke-width:4px;stroke-linejoin:round}svg.pz-root{width:640px!important;height:480px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="C–M–C는 소비로 빠져나가 닫히는 선분이고 M–C–M′은 커지며 도는 나선이다 — 가치는 생산과 판매 사이의 목숨 건 도약을 건너야 '있었던 것이 된다'" class="pz-inner" height="100%" role="img" viewBox="0 0 640 480" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="ah-302" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-302m" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-moon" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-302g" markerHeight="4.4" markerWidth="4.4" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-gap" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-302x" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker>
+</defs>
+<text class="t-lab" x="24" y="28">C–M–C — 사기 위해 판다</text>
+<line class="s-moon" marker-end="url(#ah-302m)" x1="66" x2="160" y1="68" y2="68"></line>
+<line class="s-moon" marker-end="url(#ah-302m)" x1="176" x2="270" y1="68" y2="68"></line>
+<circle class="s-moon f-bg w-bold" cx="60" cy="68" r="4.6"></circle>
+<circle class="f-ink" cx="170" cy="68" r="5"></circle>
+<circle class="s-moon f-bg w-bold" cx="280" cy="68" r="4.6"></circle>
+<text class="t-mono a-mid" x="60" y="54">C</text>
+<text class="t-mono a-mid" x="170" y="54">M</text>
+<text class="t-mono a-mid" x="280" y="54">C</text>
+<text class="t-small a-mid" x="60" y="92">내 상품</text>
+<text class="t-small a-mid" x="170" y="92">화폐</text>
+<text class="t-small a-mid" x="280" y="92">빵</text>
+<path class="s-ink" d="M286 72Q306 82 314 98" marker-end="url(#ah-302)"></path>
+<line class="s-ink w-bold" x1="302" x2="328" y1="104" y2="104"></line>
+<text class="t-lab" x="338" y="100">소비 = 끝</text>
+<text class="t-lab a-end" x="616" y="62">목적이 순환 바깥에 있다</text>
+<text class="t-lab a-end" x="616" y="82">한 번 돌면 닫힌다</text>
+<line class="s-mute w-thin" x1="24" x2="616" y1="124" y2="124"></line>
+<text class="t-lab" x="24" y="152">M–C–M′ — 팔기 위해 산다</text>
+<line class="s-mute w-thin dash" x1="236" x2="392.0" y1="282" y2="282"></line>
+<circle class="f-mute" cx="236" cy="282" r="2"></circle>
+<path class="s-moon w-bold" d="M266.0 282.0L266.3 280.4L266.5 278.8L266.6 277.2L266.6 275.5L266.6 273.8L266.4 272.1L266.2 270.4L265.8 268.7L265.4 267.0L264.9 265.3L264.2 263.7L263.5 262.0L262.7 260.4L261.8 258.8L260.7 257.3L259.6 255.7L258.4 254.3L257.2 252.9L255.8 251.5L254.3 250.2L252.8 249.0L251.2 247.9L249.5 246.8L247.7 245.9L245.9 245.0L244.0 244.2L242.1 243.5L240.1 242.9L238.1 242.4L236.0 242.0L233.9 241.7L231.7 241.6L229.6 241.5L227.4 241.6L225.2 241.8L223.0 242.1L220.8 242.5L218.6 243.0L216.5 243.7L214.3 244.5L212.2 245.4L210.1 246.4L208.1 247.5L206.1 248.8L204.2 250.2L202.3 251.7L200.5 253.3L198.8 255.0L197.1 256.8L195.6 258.7L194.1 260.7L192.8 262.7L191.5 264.9L190.3 267.2L189.3 269.5L188.4 271.9L187.6 274.3L186.9 276.8L186.4 279.4L186.0 282.0L185.7 284.6L185.6 287.3L185.6 290.0L185.8 292.7L186.1 295.4L186.5 298.1L187.1 300.8L187.9 303.4L188.8 306.1L189.8 308.7L191.0 311.2L192.3 313.7L193.8 316.2L195.4 318.6L197.1 320.9L199.0 323.1L201.0 325.3L203.1 327.3L205.3 329.2L207.7 331.1L210.1 332.8L212.7 334.4L215.3 335.8L218.1 337.2L220.9 338.3L223.8 339.4L226.8 340.3L229.8 341.0L232.9 341.6L236.0 342.0"></path><path class="s-mute w-thin dot" d="M239.6 342.3L242.9 342.3L246.2 342.2L249.5 341.9L252.8 341.4L256.0 340.8L259.3 339.9L262.5 338.9L265.7 337.7L268.8 336.3L271.9 334.8L274.9 333.0L277.8 331.1L280.6 329.1L283.3 326.8L285.9 324.4L288.4 321.9L290.7 319.2L292.9 316.4L295.0 313.5L296.9 310.4L298.7 307.2L300.3 303.9L301.7 300.5L302.9 297.0L304.0 293.5L304.8 289.9L305.5 286.2"></path><path class="s-moon w-bold" d="M306.0 282.0L306.2 278.3L306.3 274.6L306.1 270.9L305.8 267.2L305.2 263.5L304.5 259.8L303.5 256.1L302.4 252.4L301.0 248.9L299.5 245.3L297.8 241.9L295.9 238.5L293.8 235.2L291.5 232.0L289.0 229.0L286.4 226.0L283.6 223.2L280.7 220.5L277.6 218.0L274.3 215.6L271.0 213.4L267.5 211.4L263.8 209.5L260.1 207.8L256.3 206.3L252.4 205.1L248.4 204.0L244.3 203.1L240.2 202.4L236.0 202.0L231.8 201.8L227.6 201.8L223.3 202.0L219.1 202.4L214.9 203.1L210.7 204.0L206.5 205.1L202.4 206.5L198.3 208.0L194.3 209.8L190.4 211.8L186.6 214.0L182.9 216.5L179.3 219.1L175.9 221.9L172.6 224.9L169.4 228.1L166.4 231.5L163.6 235.0L160.9 238.7L158.5 242.5L156.2 246.5L154.2 250.6L152.3 254.8L150.7 259.1L149.3 263.6L148.1 268.1L147.2 272.7L146.5 277.3L146.0 282.0L145.8 286.7L145.8 291.5L146.1 296.2L146.7 301.0L147.5 305.7L148.5 310.4L149.8 315.1L151.3 319.7L153.1 324.2L155.2 328.7L157.4 333.0L160.0 337.3L162.7 341.4L165.6 345.3L168.8 349.2L172.2 352.8L175.8 356.3L179.6 359.7L183.5 362.8L187.7 365.7L192.0 368.4L196.4 370.9L201.0 373.2L205.7 375.2L210.5 377.0L215.5 378.5L220.5 379.8L225.6 380.8L230.8 381.5L236.0 382.0"></path><path class="s-mute w-thin dot" d="M242.0 382.2L247.4 382.1L252.8 381.7L258.2 380.9L263.6 379.9L269.0 378.6L274.2 377.0L279.4 375.2L284.5 373.0L289.5 370.5L294.4 367.8L299.1 364.8L303.7 361.6L308.1 358.1L312.3 354.3L316.4 350.4L320.2 346.2L323.8 341.7L327.2 337.1L330.3 332.3L333.2 327.3L335.8 322.1L338.1 316.8L340.2 311.4L341.9 305.8L343.4 300.2L344.6 294.4L345.4 288.6"></path><path class="s-moon w-bold" d="M346.0 282.0L346.2 276.2L346.1 270.3L345.6 264.4L344.9 258.6L343.8 252.8L342.4 247.0L340.7 241.3L338.7 235.7L336.4 230.2L333.8 224.7L331.0 219.5L327.8 214.3L324.3 209.3L320.6 204.5L316.6 199.9L312.4 195.5L307.9 191.3L303.2 187.4L298.3 183.7L293.2 180.2L287.9 177.0L282.4 174.1L276.7 171.5L270.9 169.2L265.0 167.2L258.9 165.5L252.8 164.1L246.5 163.0L240.2 162.3L233.9 161.9L227.5 161.9L221.1 162.1L214.7 162.8L208.4 163.7L202.1 165.0L195.8 166.7L189.6 168.6L183.6 171.0L177.6 173.6L171.8 176.5L166.1 179.8L160.6 183.4L155.2 187.3L150.1 191.4L145.2 195.9L140.5 200.6L136.0 205.5L131.9 210.7L128.0 216.2L124.3 221.8L121.0 227.7L118.0 233.7L115.3 239.9L112.9 246.3L110.8 252.8L109.1 259.4L107.8 266.1L106.8 272.9L106.1 279.7L105.9 286.6L105.9 293.5L106.4 300.4L107.2 307.3L108.4 314.2L110.0 321.0L111.9 327.7L114.2 334.4L116.8 340.9L119.8 347.3L123.2 353.5L126.8 359.6L130.8 365.5L135.1 371.1L139.7 376.6L144.7 381.8L149.8 386.7L155.3 391.4L161.0 395.8L167.0 399.9L173.2 403.7L179.6 407.2L186.1 410.3L192.9 413.1L199.8 415.5L206.9 417.6L214.0 419.2L221.3 420.5L228.6 421.5L236.0 422.0"></path>
+<path class="s-moon" d="M236.0 342.0C282.8 360.2 345.0 328.8 310.0 288.0" marker-end="url(#ah-302m)"></path>
+<path class="s-gap w-bold" d="M236.0 382.0C302.6 407.9 401.5 348.6 350.0 288.0" marker-end="url(#ah-302g)"></path>
+<path class="s-mute dash" d="M236.0 422.0C284.0 394.0 320.0 412.0 332.0 444.0" marker-end="url(#ah-302x)"></path>
+<circle class="s-mute dash" cx="386.0" cy="282.0" r="5"></circle>
+<circle class="f-ink" cx="266.0" cy="282.0" r="5"></circle>
+<circle class="f-ink" cx="306.0" cy="282.0" r="5"></circle>
+<circle class="f-ink" cx="346.0" cy="282.0" r="6.4"></circle>
+<circle class="s-moon f-bg w-bold" cx="236.0" cy="342.0" r="4.6"></circle>
+<circle class="s-moon f-bg w-bold" cx="236.0" cy="382.0" r="4.6"></circle>
+<circle class="s-mute f-bg w-bold" cx="236.0" cy="422.0" r="4.6"></circle>
+<text class="t-mono a-end halo" x="259.0" y="273">100</text>
+<text class="t-mono a-end halo" x="299.0" y="273">110</text>
+<text class="t-mono a-end halo" x="338.0" y="273">121</text>
+<text class="t-mono c-mute halo" x="395.0" y="273">133.1?</text>
+<text class="t-lab c-gap" x="412" y="372">살토 모르탈레</text>
+<text class="t-small" x="412" y="390">생산과 판매 사이엔 길이 없다</text>
+<text class="t-small" x="412" y="406">팔려야 생산 때부터 가치가</text>
+<text class="t-small" x="412" y="422">'있었던 것이 된다'</text>
+<text class="t-small a-mid" x="236.0" y="450.0">공황: 팔리지 않은 상품은 회색</text>
+<text class="t-lab" x="436.0" y="308.0">구두쇠의 승리</text>
+<text class="t-small" x="436.0" y="326.0">화폐만 진하게 남는다</text>
+<path class="s-ink w-thin" d="M432.0 302.0Q386.0 304.0 355.0 288.0"></path>
+<circle class="s-moon f-bg w-bold" cx="440" cy="176" r="4.6"></circle>
+<text class="t-lab" x="454" y="181">생산 — 즉자</text>
+<circle class="f-ink" cx="440" cy="200" r="5"></circle>
+<text class="t-lab" x="454" y="205">판매 — 대자</text>
+<text class="t-small" x="434" y="228">반지름 = 가치의 크기</text>
+<text class="t-small" x="434" y="244">끝자리 M′이 다음 첫자리 M</text>
+</svg></g></g></g></g></svg>

@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 420" width="640" height="420" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .t-big{font-size:17px;font-weight:600}.fig svg .t-it{font-family:"Literata",Georgia,serif;font-style:italic}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}.fig svg .halo{paint-order:stroke;stroke:var(--bg);stroke-width:4px;stroke-linejoin:round}svg.pz-root{width:640px!important;height:420px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="들리는 두 성부는 서로를 비추지 않고 쓰였지만 연주되지 않는 셋째 줄이 그 연결을 떠받친다 — 반복에서는 그 셋째 줄마저 빠져, 소리는 같은데 결여가 사라진다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 420" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-1501" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1501m" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<line class="s-mute w-thin" x1="112" x2="356" y1="58" y2="58"></line>
+<line class="s-mute w-thin" x1="112" x2="356" y1="64" y2="64"></line>
+<line class="s-mute w-thin" x1="112" x2="356" y1="70" y2="70"></line>
+<line class="s-mute w-thin" x1="112" x2="356" y1="76" y2="76"></line>
+<line class="s-mute w-thin" x1="112" x2="356" y1="82" y2="82"></line>
+<line class="s-mute w-thin" x1="112" x2="356" y1="186" y2="186"></line>
+<line class="s-mute w-thin" x1="112" x2="356" y1="192" y2="192"></line>
+<line class="s-mute w-thin" x1="112" x2="356" y1="198" y2="198"></line>
+<line class="s-mute w-thin" x1="112" x2="356" y1="204" y2="204"></line>
+<line class="s-mute w-thin" x1="112" x2="356" y1="210" y2="210"></line>
+<line class="s-mute w-thin" x1="112" x2="356" y1="122" y2="122"></line>
+<line class="s-mute w-thin" x1="112" x2="356" y1="128" y2="128"></line>
+<line class="s-mute w-thin" x1="112" x2="356" y1="134" y2="134"></line>
+<line class="s-mute w-thin" x1="112" x2="356" y1="140" y2="140"></line>
+<line class="s-mute w-thin" x1="112" x2="356" y1="146" y2="146"></line>
+<line class="s-mute w-thin" x1="112" x2="112" y1="58" y2="82"></line>
+<line class="s-mute w-thin" x1="112" x2="112" y1="186" y2="210"></line>
+<line class="s-mute w-thin" x1="112" x2="112" y1="122" y2="146"></line>
+<line class="s-mute w-thin" x1="238" x2="238" y1="58" y2="82"></line>
+<line class="s-mute w-thin" x1="238" x2="238" y1="186" y2="210"></line>
+<line class="s-mute w-thin" x1="238" x2="238" y1="122" y2="146"></line>
+<line class="s-mute w-thin" x1="356" x2="356" y1="58" y2="82"></line>
+<line class="s-mute w-thin" x1="356" x2="356" y1="186" y2="210"></line>
+<line class="s-mute w-thin" x1="356" x2="356" y1="122" y2="146"></line>
+<line class="s-ink w-bold" x1="106" x2="106" y1="58" y2="210"></line>
+<ellipse class="f-ink" cx="134" cy="79" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="137.5" x2="137.5" y1="78" y2="44"></line>
+<ellipse class="f-ink" cx="147.4" cy="64" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="150.9" x2="150.9" y1="63" y2="44"></line>
+<ellipse class="f-ink" cx="160.8" cy="73" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="164.2" x2="164.2" y1="72" y2="44"></line>
+<ellipse class="f-ink" cx="174.1" cy="76" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="177.6" x2="177.6" y1="75" y2="44"></line>
+<line class="s-ink w-bold" x1="137.5" x2="177.6" y1="44" y2="44"></line>
+<ellipse class="f-ink" cx="187.5" cy="79" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="191" x2="191" y1="78" y2="50"></line>
+<ellipse class="f-ink" cx="200.9" cy="70" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="204.4" x2="204.4" y1="69" y2="50"></line>
+<ellipse class="f-ink" cx="214.2" cy="79" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="217.8" x2="217.8" y1="78" y2="50"></line>
+<ellipse class="f-ink" cx="227.6" cy="76" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="231.1" x2="231.1" y1="75" y2="50"></line>
+<line class="s-ink w-bold" x1="191" x2="231.1" y1="50" y2="50"></line>
+<ellipse class="f-ink" cx="241" cy="73" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="244.5" x2="244.5" y1="72" y2="47"></line>
+<ellipse class="f-ink" cx="254.4" cy="67" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="257.9" x2="257.9" y1="66" y2="47"></line>
+<ellipse class="f-ink" cx="267.8" cy="79" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="271.2" x2="271.2" y1="78" y2="47"></line>
+<ellipse class="f-ink" cx="281.1" cy="76" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="284.6" x2="284.6" y1="75" y2="47"></line>
+<line class="s-ink w-bold" x1="244.5" x2="284.6" y1="47" y2="47"></line>
+<ellipse class="f-ink" cx="294.5" cy="79" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="298" x2="298" y1="78" y2="53"></line>
+<ellipse class="f-ink" cx="307.9" cy="79" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="311.4" x2="311.4" y1="78" y2="53"></line>
+<ellipse class="f-ink" cx="321.2" cy="76" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="324.8" x2="324.8" y1="75" y2="53"></line>
+<ellipse class="f-ink" cx="334.6" cy="73" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="338.1" x2="338.1" y1="72" y2="53"></line>
+<line class="s-ink w-bold" x1="298" x2="338.1" y1="53" y2="53"></line>
+<ellipse class="f-ink" cx="140.7" cy="195" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="137.2" x2="137.2" y1="196" y2="218"></line>
+<ellipse class="f-ink" cx="167.4" cy="198" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="163.9" x2="163.9" y1="199" y2="218"></line>
+<line class="s-ink w-bold" x1="137.2" x2="163.9" y1="218" y2="218"></line>
+<ellipse class="f-ink" cx="194.2" cy="195" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="190.7" x2="190.7" y1="196" y2="215"></line>
+<ellipse class="f-ink" cx="220.9" cy="192" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="217.4" x2="217.4" y1="193" y2="215"></line>
+<line class="s-ink w-bold" x1="190.7" x2="217.4" y1="215" y2="215"></line>
+<ellipse class="f-ink" cx="247.7" cy="204" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="244.2" x2="244.2" y1="205" y2="224"></line>
+<ellipse class="f-ink" cx="274.4" cy="198" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="270.9" x2="270.9" y1="199" y2="224"></line>
+<line class="s-ink w-bold" x1="244.2" x2="270.9" y1="224" y2="224"></line>
+<ellipse class="f-ink" cx="301.2" cy="195" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="297.7" x2="297.7" y1="196" y2="221"></line>
+<ellipse class="f-ink" cx="327.9" cy="201" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="324.4" x2="324.4" y1="202" y2="221"></line>
+<line class="s-ink w-bold" x1="297.7" x2="324.4" y1="221" y2="221"></line>
+<ellipse class="s-mute" cx="140" cy="128" rx="3" ry="2.2"></ellipse>
+<line class="s-mute w-thin" x1="143" x2="143" y1="127" y2="111"></line>
+<line class="s-mute w-thin dot" x1="140" x2="147.4" y1="124" y2="68"></line>
+<ellipse class="s-mute" cx="193.5" cy="125" rx="3" ry="2.2"></ellipse>
+<line class="s-mute w-thin" x1="196.5" x2="196.5" y1="124" y2="108"></line>
+<line class="s-mute w-thin dot" x1="193.5" x2="220.9" y1="129" y2="188"></line>
+<ellipse class="s-mute" cx="247" cy="131" rx="3" ry="2.2"></ellipse>
+<line class="s-mute w-thin" x1="250" x2="250" y1="130" y2="114"></line>
+<line class="s-mute w-thin dot" x1="247" x2="254.4" y1="127" y2="71"></line>
+<ellipse class="s-mute" cx="300.5" cy="137" rx="3" ry="2.2"></ellipse>
+<line class="s-mute w-thin" x1="303.5" x2="303.5" y1="136" y2="120"></line>
+<line class="s-mute w-thin dot" x1="300.5" x2="327.9" y1="141" y2="197"></line>
+<line class="s-mute w-thin" x1="380" x2="624" y1="58" y2="58"></line>
+<line class="s-mute w-thin" x1="380" x2="624" y1="64" y2="64"></line>
+<line class="s-mute w-thin" x1="380" x2="624" y1="70" y2="70"></line>
+<line class="s-mute w-thin" x1="380" x2="624" y1="76" y2="76"></line>
+<line class="s-mute w-thin" x1="380" x2="624" y1="82" y2="82"></line>
+<line class="s-mute w-thin" x1="380" x2="624" y1="186" y2="186"></line>
+<line class="s-mute w-thin" x1="380" x2="624" y1="192" y2="192"></line>
+<line class="s-mute w-thin" x1="380" x2="624" y1="198" y2="198"></line>
+<line class="s-mute w-thin" x1="380" x2="624" y1="204" y2="204"></line>
+<line class="s-mute w-thin" x1="380" x2="624" y1="210" y2="210"></line>
+<line class="s-gap w-thin dash" x1="380" x2="624" y1="122" y2="122"></line>
+<line class="s-gap w-thin dash" x1="380" x2="624" y1="128" y2="128"></line>
+<line class="s-gap w-thin dash" x1="380" x2="624" y1="134" y2="134"></line>
+<line class="s-gap w-thin dash" x1="380" x2="624" y1="140" y2="140"></line>
+<line class="s-gap w-thin dash" x1="380" x2="624" y1="146" y2="146"></line>
+<line class="s-mute w-thin" x1="380" x2="380" y1="58" y2="82"></line>
+<line class="s-mute w-thin" x1="380" x2="380" y1="186" y2="210"></line>
+<line class="s-mute w-thin" x1="506" x2="506" y1="58" y2="82"></line>
+<line class="s-mute w-thin" x1="506" x2="506" y1="186" y2="210"></line>
+<line class="s-mute w-thin" x1="624" x2="624" y1="58" y2="82"></line>
+<line class="s-mute w-thin" x1="624" x2="624" y1="186" y2="210"></line>
+<line class="s-ink w-bold" x1="374" x2="374" y1="58" y2="210"></line>
+<ellipse class="f-ink" cx="402" cy="79" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="405.5" x2="405.5" y1="78" y2="44"></line>
+<ellipse class="f-ink" cx="415.4" cy="64" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="418.9" x2="418.9" y1="63" y2="44"></line>
+<ellipse class="f-ink" cx="428.8" cy="73" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="432.2" x2="432.2" y1="72" y2="44"></line>
+<ellipse class="f-ink" cx="442.1" cy="76" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="445.6" x2="445.6" y1="75" y2="44"></line>
+<line class="s-ink w-bold" x1="405.5" x2="445.6" y1="44" y2="44"></line>
+<ellipse class="f-ink" cx="455.5" cy="79" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="459" x2="459" y1="78" y2="50"></line>
+<ellipse class="f-ink" cx="468.9" cy="70" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="472.4" x2="472.4" y1="69" y2="50"></line>
+<ellipse class="f-ink" cx="482.2" cy="79" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="485.8" x2="485.8" y1="78" y2="50"></line>
+<ellipse class="f-ink" cx="495.6" cy="76" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="499.1" x2="499.1" y1="75" y2="50"></line>
+<line class="s-ink w-bold" x1="459" x2="499.1" y1="50" y2="50"></line>
+<ellipse class="f-ink" cx="509" cy="73" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="512.5" x2="512.5" y1="72" y2="47"></line>
+<ellipse class="f-ink" cx="522.4" cy="67" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="525.9" x2="525.9" y1="66" y2="47"></line>
+<ellipse class="f-ink" cx="535.8" cy="79" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="539.2" x2="539.2" y1="78" y2="47"></line>
+<ellipse class="f-ink" cx="549.1" cy="76" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="552.6" x2="552.6" y1="75" y2="47"></line>
+<line class="s-ink w-bold" x1="512.5" x2="552.6" y1="47" y2="47"></line>
+<ellipse class="f-ink" cx="562.5" cy="79" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="566" x2="566" y1="78" y2="53"></line>
+<ellipse class="f-ink" cx="575.9" cy="79" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="579.4" x2="579.4" y1="78" y2="53"></line>
+<ellipse class="f-ink" cx="589.2" cy="76" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="592.8" x2="592.8" y1="75" y2="53"></line>
+<ellipse class="f-ink" cx="602.6" cy="73" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="606.1" x2="606.1" y1="72" y2="53"></line>
+<line class="s-ink w-bold" x1="566" x2="606.1" y1="53" y2="53"></line>
+<ellipse class="f-ink" cx="408.7" cy="195" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="405.2" x2="405.2" y1="196" y2="218"></line>
+<ellipse class="f-ink" cx="435.4" cy="198" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="431.9" x2="431.9" y1="199" y2="218"></line>
+<line class="s-ink w-bold" x1="405.2" x2="431.9" y1="218" y2="218"></line>
+<ellipse class="f-ink" cx="462.2" cy="195" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="458.7" x2="458.7" y1="196" y2="215"></line>
+<ellipse class="f-ink" cx="488.9" cy="192" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="485.4" x2="485.4" y1="193" y2="215"></line>
+<line class="s-ink w-bold" x1="458.7" x2="485.4" y1="215" y2="215"></line>
+<ellipse class="f-ink" cx="515.7" cy="204" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="512.2" x2="512.2" y1="205" y2="224"></line>
+<ellipse class="f-ink" cx="542.4" cy="198" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="538.9" x2="538.9" y1="199" y2="224"></line>
+<line class="s-ink w-bold" x1="512.2" x2="538.9" y1="224" y2="224"></line>
+<ellipse class="f-ink" cx="569.2" cy="195" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="565.7" x2="565.7" y1="196" y2="221"></line>
+<ellipse class="f-ink" cx="595.9" cy="201" rx="3.9" ry="2.9"></ellipse>
+<line class="s-ink w-thin" x1="592.4" x2="592.4" y1="202" y2="221"></line>
+<line class="s-ink w-bold" x1="565.7" x2="592.4" y1="221" y2="221"></line>
+<text class="t-lab" x="112" y="22">첫 대목</text>
+<text class="t-small t-it" x="164" y="22">Hastig</text>
+<text class="t-lab" x="380" y="22">뒤의 반복</text>
+<text class="t-small" x="446" y="22">바깥 두 단은 음 하나 다르지 않음</text>
+<text class="t-lab" x="16" y="68">위 성부</text>
+<text class="t-small" x="16" y="84">오른손 · 연주</text>
+<text class="t-lab c-mute" x="16" y="132">내면의 목소리</text>
+<text class="t-small" x="16" y="148">적힘 · 연주 안 됨</text>
+<text class="t-lab" x="16" y="196">아래 성부</text>
+<text class="t-small" x="16" y="212">왼손 · 연주</text>
+<text class="t-small c-gap a-end halo" x="624" y="114">셋째 단이 빠짐 — 부재가 부재</text>
+<text class="t-lab" x="112" y="262">적힌 단 3 − 연주되는 단 2 =</text>
+<text class="t-big" x="294" y="263">1</text>
+<text class="t-lab" x="380" y="262">적힌 단 2 − 연주되는 단 2 =</text>
+<text class="t-big" x="562" y="263">0</text>
+<line class="s-ink" marker-end="url(#ah-1501)" x1="312" x2="368" y1="257" y2="257"></line>
+<text class="t-small a-mid" x="340" y="250">소리 차이 0</text>
+<text class="t-small" x="380" y="282">처음부터 없던 0이 아니라 1이 0이 된 것</text>
+<line class="s-mute w-thin" x1="16" x2="624" y1="298" y2="298"></line>
+<text class="t-lab" x="16" y="320">「매 맞는 아이」 — 프로이트 1919의 세 장면</text>
+<line class="s-ink w-thin" x1="24" x2="224" y1="342" y2="342"></line>
+<line class="s-ink w-thin" marker-end="url(#ah-1501)" x1="236" x2="429" y1="342" y2="342"></line>
+<circle class="f-ink" cx="24" cy="342" r="4.5"></circle>
+<circle class="s-mute dot" cx="230" cy="342" r="6"></circle>
+<circle class="f-ink" cx="436" cy="342" r="4.5"></circle>
+<text class="t-lab" x="16" y="368">① 다른 아이를 때린다</text>
+<text class="t-small" x="16" y="385">기억됨 — 위 성부</text>
+<text class="t-lab c-mute" x="222" y="368">② 나는 맞는다</text>
+<text class="t-small" x="222" y="385">말해진 적 없음 — 내면의 목소리</text>
+<text class="t-lab" x="428" y="368">③ 어떤 아이가 맞고 있다</text>
+<text class="t-small" x="428" y="385">기억됨 — 아래 성부</text>
+<text class="t-small" x="16" y="408">②가 없으면 ①에서 ③으로의 변형이 설명되지 않는다 — 분석에서 재구성될 뿐</text>
+</svg></g></g></g></g></svg>

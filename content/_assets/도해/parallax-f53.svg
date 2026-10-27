@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 392" width="640" height="392" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-sun{stroke:var(--sun)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-sun{fill:var(--sun)}.f-gap{fill:var(--gap)}.f-bg{fill:var(--bg)}.f-sun-soft{fill:var(--sun);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .t-mono{font-family:var(--f-mono);font-size:12px}.fig svg .t-big{font-size:17px;font-weight:600}.fig svg .c-sun{fill:var(--sun)}.fig svg .c-gap{fill:var(--gap)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:392px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="의식의 힘은 버리는 힘이다 — 이론에서는 입력의 약 20만분의 1만 통과시키는 거름망, 실천에서는 시작하지 못하고 '아니!'만 하는 손, 같은 부정의 두 얼굴" class="pz-inner" height="100%" role="img" viewBox="0 0 640 392" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-1004" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1004s" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-sun" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1004m" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<text class="t-lab a-mid" x="180" y="26">이론 — 거름망</text>
+<path class="s-ink" d="M70 84L74.9 90L79.7 96L84.4 102L89.1 108L93.6 114L98 120L102.4 126L106.7 132L110.8 138L114.9 144L118.9 150L122.7 156L126.5 162L130.2 168L133.7 174L137.2 180L140.5 186L143.7 192L146.8 198L149.8 204L152.7 210L155.4 216L158 222L160.5 228L162.8 234L165 240L167 246L168.9 252L170.6 258L172.1 264L173.5 270L174.6 276L175.4 282L175.9 288"></path>
+<path class="s-ink" d="M290 84L285.1 90L280.3 96L275.6 102L270.9 108L266.4 114L262 120L257.6 126L253.3 132L249.2 138L245.1 144L241.1 150L237.3 156L233.5 162L229.8 168L226.3 174L222.8 180L219.5 186L216.3 192L213.2 198L210.2 204L207.3 210L204.6 216L202 222L199.5 228L197.2 234L195 240L193 246L191.1 252L189.4 258L187.9 264L186.5 270L185.4 276L184.6 282L184.1 288"></path>
+<circle class="f-mute" cx="170.1" cy="67.2" r="1.6"></circle>
+<circle class="f-mute" cx="268.2" cy="65.3" r="1.6"></circle>
+<circle class="f-mute" cx="181.6" cy="67.7" r="1.6"></circle>
+<circle class="f-mute" cx="114.4" cy="66.2" r="1.6"></circle>
+<circle class="f-mute" cx="207" cy="71.9" r="1.6"></circle>
+<circle class="f-mute" cx="95.6" cy="62.1" r="1.6"></circle>
+<circle class="f-mute" cx="94.9" cy="72.2" r="1.6"></circle>
+<circle class="f-mute" cx="220.2" cy="56.8" r="1.6"></circle>
+<circle class="f-mute" cx="280.3" cy="75.3" r="1.6"></circle>
+<circle class="f-mute" cx="212" cy="68.3" r="1.6"></circle>
+<circle class="f-mute" cx="108.8" cy="56.3" r="1.6"></circle>
+<circle class="f-mute" cx="185.9" cy="57.2" r="1.6"></circle>
+<circle class="f-mute" cx="115.6" cy="60.8" r="1.6"></circle>
+<circle class="f-mute" cx="82.3" cy="65.3" r="1.6"></circle>
+<circle class="f-mute" cx="167.6" cy="72.8" r="1.6"></circle>
+<circle class="f-mute" cx="184" cy="68.8" r="1.6"></circle>
+<circle class="f-mute" cx="180" cy="69.2" r="1.6"></circle>
+<circle class="f-mute" cx="171.1" cy="61.6" r="1.6"></circle>
+<circle class="f-mute" cx="283.5" cy="75.9" r="1.6"></circle>
+<circle class="f-mute" cx="250.8" cy="70.2" r="1.6"></circle>
+<circle class="f-mute" cx="141.6" cy="60.6" r="1.6"></circle>
+<circle class="f-mute" cx="136.1" cy="57.4" r="1.6"></circle>
+<circle class="f-mute" cx="235.4" cy="64" r="1.6"></circle>
+<circle class="f-mute" cx="252.1" cy="63.7" r="1.6"></circle>
+<circle class="f-mute" cx="275.3" cy="72.9" r="1.6"></circle>
+<circle class="f-mute" cx="76.1" cy="60.2" r="1.6"></circle>
+<circle class="f-mute" cx="265.3" cy="65.4" r="1.6"></circle>
+<circle class="f-mute" cx="279.9" cy="63.9" r="1.6"></circle>
+<circle class="f-mute" cx="91.2" cy="68.6" r="1.6"></circle>
+<circle class="f-mute" cx="237.9" cy="61.4" r="1.6"></circle>
+<circle class="f-mute" cx="94.1" cy="62.7" r="1.6"></circle>
+<circle class="f-mute" cx="276.5" cy="71.2" r="1.6"></circle>
+<circle class="f-mute" cx="100.5" cy="60.9" r="1.6"></circle>
+<circle class="f-mute" cx="97" cy="57.2" r="1.6"></circle>
+<circle class="f-mute" cx="241.8" cy="59.6" r="1.6"></circle>
+<circle class="f-mute" cx="192.3" cy="64.9" r="1.6"></circle>
+<circle class="f-mute" cx="115.7" cy="70.6" r="1.6"></circle>
+<circle class="f-mute" cx="103.2" cy="68.9" r="1.6"></circle>
+<circle class="f-mute" cx="100.2" cy="64.4" r="1.6"></circle>
+<circle class="f-mute" cx="120.3" cy="61.4" r="1.6"></circle>
+<circle class="f-mute" cx="278" cy="72.1" r="1.6"></circle>
+<circle class="f-mute" cx="139.3" cy="73.7" r="1.6"></circle>
+<circle class="f-mute" cx="119.8" cy="63.9" r="1.6"></circle>
+<circle class="f-mute" cx="253.7" cy="68.8" r="1.6"></circle>
+<circle class="f-mute" cx="96.9" cy="75.8" r="1.6"></circle>
+<circle class="f-mute" cx="120.4" cy="61.2" r="1.6"></circle>
+<circle class="f-mute" cx="236.7" cy="62.6" r="1.6"></circle>
+<circle class="f-mute" cx="137.6" cy="57.5" r="1.6"></circle>
+<circle class="f-mute" cx="94.7" cy="67.7" r="1.6"></circle>
+<circle class="f-mute" cx="126.5" cy="68" r="1.6"></circle>
+<circle class="f-mute" cx="153.3" cy="65.1" r="1.6"></circle>
+<circle class="f-mute" cx="275.5" cy="65.7" r="1.6"></circle>
+<circle class="f-mute" cx="195.5" cy="73.3" r="1.6"></circle>
+<circle class="f-mute" cx="114" cy="59.1" r="1.6"></circle>
+<circle class="f-mute" cx="265" cy="72.4" r="1.6"></circle>
+<circle class="f-mute" cx="127.9" cy="59.8" r="1.6"></circle>
+<circle class="f-mute" cx="229.8" cy="74.8" r="1.6"></circle>
+<circle class="f-mute" cx="116.9" cy="75" r="1.6"></circle>
+<circle class="f-mute" cx="259.5" cy="68.1" r="1.6"></circle>
+<circle class="f-mute" cx="163.7" cy="58.1" r="1.6"></circle>
+<circle class="f-mute" cx="84" cy="75.3" r="1.6"></circle>
+<circle class="f-mute" cx="125.6" cy="70.1" r="1.6"></circle>
+<circle class="f-mute" cx="129.5" cy="72.5" r="1.6"></circle>
+<circle class="f-mute" cx="200.1" cy="61.9" r="1.6"></circle>
+<circle class="f-mute" cx="112.5" cy="70.4" r="1.6"></circle>
+<circle class="f-mute" cx="90.3" cy="60.6" r="1.6"></circle>
+<circle class="f-mute" cx="192.3" cy="73" r="1.6"></circle>
+<circle class="f-mute" cx="203.8" cy="61.6" r="1.6"></circle>
+<circle class="f-mute" cx="266.8" cy="60.1" r="1.6"></circle>
+<circle class="f-mute" cx="79.4" cy="61.4" r="1.6"></circle>
+<circle class="f-mute" cx="168.7" cy="57.2" r="1.6"></circle>
+<circle class="f-mute" cx="112.7" cy="63.4" r="1.6"></circle>
+<circle class="f-mute" cx="195" cy="58.6" r="1.6"></circle>
+<circle class="f-mute" cx="151.3" cy="73.8" r="1.6"></circle>
+<circle class="f-mute" cx="279.9" cy="69.1" r="1.6"></circle>
+<circle class="f-mute" cx="219.8" cy="67.7" r="1.6"></circle>
+<circle class="f-mute" cx="105.2" cy="56.7" r="1.6"></circle>
+<circle class="f-mute" cx="79.7" cy="74.2" r="1.6"></circle>
+<circle class="f-mute" cx="221.8" cy="75.3" r="1.6"></circle>
+<circle class="f-mute" cx="80.4" cy="68.7" r="1.6"></circle>
+<circle class="f-mute" cx="176.3" cy="70.6" r="1.6"></circle>
+<circle class="f-mute" cx="142.3" cy="76" r="1.6"></circle>
+<circle class="f-mute" cx="91.7" cy="66.9" r="1.6"></circle>
+<circle class="f-mute" cx="229.3" cy="74" r="1.6"></circle>
+<circle class="f-mute" cx="229.3" cy="70.1" r="1.6"></circle>
+<circle class="f-mute" cx="241" cy="74.3" r="1.6"></circle>
+<circle class="f-mute" cx="149.2" cy="69.7" r="1.6"></circle>
+<circle class="f-mute" cx="263.4" cy="73.4" r="1.6"></circle>
+<circle class="f-mute" cx="162.8" cy="71.8" r="1.6"></circle>
+<circle class="f-mute" cx="255.6" cy="67.5" r="1.6"></circle>
+<circle class="f-mute" cx="206" cy="63.6" r="1.6"></circle>
+<circle class="f-mute" cx="197.2" cy="68.2" r="1.6"></circle>
+<circle class="f-mute" cx="92.7" cy="68.8" r="1.6"></circle>
+<circle class="f-mute" cx="282.6" cy="73.6" r="1.6"></circle>
+<circle class="f-mute" cx="227.5" cy="63.8" r="1.6"></circle>
+<circle class="f-mute" cx="228.9" cy="67.6" r="1.6"></circle>
+<circle class="f-mute" cx="167.6" cy="72.8" r="1.6"></circle>
+<circle class="f-mute" cx="93.4" cy="71" r="1.6"></circle>
+<circle class="f-mute" cx="82.2" cy="68" r="1.6"></circle>
+<circle class="f-mute" cx="176" cy="60.6" r="1.6"></circle>
+<circle class="f-mute" cx="221.3" cy="65.9" r="1.6"></circle>
+<circle class="f-mute" cx="203.8" cy="74.4" r="1.6"></circle>
+<circle class="f-mute" cx="129.2" cy="56.2" r="1.6"></circle>
+<circle class="f-mute" cx="138.6" cy="69.6" r="1.6"></circle>
+<circle class="f-mute" cx="118.1" cy="59.4" r="1.6"></circle>
+<circle class="f-mute" cx="264.4" cy="69.2" r="1.6"></circle>
+<circle class="f-mute" cx="167.9" cy="73.8" r="1.6"></circle>
+<circle class="f-mute" cx="144" cy="69.3" r="1.6"></circle>
+<circle class="f-mute" cx="117.3" cy="64.6" r="1.6"></circle>
+<circle class="f-mute" cx="243.6" cy="74.3" r="1.6"></circle>
+<circle class="f-mute" cx="259.1" cy="63.7" r="1.6"></circle>
+<circle class="f-mute" cx="197.3" cy="62.3" r="1.6"></circle>
+<circle class="f-mute" cx="104.3" cy="65.9" r="1.6"></circle>
+<circle class="f-mute" cx="250.1" cy="73" r="1.6"></circle>
+<circle class="f-mute" cx="223.9" cy="75" r="1.6"></circle>
+<circle class="f-mute" cx="133.6" cy="59.4" r="1.6"></circle>
+<circle class="f-mute" cx="169.7" cy="61.5" r="1.6"></circle>
+<circle class="f-mute" cx="120.5" cy="64.3" r="1.6"></circle>
+<circle class="f-mute" cx="206.2" cy="65.9" r="1.6"></circle>
+<circle class="f-mute" cx="141.6" cy="72.8" r="1.6"></circle>
+<circle class="f-mute" cx="173.5" cy="256.9" r="1.4"></circle>
+<circle class="f-mute" cx="201.6" cy="187" r="1.4"></circle>
+<circle class="f-mute" cx="170.9" cy="93.2" r="1.4"></circle>
+<circle class="f-mute" cx="114.3" cy="130.4" r="1.4"></circle>
+<circle class="f-mute" cx="188.2" cy="197" r="1.4"></circle>
+<circle class="f-mute" cx="130.4" cy="123.9" r="1.4"></circle>
+<circle class="f-mute" cx="223.5" cy="91.8" r="1.4"></circle>
+<circle class="f-mute" cx="155.4" cy="120.4" r="1.4"></circle>
+<circle class="f-mute" cx="190" cy="244.1" r="1.4"></circle>
+<circle class="f-mute" cx="177.8" cy="212.8" r="1.4"></circle>
+<circle class="f-mute" cx="182.9" cy="250.5" r="1.4"></circle>
+<circle class="f-mute" cx="199.5" cy="212" r="1.4"></circle>
+<circle class="f-mute" cx="167.8" cy="235.5" r="1.4"></circle>
+<circle class="f-mute" cx="160.6" cy="220.6" r="1.4"></circle>
+<circle class="f-mute" cx="190.6" cy="227.6" r="1.4"></circle>
+<circle class="f-mute" cx="226.3" cy="119.4" r="1.4"></circle>
+<circle class="f-mute" cx="182.8" cy="113.9" r="1.4"></circle>
+<circle class="f-mute" cx="184.9" cy="104.6" r="1.4"></circle>
+<circle class="f-mute" cx="224" cy="143" r="1.4"></circle>
+<circle class="f-mute" cx="188.4" cy="243.1" r="1.4"></circle>
+<circle class="f-mute" cx="182.6" cy="187.4" r="1.4"></circle>
+<circle class="f-mute" cx="205.4" cy="177.7" r="1.4"></circle>
+<circle class="f-mute" cx="194.4" cy="185.7" r="1.4"></circle>
+<circle class="f-mute" cx="179.4" cy="247" r="1.4"></circle>
+<circle class="f-mute" cx="234.4" cy="111.6" r="1.4"></circle>
+<circle class="f-mute" cx="175.6" cy="243.1" r="1.4"></circle>
+<circle class="f-mute" cx="185.9" cy="247.3" r="1.4"></circle>
+<circle class="f-mute" cx="125.5" cy="93.9" r="1.4"></circle>
+<circle class="f-mute" cx="172.2" cy="206.8" r="1.4"></circle>
+<circle class="f-mute" cx="195" cy="195.4" r="1.4"></circle>
+<circle class="f-mute" cx="184.3" cy="132.6" r="1.4"></circle>
+<circle class="f-mute" cx="171.3" cy="164.3" r="1.4"></circle>
+<circle class="f-mute" cx="155.8" cy="180" r="1.4"></circle>
+<circle class="f-mute" cx="233.5" cy="143.7" r="1.4"></circle>
+<path class="s-mute w-thin" d="M82 104q-18 -6 -30 6" marker-end="url(#ah-1004m)"></path>
+<path class="s-mute w-thin" d="M114.9 150q-18 -6 -30 6" marker-end="url(#ah-1004m)"></path>
+<text class="t-small a-mid" x="92.9" y="176">버림</text>
+<path class="s-mute w-thin" d="M141.8 196q-18 -6 -30 6" marker-end="url(#ah-1004m)"></path>
+<path class="s-mute w-thin" d="M278 104q18 -6 30 6" marker-end="url(#ah-1004m)"></path>
+<path class="s-mute w-thin" d="M245.1 150q18 -6 30 6" marker-end="url(#ah-1004m)"></path>
+<text class="t-small a-mid" x="267.1" y="176">버림</text>
+<path class="s-mute w-thin" d="M218.2 196q18 -6 30 6" marker-end="url(#ah-1004m)"></path>
+<line class="s-mute w-thin" x1="30" x2="36" y1="280.2" y2="280.2"></line>
+<text class="t-small a-end" x="26" y="284.2">10²</text>
+<line class="s-mute w-thin" x1="30" x2="36" y1="241.3" y2="241.3"></line>
+<text class="t-small a-end" x="26" y="245.3">10³</text>
+<line class="s-mute w-thin" x1="30" x2="36" y1="202.4" y2="202.4"></line>
+<text class="t-small a-end" x="26" y="206.4">10⁴</text>
+<line class="s-mute w-thin" x1="30" x2="36" y1="163.4" y2="163.4"></line>
+<text class="t-small a-end" x="26" y="167.4">10⁵</text>
+<line class="s-mute w-thin" x1="30" x2="36" y1="124.5" y2="124.5"></line>
+<text class="t-small a-end" x="26" y="128.5">10⁶</text>
+<line class="s-mute w-thin" x1="30" x2="36" y1="85.6" y2="85.6"></line>
+<text class="t-small a-end" x="26" y="89.6">10⁷</text>
+<line class="s-mute w-thin" x1="30" x2="30" y1="85.6" y2="280.2"></line>
+<text class="t-lab a-mid" x="180" y="48">감각 약 1,100만 비트/초</text>
+<line class="s-gap w-bold" x1="176" x2="184" y1="290" y2="290"></line>
+<circle class="f-gap" cx="180" cy="302" r="3"></circle>
+<text class="t-lab a-mid c-gap" x="180" y="326">의식 약 56비트/초</text>
+<text class="t-small a-mid" x="180" y="344">(7바이트)</text>
+<text class="t-lab a-mid" x="180" y="366">≈ 20만분의 1만 통과</text>
+<line class="s-mute dot" x1="320" x2="320" y1="40" y2="356"></line>
+<text class="t-lab a-mid" x="480" y="26">실천 — '아니!'만 하는 손</text>
+<line class="s-ink" marker-end="url(#ah-1004)" x1="344" x2="620" y1="290" y2="290"></line>
+<line class="s-ink" x1="365.3" x2="365.3" y1="290" y2="296"></line>
+<text class="t-mono a-mid" x="365.3" y="312">−550</text>
+<line class="s-ink" x1="514.7" x2="514.7" y1="290" y2="296"></line>
+<text class="t-mono a-mid" x="514.7" y="312">−200</text>
+<line class="s-ink" x1="600" x2="600" y1="290" y2="296"></line>
+<text class="t-mono a-mid" x="600" y="312">0 ms</text>
+<path class="s-sun w-bold" d="M365.3 290L369.2 290L373.2 289.9L377.1 289.8L381 289.7L384.9 289.5L388.8 289.2L392.7 288.9L396.6 288.5L400.5 288L404.4 287.5L408.4 286.9L412.3 286.3L416.2 285.6L420.1 284.8L424 283.9L427.9 283L431.8 282L435.7 280.9L439.6 279.8L443.6 278.6L447.5 277.3L451.4 275.9L455.3 274.5L459.2 272.9L463.1 271.3L467 269.7L470.9 267.9L474.8 266.1L478.8 264.1L482.7 262.1L486.6 260.1L490.5 257.9L494.4 255.6L498.3 253.3L502.2 250.9L506.1 248.4L510 245.8L514 243.1L517.9 240.4L521.8 237.5L525.7 234.6L529.6 231.6L533.5 228.5L537.4 225.3L541.3 222L545.2 218.7L549.2 215.2L553.1 211.7L557 208L560.9 204.3L564.8 200.5L568.7 196.6L572.6 192.6L576.5 188.5L580.4 184.3"></path>
+<path class="s-sun dash" d="M580.4 184.3L584.4 180L588.3 175.7L592.2 171.2L596.1 166.6L600 162"></path>
+<text class="t-mono c-sun" x="359.3" y="272">RP</text>
+<text class="t-small" x="359.3" y="252">뇌가 먼저</text>
+<rect class="f-sun-soft" height="190" width="64" x="514.7" y="100"></rect>
+<line class="s-ink dash" x1="514.7" x2="514.7" y1="92" y2="290"></line>
+<text class="t-lab a-end" x="508.7" y="90">W '하고 싶다'</text>
+<text class="t-big a-mid c-sun" x="546.7" y="124">아니!</text>
+<text class="t-small a-mid" x="546.7" y="144">거부 창</text>
+<text class="t-small a-mid" x="546.7" y="160">150 ms</text>
+<line class="s-sun w-bold" x1="578.7" x2="578.7" y1="170" y2="290"></line>
+<line class="s-sun w-bold" x1="572.7" x2="584.7" y1="170" y2="170"></line>
+<circle class="f-bg" cx="600" cy="290" r="4.5"></circle>
+<circle class="s-ink" cx="600" cy="290" r="4.5"></circle>
+<text class="t-small a-mid" x="600" y="276">동작</text>
+<text class="t-small a-mid" x="480" y="344">시작은 의식 밖 — 의식은 멈출 뿐</text>
+<text class="t-lab a-mid" x="320" y="382">같은 부정의 두 얼굴</text>
+</svg></g></g></g></g></svg>

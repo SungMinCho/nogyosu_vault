@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 286" width="640" height="286" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.f-ink{fill:var(--fg)}.f-gap{fill:var(--gap)}.f-bg2{fill:var(--bg2)}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:286px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="덴셔가 내민 엇대각선 두 칸의 여집합에서 케이트는 주대각선을 고르고, 끝내 '둘 다 없음'의 칸에서 격자 밖으로 문을 나선다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 286" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="ah-603g" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-gap" d="M0 0L10 5L0 10Z"></path></marker>
+</defs>
+<text class="t-lab a-mid" x="195" y="32">돈 있음</text>
+<text class="t-lab a-mid" x="345" y="32">돈 없음</text>
+<text class="t-lab a-end" x="110" y="101">덴셔 있음</text>
+<text class="t-lab a-end" x="110" y="197">덴셔 없음</text>
+<rect class="f-bg2 s-mute w-thin" height="96" width="150" x="270" y="48"></rect>
+<rect class="f-bg2 s-mute w-thin" height="96" width="150" x="120" y="144"></rect>
+<text class="t-lab" x="282" y="72">② 덴셔만</text>
+<text class="t-small" x="282" y="94">돈을 끝내 마다함</text>
+<text class="t-small" x="282" y="110">= 밀리의 남편</text>
+<text class="t-lab" x="132" y="168">③ 돈만</text>
+<text class="t-small" x="132" y="190">덴셔 없는 돈</text>
+<rect class="s-ink w-bold" height="96" width="150" x="120" y="48"></rect>
+<text class="t-lab" x="132" y="72">① 덴셔 + 돈</text>
+<text class="t-small" x="132" y="94">돈을 그냥 돈으로</text>
+<line class="s-mute w-bold" x1="132" x2="258" y1="112" y2="112"></line>
+<text class="t-lab c-mute" x="132" y="132">맹세 거부로 닫힘</text>
+<path class="s-gap w-bold" d="M420 182V144H270V240H420V222"></path>
+<line class="s-gap" x1="420" x2="444" y1="182" y2="174"></line>
+<text class="t-lab c-gap" x="282" y="168">④ 둘 다 없음</text>
+<text class="t-small" x="282" y="188">판에서 내려오는 칸</text>
+<circle class="f-ink" cx="300" cy="208" r="4.5"></circle>
+<text class="t-lab a-mid" x="300" y="232">케이트</text>
+<line class="s-gap w-bold" marker-end="url(#ah-603g)" x1="308" x2="512" y1="208" y2="208"></line>
+<text class="t-lab a-mid c-gap" x="570" y="213">문을 나선다</text>
+<text class="t-small a-mid" x="570" y="232">옛날의 둘은 이제 없다</text>
+<rect class="f-bg2 s-mute w-thin" height="14" width="14" x="452" y="56"></rect>
+<text class="t-lab" x="474" y="68">덴셔의 메뉴</text>
+<text class="t-small" x="474" y="86">엇대각선 ②③</text>
+<text class="t-small" x="474" y="102">둘 중 꼭 하나</text>
+<rect class="s-ink w-bold" height="14" width="14" x="452" y="116"></rect>
+<text class="t-lab" x="474" y="128">케이트의 메뉴</text>
+<text class="t-small" x="474" y="146">주대각선 ①④</text>
+<text class="t-small" x="474" y="162">같이 있거나 같이 없거나</text>
+<text class="t-lab a-mid" x="320" y="272">두 메뉴의 교집합 0칸 — 케이트의 메뉴는 덴셔 메뉴의 여집합</text>
+</svg></g></g></g></g></svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 300" width="640" height="300" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-star{stroke:var(--star)}.s-moon{stroke:var(--moon)}.s-gap{stroke:var(--gap)}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.f-ink{fill:var(--fg)}.f-star{fill:var(--star)}.f-moon{fill:var(--moon)}.f-bg2{fill:var(--bg2)}.f-star-soft{fill:var(--star);fill-opacity:.14}.f-moon-soft{fill:var(--moon);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-star{fill:var(--star)}.fig svg .c-moon{fill:var(--moon)}.fig svg .c-gap{fill:var(--gap)}.fig svg .a-mid{text-anchor:middle}.fig svg .halo{paint-order:stroke;stroke:var(--bg);stroke-width:4px;stroke-linejoin:round}svg.pz-root{width:640px!important;height:300px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="불가능한 단락: 두 이야기는 공유 공간이 없는 두 층위를 한 평면에 억지로 세우고, 그 순간 둘은 우스꽝스러워진다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 300" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-103" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<text class="t-lab a-mid" x="160" y="28">실제 구조</text>
+<path class="f-star-soft s-star" d="M60 60H290L260 110H30Z"></path>
+<text class="t-small a-mid c-star" x="160" y="52">이론·예술의 층위</text>
+<circle class="f-star" cx="64" cy="88" r="3"></circle><text class="t-lab a-mid" x="110" y="93">벤야민 「테제」</text>
+<circle class="f-star" cx="175" cy="88" r="3"></circle><text class="t-lab a-mid" x="220" y="93">칸딘스키·클레</text>
+<path class="f-moon-soft s-moon" d="M60 190H290L260 240H30Z"></path>
+<text class="t-small a-mid c-moon" x="160" y="262">정치·폭력의 층위</text>
+<circle class="f-moon" cx="72" cy="218" r="3"></circle><text class="t-lab a-mid" x="104" y="223">스탈린</text>
+<circle class="f-moon" cx="175" cy="218" r="3"></circle><text class="t-lab a-mid" x="210" y="223">고문소</text>
+<line class="s-mute dash" x1="110" x2="110" y1="112" y2="140"></line>
+<line class="s-mute dash" x1="110" x2="110" y1="160" y2="188"></line>
+<line class="s-mute dash" x1="220" x2="220" y1="112" y2="140"></line>
+<line class="s-mute dash" x1="220" x2="220" y1="160" y2="188"></line>
+<text class="t-lab a-mid c-gap halo" x="165" y="155">공유 공간 없음</text>
+<line class="s-ink" marker-end="url(#ah-103)" x1="304" x2="336" y1="150" y2="150"></line>
+<text class="t-small a-mid" x="320" y="138">이야기</text>
+<text class="t-lab a-mid" x="485" y="28">두 이야기가 하는 일</text>
+<path class="f-bg2 s-ink" d="M378 128H624L594 188H348Z"></path>
+<circle class="f-moon" cx="380" cy="160" r="3"></circle><text class="t-lab a-mid" x="410" y="165">스탈린</text>
+<path class="s-gap w-bold" d="M440 160L450 146L460 172L470 146L480 172L490 158"></path>
+<circle class="f-star" cx="500" cy="160" r="3"></circle><text class="t-lab a-mid" x="548" y="165">벤야민 「테제」</text>
+<text class="t-lab a-mid c-gap" x="485" y="214">불가능한 단락</text>
+<text class="t-small a-mid" x="485" y="236">한 평면에 놓을 수 있다는 착각</text>
+<text class="t-small a-mid" x="485" y="254">= 초월론적 가상 → 웃음이 난다</text>
+</svg></g></g></g></g></svg>

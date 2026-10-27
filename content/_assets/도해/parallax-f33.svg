@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 352" width="640" height="352" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.f-ink{fill:var(--fg)}.f-bg{fill:var(--bg)}.f-bg2{fill:var(--bg2)}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-gap{fill:var(--gap)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:352px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="사태를 바꾸는 것은 비밀이 아니라 '타자도 알았다'는 앎이고, 그 앎이 겹쳐 쌓인 꼭대기에서 대타자가 알게 되면 모르는 척은 불가능해진다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 352" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-604" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<text class="t-small a-mid" x="100" y="26">시선이 겹쳐 쌓인다</text>
+<text class="t-small" x="190" y="26">앎의 층</text>
+<text class="t-small" x="380" y="26">소설 속 자리</text>
+<line class="s-mute w-thin" x1="20" x2="620" y1="40" y2="40"></line>
+<rect class="s-ink w-thin f-bg2" height="62" rx="8" width="134" x="34" y="50"></rect>
+<circle class="f-ink" cx="74" cy="96" r="4.5"></circle>
+<circle class="f-ink" cx="74" cy="66" r="4.5"></circle>
+<line class="s-ink w-thin" x1="79" x2="130" y1="94" y2="83"></line>
+<line class="s-ink w-thin" x1="79" x2="130" y1="68" y2="79"></line>
+<rect class="s-ink f-bg" height="14" width="22" x="132" y="74"></rect>
+<path class="s-ink w-thin" d="M132 74L143 81L154 74"></path>
+<path class="s-ink w-thin" d="M68 92Q58 81 68 70M63 96Q48 81 63 66M58 100Q38 81 58 62"></path>
+<text class="t-lab" x="190" y="78">대타자가 앎</text>
+<text class="t-small" x="190" y="98">둘 사이의 공간에 새겨짐</text>
+<text class="t-lab" x="380" y="78">『비둘기』의 마지막 말</text>
+<text class="t-small" x="380" y="96">아무 일 없던 척은 해도, 예전의 둘은 없다</text>
+<path class="s-gap w-bold" d="M20 124H182M350 124H620"></path>
+<text class="t-lab c-gap" x="190" y="129">↑ 여기서 모르는 척이 끝난다</text>
+<circle class="f-ink" cx="64" cy="196" r="4.5"></circle>
+<circle class="f-ink" cx="64" cy="152" r="4.5"></circle>
+<text class="t-small a-end" x="52" y="200">나</text>
+<text class="t-small a-end" x="52" y="156">타자</text>
+<line class="s-ink w-thin" x1="69" x2="128" y1="194" y2="178"></line>
+<line class="s-ink w-thin" x1="69" x2="128" y1="154" y2="170"></line>
+<rect class="s-ink f-bg" height="14" width="22" x="130" y="167"></rect>
+<path class="s-ink w-thin" d="M130 167L141 174L152 167"></path>
+<path class="s-ink" d="M70 198Q102 202 100 170" marker-end="url(#ah-604)"></path>
+<text class="t-lab" x="190" y="172">타자도 알았음을</text>
+<text class="t-lab" x="190" y="190">내가 앎</text>
+<text class="t-lab" x="380" y="156">『순수의 시대』</text>
+<text class="t-small" x="380" y="173">아내도 알았다 — 계단을 못 오른다</text>
+<text class="t-lab" x="380" y="198">『황금 잔』의 거짓말 그물</text>
+<text class="t-small" x="380" y="215">넷이 함께 빨간 선 아래로 붙든다</text>
+<line class="s-ink w-thin" x1="20" x2="620" y1="228" y2="228"></line>
+<circle class="f-ink" cx="64" cy="256" r="4.5"></circle>
+<text class="t-small a-end" x="52" y="260">나</text>
+<line class="s-ink w-thin" x1="69" x2="118" y1="256" y2="256"></line>
+<rect class="s-ink f-bg" height="14" width="22" x="120" y="249"></rect>
+<path class="s-ink w-thin" d="M120 249L131 256L142 249"></path>
+<text class="t-lab" x="190" y="261">내가 앎</text>
+<text class="t-lab" x="380" y="252">케이트가 봉투를 뜯음</text>
+<text class="t-small" x="380" y="269">알아 버림 — 모르는 척은 아직 가능</text>
+<line class="s-mute w-thin" x1="20" x2="620" y1="284" y2="284"></line>
+<rect class="s-ink f-bg" height="14" width="22" x="89" y="305"></rect>
+<path class="s-ink w-thin" d="M89 305L100 312L111 305"></path>
+<text class="t-lab" x="190" y="317">사실</text>
+<text class="t-lab" x="380" y="308">봉투 속 유증</text>
+<text class="t-small" x="380" y="325">덴셔의 무지 협약: 뜯지 말고 함께 모르자</text>
+<line class="s-mute w-thin" x1="20" x2="620" y1="340" y2="340"></line>
+</svg></g></g></g></g></svg>

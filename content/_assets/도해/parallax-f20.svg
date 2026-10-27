@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 352" width="640" height="352" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-star{stroke:var(--star)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.f-mute{fill:var(--mute)}.f-star{fill:var(--star)}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-gap{fill:var(--gap)}.fig svg .a-mid{text-anchor:middle}svg.pz-root{width:640px!important;height:352px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="고전적 유혹과 페루 장면은 같은 세 박자를 거꾸로 밟고, 그 밑에는 성 역할이 뒤바뀐 셋째 장면이 깔려 있다 — 로빈슨 부인은 같은 칸에 '진심인 제안'을 넣은 짝이다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 352" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="ah-401" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker>
+</defs>
+<!-- 머리: 세 박자 -->
+<text class="t-lab a-mid" x="205" y="26">접근</text>
+<text class="t-lab a-mid" x="375" y="26">동의의 말</text>
+<text class="t-lab a-mid" x="545" y="26">귀결</text>
+<line class="s-mute w-thin" marker-end="url(#ah-401)" x1="228" x2="336" y1="21" y2="21"></line>
+<line class="s-mute w-thin" marker-end="url(#ah-401)" x1="414" x2="520" y1="21" y2="21"></line>
+<!-- ① 고전 유혹 -->
+<text class="t-lab" x="16" y="60">① 고전 유혹</text>
+<text class="t-small" x="16" y="76">할리우드 공식</text>
+<rect class="s-mute w-thin" height="46" width="154" x="128" y="40"></rect>
+<rect class="s-mute w-thin" height="46" width="154" x="298" y="40"></rect>
+<rect class="s-mute w-thin" height="46" width="154" x="468" y="40"></rect>
+<text class="t-lab a-mid" x="200" y="68">부드러운 접근</text>
+<path class="s-ink" d="M254 64C258 58 262 58 266 64S274 70 278 64"></path>
+<text class="t-lab a-mid" x="375" y="68">여자의 “예”</text>
+<text class="t-lab a-mid" x="537" y="68">거친 성행위</text>
+<path class="s-ink" d="M592 67L596 61L600 67L604 61L608 67L612 61L616 67"></path>
+<!-- ①→② 뒤집기: 부드러움과 거침이 처음과 끝에서 자리를 바꾼다 -->
+<line class="s-mute" marker-end="url(#ah-401)" marker-start="url(#ah-401)" x1="266" x2="600" y1="90" y2="124"></line>
+<line class="s-mute" marker-end="url(#ah-401)" marker-start="url(#ah-401)" x1="604" x2="270" y1="90" y2="124"></line>
+<text class="t-small" x="16" y="103">처음과 끝이</text>
+<text class="t-small" x="16" y="117">자리를 바꾼다</text>
+<!-- ② 페루 -->
+<text class="t-lab" x="16" y="148">② 페루</text>
+<text class="t-small" x="16" y="164">《광란의 사랑》</text>
+<rect class="s-mute w-thin" height="46" width="154" x="128" y="128"></rect>
+<rect class="s-mute w-thin" height="46" width="154" x="298" y="128"></rect>
+<rect class="s-gap w-bold" height="46" width="154" x="468" y="128"></rect>
+<text class="t-lab a-mid" x="200" y="149">거친 접근</text>
+<path class="s-ink" d="M254 149L258 143L262 149L266 143L270 149L274 143L278 149"></path>
+<text class="t-small a-mid" x="200" y="166">진심 아닌 제안</text>
+<text class="t-lab a-mid" x="375" y="149">짜낸 “예”</text>
+<text class="t-small a-mid" x="375" y="166">몸이 먼저 응함</text>
+<text class="t-lab a-mid c-gap" x="537" y="149">정중한 사양</text>
+<path class="s-gap" d="M592 146C596 140 600 140 604 146S612 152 616 146"></path>
+<text class="t-small a-mid" x="537" y="166">진심을 빈말로 돌려줌</text>
+<!-- ②와 ③ 사이: 같은 장면, 다른 성 -->
+<path class="s-ink w-thin" d="M16 186H300M16 190H300M450 186H622M450 190H622"></path>
+<text class="t-lab a-mid" x="375" y="193">같은 장면, 다른 성</text>
+<!-- ③ 밑그림 (표면 밑에 깔린 장면 — 점선 칸) -->
+<text class="t-lab" x="16" y="222">③ 밑그림</text>
+<text class="t-small" x="16" y="238">성이 뒤바뀜</text>
+<rect class="s-mute dash" height="46" width="154" x="128" y="202"></rect>
+<rect class="s-mute dash" height="46" width="154" x="298" y="202"></rect>
+<rect class="s-mute dash" height="46" width="154" x="468" y="202"></rect>
+<text class="t-lab a-mid" x="205" y="223">연상의 여자가 놀림</text>
+<text class="t-small a-mid" x="205" y="240">대포의 자리 · 이빨 달린 입</text>
+<text class="t-lab a-mid" x="375" y="223">소년의 “예”</text>
+<text class="t-small a-mid" x="375" y="240">룰라의 자리</text>
+<text class="t-lab a-mid" x="545" y="223">놀리고 버림</text>
+<!-- ④ 《졸업》 -->
+<text class="t-lab" x="16" y="282">④ 《졸업》</text>
+<text class="t-small" x="16" y="298">로빈슨 부인</text>
+<rect class="s-mute w-thin" height="46" width="154" x="128" y="262"></rect>
+<rect class="s-mute w-thin" height="46" width="154" x="298" y="262"></rect>
+<rect class="s-mute w-thin" height="46" width="154" x="468" y="262"></rect>
+<text class="t-lab a-mid" x="205" y="283">진심인 제안</text>
+<text class="t-small a-mid" x="205" y="300">유혹의 말이 진짜다</text>
+<text class="t-lab a-mid" x="375" y="283">벤이 응함</text>
+<text class="t-small a-mid" x="375" y="300">사랑 없는 성</text>
+<text class="t-lab a-mid" x="545" y="283">딸만은 금함</text>
+<text class="t-small a-mid" x="545" y="300">일레인 = 부재하는 제3자</text>
+<!-- 같은 칸의 짝: ② 진심 아닌 제안 ↔ ④ 진심인 제안 -->
+<path class="s-star" d="M127 151H121V285H127"></path>
+<circle class="f-star" cx="121" cy="151" r="2.4"></circle>
+<circle class="f-star" cx="121" cy="285" r="2.4"></circle>
+<!-- 범례 -->
+<path class="s-ink" d="M16 334C20 328 24 328 28 334S36 340 40 334"></path>
+<text class="t-small" x="48" y="338">부드러움</text>
+<path class="s-ink" d="M110 337L114 331L118 337L122 331L126 337L130 331L134 337"></path>
+<text class="t-small" x="142" y="338">거침</text>
+<rect class="s-mute dash" height="12" width="22" x="186" y="328"></rect>
+<text class="t-small" x="214" y="338">표면 밑에 깔린 장면</text>
+<path class="s-star" d="M336 328H330V340H336"></path>
+<text class="t-small" x="342" y="338">같은 칸, 반대 값 — 진심 아님 / 진심</text>
+</svg></g></g></g></g></svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 400" width="640" height="400" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-sun{stroke:var(--sun)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-bg{fill:var(--bg)}.f-bg2{fill:var(--bg2)}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-sun{fill:var(--sun)}.fig svg .c-gap{fill:var(--gap)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:400px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="세 예지자의 보고는 앞 보고를 사실로 품으며 갈라지고, 도나와 마이크의 '다수'는 서로 다른 가지에서 본 겉보기 일치다 — 미래가 여럿인 까닭은 존재의 구멍이 아니라 예언을 아는 앎이다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 400" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="ah-903" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-903m" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker>
+</defs>
+<line class="s-mute w-thin" marker-end="url(#ah-903m)" x1="100" x2="600" y1="30" y2="30"></line>
+<text class="t-small a-end" x="600" y="22">시간</text>
+<circle class="f-ink" cx="100" cy="120" r="4"></circle>
+<text class="t-lab a-mid" x="100" y="104">지금</text>
+<text class="t-lab c-sun" x="16" y="124">도나</text>
+<text class="t-lab" x="16" y="146">모르는 앤더턴</text>
+<text class="t-lab c-sun" x="16" y="224">제리</text>
+<text class="t-lab" x="16" y="246">도나 보고를 앎</text>
+<text class="t-lab c-sun" x="16" y="324">마이크</text>
+<text class="t-lab" x="16" y="346">제리 보고까지 앎</text>
+<line class="s-ink" x1="104" x2="432" y1="120" y2="120"></line>
+<path class="s-ink" d="M210 120C242 120 238 220 270 220H432"></path>
+<path class="s-ink" d="M320 220C352 220 348 320 380 320H432"></path>
+<circle class="s-ink f-bg" cx="210" cy="120" r="5"></circle>
+<circle class="s-ink f-bg" cx="320" cy="220" r="5"></circle>
+<text class="t-small a-mid" x="340" y="112">가지 A</text>
+<text class="t-small a-mid" x="388" y="212">가지 B</text>
+<text class="t-small a-mid" x="406" y="312">가지 C</text>
+<rect class="s-ink f-bg2" height="28" width="88" x="432" y="106"></rect>
+<text class="t-lab a-mid" x="476" y="125">K · 죽인다</text>
+<line class="s-mute w-thin" x1="436" x2="516" y1="131" y2="109"></line>
+<rect class="s-ink f-bg2" height="28" width="88" x="432" y="206"></rect>
+<text class="t-lab a-mid" x="476" y="225">N · 안 죽인다</text>
+<line class="s-mute w-thin" x1="436" x2="516" y1="231" y2="209"></line>
+<rect class="s-ink w-bold f-bg2" height="28" width="88" x="432" y="306"></rect>
+<text class="t-lab a-mid" x="476" y="325">K · 죽인다</text>
+<path class="s-sun" d="M452 105C424 56 242 56 213 112" marker-end="url(#ah-903)"></path>
+<text class="t-lab a-mid c-sun" x="330" y="58">앤더턴이 앎</text>
+<path class="s-sun" d="M452 205C432 162 346 162 323 212" marker-end="url(#ah-903)"></path>
+<text class="t-lab a-mid c-sun" x="388" y="158">다시 앎</text>
+<path class="s-gap dash" d="M522 120H552V320H522"></path>
+<path class="s-gap" d="M524 320L531 313M524 320L531 327"></path>
+<text class="t-lab c-gap" x="560" y="204">거짓 다수</text>
+<text class="t-lab c-gap" x="560" y="224">K 2 : N 1</text>
+<path class="s-ink" d="M476 336V352"></path>
+<path class="f-ink" d="M476 342H500L494 348L500 354H476"></path>
+<text class="t-lab" x="508" y="353">최신 보고만 유효</text>
+<text class="t-lab" x="16" y="386">가지가 갈리는 곳은 앎이 되먹히는 자리 — 세계에 난 구멍이 아니다</text>
+</svg></g></g></g></g></svg>

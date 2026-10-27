@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 310" width="640" height="310" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-star{stroke:var(--star)}.s-sun{stroke:var(--sun)}.fig svg .w-bold{stroke-width:2.4}.f-ink{fill:var(--fg)}.f-star{fill:var(--star)}.f-sun{fill:var(--sun)}.f-gap{fill:var(--gap)}.f-star-soft{fill:var(--star);fill-opacity:.14}.f-sun-soft{fill:var(--sun);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-star{fill:var(--star)}.fig svg .c-sun{fill:var(--sun)}.fig svg .c-gap{fill:var(--gap)}.fig svg .a-mid{text-anchor:middle}svg.pz-root{width:640px!important;height:310px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="주체성 논쟁은 세 동네 각각의 안에서 '허무는 쪽'과 '지키는 쪽'이 맞서는 3×2 판이고, 인지주의 하이데거주의자들이 이 판을 대각으로 가로지르는 합선을 낸다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 310" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="ah-801s" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-sun" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-801t" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-star" d="M0 0L10 5L0 10Z"></path></marker>
+</defs>
+<text class="t-lab a-mid c-sun" x="176" y="28">인지과학</text>
+<text class="t-lab a-mid c-star" x="358" y="28">독일 초월론</text>
+<text class="t-lab a-mid c-star" x="540" y="28">프랑스 이론</text>
+<text class="t-lab" x="16" y="78">허무는 쪽</text>
+<text class="t-small" x="16" y="145">맞섬</text>
+<text class="t-lab" x="16" y="216">지키는 쪽</text>
+<rect class="s-sun f-sun-soft" height="68" width="168" x="92" y="40"></rect>
+<rect class="s-star f-star-soft" height="68" width="168" x="274" y="40"></rect>
+<rect class="s-star f-star-soft" height="68" width="168" x="456" y="40"></rect>
+<text class="t-lab a-mid" x="176" y="68">사용자 착각</text>
+<text class="t-small a-mid" x="176" y="90">자기경험은 화면 위 요약</text>
+<text class="t-lab a-mid" x="358" y="68">하이데거</text>
+<text class="t-small a-mid" x="358" y="90">존재가 주체보다 깊다</text>
+<text class="t-lab a-mid" x="540" y="68">해체론</text>
+<text class="t-small a-mid" x="540" y="90">주체는 텍스트의 효과</text>
+<rect class="s-sun f-sun-soft" height="80" width="168" x="92" y="172"></rect>
+<rect class="s-star f-star-soft" height="80" width="168" x="274" y="172"></rect>
+<rect class="s-star f-star-soft" height="80" width="168" x="456" y="172"></rect>
+<text class="t-lab a-mid" x="176" y="200">네이글·차머스</text>
+<text class="t-small a-mid" x="176" y="222">경험은 설명되지 않는다</text>
+<text class="t-lab a-mid" x="358" y="200">헨리히 학파</text>
+<text class="t-small a-mid" x="358" y="222">반성 이전의 자기 친숙성</text>
+<text class="t-lab a-mid" x="540" y="200">라캉</text>
+<text class="t-small a-mid" x="540" y="222">실체 없는 코기토</text>
+<circle class="f-gap" cx="510" cy="237" r="4.5"></circle>
+<text class="t-small c-gap" x="520" y="241">지젝의 자리</text>
+<line class="s-sun" marker-end="url(#ah-801s)" x1="176" x2="176" y1="110" y2="133"></line>
+<line class="s-sun" marker-end="url(#ah-801s)" x1="176" x2="176" y1="170" y2="147"></line>
+<line class="s-sun w-bold" x1="154" x2="198" y1="140" y2="140"></line>
+<line class="s-star" marker-end="url(#ah-801t)" x1="358" x2="358" y1="110" y2="133"></line>
+<line class="s-star" marker-end="url(#ah-801t)" x1="358" x2="358" y1="170" y2="147"></line>
+<line class="s-star w-bold" x1="336" x2="380" y1="140" y2="140"></line>
+<line class="s-star" marker-end="url(#ah-801t)" x1="540" x2="540" y1="110" y2="133"></line>
+<line class="s-star" marker-end="url(#ah-801t)" x1="540" x2="540" y1="170" y2="147"></line>
+<line class="s-star w-bold" x1="518" x2="562" y1="140" y2="140"></line>
+<path class="s-ink w-bold" d="M198 140L236 128L230 121L268 113L262 106L290 99"></path>
+<circle class="f-ink" cx="198" cy="140" r="3.5"></circle>
+<circle class="f-ink" cx="290" cy="99" r="3.5"></circle>
+<text class="t-lab" x="240" y="150">합선</text>
+<text class="t-small" x="206" y="166">드레이퍼스·하우걸랜드</text>
+<text class="t-lab a-mid" x="320" y="278">진짜 맞섬은 동네 사이가 아니라 한 동네 안에서</text>
+<text class="t-small a-mid" x="320" y="298">번개: 인지과학의 교착에서 하이데거로 — 그에게 '위험'의 끝인 곳에서 손을 내민다</text>
+</svg></g></g></g></g></svg>

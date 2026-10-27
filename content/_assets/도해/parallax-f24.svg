@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 346" width="640" height="346" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-star{stroke:var(--star)}.fig svg .w-thin{stroke-width:.8}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-mute{fill:var(--mute)}.f-star{fill:var(--star)}.f-gap{fill:var(--gap)}.f-bg{fill:var(--bg)}.f-bg2{fill:var(--bg2)}.f-star-soft{fill:var(--star);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-star{fill:var(--star)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:346px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="키르케고르의 계단에 지젝은 금지 앞의 수축과 교착을 끼워 넣고, 그러자 타락의 자리가 두 번째 일어섬에서 첫 물러남으로 옮겨 간다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 346" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="ah-405" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-star" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-405m" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker>
+</defs>
+<!-- 위 줄: 키르케고르 『불안의 개념』, 5칸 -->
+<text class="t-lab" x="16" y="22">키르케고르 『불안의 개념』 · 5칸</text>
+<line class="s-mute w-thin" x1="16" x2="624" y1="122" y2="122"></line>
+<rect class="s-mute f-bg2" height="18" width="68" x="16" y="104"></rect>
+<text class="t-lab a-mid" x="50" y="140">① 무구</text>
+<text class="t-small a-mid" x="50" y="155">무의 불안</text>
+<rect class="s-mute f-bg2" height="46" width="68" x="244" y="76"></rect>
+<text class="t-lab a-mid" x="278" y="140">② 금지</text>
+<text class="t-small a-mid" x="278" y="155">할 수 있음</text>
+<rect class="s-mute f-bg2" height="74" width="68" x="396" y="48"></rect>
+<text class="t-lab a-mid" x="430" y="140">③ 현기증</text>
+<text class="t-small a-mid" x="430" y="155">자유의 불안</text>
+<rect class="s-mute f-bg2" height="32" width="68" x="472" y="90"></rect>
+<text class="t-lab a-mid" x="506" y="140">④ 추락</text>
+<text class="t-small a-mid" x="506" y="155">타락 아님</text>
+<rect class="s-mute f-bg2" height="60" width="68" x="548" y="62"></rect>
+<text class="t-lab a-mid" x="582" y="140">⑤ 일어섬</text>
+<text class="t-small a-mid" x="582" y="155">죄를 봄</text>
+<rect class="s-mute dot" height="18" width="68" x="92" y="104"></rect>
+<rect class="s-mute dot" height="18" width="68" x="168" y="104"></rect>
+<rect class="s-mute dot" height="18" width="68" x="320" y="104"></rect>
+<text class="t-small a-mid" x="126" y="140">빈칸</text>
+<text class="t-small a-mid" x="202" y="140">빈칸</text>
+<text class="t-small a-mid" x="354" y="140">빈칸</text>
+<line class="s-ink" x1="556.0" x2="556.0" y1="62" y2="28"></line>
+<path class="f-mute" d="M556.0 28L586.0 35L556.0 42Z"></path>
+<text class="t-lab c-mute" x="590.0" y="40">타락</text>
+<!-- 아래 줄: 지젝의 재구성, 8칸 -->
+<text class="t-lab c-star" x="16" y="182">지젝의 재구성 · 8칸</text>
+<rect class="s-star dash f-star-soft" height="12" width="12" x="170" y="172"></rect>
+<text class="t-small" x="188" y="182">끼워 넣은 칸</text>
+<line class="s-star w-thin" x1="16" x2="624" y1="300" y2="300"></line>
+<rect class="s-star f-bg2" height="18" width="68" x="16" y="282"></rect>
+<text class="t-lab a-mid" x="50" y="318">① 안식</text>
+<text class="t-small a-mid" x="50" y="333">원초적 평화</text>
+<rect class="s-star dash f-star-soft" height="32" width="68" x="92" y="268"></rect>
+<text class="t-lab a-mid" x="126" y="318">② 수축</text>
+<text class="t-small a-mid" x="126" y="333">움츠림</text>
+<rect class="s-star dash f-star-soft" height="32" width="68" x="168" y="268"></rect>
+<text class="t-lab a-mid" x="202" y="318">③ 교착</text>
+<text class="t-small a-mid" x="202" y="333">생톰</text>
+<rect class="s-star f-bg2" height="46" width="68" x="244" y="254"></rect>
+<text class="t-lab a-mid" x="278" y="318">④ 금지</text>
+<text class="t-small a-mid" x="278" y="333">막힘→장벽</text>
+<rect class="s-star dash f-star-soft" height="60" width="68" x="320" y="240"></rect>
+<text class="t-lab a-mid" x="354" y="318">⑤ 욕망</text>
+<text class="t-small a-mid" x="354" y="333">벽을 넘고픔</text>
+<rect class="s-star f-bg2" height="74" width="68" x="396" y="226"></rect>
+<text class="t-lab a-mid" x="430" y="318">⑥ 현기증</text>
+<text class="t-small a-mid" x="430" y="333">할 수 있다</text>
+<rect class="s-star f-bg2" height="46" width="68" x="472" y="254"></rect>
+<text class="t-lab a-mid" x="506" y="318">⑦ 물러남</text>
+<text class="t-small a-mid" x="506" y="333">타율적 법</text>
+<rect class="s-star f-bg2" height="46" width="68" x="548" y="254"></rect>
+<text class="t-lab a-mid" x="582" y="318">⑧ 법↔위반</text>
+<text class="t-small a-end" x="628" y="333">지킬수록 죄 있다</text>
+<line class="s-mute w-thin dot" x1="278" x2="278" y1="162" y2="250"></line>
+<line class="s-mute w-thin dot" x1="430" x2="430" y1="162" y2="192"></line>
+<path class="s-star w-thin f-bg" d="M22 256H84V274H22L16 265Z"></path>
+<circle class="f-star" cx="22" cy="265" r="1.6"></circle>
+<line class="s-star w-thin" x1="50" x2="50" y1="274" y2="282"></line>
+<text class="t-small a-mid c-star" x="53" y="269">무의 불안</text>
+<path class="s-star w-thin f-bg" d="M174 242H236V260H174L168 251Z"></path>
+<circle class="f-star" cx="174" cy="251" r="1.6"></circle>
+<line class="s-star w-thin" x1="202" x2="202" y1="260" y2="268"></line>
+<text class="t-small a-mid c-star" x="205" y="255">숨 막힘</text>
+<path class="s-star w-thin f-bg" d="M402 200H464V218H402L396 209Z"></path>
+<circle class="f-star" cx="402" cy="209" r="1.6"></circle>
+<line class="s-star w-thin" x1="430" x2="430" y1="218" y2="226"></line>
+<text class="t-small a-mid c-star" x="433" y="213">자유의 불안</text>
+<path class="s-star" d="M188 286C198 272 212 272 208 284S192 294 198 280S214 278 218 288"></path>
+<path class="s-star" d="M460 228Q498 224 492 248" marker-end="url(#ah-405)"></path>
+<line class="s-ink" x1="514.0" x2="514.0" y1="254" y2="210"></line>
+<path class="f-gap" d="M514.0 210L544.0 217L514.0 224Z"></path>
+<text class="t-lab c-gap" x="548.0" y="222">타락</text>
+<path class="s-star" d="M568 238A14 12 0 0 1 596 238" marker-end="url(#ah-405)"></path>
+<path class="s-star" d="M596 238A14 12 0 0 1 568 238" marker-end="url(#ah-405)"></path>
+<text class="t-small a-end" x="562" y="242">법</text>
+<text class="t-small" x="602" y="242">위반</text>
+<path class="s-mute dash" d="M582 162C582 192 536 188 530 206" marker-end="url(#ah-405m)"></path>
+<text class="t-small" x="588" y="186">자리 이동</text>
+</svg></g></g></g></g></svg>

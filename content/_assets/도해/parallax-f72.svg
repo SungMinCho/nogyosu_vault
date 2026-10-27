@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 470" width="640" height="470" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-moon{stroke:var(--moon)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-moon{fill:var(--moon)}.f-bg{fill:var(--bg)}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-moon{fill:var(--moon)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:470px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="보편만 남겨도 특수만 남겨도 무너진다 — 정치는 공동체를 그 자신과 갈라놓는 간극에서 일어나고, 버려진 권리는 개입권이 되어 보낸 이에게 참된 형태로 돌아온다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 470" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-1403" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1403n" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-moon" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1403m" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<line class="s-ink w-bold" x1="120" x2="313" y1="176" y2="176"></line>
+<line class="s-ink w-bold" x1="327" x2="520" y1="176" y2="176"></line>
+<circle class="f-bg" cx="140" cy="176" r="2.4"></circle>
+<circle class="s-ink w-thin" cx="140" cy="176" r="2.4"></circle>
+<circle class="f-bg" cx="166" cy="176" r="2.4"></circle>
+<circle class="s-ink w-thin" cx="166" cy="176" r="2.4"></circle>
+<circle class="f-bg" cx="192" cy="176" r="2.4"></circle>
+<circle class="s-ink w-thin" cx="192" cy="176" r="2.4"></circle>
+<circle class="f-bg" cx="218" cy="176" r="2.4"></circle>
+<circle class="s-ink w-thin" cx="218" cy="176" r="2.4"></circle>
+<circle class="f-bg" cx="244" cy="176" r="2.4"></circle>
+<circle class="s-ink w-thin" cx="244" cy="176" r="2.4"></circle>
+<circle class="f-bg" cx="270" cy="176" r="2.4"></circle>
+<circle class="s-ink w-thin" cx="270" cy="176" r="2.4"></circle>
+<circle class="f-bg" cx="296" cy="176" r="2.4"></circle>
+<circle class="s-ink w-thin" cx="296" cy="176" r="2.4"></circle>
+<circle class="f-bg" cx="348" cy="176" r="2.4"></circle>
+<circle class="s-ink w-thin" cx="348" cy="176" r="2.4"></circle>
+<circle class="f-bg" cx="374" cy="176" r="2.4"></circle>
+<circle class="s-ink w-thin" cx="374" cy="176" r="2.4"></circle>
+<circle class="f-bg" cx="400" cy="176" r="2.4"></circle>
+<circle class="s-ink w-thin" cx="400" cy="176" r="2.4"></circle>
+<circle class="f-bg" cx="426" cy="176" r="2.4"></circle>
+<circle class="s-ink w-thin" cx="426" cy="176" r="2.4"></circle>
+<circle class="f-bg" cx="452" cy="176" r="2.4"></circle>
+<circle class="s-ink w-thin" cx="452" cy="176" r="2.4"></circle>
+<circle class="f-bg" cx="478" cy="176" r="2.4"></circle>
+<circle class="s-ink w-thin" cx="478" cy="176" r="2.4"></circle>
+<circle class="f-bg" cx="504" cy="176" r="2.4"></circle>
+<circle class="s-ink w-thin" cx="504" cy="176" r="2.4"></circle>
+<text class="t-lab a-end" x="110" y="180">인간 그 자체</text>
+<text class="t-small a-end" x="110" y="196">보편만</text>
+<text class="t-lab" x="530" y="180">시민 · 이익</text>
+<text class="t-small" x="530" y="196">특수만</text>
+<path class="s-ink dash" d="M120 182L119.8 184.6L119.3 187.2L118.8 189.8L118 192.4L117.2 195L116.2 197.6L115.2 200.2L114 202.8L112.8 205.4L111.4 208L110 210.6L108.5 213.2L106.9 215.8L105.3 218.4L103.6 221L101.8 223.6L100 226.2L98 228.8L96 231.4L94 234" marker-end="url(#ah-1403)"></path>
+<text class="t-lab a-mid" x="94" y="254">권리 상실</text>
+<text class="t-small a-mid" x="94" y="270">비인간 · 호모 사케르</text>
+<path class="s-ink dash" d="M520 182L520.2 184.6L520.7 187.2L521.2 189.8L522 192.4L522.8 195L523.8 197.6L524.8 200.2L526 202.8L527.2 205.4L528.6 208L530 210.6L531.5 213.2L533.1 215.8L534.7 218.4L536.4 221L538.2 223.6L540 226.2L542 228.8L544 231.4L546 234" marker-end="url(#ah-1403)"></path>
+<text class="t-lab a-mid" x="546" y="254">정치 상실</text>
+<text class="t-small a-mid" x="546" y="270">탈정치 · 이익의 협상</text>
+<path class="s-moon w-bold" d="M120 176L125 170.4L130 164.9L135 159.5L140 154.3L145 149.3L150 144.4L155 139.6L160 135L165 130.5L170 126.1L175 121.9L180 117.9L185 113.9L190 110.2L195 106.5L200 103L205 99.7L210 96.5L215 93.4L220 90.5L225 87.7L230 85.1L235 82.6L240 80.2L245 78L250 76L255 74L260 72.3L265 70.6L270 69.1L275 67.8L280 66.6L285 65.5L290 64.6L295 63.8L300 63.1L305 62.6L310 62.3L315 62.1L320 62L325 62.1L330 62.3L335 62.6L340 63.1L345 63.8L350 64.6L355 65.5L360 66.6L365 67.8L370 69.1L375 70.6L380 72.3L385 74L390 76L395 78L400 80.2L405 82.6L410 85.1L415 87.7L420 90.5L425 93.4L430 96.5L435 99.7L440 103L445 106.5L450 110.2L455 113.9L460 117.9L465 121.9L470 126.1L475 130.5L480 135L485 139.6L490 144.4L495 149.3L500 154.3L505 159.5L510 164.9L515 170.4L520 176"></path>
+<circle class="s-moon f-bg" cx="320" cy="62" r="5.5"></circle>
+<text class="t-lab a-mid c-moon" x="320" y="48">몫 없는 자의 몫</text>
+<text class="t-small a-mid" x="320" y="30">자리 없는 자가 보편을 내세운다</text>
+<path class="s-gap w-bold" d="M318.6 96L321.9 104.4L317.7 112.8L322.7 121.2L317 129.6L323.3 138L316.6 146.4L323.5 154.8L316.6 163.2L323.3 171.6L317 180L322.7 188.4L317.7 196.8L321.9 205.2L318.6 213.6"></path>
+<text class="t-lab c-gap" x="336" y="130">공동체를 그 자신과</text>
+<text class="t-lab c-gap" x="336" y="146">갈라놓는 간극</text>
+<text class="t-small" x="336" y="162">정치가 일어나는 자리</text>
+<line class="s-mute w-thin" x1="16" x2="624" y1="290" y2="290"></line>
+<text class="t-lab c-mute" x="16" y="314">반송 — 보낸 이에게 참된 형태로</text>
+<circle class="f-ink" cx="110" cy="374" r="6"></circle>
+<text class="t-lab a-end" x="96" y="379">서구</text>
+<circle class="s-ink f-bg" cx="548" cy="374" r="7"></circle>
+<text class="t-lab" x="564" y="375">제3세계</text>
+<text class="t-small" x="564" y="391">집행할 수 없음</text>
+<path class="s-ink" d="M118 368L124.1 365.6L130.2 363.3L136.3 361.1L142.4 359L148.5 356.9L154.6 354.9L160.8 353L166.9 351.1L173.1 349.3L179.3 347.6L185.5 346L191.7 344.4L197.9 342.9L204.1 341.5L210.4 340.1L216.6 338.8L222.9 337.6L229.2 336.5L235.5 335.4L241.8 334.4L248.1 333.5L254.4 332.7L260.8 331.9L267.1 331.2L273.5 330.6L279.9 330L286.3 329.5L292.7 329.1L299.1 328.8L305.5 328.5L311.9 328.3L318.4 328.2L324.9 328.1L331.3 328.1L337.8 328.2L344.3 328.4L350.8 328.6L357.4 328.9L363.9 329.3L370.4 329.8L377 330.3L383.6 330.9L390.2 331.6L396.8 332.3L403.4 333.1L410 334L416.6 335L423.3 336L429.9 337.1L436.6 338.3L443.3 339.5L450 340.8L456.7 342.2L463.4 343.7L470.2 345.2L476.9 346.8L483.7 348.5L490.4 350.3L497.2 352.1L504 354"></path>
+<path class="s-ink" d="M504 354L506.6 354.2L509.2 354.7L511.7 355.5L514 356.7L516.2 358.1L518.1 359.9L519.9 361.8L521.3 364L522.5 366.3L523.3 368.8L523.8 371.4L524 374L523.8 376.6L523.3 379.2L522.5 381.7L521.3 384L519.9 386.2L518.1 388.1L516.2 389.9L514 391.3L511.7 392.5L509.2 393.3L506.6 393.8L504 394"></path>
+<path class="s-moon w-bold" d="M504 394L497.2 395.9L490.4 397.7L483.7 399.5L476.9 401.2L470.2 402.8L463.4 404.3L456.7 405.8L450 407.2L443.3 408.5L436.6 409.8L429.9 411L423.3 412.1L416.6 413.1L410 414.1L403.4 415L396.8 415.8L390.2 416.6L383.6 417.3L377 417.9L370.4 418.4L363.9 418.9L357.4 419.3L350.8 419.7L344.3 419.9L337.8 420.1L331.3 420.2L324.9 420.3L318.4 420.3L311.9 420.2L305.5 420"></path>
+<path class="s-moon w-bold" d="M305.5 420L299.1 419.8L292.7 419.5L286.3 419.1L279.9 418.6L273.5 418.1L267.1 417.5L260.8 416.9L254.4 416.1L248.1 415.3L241.8 414.4L235.5 413.5L229.2 412.5L222.9 411.4L216.6 410.2L210.4 409L204.1 407.7L197.9 406.3L191.7 404.9L185.5 403.4L179.3 401.8L173.1 400.1L166.9 398.4L160.8 396.6L154.6 394.7L148.5 392.8L142.4 390.8L136.3 388.7L130.2 386.5L124.1 384.3L118 382" marker-end="url(#ah-1403n)"></path>
+<rect class="s-ink f-bg" height="18" width="28" x="291.5" y="319.5"></rect>
+<path class="s-ink w-thin" d="M291.5 319.5L305.5 328.5L319.5 319.5"></path>
+<text class="t-lab a-mid" x="305.5" y="310.5">헌 권리 · 약 · 옷</text>
+<rect class="s-moon f-bg w-bold" height="18" width="28" x="291.5" y="411"></rect>
+<path class="s-moon w-thin" d="M291.5 429L305.5 420L319.5 429"></path>
+<text class="t-lab a-mid c-moon" x="305.5" y="450">개입권</text>
+<text class="t-small a-mid" x="305.5" y="466">우리가 개입할 권리</text>
+<text class="t-lab a-mid" x="110" y="428">뒤집힌</text>
+<text class="t-lab a-mid" x="110" y="444">참된 형태로</text>
+<text class="t-small a-end" x="624" y="458">라캉: 메시지는 뒤집혀 돌아온다</text>
+</svg></g></g></g></g></svg>

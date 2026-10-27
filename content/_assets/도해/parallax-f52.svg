@@ -1,0 +1,318 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 560" width="640" height="560" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-sun{stroke:var(--sun)}.s-gap{stroke:var(--gap)}.s-fix{stroke:var(--fix)}.s-bg{stroke:var(--bg)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-sun{fill:var(--sun)}.f-gap{fill:var(--gap)}.f-bg2{fill:var(--bg2)}.f-sun-soft{fill:var(--sun);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .t-mono{font-family:var(--f-mono);font-size:12px}.fig svg .c-sun{fill:var(--sun)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-fix{fill:var(--fix)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}.fig svg .halo{paint-order:stroke;stroke:var(--bg);stroke-width:4px;stroke-linejoin:round}svg.pz-root{width:640px!important;height:560px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="물리 층위에는 점멸뿐, 설계 층위에는 글라이더와 역사 — 그 위 배치의 층위에서 자유는 아래로 내리꽂는 힘이 아니라 '어떤 인과가 나를 결정할지'를 고르는 스위치다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 560" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-1003" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1003s" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-sun" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1003m" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<line class="s-mute w-thin" x1="20" x2="620" y1="176" y2="176"></line>
+<line class="s-mute w-thin" x1="20" x2="620" y1="326" y2="326"></line>
+<line class="s-mute w-thin" x1="20" x2="620" y1="440" y2="440"></line>
+<text class="t-lab" x="24" y="60">배치의 층위</text>
+<text class="t-small" x="24" y="78">판 전체</text>
+<text class="t-lab" x="24" y="214">설계 층위</text>
+<text class="t-small" x="24" y="232">무늬 · 역사</text>
+<text class="t-lab" x="24" y="364">물리 층위</text>
+<text class="t-small" x="24" y="382">칸의 점멸</text>
+<text class="t-lab" x="24" y="478">모래 더미</text>
+<text class="t-small" x="24" y="496">소급</text>
+<rect class="s-sun dash" height="124" width="380" x="112" y="22"></rect>
+<text class="t-lab" x="122" y="42">배치 — 판 전체가 그의 몫</text>
+<text class="t-lab a-end halo" x="484" y="150">$ — 소급 전제됨</text>
+<path class="s-ink w-thin" d="M146 160C146 70 152 58 180 58H344"></path>
+<text class="t-lab a-mid" x="146" y="172">배고픔</text>
+<circle class="s-ink w-thin" cx="347" cy="58" r="2.4"></circle>
+<path class="s-ink w-thin" d="M198 160C198 86 204 74 232 74H344"></path>
+<text class="t-lab a-mid" x="198" y="172">두려움</text>
+<circle class="s-ink w-thin" cx="347" cy="74" r="2.4"></circle>
+<path class="s-ink w-thin" d="M250 160C250 102 256 90 284 90H344"></path>
+<text class="t-lab a-mid" x="250" y="172">명예</text>
+<circle class="s-ink w-thin" cx="347" cy="90" r="2.4"></circle>
+<path class="s-sun w-bold" d="M302 160C302 118 308 106 336 106H344"></path>
+<text class="t-lab a-mid c-sun" x="302" y="172">신앙</text>
+<line class="s-gap w-bold" x1="344" x2="380" y1="106" y2="82"></line>
+<circle class="f-gap" cx="380" cy="82" r="4"></circle>
+<text class="t-lab a-mid c-gap" x="384" y="126">전철기</text>
+<line class="s-sun w-bold" marker-end="url(#ah-1003s)" x1="386" x2="428" y1="82" y2="82"></line>
+<circle class="f-ink" cx="440" cy="82" r="5.5"></circle>
+<text class="t-lab a-mid" x="440" y="66">루터</text>
+<text class="t-small a-mid" x="440" y="104">달리 할 수 없다</text>
+<line class="s-mute dash" marker-end="url(#ah-1003m)" x1="524" x2="524" y1="40" y2="312"></line>
+<line class="s-fix w-bold" x1="513" x2="535" y1="315" y2="337"></line>
+<line class="s-fix w-bold" x1="513" x2="535" y1="337" y2="315"></line>
+<text class="t-small" x="536" y="58">위에서</text>
+<text class="t-small" x="536" y="74">아래로?</text>
+<text class="t-lab c-fix" x="542" y="356">하향 인과</text>
+<text class="t-small" x="542" y="374">사슬을 끊고</text>
+<text class="t-small" x="542" y="390">내리꽂는 힘은</text>
+<text class="t-small" x="542" y="406">없다</text>
+<rect class="f-bg2" height="97.5" width="97.5" x="122" y="186"></rect>
+<line class="s-bg w-thin" x1="122" x2="122" y1="186" y2="283.5"></line>
+<line class="s-bg w-thin" x1="122" x2="219.5" y1="186" y2="186"></line>
+<line class="s-bg w-thin" x1="129.5" x2="129.5" y1="186" y2="283.5"></line>
+<line class="s-bg w-thin" x1="122" x2="219.5" y1="193.5" y2="193.5"></line>
+<line class="s-bg w-thin" x1="137" x2="137" y1="186" y2="283.5"></line>
+<line class="s-bg w-thin" x1="122" x2="219.5" y1="201" y2="201"></line>
+<line class="s-bg w-thin" x1="144.5" x2="144.5" y1="186" y2="283.5"></line>
+<line class="s-bg w-thin" x1="122" x2="219.5" y1="208.5" y2="208.5"></line>
+<line class="s-bg w-thin" x1="152" x2="152" y1="186" y2="283.5"></line>
+<line class="s-bg w-thin" x1="122" x2="219.5" y1="216" y2="216"></line>
+<line class="s-bg w-thin" x1="159.5" x2="159.5" y1="186" y2="283.5"></line>
+<line class="s-bg w-thin" x1="122" x2="219.5" y1="223.5" y2="223.5"></line>
+<line class="s-bg w-thin" x1="167" x2="167" y1="186" y2="283.5"></line>
+<line class="s-bg w-thin" x1="122" x2="219.5" y1="231" y2="231"></line>
+<line class="s-bg w-thin" x1="174.5" x2="174.5" y1="186" y2="283.5"></line>
+<line class="s-bg w-thin" x1="122" x2="219.5" y1="238.5" y2="238.5"></line>
+<line class="s-bg w-thin" x1="182" x2="182" y1="186" y2="283.5"></line>
+<line class="s-bg w-thin" x1="122" x2="219.5" y1="246" y2="246"></line>
+<line class="s-bg w-thin" x1="189.5" x2="189.5" y1="186" y2="283.5"></line>
+<line class="s-bg w-thin" x1="122" x2="219.5" y1="253.5" y2="253.5"></line>
+<line class="s-bg w-thin" x1="197" x2="197" y1="186" y2="283.5"></line>
+<line class="s-bg w-thin" x1="122" x2="219.5" y1="261" y2="261"></line>
+<line class="s-bg w-thin" x1="204.5" x2="204.5" y1="186" y2="283.5"></line>
+<line class="s-bg w-thin" x1="122" x2="219.5" y1="268.5" y2="268.5"></line>
+<line class="s-bg w-thin" x1="212" x2="212" y1="186" y2="283.5"></line>
+<line class="s-bg w-thin" x1="122" x2="219.5" y1="276" y2="276"></line>
+<line class="s-bg w-thin" x1="219.5" x2="219.5" y1="186" y2="283.5"></line>
+<line class="s-bg w-thin" x1="122" x2="219.5" y1="283.5" y2="283.5"></line>
+<rect class="f-sun-soft" height="6.3" width="6.3" x="122.6" y="201.6"></rect>
+<rect class="s-sun w-thin" height="6.3" width="6.3" x="122.6" y="201.6"></rect>
+<rect class="f-sun-soft" height="6.3" width="6.3" x="130.1" y="201.6"></rect>
+<rect class="s-sun w-thin" height="6.3" width="6.3" x="130.1" y="201.6"></rect>
+<rect class="f-sun-soft" height="6.3" width="6.3" x="137.6" y="194.1"></rect>
+<rect class="s-sun w-thin" height="6.3" width="6.3" x="137.6" y="194.1"></rect>
+<rect class="f-sun-soft" height="6.3" width="6.3" x="137.6" y="201.6"></rect>
+<rect class="s-sun w-thin" height="6.3" width="6.3" x="137.6" y="201.6"></rect>
+<rect class="f-sun-soft" height="6.3" width="6.3" x="130.1" y="186.6"></rect>
+<rect class="s-sun w-thin" height="6.3" width="6.3" x="130.1" y="186.6"></rect>
+<rect class="f-sun-soft" height="6.3" width="6.3" x="160.1" y="224.1"></rect>
+<rect class="s-sun w-thin" height="6.3" width="6.3" x="160.1" y="224.1"></rect>
+<rect class="f-sun-soft" height="6.3" width="6.3" x="152.6" y="209.1"></rect>
+<rect class="s-sun w-thin" height="6.3" width="6.3" x="152.6" y="209.1"></rect>
+<rect class="f-sun-soft" height="6.3" width="6.3" x="160.1" y="216.6"></rect>
+<rect class="s-sun w-thin" height="6.3" width="6.3" x="160.1" y="216.6"></rect>
+<rect class="f-sun-soft" height="6.3" width="6.3" x="152.6" y="224.1"></rect>
+<rect class="s-sun w-thin" height="6.3" width="6.3" x="152.6" y="224.1"></rect>
+<rect class="f-sun-soft" height="6.3" width="6.3" x="145.1" y="224.1"></rect>
+<rect class="s-sun w-thin" height="6.3" width="6.3" x="145.1" y="224.1"></rect>
+<rect class="f-sun-soft" height="6.3" width="6.3" x="182.6" y="246.6"></rect>
+<rect class="s-sun w-thin" height="6.3" width="6.3" x="182.6" y="246.6"></rect>
+<rect class="f-sun-soft" height="6.3" width="6.3" x="182.6" y="239.1"></rect>
+<rect class="s-sun w-thin" height="6.3" width="6.3" x="182.6" y="239.1"></rect>
+<rect class="f-sun-soft" height="6.3" width="6.3" x="167.6" y="246.6"></rect>
+<rect class="s-sun w-thin" height="6.3" width="6.3" x="167.6" y="246.6"></rect>
+<rect class="f-sun-soft" height="6.3" width="6.3" x="175.1" y="231.6"></rect>
+<rect class="s-sun w-thin" height="6.3" width="6.3" x="175.1" y="231.6"></rect>
+<rect class="f-sun-soft" height="6.3" width="6.3" x="175.1" y="246.6"></rect>
+<rect class="s-sun w-thin" height="6.3" width="6.3" x="175.1" y="246.6"></rect>
+<rect class="f-sun" height="6.3" width="6.3" x="197.6" y="269.1"></rect>
+<rect class="f-sun" height="6.3" width="6.3" x="205.1" y="261.6"></rect>
+<rect class="f-sun" height="6.3" width="6.3" x="197.6" y="254.1"></rect>
+<rect class="f-sun" height="6.3" width="6.3" x="190.1" y="269.1"></rect>
+<rect class="f-sun" height="6.3" width="6.3" x="205.1" y="269.1"></rect>
+<path class="s-sun w-thin dash" d="M134.8 200.2L157.2 222.8L179.8 245.2L202.2 267.8"></path>
+<text class="t-small" x="227.5" y="198">0세대</text>
+<text class="t-small" x="227.5" y="281.5">36세대</text>
+<text class="t-lab" x="282" y="220">같은 글라이더가 남동쪽으로</text>
+<text class="t-small" x="282" y="240">매 세대 다른 칸들로 이루어진다</text>
+<text class="t-lab c-sun" x="282" y="266">먹히고 다치고 고쳐진다 — 역사</text>
+<text class="t-small" x="282" y="286">4세대에 대각선 한 칸</text>
+<rect class="s-mute w-thin" height="13" width="13" x="122" y="340"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="135" y="340"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="148" y="340"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="161" y="340"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="174" y="340"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="122" y="353"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="135" y="353"></rect>
+<rect class="f-ink" height="13" width="13" x="148" y="353"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="148" y="353"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="161" y="353"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="174" y="353"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="122" y="366"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="135" y="366"></rect>
+<rect class="f-ink" height="13" width="13" x="148" y="366"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="148" y="366"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="161" y="366"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="174" y="366"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="122" y="379"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="135" y="379"></rect>
+<rect class="f-ink" height="13" width="13" x="148" y="379"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="148" y="379"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="161" y="379"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="174" y="379"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="122" y="392"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="135" y="392"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="148" y="392"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="161" y="392"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="174" y="392"></rect>
+<text class="t-small a-mid" x="154.5" y="421">0세대</text>
+<rect class="s-mute w-thin" height="13" width="13" x="206" y="340"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="219" y="340"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="232" y="340"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="245" y="340"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="258" y="340"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="206" y="353"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="219" y="353"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="232" y="353"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="245" y="353"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="258" y="353"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="206" y="366"></rect>
+<rect class="f-ink" height="13" width="13" x="219" y="366"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="219" y="366"></rect>
+<rect class="f-ink" height="13" width="13" x="232" y="366"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="232" y="366"></rect>
+<rect class="f-ink" height="13" width="13" x="245" y="366"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="245" y="366"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="258" y="366"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="206" y="379"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="219" y="379"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="232" y="379"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="245" y="379"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="258" y="379"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="206" y="392"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="219" y="392"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="232" y="392"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="245" y="392"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="258" y="392"></rect>
+<text class="t-small a-mid" x="238.5" y="421">1세대</text>
+<rect class="s-mute w-thin" height="13" width="13" x="290" y="340"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="303" y="340"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="316" y="340"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="329" y="340"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="342" y="340"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="290" y="353"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="303" y="353"></rect>
+<rect class="f-ink" height="13" width="13" x="316" y="353"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="316" y="353"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="329" y="353"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="342" y="353"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="290" y="366"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="303" y="366"></rect>
+<rect class="f-ink" height="13" width="13" x="316" y="366"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="316" y="366"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="329" y="366"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="342" y="366"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="290" y="379"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="303" y="379"></rect>
+<rect class="f-ink" height="13" width="13" x="316" y="379"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="316" y="379"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="329" y="379"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="342" y="379"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="290" y="392"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="303" y="392"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="316" y="392"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="329" y="392"></rect>
+<rect class="s-mute w-thin" height="13" width="13" x="342" y="392"></rect>
+<text class="t-small a-mid" x="322.5" y="421">2세대</text>
+<text class="t-lab" x="372" y="364">칸은 켜지고 꺼질 뿐</text>
+<text class="t-small" x="372" y="384">쌓아 둘 곳이 없다</text>
+<text class="t-mono c-mute" x="372" y="402">B3/S23</text>
+<circle class="f-mute" cx="136" cy="528" r="2.3"></circle>
+<circle class="f-mute" cx="177.2" cy="528" r="2.3"></circle>
+<circle class="f-mute" cx="182.8" cy="528" r="2.3"></circle>
+<circle class="f-mute" cx="180" cy="522.8" r="2.3"></circle>
+<circle class="f-mute" cx="220.4" cy="528" r="2.3"></circle>
+<circle class="f-mute" cx="226" cy="528" r="2.3"></circle>
+<circle class="f-mute" cx="231.6" cy="528" r="2.3"></circle>
+<circle class="f-mute" cx="223.2" cy="522.8" r="2.3"></circle>
+<circle class="f-mute" cx="228.8" cy="522.8" r="2.3"></circle>
+<circle class="f-mute" cx="226" cy="517.6" r="2.3"></circle>
+<circle class="f-mute" cx="265.6" cy="528" r="2.3"></circle>
+<circle class="f-mute" cx="271.2" cy="528" r="2.3"></circle>
+<circle class="f-mute" cx="276.8" cy="528" r="2.3"></circle>
+<circle class="f-mute" cx="282.4" cy="528" r="2.3"></circle>
+<circle class="f-mute" cx="268.4" cy="522.8" r="2.3"></circle>
+<circle class="f-mute" cx="274" cy="522.8" r="2.3"></circle>
+<circle class="f-mute" cx="279.6" cy="522.8" r="2.3"></circle>
+<circle class="f-mute" cx="271.2" cy="517.6" r="2.3"></circle>
+<circle class="f-mute" cx="276.8" cy="517.6" r="2.3"></circle>
+<circle class="f-mute" cx="274" cy="512.4" r="2.3"></circle>
+<circle class="f-mute" cx="318.8" cy="528" r="2.3"></circle>
+<circle class="f-mute" cx="324.4" cy="528" r="2.3"></circle>
+<circle class="f-mute" cx="330" cy="528" r="2.3"></circle>
+<circle class="f-mute" cx="335.6" cy="528" r="2.3"></circle>
+<circle class="f-mute" cx="341.2" cy="528" r="2.3"></circle>
+<circle class="f-mute" cx="321.6" cy="522.8" r="2.3"></circle>
+<circle class="f-mute" cx="327.2" cy="522.8" r="2.3"></circle>
+<circle class="f-mute" cx="332.8" cy="522.8" r="2.3"></circle>
+<circle class="f-mute" cx="338.4" cy="522.8" r="2.3"></circle>
+<circle class="f-mute" cx="324.4" cy="517.6" r="2.3"></circle>
+<circle class="f-mute" cx="330" cy="517.6" r="2.3"></circle>
+<circle class="f-mute" cx="335.6" cy="517.6" r="2.3"></circle>
+<circle class="f-mute" cx="327.2" cy="512.4" r="2.3"></circle>
+<circle class="f-mute" cx="332.8" cy="512.4" r="2.3"></circle>
+<circle class="f-mute" cx="330" cy="507.2" r="2.3"></circle>
+<circle class="f-mute" cx="378" cy="528" r="2.3"></circle>
+<circle class="f-mute" cx="383.6" cy="528" r="2.3"></circle>
+<circle class="f-mute" cx="389.2" cy="528" r="2.3"></circle>
+<circle class="f-mute" cx="394.8" cy="528" r="2.3"></circle>
+<circle class="f-mute" cx="400.4" cy="528" r="2.3"></circle>
+<circle class="f-mute" cx="406" cy="528" r="2.3"></circle>
+<circle class="f-mute" cx="380.8" cy="522.8" r="2.3"></circle>
+<circle class="f-mute" cx="386.4" cy="522.8" r="2.3"></circle>
+<circle class="f-mute" cx="392" cy="522.8" r="2.3"></circle>
+<circle class="f-mute" cx="397.6" cy="522.8" r="2.3"></circle>
+<circle class="f-mute" cx="403.2" cy="522.8" r="2.3"></circle>
+<circle class="f-mute" cx="383.6" cy="517.6" r="2.3"></circle>
+<circle class="f-mute" cx="389.2" cy="517.6" r="2.3"></circle>
+<circle class="f-mute" cx="394.8" cy="517.6" r="2.3"></circle>
+<circle class="f-mute" cx="400.4" cy="517.6" r="2.3"></circle>
+<circle class="f-mute" cx="386.4" cy="512.4" r="2.3"></circle>
+<circle class="f-mute" cx="392" cy="512.4" r="2.3"></circle>
+<circle class="f-mute" cx="397.6" cy="512.4" r="2.3"></circle>
+<circle class="f-mute" cx="389.2" cy="507.2" r="2.3"></circle>
+<circle class="f-mute" cx="394.8" cy="507.2" r="2.3"></circle>
+<circle class="f-mute" cx="392" cy="502" r="2.3"></circle>
+<circle class="f-ink" cx="441.2" cy="528" r="2.3"></circle>
+<circle class="f-ink" cx="446.8" cy="528" r="2.3"></circle>
+<circle class="f-ink" cx="452.4" cy="528" r="2.3"></circle>
+<circle class="f-ink" cx="458" cy="528" r="2.3"></circle>
+<circle class="f-ink" cx="463.6" cy="528" r="2.3"></circle>
+<circle class="f-ink" cx="469.2" cy="528" r="2.3"></circle>
+<circle class="f-ink" cx="474.8" cy="528" r="2.3"></circle>
+<circle class="f-ink" cx="444" cy="522.8" r="2.3"></circle>
+<circle class="f-ink" cx="449.6" cy="522.8" r="2.3"></circle>
+<circle class="f-ink" cx="455.2" cy="522.8" r="2.3"></circle>
+<circle class="f-ink" cx="460.8" cy="522.8" r="2.3"></circle>
+<circle class="f-ink" cx="466.4" cy="522.8" r="2.3"></circle>
+<circle class="f-ink" cx="472" cy="522.8" r="2.3"></circle>
+<circle class="f-ink" cx="446.8" cy="517.6" r="2.3"></circle>
+<circle class="f-ink" cx="452.4" cy="517.6" r="2.3"></circle>
+<circle class="f-ink" cx="458" cy="517.6" r="2.3"></circle>
+<circle class="f-ink" cx="463.6" cy="517.6" r="2.3"></circle>
+<circle class="f-ink" cx="469.2" cy="517.6" r="2.3"></circle>
+<circle class="f-ink" cx="449.6" cy="512.4" r="2.3"></circle>
+<circle class="f-ink" cx="455.2" cy="512.4" r="2.3"></circle>
+<circle class="f-ink" cx="460.8" cy="512.4" r="2.3"></circle>
+<circle class="f-ink" cx="466.4" cy="512.4" r="2.3"></circle>
+<circle class="f-ink" cx="452.4" cy="507.2" r="2.3"></circle>
+<circle class="f-ink" cx="458" cy="507.2" r="2.3"></circle>
+<circle class="f-ink" cx="463.6" cy="507.2" r="2.3"></circle>
+<circle class="f-ink" cx="455.2" cy="502" r="2.3"></circle>
+<circle class="f-ink" cx="460.8" cy="502" r="2.3"></circle>
+<circle class="f-ink" cx="458" cy="496.8" r="2.3"></circle>
+<text class="t-small a-mid" x="136" y="548">1알</text>
+<text class="t-small a-mid" x="458" y="548">28알</text>
+<line class="s-sun dash" x1="302" x2="302" y1="470" y2="534"></line>
+<path class="s-sun" d="M458 488C458 466 342 464 308 478" marker-end="url(#ah-1003s)"></path>
+<text class="t-lab c-sun a-mid" x="386" y="459">이미 더미였다</text>
+<text class="t-small a-end" x="296" y="548">여기부터?</text>
+<text class="t-lab" x="500" y="498">금은 뒤에서</text>
+<text class="t-lab" x="500" y="518">앞으로 그어진다</text>
+</svg></g></g></g></g></svg>

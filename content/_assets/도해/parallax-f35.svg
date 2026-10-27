@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 380" width="640" height="380" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-sun{stroke:var(--sun)}.fig svg .w-thin{stroke-width:.8}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-sun{fill:var(--sun)}.f-gap{fill:var(--gap)}.f-bg{fill:var(--bg)}.f-bg2{fill:var(--bg2)}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-sun{fill:var(--sun)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}.fig svg .halo{paint-order:stroke;stroke:var(--bg);stroke-width:4px;stroke-linejoin:round}svg.pz-root{width:640px!important;height:380px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="근대에 들어 과학은 '자율화된 현상' 칸으로, 예술은 '실재의 사물' 칸으로 내려가고 올라가며 자리를 맞바꾼다 — 플라톤의 두 층은 그대로인데 이름표가 X자로 엇갈린다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 380" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="ah-701" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-701s" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-sun" d="M0 0L10 5L0 10Z"></path></marker>
+</defs>
+<text class="t-lab a-mid" x="130" y="26">전통 — 플라톤</text>
+<text class="t-lab a-mid" x="510" y="26">근대</text>
+<rect class="f-bg2" height="140" width="212" x="24" y="44"></rect>
+<rect class="f-bg2" height="140" width="212" x="404" y="44"></rect>
+<path class="s-mute w-thin dot" d="M236 44H404M236 184H404"></path>
+<path class="s-mute w-thin" d="M24 44H236V184H24Z M404 44H616V184H404Z"></path>
+<rect class="f-bg2" height="140" width="212" x="24" y="198"></rect>
+<rect class="f-bg2" height="140" width="212" x="404" y="198"></rect>
+<path class="s-mute w-thin dot" d="M236 198H404M236 338H404"></path>
+<path class="s-mute w-thin" d="M24 198H236V338H24Z M404 198H616V338H404Z"></path>
+<text class="t-lab a-mid c-mute" x="320" y="62">위층</text>
+<text class="t-lab a-mid c-mute" x="320" y="328">아래층</text>
+<text class="t-lab" x="40" y="68">실재</text>
+<text class="t-lab c-mute" x="40" y="86">단단한 알갱이</text>
+<path class="s-mute w-thin" d="M52 110H76M52 110V132M76 110H100M76 110V132M100 110H124M100 110V132M124 110H148M124 110V132M148 110V132M52 132H76M52 132V154M76 132H100M76 132V154M100 132H124M100 132V154M124 132H148M124 132V154M148 132V154M52 154H76M76 154H100M100 154H124M124 154H148"></path>
+<circle class="f-sun" cx="52" cy="110" r="4.2"></circle>
+<circle class="f-sun" cx="76" cy="110" r="4.2"></circle>
+<circle class="f-sun" cx="100" cy="110" r="4.2"></circle>
+<circle class="f-sun" cx="124" cy="110" r="4.2"></circle>
+<circle class="f-sun" cx="148" cy="110" r="4.2"></circle>
+<circle class="f-sun" cx="52" cy="132" r="4.2"></circle>
+<circle class="f-sun" cx="76" cy="132" r="4.2"></circle>
+<circle class="f-sun" cx="100" cy="132" r="4.2"></circle>
+<circle class="f-sun" cx="124" cy="132" r="4.2"></circle>
+<circle class="f-sun" cx="148" cy="132" r="4.2"></circle>
+<circle class="f-sun" cx="52" cy="154" r="4.2"></circle>
+<circle class="f-sun" cx="76" cy="154" r="4.2"></circle>
+<circle class="f-sun" cx="100" cy="154" r="4.2"></circle>
+<circle class="f-sun" cx="124" cy="154" r="4.2"></circle>
+<circle class="f-sun" cx="148" cy="154" r="4.2"></circle>
+<text class="t-lab" x="40" y="222">현상</text>
+<text class="t-lab c-mute" x="40" y="240">아름다운 겉모습</text>
+<rect class="s-ink f-bg" height="66" width="104" x="46" y="256"></rect>
+<path class="s-ink w-thin" d="M52.0 284.0L55.0 282.6L58.0 281.2L61.0 280.0L64.0 278.9L67.0 278.0L70.0 277.4L73.0 277.1L76.0 277.0L79.0 277.3L82.0 277.8L85.0 278.6L88.0 279.6L91.0 280.8L94.0 282.1L97.0 283.5L100.0 285.0L103.0 286.3L106.0 287.6L109.0 288.8L112.0 289.7L115.0 290.4L118.0 290.9L121.0 291.0L124.0 290.9L127.0 290.4L130.0 289.7L133.0 288.8L136.0 287.6L139.0 286.3L142.0 285.0"></path>
+<path class="s-ink w-thin" d="M52.0 295.8L55.0 295.3L58.0 295.1L61.0 295.0L64.0 295.2L67.0 295.5L70.0 296.0L73.0 296.8L76.0 297.6L79.0 298.5L82.0 299.5L85.0 300.6L88.0 301.6L91.0 302.5L94.0 303.3L97.0 304.0L100.0 304.5L103.0 304.9L106.0 305.0L109.0 304.9L112.0 304.6L115.0 304.2L118.0 303.5L121.0 302.7L124.0 301.8L127.0 300.8L130.0 299.8L133.0 298.8L136.0 297.8L139.0 296.9L142.0 296.2"></path>
+<circle class="s-ink w-thin" cx="126" cy="270" r="5"></circle>
+<text class="t-lab a-end" x="600" y="68">실재의 사물</text>
+<text class="t-lab c-mute a-end" x="600" y="86">쾌락원칙 너머 · 숭고</text>
+<rect class="s-ink f-bg" height="68" width="80" x="492" y="98"></rect>
+<path class="s-ink w-thin" d="M569.0 136.5L544.9 133.6M569.0 149.2L546.5 138.7M565.4 163.0L545.9 144.9M549.3 163.0L538.3 143.4M538.1 163.0L535.1 147.7M528.3 163.0L529.7 150.9M517.6 163.0L526.5 143.8M503.2 163.0L521.1 143.7M495.0 152.6L515.4 141.2M495.0 139.3L519.2 134.5M495.0 127.5L516.1 130.1M495.0 114.8L514.8 124.0M498.6 101.0L522.5 123.2M514.7 101.0L524.2 118.0M525.9 101.0L528.3 113.4M535.7 101.0L533.6 119.1M546.4 101.0L538.7 117.5M560.8 101.0L544.9 118.1M569.0 111.4L543.4 125.7M569.0 124.7L547.7 128.9"></path>
+<circle class="f-gap" cx="532.0" cy="132.0" r="4.2"></circle>
+<text class="t-lab c-gap" x="580" y="137">사물</text>
+<text class="t-lab a-end" x="600" y="222">자율화된 현상</text>
+<text class="t-lab c-mute a-end" x="600" y="240">확률의 물결 · '우아한' 수식</text>
+<path class="s-sun" d="M492.0 280.0L493.0 280.0L494.0 279.9L495.0 279.9L496.0 279.9L497.0 279.9L498.0 279.9L499.0 279.9L500.0 279.9L501.0 280.0L502.0 280.0L503.0 280.1L504.0 280.2L505.0 280.3L506.0 280.5L507.0 280.6L508.0 280.8L509.0 280.9L510.0 281.0L511.0 281.1L512.0 281.0L513.0 280.8L514.0 280.5L515.0 280.0L516.0 279.4L517.0 278.6L518.0 277.8L519.0 276.9L520.0 276.0L521.0 275.2L522.0 274.6L523.0 274.3L524.0 274.4L525.0 274.9L526.0 275.9L527.0 277.5L528.0 279.5L529.0 282.0L530.0 284.7L531.0 287.5L532.0 290.2L533.0 292.6L534.0 294.4L535.0 295.5L536.0 295.7L537.0 294.8L538.0 293.0L539.0 290.1L540.0 286.3L541.0 281.9L542.0 277.1L543.0 272.2L544.0 267.7L545.0 263.7L546.0 260.6L547.0 258.7L548.0 258.0L549.0 258.7L550.0 260.6L551.0 263.7L552.0 267.7L553.0 272.2L554.0 277.1L555.0 281.9L556.0 286.3L557.0 290.1L558.0 293.0L559.0 294.8L560.0 295.7L561.0 295.5L562.0 294.4L563.0 292.6L564.0 290.2L565.0 287.5L566.0 284.7L567.0 282.0L568.0 279.5L569.0 277.5L570.0 275.9L571.0 274.9L572.0 274.4L573.0 274.3L574.0 274.6L575.0 275.2L576.0 276.0L577.0 276.9L578.0 277.8L579.0 278.6L580.0 279.4L581.0 280.0L582.0 280.5L583.0 280.8L584.0 281.0L585.0 281.1L586.0 281.0L587.0 280.9L588.0 280.8L589.0 280.6L590.0 280.5L591.0 280.3L592.0 280.2L593.0 280.1L594.0 280.0L595.0 280.0L596.0 279.9L597.0 279.9L598.0 279.9L599.0 279.9L600.0 279.9L601.0 279.9L602.0 279.9L603.0 280.0L604.0 280.0"></path>
+<path class="s-mute w-thin dash" d="M500 314H596"></path>
+<text class="t-small a-mid" x="548" y="332">받침 없음</text>
+<path class="s-sun" d="M238 100L398 262" marker-end="url(#ah-701s)"></path>
+<path class="s-ink" d="M238 262L398 100" marker-end="url(#ah-701)"></path>
+<path class="s-sun f-bg" d="M168 100L178 88H228V112H178Z"></path>
+<circle class="s-sun" cx="179" cy="100" r="2"></circle>
+<text class="t-lab a-mid c-sun" x="205" y="104.5">과학</text>
+<path class="s-ink f-bg" d="M168 262L178 250H228V274H178Z"></path>
+<circle class="s-ink" cx="179" cy="262" r="2"></circle>
+<text class="t-lab a-mid" x="205" y="266.5">예술</text>
+<path class="s-ink f-bg" d="M408 100L418 88H468V112H418Z"></path>
+<circle class="s-ink" cx="419" cy="100" r="2"></circle>
+<text class="t-lab a-mid" x="445" y="104.5">예술</text>
+<path class="s-sun f-bg" d="M408 262L418 250H468V274H418Z"></path>
+<circle class="s-sun" cx="419" cy="262" r="2"></circle>
+<text class="t-lab a-mid c-sun" x="445" y="266.5">과학</text>
+<text class="t-lab a-end c-sun halo" x="296" y="175">내려가고</text>
+<text class="t-lab halo" x="346" y="175">올라간다</text>
+<line class="s-mute w-thin" x1="24" x2="616" y1="350" y2="350"></line>
+<text class="t-lab a-mid" x="320" y="372">층은 그대로, 이름표만 X자로 엇갈린다</text>
+</svg></g></g></g></g></svg>

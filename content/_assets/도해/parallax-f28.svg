@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 436" width="640" height="436" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-star{stroke:var(--star)}.s-moon{stroke:var(--moon)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-star{fill:var(--star)}.f-bg2{fill:var(--bg2)}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .t-big{font-size:17px;font-weight:600}.fig svg .c-star{fill:var(--star)}.fig svg .c-moon{fill:var(--moon)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}svg.pz-root{width:640px!important;height:436px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="죽음충동의 공간은 삶과 죽음 사이가 아니라 둘 각각의 안을 가르는 이중 분열이다 — 상징 기계는 몸을 식민화하고, 무두의 생명은 그 식민화를 빠져나간다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 436" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="ah-504" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-504s" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-star" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-504m" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker>
+</defs>
+<text class="t-lab a-mid" x="202" y="38">정상</text>
+<text class="t-lab a-mid" x="486" y="38">언데드</text>
+<text class="t-big" x="24" y="130">삶</text>
+<text class="t-big" x="24" y="322">죽음</text>
+<rect class="s-mute f-bg2" height="136" width="212" x="96" y="56"></rect>
+<rect class="s-mute f-bg2" height="136" width="212" x="96" y="248"></rect>
+<rect class="s-mute f-bg2" height="136" width="212" x="380" y="56"></rect>
+<rect class="s-mute f-bg2" height="136" width="212" x="380" y="248"></rect>
+<path class="s-ink" d="M116 85V111M288 85V111"></path>
+<text class="t-small a-mid" x="116" y="78">탄생</text>
+<text class="t-small a-mid" x="288" y="78">죽음</text>
+<path class="s-ink" d="M116 98H140L143 103L146 83L150 107L153 98H184L187 103L190 83L194 107L197 98H228L231 103L234 83L238 107L241 98H260L263 103L266 83L270 107L273 98H288"></path>
+<rect class="s-star f-bg2" height="10" width="10" x="161" y="93"></rect>
+<rect class="s-star f-bg2" height="10" width="10" x="207" y="93"></rect>
+<rect class="s-star f-bg2" height="10" width="10" x="245" y="93"></rect>
+<text class="t-lab a-mid" x="202" y="150">생물학적 삶</text>
+<text class="t-small a-mid" x="202" y="170">기표가 들러붙은 박동</text>
+<path class="s-ink" d="M400 85V111"></path>
+<path class="s-mute dash" d="M488 81V115"></path>
+<text class="t-small a-mid" x="488" y="78">죽음</text>
+<path class="s-ink" d="M400 98H422L425 103L428 83L432 107L435 98H454L457 103L460 83L464 107L467 98H506L509 103L512 83L516 107L519 98H538L541 103L544 83L548 107L551 98H566L569 103L572 83L576 107L579 98H586" marker-end="url(#ah-504)"></path>
+<text class="t-lab a-mid" x="486" y="140">언데드 삶</text>
+<text class="t-lab a-mid" x="486" y="160">라멜라 · 오드라덱 · 에일리언</text>
+<line class="s-moon" x1="556" x2="556" y1="164" y2="169"></line>
+<rect class="s-moon f-bg2" height="17" width="114" x="470" y="169"></rect>
+<text class="t-small a-mid c-moon" x="527" y="181">순수 삶 = 자본의 범주</text>
+<path class="s-ink" d="M116 277V303"></path>
+<path class="s-ink" d="M116 290H138L141 295L144 275L148 299L151 290H170L173 295L176 275L180 299L183 290H280"></path>
+<circle class="f-ink" cx="280" cy="290" r="3.5"></circle>
+<text class="t-lab a-mid" x="202" y="342">평범한 죽음</text>
+<text class="t-small a-mid" x="202" y="362">박동이 그치면 끝</text>
+<rect class="s-ink f-bg2" height="10" width="10" x="553.0" y="287.0"></rect>
+<rect class="s-ink f-bg2" height="10" width="10" x="544.8" y="306.8"></rect>
+<rect class="s-ink f-bg2" height="10" width="10" x="525.0" y="315.0"></rect>
+<rect class="s-ink f-bg2" height="10" width="10" x="505.2" y="306.8"></rect>
+<rect class="s-ink f-bg2" height="10" width="10" x="497.0" y="287.0"></rect>
+<rect class="s-ink f-bg2" height="10" width="10" x="505.2" y="267.2"></rect>
+<rect class="s-ink f-bg2" height="10" width="10" x="525.0" y="259.0"></rect>
+<rect class="s-ink f-bg2" height="10" width="10" x="544.8" y="267.2"></rect>
+<path class="s-ink w-thin" d="M515.9 286.9L516.9 284.7L518.3 282.6L520.0 280.9L521.9 279.4L524.1 278.2L526.4 277.4L528.8 277.0L531.2 277.0L533.6 277.4L535.9 278.2L538.1 279.4L540.0 280.9L541.7 282.6L543.1 284.7L544.1 286.9L544.7 289.2L545.0 291.7L544.9 294.1L544.3 296.5L543.4 298.7L542.1 300.8L540.5 302.7L538.7 304.2L536.6 305.5L534.3 306.4L531.9 306.9L529.5 307.0L527.1 306.7L524.7 306.0L522.5 305.0" marker-end="url(#ah-504)"></path>
+<text class="t-lab a-mid" x="486" y="342">언데드 기계</text>
+<text class="t-small a-mid" x="486" y="362">상징 질서 · 언어 — 저절로 돈다</text>
+<line class="s-mute dot" x1="24" x2="616" y1="220" y2="220"></line>
+<text class="t-small" x="24" y="212">단순 대립: 삶 | 죽음</text>
+<path class="s-star w-bold" d="M494 288Q420 242 296 178" marker-end="url(#ah-504s)"></path>
+<text class="t-lab a-mid c-star" x="436" y="290">식민화</text>
+<path class="s-mute w-bold dash" d="M292 282Q330 218 398 184" marker-end="url(#ah-504m)"></path>
+<text class="t-lab a-mid c-mute" x="250" y="270">빠져나감</text>
+<line class="s-gap w-bold" x1="344" x2="344" y1="44" y2="396"></line>
+<text class="t-lab a-mid c-gap" x="344" y="420">이중 간극 — 삶도 죽음도 안에서 갈린다</text>
+</svg></g></g></g></g></svg>

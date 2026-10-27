@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 452" width="640" height="452" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-moon{stroke:var(--moon)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-moon{fill:var(--moon)}.f-bg2{fill:var(--bg2)}.f-moon-soft{fill:var(--moon);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .t-big{font-size:17px;font-weight:600}.fig svg .c-moon{fill:var(--moon)}.fig svg .c-gap{fill:var(--gap)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:452px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="국가의 자기의식은 의례의 장부와 군주의 '예'로 쪼개져 겹치지 않는다 — 전체주의는 그 틈을 메워 '안다고 가정된' 지도자를 세우고, 힘러 트릭은 저항의 화살표를 뒤집는다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 452" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="ah-305m" markerHeight="5" markerWidth="5" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-305o" markerHeight="5" markerWidth="5" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-moon" d="M0 0L10 5L0 10Z"></path></marker>
+<marker id="ah-305" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker>
+</defs>
+<text class="t-lab a-mid" x="202" y="24">헤겔의 국가 — 쪼개진 자기의식</text>
+<rect class="s-ink f-bg2" height="136" width="214" x="24" y="44"></rect>
+<text class="t-lab" x="36" y="66">의례 · 선언 · 판결</text>
+<line class="s-mute w-thin" x1="36" x2="226" y1="92" y2="92"></line><text class="t-small" x="40" y="87">열병식</text><path class="s-ink" d="M206 83L210 88L218 78"></path><line class="s-mute w-thin" x1="36" x2="226" y1="112" y2="112"></line><text class="t-small" x="40" y="107">엄숙한 선서</text><path class="s-ink" d="M206 103L210 108L218 98"></path><line class="s-mute w-thin" x1="36" x2="226" y1="132" y2="132"></line><text class="t-small" x="40" y="127">입법부 원칙 선언</text><path class="s-ink" d="M206 123L210 128L218 118"></path><line class="s-mute w-thin" x1="36" x2="226" y1="152" y2="152"></line><text class="t-small" x="40" y="147">최고법원 판결</text><path class="s-ink" d="M206 143L210 148L218 138"></path>
+<text class="t-small" x="36" y="170">참가자 머릿속은 상관없다</text>
+<rect class="s-ink f-bg2" height="136" width="118" x="262" y="44"></rect>
+<text class="t-lab a-mid" x="321" y="66">군주</text>
+<circle class="f-ink" cx="314" cy="96" r="7"></circle>
+<text class="t-big" x="330" y="102">예!</text>
+<line class="s-mute w-bold dash" x1="314" x2="314" y1="114" y2="158"></line>
+<text class="t-small a-mid" x="321" y="174">i 위의 점 하나</text>
+<line class="s-gap w-bold" x1="250" x2="250" y1="36" y2="188"></line>
+<text class="t-small a-mid" x="131" y="204">등록 — 객관적 측면</text>
+<text class="t-small a-mid" x="321" y="204">'나는 원한다' — 주관적</text>
+<text class="t-lab a-mid c-gap" x="250" y="226">결코 겹치지 않는다</text>
+<line class="s-mute dot" x1="400" x2="400" y1="36" y2="226"></line>
+<text class="t-lab a-mid" x="518" y="24">전체주의 — 틈을 메운다</text>
+<rect class="s-ink f-bg2" height="136" width="196" x="420" y="44"></rect>
+<line class="s-mute w-thin" x1="432" x2="604" y1="92" y2="92"></line><line class="s-mute w-thin" x1="432" x2="604" y1="112" y2="112"></line><line class="s-mute w-thin" x1="432" x2="604" y1="132" y2="132"></line><line class="s-mute w-thin" x1="432" x2="604" y1="152" y2="152"></line>
+<text class="t-small" x="432" y="66">역사의 법칙</text>
+<path class="s-ink w-bold" d="M540 48L546 52L534 60L546 68L534 76L546 84L534 92L546 100L534 108L546 116L534 124L546 132L534 140L546 148L534 156L546 164L534 172L540 176"></path>
+<circle class="f-ink" cx="580" cy="70" r="7"></circle>
+<text class="t-big a-end" x="570" y="76">예!</text>
+<line class="s-ink w-bold" x1="580" x2="580" y1="84" y2="166"></line>
+<text class="t-lab a-mid" x="518" y="204">안다고 가정된 지도자</text>
+<text class="t-small a-mid" x="518" y="222">틈을 꿰매 장부의 앎과 '예'가 한 몸</text>
+<line class="s-mute w-thin" x1="24" x2="616" y1="244" y2="244"></line>
+<text class="t-lab" x="24" y="270">힘러 트릭 — 화살표 모양은 그대로, 이름표만 바뀐다</text>
+<text class="t-small a-mid" x="349" y="296">저항</text>
+<text class="t-lab" x="24" y="325">칸트</text>
+<rect class="s-mute f-bg2" height="36" width="168" x="92" y="302"></rect>
+<text class="t-lab a-mid" x="176" y="325">이기적 경향</text>
+<rect class="s-moon f-moon-soft" height="36" width="160" x="440" y="302"></rect>
+<text class="t-lab a-mid c-moon" x="520" y="325">의무</text>
+<line class="s-mute w-bold" marker-end="url(#ah-305m)" x1="264" x2="340" y1="320" y2="320"></line>
+<line class="s-moon w-bold" marker-end="url(#ah-305o)" x1="436" x2="358" y1="320" y2="320"></line>
+<line class="s-ink w-bold" x1="349" x2="349" y1="300" y2="340"></line>
+<text class="t-lab" x="24" y="405">아이히만</text>
+<rect class="s-mute f-bg2" height="36" width="168" x="92" y="382"></rect>
+<text class="t-lab a-mid" x="176" y="405">연민이라는 '유혹'</text>
+<rect class="s-moon f-moon-soft" height="36" width="160" x="440" y="382"></rect>
+<text class="t-lab a-mid c-moon" x="520" y="405">의무로서의 살해</text>
+<line class="s-mute w-bold" marker-end="url(#ah-305m)" x1="264" x2="340" y1="400" y2="400"></line>
+<line class="s-moon w-bold" marker-end="url(#ah-305o)" x1="436" x2="358" y1="400" y2="400"></line>
+<line class="s-ink w-bold" x1="349" x2="349" y1="380" y2="420"></line>
+<path class="s-ink dot" d="M452 340L262 380" marker-end="url(#ah-305)"></path>
+<text class="t-small" x="404" y="366">재누빔: 미덕이던 연민이 유혹 칸으로</text>
+<text class="t-small" x="24" y="444">연민을 이겨 내는 수고가 '윤리적 위대함'의 증거로 뒤바뀐다</text>
+</svg></g></g></g></g></svg>

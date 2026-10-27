@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 450" width="640" height="450" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-sun{stroke:var(--sun)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-bg2{fill:var(--bg2)}.f-sun-soft{fill:var(--sun);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .t-mono{font-family:var(--f-mono);font-size:12px}.fig svg .t-big{font-size:17px;font-weight:600}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}svg.pz-root{width:640px!important;height:450px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="2차 지도를 위로 쌓아도 지도 그리는 자는 어느 층에도 없다 — 주체는 대리하는 기표가 계열 안의 한 칸으로 꺾여 들어간 자리에서 생긴다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 450" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-1001" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1001m" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<text class="t-lab a-mid" x="160" y="26">다마지오 — 위로 쌓기</text>
+<path class="f-bg2" d="M26 274L138 274L160 238L48 238Z"></path>
+<path class="s-ink" d="M26 274L138 274L160 238L48 238Z"></path>
+<path class="f-bg2" d="M160 274L272 274L294 238L182 238Z"></path>
+<path class="s-ink" d="M160 274L272 274L294 238L182 238Z"></path>
+<path class="s-sun" d="M46 262L48.2 260.7L50.5 259.7L52.8 259.1L55 259.1L57.2 259.7L59.5 260.7L61.8 262L64 263.3L66.2 264.4L68.5 264.9L70.8 264.9L73 264.3L75.2 263.3L77.5 261.9L79.8 260.6L82 259.6L84.2 259L86.5 258.8L88.8 258.8L91 258.7L93.2 258.1L95.5 256.8L97.8 255.1L100 253.5L102.2 252.9L104.5 253.5L106.8 255L109 256.5L111.2 257.5L113.5 258.1L115.8 258.4L118 258.9L120.2 259.7L122.5 260.8L124.8 262.1L127 263.4L129.2 264.4L131.5 265L133.8 264.9L136 264.3"></path>
+<circle class="f-sun-soft" cx="226" cy="256" r="8"></circle>
+<circle class="s-ink" cx="226" cy="256" r="8"></circle>
+<text class="t-lab a-mid" x="93" y="296">유기체 지도</text>
+<text class="t-lab a-mid" x="227" y="296">대상 지도</text>
+<line class="s-mute dot" x1="48" x2="70" y1="238" y2="208"></line>
+<line class="s-mute dot" x1="294" x2="220" y1="238" y2="208"></line>
+<path class="f-bg2" d="M70 208L220 208L242 174L92 174Z"></path>
+<path class="s-ink" d="M70 208L220 208L242 174L92 174Z"></path>
+<path class="s-sun w-thin" d="M92 197L93.5 196.2L94.9 195.6L96.3 195.3L97.8 195.3L99.2 195.6L100.7 196.3L102.2 197L103.6 197.8L105 198.4L106.5 198.7L108 198.7L109.4 198.4L110.8 197.7L112.3 197L113.8 196.2L115.2 195.6L116.7 195.2L118.1 195.1L119.5 195.1L121 195.1L122.5 194.7L123.9 194L125.3 192.9L126.8 192.1L128.2 191.7L129.7 192.1L131.2 192.9L132.6 193.8L134.1 194.4L135.5 194.7L136.9 194.9L138.4 195.2L139.8 195.6L141.3 196.3L142.8 197.1L144.2 197.8L145.7 198.4L147.1 198.7L148.6 198.7L150 198.3"></path>
+<circle class="s-ink w-thin" cx="198" cy="192" r="4.5"></circle>
+<line class="s-ink w-thin" marker-end="url(#ah-1001)" x1="192" x2="156" y1="192" y2="192"></line>
+<text class="t-lab" x="248" y="196">2차 지도</text>
+<line class="s-mute dot" x1="92" x2="98" y1="174" y2="150"></line>
+<line class="s-mute dot" x1="242" x2="202" y1="174" y2="150"></line>
+<path class="s-mute dash" d="M98 150L202 150L220 122L116 122Z"></path>
+<path class="s-mute w-thin" d="M124 142L174 142L182 130L132 130Z"></path>
+<text class="t-lab c-mute" x="226" y="140">3차?</text>
+<line class="s-mute dot" x1="116" x2="118" y1="122" y2="104"></line>
+<line class="s-mute dot" x1="220" x2="188" y1="122" y2="104"></line>
+<path class="s-mute dot" d="M118 104L188 104L201 82L131 82Z"></path>
+<path class="s-mute w-thin" d="M138 98L164 98L169 91L143 91Z"></path>
+<text class="t-lab c-mute" x="208" y="96">4차?</text>
+<line class="s-mute dot" x1="160" x2="160" y1="76" y2="62"></line>
+<circle class="s-mute dash" cx="160" cy="50" r="8"></circle>
+<text class="t-small a-mid" x="160" y="54.5">?</text>
+<text class="t-lab c-mute" x="176" y="55">그리는 자?</text>
+<text class="t-small a-mid" x="160" y="324">사진의 사진 — 층마다 또 한 명이 필요하다</text>
+<line class="s-mute dot" x1="320" x2="320" y1="40" y2="330"></line>
+<text class="t-lab a-mid" x="480" y="26">지젝 — 안으로 접기</text>
+<rect class="f-bg2" height="32" width="40" x="344" y="206"></rect>
+<rect class="s-ink" height="32" width="40" x="344" y="206"></rect>
+<text class="t-mono a-mid" x="364" y="227">S2</text>
+<rect class="f-bg2" height="32" width="40" x="390" y="206"></rect>
+<rect class="s-ink" height="32" width="40" x="390" y="206"></rect>
+<text class="t-mono a-mid" x="410" y="227">S2</text>
+<rect class="f-sun-soft" height="32" width="40" x="436" y="206"></rect>
+<rect class="s-ink w-bold" height="32" width="40" x="436" y="206"></rect>
+<text class="t-mono a-mid" x="456" y="227">S1</text>
+<rect class="f-bg2" height="32" width="40" x="482" y="206"></rect>
+<rect class="s-ink" height="32" width="40" x="482" y="206"></rect>
+<text class="t-mono a-mid" x="502" y="227">S2</text>
+<rect class="f-bg2" height="32" width="40" x="528" y="206"></rect>
+<rect class="s-ink" height="32" width="40" x="528" y="206"></rect>
+<text class="t-mono a-mid" x="548" y="227">S2</text>
+<rect class="f-bg2" height="32" width="40" x="574" y="206"></rect>
+<rect class="s-ink" height="32" width="40" x="574" y="206"></rect>
+<text class="t-mono a-mid" x="594" y="227">S2</text>
+<text class="t-small a-mid" x="334" y="227">…</text>
+<text class="t-small a-mid" x="624" y="227">…</text>
+<rect class="s-mute dash" height="32" width="40" x="352" y="92"></rect>
+<text class="t-mono a-mid c-mute" x="372" y="113">S1</text>
+<text class="t-lab" x="402" y="105">위층에 앉지 않고</text>
+<text class="t-lab" x="402" y="123">사슬 안 한 칸으로</text>
+<path class="s-ink" d="M372.0 128C372.0 188 456.0 162 456.0 200" marker-end="url(#ah-1001)"></path>
+<path class="s-mute w-thin" d="M482 196V190H614V196"></path>
+<text class="t-lab a-mid" x="548" y="182">다른 기표들 앞에서 대리</text>
+<line class="s-gap" x1="456" x2="456" y1="242" y2="256"></line>
+<text class="t-big a-mid c-gap" x="456" y="278">$</text>
+<text class="t-lab c-gap" x="470" y="278">주체 — 대리의 틈</text>
+<text class="t-small a-mid" x="480" y="324">쌓지 않고 접어 넣을 때 그리는 자가 선다</text>
+<line class="s-mute w-thin" x1="20" x2="620" y1="344" y2="344"></line>
+<circle class="s-ink" cx="92" cy="398" r="40"></circle>
+<circle class="f-mute" cx="84" cy="376" r="2.6"></circle>
+<circle class="f-mute" cx="100" cy="376" r="2.6"></circle>
+<circle class="f-mute" cx="68" cy="392" r="2.6"></circle>
+<circle class="f-mute" cx="84" cy="392" r="2.6"></circle>
+<circle class="f-mute" cx="100" cy="392" r="2.6"></circle>
+<circle class="f-mute" cx="116" cy="392" r="2.6"></circle>
+<circle class="f-mute" cx="68" cy="408" r="2.6"></circle>
+<circle class="f-mute" cx="84" cy="408" r="2.6"></circle>
+<circle class="f-mute" cx="116" cy="408" r="2.6"></circle>
+<circle class="f-mute" cx="84" cy="424" r="2.6"></circle>
+<circle class="f-mute" cx="100" cy="424" r="2.6"></circle>
+<line class="s-mute dash" x1="104" x2="166" y1="404" y2="366"></line>
+<circle class="s-mute" cx="172" cy="362" r="5"></circle>
+<text class="t-small" x="182" y="366">믿은 자리</text>
+<circle class="f-ink" cx="100" cy="408" r="4.2"></circle>
+<circle class="s-ink" cx="100" cy="408" r="8"></circle>
+<text class="t-lab" x="232" y="382">병실 농담 — '죽어 가는 이들은 방을 따로'</text>
+<text class="t-lab" x="232" y="404">의사 — '여기가 그 방입니다'</text>
+<text class="t-small" x="232" y="428">줄 밖에서 내려다보던 자리가 병상 하나였다</text>
+</svg></g></g></g></g></svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 290" width="640" height="290" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-mute{fill:var(--mute)}.f-star-soft{fill:var(--star);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-moon{fill:var(--moon)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}svg.pz-root{width:640px!important;height:290px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="보편은 특수들을 담는 그릇이 아니라 한가운데의 균열이고, 특수들은 그 균열에 대한 실패한 답들이다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 290" width="100%" xmlns="http://www.w3.org/2000/svg">
+<text class="t-lab c-mute a-mid" x="110" y="40">통념: 그릇</text>
+<g class="f-mute">
+<circle cx="70" cy="166" r="8"></circle><circle cx="90" cy="168" r="8"></circle><circle cx="110" cy="166" r="8"></circle><circle cx="130" cy="168" r="8"></circle><circle cx="150" cy="166" r="8"></circle>
+<circle cx="84" cy="185" r="8"></circle><circle cx="102" cy="186" r="8"></circle><circle cx="120" cy="186" r="8"></circle><circle cx="138" cy="185" r="8"></circle>
+</g>
+<path class="s-mute" d="M40 140Q40 200 110 200Q180 200 180 140"></path>
+<line class="s-mute" x1="32" x2="188" y1="140" y2="140"></line>
+<text class="t-small a-mid" x="110" y="226">특수들이 나란히 담긴다</text>
+<text class="t-small a-mid" x="110" y="244">보편 = 차이 없는 바탕</text>
+<line class="s-mute dot" x1="214" x2="214" y1="40" y2="270"></line>
+<text class="t-lab" x="232" y="40">구체적 보편: 균열</text>
+<circle class="f-star-soft" cx="300" cy="170" r="38"></circle>
+<path class="s-ink" d="M295 132.3A38 38 0 0 0 295 207.7"></path>
+<path class="s-ink" d="M305 132.3A38 38 0 0 1 307 207.4"></path>
+<path class="s-gap w-bold" d="M297 126L307 146L292 160L309 176L293 192L303 214"></path>
+<g class="s-ink w-thin">
+<path d="M317.2 127.3L340.5 69.9"></path><path d="M330.8 135.8L372.3 89.7"></path><path d="M340.6 148.4L395.4 119.3"></path><path d="M345.6 163.6L406.9 155.0"></path>
+<path d="M344.2 182.7L403.8 199.8"></path><path d="M338.1 195.7L389.5 230.4"></path><path d="M328.3 206.2L366.5 255.1"></path>
+</g>
+<g class="s-ink">
+<path d="M338.7 60.3L346.7 68.3M338.7 68.3L346.7 60.3"></path><path d="M372.3 81.3L380.3 89.3M372.3 89.3L380.3 81.3"></path>
+<path d="M396.7 112.5L404.7 120.5M396.7 120.5L404.7 112.5"></path><path d="M408.9 150.1L416.9 158.1M408.9 158.1L416.9 150.1"></path>
+<path d="M405.6 197.4L413.6 205.4M405.6 205.4L413.6 197.4"></path><path d="M390.5 229.7L398.5 237.7M390.5 237.7L398.5 229.7"></path>
+<path d="M366.2 255.8L374.2 263.8M366.2 263.8L374.2 255.8"></path>
+</g>
+<text class="t-lab c-moon" x="354" y="69">군주정</text>
+<text class="t-lab c-moon" x="387" y="90">공화정</text>
+<text class="t-lab c-moon" x="412" y="121">사회민주주의</text>
+<text class="t-lab c-moon" x="424" y="159">인민민주주의</text>
+<text class="t-lab c-moon" x="421" y="206">앵글로색슨 근대</text>
+<text class="t-lab c-moon" x="406" y="238">파시즘</text>
+<text class="t-lab c-moon" x="381" y="268">소련식 산업화</text>
+<path class="s-mute w-thin" d="M536 60H542V166H536"></path>
+<text class="t-lab c-moon" x="552" y="110">국가 형태들</text>
+<text class="t-lab c-mute" x="552" y="128">= 실패한 답</text>
+<path class="s-mute w-thin" d="M536 194H542V272H536"></path>
+<text class="t-lab c-moon" x="552" y="228">근대성들</text>
+<text class="t-lab c-mute" x="552" y="246">= 실패한 답</text>
+<text class="t-lab a-mid" x="290" y="234">보편 = 물음</text>
+<text class="t-small a-mid" x="290" y="252">계급 적대를 어떻게 담나</text>
+</svg></g></g></g></g></svg>

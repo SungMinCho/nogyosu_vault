@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 280" width="640" height="280" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-gap{stroke:var(--gap)}.fig svg .w-bold{stroke-width:2.4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-star{fill:var(--star)}.f-sun{fill:var(--sun)}.f-star-soft{fill:var(--star);fill-opacity:.14}.f-sun-soft{fill:var(--sun);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-gap{fill:var(--gap)}.fig svg .a-mid{text-anchor:middle}.fig svg .halo{paint-order:stroke;stroke:var(--bg);stroke-width:4px;stroke-linejoin:round}svg.pz-root{width:640px!important;height:280px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="극성과 어긋남: 음양은 두 실체가 맞물려 이루는 조화이고, 지젝의 시차는 하나가 자기 자신과 어긋나는 틈이다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 280" width="100%" xmlns="http://www.w3.org/2000/svg">
+<text class="t-lab a-mid" x="160" y="28">뉴에이지의 극성</text>
+<circle class="s-ink" cx="160" cy="135" r="80"></circle>
+<path class="f-star-soft" d="M160 55A80 80 0 0 1 160 215A40 40 0 0 1 160 135A40 40 0 0 0 160 55Z"></path>
+<path class="f-sun-soft" d="M160 55A80 80 0 0 0 160 215A40 40 0 0 1 160 135A40 40 0 0 0 160 55Z"></path>
+<path class="s-ink" d="M160 55A40 40 0 0 0 160 135A40 40 0 0 1 160 215"></path>
+<circle class="f-sun" cx="160" cy="95" r="8"></circle>
+<circle class="f-star" cx="160" cy="175" r="8"></circle>
+<text class="t-small a-mid" x="160" y="244">두 실체가 맞물려 균형을 이룬다</text>
+<text class="t-small a-mid" x="160" y="262">투쟁이 조화로 바뀌어 있다</text>
+<line class="s-mute dot" x1="320" x2="320" y1="40" y2="250"></line>
+<text class="t-lab a-mid" x="480" y="28">지젝의 시차</text>
+<path class="s-ink w-bold" d="M492 56A80 80 0 1 1 468 56.9"></path>
+<path class="s-gap" d="M468 50V64M492 50V64"></path>
+<text class="t-lab a-mid c-gap halo" x="480" y="44">최소 차이</text>
+<text class="t-lab a-mid" x="480" y="140">하나(一)</text>
+<text class="t-small a-mid" x="480" y="160">자기 자신과 맞지 않는</text>
+<text class="t-small a-mid" x="480" y="244">둘에서 시작하지 않고</text>
+<text class="t-small a-mid" x="480" y="262">하나의 금에서 시작한다</text>
+</svg></g></g></g></g></svg>

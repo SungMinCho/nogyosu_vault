@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 436" width="640" height="436" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-sun{stroke:var(--sun)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-sun{fill:var(--sun)}.f-bg{fill:var(--bg)}.f-bg2{fill:var(--bg2)}.f-gap-soft{fill:var(--gap);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .t-mono{font-family:var(--f-mono);font-size:12px}.fig svg .c-sun{fill:var(--sun)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}.fig svg .halo{paint-order:stroke;stroke:var(--bg);stroke-width:4px;stroke-linejoin:round}svg.pz-root{width:640px!important;height:436px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="물러날수록 가까운 능선이 먼 봉우리보다 빨리 낮아져 봉우리가 능선 위로 솟는다 — 착시의 기하가 만든 쐐기 위에 소년의 응시가 '살아서 쫓아오는 것'을 얹는다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 436" width="100%" xmlns="http://www.w3.org/2000/svg">
+<path class="f-bg2" d="M34.0 122.0L54.0 80.0L74.0 50.0L134.0 107.0L204.0 191.0L264.0 254.0L294.0 227.0L324.0 200.0L349.0 245.0L374.0 290.0L374.0 290L34.0 290Z"></path>
+<path class="s-ink" d="M34.0 122.0L54.0 80.0L74.0 50.0L134.0 107.0L204.0 191.0L264.0 254.0L294.0 227.0L324.0 200.0L349.0 245.0L374.0 290.0"></path>
+<line class="s-ink w-thin" x1="374.0" x2="612" y1="290" y2="290"></line>
+<path class="s-mute w-thin" d="M392 297h10M418 297h10M444 297h10M470 297h10M496 297h10M522 297h10M548 297h10M574 297h10M600 297h10"></path>
+<path class="f-gap-soft" d="M574.0 290L74.0 110.0L74.0 50.0Z"></path>
+<line class="s-ink w-thin dot" x1="324.0" x2="74.0" y1="200.0" y2="110.0"></line>
+<path class="s-gap" d="M69.0 110.0H79.0"></path>
+<line class="s-ink w-thin" x1="424.0" x2="324.0" y1="290" y2="200.0"></line>
+<line class="s-sun" x1="424.0" x2="343.2" y1="290" y2="234.6"></line>
+<line class="s-sun w-thin dot" x1="343.2" x2="74.0" y1="234.6" y2="50.0"></line>
+<line class="s-ink w-thin" x1="474.0" x2="324.0" y1="290" y2="200.0"></line>
+<line class="s-sun" x1="474.0" x2="74.0" y1="290" y2="50.0"></line>
+<line class="s-ink w-thin" x1="574.0" x2="324.0" y1="290" y2="200.0"></line>
+<line class="s-sun" x1="574.0" x2="74.0" y1="290" y2="50.0"></line>
+<circle class="f-sun" cx="343.2" cy="234.6" r="2.6"></circle>
+<path class="s-gap w-bold" d="M513.8 268.3A64 64 0 0 1 516.3 262.3"></path>
+<text class="t-mono c-gap a-mid halo" x="520.3" y="254.3">2.25°</text>
+<text class="t-small c-gap" x="86.0" y="30">능선 위로 드러난 200 m</text>
+<line class="s-gap w-thin" x1="84.0" x2="78.0" y1="34" y2="48.0"></line>
+<path class="s-mute f-bg" d="M415.0 290H433.0L430.0 295H418.0Z"></path>
+<circle class="f-ink" cx="424.0" cy="290" r="2"></circle>
+<path class="s-mute f-bg" d="M465.0 290H483.0L480.0 295H468.0Z"></path>
+<circle class="f-ink" cx="474.0" cy="290" r="2"></circle>
+<path class="s-ink f-bg" d="M565.0 290H583.0L580.0 295H568.0Z"></path>
+<circle class="f-ink" cx="574.0" cy="290" r="2"></circle>
+<text class="t-lab" x="80.0" y="236">뒷봉우리</text>
+<text class="t-mono c-mute" x="80.0" y="254">높이 800 m</text>
+<text class="t-mono c-mute a-end" x="346.0" y="282">300 m</text>
+<text class="t-lab a-end" x="346.0" y="266">앞 능선</text>
+<text class="t-small" x="378.0" y="284">물가</text>
+<path class="s-mute w-thin" d="M324.0 296V304M324.0 300H374.0M374.0 296V304"></path>
+<text class="t-mono a-end c-mute" x="320.0" y="304">500 m</text>
+<path class="s-mute w-thin" d="M74.0 308V316M74.0 312H374.0M374.0 308V316"></path>
+<text class="t-mono a-mid c-mute" x="224.0" y="328">3,000 m</text>
+<text class="t-small a-end" x="616" y="24">세로 과장 ×3 · 각도는 실제 값</text>
+<text class="t-small a-end" x="616" y="42">수치는 가상 (L07 손계산)</text>
+<line class="s-mute w-thin dot" x1="424.0" x2="350" y1="298" y2="336"></line>
+<line class="s-mute w-thin dot" x1="474.0" x2="466" y1="298" y2="336"></line>
+<line class="s-mute w-thin dot" x1="574.0" x2="578" y1="298" y2="336"></line>
+<text class="t-lab" x="24" y="350">배가 물가에서 x</text>
+<line class="s-ink" x1="24" x2="40" y1="370" y2="370"></line>
+<text class="t-lab" x="48" y="374">능선 꼭대기 올려본각</text>
+<line class="s-sun" x1="24" x2="40" y1="394" y2="394"></line>
+<text class="t-lab" x="48" y="398">봉우리 꼭대기 올려본각</text>
+<text class="t-lab" x="24" y="422">봉우리 − 능선</text>
+<text class="t-mono a-mid" x="350" y="350">x = 500 m</text>
+<text class="t-mono a-mid" x="350" y="374">16.70°</text>
+<text class="t-mono a-mid c-sun" x="350" y="398">12.88°</text>
+<text class="t-mono a-mid c-mute" x="350" y="422">3.82° 아래</text>
+<text class="t-mono a-mid" x="466" y="350">x = 1,000 m</text>
+<text class="t-mono a-mid" x="466" y="374">11.31°</text>
+<text class="t-mono a-mid c-sun" x="466" y="398">11.31°</text>
+<text class="t-mono a-mid" x="466" y="422">0° 맞닿음</text>
+<text class="t-mono a-mid" x="578" y="350">x = 2,000 m</text>
+<text class="t-mono a-mid" x="578" y="374">6.84°</text>
+<text class="t-mono a-mid c-sun" x="578" y="398">9.09°</text>
+<text class="t-mono a-mid" x="578" y="422">2.25° 위로</text>
+</svg></g></g></g></g></svg>

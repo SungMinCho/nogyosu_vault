@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 346" width="640" height="346" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.f-ink{fill:var(--fg)}.f-bg{fill:var(--bg)}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .t-mono{font-family:var(--f-mono);font-size:12px}.fig svg .t-big{font-size:17px;font-weight:600}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .halo{paint-order:stroke;stroke:var(--bg);stroke-width:4px;stroke-linejoin:round}svg.pz-root{width:640px!important;height:346px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="성 구분 공식의 두 열에 이 강의 세 배정을 놓으면 겉보기 모순이 풀린다 — p. 36의 '다수'는 구조로 묶인 다수이고 p. 40의 '다수'는 묶이지 않는 다수다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 346" width="100%" xmlns="http://www.w3.org/2000/svg">
+<circle class="s-ink" cx="186" cy="52" r="11"></circle>
+<g class="f-ink"><circle cx="182" cy="50" r="1.8"></circle><circle cx="190" cy="50" r="1.8"></circle><circle cx="186" cy="57" r="1.8"></circle></g>
+<line class="s-ink" x1="186" x2="186" y1="41" y2="31"></line>
+<circle class="f-ink" cx="186" cy="28" r="3.2"></circle>
+<text class="t-big" x="208" y="42">남성</text>
+<text class="t-lab" x="208" y="64">모두 + 예외 하나</text>
+<circle class="s-ink dash" cx="426" cy="52" r="11"></circle>
+<g class="f-ink"><circle cx="422" cy="50" r="1.8"></circle><circle cx="430" cy="50" r="1.8"></circle><circle cx="426" cy="57" r="1.8"></circle></g>
+<text class="t-big" x="448" y="42">여성</text>
+<text class="t-lab" x="448" y="64">예외 없음 · 비전체</text>
+<g class="s-mute w-thin">
+<line x1="20" x2="620" y1="76" y2="76"></line><line x1="20" x2="620" y1="156" y2="156"></line>
+<line x1="20" x2="620" y1="236" y2="236"></line><line x1="20" x2="620" y1="316" y2="316"></line>
+<line x1="160" x2="160" y1="76" y2="316"></line><line x1="396" x2="396" y1="76" y2="316"></line>
+</g>
+<text class="t-mono" x="28" y="112">p. 24</text>
+<text class="t-lab c-mute" x="28" y="132">2절 존재론</text>
+<text class="t-mono" x="28" y="192">p. 36</text>
+<text class="t-lab c-mute" x="28" y="212">3절 라클라우</text>
+<text class="t-mono" x="28" y="272">p. 40</text>
+<text class="t-lab c-mute" x="28" y="292">4절 기표</text>
+<circle class="s-ink" cx="200" cy="124" r="16"></circle>
+<g class="f-ink"><circle cx="194" cy="120" r="2"></circle><circle cx="206" cy="122" r="2"></circle><circle cx="198" cy="131" r="2"></circle></g>
+<line class="s-ink" x1="200" x2="200" y1="108" y2="96"></line>
+<circle class="f-ink" cx="200" cy="93" r="3.4"></circle>
+<text class="t-lab" x="236" y="112">형이상학</text>
+<text class="t-small" x="236" y="131">존재 너머의 최고 존재자</text>
+<circle class="s-ink dash" cx="440" cy="118" r="16"></circle>
+<g class="f-ink"><circle cx="434" cy="114" r="2"></circle><circle cx="446" cy="116" r="2"></circle><circle cx="438" cy="125" r="2"></circle></g>
+<text class="t-lab" x="476" y="112">존재론적 차이</text>
+<text class="t-small" x="476" y="131">바깥 없는 비전체</text>
+<path class="s-ink w-thin" d="M211.3 206.5L200.0 213.0L188.7 206.5L188.7 193.5L200.0 187.0L211.3 193.5ZM200 200L211.3 206.5M200 200L200.0 213.0M200 200L188.7 206.5M200 200L188.7 193.5M200 200L200.0 187.0M200 200L211.3 193.5"></path>
+<g class="f-ink"><circle cx="211.3" cy="206.5" r="2.4"></circle><circle cx="200.0" cy="213.0" r="2.4"></circle><circle cx="188.7" cy="206.5" r="2.4"></circle><circle cx="188.7" cy="193.5" r="2.4"></circle><circle cx="200.0" cy="187.0" r="2.4"></circle><circle cx="211.3" cy="193.5" r="2.4"></circle><circle cx="200" cy="200" r="2.4"></circle></g>
+<text class="t-lab" x="236" y="192">차이적 다수</text>
+<text class="t-small" x="236" y="211">구조로 묶인 다수</text>
+<circle class="s-ink" cx="440" cy="198" r="16"></circle>
+<line class="s-ink w-bold" x1="440" x2="440" y1="178" y2="218"></line>
+<text class="t-lab" x="476" y="192">적대</text>
+<text class="t-small" x="476" y="211">한가운데서 쩍 갈라짐</text>
+<g class="s-ink w-thin">
+<line x1="200" x2="180" y1="256" y2="288"></line><line x1="200" x2="190" y1="256" y2="288"></line><line x1="200" x2="200" y1="256" y2="288"></line>
+<line x1="200" x2="210" y1="256" y2="288"></line><line x1="200" x2="220" y1="256" y2="288"></line>
+</g>
+<line class="s-ink" x1="180" x2="220" y1="290" y2="290"></line>
+<circle class="f-ink" cx="200" cy="254" r="3.6"></circle>
+<g class="f-ink"><circle cx="180" cy="290" r="2.4"></circle><circle cx="190" cy="290" r="2.4"></circle><circle cx="200" cy="290" r="2.4"></circle><circle cx="210" cy="290" r="2.4"></circle><circle cx="220" cy="290" r="2.4"></circle></g>
+<text class="t-lab" x="236" y="272">S1이 S2 사슬을 묶음</text>
+<text class="t-small" x="236" y="291">예외 하나가 전체를 닫음</text>
+<circle class="s-ink dash" cx="440" cy="282" r="6"></circle>
+<path class="s-ink w-thin" d="M448.9 280.8L457.1 279.8M447.3 287.3L454.1 292.4M441.0 290.9L441.7 296.7M437.5 290.6L434.8 300.0M432.0 286.1L426.0 289.1M432.6 276.9L426.1 272.5M436.9 273.6L434.1 266.2M442.2 273.3L443.7 267.2M447.3 276.7L455.2 270.9"></path>
+<g class="f-ink"><circle cx="461.5" cy="279.2" r="2.2"></circle><circle cx="457.8" cy="295.0" r="2.2"></circle><circle cx="442.2" cy="301.2" r="2.2"></circle><circle cx="433.6" cy="304.3" r="2.2"></circle><circle cx="422.0" cy="291.1" r="2.2"></circle><circle cx="422.3" cy="270.0" r="2.2"></circle><circle cx="432.6" cy="262.0" r="2.2"></circle><circle cx="444.8" cy="262.8" r="2.2"></circle><circle cx="458.8" cy="268.2" r="2.2"></circle></g>
+<text class="t-lab" x="476" y="272">다수의 폭발</text>
+<text class="t-small" x="476" y="291">이항 기표의 빈자리에서</text>
+<path class="s-gap w-bold dash" d="M318 194L413 274"></path>
+<rect class="f-bg" height="20" width="128" x="302" y="226"></rect>
+<text class="t-lab c-gap a-mid halo" x="366" y="240">같은 낱말, 다른 다수</text>
+<text class="t-small a-mid" x="320" y="338">같은 두 논리를 세 영역에 댄다</text>
+</svg></g></g></g></g></svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 288" width="640" height="288" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-gap{stroke:var(--gap)}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.f-ink{fill:var(--fg)}.f-bg2{fill:var(--bg2)}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .halo{paint-order:stroke;stroke:var(--bg);stroke-width:4px;stroke-linejoin:round}svg.pz-root{width:640px!important;height:288px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="명사화는 행위를 주어 자리로 올리고, 주체를 그 행위들이 드나드는 빈 그릇으로 남긴다 — 물화와 탈실체화는 한 화살표의 앞뒷면이다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 288" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-601" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<text class="t-lab a-mid" x="140" y="30">그녀는 망설였다</text>
+<rect class="s-ink w-bold f-bg2" height="132" width="74" x="30" y="76"></rect>
+<text class="t-lab a-mid" x="67" y="147">그녀</text>
+<rect class="s-mute" height="100" width="56" x="200" y="92"></rect>
+<text class="t-lab a-mid c-mute" x="228" y="147">대상</text>
+<line class="s-ink" marker-end="url(#ah-601)" x1="108" x2="196" y1="110" y2="110"></line>
+<line class="s-ink" marker-end="url(#ah-601)" x1="108" x2="196" y1="146" y2="146"></line>
+<line class="s-ink" marker-end="url(#ah-601)" x1="108" x2="196" y1="182" y2="182"></line>
+<text class="t-lab a-mid" x="152" y="102">망설이다</text>
+<text class="t-lab a-mid" x="152" y="138">의식하다</text>
+<text class="t-lab a-mid" x="152" y="174">인상받다</text>
+<text class="t-lab a-mid" x="67" y="232">원천</text>
+<text class="t-small a-mid" x="152" y="232">동사 = 움직이는 선</text>
+<text class="t-small a-mid" x="317" y="112">앞면</text>
+<text class="t-lab a-mid" x="317" y="134">물화</text>
+<line class="s-ink w-bold" marker-end="url(#ah-601)" x1="272" x2="362" y1="148" y2="148"></line>
+<text class="t-lab a-mid" x="317" y="170">탈실체화</text>
+<text class="t-small a-mid" x="317" y="190">뒷면</text>
+<text class="t-lab a-mid" x="496" y="30">망설임이 그녀를 붙들었다</text>
+<rect class="s-gap w-bold dash" height="172" rx="16" width="236" x="380" y="58"></rect>
+<text class="t-lab c-gap halo" x="404" y="63">그녀</text>
+<rect class="s-ink w-bold f-bg2" height="40" width="80" x="398" y="84"></rect>
+<text class="t-lab a-mid" x="438" y="109">망설임</text>
+<rect class="s-ink w-bold f-bg2" height="40" width="66" x="528" y="104"></rect>
+<text class="t-lab a-mid" x="561" y="129">의식</text>
+<rect class="s-ink w-bold f-bg2" height="40" width="66" x="452" y="170"></rect>
+<text class="t-lab a-mid" x="485" y="195">인상</text>
+<line class="s-ink" marker-end="url(#ah-601)" marker-start="url(#ah-601)" x1="482" x2="524" y1="108" y2="118"></line>
+<line class="s-ink" marker-end="url(#ah-601)" marker-start="url(#ah-601)" x1="548" x2="514" y1="148" y2="168"></line>
+<line class="s-ink" marker-end="url(#ah-601)" marker-start="url(#ah-601)" x1="472" x2="448" y1="166" y2="128"></line>
+<text class="t-lab a-mid c-gap" x="498" y="254">주소 — 행위가 드나드는 빈 방</text>
+<text class="t-small a-mid" x="498" y="274">명사 = 무대에 오른 물건</text>
+</svg></g></g></g></g></svg>

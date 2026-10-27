@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 420" width="640" height="420" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-moon{stroke:var(--moon)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-moon{fill:var(--moon)}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .t-big{font-size:17px;font-weight:600}.fig svg .t-it{font-family:"Literata",Georgia,serif;font-style:italic}.fig svg .c-gap{fill:var(--gap)}.fig svg .a-mid{text-anchor:middle}svg.pz-root{width:640px!important;height:420px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="바틀비는 술어를 부정하지 않고 비-술어를 긍정한다 — 부정이 '택하다'에 붙느냐 '하다'에 붙느냐에 따라, 명령과 같은 판 위에서 싸우는 거부와 그 판 바깥에 자리를 여는 거부가 갈린다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 420" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-1504" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1504m" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<text class="t-small" x="16" y="30">판단</text>
+<text class="t-small" x="150" y="30">not은 어느 괄호에 붙나</text>
+<text class="t-small a-mid" x="469" y="30">명령 "하라!"가 깐 판</text>
+<line class="s-mute w-thin" x1="16" x2="624" y1="40" y2="40"></line>
+<text class="t-lab" x="16" y="84">긍정판단</text>
+<text class="t-small" x="16" y="101">S는 P다</text>
+<text class="t-big t-it" x="150" y="88">I</text>
+<text class="t-big t-it" x="220" y="88">prefer</text>
+<text class="t-big t-it" x="318" y="88">to</text>
+<line class="s-mute dot" x1="170" x2="204" y1="89" y2="89"></line>
+<line class="s-mute dot" x1="284" x2="308" y1="89" y2="89"></line>
+<path class="s-mute w-thin" d="M166 96V101H274V96"></path>
+<text class="t-small a-mid" x="220" y="116">택하다</text>
+<path class="s-mute w-thin" d="M282 96V101H338V96"></path>
+<text class="t-small a-mid" x="310" y="116">하다</text>
+<rect class="s-ink w-thin" height="36" width="130" x="404" y="70"></rect>
+<line class="s-ink w-thin" x1="469" x2="469" y1="70" y2="106"></line>
+<text class="t-small a-mid" x="436.5" y="101">한다</text>
+<text class="t-small a-mid" x="501.5" y="101">안 한다</text>
+<circle class="f-moon" cx="436.5" cy="82" r="5"></circle>
+<text class="t-lab a-mid" x="469" y="126">판 위</text>
+<text class="t-lab" x="16" y="172">부정판단</text>
+<text class="t-small" x="16" y="189">S는 P가 아니다</text>
+<text class="t-big t-it" x="150" y="176">I</text>
+<text class="t-big t-it" x="220" y="176">prefer</text>
+<text class="t-big t-it" x="318" y="176">to</text>
+<text class="t-big t-it" x="166" y="176">don't</text>
+<line class="s-mute dot" x1="284" x2="308" y1="177" y2="177"></line>
+<path class="s-ink w-thin" d="M166 184V189H274V184"></path>
+<text class="t-small a-mid" x="220" y="204">택하지 않는다</text>
+<path class="s-mute w-thin" d="M282 184V189H338V184"></path>
+<text class="t-small a-mid" x="310" y="204">하다</text>
+<rect class="s-ink w-thin" height="36" width="130" x="404" y="158"></rect>
+<line class="s-ink w-thin" x1="469" x2="469" y1="158" y2="194"></line>
+<text class="t-small a-mid" x="436.5" y="189">한다</text>
+<text class="t-small a-mid" x="501.5" y="189">안 한다</text>
+<circle class="f-moon" cx="501.5" cy="170" r="5"></circle>
+<text class="t-lab a-mid" x="469" y="214">판 위 — 반대 내용으로 맞섬</text>
+<text class="t-lab" x="16" y="260">무한판단</text>
+<text class="t-small" x="16" y="277">S는 비-P다</text>
+<text class="t-big t-it" x="150" y="264">I</text>
+<text class="t-big t-it" x="220" y="264">prefer</text>
+<text class="t-big t-it" x="318" y="264">to</text>
+<line class="s-mute dot" x1="170" x2="204" y1="265" y2="265"></line>
+<text class="t-big t-it c-gap" x="284" y="264">not</text>
+<path class="s-ink w-thin" d="M166 272V277H274V272"></path>
+<text class="t-small a-mid" x="220" y="292">택한다 — 그대로 긍정</text>
+<path class="s-gap w-thin" d="M282 272V277H338V272"></path>
+<text class="t-small a-mid c-gap" x="310" y="292">하지-않기</text>
+<rect class="s-mute w-thin" height="36" width="130" x="404" y="246"></rect>
+<line class="s-mute w-thin" x1="469" x2="469" y1="246" y2="282"></line>
+<text class="t-small a-mid" x="436.5" y="277">한다</text>
+<text class="t-small a-mid" x="501.5" y="277">안 한다</text>
+<circle class="s-moon dash" cx="590" cy="262" r="15"></circle>
+<circle class="f-moon" cx="590" cy="262" r="5"></circle>
+<text class="t-lab a-mid" x="497" y="302">판 바깥 — 자리를 엶</text>
+<text class="t-small" x="150" y="326">바틀비의 실제 말은 I would prefer not to — would는 not의 자리를 바꾸지 않는다</text>
+<line class="s-mute w-thin" x1="16" x2="624" y1="346" y2="346"></line>
+<text class="t-lab" x="16" y="372">같은 갈림 — 2강의 두 판단</text>
+<text class="t-small" x="16" y="392">부정판단: 울타리 안 남은 칸을 고른다</text>
+<text class="t-small" x="16" y="408">무한판단: 울타리를 치워 제3의 영역을 연다</text>
+<rect class="s-ink w-thin" height="30" width="130" x="404" y="372"></rect>
+<line class="s-ink w-thin" x1="469" x2="469" y1="372" y2="402"></line>
+<text class="t-small a-mid" x="436.5" y="396">죽은</text>
+<text class="t-small a-mid" x="501.5" y="396">산</text>
+<circle class="f-ink" cx="523.5" cy="385" r="4.5"></circle>
+<text class="t-lab a-mid" x="503.5" y="364">죽지 않았다</text>
+<circle class="s-ink dash" cx="590" cy="386" r="13"></circle>
+<circle class="f-ink" cx="590" cy="386" r="4.5"></circle>
+<text class="t-lab a-mid" x="590" y="364">언데드</text>
+</svg></g></g></g></g></svg>

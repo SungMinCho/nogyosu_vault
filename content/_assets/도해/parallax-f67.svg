@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 330" width="640" height="330" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-moon{stroke:var(--moon)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-moon{fill:var(--moon)}.f-moon-soft{fill:var(--moon);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-big{font-size:17px;font-weight:600}.fig svg .t-it{font-family:"Literata",Georgia,serif;font-style:italic}.fig svg .c-moon{fill:var(--moon)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}svg.pz-root{width:640px!important;height:330px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="같은 네 칸 행렬이 세 번 다르게 채워지고, 셋을 가르는 것은 행위자 칸에 놓인 대상 a의 두 얼굴뿐이다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 330" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-1303" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1303n" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-moon" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<rect class="f-moon-soft" height="104" width="616" x="12" y="84"></rect>
+<text class="t-lab a-mid" x="320" y="102">윗단은 셋 다 <tspan class="t-it">a → $</tspan> = 도착 공식 <tspan class="t-it">a◇$</tspan></text>
+<rect class="s-ink" height="152" width="192" x="20" y="112"></rect>
+<line class="s-ink w-bold" x1="20" x2="212" y1="188" y2="188"></line>
+<line class="s-mute w-thin dot" x1="116" x2="116" y1="120" y2="256"></line>
+<circle class="s-gap dash" cx="68" cy="134" r="15"></circle>
+<text class="t-big t-it a-mid c-gap" x="68" y="140">a</text>
+<text class="t-big t-it a-mid" x="164" y="140">$</text>
+<line class="s-ink" marker-end="url(#ah-1303)" x1="88" x2="150" y1="134" y2="134"></line>
+<text class="t-lab a-mid" x="68" y="164">혁명 행위자</text>
+<text class="t-lab a-mid c-mute" x="68" y="180">= 공백</text>
+<text class="t-lab a-mid" x="164" y="164">주체</text>
+<text class="t-big t-it a-mid" x="68" y="214">S2</text>
+<text class="t-big t-it a-mid" x="164" y="214">S1</text>
+<text class="t-lab a-mid" x="68" y="234">증상적</text>
+<text class="t-lab a-mid" x="68" y="250">비틀림의 앎</text>
+<text class="t-lab a-mid" x="164" y="234">떨쳐 낼 S1</text>
+<text class="t-lab a-mid" x="116" y="288">① 혁명 · 분석가</text>
+<rect class="s-ink" height="152" width="192" x="224" y="112"></rect>
+<line class="s-ink w-bold" x1="224" x2="416" y1="188" y2="188"></line>
+<line class="s-mute w-thin dot" x1="320" x2="320" y1="120" y2="256"></line>
+<circle class="f-moon-soft s-moon" cx="272" cy="134" r="15"></circle>
+<text class="t-big t-it a-mid" x="272" y="140">a</text>
+<text class="t-big t-it a-mid" x="368" y="140">$</text>
+<line class="s-ink" marker-end="url(#ah-1303)" x1="292" x2="354" y1="134" y2="134"></line>
+<text class="t-lab a-mid" x="272" y="164">'즐겨라'</text>
+<text class="t-lab a-mid c-mute" x="272" y="180">= 미끼</text>
+<text class="t-lab a-mid" x="368" y="164">일에</text>
+<text class="t-lab a-mid" x="368" y="180">내몰린 주체</text>
+<text class="t-big t-it a-mid" x="272" y="214">S2</text>
+<text class="t-big t-it a-mid" x="368" y="214">S1</text>
+<text class="t-lab a-mid" x="272" y="234">전문가 지식</text>
+<text class="t-lab a-mid" x="368" y="234">자기 관리</text>
+<text class="t-lab a-mid" x="320" y="288">② 밀레의 '문명'</text>
+<rect class="s-ink" height="152" width="192" x="428" y="112"></rect>
+<line class="s-ink w-bold" x1="428" x2="620" y1="188" y2="188"></line>
+<line class="s-mute w-thin dot" x1="524" x2="524" y1="120" y2="256"></line>
+<circle class="f-moon-soft s-moon" cx="476" cy="134" r="15"></circle>
+<text class="t-big t-it a-mid" x="476" y="140">a</text>
+<text class="t-big t-it a-mid" x="572" y="140">$</text>
+<line class="s-ink" marker-end="url(#ah-1303)" x1="496" x2="558" y1="134" y2="134"></line>
+<text class="t-lab a-mid" x="476" y="164">마조히스트</text>
+<text class="t-lab a-mid c-mute" x="476" y="180">= 미끼</text>
+<text class="t-lab a-mid" x="572" y="164">'모르는' 그녀</text>
+<text class="t-big t-it a-mid" x="476" y="214">S2</text>
+<text class="t-big t-it a-mid" x="572" y="214">S1</text>
+<text class="t-lab a-mid" x="476" y="234">그녀 욕망을</text>
+<text class="t-lab a-mid" x="476" y="250">아는 척</text>
+<text class="t-lab a-mid" x="572" y="234">지배녀</text>
+<text class="t-lab a-mid" x="524" y="288">③ 도착</text>
+<path class="s-moon" d="M68 110L68.3 105.8L69.1 101.6L70.5 97.5L72.5 93.4L75 89.3L78 85.3L81.5 81.3L85.6 77.5L90.2 73.7L95.3 70L100.9 66.4L107 63L113.5 59.7L120.4 56.5L127.8 53.4L135.5 50.5L143.6 47.8L152.1 45.3L160.9 42.9L170 40.7L179.4 38.7L189 36.9L198.9 35.3L209 33.9L219.2 32.7L229.6 31.7L240.1 31L250.7 30.4L261.3 30.1L272 30L282.7 30.1L293.3 30.4L303.9 31L314.4 31.7L324.8 32.7L335 33.9L345.1 35.3L355 36.9L364.6 38.7L374 40.7L383.1 42.9L391.9 45.3L400.4 47.8L408.5 50.5L416.2 53.4L423.6 56.5L430.5 59.7L437 63L443.1 66.4L448.7 70L453.8 73.7L458.4 77.5L462.5 81.3L466 85.3L469 89.3L471.5 93.4L473.5 97.5L474.9 101.6L475.7 105.8L476 110" marker-end="url(#ah-1303n)" marker-start="url(#ah-1303n)"></path>
+<text class="t-lab a-mid c-moon" x="272" y="22">a의 두 얼굴: 공백 ↔ 미끼</text>
+<text class="t-lab a-mid c-mute" x="320" y="318"><tspan class="t-it">a◇$</tspan> = 환상 공식 <tspan class="t-it">$◇a</tspan>를 뒤집은 것</text>
+</svg></g></g></g></g></svg>

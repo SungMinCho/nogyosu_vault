@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 412" width="640" height="412" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-moon{stroke:var(--moon)}.s-gap{stroke:var(--gap)}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-moon{fill:var(--moon)}.f-bg{fill:var(--bg)}.f-gap-soft{fill:var(--gap);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-moon{fill:var(--moon)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:412px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="결단성은 순수한 형식이라 내용을 죽음에서 길어 올 수 없고, 그 빈칸을 채우려는 길이 개인주의·혁명적 집단·공동 유산의 세 갈래로 갈리는데 하이데거는 셋째로 갔다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 412" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-1202" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1202n" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-moon" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<circle class="f-ink" cx="96" cy="64" r="5"></circle>
+<text class="t-lab a-mid c-mute" x="96" y="92">개별 현존재</text>
+<line class="s-ink" marker-end="url(#ah-1202)" x1="106" x2="536" y1="64" y2="64"></line>
+<line class="s-ink w-bold" x1="548" x2="548" y1="42" y2="86"></line>
+<text class="t-lab" x="560" y="69">죽음</text>
+<text class="t-lab a-mid" x="320" y="52">죽음을-향한-존재</text>
+<text class="t-small a-mid" x="320" y="86">아무도 대신 죽어 주지 못한다</text>
+<line class="s-ink" marker-end="url(#ah-1202)" x1="232" x2="232" y1="70" y2="124"></line>
+<text class="t-lab a-end c-mute" x="224" y="104">결단</text>
+<rect class="s-moon" height="100" width="360" x="140" y="130"></rect>
+<text class="t-lab c-moon" x="154" y="152">결단성 = 순수 형식</text>
+<text class="t-lab" x="154" y="180">어떻게: 곧게, 끝까지</text>
+<path class="s-moon w-bold" d="M158 198L262 198"></path>
+<line class="s-moon" marker-end="url(#ah-1202n)" x1="256" x2="274" y1="198" y2="198"></line>
+<text class="t-small" x="154" y="220">숲의 나그네 — 방향은 우연</text>
+<rect class="s-gap dash f-gap-soft" height="66" width="164" x="324" y="144"></rect>
+<text class="t-lab a-mid c-gap" x="406" y="174">내용: 무엇을?</text>
+<text class="t-small a-mid" x="406" y="194">빈칸</text>
+<path class="s-mute dot" d="M548 90L548 120"></path>
+<path class="s-mute dot" d="M548 120L524 150"></path>
+<line class="s-ink" x1="510" x2="522" y1="166" y2="154"></line>
+<line class="s-ink" x1="510" x2="522" y1="154" y2="166"></line>
+<text class="t-lab" x="516" y="190">죽음에서</text>
+<text class="t-lab" x="516" y="208">길어 올 수 없다</text>
+<path class="s-ink dash" d="M406 210L405.8 213.6L405.3 217.1L404.4 220.7L403.1 224.2L401.5 227.6L399.6 231.1L397.2 234.5L394.6 237.8L391.5 241.2L388.1 244.5L384.4 247.8L380.3 251L375.8 254.3L371 257.5L365.8 260.6L360.2 263.8L354.3 266.9L348.1 269.9L341.5 273L334.5 276L327.2 279L319.5 281.9L311.4 284.9L303 287.8L294.3 290.6L285.2 293.5L275.7 296.3L265.9 299L255.7 301.8L245.1 304.5L234.2 307.2L223 309.8L211.3 312.5L199.4 315.1L187 317.6L174.3 320.2L161.3 322.7L147.9 325.1L134.1 327.6L120 330"></path>
+<circle class="s-ink f-bg" cx="120" cy="330" r="6"></circle>
+<path class="s-ink dash" d="M406 210L405.9 213.6L405.8 217.1L405.5 220.7L405.1 224.2L404.7 227.6L404.1 231.1L403.4 234.5L402.6 237.8L401.6 241.2L400.6 244.5L399.5 247.8L398.3 251L396.9 254.3L395.5 257.5L393.9 260.6L392.2 263.8L390.5 266.9L388.6 269.9L386.6 273L384.5 276L382.3 279L380 281.9L377.6 284.9L375 287.8L372.4 290.6L369.7 293.5L366.8 296.3L363.9 299L360.8 301.8L357.6 304.5L354.3 307.2L351 309.8L347.5 312.5L343.9 315.1L340.2 317.6L336.3 320.2L332.4 322.7L328.4 325.1L324.2 327.6L320 330"></path>
+<circle class="s-ink f-bg" cx="320" cy="330" r="6"></circle>
+<path class="s-moon w-bold" d="M406 210L406.1 213.6L406.3 217.1L406.6 220.7L407.1 224.2L407.8 227.6L408.6 231.1L409.5 234.5L410.6 237.8L411.8 241.2L413.1 244.5L414.6 247.8L416.3 251L418 254.3L420 257.5L422 260.6L424.2 263.8L426.6 266.9L429.1 269.9L431.7 273L434.5 276L437.4 279L440.5 281.9L443.7 284.9L447 287.8L450.5 290.6L454.2 293.5L457.9 296.3L461.9 299L465.9 301.8L470.1 304.5L474.5 307.2L479 309.8L483.6 312.5L488.4 315.1L493.3 317.6L498.3 320.2L503.5 322.7"></path>
+<line class="s-moon" marker-end="url(#ah-1202n)" x1="493.3" x2="514.4" y1="317.6" y2="327.6"></line>
+<circle class="f-moon" cx="520" cy="330" r="6"></circle>
+<text class="t-lab c-mute" x="440" y="258">빈칸을 채우려는 세 갈래</text>
+<text class="t-lab a-mid" x="120" y="358">① 개인주의 판본</text>
+<text class="t-lab a-mid c-mute" x="120" y="378">집단 = '퇴락'</text>
+<text class="t-lab a-mid" x="320" y="358">② 혁명적 집단</text>
+<text class="t-lab a-mid c-mute" x="320" y="378">벤야민 · 바울</text>
+<text class="t-lab a-mid" x="520" y="358">③ 공동 유산 · 민족 · 세대</text>
+<text class="t-lab a-mid c-moon" x="520" y="378">하이데거의 실제 경로</text>
+<text class="t-small a-mid" x="520" y="398">던져진 자리에서 주워 온 내용</text>
+</svg></g></g></g></g></svg>

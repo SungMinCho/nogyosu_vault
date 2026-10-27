@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 532" width="640" height="532" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-moon{stroke:var(--moon)}.s-fix{stroke:var(--fix)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-moon{fill:var(--moon)}.f-gap{fill:var(--gap)}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .t-big{font-size:17px;font-weight:600}.fig svg .t-it{font-family:"Literata",Georgia,serif;font-style:italic}.fig svg .c-moon{fill:var(--moon)}.fig svg .c-fix{fill:var(--fix)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:532px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="과잉이 예외에서 엔진으로 바뀌자 '틀을 깨는' 해방의 화살표가 체계 자신의 회전과 구별되지 않게 된다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 532" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-1304" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1304n" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-moon" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-1304m" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<text class="t-lab" x="24" y="34">전자본주의</text>
+<text class="t-lab c-mute" x="24" y="52">과잉 = 예외</text>
+<circle class="s-ink w-thin" cx="270" cy="112" r="74"></circle>
+<path class="s-moon w-bold" d="M320 101L320 62L220 62L220 162L320 162L320 123"></path>
+<line class="s-moon w-thin" x1="253.3" x2="253.3" y1="62" y2="162"></line>
+<line class="s-moon w-thin" x1="220" x2="320" y1="95.3" y2="95.3"></line>
+<line class="s-moon w-thin" x1="286.7" x2="286.7" y1="62" y2="162"></line>
+<line class="s-moon w-thin" x1="220" x2="320" y1="128.7" y2="128.7"></line>
+<circle class="f-ink" cx="232" cy="76" r="2.4"></circle>
+<circle class="f-ink" cx="244" cy="88" r="2.4"></circle>
+<circle class="f-ink" cx="268" cy="74" r="2.4"></circle>
+<circle class="f-ink" cx="278" cy="86" r="2.4"></circle>
+<circle class="f-ink" cx="300" cy="78" r="2.4"></circle>
+<circle class="f-ink" cx="234" cy="114" r="2.4"></circle>
+<circle class="f-ink" cx="248" cy="106" r="2.4"></circle>
+<circle class="f-ink" cx="274" cy="118" r="2.4"></circle>
+<circle class="f-ink" cx="264" cy="104" r="2.4"></circle>
+<circle class="f-ink" cx="296" cy="108" r="2.4"></circle>
+<circle class="f-ink" cx="240" cy="144" r="2.4"></circle>
+<circle class="f-ink" cx="254" cy="136" r="2.4"></circle>
+<circle class="f-ink" cx="280" cy="146" r="2.4"></circle>
+<circle class="f-ink" cx="294" cy="134" r="2.4"></circle>
+<circle class="f-ink" cx="306" cy="148" r="2.4"></circle>
+<text class="t-lab a-end c-mute" x="188" y="96">원: 현시</text>
+<text class="t-lab a-end c-moon" x="188" y="114">틀: 재현 상태</text>
+<path class="f-gap" d="M320 103L322.2 108.9L328.6 109.2L323.6 113.2L325.3 119.3L320 115.8L314.7 119.3L316.4 113.2L311.4 109.2L317.8 108.9Z"></path>
+<line class="s-moon w-bold" marker-end="url(#ah-1304n)" x1="332" x2="440" y1="112" y2="112"></line>
+<text class="t-lab c-moon" x="450" y="110">해방의 화살표</text>
+<text class="t-lab c-mute" x="450" y="128">초과수에서 틀을 깬다</text>
+<line class="s-mute w-thin" x1="326" x2="352" y1="124" y2="152"></line>
+<text class="t-lab" x="356" y="164">제자리 없는 요소</text>
+<line class="s-mute w-thin dot" x1="16" x2="624" y1="204" y2="204"></line>
+<text class="t-lab" x="24" y="234">자본주의</text>
+<text class="t-lab c-mute" x="24" y="252">과잉 = 엔진</text>
+<circle class="s-ink" cx="230" cy="320" r="40"></circle>
+<circle class="f-ink" cx="230" cy="320" r="3"></circle>
+<line class="s-ink w-bold" x1="264.6" x2="270.7" y1="340" y2="343.5"></line>
+<line class="s-ink w-bold" x1="250" x2="253.5" y1="354.6" y2="360.7"></line>
+<line class="s-ink w-bold" x1="230" x2="230" y1="360" y2="367"></line>
+<line class="s-ink w-bold" x1="210" x2="206.5" y1="354.6" y2="360.7"></line>
+<line class="s-ink w-bold" x1="195.4" x2="189.3" y1="340" y2="343.5"></line>
+<line class="s-ink w-bold" x1="190" x2="183" y1="320" y2="320"></line>
+<line class="s-ink w-bold" x1="195.4" x2="189.3" y1="300" y2="296.5"></line>
+<line class="s-ink w-bold" x1="210" x2="206.5" y1="285.4" y2="279.3"></line>
+<line class="s-ink w-bold" x1="230" x2="230" y1="280" y2="273"></line>
+<line class="s-ink w-bold" x1="250" x2="253.5" y1="285.4" y2="279.3"></line>
+<line class="s-ink w-bold" x1="264.6" x2="270.7" y1="300" y2="296.5"></line>
+<path class="s-ink w-bold" d="M181.5 292L183.4 289L185.4 286.1L187.7 283.4L190.1 280.7L192.6 278.3L195.3 276L198.2 273.9L201.2 272L204.3 270.3L207.4 268.7L210.7 267.4L214.1 266.3L217.5 265.4L221 264.7L224.5 264.3L228 264L231.6 264L235.1 264.2L238.6 264.7L242.1 265.3L245.6 266.2L248.9 267.3L252.2 268.6L255.4 270.1L258.5 271.8L261.5 273.7L264.4 275.8L267.1 278.1L269.7 280.5L272.1 283.1L274.4 285.8L276.4 288.7L278.3 291.7L280 294.8L281.5 298L282.8 301.3L283.9 304.7L284.7 308.1L285.4 311.6L285.8 315.1L286 318.7L286 322.2L285.7 325.7L285.2 329.2L284.5 332.7L283.6 336.1L282.5 339.5L281.2 342.8L279.6 346L277.9 349.1L275.9 352L273.8 354.9L271.5 357.6L269.1 360.1L266.5 362.5L263.7 364.7L260.8 366.8L257.8 368.6L254.7 370.3L251.4 371.7L248.1 373L244.7 374L241.3 374.9L237.8 375.5L234.3 375.8L230.7 376L227.2 375.9L223.7 375.6L220.2 375.1L216.7 374.4L213.3 373.4L209.9 372.3L206.7 370.9L203.5 369.3L200.4 367.6L197.5 365.6L194.7 363.4L192 361.1L189.5 358.6L187.1 356" marker-end="url(#ah-1304)"></path>
+<path class="s-moon w-bold" d="M279 320L294.6 326.8L294.3 329.5L293.8 332.2L293.3 334.8L292.6 337.5L291.8 340.1L290.9 342.7L289.9 345.2L288.8 347.7L287.6 350.1L286.3 352.5L284.9 354.8L283.4 357.1L281.8 359.3L280.1 361.4L278.3 363.5L276.4 365.5L274.5 367.4L272.5 369.2L270.4 370.9L268.2 372.6L266 374.1L263.7 375.6L261.3 377L258.9 378.2L256.4 379.4L253.9 380.4L251.4 381.4L248.8 382.2L246.2 383L243.5 383.6L240.8 384.1L238.1 384.5L235.4 384.8L232.7 384.9L230 385L227.3 384.9L224.6 384.8L221.9 384.5L219.2 384.1L216.5 383.6L213.8 383L211.2 382.2L208.6 381.4L206.1 380.4L203.6 379.4L201.1 378.2L198.7 377L196.3 375.6L194 374.1L191.8 372.6" marker-end="url(#ah-1304n)"></path>
+<path class="f-gap" d="M274 311L276.2 316.9L282.6 317.2L277.6 321.2L279.3 327.3L274 323.8L268.7 327.3L270.4 321.2L265.4 317.2L271.8 316.9Z"></path>
+<text class="t-lab c-mute" x="312" y="300">과잉이 엔진의 톱니로</text>
+<text class="t-lab c-moon" x="312" y="346">해방의 화살표가</text>
+<text class="t-lab" x="312" y="364">회전과 겹친다</text>
+<path class="s-moon dash" d="M171.9 237.7L150 240L152.3 261.9"></path>
+<path class="s-moon dash" d="M288.1 238.1L310 240L308.1 261.9"></path>
+<path class="s-moon dash" d="M171.9 401.5L150 400L151.5 378.1"></path>
+<path class="s-moon dash" d="M288.2 402.7L310 400L307.3 378.2"></path>
+<text class="t-small" x="184" y="244">이미 허물어진 틀</text>
+<rect class="s-ink dash" height="72" width="80" x="476" y="284"></rect>
+<text class="t-big t-it a-mid" x="516" y="328">S1?</text>
+<line class="s-ink" marker-end="url(#ah-1304)" x1="626" x2="562" y1="320" y2="320"></line>
+<text class="t-lab a-mid" x="516" y="380">새 세계 · 새 이름</text>
+<text class="t-small a-mid" x="516" y="398">거꾸로 선 과제: 틀 짓기</text>
+<line class="s-mute w-thin dot" x1="16" x2="624" y1="414" y2="414"></line>
+<text class="t-lab" x="24" y="478">같은 동전의</text>
+<text class="t-lab" x="24" y="496">양면</text>
+<circle class="s-ink" cx="250" cy="482" r="40"></circle>
+<circle class="s-ink w-thin" cx="250" cy="482" r="34"></circle>
+<text class="t-lab a-mid" x="250" y="487">강제</text>
+<text class="t-small a-mid" x="250" y="434">앞면</text>
+<circle class="s-fix" cx="390" cy="482" r="40"></circle>
+<circle class="s-fix w-thin" cx="390" cy="482" r="34"></circle>
+<text class="t-lab a-mid c-fix" x="390" y="487">도래할 것</text>
+<text class="t-small a-mid" x="390" y="434">뒷면</text>
+<path class="s-mute" d="M294 485L295.7 482.4L297.7 479.9L299.9 477.7L302.4 475.7L305 474L307.8 472.6L310.7 471.5L313.8 470.7L316.9 470.2L320 470L323.1 470.2L326.2 470.7L329.3 471.5L332.2 472.6L335 474L337.6 475.7L340.1 477.7L342.3 479.9L344.3 482.4L346 485" marker-end="url(#ah-1304m)" marker-start="url(#ah-1304m)"></path>
+<text class="t-small" x="446" y="478">진리를 남김없이 부과하기</text>
+<text class="t-small c-fix" x="446" y="496">↔ 영원히 '도래할' 민주주의</text>
+</svg></g></g></g></g></svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 440" width="640" height="440" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-sun{stroke:var(--sun)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .w-bold{stroke-width:2.4}.fig svg .dash{stroke-dasharray:5 4}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .t-mono{font-family:var(--f-mono);font-size:12px}.fig svg .c-sun{fill:var(--sun)}.fig svg .c-gap{fill:var(--gap)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}.fig svg .halo{paint-order:stroke;stroke:var(--bg);stroke-width:4px;stroke-linejoin:round}svg.pz-root{width:640px!important;height:440px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="파국은 이미 일어났고 등록하는 순간에야 현실이 된다 — 고양이·자동차·체제·리벳의 네 줄이 같은 지연을 겪고, 리벳 줄에서만 늦게 온 의식이 '멈춤'의 틈을 쥔다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 440" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ah-901" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker><marker id="ah-901m" markerHeight="6" markerWidth="6" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-mute" d="M0 0L10 5L0 10Z"></path></marker></defs>
+<text class="t-lab a-mid" x="216" y="22">t0 · 일은 이미 일어남</text>
+<text class="t-lab a-mid" x="440" y="22">t1 · 등록하는 순간</text>
+<line class="s-mute w-thin dot" x1="216" x2="216" y1="32" y2="346"></line>
+<line class="s-mute w-thin dot" x1="440" x2="440" y1="32" y2="346"></line>
+<text class="t-lab" x="16" y="66">고양이</text><text class="t-small" x="16" y="84">만화 ①</text>
+<path class="s-mute w-thin" d="M120 70H216V112H612"></path>
+<line class="s-ink" x1="130" x2="216" y1="64" y2="64"></line>
+<line class="s-ink dash" x1="216" x2="440" y1="64" y2="64"></line>
+<path class="s-ink" d="M440 64L440.8 64.2L441.5 64.7L442.2 65.5L443 66.8L443.8 68.3L444.5 70.2L445.2 72.4L446 75L446.8 77.9L447.5 81.2L448.2 84.8L449 88.8L449.8 93L450.5 97.7L451.2 102.7L452 108" marker-end="url(#ah-901)"></path>
+<path class="s-mute dash" d="M216 64L216.8 64.2L217.5 64.7L218.2 65.5L219 66.8L219.8 68.3L220.5 70.2L221.2 72.4L222 75L222.8 77.9L223.5 81.2L224.2 84.8L225 88.8L225.8 93L226.5 97.7L227.2 102.7L228 108"></path>
+<circle class="f-ink" cx="440" cy="64" r="4"></circle>
+<text class="t-lab a-end" x="208" y="56">땅 끝</text>
+<text class="t-lab a-mid" x="328" y="56">허공을 걷는다</text>
+<text class="t-small" x="236" y="100">중력대로라면 여기서</text>
+<text class="t-lab" x="450" y="56">내려다봄</text>
+<text class="t-lab" x="462" y="104">낙하</text>
+<text class="t-lab" x="16" y="152">자동차</text><text class="t-small" x="16" y="170">만화 ②</text>
+<line class="s-ink" marker-end="url(#ah-901)" x1="136" x2="210" y1="144" y2="144"></line>
+<text class="t-lab a-mid" x="176" y="132">내 차가 지나감</text>
+<line class="s-ink" x1="120" x2="216" y1="156" y2="156"></line>
+<line class="s-ink dash" x1="216" x2="436" y1="156" y2="156"></line>
+<circle class="s-ink" cx="440" cy="156" r="4"></circle>
+<line class="s-ink" x1="444" x2="600" y1="156" y2="156"></line>
+<text class="t-lab a-mid" x="328" y="148">손 흔들며 봄</text>
+<text class="t-lab" x="450" y="148">어, 내 차!</text>
+<text class="t-lab a-end" x="600" y="176">표정만 바뀜</text>
+<text class="t-lab" x="16" y="214">체제</text><text class="t-small" x="16" y="232">《킬 빌 2》도</text>
+<line class="s-ink" x1="120" x2="216" y1="218" y2="218"></line>
+<path class="s-ink w-bold" d="M211 213L221 223M221 213L211 223"></path>
+<line class="s-ink dash" x1="222" x2="440" y1="218" y2="218"></line>
+<path class="s-ink" d="M440 218C456 218 454 250 472 250H520"></path>
+<circle class="f-ink" cx="440" cy="218" r="4"></circle>
+<text class="t-lab a-end" x="206" y="210">이미 죽음</text>
+<text class="t-lab a-mid" x="328" y="210">산 송장 구간</text>
+<text class="t-small a-mid" x="328" y="236">다섯 걸음 · 굴러가는 체제</text>
+<text class="t-lab" x="450" y="210">판이 끝났다</text>
+<text class="t-lab" x="528" y="254">무너짐</text>
+<text class="t-lab" x="16" y="296">리벳</text><text class="t-small" x="16" y="314">1983 · 계획 없는 동작</text>
+<text class="t-small" x="16" y="354">점 시계 눈금</text><text class="t-small" x="16" y="370">한 칸 42.7 ms</text>
+<path class="s-sun" d="M216 330L224.8 330L233.6 329.9L242.4 329.9L251.2 329.7L260 329.6L268.8 329.4L277.6 329.1L286.4 328.8L295.2 328.4L304 328L312.8 327.5L321.6 327L330.4 326.5L339.2 325.8L348 325.1L356.8 324.4L365.6 323.6L374.4 322.8L383.2 321.8L392 320.9L400.8 319.8L409.6 318.7L418.4 317.6L427.2 316.3L436 315.1L444.8 313.7L453.6 312.3L462.4 310.8L471.2 309.3L480 307.7L488.8 306L497.6 304.3L506.4 302.5L515.2 300.6L524 298.7L532.8 296.7L541.6 294.6L550.4 292.5L559.2 290.3L568 288"></path>
+<text class="t-lab c-sun a-end halo" x="474.8" y="298.8">준비전위 RP</text>
+<line class="s-mute" x1="120" x2="216" y1="330" y2="330"></line>
+<line class="s-ink dash" x1="216" x2="440" y1="330" y2="330"></line>
+<rect class="s-mute w-thin" height="12" width="32" x="536" y="324"></rect>
+<path class="s-mute w-thin" d="M536.0 326.7L537.9 324.0M536.0 335.4L544.0 324.0M541.7 336.0L550.1 324.0M547.8 336.0L556.2 324.0M553.9 336.0L562.3 324.0M560.0 336.0L568.0 324.6M566.1 336.0L568.0 333.3"></path>
+<line class="s-mute" x1="568" x2="612" y1="330" y2="330"></line>
+<line class="s-gap w-bold" x1="440" x2="536" y1="330" y2="330"></line>
+<line class="s-ink" x1="216" x2="216" y1="324" y2="336"></line>
+<circle class="f-ink" cx="440" cy="330" r="4"></circle>
+<circle class="f-ink" cx="568" cy="330" r="4.5"></circle>
+<path class="s-mute w-thin" d="M568 339V349M540.7 339V344M513.4 339V344M486.1 339V344M458.8 339V344M431.5 339V349M404.2 339V344M376.9 339V344M349.5 339V344M322.2 339V344M294.9 339V349M267.6 339V344M240.3 339V344M213 339V344M185.7 339V344M158.4 339V349M131.1 339V344"></path>
+<text class="t-mono a-mid" x="216" y="364">RP −550</text>
+<text class="t-mono a-mid" x="440" y="364">W −200</text>
+<text class="t-mono a-mid" x="568" y="364">동작 0</text>
+<path class="s-mute w-thin" d="M216 372V378H440V372"></path>
+<text class="t-lab a-mid" x="328" y="394">350 ms ≈ 8.2칸 늦게 옴</text>
+<text class="t-lab c-gap a-mid" x="488" y="394">멈춤의 틈</text>
+<text class="t-lab a-mid" x="488" y="410">150 ms ≈ 3.5칸</text>
+<text class="t-lab a-end" x="628" y="428">마지막 50 ms는 되돌릴 수 없음</text>
+</svg></g></g></g></g></svg>

@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 368" width="640" height="368" class="pz-root"><style>:root{
+  --bg:#E6E9EC; --bg2:#DCE0E4; --bg3:#F1F3F4;
+  --fg:#15181D; --mute:#5B626B; --rule:#B6BDC4; --faint:#CDD2D7;
+  --star:#33409C; --sun:#A2560F; --moon:#24695D; --gap:#C42A1B; --fix:#8C2C80;
+  --f-display:"Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",serif;
+  --f-body:"Literata","Nanum Myeongjo","Noto Serif KR","Noto Serif CJK KR",Georgia,serif;
+  --f-label:"IBM Plex Sans KR","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;
+  --f-mono:"Spline Sans Mono","Nanum Gothic Coding","Noto Sans Mono CJK KR",ui-monospace,monospace;
+}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }}:root[data-theme="dark"]{
+  --bg:#0D0F13; --bg2:#151920; --bg3:#1B2029;
+  --fg:#E3E6EA; --mute:#9AA2AC; --rule:#343B45; --faint:#262C35;
+  --star:#A3ACFF; --sun:#F0A24C; --moon:#6CC6B1; --gap:#FF6B5B; --fix:#E68BD8;
+  color-scheme:dark }:root{ --pad:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --measure:39rem; --wide:51rem; --shell:calc(var(--wide) + 4rem); }@media (min-width:34em){:root{ --pad:max(1.6rem, env(safe-area-inset-left, 0px)); --padR:max(1.6rem, env(safe-area-inset-right, 0px)) }}@media (min-width:52em){:root{ --pad:max(2rem, env(safe-area-inset-left, 0px)); --padR:max(2rem, env(safe-area-inset-right, 0px)) }}.plate svg{display:block;width:100%;height:auto}.plate .lstar circle.core{stroke:none}.plate .lstar text{font-family:var(--f-mono);font-size:12px;font-weight:500}.doc{display:grid;grid-template-columns:minmax(0,1fr);row-gap:1.3rem;padding:0 var(--padR) 0 var(--pad);margin:3rem 0 0}.lecture{display:contents}.lhead,.fig{scroll-margin-top:1rem}figure.fig{margin:.6rem 0 !important;padding:0}.fig .frame{border:1px solid var(--rule);background:var(--bg3);padding:1rem;overflow-x:auto;
+  background-image:linear-gradient(to right,var(--bg3) 30%,transparent),linear-gradient(to left,var(--bg3) 30%,transparent),
+  linear-gradient(to right,rgba(0,0,0,.12),transparent),linear-gradient(to left,rgba(0,0,0,.12),transparent);
+  background-position:left center,right center,left center,right center;background-repeat:no-repeat;
+  background-size:2rem 100%,2rem 100%,.8rem 100%,.8rem 100%;background-attachment:local,local,scroll,scroll}.fig .frame.wide svg{min-width:34rem}.fig svg{display:block;width:100%;height:auto;overflow:visible}.s-ink{stroke:var(--fg)}.s-mute{stroke:var(--mute)}.s-sun{stroke:var(--sun)}.s-gap{stroke:var(--gap)}.fig svg .w-thin{stroke-width:.8}.fig svg .dot{stroke-dasharray:1.5 3.5}.f-ink{fill:var(--fg)}.f-mute{fill:var(--mute)}.f-sun{fill:var(--sun)}.f-sun-soft{fill:var(--sun);fill-opacity:.14}.f-gap-soft{fill:var(--gap);fill-opacity:.14}.fig svg text{fill:var(--fg);font-family:var(--f-label);font-size:13px;stroke:none}.fig svg .t-small{font-size:11px;fill:var(--mute)}.fig svg .c-gap{fill:var(--gap)}.fig svg .c-mute{fill:var(--mute)}.fig svg .a-mid{text-anchor:middle}.fig svg .a-end{text-anchor:end}svg.pz-root{width:640px!important;height:368px!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;box-shadow:none!important;outline:0!important;transform:none!important;opacity:1!important;visibility:visible!important}g.pz-w{display:inline!important;opacity:1!important;visibility:visible!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important;clip-path:none!important;mask:none!important}svg.pz-inner{display:inline!important;min-width:0!important;max-width:none!important;min-height:0!important;max-height:none!important;padding:0!important;margin:0!important;border:0!important;transform:none!important;opacity:1!important;visibility:visible!important}</style><rect x="-10%" y="-10%" width="120%" height="120%" style="fill:var(--bg)"/><g class="pz-w doc"><g class="pz-w lecture"><g class="pz-w fig"><g class="pz-w frame"><svg aria-label="동굴 비유의 변이들을 한 표에 놓으면 '실재의 자리'가 동굴 밖에서 그림자들 사이의 틈으로, 다시 아무도 없는 자기 투사로 옮겨 간다" class="pz-inner" height="100%" role="img" viewBox="0 0 640 368" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="ah-704" markerHeight="5" markerWidth="5" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10"><path class="f-ink" d="M0 0L10 5L0 10Z"></path></marker>
+</defs>
+<text class="t-small" x="84" y="32">판본</text>
+<text class="t-lab a-mid" x="238.0" y="32">바깥 광원</text>
+<text class="t-lab a-mid" x="352.0" y="32">동굴</text>
+<text class="t-lab a-mid" x="437.0" y="32">관찰자</text>
+<text class="t-lab a-mid" x="547.0" y="32">실재의 자리</text>
+<line class="s-ink w-thin" x1="16" x2="624" y1="44" y2="44"></line>
+<path class="s-ink" d="M50.0 59.0H22.0V85.0H50.0"></path>
+<rect class="f-mute" height="10" width="3" x="24.0" y="65.0"></rect>
+<circle class="f-ink" cx="37.0" cy="77.0" r="2.8"></circle>
+<circle class="f-sun" cx="62" cy="66.0" r="5"></circle>
+<text class="t-lab" x="84" y="73.0">플라톤</text>
+<text class="t-small" x="84" y="88.0">『국가』 7권</text>
+<text class="t-lab a-mid" x="238.0" y="78.0">비추는 해</text>
+<text class="t-lab a-mid" x="352.0" y="78.0">감옥</text>
+<text class="t-lab a-mid" x="437.0" y="78.0">있음</text>
+<text class="t-lab a-mid" x="547.0" y="78.0">바깥 해</text>
+<line class="s-mute w-thin" x1="16" x2="624" y1="92" y2="92"></line>
+<rect class="f-sun-soft" height="42" width="116" x="180" y="95"></rect>
+<path class="s-ink" d="M50.0 107.0H22.0V133.0H50.0"></path>
+<rect class="f-mute" height="10" width="3" x="24.0" y="113.0"></rect>
+<circle class="f-ink" cx="37.0" cy="125.0" r="2.8"></circle>
+<circle class="f-ink s-sun" cx="62" cy="114.0" r="5.4"></circle>
+<path class="s-sun w-thin" d="M62 106.0V103.0M70 114.0H73M56.3 120.3L54 122.6M67.7 120.3L70 122.6"></path>
+<text class="t-lab" x="84" y="121.0">검은 해</text>
+<text class="t-small" x="84" y="136.0">해에 데다</text>
+<text class="t-lab a-mid" x="238.0" y="126.0">태우는 검은 해</text>
+<text class="t-lab a-mid c-mute" x="352.0" y="126.0">감옥</text>
+<text class="t-lab a-mid c-mute" x="437.0" y="126.0">있음</text>
+<text class="t-lab a-mid" x="547.0" y="126.0">괴물 사물</text>
+<line class="s-mute w-thin" x1="16" x2="624" y1="140" y2="140"></line>
+<rect class="f-sun-soft" height="42" width="104" x="300" y="143"></rect>
+<rect class="f-sun-soft" height="26" width="28" x="22.0" y="155.0"></rect>
+<path class="s-ink" d="M50.0 155.0H22.0V181.0H50.0"></path>
+<rect class="f-mute" height="10" width="3" x="24.0" y="161.0"></rect>
+<circle class="f-ink" cx="37.0" cy="173.0" r="2.8"></circle>
+<path class="s-mute w-thin" d="M56 159.0l3 3l3 -3l3 3l3 -3M56 167.0l3 3l3 -3l3 3l3 -3M56 175.0l3 3l3 -3l3 3l3 -3"></path>
+<text class="t-lab" x="84" y="169.0">슬로터다이크</text>
+<text class="t-small" x="84" y="184.0">『구체』</text>
+<text class="t-lab a-mid" x="238.0" y="174.0">살 수 없는 바깥</text>
+<text class="t-lab a-mid" x="352.0" y="174.0">집 · 첫 문명</text>
+<text class="t-lab a-mid c-mute" x="437.0" y="174.0">있음</text>
+<text class="t-lab a-mid" x="547.0" y="174.0">바깥은 위험</text>
+<line class="s-mute w-thin" x1="16" x2="624" y1="188" y2="188"></line>
+<rect class="f-sun-soft" height="42" width="116" x="180" y="191"></rect>
+<path class="s-ink w-thin" d="M33.0 203.0H19.0V219.0H33.0"></path>
+<rect class="f-mute" height="7" width="2.4" x="21.0" y="207.0"></rect>
+<circle class="f-ink" cx="27.0" cy="214.0" r="1.8"></circle>
+<path class="s-ink w-thin" d="M51.0 208.0H37.0V224.0H51.0"></path>
+<rect class="f-mute" height="7" width="2.4" x="39.0" y="212.0"></rect>
+<circle class="f-ink" cx="45.0" cy="219.0" r="1.8"></circle>
+<path class="s-ink w-thin" d="M69.0 213.0H55.0V229.0H69.0"></path>
+<rect class="f-mute" height="7" width="2.4" x="57.0" y="217.0"></rect>
+<circle class="f-ink" cx="63.0" cy="224.0" r="1.8"></circle>
+<text class="t-lab" x="84" y="217.0">그림자 극장들</text>
+<text class="t-small" x="84" y="232.0">포스트모던</text>
+<text class="t-lab a-mid" x="238.0" y="222.0">없음 — 신화</text>
+<text class="t-lab a-mid" x="352.0" y="222.0">여러 극장</text>
+<text class="t-lab a-mid c-mute" x="437.0" y="222.0">있음</text>
+<text class="t-lab a-mid" x="547.0" y="222.0">없음</text>
+<line class="s-mute w-thin" x1="16" x2="624" y1="236" y2="236"></line>
+<rect class="f-gap-soft s-gap" height="42" width="154" x="470" y="239"></rect>
+<path class="s-ink" d="M48 250.0H20V278.0H48"></path>
+<rect class="f-mute" height="8" width="4" x="22" y="252.0"></rect>
+<rect class="f-mute" height="8" width="4" x="22" y="268.0"></rect>
+<path class="s-ink w-thin" d="M29 260.0V268.0"></path>
+<line class="s-ink w-thin dot" x1="38" x2="31" y1="264.0" y2="264.0"></line>
+<circle class="f-ink" cx="41" cy="264.0" r="2.8"></circle>
+<text class="t-lab" x="84" y="265.0">라캉 비틀기</text>
+<text class="t-small" x="84" y="280.0">지젝의 넷째</text>
+<text class="t-lab a-mid" x="238.0" y="270.0">그림자의 그림자</text>
+<text class="t-lab a-mid c-mute" x="352.0" y="270.0">여러 극장</text>
+<text class="t-lab a-mid c-mute" x="437.0" y="270.0">있음</text>
+<text class="t-lab a-mid c-gap" x="547.0" y="270.0">그림자들 사이의 틈</text>
+<line class="s-mute w-thin" x1="16" x2="624" y1="284" y2="284"></line>
+<rect class="f-sun-soft" height="42" width="58" x="408" y="287"></rect>
+<path class="s-ink" d="M50.0 299.0H22.0V325.0H50.0"></path>
+<rect class="f-mute" height="10" width="3" x="24.0" y="305.0"></rect>
+<path class="s-ink w-thin" d="M27.0 310.0C54.0 298.0 54.0 324.0 28.0 317.0" marker-end="url(#ah-704)"></path>
+<text class="t-lab" x="84" y="313.0">메칭거</text>
+<text class="t-small" x="84" y="328.0">빈 동굴</text>
+<text class="t-lab a-mid" x="238.0" y="318.0">동굴 자신의 장치</text>
+<text class="t-lab a-mid" x="352.0" y="318.0">제 벽에 제 모습</text>
+<text class="t-lab a-mid" x="437.0" y="318.0">없음</text>
+<text class="t-lab a-mid" x="547.0" y="318.0">자기 투사</text>
+<line class="s-ink w-thin" x1="16" x2="624" y1="332" y2="332"></line>
+<rect class="f-sun-soft" height="12" width="14" x="16" y="346"></rect>
+<text class="t-small" x="36" y="356">그 판본이 뒤집은 항</text>
+<text class="t-small" x="166" y="356">흐린 글자 = 앞 판본 그대로</text>
+<text class="t-small a-end" x="624" y="356">실재: 바깥 → 없음 → 틈 → 자기 투사</text>
+</svg></g></g></g></g></svg>
